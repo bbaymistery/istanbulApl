@@ -1,5 +1,4 @@
     @import '../../../styles/variables';
-    @import '../../../styles/_fonts';
 
     .header_content_menu_mobile {
         display: none;
@@ -7,10 +6,6 @@
         @media(max-width:1200px) {
             display: block;
             position: absolute;
-            top: 100px;
-            display: block;
-            position: absolute;
-            // top: 90px;
             top: 60px;
             left: 0;
             right: 0;
@@ -101,7 +96,6 @@
             li {
                 .nocursor {
                     pointer-events: none;
-
                     span {
                         cursor: auto !important;
                     }
@@ -113,7 +107,6 @@
                     color: $--color-blue-1;
                 }
 
-                a {}
             }
         }
     }

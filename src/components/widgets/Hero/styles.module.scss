@@ -697,7 +697,7 @@
                             }
 
                             .date_picker_icon {
-                                top: 63px;
+                                top: 60px;
                                 transform: translateY(-100%);
                                 right: 13px;
                                 font-size: 14px;
@@ -788,7 +788,6 @@
                                     .left {
                                         position: absolute;
                                         right: 35px !important;
-                                        top: 8px !important;
                                         font-size: 13px;
                                         color: $--color-light-2;
                                         z-index: 0;
@@ -835,7 +834,7 @@
                                 min-width: 166px;
                                 height: 50px;
                                 border-radius: 4px;
-                                background-color: $--color-accent-1;
+                                border: 1px solid $--color-accent-1;
                                 cursor: not-allowed;
 
                                 @media(max-width:1400px) {

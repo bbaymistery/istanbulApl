@@ -13,13 +13,12 @@ import React, { useCallback, useEffect, } from 'react'
 import Image from 'next/image';
 import { useWindowSize } from '../../../hooks/useWindowSize';
 import dynamic from 'next/dynamic'
-import { titleStringOfHastaxiDeals } from '../../../helpers/titleStringOfHasTaxiDeals';
 import { BUTTON_TYPES } from '../../elements/Button/ButtonTypes';
 import Button from '../../elements/Button/Button';
-// const SelectedPointsOnHomePage = dynamic(() => import('../../elements/SelectedPointsOnHomePage'))
-// const HandleSearchResults = dynamic(() => import('../../elements/HandleSearchResults'))
-// const WaveLoading = dynamic(() => import('../../elements/LoadingWave'))
-// const Loading = dynamic(() => import('../../elements/Loading'))
+const SelectedPointsOnHomePage = dynamic(() => import('../../elements/SelectedPointsOnHomePage'))
+const HandleSearchResults = dynamic(() => import('../../elements/HandleSearchResults'))
+const WaveLoading = dynamic(() => import('../../elements/LoadingWave'))
+const SearchInputLoading = dynamic(() => import('../../elements/SearchInputLoading'))
 
 const pushToQuotationsResultPage = (params = {}) => {
     let { dispatch, router, log, journeyType, language } = params
@@ -339,8 +338,7 @@ const Hero = (props) => {
                                                 {selectedPickupPoints.length > 0 ? <p className={`${styles.point_title} ${direction}`} >{appData?.words["strPickupPoints"]}</p> : <React.Fragment></React.Fragment>}
                                                 {/* selectedPoints */}
                                                 {selectedPickupPoints.length > 0 ?
-                                                    //  <SelectedPointsOnHomePage index={index} destination="pickup" points={selectedPickupPoints} language={language} /> 
-                                                    <></>
+                                                     <SelectedPointsOnHomePage index={index} destination="pickup" points={selectedPickupPoints} language={language} /> 
                                                     : <React.Fragment></React.Fragment>}
                                                 {/* add extra pooint div */}
                                                 {internalState[`show-pickup-extra-point-${index}`] && selectedPickupPoints.length > 0 ?
@@ -370,7 +368,7 @@ const Hero = (props) => {
                                                         {/* loading icon inside input */}
                                                         {internalState[`pickup-search-loading-${index}`] ?
                                                             <div className={styles.loading_div} direction={String(direction === "rtl")} popupp={String(internalState[`pickup-search-focus-${index}`])}      >
-                                                                Loading
+                                                                <SearchInputLoading position='absolute' />
                                                             </div> : <React.Fragment></React.Fragment>}
                                                         {/* error icon inside input */}
                                                         {reservationError?.selectedPickupPoints?.length > 0 && !internalState[`pickup-search-value-${index}`] && selectedPickupPoints.length === 0 ?
@@ -384,8 +382,7 @@ const Hero = (props) => {
                                                         {/* if !internalState[`pickup-search-value-${index}`] then our handleSearchResults will be belong to styles.book.input */}
                                                         {!Array.isArray(internalState[`collecting-pickup-points-${index}`]) ?
                                                             //setInternalState>>>after adding item we set input field  to empty and add extradiv to true
-                                                            <></>
-                                                            // <HandleSearchResults language={language} index={index} destination="pickup" setInternalState={setInternalState} collectingPoints={internalState[`collecting-pickup-points-${index}`]} />
+                                                            <HandleSearchResults language={language} index={index} destination="pickup" setInternalState={setInternalState} collectingPoints={internalState[`collecting-pickup-points-${index}`]} />
                                                             : <React.Fragment></React.Fragment>}
 
                                                     </div>
@@ -400,8 +397,7 @@ const Hero = (props) => {
                                                 {selectedDropoffPoints.length > 0 ? <p className={`${styles.point_title} ${direction}`} >{appData?.words["strDropoffPoints"]}</p> : <React.Fragment></React.Fragment>}
                                                 {/* selectedPoints */}
                                                 {selectedDropoffPoints.length > 0 ?
-                                                    <></>
-                                                    // <SelectedPointsOnHomePage index={index} destination="dropoff" points={selectedDropoffPoints} language={language} /> 
+                                                    <SelectedPointsOnHomePage index={index} destination="dropoff" points={selectedDropoffPoints} language={language} /> 
                                                     : <React.Fragment></React.Fragment>}
                                                 {/* add extra pooint div */}
                                                 {internalState[`show-dropoff-extra-point-${index}`] && selectedDropoffPoints.length > 0 ?
@@ -429,9 +425,11 @@ const Hero = (props) => {
                                                                 className={`${direction} ${reservationError?.selectedDropoffPoints?.length > 0 && !internalState[`dropoff-search-value-${index}`] && selectedDropoffPoints.length === 0 ? styles.error_input : ""}`}
                                                             /> : <React.Fragment></React.Fragment>}
                                                         {/* loading icon inside input */}
-                                                        {internalState[`dropoff-search-loading-${index}`] ? <div className={styles.loading_div} popupp={String(internalState[`dropoff-search-focus-${index}`])} direction={String(direction === "rtl")}>
-                                                            loading
-                                                        </div>
+                                                        {internalState[`dropoff-search-loading-${index}`] ?
+                                                            <div className={styles.loading_div} popupp={String(internalState[`dropoff-search-focus-${index}`])} direction={String(direction === "rtl")}>
+                                                                <SearchInputLoading position='absolute' />
+                                                            </div>
+
                                                             : <React.Fragment></React.Fragment>}
 
                                                         {/* error icon inside input */}
@@ -446,8 +444,7 @@ const Hero = (props) => {
                                                             : <React.Fragment></React.Fragment>}
                                                         {/* results when we get points */}
                                                         {!Array.isArray(internalState[`collecting-dropoff-points-${index}`]) ?
-                                                            <></>
-                                                            // <HandleSearchResults language={language} index={index} destination="dropoff" setInternalState={setInternalState} collectingPoints={internalState[`collecting-dropoff-points-${index}`]} /> 
+                                                            <HandleSearchResults language={language} index={index} destination="dropoff" setInternalState={setInternalState} collectingPoints={internalState[`collecting-dropoff-points-${index}`]} />
                                                             : <React.Fragment></React.Fragment>}
                                                     </div>
                                                 </OutsideClickAlert>
@@ -496,7 +493,7 @@ const Hero = (props) => {
                                                 <div className={`${styles.btn_div} ${styles.fifth_column}`}  >
                                                     {internalState[`quotation-loading`] ?
                                                         <div className={`btn btn_primary  disabled_button ${styles.waveloadingdiv}`} style={{ marginTop: '0px' }}>
-                                                            waveloading
+                                                            <WaveLoading />
                                                         </div>
                                                         :
                                                         <Button onBtnClick={(e) => getQuotations(e)} type={BUTTON_TYPES.PRIMARY} style={{ fontSize: "14px", padding: `${"10px"}` }} btnText={appData?.words["seGetQuotation"]} icon={<i className="fa-solid fa-magnifying-glass"></i>} iconPos="LEFT" />
@@ -509,7 +506,7 @@ const Hero = (props) => {
                                                 <div className={`${styles.btn_div} ${styles.fifth_column} ${styles.hide_mobile} `}  >
                                                     {internalState[`quotation-loading`] ?
                                                         <div className={`btn btn_primary  disabled_button ${styles.waveloadingdiv}`}>
-                                                            waveloading
+                                                            <WaveLoading />
                                                         </div>
                                                         :
                                                         <button className={`btn btn_primary`} onClick={(e) => getQuotations(e)}>
@@ -517,13 +514,10 @@ const Hero = (props) => {
                                                 </div>
                                                 : <React.Fragment></React.Fragment>}
                                         </div>
-                                        {
-                                            internalState[`error-booking-message-${index}`] ?
-                                                <div className={styles.errorBookedMessage}>
-                                                    <p>{internalState[`error-booking-message-${index}`]}</p>
-                                                </div>
-                                                : <></>
-                                        }
+                                        {internalState[`error-booking-message-${index}`] ?
+                                            <div className={styles.errorBookedMessage}>
+                                                <p>{internalState[`error-booking-message-${index}`]}</p>
+                                            </div> : <></>}
                                     </div>
 
                                 )
