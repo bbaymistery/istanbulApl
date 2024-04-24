@@ -309,7 +309,7 @@ const Hero = (props) => {
     return (
         <div className={`${styles.hero} ${direction} page`} >
             {/* {typeof window !== 'undefined' ?  */}
-            <Image priority className={styles.landing_image} layout="fill" objectPosition={"center"} objectFit="cover" src={"/images/hero.webp"} alt="Heathrow Gatwick Transfers Hero Image" sizes="100vw" />
+            <Image priority className={styles.landing_image} fill  style={{ objectFit: "cover",objectPosition:"CENTER" }} src={"/images/hero.webp"} alt="Heathrow Gatwick Transfers Hero Image" sizes="100vw" />
             <div className={`${styles.hero_section} page_section`}>
                 <div className={`${styles.hero_section_container} page_section_container`}>
                     <div className={styles.points_content}>
@@ -496,7 +496,13 @@ const Hero = (props) => {
                                                             <WaveLoading />
                                                         </div>
                                                         :
-                                                        <Button onBtnClick={(e) => getQuotations(e)} type={BUTTON_TYPES.PRIMARY} style={{ fontSize: "14px", padding: `${"10px"}` }} btnText={appData?.words["seGetQuotation"]} icon={<i className="fa-solid fa-magnifying-glass"></i>} iconPos="LEFT" />
+                                                        <Button 
+                                                        onBtnClick={(e) => getQuotations(e)} 
+                                                        type={BUTTON_TYPES.PRIMARY}
+                                                         style={{ fontSize: "14px", padding: `${"10px"}` }} 
+                                                         btnText={appData?.words["seGetQuotation"]} 
+                                                         icon={<i className="fa-solid fa-magnifying-glass"></i>}
+                                                          iconPos="LEFT" />
                                                     }
                                                 </div>
                                                 : <React.Fragment></React.Fragment>}

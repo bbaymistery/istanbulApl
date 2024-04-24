@@ -3,7 +3,7 @@ import Head from 'next/head';
 import TopHeader from '../../widgets/TopHeader';
 import { useRouter } from 'next/router';
 
-const GlobalLayout = ({ children, title = "", description = "", keywords = "",  }) => {
+const GlobalLayout = ({ children, title = "Salam", description = "Salam", keywords = "Salam", }) => {
   const currentYear = new Date().getFullYear(); // Get the current year
   const router = useRouter()
   return (
@@ -15,7 +15,7 @@ const GlobalLayout = ({ children, title = "", description = "", keywords = "",  
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 " />
         <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
         {/*//?Directly copied from aplcars.com */}
-        {/* <meta name="verify-v1" content="KKDrUvNuL/YKcQ6PqTYbnH+UUOq0/lz/pJU/z7M+Ro4=" />
+        <meta name="verify-v1" content="KKDrUvNuL/YKcQ6PqTYbnH+UUOq0/lz/pJU/z7M+Ro4=" />
         <meta name="baidu-site-verification" content="x5apENcEmp" />
         <meta name="distribution" content="Global" />
         <meta name="copyright" content={`Copyright Airport-pickups-london.com ${currentYear}. All rights reserved.`} />
@@ -27,6 +27,7 @@ const GlobalLayout = ({ children, title = "", description = "", keywords = "",  
         <meta name="msvalidate.01" content="41FC097AFD6E06774C838AC3D486664F" />
         <meta httpEquiv="X-UA-Compatible" content="IE=9" />
         <meta httpEquiv="x-ua-compatible" content="IE=EmulateIE9" />
+        {/* 
         <meta name="twitter:site" content="@Airport_Pickups" />
         <meta property="twitter:account_id" content="2194542811" />
         <meta name="twitter:card" content="summary_large_image" />

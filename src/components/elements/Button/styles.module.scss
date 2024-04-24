@@ -23,13 +23,13 @@
 /* !Primary */
 
 .btn-primary {
-    background-color: ($--color-accent-1);
+    background-color: ($--color-accent-2);
     color: white;
 }
 
 .btn-primary:hover {
     background-color: ($--color-accent-1-dark);
-    color: #edf0ef;
+    color: white;
 }
 
 .btn-primary-outline {
