@@ -4,6 +4,7 @@ function SET_NEW_APPDATA(params = {}) {
     let newState = JSON.parse(JSON.stringify(state))
     // newState.appData = data
     initialStateReducer.appData = data
+console.log("set new appdata");
 
     localStorage.setItem("appData", JSON.stringify(data));
     return newState;

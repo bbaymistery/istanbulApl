@@ -49,17 +49,21 @@ function MyApp({ Component, pageProps }) {
       localStorage.setItem("language", JSON.stringify(language));
       localStorage.setItem("direction", JSON.stringify(direction));
       localStorage.setItem("langIndex", JSON.stringify(index));
-      //in order to hydate redux store i need to save to localstorage new version of appData(based on langugae) so i use
-      if (hydrate) {
-        dispatch({ type: "SET_NEW_APPDATA", data: appData, initialStateReducer: store.getState().initialReducer })
-      } else {
-        const appDataUrl = `${env.apiDomain}/app/${language}`; // Use the preferred language if available, otherwise default to English
-        const response = await fetch(appDataUrl);
-        const appDatass = await response.json();
+      // in order to hydate redux store i need to save to localstorage new version of appData(based on langugae) so i use
+      // if (hydrate) {
+      //   dispatch({ type: "SET_NEW_APPDATA", data: appData, initialStateReducer: store.getState().initialReducer })
+      //   console.log("hydrate");
 
-        // Dispatch values to Redux store
-        dispatch({ type: "SET_NEW_APPDATA", data: appDatass, initialStateReducer: store.getState().initialReducer })
-      }
+      // } else {
+      const appDataUrl = `${env.apiDomain}/app/${language}`; // Use the preferred language if available, otherwise default to English
+      const response = await fetch(appDataUrl);
+      const appDatass = await response.json();
+
+      // Dispatch values to Redux store
+      dispatch({ type: "SET_NEW_APPDATA", data: appDatass, initialStateReducer: store.getState().initialReducer })
+      console.log("not hydrate");
+
+      // }
     }
   }, [dispatch, appData,])
   useEffect(() => {
@@ -172,3 +176,19 @@ MyApp.getInitialProps = wrapper.getInitialAppProps((store) => async ({ Component
 
 });
 export default wrapper.withRedux(MyApp);
+/*
+ if (hydrate) {
+        dispatch({ type: "SET_NEW_APPDATA", data: appData, initialStateReducer: store.getState().initialReducer })
+        console.log("hydrate");
+
+      } else {
+      const appDataUrl = `${env.apiDomain}/app/${language}`; // Use the preferred language if available, otherwise default to English
+      const response = await fetch(appDataUrl);
+      const appDatass = await response.json();
+
+      // Dispatch values to Redux store
+      dispatch({ type: "SET_NEW_APPDATA", data: appDatass, initialStateReducer: store.getState().initialReducer })
+      console.log("not hydrate");
+
+      }
+*/
