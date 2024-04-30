@@ -1,0 +1,106 @@
+@import "../../styles/variables";
+
+.contact_us {
+    height: 100%;
+    position: relative;
+
+    &_section {
+        @media(max-width:1400px) {
+            margin: 0 auto !important;
+        }
+
+        &_container {
+            @media(max-width:1400px) {
+                max-width: 100% !important;
+                width: 100%;
+            }
+
+            .contact_area {
+                padding-top: 105px;
+                padding-bottom: 105px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                h3 {
+                    background-color: $--color-light-1;
+                    margin-bottom: 2rem;
+                }
+
+
+                .form_box {
+                    background-color: white;
+                    max-width: 890px;
+                    width: 100%;
+                    border: 1px solid rgba(128, 137, 150, 0.1);
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
+                    margin-bottom: 30px;
+
+                    .form_content {
+                        padding: 30px;
+
+                        @media (max-width: 400px) {
+                            padding: 17px;
+                        }
+
+                        .contact_form_action {
+                            .form {
+                                display: flex;
+                                gap: 2rem;
+                                justify-content: space-between;
+
+                                @media (max-width: 768px) {
+                                    flex-direction: column;
+                                    gap: 0rem;
+                                }
+
+                                .input_box {
+                                    width: 100%;
+
+                                    .input {
+                                        margin-bottom: 2rem;
+                                    }
+                                }
+                            }
+
+                            .lodbtn {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                button {
+                                    padding: 10px 15px;
+                                    background-color: $--color-accent-1;
+                                    color: white;
+                                    margin-top: 1rem;
+                                    width: 100%;
+                                    border-radius: 4px;
+                                    transition: all 0.4s;
+                                    font-size: 17px;
+                                    border: none;
+
+                                    &:hover {
+                                        background-color: $--color-accent-1-dark;
+                                    }
+                                }
+                            }
+
+                            .inp_textarea {
+                                margin-top: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.contact_us[bggray="false"] {
+    background-color: $--color-light-1;
+}
