@@ -79,7 +79,7 @@ const Hero = (props) => {
             .then((res) => res.json())
             .then((res) => { callback(res) })
             .catch((error) => {
-                let message = "APL   Hero component _collectPoints()  function catch blog "
+                let message = "ISTANBUL   Hero component _collectPoints()  function catch blog "
                 window.handelErrorLogs(error, message, { config })
             });
     }, [params]);
@@ -133,7 +133,7 @@ const Hero = (props) => {
 
                 })
                 .catch((error) => {
-                    let message = "APL  Hero component _collectQuotations()  function catch blog  parseInt(journeyType) === 0"
+                    let message = "ISTANBUL  Hero component _collectQuotations()  function catch blog  parseInt(journeyType) === 0"
                     window.handelErrorLogs(error, message, { configTransfer })
                 });
         } else {
@@ -143,7 +143,7 @@ const Hero = (props) => {
                     callback(data, "data");
                 })
                 .catch(function (error) {
-                    let message = "APL  Hero component _collectQuotations()  function catch blog  else part of>> parseInt(journeyType) === 0"
+                    let message = "ISTANBUL  Hero component _collectQuotations()  function catch blog  else part of>> parseInt(journeyType) === 0"
                     window.handelErrorLogs(error, message, { configReturn })
                 });
         }
@@ -309,7 +309,7 @@ const Hero = (props) => {
     return (
         <div className={`${styles.hero} ${direction} page`} >
             {/* {typeof window !== 'undefined' ?  */}
-            <Image priority className={styles.landing_image} fill  style={{ objectFit: "cover",objectPosition:"CENTER" }} src={"/images/hero.webp"} alt="Heathrow Gatwick Transfers Hero Image" sizes="100vw" />
+            <Image priority className={styles.landing_image} fill style={{ objectFit: "cover", objectPosition: "CENTER" }} src={"/images/hero.webp"} alt="Heathrow Gatwick Transfers Hero Image" sizes="100vw" />
             <div className={`${styles.hero_section} page_section`}>
                 <div className={`${styles.hero_section_container} page_section_container`}>
                     <div className={styles.points_content}>
@@ -338,7 +338,7 @@ const Hero = (props) => {
                                                 {selectedPickupPoints.length > 0 ? <p className={`${styles.point_title} ${direction}`} >{appData?.words["strPickupPoints"]}</p> : <React.Fragment></React.Fragment>}
                                                 {/* selectedPoints */}
                                                 {selectedPickupPoints.length > 0 ?
-                                                     <SelectedPointsOnHomePage index={index} destination="pickup" points={selectedPickupPoints} language={language} /> 
+                                                    <SelectedPointsOnHomePage index={index} destination="pickup" points={selectedPickupPoints} language={language} />
                                                     : <React.Fragment></React.Fragment>}
                                                 {/* add extra pooint div */}
                                                 {internalState[`show-pickup-extra-point-${index}`] && selectedPickupPoints.length > 0 ?
@@ -397,7 +397,7 @@ const Hero = (props) => {
                                                 {selectedDropoffPoints.length > 0 ? <p className={`${styles.point_title} ${direction}`} >{appData?.words["strDropoffPoints"]}</p> : <React.Fragment></React.Fragment>}
                                                 {/* selectedPoints */}
                                                 {selectedDropoffPoints.length > 0 ?
-                                                    <SelectedPointsOnHomePage index={index} destination="dropoff" points={selectedDropoffPoints} language={language} /> 
+                                                    <SelectedPointsOnHomePage index={index} destination="dropoff" points={selectedDropoffPoints} language={language} />
                                                     : <React.Fragment></React.Fragment>}
                                                 {/* add extra pooint div */}
                                                 {internalState[`show-dropoff-extra-point-${index}`] && selectedDropoffPoints.length > 0 ?
@@ -496,13 +496,13 @@ const Hero = (props) => {
                                                             <WaveLoading />
                                                         </div>
                                                         :
-                                                        <Button 
-                                                        onBtnClick={(e) => getQuotations(e)} 
-                                                        type={BUTTON_TYPES.PRIMARY}
-                                                         style={{ fontSize: "14px", padding: `${"10px"}` }} 
-                                                         btnText={appData?.words["seGetQuotation"]} 
-                                                         icon={<i className="fa-solid fa-magnifying-glass"></i>}
-                                                          iconPos="LEFT" />
+                                                        <Button
+                                                            onBtnClick={(e) => getQuotations(e)}
+                                                            type={BUTTON_TYPES.PRIMARY}
+                                                            style={{ fontSize: "14px", padding: `${"10px"}` }}
+                                                            btnText={appData?.words["seGetQuotation"]}
+                                                            icon={<i className="fa-solid fa-magnifying-glass"></i>}
+                                                            iconPos="LEFT" />
                                                     }
                                                 </div>
                                                 : <React.Fragment></React.Fragment>}

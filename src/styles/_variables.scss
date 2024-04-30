@@ -45,13 +45,13 @@ $--color-green-3-dark: #1e7034;
 // $black-2: #1c1c1c;
 
 
-// $dark-1: #051036;
+// $--color-dark-1: #051036;
 // $dark-2: #0D2857;
 // $dark-4: #163C8C;
 
 // $border: #DDDDDD;
 // $border2: #6e7f8c;
-// $primary: #13357B;
+// $--color-accent-1: #13357B;
 
 // $light-1: #697488;
 // $light-2: #F5F5F5;
@@ -63,5 +63,5 @@ $--color-green-3-dark: #1e7034;
 
 // $checkbox-size: 14px;
 // $checkbox-border: #cecece;
-// $checkbox-selected: lighten($dark-1, 5%); // Primary colour
+// $checkbox-selected: lighten($--color-dark-1, 5%); // Primary colour
 // $disabled: hsla(215, 9%, 55%, 0.15);

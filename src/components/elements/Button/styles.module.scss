@@ -12,8 +12,9 @@
     overflow: hidden;
     text-transform: capitalize;
     font-weight: normal;
-    letter-spacing: 1.2px;
-
+    letter-spacing: 1.3px;
+    color: $--color-dark-1;
+    font-weight: 500;
     i {
         font-style: normal;
         padding: 0px 5px;
@@ -39,8 +40,8 @@
 }
 
 .btn-primary-outline:hover {
-    color: rgb(229, 102, 52);
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color:rgb(229, 102, 52);
 }
 
 

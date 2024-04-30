@@ -35,7 +35,7 @@ const getPostCodesAndAddToList = (params = {}, callback = () => { }) => {
         .then((res) => res.json())
         .then((data) => { callback(data) })
         .catch((error) => {
-            let message = "APL HandleSearchResults Component - getPostCodesAndAddToList function      fetching catch blog  "
+            let message = "ISTANBUL HandleSearchResults Component - getPostCodesAndAddToList function      fetching catch blog  "
             window.handelErrorLogs(error, message, { config, url })
         });
 }
@@ -51,7 +51,7 @@ const requestForGooglePLace = (params = {}, callback = () => { }) => {
         .then((res) => res.json())
         .then((data) => { callback(data) })
         .catch((error) => {
-            let message = "APL HandleSearchResults Component - requestForGooglePLace function      fetching catch blog  "
+            let message = "ISTANBUL HandleSearchResults Component - requestForGooglePLace function      fetching catch blog  "
             window.handelErrorLogs(error, message, { config, url })
         });
 }

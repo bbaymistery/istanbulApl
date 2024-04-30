@@ -3,11 +3,11 @@ import styles from "./styles.module.scss"
 import { BUTTON_TYPES } from './ButtonTypes'
 
 /**
- @Button { type:string, btnText:string, icon:component, iconPos:string, style:object, onBtnClick:function}
+ @Button { type:string, btnText:string, icon:component, iconPos:string, style:object, onBtnClick:function ,disabled:boolean}
  **/
 
 const Button = (props) => {
-    let { type, btnText, icon, iconPos, style, onBtnClick = () => { } } = props
+    let { type, btnText, icon, iconPos, style, onBtnClick = () => { },disabled=false } = props
     const getButtonClass = () => {
         switch (type) {
             case BUTTON_TYPES.PRIMARY:
@@ -21,7 +21,7 @@ const Button = (props) => {
         }
     }
     return (
-        <button onClick={onBtnClick} style={style} className={`${getButtonClass()}`} >
+        <button disabled={disabled} onClick={onBtnClick} style={style} className={`${getButtonClass()}`} >
             {icon && iconPos === 'LEFT' && icon}
             {btnText}
             {icon && iconPos === 'RIGHT' && icon}
