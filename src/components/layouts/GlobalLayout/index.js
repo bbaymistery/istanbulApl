@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head';
 import TopHeader from '../../widgets/TopHeader';
 import { useRouter } from 'next/router';
+import Footer from '../../widgets/Footer';
 
 const GlobalLayout = ({ children, title = "Salam", description = "Salam", keywords = "Salam", }) => {
   const currentYear = new Date().getFullYear(); // Get the current year
@@ -51,11 +52,14 @@ const GlobalLayout = ({ children, title = "Salam", description = "Salam", keywor
 
         {/* //for home page and /heathrow/heathrow-to-oxford-taxi we dont show all fontawesome csss */}
         {(router.pathname === "/") ? <link rel="stylesheet" href="/fontawesome/css/all.min.css" /> : <link rel="stylesheet" href="/fontawesomeAll/css/all.min.css" />}
+
       </Head>
       <TopHeader />
+
       <main>
         {children}
       </main>
+      <Footer />
     </>
   )
 }

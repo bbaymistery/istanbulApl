@@ -12,6 +12,10 @@
     font-weight: 900
 }
 
+.fa-location-dot:before {
+    content: "\f3c5"
+}
+
 .fa-angle-down:before {
     content: "\f107"
 }
@@ -75,11 +79,21 @@
 .fa-star:before {
     content: "\f005"
 }
-
+.fa-clock:before {
+    content: "\f017"
+}
 .fa-comment:before {
     content: "\f075"
 }
 
 .fa-user:before {
     content: "\f007"
+}
+
+.fa-headphones:before {
+    content: "\f025"
+}
+
+.fa-arrow-right:before {
+    content: "\f061"
 }

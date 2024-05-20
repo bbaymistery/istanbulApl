@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.tr_details_section {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    position: relative;
+
+    .tr_details_section_container {
+        @media only screen and (max-width:1200px) {
+            max-width: 1150px !important;
+        }
+    }
+}

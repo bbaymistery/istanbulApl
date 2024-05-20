@@ -2,9 +2,8 @@
 
 .hero {
     position: relative;
-    padding-bottom: 320px;
+    padding-bottom: 290px;
     padding-top: 100px;
-
     &_section {
         &_container {
             .points_content {
@@ -14,6 +13,7 @@
                     text-align: center;
                     position: relative;
                     color: $--color-dark-1 ;
+                    padding-top: 30px;
                 }
 
                 .main_search {

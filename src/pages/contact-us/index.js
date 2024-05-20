@@ -6,7 +6,9 @@ import GlobalLayout from '../../components/layouts/GlobalLayout'
 import { useState } from 'react'
 import env from '../../resources/env'
 import Alert from '../../components/elements/alert/Alert'
-import TextInput from '../../components/elements/TextInput'
+import TextInput from '../../components/elements/TextInput';
+import BreadCrumb from "./breadCrubm";
+
 import Textarea from '../../components/elements/Textarea'
 const initialFormValue = { email: "", phone: "", subject: "", message: "", fullname: "", }
 const ContactUs = (props) => {
@@ -65,11 +67,13 @@ const ContactUs = (props) => {
 
 
     return (
-        <GlobalLayout title="Contact Us" keywords="Contact Us" description="Contact Us" footerbggray={true}>
+        <GlobalLayout title="Contact Us" keywords="Contact Us" description="Contact Us" >
             <div className={`${styles.contact_us} ${direction} page`} bggray={String(bggray === "true")}>
+                <BreadCrumb title="" />
                 <div className={`${styles.contact_us_section} page_section`}>
                     <Alert />
                     <div className={`${styles.contact_us_section_container} page_section_container`}>
+
                         <div className={styles.contact_area}>
                             <h3 className={styles.title}>{appData?.words["strWeLoveToHearFromYou"]}</h3>
                             <div className={styles.form_box}>
