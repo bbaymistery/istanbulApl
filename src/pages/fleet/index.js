@@ -1,11 +1,13 @@
 import React from 'react'
 import GlobalLayout from '../../components/layouts/GlobalLayout'
+import CarsSlider from '../../components/widgets/CarsSlider/FunctionComp'
 
 const Fleet = () => {
   return (
     <GlobalLayout>
-      <div>Fleet</div>
-
+      <br /><br />
+      <br /><br />
+      <CarsSlider />
     </GlobalLayout>
   )
 }

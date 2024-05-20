@@ -1,44 +1,35 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from "./styles.module.scss";
-import { currentDate } from '../../helpers/getDates'
 import store from '../../store/store';
 import PhoneInput from 'react-phone-input-2';
 import InfoModal from '../../components/elements/InfoModal/InfoModal'
 import FlightWaitingTimeContent from '../../components/elements/FlightWaitingTimeContent';
-
+import TextInput from '../../components/elements/TextInput';
+import Textarea from '../../components/elements/Textarea';
+import Select from '../../components/elements/Select';
 import 'react-phone-input-2/lib/style.css'
 import { useRouter } from 'next/router';
+import { useUserIp } from '../../hooks/userIp'
 import { urlWithLangAtribute } from '../../helpers/urlWithLangAtrribute'
-import SelectedPointsOnHomePage from '../../components/elements/SelectedPointsOnHomePage'
 import { useDispatch, useSelector } from 'react-redux';
 import { reservationSchemeValidator } from '../../helpers/reservationSchemeValidator';
 import { ifHasUnwantedCharacters } from '../../helpers/ifHasUnwantedCharacters';
 import GlobalLayout from '../../components/layouts/GlobalLayout';
 import { createWrapper } from 'next-redux-wrapper';
+import { splitDateTimeStringIntoDate, splitDateTimeStringIntoHourAndMinute } from '../../helpers/splitHelper';
+import CheckBox from './CheckBox';
+import TransferJourneySummaryPanel from '../../components/elements/TransferJourneySummaryPanel';
+import Button from '../../components/elements/Button/Button';
+import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes';
 let description = "We specialize in airport transfer shuttle service. We can provide you with a chauffeur driven car to and from all major London airports. The airports include Heathrow, Gatwick, Stanstead, Luton and City airport.!"
 let title = "Results Airport Transfers London Airport Pickups"
 let keywords = " London airport transfers, London airport transfer, heathrow airport transfer, Gatwick airport transfer, stansted airport transfer, luton airport transfer, shuttle service, shuttle services, airport shuttle services, airport transfer shuttle service,  airport taxi service, taxi services, cab services, airport taxi service, London airport, airport transport, luton airport transport, London airport transportation, London shuttle services, Gatwick airport shuttle service, Heathrow airport shuttle service, Luton airport shuttle service, Stansted airport shuttle service, London airport taxi transfer, London airport shuttle, airport transfers London, airport transfers, chauffeur driven car, chauffeur driven cars, airport pick up and drop."
-const collectPoints = (params = {}, callback = () => { }) => {
-
-    let { value = '', reducerSessionToken = "", language = "" } = params;
-    const url = `${env.apiDomain}/api/v1/suggestions`;
-    const method = "POST"
-    const headers = { "Content-Type": "application/json" }
-    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language })
-    const config = { method, headers, body }
-
-    fetch(url, config)
-        .then((res) => res.json())
-        .then((res) => { callback(res) })
-        .catch((error) => {
-            let message = "APL   Hero component _collectPoints()  function catch blog "
-            window.handelErrorLogs(error, message, { config })
-        });
-}
-const collectPointsAsync = params => new Promise((resolve, reject) => collectPoints(params, log => resolve(log)))
+import SelectedPointsOnTransferDetails from '../../components/elements/SelectedPointsOnTransferDetails'
 
 const TransferDetails = () => {
     const router = useRouter()
+    const { ip, country } = useUserIp();
+
     const dispatch = useDispatch()
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { reservations, params: { passengerDetailsStatus, modalInfo, direction, quotations, sessionToken: reducerSessionToken, language, journeyType } } = state
@@ -46,14 +37,8 @@ const TransferDetails = () => {
     const { appData } = useSelector(state => state.initialReducer)
     //we use it to render paxs inside select component
     const carObject = appData?.carsTypes?.reduce((obj, item) => ({ ...obj, [item.id]: item, }), {});
-
-    const objectDetailss = appData?.pointTypeCategories?.reduce((obj, item) => ({ ...obj, [item.id]: JSON.parse(item.objectDetails), }), {});
-    const imageObjects = appData?.pointTypeCategories?.reduce((obj, item) => ({ ...obj, [item.id]: item.image, }), {});
     const { nexturls, previousUrls, currentUrls } = urlWithLangAtribute({ languages: appData.languages, previousUrl: localStorage.getItem("path"), nextUrl: "/payment-details", currentUrl: router.asPath })
-    const [pickupIdForImage, setpickupIdForImage] = useState(null)
-    const [dropoffIdFormImage, setdropoffIdFormImage] = useState(null)
-    const [errorDropoffSelectBox, setErrorDropoffSelectBox] = useState(false)
-    const [errorPickUpSelectBox, setErrorPickUpSelectBox] = useState(false)
+
     let [internalState, setInternalState] = React.useReducer((s, o) => ({ ...s, ...o }), {
         'errorHolder': [],
         'pickup-search-value-0': '',
@@ -91,17 +76,110 @@ const TransferDetails = () => {
             dispatch({ type: 'SET_TRANSFER_DETAILS', data: { name, value, index, updateBothJourneyCheckBox: passengerDetailsStatus } })
 
     }
-    const onChangeSetDateTimeHandler = (params = {}) => {
-        let { value, hourOrMinute, journeyType } = params
-        dispatch({ type: 'SET_JOURNEY_DATETIME', data: { journeyType, hourOrMinute, value } })
+
+    const handleOnChangeNumberInput = (value, _country, index, name) => {
+        dispatch({ type: 'SET_PASSEGER_DETAILS', data: { name, value, index, updateBothJourneyCheckBox: passengerDetailsStatus } })
+    };
+    const handleCountry = (country, countryData) => {
+
     }
     return (
         <GlobalLayout keywords={keywords} title={title} description={description} >
             <div className={`${styles.tr_details} page`}>
                 <div className={`${styles.tr_details_section} page_section`}>
                     <div className={`${styles.tr_details_section_container} page_section_container`}>
-                        salam
-                        \
+                        <div className={styles.transferdetails_subcontainer} id="main_container">
+                            {reservations.map((obj, index) => {
+                                let reservationError = (errorHolder.status === 403 && Array.isArray(errorHolder.reservations)) ? errorHolder.reservations[index] : {};
+                                let { transferDetails, passengerDetails, quotation, selectedPickupPoints, selectedDropoffPoints } = obj
+                                let { transferDateTimeString, passengersNumber, specialRequests } = transferDetails
+                                let { phone, email, firstname } = passengerDetails
+                                const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(transferDateTimeString) || []
+                                const [splitedDate] = splitDateTimeStringIntoDate(transferDateTimeString) || []
+                                //passenger details errors
+                                return (
+                                    <div key={index} >
+                                        <div className={`${styles.transferdetails_subcontainer_content} ${direction}`}>
+                                            <div className={`${styles.transferdetails_subcontainer_content_points_and_passengerdetails} ${quotations[0]?.taxiDeal ? styles.details_panel_taxideal : ""}`}>
+                                                {/* //!passenger details for transfer journey */}
+                                                {/* //!if client choise unchecked for input checkbox then it will show up  */}
+                                                {index === 0 || (!passengerDetailsStatus && index === 1) ?
+                                                    <div className={styles.passenger_details_div}>
+                                                        {index === 0 ? <h2> {appData?.words['strPassengerDetails']}</h2> : <h2 className={styles.return_pas_details_header}>{appData?.words["strReturnJourneyPassengerDetails"]}</h2>}
+                                                        <div className={styles.passenger_details}>
+                                                            <div className={styles.input_div}>
+                                                                <TextInput label={appData?.words["strFullName"]} type="text" name="firstname" onChange={e => onchangeHandler(e, index)} value={firstname} errorMessage={reservationError?.passengerDetails?.firstname} />
+                                                            </div>
+                                                            <div className={styles.input_div}>
+                                                                <TextInput label={appData?.words["strEmail"]} type="text" name="email" onChange={e => onchangeHandler(e, index)} value={email} errorMessage={reservationError?.passengerDetails?.email} />
+                                                            </div>
+                                                            <div className={styles.input_div}>
+                                                                <Select label={appData?.words["strNoofPassengers"]} name="passengersNumber" onChange={e => onchangeHandler(e, index)} value={passengersNumber} data={carObject[quotation.carId]?.pax} />
+                                                            </div>
+                                                            <div className={styles.input_div}>
+                                                                <PhoneInput
+                                                                    className={`phone_input ${direction === "rtl" ? "phone_input_direction" : ""}`}
+                                                                    value={phone}
+                                                                    onChange={(value, selectedCountry) => handleOnChangeNumberInput(value, selectedCountry, index, "phone")}
+                                                                    country={country.toLowerCase()}
+                                                                    inputProps={{
+                                                                        name: 'phone',
+                                                                        required: true,
+                                                                        style: {
+                                                                            border: reservationError?.passengerDetails?.phone ? '1px solid red' : ' 1px solid #ced4da',
+                                                                        }
+                                                                    }}
+                                                                    onCountryChange={handleCountry}
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div> : <React.Fragment></React.Fragment>}
+
+                                                {/* if client come from taxi deal then here will not be visible */}
+                                                <div className={styles.selected_points_details}>
+                                                    <h2>   {index === 0 ? appData?.words["seGoingDetails"] : appData?.words["seReturnDetails"]}  </h2>
+                                                    <div className={styles.selecteditems} >
+                                                        <div className={`${styles.points} ${styles.selectedlist_points_left}`} >
+                                                            <h3 className={styles.points_header}>{appData?.words["strSelectedPickUpPoint"]}</h3>
+                                                            {/* //index =0 it is like destination pickup  */}
+                                                            <SelectedPointsOnTransferDetails pointsError={reservationError['selectedPickupPoints']} selectedPoints={selectedPickupPoints} journeyType={index} type='pickup' language={language} />
+                                                        </div>
+                                                        {/* {  selectedlist_points_left     bunu aldk select komponentde kulandk} */}
+                                                        <div className={`${styles.points} ${styles.selectedlist_points_right}`}>
+                                                            <h3 className={styles.points_header}>{appData?.words["strSelectedDropOffPoint"]}</h3>
+                                                            {/* //index =1 it is like destination dropoff */}
+                                                            <SelectedPointsOnTransferDetails pointsError={reservationError['selectedDropoffPoints']} selectedPoints={selectedDropoffPoints} journeyType={index} type='dropoff' language={language} />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className={styles.textarea_div}>
+                                                    <Textarea label={appData?.words["strSpecialRequestsTitle"]} name="specialRequests" value={specialRequests} onChange={(e) => onchangeHandler(e, index)} />
+                                                </div>
+                                                {index === 1 ? <CheckBox direction={direction} textSame={appData?.words["strPassengerDetailsCheckBox"]} textNotSame={appData?.words["strThePassengerDetailsAreNotSame"]} /> : <React.Fragment></React.Fragment>}
+                                                {index === 1 || (index === 0 && +journeyType === 0) ?
+                                                    <div className={` ${direction === 'rtl' ? styles.directionbuttons : styles.buttons}  ${quotations[0]?.taxiDeal ? styles.taxideal_buttons : ""}`} >
+                                                        <div className={styles.left}>
+
+                                                            <div onClick={() => router.back()}>
+                                                                <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 38.5px", }} btnText={`${appData?.words["strGoBack"]}`} />
+                                                            </div>
+
+
+                                                            <div onClick={(e) => checkValidation(e)}>
+                                                                <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 38.5px", }} btnText={`${appData?.words["strNext"]}`} />
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    : <></>}
+                                            </div>
+                                            <TransferJourneySummaryPanel journeyType={journeyType} index={index} splitedHour={splitedHour} splitedMinute={splitedMinute} splitedDate={splitedDate} quotation={quotation} selectedDropoffPoints={selectedDropoffPoints} selectedPickupPoints={selectedPickupPoints} />
+                                        </div>
+
+                                    </div>
+                                )
+                            })}
+                        </div>
                         {modalInfo ? <InfoModal content={<FlightWaitingTimeContent />} /> : <React.Fragment></React.Fragment>}
 
                     </div>
