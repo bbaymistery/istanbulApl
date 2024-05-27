@@ -30,6 +30,7 @@
             padding: 10px;
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             background: white;
+            margin-bottom: 10px;
             // justify-content: space-between;
             .list_number {
                 font-size: 13px;
@@ -54,7 +55,7 @@
 
             .list_description {
                 color: $--color-dark-1;
-                font-size: 15px;
+                font-size: 14px;
                 font-weight: 500;
                 flex: 1;
 

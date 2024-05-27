@@ -66,7 +66,7 @@ background-color: white;
 
                         span {
                             margin-left: 10px;
-                            color: white;
+                            color: black;
 
                             i {
                                 font-size: 11px;
@@ -75,6 +75,8 @@ background-color: white;
                         }
 
                         .lang_text {
+                            display: flex;
+    align-items: center;
                             @media(max-width:1280px) {
                                 display: none;
                             }

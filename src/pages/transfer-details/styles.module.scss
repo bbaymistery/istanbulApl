@@ -120,6 +120,9 @@ $checkbox-selected: $--color-accent-1; // Primary colour
 
                     .textarea_div {
                         margin-top: 1rem;
+
+                        border-bottom: 1px solid $--color-accent-1;
+                        border-radius: 5px;
                     }
 
                     .form_checkbox {

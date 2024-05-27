@@ -8,8 +8,8 @@ async function getRoutes() {
     if (response.status === 200) languages = response?.languages.map(language => language.value);
   } catch (error) { console.log(error); }
   const singleRoutes = languages.map(lang => ({ source: `/${lang}`, destination: '/', locale: false }));
-  // let allLangaugesAsString = languages.length > 1 ? languages.join("|") : "en" //en|tr|es|ar|it|zh|ru
-  // let linknameRoutes = [{ source: `/:lang(${allLangaugesAsString})/:path`, destination: '/:path', locale: false, }]
+  let allLangaugesAsString = languages.length > 1 ? languages.join("|") : "en" //en|tr|es|ar|it|zh|ru
+  let linknameRoutes = [{ source: `/:lang(${allLangaugesAsString})/:path`, destination: '/:path', locale: false, }]
   // let toursRoutes = [{ source: `/:lang(${allLangaugesAsString})/tours/:link`, destination: '/tours/:link', locale: false, }]
   // generate rewrite rules dynamically
   const rewriteRules = [
@@ -21,6 +21,7 @@ async function getRoutes() {
       destination: '/terms',
       locale: false,
     },
+    ...linknameRoutes,
 
     // ...toursRoutes
   ];

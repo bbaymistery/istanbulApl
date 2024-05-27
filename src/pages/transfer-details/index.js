@@ -197,20 +197,18 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
     const initialLanguages = store.getState().initialReducer?.appData?.languages
     const langs = initialLanguages.map((lang) => lang.value)
 
-    // for (let i = 0; i < langs.length; i++) {
-    //     const lang = langs[i]
-    //     const langUrl = lang === 'en' ? '/transfer-details' : `/${lang}/transfer-details`
-    //     if (req.url === langUrl) {
-    //         return {
-    //             redirect: {
-    //                 destination: lang === 'en' ? "/" : `/${lang}`,
-    //                 permanent: false
-    //             }
-    //         }
-    //     }
-    // }
-    // const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
-    // const geo = geoip.lookup(ip);
+    for (let i = 0; i < langs.length; i++) {
+        const lang = langs[i]
+        const langUrl = lang === 'en' ? '/transfer-details' : `/${lang}/transfer-details`
+        if (req.url === langUrl) {
+            return {
+                redirect: {
+                    destination: lang === 'en' ? "/" : `/${lang}`,
+                    permanent: false
+                }
+            }
+        }
+    }
 
     return {
         props: {

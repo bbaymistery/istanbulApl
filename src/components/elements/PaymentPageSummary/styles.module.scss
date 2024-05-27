@@ -1,0 +1,46 @@
+    @import '../../../styles/variables';
+
+    .journey_summary_panel {
+        position: relative;
+
+        .content {
+            .journey_card[direction="true"] {
+                flex-direction: row-reverse;
+            }
+
+            .journey_card {
+           
+
+                @media (max-width: 990px) {
+                    flex-direction: column;
+                    gap: 0rem;
+                }
+
+        
+
+                .details_div {
+
+                    h5 {
+                        font-weight: 500;
+                        line-height: 1.2;
+                        color: $input_text_color;
+                        text-transform: capitalize;
+                        font-size: 16px;
+                        margin-bottom: 0.5rem;
+                    }
+
+
+                    .space {
+                        margin-bottom: 15px;
+                    }
+
+               
+                }
+            }
+
+
+
+
+
+        }
+    }
