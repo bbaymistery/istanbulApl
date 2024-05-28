@@ -1,0 +1,37 @@
+@import "../../../styles/variables";
+
+.discount {
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 130px;
+    padding-bottom: 25px;
+    @media(max-width:768px) {
+        padding-top: 60px;
+
+    }
+    &_section {
+
+
+        &_container {
+
+ background-color: red;
+
+        }
+    }
+}
+
+.fade_bottom_to_top {
+    animation: bottom_to_top 1s ease forwards;
+}
+
+@keyframes bottom_to_top {
+    0% {
+        transform: translateY(40px);
+        opacity: 0; // Start from invisible
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1; // End fully visible
+    }
+}

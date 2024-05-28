@@ -16,7 +16,7 @@ let description = ""
 const PaymentDetails = () => {
     const router = useRouter()
     let state = useSelector((state) => state.pickUpDropOffActions)
-    let { reservations, params: { tokenForArchieve, direction,quotations } } = state
+    let { reservations, params: { tokenForArchieve, direction, quotations } } = state
     const { appData } = useSelector(state => state.initialReducer)
     const carObject = appData?.carsTypes?.reduce((obj, item) => ({ ...obj, [item.id]: item, }), {});
 
@@ -124,16 +124,18 @@ const PaymentDetails = () => {
                                                     Transfer Details
                                                 </div>
                                                 <div className={styles.left_content_of_card}>
-                                                    <PaymentPageSummary
-                                                        index={index}
-                                                        email={passengerDetails.email}
-                                                        phone={passengerDetails.phone}
-                                                        specialRequests={specialRequests}
-                                                        passengersNumber={passengersNumber}
-                                                        firstname={passengerDetails.firstname}
-                                                        selectedPickupPoints={selectedPickupPoints}
-                                                        selectedDropoffPoints={selectedDropoffPoints}
-                                                    />
+                                                    <div className={styles.show_ondestkop}>
+                                                        <PaymentPageSummary
+                                                            index={index}
+                                                            email={passengerDetails.email}
+                                                            phone={passengerDetails.phone}
+                                                            specialRequests={specialRequests}
+                                                            passengersNumber={passengersNumber}
+                                                            firstname={passengerDetails.firstname}
+                                                            selectedPickupPoints={selectedPickupPoints}
+                                                            selectedDropoffPoints={selectedDropoffPoints}
+                                                        />
+                                                    </div>
 
                                                     <div className={styles.image_div}>
                                                         <div className={styles.names}>
@@ -185,10 +187,10 @@ const PaymentDetails = () => {
                                                             <ul>
                                                                 <li>
                                                                     <div className={styles.details}>
-                                                                        <div className={styles.details_headerr_li}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
                                                                             <div className={styles.li_info}>
                                                                                 <i className="fas fa-user" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>Full Name</p>
+                                                                                <p className={styles.property}>{appData.words["appContactUsFormFullname"]}</p>
                                                                             </div>
                                                                             <p className={styles.value}>:{passengerDetails.firstname}</p>
                                                                         </div>
@@ -196,10 +198,10 @@ const PaymentDetails = () => {
                                                                 </li>
                                                                 <li>
                                                                     <div className={styles.details}>
-                                                                        <div className={styles.details_headerr_li}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
                                                                             <div className={styles.li_info}>
                                                                                 <i className="fas fa-at" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>Email Address</p>
+                                                                                <p className={styles.property}>{appData?.words["strEmailAddress"]}</p>
                                                                             </div>
                                                                             <p className={styles.value}>:{passengerDetails.email}</p>
                                                                         </div>
@@ -207,10 +209,10 @@ const PaymentDetails = () => {
                                                                 </li>
                                                                 <li>
                                                                     <div className={styles.details}>
-                                                                        <div className={styles.details_headerr_li}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
                                                                             <div className={styles.li_info}>
                                                                                 <i className="fas fa-phone" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>Phone Number</p>
+                                                                                <p className={styles.property}>{appData?.words["appContactUsFormPhone"]}</p>
                                                                             </div>
                                                                             <p className={styles.value}>:+{passengerDetails.phone}</p>
                                                                         </div>
@@ -218,23 +220,35 @@ const PaymentDetails = () => {
                                                                 </li>
                                                                 <li>
                                                                     <div className={styles.details}>
-                                                                        <div className={styles.details_headerr_li}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
                                                                             <div className={styles.li_info}>
                                                                                 <i className="fas fa-users" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>Passengers</p>
+                                                                                <p className={styles.property}>{appData?.words["strPassengers"]}</p>
                                                                             </div>
                                                                             <p className={styles.value}>:{passengersNumber}</p>
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                    
 
+                                                                <li className={styles.show_onmobile}>
+                                                                    <PaymentPageSummary
+                                                                        index={index}
+                                                                        email={passengerDetails.email}
+                                                                        phone={passengerDetails.phone}
+                                                                        specialRequests={specialRequests}
+                                                                        passengersNumber={passengersNumber}
+                                                                        firstname={passengerDetails.firstname}
+                                                                        selectedPickupPoints={selectedPickupPoints}
+                                                                        selectedDropoffPoints={selectedDropoffPoints}
+                                                                        showIcon={true}
+                                                                    />
+                                                                </li>
                                                                 <li>
                                                                     <div className={`${styles.details} `}>
-                                                                        <div className={styles.details_headerr_li}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
                                                                             <div className={styles.li_info}>
                                                                                 <i className="fas fa-calendar-alt" aria-hidden="true" ></i>
-                                                                                <p className={styles.property}>Landing Date :</p>
+                                                                                <p className={styles.property}>{appData?.words["strOn"]} :</p>
                                                                             </div>
                                                                             <p className={styles.value}>:{`${splitedDate.split(" ")[0].replace(/(\d+)\-(\d+)-(\d+)/, "$3-$2-$1")} `}</p>
                                                                         </div>
@@ -242,22 +256,22 @@ const PaymentDetails = () => {
                                                                 </li>
                                                                 <li>
                                                                     <div className={`${styles.details} `}>
-                                                                        <div className={styles.details_headerr_li}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
                                                                             <div className={styles.li_info}>
                                                                                 <i className="fas fa-clock" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>Landing Time :</p>
+                                                                                <p className={styles.property}>{appData?.words["strTime"]} :</p>
                                                                             </div>
                                                                             <div className={styles.value}>{`${splitedHour} : ${splitedMinute}`}</div>
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                         
+
                                                                 <li>
                                                                     <div className={`${styles.details} `}>
-                                                                        <div className={styles.details_headerr_li}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
                                                                             <div className={styles.li_info}>
-                                                                            <i className="fa-solid fa-road"></i>
-                                                                                <p className={styles.property}>Distance :</p>
+                                                                                <i className="fa-solid fa-road"></i>
+                                                                                <p className={styles.property}>{appData?.words["strDistance"]} :</p>
                                                                             </div>
                                                                             <div className={styles.value}>{quotations[index].distance}</div>
                                                                         </div>
@@ -265,10 +279,10 @@ const PaymentDetails = () => {
                                                                 </li>
                                                                 <li>
                                                                     <div className={`${styles.details} `}>
-                                                                        <div className={styles.details_headerr_li}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
                                                                             <div className={styles.li_info}>
-                                                                            <i className="fa-solid fa-clock-rotate-left"></i>
-                                                                                <p className={styles.property}>Duration :</p>
+                                                                                <i className="fa-solid fa-clock-rotate-left"></i>
+                                                                                <p className={styles.property}>{appData?.words["strDuration"]} :</p>
                                                                             </div>
                                                                             <div className={styles.value}>{quotations[index].duration}</div>
                                                                         </div>
@@ -276,28 +290,29 @@ const PaymentDetails = () => {
                                                                 </li>
                                                                 <li>
                                                                     <div className={`${styles.details} `}>
-                                                                        <div className={styles.details_headerr_li}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
                                                                             <div className={styles.li_info}>
                                                                                 <i className="fas fa-car" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>Transfer Type :</p>
+                                                                                <p className={styles.property}>{appData?.words["carsTransferType"]} :</p>
                                                                             </div>
                                                                             <div className={styles.value}>{carObject[quotation.carId]?.name}</div>
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                              
-                                                                    <li>
-                                                                        <div className={styles.details}>
-                                                                            <div className={styles.details_headerr_li}>
-                                                                                <div className={styles.li_info}>
-                                                                                    <i className="fa-solid fa-comment"></i>
-                                                                                    <p className={styles.property}>Notes</p>
-                                                                                </div>
-                                                                                <p className={styles.value}>:{specialRequests}</p>
+
+                                                                <li>
+                                                                    <div className={styles.details}>
+                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
+                                                                            <div className={styles.li_info}>
+                                                                                <i className="fa-solid fa-comment"></i>
+                                                                                <p className={styles.property}>{appData?.words["strNotes"]}</p>
                                                                             </div>
+                                                                            <p className={styles.value}>:{specialRequests}</p>
                                                                         </div>
-                                                                    </li>
-                                                                
+                                                                    </div>
+                                                                </li>
+
+
                                                             </ul>
                                                         </div>
                                                     </div>

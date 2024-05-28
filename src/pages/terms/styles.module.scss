@@ -1,0 +1,53 @@
+@import "../../styles/variables";
+
+.terms {
+    height: 100%;
+    position: relative;
+    margin-top: 50px;
+    background-color: white !important;
+
+    &_section {
+        @media(max-width:1400px) {
+            margin: 0 auto !important;
+        }
+
+
+        &_container {
+            @media(max-width:1400px) {
+                max-width: 100% !important;
+                width: 100%;
+            }
+
+            .terms_container {
+                margin-top: 3rem;
+                display: grid;
+                grid-template-columns: 250px 1fr;
+
+                .terms_container_left {
+                    flex: 0.4;
+
+                    div {
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        button {
+
+                            outline: none;
+                            border: none;
+                            background-color: transparent;
+                            padding: 5px 10px;
+                            border-left: 1px solid $--color-light-6 !important; 
+                            
+                        }
+
+                        .active {
+                            color: $--color-accent-1;
+                            border-left: 1px solid $--color-accent-1 !important;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

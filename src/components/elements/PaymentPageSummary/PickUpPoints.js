@@ -1,11 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import pointsStyle from "./pointsStyle.module.scss";
-const PickUpPoints = ({ selectedPickupPoints, direction, language }) => {
+const PickUpPoints = ({ selectedPickupPoints, direction, language, showIcon }) => {
   const { appData } = useSelector(state => state.initialReducer)
 
   return (
-    <div className={pointsStyle.details}>
+    <div className={`${pointsStyle.details} ${showIcon ? pointsStyle.detailsShowIcon : ""}`}>
       {selectedPickupPoints?.map((point, i) => {
         return (
           <div className={pointsStyle.details_bottom_container} key={i}>

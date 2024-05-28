@@ -1,11 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import pointsStyle from "./pointsStyle.module.scss";
-const DropOffPoints = ({ selectedDropoffPoints, direction, language  }) => {
+const DropOffPoints = ({ selectedDropoffPoints, direction, language,showIcon  }) => {
   const { appData } = useSelector(state => state.initialReducer)
 
   return (
-    <div className={pointsStyle.details}>
+    <div className={`${pointsStyle.details} ${showIcon?pointsStyle.detailsShowIcon:""}`}>
       {selectedDropoffPoints?.map((point, i) => {
         return (
           <div className={pointsStyle.details_bottom_container} key={i}>
