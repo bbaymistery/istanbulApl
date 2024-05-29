@@ -143,8 +143,6 @@ const CardQuotationItem = (params = {}) => {
         {/* make visible for selected item  go journey*/}
         {journeyType === 1 && index === 0 && <div>
           {datas.map((item, index) => {
-            console.log(`url(${quotationImagesObjWebp[item?.carId]?.image})`);
-            console.log(index);
             let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
 
             const renderSelectedItem = Number(JSON.parse(localStorage?.getItem("journeyQuotation"))?.carId) === Number(quotationImagesObjWebp[item?.carId]?.id)
