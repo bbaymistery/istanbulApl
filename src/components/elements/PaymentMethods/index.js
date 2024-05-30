@@ -164,24 +164,24 @@ const PaymentMethods = () => {
   const startPayment = (id) => {
 
 
-    // try {
-    //   //general settings FOR PAYMENTS
-    //   const paymentPagePath = JSON.parse(paymentTypes.filter((payment) => payment.id === id)[0].pagePath).path;
+    try {
+      //general settings FOR PAYMENTS
+      const paymentPagePath = JSON.parse(paymentTypes.filter((payment) => payment.id === id)[0].pagePath).path;
 
 
-    //   const url = `${env.apiDomain}${paymentPagePath}`;
-    //   let quotations = parseInt(journeyType) === 0 ? [reservations[0].quotation] : [reservations[0].quotation, reservations[1].quotation];
-    //   let passengerEmail = reservations[0].passengerDetails.email;
-    //   let passengerPhoneNumber = reservations[0].passengerDetails.phone;
+      const url = `${env.apiDomain}${paymentPagePath}`;
+      let quotations = parseInt(journeyType) === 0 ? [reservations[0].quotation] : [reservations[0].quotation, reservations[1].quotation];
+      let passengerEmail = reservations[0].passengerDetails.email;
+      let passengerPhoneNumber = reservations[0].passengerDetails.phone;
 
-    //   //Payment methods
-    //   if (id === 1) cashMethod({ token: "", paymentType: id })
-    //   if (id === 5) paypalMethod({ id, quotations, passengerEmail, url });
-    //   if (id === 7) stripeMethod({ id, quotations, passengerEmail, url });
-    // } catch (error) {
-    //   window.handelErrorLogs(error, 'APL PaymentMethods Component -startPayment function trys catch blog', { id })
+      //Payment methods
+      if (id === 1) cashMethod({ token: "", paymentType: id })
+      if (id === 5) paypalMethod({ id, quotations, passengerEmail, url });
+      if (id === 7) stripeMethod({ id, quotations, passengerEmail, url });
+    } catch (error) {
+      window.handelErrorLogs(error, 'APL PaymentMethods Component -startPayment function trys catch blog', { id })
 
-    // }
+    }
   }
 
   //this function triggering modal status of cash payment

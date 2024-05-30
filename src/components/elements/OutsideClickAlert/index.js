@@ -33,7 +33,6 @@ function useOutsideAlerter(ref, callback) {
  */
 function OutsideClickAlert(props) {
     const wrapperRef = useRef(null);
-    console.log(props)
     useOutsideAlerter(wrapperRef, () => {
         let onCLick = typeof props.onOutsideClick === "function" ? props.onOutsideClick : () => { };
         onCLick();
