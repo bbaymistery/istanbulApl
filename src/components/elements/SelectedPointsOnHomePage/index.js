@@ -1,11 +1,10 @@
 import { useRouter } from 'next/router';
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import env from '../../../resources/env';
 import styles from "./styles.module.scss"
 const SelectedPointsOnHomePage = (params = {}) => {
     //hasOneItem related to taxi deals
-    let { points, index, destination, getQuotations = () => { }, hasOneItem = false } = params
+    let { points, index, destination, getQuotations = () => { }, hasOneItem = false, env } = params
     const dispatch = useDispatch()
     const router = useRouter()
     const state = useSelector((state) => state.pickUpDropOffActions);
@@ -30,11 +29,12 @@ const SelectedPointsOnHomePage = (params = {}) => {
 
     return (<div className={`${styles.selected_points} `}>
         {points.map((point, index) => {
+            const addressText = point.address.includes(point.postcode) ? `${point.address}` : `${point.address} ${point.postcode}`
 
             return (
-                <div key={index} className={styles.point_div} direction={String(direction === "rtl")} title={`${language === 'en' ? point.address : point.translatedAddress}`}>
-                    {imageObjects && <img className={styles.point_image} src={`${env.apiDomain}${imageObjects[point?.pcatId]}`} alt={`${language === 'en' ? point.address : point.translatedAddress}`} />}
-                    <input type="text" readOnly={true} className={direction} name="pickup-address" placeholder={`${language === 'en' ? point.address : point.translatedAddress}`} />
+                <div key={index} className={styles.point_div} direction={String(direction === "rtl")} title={addressText}>
+                    {imageObjects && <img className={styles.point_image} src={`${env.apiDomain}${imageObjects[point?.pcatId]}`} alt={addressText} />}
+                    <input type="text" readOnly={true} className={direction} name="pickup-address" placeholder={addressText} />
                     {!hasOneItem ?
                         <span hideme={String(router.pathname === "/quotation-result")} className={`${styles.icons} ${styles.icons_delete_span}`} onClick={(e) => handleDelete({ currentIndexOfDeletedItem: index, v: e.target })}>
                             <i className="fa fa-times sef-loc-delete" aria-hidden="true"  ></i>

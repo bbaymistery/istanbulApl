@@ -4,11 +4,11 @@ import GlobalLayout from '../components/layouts/GlobalLayout'
 import Hero from '../components/widgets/Hero'
 import PopularDestinations from '../components/widgets/PopularDestnations'
 import WhyChoice from '../components/widgets/WhyChoice'
-import CarsSlider from "../components/widgets/CarsSlider/FunctionComp";
+import CarsSlider from "../components/widgets/CarsSlider";
 import Discount from '../components/widgets/Discount';
 
 
-export default function Home() {
+export default function Home(props) {
   const [hasScrolled, setHasScrolled] = useState(false);
 
   // Check if window scroll position is more than 200 pixels
@@ -21,9 +21,10 @@ export default function Home() {
     // Clean up the event listener on component unmount
     return () => window.removeEventListener('scroll', handleScroll);
   }, [hasScrolled]);
+
   return (
     <GlobalLayout>
-      <Hero />
+      <Hero env={props.env} />
       <WhyChoice />
       <PopularDestinations />
       {hasScrolled && <CarsSlider />}

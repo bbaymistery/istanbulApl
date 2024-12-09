@@ -13,7 +13,9 @@ import { quotationImagesObjWebp } from '../../constants/quotationImages';
 let title = ""
 let keywords = ""
 let description = ""
-const PaymentDetails = () => {
+const PaymentDetails = (props) => {
+    let {env} = props
+
     const router = useRouter()
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { reservations, params: { tokenForArchieve, direction, quotations } } = state
@@ -324,7 +326,7 @@ const PaymentDetails = () => {
                                     </div>
                                 )
                             })}
-                            <PaymentMethods />
+                            <PaymentMethods env={env} />
                         </div>
                     </div>
                 </div>

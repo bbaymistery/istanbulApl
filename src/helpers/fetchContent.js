@@ -1,9 +1,12 @@
-import env from "../resources/env";
+import { fetchConfig } from "../resources/getEnvConfig";
+
 import { parseCookies } from "./cokieesFunc";
 
 
 
 export const fetchContent = async (pagePathname, cookie, firstLoadLangauge, pathnameUrlWHenChangeByTopbar) => {
+    const env = await fetchConfig(); // Fetch the env config
+  
     let metaTitle = ""
     let pageContent = ""
     let metaDescription = ""

@@ -8,7 +8,8 @@
     left: 0px;
     width: 100%;
     // border-bottom: 1px solid gray;
-background-color: white;
+    background-color: white;
+
     .header_container {
         display: flex;
         align-items: center;
@@ -58,6 +59,7 @@ background-color: white;
                         align-items: center;
                         justify-content: center;
                         padding: 25px 0px;
+                        width: 130px;
 
                         .img_div {
                             background-color: rgb(148 149 151 / 14%);
@@ -76,7 +78,8 @@ background-color: white;
 
                         .lang_text {
                             display: flex;
-    align-items: center;
+                            align-items: center;
+
                             @media(max-width:1280px) {
                                 display: none;
                             }

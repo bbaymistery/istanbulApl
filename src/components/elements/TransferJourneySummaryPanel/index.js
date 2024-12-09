@@ -40,9 +40,28 @@ const TransferJourneySummaryPanel = (props) => {
                     <div className={styles.details_div}>
                         <div id="from to" className={styles.fromto}>
                             <h5> {appData?.words["strFrom2"]}:      </h5>
-                            {selectedPickupPoints.map((pickup, i) => { return <li key={i}><span>{isTaxiDeal ? "" : `${i + 1}. `}  {pickup.address}</span></li> })}
+                           
+                            {selectedPickupPoints.map((pickup, i) => {
+                                    const addressText = pickup.address.includes(pickup.postcode)
+                                        ? `${pickup.address}`
+                                        : `${pickup.address} ${pickup.postcode}`;
+                                    return (
+                                        <li key={i + 15}>
+                                            <span>{isTaxiDeal ? "" : `${i + 1}. `}{addressText}</span>
+                                        </li>
+                                    );
+                                })}
                             <h5>{appData?.words["strTo"]}:</h5>
-                            {selectedDropoffPoints.map((dropoff, i) => { return <li key={i + 15}><span>{isTaxiDeal ? "" : `${i + 1}. `} {dropoff.address}</span></li> })}
+                            {selectedDropoffPoints.map((dropoff, i) => {
+                                    const addressText = dropoff.address.includes(dropoff.postcode)
+                                        ? `${dropoff.address}`
+                                        : `${dropoff.address} ${dropoff.postcode}`;
+                                    return (
+                                        <li key={i + 15}>
+                                            <span>{isTaxiDeal ? "" : `${i + 1}. `}{addressText}</span>
+                                        </li>
+                                    );
+                                })}
                             <h5>{appData?.words["strOn"]}:</h5>
                             <li>
                                 <span>

@@ -3,7 +3,6 @@ import styles from "./styles.module.scss";
 import logoImage from '../../../../public/logos/logo-1.svg'
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
-import env from "../../../resources/env";
 import store from "../../../store/store";
 import { useRouter } from "next/router";
 import { extractLanguage } from "../../../helpers/extractLanguage";
@@ -18,42 +17,30 @@ const Header = () => {
 
   const router = useRouter()
   const dispatch = useDispatch()
-  const { appData } = useSelector(state => state.initialReducer)
   const { params: { language, langIndex: reducerLangIndex, journeyType } } = useSelector(state => state.pickUpDropOffActions)
-  const [langFlag, setLangFlag] = useState(language)
-  const [langIndex, setLangIndex] = useState(reducerLangIndex)
+
 
 
   const [openMenu, setOpenMenu] = useState(false) //mobile
   const [languageStatus, setLanguageStatus] = useState(false)
+  const { appData } = useSelector(state => state.initialReducer)
+  const [translatedAppData, setTranslatedAppData] = useState(appData)
+
+  let size = useWindowSize();
+  let { width } = size
 
   const handleLanguage = async (params = {}) => {
     let { e, text, key, direction, index } = params
     setCookie("lang", key, 7);
-    setLangFlag(key)
-    setLangIndex(index)
     //set language and dicertion  to localstorage
-    localStorage.setItem("language", JSON.stringify(key));
     localStorage.setItem("direction", JSON.stringify(direction));
-    localStorage.setItem("langIndex", JSON.stringify(index));
-    try {
-      let response = await fetch(`${env.apiDomain}/app/${key}`)
-      let data = await response.json()
-      if (data.status === 200) {
-        dispatch({ type: "SET_NEW_LANGUAGE", data: { languageKey: key, direction, langIndex: index } })
-        //passing inital state in order make update in store js when language changing
-        dispatch({ type: "SET_NEW_APPDATA", data, initialStateReducer: store.getState().initialReducer })
-      } else {
-        //if sth wrong it means we can use en for dont crush our website
-        let response = await fetch(`${env.apiDomain}/app/en`)
-        let data = await response.json()
-        dispatch({ type: "SET_NEW_LANGUAGE", data: { languageKey: key, direction, langIndex: index } })
-        //passing inital state in order make update in store js when language changing
-        dispatch({ type: "SET_NEW_APPDATA", data, initialStateReducer: store.getState().initialReducer })
-      }
-    } catch (error) {
-      let message = "AIRPORT-PICK-UP-LONDON  handleLanguage function Top HeaderComponent"
-      window.handelErrorLogs(error, message, { url: `${env.apiDomain}/app/${key}` })
+    dispatch({ type: "SET_NEW_LANGUAGE", data: { languageKey: key, direction, langIndex: index } })
+
+
+    let cahceAppData = (JSON.parse(sessionStorage.getItem('allAppDatas')));
+    if (cahceAppData) {
+      setTranslatedAppData(cahceAppData[key])
+      dispatch({ type: "SET_NEW_APPDATA", data: cahceAppData[key], initialStateReducer: store.getState().initialReducer })
     }
     //url configuration based on language we select
     let checkTheUrlIfLangExist = extractLanguage(router.asPath) //tr es or it
@@ -65,7 +52,8 @@ const Header = () => {
 
       let url = router.asPath.replace(/^\/([a-z]{2})\/?/i, replacedString)
       //tr|it|sp/transfer-details...  replacing withh
-      url = `/${url}`
+      url = key === 'en' ? `${url}` : `/${url}`
+
       router.push(url);
     }
     else {
@@ -76,15 +64,16 @@ const Header = () => {
     }
     //make hidden language dropdown in mobile menu After clicking
     setLanguageStatus(!languageStatus)
+
   }
 
   const toggleMenu = () => setOpenMenu(!openMenu)
 
 
   //for language dropdown
-  const outsideClickDropDown = useCallback((e) => {
-    setLanguageStatus(!languageStatus);
-  }, [languageStatus]);
+  //for language dropdown
+  const outsideClickDropDown = useCallback((e) => { setLanguageStatus(!languageStatus); }, [languageStatus]);
+
 
   //when we click lang text it opens dropdown
   const setOpenLanguageDropdown = (e) => {
@@ -109,23 +98,10 @@ const Header = () => {
   }, [dispatch, journeyType, toggleMenu]);
 
 
-  let size = useWindowSize();
-  let { width } = size
 
-  useEffect(() => {
-    if ((localStorage?.getItem("language"))) {
-      let langKey = JSON.parse(localStorage.getItem("language"))
-      appData?.languages.map((item, index) => {
-        let { value: key, } = item
-        if (langKey === key) {
-          setLangFlag(key)
-          setLangIndex(index)
-        }
-      })
-    }
-  }, [language])
 
-  
+
+
 
   return (
     <header className={styles.header} id="navbar_container" >
@@ -136,10 +112,10 @@ const Header = () => {
               <a href={language === 'en' ? '/' : `/${language}`} className={`${styles.logo_tag}`}  >
                 <Image src={logoImage} alt="Airport-pickups-london Logo" width={30} height={30} priority />
               </a>
-              <DesktopMenu  appData={appData} journeyType={journeyType} language={language} /> 
+              <DesktopMenu appData={translatedAppData} journeyType={journeyType} language={language} />
               {/* mobile  */}
               {openMenu ?
-                <MobileMenu openMenu={openMenu} handleClickNavLinkMobileMenuNotList={handleClickNavLinkMobileMenuNotList} language={language} handleClickNavLinkMobileMenuList={handleClickNavLinkMobileMenuList} appData={appData} />
+                <MobileMenu openMenu={openMenu} handleClickNavLinkMobileMenuNotList={handleClickNavLinkMobileMenuNotList} language={language} handleClickNavLinkMobileMenuList={handleClickNavLinkMobileMenuList} appData={translatedAppData} />
                 : <></>}
             </div>
           </div>
@@ -149,17 +125,17 @@ const Header = () => {
             <div className={`${styles.language_dropdown}`} style={{ cursor: `${router.asPath === "/drivers-wanted" ? " default" : ""}` }}>
               <div className={styles.top} >
                 <div className={styles.img_div} onClick={setOpenLanguageDropdown} data-name="language">
-                  <Image src={`/languages/${langFlag}.gif`} width={20} height={11} priority alt={langFlag} data-name="language" />
+                  <Image src={`/languages/${language}.gif`} width={20} height={11} priority alt={language} data-name="language" />
                 </div>
                 <span data-name="language" onClick={setOpenLanguageDropdown} className={styles.lang_text}>
-                  {appData?.languages[langIndex]?.innerText}
+                  {appData?.languages[reducerLangIndex]?.innerText}
                   {router.asPath === "/drivers-wanted" ? <></> : <i className="fa-solid fa-angle-down"></i>}
                 </span>
-                {languageStatus ?
-                  <OutsideClickAlert onOutsideClick={outsideClickDropDown}>
-                    <DropDownAllLanguages languageStatus={languageStatus} handleLanguage={handleLanguage} />
-                  </OutsideClickAlert> : <></>}
               </div>
+              {languageStatus ?
+                <OutsideClickAlert onOutsideClick={outsideClickDropDown}>
+                  <DropDownAllLanguages languageStatus={languageStatus} handleLanguage={handleLanguage} />
+                </OutsideClickAlert> : <></>}
             </div>
 
             <div onClick={toggleMenu} className={`${styles.menu}`} id="menu">

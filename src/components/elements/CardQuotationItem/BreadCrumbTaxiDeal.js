@@ -1,5 +1,5 @@
 import React from 'react'
-import { capitalizeFirstLetter } from '../../../helpers/letters'
+// import { capitalizeFirstLetter } from '../../../helpers/letters'
 import styles from "./styles.module.scss"
 const BreadCrumbTaxiDeal = ({ previousUrl, breadCrumbFrom, breadCrumbTo, direction }) => {
 
@@ -12,9 +12,9 @@ const BreadCrumbTaxiDeal = ({ previousUrl, breadCrumbFrom, breadCrumbTo, directi
                 <div className={styles.breadcrumb} direction={String(direction === 'rtl')} id="breadcrumb" >
                     <span> <a href="/" title="Airport Pickups London"> Home  </a> <span><i className="fa-solid fa-arrow-right"></i></span></span>
                     <span>
-                        <a href={`/${previousUrl?.split("/")[1]}`} title={`${capitalizeFirstLetter(previousUrl?.split("/")[1])} transfers`}>
+                        {/* <a href={`/${previousUrl?.split("/")[1]}`} title={`${capitalizeFirstLetter(previousUrl?.split("/")[1])} transfers`}>
                             {`${previousUrl?.split("/")[1]}`}
-                        </a>
+                        </a> */}
                         <span><i className="fa-solid fa-arrow-right"></i></span>
                     </span>
                     <span>
@@ -31,9 +31,9 @@ const BreadCrumbTaxiDeal = ({ previousUrl, breadCrumbFrom, breadCrumbTo, directi
                 <div className={styles.breadcrumb} direction={String(direction === 'rtl')} id="breadcrumb" >
                     <span> <a href="/" title="Airport Pickups London"> Home  </a> <span><i className="fa-solid fa-arrow-right"></i></span></span>
                     <span>
-                        <a href={`/${previousUrl?.split("/")[1]}`} title={`${capitalizeFirstLetter(previousUrl?.split("/")[1])} transfers`}>
+                        {/* <a href={`/${previousUrl?.split("/")[1]}`} title={`${capitalizeFirstLetter(previousUrl?.split("/")[1])} transfers`}>
                             {`${previousUrl?.split("/")[1]}`}
-                        </a>
+                        </a> */}
                         <span><i className="fa-solid fa-arrow-right"></i></span>
                     </span>
                     <span>

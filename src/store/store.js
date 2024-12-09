@@ -11,10 +11,16 @@ const initialReducer = (state = {}, action) => {
     switch (action.type) {
         case HYDRATE:
             if (typeof window !== 'undefined') {
-                if (localStorage.getItem("appData")) {
-                    console.log("hidrate");
-                    
-                    action.payload.initialReducer = { ...action.payload.initialReducer, appData: { ...JSON.parse(localStorage.getItem("appData")) } };
+                const storedAppData = localStorage?.getItem("appData");
+                if (storedAppData && storedAppData !== "undefined") {
+                    const parsedAppData = JSON.parse(storedAppData);
+                    // Assign appData only if status is 200
+                    if (parsedAppData?.status === 200) {
+                        action.payload.initialReducer = {
+                            ...action.payload.initialReducer,
+                            appData: { ...parsedAppData },
+                        };
+                    }
                 }
             }
             return { ...state.initialReducer, ...action.payload.initialReducer };

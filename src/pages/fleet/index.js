@@ -1,6 +1,6 @@
 import React from 'react'
 import GlobalLayout from '../../components/layouts/GlobalLayout'
-import CarsSlider from '../../components/widgets/CarsSlider/FunctionComp'
+import CarsSlider from '../../components/widgets/CarsSlider'
 
 const Fleet = () => {
   return (

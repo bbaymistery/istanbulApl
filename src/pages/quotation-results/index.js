@@ -8,11 +8,9 @@ import { currentDate } from '../../helpers/getDates'
 import HandleSearchResults from '../../components/elements/HandleSearchResults'
 import SelectedPointsOnHomePage from '../../components/elements/SelectedPointsOnHomePage'
 import { ifHasUnwantedCharacters } from '../../helpers/ifHasUnwantedCharacters'
-import env from '../../resources/env'
 import { hours, minutes } from '../../constants/minutesHours'
 import OutsideClickAlert from '../../components/elements/OutsideClickAlert'
 import SearchInputLoading from '../../components/elements/SearchInputLoading'
-import WaveLoading from '../../components/elements/LoadingWave'
 import { reservationSchemeValidator } from '../../helpers/reservationSchemeValidator'
 import CardQuotationItem from '../../components/elements/CardQuotationItem'
 import Map from "./Map.js";
@@ -26,18 +24,18 @@ let keywords = " London airport transfers, London airport transfer, heathrow air
 
 const collectPoints = (params = {}, callback = () => { }) => {
 
-    let { value = '', reducerSessionToken = "", language = "" } = params;
+    let { value = '', reducerSessionToken = "", language = "" ,env} = params;
     const url = `${env.apiDomain}/api/v1/suggestions`;
     const method = "POST"
     const headers = { "Content-Type": "application/json" }
-    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language })
+    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language:"en" })
     const config = { method, headers, body }
 
     fetch(url, config)
         .then((res) => res.json())
         .then((res) => { callback(res) })
         .catch((error) => {
-            let message = "APL Quotation component _collectPoints()  function catch blog "
+            let message = "ISTANBUL Quotation result component _collectPoints()  function catch blog "
             window.handelErrorLogs(error, message, { config })
         });
 }
@@ -46,10 +44,10 @@ const collectPointsAsync = params => new Promise((resolve, reject) => collectPoi
 const readyToCollectQuotations = (params = {}) => {
 
     (async () => {
-        let { dispatch, setInternalState, router, journeyType, reservations } = params
+        let { dispatch, setInternalState, router, journeyType, reservations,env } = params
 
         setInternalState({ ["quotation-loading"]: true })
-        let log = await collectQuotationsAsync({ reservations, journeyType })
+        let log = await collectQuotationsAsync({ reservations, journeyType,env })
 
         //if our journey both way
         if (parseInt(journeyType) === 1) {
@@ -85,7 +83,7 @@ const readyToCollectQuotations = (params = {}) => {
 //getting quotations
 const collectQuotations = (params = {}, callback = () => { }) => {
 
-    let { reservations, journeyType } = params
+    let { reservations, journeyType ,env} = params
 
     //transfer
     let trSelectedPickPoints = reservations[0]?.selectedPickupPoints;
@@ -151,7 +149,7 @@ const pushToQuotationsResultPage = (params = {}) => {
     dispatch({ type: "GET_QUOTATION", data: { results: log, journeyType } })
 }
 const QuotationResults = (props) => {
-    let { isTaxiDeal = false, } = props
+    let { isTaxiDeal = false,env } = props
     const router = useRouter()
     const dispatch = useDispatch()
 
@@ -208,7 +206,7 @@ const QuotationResults = (props) => {
                 //set input loading to true
                 setInternalState({ [`${destination}-search-loading-${index}`]: true })
 
-                let log = await collectPointsAsync({ value, reducerSessionToken, language })
+                let log = await collectPointsAsync({ value, reducerSessionToken, language,env })
                 let { status, result, "session-token": sessionToken = "", token } = log
 
                 if (status == 200) {
@@ -268,7 +266,7 @@ const QuotationResults = (props) => {
     const getQuotations = (params = {}) => {
         let errorHolder = reservationSchemeValidator({ reservations });
         setInternalState({ errorHolder })
-        if (errorHolder.status === 200) readyToCollectQuotations({ dispatch, setInternalState, router, journeyType, reservations })
+        if (errorHolder.status === 200) readyToCollectQuotations({ dispatch, setInternalState, router, journeyType, reservations,env })
     }
     //deleting input field
     const deleteField = (params = {}) => {
@@ -359,7 +357,7 @@ const QuotationResults = (props) => {
                                                         {/* Pick Points text */}
                                                         {selectedPickupPoints.length > 0 ? <h4 className={` ${direction}`} >{appData?.words["strPickupPoints"]}</h4> : <React.Fragment></React.Fragment>}
                                                         {/* selectedPoints */}
-                                                        {selectedPickupPoints.length > 0 && <SelectedPointsOnHomePage index={index} destination="pickup" points={selectedPickupPoints} getQuotations={getQuotations} language={language} />}
+                                                        {selectedPickupPoints.length > 0 && <SelectedPointsOnHomePage env={env} index={index} destination="pickup" points={selectedPickupPoints} getQuotations={getQuotations} language={language} />}
                                                         {/* add extra pooint div */}
                                                         {internalState[`show-pickup-extra-point-${index}`] && selectedPickupPoints.length > 0 &&
                                                             <div className={`${styles.add_point_div} ${direction === "rtl" && styles.addrtl}`} onClick={() => handleAddNewInput({ index, destination: "pickup" })}  >
@@ -394,7 +392,7 @@ const QuotationResults = (props) => {
                                                                 {/* if !internalState[`pickup-search-value-${index}`] then our handleSearchResults will be belong to styles.book.input */}
                                                                 {!Array.isArray(internalState[`collecting-pickup-points-${index}`]) ?
                                                                     //setInternalState>>>after adding item we set input field  to empty and add extradiv to true
-                                                                    <HandleSearchResults getQuotations={getQuotations} language={language} index={index} destination="pickup" setInternalState={setInternalState} collectingPoints={internalState[`collecting-pickup-points-${index}`]} /> : <React.Fragment></React.Fragment>}
+                                                                    <HandleSearchResults env={env} getQuotations={getQuotations} language={language} index={index} destination="pickup" setInternalState={setInternalState} collectingPoints={internalState[`collecting-pickup-points-${index}`]} /> : <React.Fragment></React.Fragment>}
 
                                                             </div>
 
@@ -406,7 +404,7 @@ const QuotationResults = (props) => {
                                                         {/* Pick Points text */}
                                                         {selectedDropoffPoints.length > 0 ? <h4 className={` ${direction}`} >{appData?.words["strDropoffPoints"]}</h4> : <React.Fragment></React.Fragment>}
                                                         {/* selectedPoints */}
-                                                        {selectedDropoffPoints.length > 0 && <SelectedPointsOnHomePage index={index} destination="dropoff" points={selectedDropoffPoints} getQuotations={getQuotations} language={language} />}
+                                                        {selectedDropoffPoints.length > 0 && <SelectedPointsOnHomePage env={env} index={index} destination="dropoff" points={selectedDropoffPoints} getQuotations={getQuotations} language={language} />}
 
                                                         {/* add extra pooint div */}
                                                         {internalState[`show-dropoff-extra-point-${index}`] && selectedDropoffPoints.length > 0 &&
@@ -443,7 +441,7 @@ const QuotationResults = (props) => {
                                                                     : <React.Fragment></React.Fragment>}
                                                                 {/* results when we get points */}
                                                                 {!Array.isArray(internalState[`collecting-dropoff-points-${index}`]) ?
-                                                                    <HandleSearchResults getQuotations={getQuotations} language={language} index={index} destination="dropoff" setInternalState={setInternalState} collectingPoints={internalState[`collecting-dropoff-points-${index}`]} /> : <React.Fragment></React.Fragment>}
+                                                                    <HandleSearchResults env={env} getQuotations={getQuotations} language={language} index={index} destination="dropoff" setInternalState={setInternalState} collectingPoints={internalState[`collecting-dropoff-points-${index}`]} /> : <React.Fragment></React.Fragment>}
                                                             </div>
                                                         </OutsideClickAlert>
                                                     </div>
@@ -499,17 +497,17 @@ const QuotationResults = (props) => {
                                                 </div>
                                                 {(selectedDropoffPoints.length > 0 && index === 1) && (showMapReturn) ?
                                                     <div className={styles.map_direction} >
-                                                        <Map datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
+                                                        <Map  env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
                                                     </div>
                                                     : <></>}
                                                 {(selectedPickupPoints.length > 0 && index === 0) && (showMapOneWay) ?
                                                     <div className={styles.map_direction} >
-                                                        <Map datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
+                                                        <Map  env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
                                                     </div>
                                                     : <></>}
                                                 {(selectedDropoffPoints.length > 0 && selectedPickupPoints.length > 0) && (+journeyType === 0) ?
                                                     <div className={styles.map_direction} >
-                                                        <Map datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
+                                                        <Map   env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
                                                     </div>
                                                     : <></>}
                                             </div>

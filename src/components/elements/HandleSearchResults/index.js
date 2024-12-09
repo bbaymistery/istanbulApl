@@ -1,13 +1,12 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useWindowSize } from '../../../hooks/useWindowSize';
-import env from '../../../resources/env';
 import styles from "./styles.module.scss"
 
 //!when we get search result: there pcatId is :  from greater to less    like >>   4 3 2 1
 //!arrange points maake that from less to more  like >> 1 2 3 4
 const moveZeroosToTheEndMakeAnArray = (params = {}) => {
-    let { keyss = [], collectingPoints = {}, } = params
+    let { keyss = [], collectingPoints = {}} = params
     let zeros = 0;
 
     for (let i = 0; i < keyss.length; i++) {
@@ -25,7 +24,7 @@ const moveZeroosToTheEndMakeAnArray = (params = {}) => {
     return newOrderedItems;
 };
 const getPostCodesAndAddToList = (params = {}, callback = () => { }) => {
-    let { point } = params
+    let { point,env } = params
     const url = `${env.apiDomain}/api/v1/postcode-address`;
     const headers = { "Content-Type": "application/json" }
     const method = "POST"
@@ -41,7 +40,7 @@ const getPostCodesAndAddToList = (params = {}, callback = () => { }) => {
 }
 
 const requestForGooglePLace = (params = {}, callback = () => { }) => {
-    let { point } = params
+    let { point,env } = params
     const url = `${env.apiDomain}/api/v1/google-places`;
     const headers = { "Content-Type": "application/json" }
     const method = "POST"
@@ -60,7 +59,7 @@ const requestForGooglePLace = (params = {}, callback = () => { }) => {
 const getPostCodesAndAddToListAsync = params => new Promise((resolve, reject) => getPostCodesAndAddToList(params, log => resolve(log)))
 const requestForGogglePalceAsync = (params) => new Promise((resolve, reject) => requestForGooglePLace(params, log => resolve(log)))
 const HandleSearchResults = (params = {}) => {
-    let { collectingPoints, destination, setInternalState, index, getQuotations = () => { }, language, isTaxiDeal = false } = params
+    let { collectingPoints, destination, setInternalState, index, getQuotations = () => { }, language, isTaxiDeal = false,env } = params
 
     let newOrderedItems = []
     //simplify collectedpoints
@@ -106,7 +105,7 @@ const HandleSearchResults = (params = {}) => {
         //setting postcode adressess
         if (point.pcatId === 5) {
             (async () => {
-                let log = await getPostCodesAndAddToListAsync({ point })
+                let log = await getPostCodesAndAddToListAsync({ point ,env})
                 let { status, results } = log
                 if (status && results.length > 0) dispatch({ type: "SET_POST_CODE_ADRESSES", data: { result: results[0] } })
             })()
@@ -114,7 +113,7 @@ const HandleSearchResults = (params = {}) => {
         //make one request more if point pcatId is equal to 10
         if (point.pcatId === 10) {
             (async () => {
-                let log = await requestForGogglePalceAsync({ point })
+                let log = await requestForGogglePalceAsync({ point,env })
                 if (log.status) point = log.point
             })()
         }
@@ -175,7 +174,7 @@ const HandleSearchResults = (params = {}) => {
                                     {/* //destination journey type comes from Hero component Which we pass a prop  */}
                                     <li onClick={() => handleAddItemToSelectList({ point: item, destination })} className={`${direction}`}>
                                         {imgObj ? (<img src={`${env.apiDomain}${imgObj[item.pcatId]}`} alt="" />) : <React.Fragment></React.Fragment>}
-                                        <p className={`${direction}`} direction={String(direction === 'rtl')}>{language === "en" ? item.address : item.translatedAddress} {`${item?.postcode ? `-  ${item?.postcode}` : ""}`}</p>
+                                        <p className={`${direction}`} direction={String(direction === 'rtl')}>{item.address} {`${item?.postcode ? `-  ${item?.postcode}` : ""}`}</p>
                                     </li>
                                 </div>
                             );

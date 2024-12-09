@@ -26,10 +26,10 @@ let title = "Results Airport Transfers London Airport Pickups"
 let keywords = " London airport transfers, London airport transfer, heathrow airport transfer, Gatwick airport transfer, stansted airport transfer, luton airport transfer, shuttle service, shuttle services, airport shuttle services, airport transfer shuttle service,  airport taxi service, taxi services, cab services, airport taxi service, London airport, airport transport, luton airport transport, London airport transportation, London shuttle services, Gatwick airport shuttle service, Heathrow airport shuttle service, Luton airport shuttle service, Stansted airport shuttle service, London airport taxi transfer, London airport shuttle, airport transfers London, airport transfers, chauffeur driven car, chauffeur driven cars, airport pick up and drop."
 import SelectedPointsOnTransferDetails from '../../components/elements/SelectedPointsOnTransferDetails'
 
-const TransferDetails = () => {
+const TransferDetails = (props) => {
     const router = useRouter()
     const { ip, country } = useUserIp();
-
+    let { env } = props
     const dispatch = useDispatch()
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { reservations, params: { passengerDetailsStatus, modalInfo, direction, quotations, sessionToken: reducerSessionToken, language, journeyType } } = state
@@ -142,13 +142,13 @@ const TransferDetails = () => {
                                                         <div className={`${styles.points} ${styles.selectedlist_points_left}`} >
                                                             <h3 className={styles.points_header}>{appData?.words["strSelectedPickUpPoint"]}</h3>
                                                             {/* //index =0 it is like destination pickup  */}
-                                                            <SelectedPointsOnTransferDetails pointsError={reservationError['selectedPickupPoints']} selectedPoints={selectedPickupPoints} journeyType={index} type='pickup' language={language} />
+                                                            <SelectedPointsOnTransferDetails env={env} pointsError={reservationError['selectedPickupPoints']} selectedPoints={selectedPickupPoints} journeyType={index} type='pickup' language={language} />
                                                         </div>
                                                         {/* {  selectedlist_points_left     bunu aldk select komponentde kulandk} */}
                                                         <div className={`${styles.points} ${styles.selectedlist_points_right}`}>
                                                             <h3 className={styles.points_header}>{appData?.words["strSelectedDropOffPoint"]}</h3>
                                                             {/* //index =1 it is like destination dropoff */}
-                                                            <SelectedPointsOnTransferDetails pointsError={reservationError['selectedDropoffPoints']} selectedPoints={selectedDropoffPoints} journeyType={index} type='dropoff' language={language} />
+                                                            <SelectedPointsOnTransferDetails env={env} pointsError={reservationError['selectedDropoffPoints']} selectedPoints={selectedDropoffPoints} journeyType={index} type='dropoff' language={language} />
                                                         </div>
                                                     </div>
                                                 </div>

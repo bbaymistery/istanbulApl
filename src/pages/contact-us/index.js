@@ -4,7 +4,7 @@ import styles from "./styles.module.scss"
 import GlobalLayout from '../../components/layouts/GlobalLayout'
 
 import { useState } from 'react'
-import env from '../../resources/env'
+
 import Alert from '../../components/elements/alert/Alert'
 import TextInput from '../../components/elements/TextInput';
 import BreadCrumb from "./breadCrubm";
@@ -12,7 +12,7 @@ import BreadCrumb from "./breadCrubm";
 import Textarea from '../../components/elements/Textarea'
 const initialFormValue = { email: "", phone: "", subject: "", message: "", fullname: "", }
 const ContactUs = (props) => {
-    let { bggray } = props
+    let { bggray ,env} = props
     //appContactUsHeader
 
     const state = useSelector(state => state.pickUpDropOffActions)

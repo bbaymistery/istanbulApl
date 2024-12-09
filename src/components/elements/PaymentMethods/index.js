@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.scss";
 import Link from "next/link";
-import env from "../../../resources/env";
 import { useDispatch, useSelector } from "react-redux";
 import { useRouter } from "next/router";
 import { BUTTON_TYPES } from "../Button/ButtonTypes";
 import Button from "../Button/Button";
 import OutsideClickAlert from "../OutsideClickAlert";
-const PaymentMethods = () => {
+const PaymentMethods = (props) => {
+  let {env}=props
   const router = useRouter()
   const dispatch = useDispatch()
   let state = useSelector((state) => state.pickUpDropOffActions)
