@@ -308,7 +308,7 @@ const Hero = (props) => {
     return (
         <div className={`${styles.hero} ${direction} page`} >
             {/* {typeof window !== 'undefined' ?  */}
-            <Image priority className={styles.landing_image} fill style={{ objectFit: "cover", objectPosition: "CENTER" }} src={"/images/hero.webp"} alt="Heathrow Gatwick Transfers Hero Image" sizes="100vw" />
+            <Image priority className={styles.landing_image} fill style={{ objectFit: "cover", objectPosition: "CENTER" }} src={"/images/test111.jpg"} alt="Heathrow Gatwick Transfers Hero Image" sizes="100vw" />
             <div className={`${styles.hero_section} page_section`}>
                 <div className={`${styles.hero_section_container} page_section_container`}>
                     <div className={styles.points_content}>
