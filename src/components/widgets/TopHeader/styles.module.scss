@@ -35,10 +35,15 @@
                         display: flex;
                         align-items: center;
                         text-decoration: none !important;
+                        color: $--color-accent-1;
+                        font-weight: bold;
+                        font-size: 30px;
+                        letter-spacing: 2px;
+                        @media(max-width:768px) {
+                            font-size: 25px;
 
-                        img {
-                            width: 200px !important;
                         }
+        
                     }
 
                 }
@@ -48,7 +53,9 @@
                 display: flex;
                 align-items: center;
                 gap: 2rem;
-
+                @media(max-width:990px) {
+                    gap: 0rem;
+                }
 
                 .language_dropdown {
                     cursor: pointer;
@@ -60,7 +67,10 @@
                         justify-content: center;
                         padding: 25px 0px;
                         width: 130px;
+                        @media(max-width:990px) {
+                            width: 90px;
 
+                        }
                         .img_div {
                             background-color: rgb(148 149 151 / 14%);
                             padding: 0px 5px;

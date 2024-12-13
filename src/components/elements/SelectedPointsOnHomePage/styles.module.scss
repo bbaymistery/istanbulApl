@@ -3,71 +3,73 @@
 .selected_points {
     .point_div {
         position: relative;
-        margin-right: 8px;
-        transition: .2s linear;
-        margin-top: -8px;
 
+        .icons {
+            top: 3px;
+            right: 0px;
+        }
 
-        img {
-            width: 12px;
-            position: absolute;
-            left: 9px;
+        .icons_delete_span {
+            @media (max-width:990px) {
+                opacity: 1;
+                transform: scale(1);
+                font-size: $--text-18;
+            }
         }
 
         input {
             outline: none;
-            padding: 6px 30px !important;
-            margin-bottom: 15px;
-            cursor: default;
-            transition: .2s linear;
-            font-size: 14px;
+            padding: 6px 15px !important;
+            padding-left: 0px !important;
             width: 100%;
             border: none;
-            border-bottom: 1px solid $--color-accent-1;
-            border-radius: 5px;
             text-transform: capitalize;
-
-
-
-            &::placeholder {
-                color: $--color-dark-1;
-            }
-
-
-
-            &:hover {
-                &::placeholder {
-                    color: darken($--color-dark-1, 45%);
-                }
-
-                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-
-            }
+            font-size: $--text-14;
+            line-height: 1.4;
+            color: $--color-light-2;
+            border-bottom: 1px solid $--color-accent-1;
+            transition: .2s linear;
+            border-radius: 4px;
 
         }
 
         .icons {
             position: absolute;
-            border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
             z-index: 1;
-            width: 15px;
-            height: 15px;
-            color: #fff;
+            width: 19px;
+            height: 19px;
+            background-color: white;
             transition: .5s linear;
             cursor: pointer;
+            font-size: $--text-15;
+            padding: 12px;
+
         }
 
         .icons_check_span {
             opacity: 1;
-            display: flex;
-            justify-content: center;
             color: $--color-accent-1;
-            font-size: 15px;
-            align-items: center;
+        }
+
+        .icons_delete_span {
+            opacity: 0;
+            color: red;
+        }
+
+        &:hover {
+            .icons_delete_span {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            .icons_check_span {
+                visibility: hidden;
+                transform: scale(0);
+                opacity: 0;
+            }
 
         }
 
@@ -81,79 +83,26 @@
                     display: none;
                 }
             }
-        }
-
-        .icons_delete_span {
-            font-size: 15px;
-            opacity: 0;
-            transform: scale(0);
-            color: red;
-
-            i {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-
-        }
-
-        &:hover {
-
-
-            .icons_delete_span {
-                opacity: 1;
-                transform: scale(1);
-            }
-
 
             .icons_check_span {
-                visibility: hidden;
-                transform: scale(0);
-                opacity: 0;
+                display: none;
             }
         }
     }
 
-    .point_div[direction="false"] {
-        img {
-            top: 35%;
-            left: 9px !important;
-            transform: translateY(-50%);
-        }
 
-        .icons {
-            top: 10px;
-            right: 10px;
+    // .point_div[direction="true"] {
+    //     img {
+    //         top: 24%;
+    //         right: 9px !important;
+    //         transform: translateY(-50%);
+    //         transform: rotate(180deg);
+    //     }
 
-        }
-
-        .icons_delete_span {
-            @media (max-width:990px) {
-                opacity: 1;
-                transform: scale(1);
-                font-size: 19px;
-            }
-        }
-
-
-    }
-
-    .point_div[direction="true"] {
-        img {
-            top: 29%;
-            right: 9px !important;
-
-            transform: translateY(-50%);
-            transform: rotate(180deg);
-
-        }
-
-        .icons {
-            top: 12px;
-            left: 10px !important;
-        }
-
-    }
+    //     .icons {
+    //         top: 12px;
+    //         left: 10px !important;
+    //     }
+    // }
 
 }

@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import { splitDateTimeStringIntoDate, splitDateTimeStringIntoHourAndMinute } from '../../helpers/splitHelper'
 import { currentDate } from '../../helpers/getDates'
 import HandleSearchResults from '../../components/elements/HandleSearchResults'
-import SelectedPointsOnHomePage from '../../components/elements/SelectedPointsOnHomePage'
+import SelectedPointsOnQuotationResults from '../../components/elements/SelectedPointsOnQuotationResults'
 import { ifHasUnwantedCharacters } from '../../helpers/ifHasUnwantedCharacters'
 import { hours, minutes } from '../../constants/minutesHours'
 import OutsideClickAlert from '../../components/elements/OutsideClickAlert'
@@ -357,7 +357,7 @@ const QuotationResults = (props) => {
                                                         {/* Pick Points text */}
                                                         {selectedPickupPoints.length > 0 ? <h4 className={` ${direction}`} >{appData?.words["strPickupPoints"]}</h4> : <React.Fragment></React.Fragment>}
                                                         {/* selectedPoints */}
-                                                        {selectedPickupPoints.length > 0 && <SelectedPointsOnHomePage env={env} index={index} destination="pickup" points={selectedPickupPoints} getQuotations={getQuotations} language={language} />}
+                                                        {selectedPickupPoints.length > 0 && <SelectedPointsOnQuotationResults env={env} index={index} destination="pickup" points={selectedPickupPoints} getQuotations={getQuotations} language={language} />}
                                                         {/* add extra pooint div */}
                                                         {internalState[`show-pickup-extra-point-${index}`] && selectedPickupPoints.length > 0 &&
                                                             <div className={`${styles.add_point_div} ${direction === "rtl" && styles.addrtl}`} onClick={() => handleAddNewInput({ index, destination: "pickup" })}  >
@@ -404,7 +404,7 @@ const QuotationResults = (props) => {
                                                         {/* Pick Points text */}
                                                         {selectedDropoffPoints.length > 0 ? <h4 className={` ${direction}`} >{appData?.words["strDropoffPoints"]}</h4> : <React.Fragment></React.Fragment>}
                                                         {/* selectedPoints */}
-                                                        {selectedDropoffPoints.length > 0 && <SelectedPointsOnHomePage env={env} index={index} destination="dropoff" points={selectedDropoffPoints} getQuotations={getQuotations} language={language} />}
+                                                        {selectedDropoffPoints.length > 0 && <SelectedPointsOnQuotationResults env={env} index={index} destination="dropoff" points={selectedDropoffPoints} getQuotations={getQuotations} language={language} />}
 
                                                         {/* add extra pooint div */}
                                                         {internalState[`show-dropoff-extra-point-${index}`] && selectedDropoffPoints.length > 0 &&

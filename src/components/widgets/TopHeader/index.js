@@ -1,33 +1,24 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback,  useState } from "react";
 import styles from "./styles.module.scss";
-import logoImage from '../../../../public/logos/logo-1.svg'
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import store from "../../../store/store";
 import { useRouter } from "next/router";
 import { extractLanguage } from "../../../helpers/extractLanguage";
 import OutsideClickAlert from "../../elements/OutsideClickAlert";
-import { useWindowSize } from "../../../hooks/useWindowSize";
 import dynamic from 'next/dynamic'
 import { setCookie } from "../../../helpers/cokieesFunc";
 const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'),);
 const DesktopMenu = dynamic(() => import('../../elements/DesktopMenu'),);
 const MobileMenu = dynamic(() => import('../../elements/MobileMenu'),);
 const Header = () => {
-
   const router = useRouter()
   const dispatch = useDispatch()
   const { params: { language, langIndex: reducerLangIndex, journeyType } } = useSelector(state => state.pickUpDropOffActions)
-
-
-
   const [openMenu, setOpenMenu] = useState(false) //mobile
   const [languageStatus, setLanguageStatus] = useState(false)
   const { appData } = useSelector(state => state.initialReducer)
   const [translatedAppData, setTranslatedAppData] = useState(appData)
-
-  let size = useWindowSize();
-  let { width } = size
 
   const handleLanguage = async (params = {}) => {
     let { e, text, key, direction, index } = params
@@ -66,10 +57,7 @@ const Header = () => {
     setLanguageStatus(!languageStatus)
 
   }
-
   const toggleMenu = () => setOpenMenu(!openMenu)
-
-
   //for language dropdown
   //for language dropdown
   const outsideClickDropDown = useCallback((e) => { setLanguageStatus(!languageStatus); }, [languageStatus]);
@@ -96,13 +84,6 @@ const Header = () => {
     }
     toggleMenu();
   }, [dispatch, journeyType, toggleMenu]);
-
-
-
-
-
-
-
   return (
     <header className={styles.header} id="navbar_container" >
       <div className={styles.header_container}>
@@ -110,7 +91,7 @@ const Header = () => {
           <div className={styles.left_items}>
             <div className={styles.left_items_flex_div}>
               <a href={language === 'en' ? '/' : `/${language}`} className={`${styles.logo_tag}`}  >
-                <Image src={logoImage} alt="Airport-pickups-london Logo" width={30} height={30} priority />
+                APL Transfers
               </a>
               <DesktopMenu appData={translatedAppData} journeyType={journeyType} language={language} />
               {/* mobile  */}
@@ -140,7 +121,6 @@ const Header = () => {
 
             <div onClick={toggleMenu} className={`${styles.menu}`} id="menu">
               {!openMenu ? <i className="fa-solid fa-bars"></i> : <i className="fa-solid fa-xmark"></i>}
-
             </div>
           </div>
         </div>
