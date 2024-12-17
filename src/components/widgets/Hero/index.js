@@ -307,7 +307,8 @@ const Hero = (props) => {
     return (
         <div className={`${styles.hero} ${direction} page`} >
             <div className={styles.hero_bg}>
-                <Image priority className={styles.landing_image} src={"/images/hero.webp"} alt="APL Transfers " width={1700} height={100} />
+            {/*  */}
+                <Image priority className={styles.landing_image} src={islinknamecomponent?"/images/Mugla.webp":"/images/hero.webp"} alt="APL Transfers " width={1700} height={100} />
                 <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={59} />
             </div>
             <div className={`${styles.hero_section} page_section`}>
@@ -317,7 +318,6 @@ const Hero = (props) => {
                         <p className={styles.subtitle}>From local escapes to far-flung adventures, find what makes you happy anytime, anywhere</p>
                         <div className={styles.main_search}>
                             <br />
-
                             <RadioButton setInternalState={setInternalState} internalState={internalState} />
                             <br />
                             {reservations.map((obj, index) => {
@@ -532,22 +532,19 @@ const Hero = (props) => {
                                                 </div>
                                                 : <React.Fragment></React.Fragment>}
                                         </div>
-
+                                        {internalState[`error-booking-message-${index}`] ?
+                                            <div className={styles.errorBookedMessage}>
+                                                <p>{internalState[`error-booking-message-${index}`]}</p>
+                                            </div> : <></>}
                                     </div>
-
                                 )
                             })}
-
-
                         </div>
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
 
 export default Hero
-/*
-
-*/

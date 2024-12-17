@@ -52,7 +52,6 @@ function MyApp({ Component, pageProps }) {
 
   }, [dispatch, appData,])
 
-  console.log({ pageProps });
 
   useEffect(() => {
     //global errors
@@ -121,10 +120,10 @@ function MyApp({ Component, pageProps }) {
     //when cahnge on home page language then click browser back btn we update language vai  first condirtione
     if (language !== router.asPath.split("/")[1] && router.asPath.split("/")[1].length === 2) {
       setCookie("lang", router.asPath.split("/")[1], 7);
-      setLanguage({ language: router.asPath.split("/")[1], hydrate: false })
+      setLanguage({ language: router.asPath.split("/")[1], })
     }
     else {
-      setLanguage({ language: hasLanguage !== 'en' ? hasLanguage : language, hydrate: false })
+      setLanguage({ language: hasLanguage !== 'en' ? hasLanguage : language, })
     }
 
   }, [router.asPath])
