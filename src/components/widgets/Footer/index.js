@@ -17,7 +17,7 @@ const Footer = () => {
             <div className={`${styles.footer_section} page_section`}>
 
 
-                <Image priority className={styles.landing_image} fill style={{ objectFit: "cover", objectPosition: "center" }} src={"/images/svgs/footerbg.svg"} alt="Heathrow Gatwick Transfers Hero Image" sizes="100vw" />
+                <Image  className={styles.landing_image} fill style={{ objectFit: "cover", objectPosition: "center" }} src={"/images/svgs/footerbg.svg"} alt="Heathrow Gatwick Transfers Hero Image" sizes="100vw" />
                 <div className={`${styles.footer_section_container} page_section_container`}>
 
                     <div className={styles.footer_info}>
