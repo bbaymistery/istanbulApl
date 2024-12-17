@@ -307,7 +307,6 @@ const Hero = (props) => {
     return (
         <div className={`${styles.hero} ${direction} page`} >
             <div className={styles.hero_bg}>
-            {/*  */}
                 <Image priority className={styles.landing_image} src={islinknamecomponent?"/images/Mugla.webp":"/images/hero.webp"} alt="APL Transfers " width={1700} height={100} />
                 <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={59} />
             </div>

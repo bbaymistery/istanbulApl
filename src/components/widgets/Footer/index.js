@@ -38,16 +38,16 @@ const Footer = () => {
                             </p>
                             <div className={styles.social_icons}>
                                 <a href="#" target={"_blank"} title={"Airport Pickups London Facebook"}>
-                                    <Image src={fbImage} alt="Airport Pickups London Facebook" width={25} height={25} priority />
+                                    <Image src={fbImage} alt="Airport Pickups London Facebook" width={25} height={25}  />
                                 </a>
                                 <a href="#" target={"_blank"} title="Airport Pickups London Twitters">
-                                    <Image src={twImage} alt="Airport Pickups London Twitters" width={25} height={25} priority />
+                                    <Image src={twImage} alt="Airport Pickups London Twitters" width={25} height={25}  />
                                 </a>
                                 <a href="#" target="_blank" title="Airport Pickups London News RSS">
-                                    <Image src={srImage} alt="Airport Pickups London News RSS" width={25} height={25} priority />
+                                    <Image src={srImage} alt="Airport Pickups London News RSS" width={25} height={25}  />
                                 </a>
                                 <a href="#" target="_blank" title="Airport Pickups London Instigram page">
-                                    <Image src={instaIamge} alt="Airport Pickups London Instigram page" width={25} height={25} priority />
+                                    <Image src={instaIamge} alt="Airport Pickups London Instigram page" width={25} height={25}  />
                                 </a>
                             </div>
                         </div>
@@ -123,11 +123,11 @@ const Footer = () => {
 
                             <div className={styles.icons_app}>
                                 <a href="#">
-                                    <Image src={appleIcon} alt="Apple" width={15} height={15} priority />
+                                    <Image src={appleIcon} alt="Apple" width={15} height={15}  />
                                     Apple
                                 </a>
                                 <a href="#">
-                                    <Image src={androidIcon} alt="Apple" width={15} height={15} priority />
+                                    <Image src={androidIcon} alt="Android" width={15} height={15}  />
                                     Android
                                 </a>
                             </div>
@@ -140,19 +140,19 @@ const Footer = () => {
                         <div>© Copyright Viatours 2024</div>
                         <div className={styles.footer_bottom_images}>
                             <div>
-                                <Image src={"/images/visa.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24} priority />
+                                <Image src={"/images/visa.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24}  />
                             </div>
                             <div>
-                                <Image src={"/images/master.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24} priority />
+                                <Image src={"/images/master.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24}  />
                             </div>
                             <div>
-                                <Image src={"/images/applePay.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24} priority />
+                                <Image src={"/images/applePay.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24}  />
                             </div>
                             <div>
-                                <Image src={"/images/paypal.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24} priority />
+                                <Image src={"/images/paypal.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24}  />
                             </div>
                             <div>
-                                <Image src={"/images/amex.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24} priority />
+                                <Image src={"/images/amex.webp"} alt="Airport Pickups London Facebook" style={{objectFit:"contain"}} width={48} height={24}  />
                             </div>
                         </div>
                     </div>
