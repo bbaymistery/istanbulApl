@@ -307,7 +307,7 @@ const Hero = (props) => {
     return (
         <div className={`${styles.hero} ${direction} page`} >
             <div className={styles.hero_bg}>
-                {/* <Image
+                <Image
                     priority
                     className={styles.landing_image}
                     src={islinknamecomponent ? "/images/Mugla.webp" : "/images/hero.webp"}
@@ -315,22 +315,8 @@ const Hero = (props) => {
                     width={1700}
                     height={100}
                     sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 1160px"
-                    quality={75} /> */}
-
-<Image
-    priority
-    className={styles.landing_image}
-    src={islinknamecomponent ? "/images/Mugla.webp" : "/images/hero.webp"}
-    alt="APL Transfers"
-    width={1700} /* Genişlik sadece fallback içindir */
-    height={100}
-    sizes="(max-width: 600px) 100vw, 
-           (max-width: 1200px) 50vw, 
-           (min-width: 1220px) calc(100vw - 120px), 
-           1275px"
-    quality={75}
-/>
-
+                    quality={75} />
+                    
                 <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={59} />
             </div>
             <div className={`${styles.hero_section} page_section`}>
