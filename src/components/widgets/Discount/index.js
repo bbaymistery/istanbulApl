@@ -48,7 +48,11 @@ const Discount = () => {
                 <div className={`${styles.discount_section_container} page_section_container`}>
                     <div className={styles.type}>
                         <div className={styles.bg_image}>
-                            <Image  className={styles.landing_image} fill style={{ objectFit: "cover", objectPosition: "CENTER" }} src={"/images/bgDiscount.webp"} alt="Image" sizes="100vw" />
+                            <Image className={styles.landing_image} fill style={{ objectFit: "cover", objectPosition: "center" }} src={"/images/bgDiscount.webp"} alt="Image"
+                                sizes="(max-width: 600px) 100vw, 
+               (max-width: 1280px) 100vw, 
+               (max-width: 1440px) 1539px, 
+               100vw" />
                         </div>
                         <div className={styles.content}>
                             <div className={styles.left}>
@@ -66,7 +70,7 @@ const Discount = () => {
                                 </div>
                             </div>
                             <div className={`${styles.right} `}>
-                                <Image className={styles.landing_image} src={"/images/750600.webp"} alt="Image" width={width<990?350:700} height={width<990?350:600} />
+                                <Image className={styles.landing_image} src={"/images/750600.webp"} alt="Image" width={width < 990 ? 350 : 700} height={width < 990 ? 350 : 600} />
                             </div>
 
 
