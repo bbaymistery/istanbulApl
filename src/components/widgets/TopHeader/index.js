@@ -109,7 +109,7 @@ const Header = () => {
                   <Image src={`/languages/${language}.gif`} width={20} height={11} priority alt={language} data-name="language" />
                 </div>
                 <span data-name="language" onClick={setOpenLanguageDropdown} className={styles.lang_text}>
-                  {appData?.languages[reducerLangIndex]?.innerText}
+                  {/* {appData?.languages[reducerLangIndex]?.innerText} */}
                   {router.asPath === "/drivers-wanted" ? <></> : <i className="fa-solid fa-angle-down"></i>}
                 </span>
               </div>

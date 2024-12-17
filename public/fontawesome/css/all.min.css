@@ -31,7 +31,9 @@
 .fa-calendar-days:before {
     content: "\f073"
 }
-
+.fa-calendar:before {
+    content: "\f133"
+}
 .fa-users:before {
     content: "\f0c0"
 }

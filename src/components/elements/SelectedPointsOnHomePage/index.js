@@ -4,12 +4,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import styles from "./styles.module.scss"
 const SelectedPointsOnHomePage = (params = {}) => {
     //hasOneItem related to taxi deals
-    let { points, index, destination, getQuotations = () => { }, hasOneItem = false, env } = params
+    let { points, index, destination, getQuotations = () => { }, env } = params
     const dispatch = useDispatch()
     const router = useRouter()
     const state = useSelector((state) => state.pickUpDropOffActions);
-    let { params: { direction,  }, reservations } = state
-    const { appData } = useSelector(state => state.initialReducer)
+    let { params: { direction, }, reservations } = state
 
 
     const handleDelete = (params = {}) => {
@@ -28,13 +27,13 @@ const SelectedPointsOnHomePage = (params = {}) => {
             return (
                 <div key={index} className={styles.point_div} direction={String(direction === "rtl")} title={addressText}>
                     <input type="text" readOnly={true} className={direction} name="pickup-address" placeholder={addressText} />
-                    {!hasOneItem ?
-                        <span hideme={String(router.pathname === "/quotation-result")} className={`${styles.icons} ${styles.icons_delete_span}`} onClick={(e) => handleDelete({ currentIndexOfDeletedItem: index, v: e.target })}>
-                            <i className="fa fa-times sef-loc-delete" aria-hidden="true"  ></i>
-                        </span> : <></>}
-                    {<span hideme={String(router.pathname === "/quotation-result")} className={`${styles.icons_check_span} ${styles.icons}`}>
+
+                    <span hideme={String(router.pathname === "/quotation-result")} className={`${styles.icons} ${styles.icons_delete_span}`} onClick={(e) => handleDelete({ currentIndexOfDeletedItem: index, v: e.target })}>
+                        <i className="fa fa-times sef-loc-delete" aria-hidden="true"  ></i>
+                    </span> 
+                    <span hideme={String(router.pathname === "/quotation-result")} className={`${styles.icons_check_span} ${styles.icons}`}>
                         <i className={`fa-solid fa-check ${styles.check_button}`} aria-hidden="true"></i>
-                    </span>}
+                    </span>
 
                 </div>)
         })}

@@ -50,9 +50,17 @@
 
 
         &_container {
-            @media (max-width:990px) {
+            @media (max-width:1400px) {
+                max-width: 1200px !important;
                 padding: 0px !important;
             }
+
+            @media (max-width:1200px) {
+                max-width: 800px !important;
+                padding: 0px !important;
+                width: 100%;
+            }
+
 
             .points_content {
 
@@ -138,15 +146,9 @@
 
                     .return_journey_title {
                         color: $--color-light-2;
-                        margin: 59px 0px 24px 4px !important;
-                        width: 100%;
+                        margin: 24px 0px 24px 4px !important;
                         font-size: 24px;
                         text-transform: capitalize;
-
-                        @media(max-width:990px) {
-                            margin: 24px 0px 24px 4px !important;
-                        }
-
                     }
 
                     .tr_journey_title {
@@ -165,15 +167,58 @@
                         gap: 1rem;
                         width: 100%;
 
-                        @media (max-width:990px) {
-                            flex-direction: column;
+                        @media (max-width: 1200px) {
+                            grid-template-columns: 1fr 1fr; // 2 columns on smaller screens
+                            grid-template-areas: "pickup dropoff" "date time" "button button";
+                            gap: 1.5rem;
+
+                            // Assign grid areas to child elements
+                            .main_search_wrapper:nth-child(1) {
+                                grid-area: pickup;
+                            }
+
+                            // First pickup input
+                            .main_search_wrapper:nth-child(2) {
+                                grid-area: dropoff;
+                            }
+
+                            // Second dropoff input
+                            .main_search_wrapper:nth-child(3) {
+                                grid-area: date;
+                            }
+
+                            // Date input
+                            .main_search_wrapper:nth-child(4) {
+                                grid-area: time;
+                            }
+
+                            // Time select
+                            .btn_div {
+                                grid-area: button;
+                            }
                         }
+
+                        // Quotation button
+                        // For screens <= 990px: each column takes full width (1fr)
+                        @media (max-width: 990px) {
+                            grid-template-columns: 1fr; // Single column layout
+                            grid-template-areas: "pickup" "dropoff" "date" "time" "button";
+                        }
+
 
 
                         .main_search_wrapper {
                             display: flex;
                             align-items: flex-start;
-                            border: 1px dashed red;
+
+                            //!Option 2
+                            @media (max-width: 1200px) {
+
+                                // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                // padding: 5px;
+                                // border-radius: 20px;
+                                // border-bottom: 1px solid $--color-light-6;
+                            }
 
                             .icon_wrapper {
                                 width: 50px;
@@ -183,7 +228,11 @@
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                color: #5d646d;
+                                color: $--color-light-2;
+
+                                i {
+                                    font-size: 16px;
+                                }
                             }
 
                             //pick up drop of input
@@ -339,10 +388,14 @@
                                         border: 0;
                                         outline: none;
                                         width: 100%;
-                                        font-size: 14px;
+                                        font-size: 15px;
                                         line-height: 1.4;
                                         color: $--color-light-2;
-                                        font-weight: 400;
+
+                                        @media(max-width:1200px) {
+                                            // -webkit-appearance: menulist;
+                                            border-bottom: 1px solid $--color-light-6;
+                                        }
 
                                         &::placeholder {
                                             text-transform: capitalize;
@@ -432,51 +485,25 @@
                                     cursor: pointer;
 
                                     .add_point_icon {
-                                        font-size: 13px;
+                                        font-size: 12px;
                                         margin-right: 0.6rem;
                                         color: $--color-light-2;
                                     }
 
                                     .add_point_text {
                                         color: $--color-light-2;
-                                    }
-
-                                    &:hover {
-
-                                        .add_point_icon {
-                                            color: darken($--color-light-2, 5%);
-                                        }
-
-                                        .add_point_text {
-                                            color: darken($--color-light-2, 5%);
-                                        }
+                                        font-size: 14px;
                                     }
                                 }
                             }
 
-                            .hide_mobile {
-                                opacity: 0 !important;
 
-                                @media (max-width:990px) {
-                                    opacity: 1 !important;
-                                    display: none;
-                                }
-                            }
-
-                            //2022-12-12
                             .book_input_date {
                                 position: relative;
-                            
+
                                 .date_div {
-                                    max-width: 184px;
                                     width: 100%;
-                            
-                                    @media (max-width: 990px) {
-                                        padding-right: 0;
-                                        padding-bottom: 4px;
-                                        max-width: 100%;
-                                    }
-                            
+
                                     input[type="date"] {
                                         position: relative;
                                         text-align: left;
@@ -488,42 +515,41 @@
                                         min-height: 28px !important;
                                         height: 28px !important;
                                         border: 0;
-                                        border-bottom: 1px solid $--color-light-5;
                                         outline: none;
-                                        padding: 1px 2px;
                                         outline-offset: -2px;
                                         background-color: rgb(255, 255, 255);
-                                        font-weight: 500;
                                         font-size: 15px;
-                            
-                                        @media (max-width: 990px) {
-                                            padding: 1px 0;
+
+                                        @media(max-width:1200px) {
+                                            // -webkit-appearance: menulist;
+                                            border-bottom: 1px solid $--color-light-6;
                                         }
-                            
+
                                         &::before,
                                         &::after {
                                             content: '';
                                             position: absolute;
                                             height: 50%;
-                                            border-color: transparent transparent transparent rgba(#5d646d, 0.5);
+                                            border-color: transparent transparent transparent rgba($--color-light-2, 0.5);
                                             border-style: solid;
                                             border-width: 1px;
                                             transform: skewX(-15deg);
                                             top: 6px;
-                            
+
                                             @media (max-width: 768px) {
                                                 display: none !important;
                                             }
                                         }
-                            
+
                                         &::before {
                                             left: 23px;
                                         }
-                            
+
                                         &::after {
                                             left: 52px;
                                         }
-                            
+
+                                        // /default calendar isaresi 
                                         &::-webkit-calendar-picker-indicator,
                                         &::-webkit-inner-spin-button,
                                         &::-webkit-clear-button {
@@ -539,87 +565,83 @@
                                             user-select: none;
                                             z-index: 1;
                                         }
-                            
+
                                         &::-webkit-date-and-time-value {
                                             text-align: left;
                                             display: flex;
                                             align-items: center;
                                             height: 100%;
                                         }
-                            
+
+                                        //calendarin icindeki regemlerin rengi
                                         &::-webkit-datetime-edit,
                                         &::-webkit-inner-spin-button,
                                         &::-webkit-clear-button {
-                                            color: rgb(253, 253, 253);
+                                            color: white;
                                             position: relative;
                                             left: 0;
                                             text-align: left;
+                                            font-size: 15px;
                                         }
-                            
+
                                         &::-webkit-datetime-edit-year-field,
                                         &::-webkit-datetime-edit-month-field,
                                         &::-webkit-datetime-edit-day-field {
                                             position: absolute !important;
-                                            color: rgba($--color-dark-1, 1);
+                                            color: $--color-light-2;
                                             padding: 0;
-                            
-                                            &:focus {
-                                                background-color: $--color-accent-1;
-                                                color: white;
-                                                outline: none;
-                                            }
                                         }
-                            
+
                                         &::-webkit-datetime-edit-year-field {
                                             left: 54px;
                                             padding: 0 7px;
                                         }
-                            
+
                                         &::-webkit-datetime-edit-month-field {
                                             left: 22px;
                                             padding: 0 7px;
                                         }
-                            
+
                                         &::-webkit-datetime-edit-day-field {
                                             left: 0;
                                         }
-                            
+
                                         &.rtl {
                                             &::before {
                                                 left: 95px;
-                            
+
                                                 @media (max-width: 1250px) {
                                                     left: 73px;
                                                 }
                                             }
-                            
+
                                             &::after {
                                                 left: 67px;
-                            
+
                                                 @media (max-width: 1250px) {
                                                     left: 47px;
                                                 }
                                             }
-                            
+
                                             &::-webkit-datetime-edit-year-field {
                                                 left: 18px;
-                            
+
                                                 @media (max-width: 1250px) {
                                                     left: 0;
                                                 }
                                             }
-                            
+
                                             &::-webkit-datetime-edit-month-field {
                                                 left: 65px;
-                            
+
                                                 @media (max-width: 1250px) {
                                                     left: 45px;
                                                 }
                                             }
-                            
+
                                             &::-webkit-datetime-edit-day-field {
                                                 left: 100px;
-                            
+
                                                 @media (max-width: 1250px) {
                                                     left: 80px;
                                                 }
@@ -627,29 +649,7 @@
                                         }
                                     }
                                 }
-                            
-                                .date_picker_icon {
-                                    top: 60px;
-                                    transform: translateY(-100%);
-                                    right: 13px;
-                                    font-size: 14px;
-                                    user-select: none;
-                                    color: $--color-accent-1;
-                                    position: absolute;
-                                    z-index: 0;
-                                    font-style: normal !important;
-                            
-                                    @media (max-width: 990px) {
-                                        right: 5px;
-                                    }
-                                }
-                            
-                                .date_picker_icon_on_linkame {
-                                    top: 56px;
-                                }
                             }
-                            
-
 
                             .hours_minutes {
                                 display: flex;
@@ -657,45 +657,25 @@
 
                                 .select_time_div {
                                     display: flex;
-                                    color: $--color-light-2;
-                                    width: 194px;
-                                    padding-right: 10px;
-                                    color: rgba($--color-dark-1, 1);
-                                    font-weight: 500;
-
-                                    @media(max-width:1400px) {
-                                        max-width: 150px;
-                                        width: 100%;
-                                    }
-
-                                    @media(max-width:990px) {
-                                        max-width: 100% !important;
-                                    }
-
-                                    height: 28px;
-                                    gap: 16px;
-
+                                    gap: 8px;
 
                                     .booking_form_hour_minute_wrapper {
-                                        // max-width: 145px;
                                         width: 100%;
                                         position: relative;
-                                        border: 0px;
-                                        border-bottom: 1px solid $--color-light-5;
 
                                         @media(max-width:990px) {
                                             max-width: 100%;
                                         }
 
                                         select {
-                                            -webkit-appearance: none;
                                             border: none;
                                             width: 100%;
                                             font-size: 15px;
-                                            background-color: white;
+                                            color: $--color-light-2;
 
-                                            @media(max-width:990px) {
-                                                -webkit-appearance: menulist;
+                                            @media(max-width:1200px) {
+                                                // -webkit-appearance: menulist;
+                                                border-bottom: 1px solid $--color-light-6;
                                             }
 
                                             &:focus {
@@ -703,19 +683,7 @@
                                             }
                                         }
 
-                                        i {
-                                            position: absolute;
-                                            right: 7px;
-                                            font-size: 13px;
-                                            color: $--color-accent-1;
-                                            font-style: normal;
-                                            z-index: 0;
-                                            pointer-events: none;
 
-                                            @media(max-width:990px) {
-                                                display: none;
-                                            }
-                                        }
 
                                         .left {
                                             position: absolute;
@@ -734,48 +702,46 @@
                                 }
                             }
 
-                            .btn_div {
-                                margin-top: 17px;
-                                min-width: 166px;
 
-                                @media(max-width:1400px) {
-                                    min-width: 144px;
-                                }
+                        }
 
-                                @media(max-width:990px) {
-                                    max-width: 100%;
+                        .btn_div {
+                            position: relative;
 
-                                    button {
-                                        width: 100%;
-                                    }
-                                }
+                            @media (max-width: 1200px) {
+                                grid-area: button;
+                                max-width: 200px; // Limit the button's width
+                                justify-self: flex-end; // Centers the button horizontally within its grid cell
+                            }
 
-                                button {
-                                    i {
-                                        @media (max-width:1400px) {
-                                            display: none;
-                                        }
+                            @media (max-width: 990px) {
+                                max-width: 100%; // Limit the button's width
+                                width: 100%;
+                            }
+                            button {
+                                width: 100%;
 
-                                        @media(max-width:990px) {
-                                            display: block;
-                                        }
-                                    }
-                                }
-
-                                .waveloadingdiv {
-                                    min-width: 166px;
-                                    height: 50px;
-                                    border-radius: 4px;
-                                    border: 1px solid $--color-accent-1;
-                                    cursor: not-allowed;
-
-                                    @media(max-width:1400px) {
-                                        min-width: 144px;
-                                    }
+                                i {
+                                    display: none;
 
                                     @media(max-width:990px) {
-                                        min-width: 100%;
+                                        display: block;
                                     }
+                                }
+                            }
+
+                            .waveloadingdiv {
+                                width: 100%;
+                                height: 50px;
+                                border-radius: 4px;
+                                border: 1px solid $--color-accent-1;
+                                cursor: not-allowed;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                @media(max-width:990px) {
+                                    min-width: 100%;
                                 }
                             }
                         }

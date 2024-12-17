@@ -57,6 +57,10 @@
         .icons_delete_span {
             opacity: 0;
             color: red;
+
+            @media(max-width:990px) {
+                opacity: 1;
+            }
         }
 
         &:hover {
@@ -89,20 +93,4 @@
             }
         }
     }
-
-
-    // .point_div[direction="true"] {
-    //     img {
-    //         top: 24%;
-    //         right: 9px !important;
-    //         transform: translateY(-50%);
-    //         transform: rotate(180deg);
-    //     }
-
-    //     .icons {
-    //         top: 12px;
-    //         left: 10px !important;
-    //     }
-    // }
-
 }

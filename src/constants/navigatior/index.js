@@ -111,55 +111,31 @@ export const navigator = [
         hasTaxiDeals: "",
         strInnerText: "strNavHome",
     },
-    // {
-    //     innerText: "airports",
-    //     path: "/",
-    //     type: "list",
-    //     hasTaxiDeals: "",
-    //     strInnerText: "strAirportTaxi",
-    //     list: [
-    //         {
-    //             innerText: "Heathrow Airport Transfer",
-    //             path: "/heathrow-taxi-prices",
-    //             title: "strHeathrowTaxiPrices",
-    //             type: "cell",
-    //             hasTaxiDeals: "heathrow",
-    //             strInnerText: "strHeathrowTaxiPrices",
-    //         },
-    //         {
-    //             innerText: "Gatwick Airport Transfer",
-    //             path: "/gatwick-taxi-prices",
-    //             title: "strGatwickTaxiPrices",
-    //             type: "cell",
-    //             hasTaxiDeals: "gatwick",
-    //             strInnerText: "strGatwickTaxiPrices",
-    //         },
-    //         {
-    //             innerText: "City Airport Transfer",
-    //             path: "/london-city-taxi-prices",
-    //             title: "strLCYTaxiPrices",
-    //             type: "cell",
-    //             hasTaxiDeals: "city airport",
-    //             strInnerText: "strLCYTaxiPrices"
-    //         },
-    //         {
-    //             innerText: "Luton Airport Transfer",
-    //             path: "/luton-taxi-prices",
-    //             title: "strLutonTaxiPrices",
-    //             type: "cell",
-    //             hasTaxiDeals: "luton",
-    //             strInnerText: "strLutonTaxiPrices"
-    //         },
-    //         {
-    //             innerText: "Stansted Airport Transfer",
-    //             path: "/stansted-taxi-prices",
-    //             title: "strStanstedTaxiPrices",
-    //             type: "cell",
-    //             hasTaxiDeals: "stansted",
-    //             strInnerText: "strStanstedTaxiPrices"
-    //         }
-    //     ]
-    // },
+    {
+        innerText: "airports",
+        path: "/Airports",
+        type: "list",
+        hasTaxiDeals: "",
+        strInnerText: "strAirportTaxi",
+        list: [
+            {
+                innerText: "Heathrow Airport Transfer",
+                path: "/heathrow-taxi-prices",
+                title: "strHeathrowTaxiPrices",
+                type: "cell",
+                hasTaxiDeals: "heathrow",
+                strInnerText: "strHeathrowTaxiPrices",
+            },
+            {
+                innerText: "Gatwick Airport Transfer",
+                path: "/gatwick-taxi-prices",
+                title: "strGatwickTaxiPrices",
+                type: "cell",
+                hasTaxiDeals: "gatwick",
+                strInnerText: "strGatwickTaxiPrices",
+            },
+        ]
+    },
     // {
     //     innerText: "Cruise Ports",
     //     path: "/",

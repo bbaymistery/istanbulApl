@@ -15,8 +15,13 @@
         grid-template-columns: 131px 127px;
         visibility: hidden;
         opacity: 0;
-        left: -230px;
+        left: -195px;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        user-select: none;
+
+        @media (max-width: 990px) {
+            left: -205px;
+        }
 
         &:before {
             content: '';
@@ -29,11 +34,15 @@
             transform: rotate(45deg);
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
+            left: 240px;
+
             @media(max-width:1280px) {
                 left: 253px;
             }
 
-            left: 240px;
+            @media(max-width:990px) {
+                left: 240px;
+            }
         }
 
         .content {

@@ -10,7 +10,6 @@ import RadioButton from './RadioButton'
 import { useRouter } from 'next/router'
 import React, { useCallback, useEffect, } from 'react'
 import Image from 'next/image';
-import { useWindowSize } from '../../../hooks/useWindowSize';
 import dynamic from 'next/dynamic'
 import { BUTTON_TYPES } from '../../elements/Button/ButtonTypes';
 import Button from '../../elements/Button/Button';
@@ -303,14 +302,12 @@ const Hero = (props) => {
         // bu rendere sebeb olur
         dispatch({ type: "CHECHK_FLIGHT_WAITING_TIME", data: { journeyType } })
     }, [])
-    let size = useWindowSize();
-    let { width } = size
-    console.log(internalState);
+
 
     return (
         <div className={`${styles.hero} ${direction} page`} >
             <div className={styles.hero_bg}>
-                <Image priority className={styles.landing_image} src={"/images/test111.jpg"} alt="APL Transfers " width={1700} height={100} />
+                <Image priority className={styles.landing_image} src={"/images/hero.webp"} alt="APL Transfers " width={1700} height={100} />
                 <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={59} />
             </div>
             <div className={`${styles.hero_section} page_section`}>
@@ -338,7 +335,7 @@ const Hero = (props) => {
                                                 <div className={styles.icon_wrapper}>
                                                     <i className='fa-solid fa-location-dot'></i>
                                                 </div>
-                                                <div className={`${styles.search_menu} ${styles.first_column}`}>
+                                                <div className={`${styles.search_menu}`}>
                                                     {/* Pick up location text */}
                                                     {!selectedPickupPoints.length > 0 ? <p className={direction}>{appData?.words["sePickUpLocation"]}</p> : <React.Fragment></React.Fragment>}
                                                     {/* Pick Points text */}
@@ -405,7 +402,7 @@ const Hero = (props) => {
                                                 <div className={styles.icon_wrapper}>
                                                     <i className='fa-solid fa-location-dot'></i>
                                                 </div>
-                                                <div className={`${styles.search_menu} ${styles.second_column}`}>
+                                                <div className={`${styles.search_menu}`}>
                                                     {/* Pick up location text */}
                                                     {!selectedDropoffPoints.length > 0 ? <p className={direction}>{appData?.words["seDropOffLocation"]}</p> : <React.Fragment></React.Fragment>}
                                                     {/* Pick Points text */}
@@ -465,6 +462,75 @@ const Hero = (props) => {
                                                     </OutsideClickAlert>
                                                 </div>
                                             </div>
+
+                                            <div className={styles.main_search_wrapper}>
+                                                <div className={styles.icon_wrapper}>
+                                                    <i className="fa-solid fa-calendar"></i>
+                                                </div>
+                                                <div className={`${styles.book_input_date} ${styles.search_menu}`}>
+                                                    <p className={direction}>{selectedPickupPoints[0]?.pcatId === 1 ? appData?.words["seLandingDate"] : appData?.words["sePickUpDate"]}</p>
+                                                    <div className={`${styles.date_div} ${direction === 'rtl' && styles.date_div_rtl}`}>
+                                                        <input
+                                                            aria-label="date"
+                                                            type="date"
+                                                            name="pickup-date"
+                                                            className={direction === "rtl" ? styles.rtl : ""}
+                                                            value={splitedDate}
+                                                            min={index === 0 ? currentDate() : reservations[0].transferDetails.transferDateTimeString.split(" ")[0]}
+                                                            onChange={(e) => onChangeSetDateTimeHandler({ value: e.target.value, hourOrMinute: "date", journeyType: index })}
+                                                        />
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div className={styles.main_search_wrapper}>
+                                                <div className={styles.icon_wrapper}>
+                                                    <i className="fa-solid fa-clock"></i>
+                                                </div>
+
+                                                <div className={` ${styles.search_menu} ${styles.hours_minutes} `}>
+                                                    <p className={direction}>{selectedPickupPoints[0]?.pcatId === 1 ? appData?.words["seLandingTime"] : appData?.words["sePickUpTime"]}</p>
+                                                    <div className={`${styles.select_time_div} ${direction}`}>
+                                                        {Array.from(new Array(2)).map((arr, i) => {
+                                                            return (
+                                                                <div key={i} className={styles.booking_form_hour_minute_wrapper}>
+                                                                    <label htmlFor={i}></label>
+                                                                    <select
+                                                                        aria-label={i}
+                                                                        defaultValue={i === 0 ? splitedHour : splitedMinute}
+                                                                        onChange={(e) => onChangeSetDateTimeHandler({ value: e.target.value, hourOrMinute: i === 0 ? "hour" : "minute", journeyType: index })} >
+                                                                        {/* //if index==0 thenhours will show up if not then minutes show up */}
+                                                                        {i === 0
+                                                                            ? hours.map((hour) => (<option key={hour.id} id={hour.id + 50} value={hour.value}> {hour.value} </option>))
+                                                                            : minutes.map((minute) => (<option key={minute.id} id={minute.id} value={minute.value}  > {minute.value} </option>))}
+                                                                    </select>
+                                                                </div>)
+                                                        })}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* when jtype is 1  button not gonna be visible on transfer details point */}
+                                            {index === 1 && reservations.length > 1 || index === 0 && reservations.length === 1 ?
+                                                <div className={`${styles.btn_div}`}  >
+                                                    {internalState[`quotation-loading`] ?
+                                                        <div className={`${styles.waveloadingdiv}`} style={{ marginTop: '0px' }}>
+                                                            <WaveLoading />
+                                                        </div>
+                                                        :
+                                                        <Button
+                                                            onBtnClick={(e) => getQuotations(e)}
+                                                            type={BUTTON_TYPES.PRIMARY}
+                                                            style={{ fontSize: "14px", padding: `${"10px"}` }}
+                                                            btnText={appData?.words["seGetQuotation"]}
+                                                            icon={<i className="fa-solid fa-magnifying-glass"></i>}
+                                                            iconPos="LEFT" />
+                                                    }
+                                                </div>
+                                                : <React.Fragment></React.Fragment>}
                                         </div>
 
                                     </div>
