@@ -48,7 +48,7 @@ const Discount = () => {
                 <div className={`${styles.discount_section_container} page_section_container`}>
                     <div className={styles.type}>
                         <div className={styles.bg_image}>
-                            <Image priority className={styles.landing_image} fill style={{ objectFit: "cover", objectPosition: "CENTER" }} src={"/images/bgDiscount.webp"} alt="Image" sizes="100vw" />
+                            <Image  className={styles.landing_image} fill style={{ objectFit: "cover", objectPosition: "CENTER" }} src={"/images/bgDiscount.webp"} alt="Image" sizes="100vw" />
                         </div>
                         <div className={styles.content}>
                             <div className={styles.left}>
