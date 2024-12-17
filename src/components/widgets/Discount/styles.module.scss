@@ -43,6 +43,11 @@
                         position: relative;
                         background-color: transparent;
                         flex: 1;
+
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                        }
                     }
 
                     .left {
@@ -62,9 +67,9 @@
                             h1 {
                                 font-size: $--text-40;
                                 font-weight: bold;
+
                                 @media(max-width:990px) {
                                     font-size: $--text-24;
-
                                 }
                             }
                         }
@@ -82,16 +87,35 @@
                     }
 
                     .svgs {
-                        @media(max-width:990px) {
-                            display: none;
+
+                        .img_one_div {
+                            img {
+                                position: absolute;
+                                left: 54%;
+                                transform: translateX(-50%);
+                                top: 0;
+                                bottom: 0;
+
+                                @media(max-width:990px) {
+                                    display: none;
+                                }
+                            }
                         }
 
-                        img {
-                            position: absolute;
-                            left: 54%;
-                            transform: translateX(-50%);
-                            top: 0;
-                            bottom: 0;
+                        .img_two_div {
+                            img {
+                                position: absolute;
+                                top: 43%;
+                                /* Move to 50% from the top */
+                                left: 0%;
+                                right: 0%;
+                                /* Move to 50% from the left */
+                                transform: translateY( -50%);
+                                /* Offset by 50% of its own width and height */
+                                width: 100%;
+                                /* For debugging (optional) */
+                                // object-fit: cover;
+                            }
                         }
                     }
                 }
