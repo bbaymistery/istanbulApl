@@ -173,7 +173,7 @@ const TransferDetails = (props) => {
                                                     </div>
                                                     : <></>}
                                             </div>
-                                            <TransferJourneySummaryPanel journeyType={journeyType} index={index} splitedHour={splitedHour} splitedMinute={splitedMinute} splitedDate={splitedDate} quotation={quotation} selectedDropoffPoints={selectedDropoffPoints} selectedPickupPoints={selectedPickupPoints} />
+                                            <TransferJourneySummaryPanel language={language} journeyType={journeyType} index={index} splitedHour={splitedHour} splitedMinute={splitedMinute} splitedDate={splitedDate} quotation={quotation} selectedDropoffPoints={selectedDropoffPoints} selectedPickupPoints={selectedPickupPoints} />
                                         </div>
 
                                     </div>

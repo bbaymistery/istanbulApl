@@ -2,10 +2,11 @@
 
 .hero {
     position: relative;
-    padding-top: 190px;
+    padding-top: 90px;
     padding-bottom: 218px;
     margin-top: 88px;
     z-index: 5;
+    height: 770px;
 
     @media (max-width:990px) {
         padding-top: 40px;
@@ -200,15 +201,6 @@
                             display: flex;
                             align-items: flex-start;
 
-                            //!Option 2
-                            @media (max-width: 1200px) {
-
-                                // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-                                // padding: 5px;
-                                // border-radius: 20px;
-                                // border-bottom: 1px solid $--color-light-6;
-                            }
-
                             .icon_wrapper {
                                 width: 50px;
                                 height: 50px;
@@ -376,10 +368,8 @@
                                         line-height: 1.4;
                                         color: $--color-light-2;
 
-                                        @media(max-width:1200px) {
-                                            // -webkit-appearance: menulist;
-                                            border-bottom: 1px solid $--color-light-6;
-                                        }
+                                        border-bottom: 1px solid $--color-light-6;
+                                
 
                                         &::placeholder {
                                             text-transform: capitalize;
@@ -503,10 +493,8 @@
                                         background-color: rgb(255, 255, 255);
                                         font-size: $--text-15;
 
-                                        @media(max-width:1200px) {
-                                            // -webkit-appearance: menulist;
-                                            border-bottom: 1px solid $--color-light-6;
-                                        }
+                                        border-bottom: 1px solid $--color-light-6;
+                                
 
                                         &::before,
                                         &::after {
@@ -656,10 +644,9 @@
                                             font-size: $--text-15;
                                             color: $--color-light-2;
 
-                                            @media(max-width:1200px) {
-                                                // -webkit-appearance: menulist;
-                                                border-bottom: 1px solid $--color-light-6;
-                                            }
+                                            // -webkit-appearance: menulist;
+                                            border-bottom: 1px solid $--color-light-6;
+                                       
 
                                             &:focus {
                                                 outline: 0px !important;

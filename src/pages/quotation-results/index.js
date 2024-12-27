@@ -128,7 +128,7 @@ const collectQuotations = (params = {}, callback = () => { }) => {
 
             })
             .catch((error) => {
-                let message = "APL  Quotation Result component _collectQuotations()  function catch blog  parseInt(journeyType) === 0"
+                let message = "Istanbul  Quotation Result component _collectQuotations()  function catch blog  parseInt(journeyType) === 0"
                 window.handelErrorLogs(error, message, { configTransfer })
             });
     } else {
@@ -138,7 +138,7 @@ const collectQuotations = (params = {}, callback = () => { }) => {
                 callback(data, "data");
             })
             .catch(function (error) {
-                let message = "APL Quotation Result  _collectQuotations()  function catch blog  else part of>> parseInt(journeyType) === 0"
+                let message = "Istanbul Quotation Result  _collectQuotations()  function catch blog  else part of>> parseInt(journeyType) === 0"
                 window.handelErrorLogs(error, message, { configReturn })
             });
     }

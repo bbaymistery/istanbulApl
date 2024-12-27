@@ -9,6 +9,7 @@ import WaveLoading from '../LoadingWave';
 import HeaderOfResults from './HeaderOfResults';
 import { BUTTON_TYPES } from '../Button/ButtonTypes';
 import Button from '../Button/Button';
+import { splitAndTranslateDuration } from '../../../helpers/splitHelper';
 
 const checkJourneyTypeAndAddQuotationToReducer = (params = {}) => {
   //by this index  we r gonna assure in which journey we should add quotation
@@ -67,6 +68,11 @@ const CardQuotationItem = (params = {}) => {
   const [journeyAccrodionStatus, setJourneyAccrodionStatus] = useState(true)
   const [returnJourneyAccordionStatus, setReturnJourneyAccordionStatus] = useState(true)
 
+  // Check if distance exists, remove 'mile', and convert to km
+  const distanceInMiles = distance ? parseFloat(distance.replace(' mile', '')) : null;
+  const distanceInKm = distanceInMiles ? (distanceInMiles * 1.60934).toFixed(2) : null;
+  // Format the duration based on the language
+  const formattedDuration = splitAndTranslateDuration(duration, language, appData);
 
 
   useEffect(() => {
@@ -158,7 +164,7 @@ const CardQuotationItem = (params = {}) => {
                     <div className={styles.name_and_postcode_div}>
                       <div className={styles.postcode}>
                         <p className={styles.type}>  {carObject[item?.carId]?.transferType}</p>
-                        <p className={styles.durationn}><i className="fa-solid fa-clock"></i>  <span>{duration}</span></p>
+                        <p className={styles.durationn}><i className="fa-solid fa-clock"></i>  <span>{formattedDuration}</span></p>
                         <div className={styles.feature_column}> <i className="fa-solid fa-suitcase"></i><span>{carObject[item?.carId]?.suitcases}</span></div>
                       </div>
                       <h3 className={styles.name}>
@@ -201,7 +207,10 @@ const CardQuotationItem = (params = {}) => {
                   <div className={styles.duration_price}>
                     <span>
                       <i className="fa-solid fa-location-dot"></i>
-                      {distance}
+                      {distanceInKm} km
+                      <br />
+
+                      {distanceInMiles} {appData?.words["strMiles"]}
                     </span>
                     <div className={styles.price}>{quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`} <span>{quotationLoading ? "" : "00"}</span> </div>
                   </div>
@@ -237,7 +246,7 @@ const CardQuotationItem = (params = {}) => {
                     <div className={styles.name_and_postcode_div}>
                       <div className={styles.postcode}>
                         <p className={styles.type}>  {carObject[item?.carId]?.transferType}</p>
-                        <p className={styles.durationn}><i className="fa-solid fa-clock"></i>  <span>{duration}</span></p>
+                        <p className={styles.durationn}><i className="fa-solid fa-clock"></i>  <span>{formattedDuration}</span></p>
                         <div className={styles.feature_column}> <i className="fa-solid fa-suitcase"></i><span>{carObject[item?.carId]?.suitcases}</span></div>
                       </div>
                       <h3 className={styles.name}>
@@ -287,7 +296,10 @@ const CardQuotationItem = (params = {}) => {
                   <div className={styles.duration_price}>
                     <span>
                       <i className="fa-solid fa-location-dot"></i>
-                      {distance}
+                      {distanceInKm} km
+                      <br />
+                      {distanceInMiles} {appData?.words["strMiles"]}
+
                     </span>
                     <div className={styles.price}>{quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`} <span>{quotationLoading ? "" : "00"}</span> </div>
                   </div>
@@ -321,7 +333,7 @@ const CardQuotationItem = (params = {}) => {
                     <div className={styles.name_and_postcode_div}>
                       <div className={styles.postcode}>
                         <p className={styles.type}>  {carObject[item?.carId]?.transferType}</p>
-                        <p className={styles.durationn}><i className="fa-solid fa-clock"></i>  <span>{duration}</span></p>
+                        <p className={styles.durationn}><i className="fa-solid fa-clock"></i>  <span>{formattedDuration}</span></p>
                         <div className={styles.feature_column}> <i className="fa-solid fa-suitcase"></i><span>{carObject[item?.carId]?.suitcases}</span></div>
                       </div>
                       <h3 className={styles.name}>
@@ -375,7 +387,10 @@ const CardQuotationItem = (params = {}) => {
                   <div className={styles.duration_price}>
                     <span>
                       <i className="fa-solid fa-location-dot"></i>
-                      {distance}
+                      {distanceInKm} km
+                      <br />
+                      {distanceInMiles} {appData?.words["strMiles"]}
+
                     </span>
                     <div className={styles.price}>{quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`} <span>{quotationLoading ? "" : "00"}</span> </div>
                   </div>
@@ -412,7 +427,7 @@ const CardQuotationItem = (params = {}) => {
                     <div className={styles.name_and_postcode_div}>
                       <div className={styles.postcode}>
                         <p className={styles.type}>  {carObject[item?.carId]?.transferType}</p>
-                        <p className={styles.durationn}><i className="fa-solid fa-clock"></i>  <span>{duration}</span></p>
+                        <p className={styles.durationn}><i className="fa-solid fa-clock"></i>  <span>{formattedDuration}</span></p>
                         <div className={styles.feature_column}> <i className="fa-solid fa-suitcase"></i><span>{carObject[item?.carId]?.suitcases}</span></div>
                       </div>
                       <h3 className={styles.name}>
@@ -466,7 +481,9 @@ const CardQuotationItem = (params = {}) => {
                   <div className={styles.duration_price}>
                     <span className={styles.distance}>
                       <i className="fa-solid fa-location-dot"></i>
-                      {distance}
+                      {distanceInKm} km
+                      <br />
+                      {distanceInMiles} {appData?.words["strMiles"]}
                     </span>
                     <div className={styles.price}>{quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`} <span>{quotationLoading ? "" : "00"}</span> </div>
                   </div>

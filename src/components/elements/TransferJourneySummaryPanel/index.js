@@ -1,19 +1,30 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { quotationImagesObjWebp } from '../../../constants/quotationImages'
 import styles from "./styles.module.scss"
+import { splitAndTranslateDuration } from '../../../helpers/splitHelper'
 const TransferJourneySummaryPanel = (props) => {
-    let { index, quotation, selectedPickupPoints, selectedDropoffPoints, splitedDate, splitedHour, splitedMinute, isTaxiDeal = false, journeyType } = props
+    let { index, quotation, selectedPickupPoints, selectedDropoffPoints, splitedDate, splitedHour, splitedMinute, isTaxiDeal = false, journeyType,language } = props
 
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { params: { quotations, direction } } = state
+    const [formattedDuration, setFormattedDuration] = useState(null)
 
     const { appData } = useSelector(state => state.initialReducer)
     //cartypes object for card item as {1:{image:'sds, name:Economy}}
     const carObject = appData?.carsTypes?.reduce((obj, item) => ({ ...obj, [item.id]: item, }), {});
     //https://www.tripadvisor.co.uk/Attraction_Review-g186338-d11966434-Reviews-Airport_Pickups_London-London_England.html
+    const distanceInMiles = quotations[index].distance ? parseFloat(quotations[index].distance.replace(' mile', '')) : null;
+    const distanceInKm = distanceInMiles ? (distanceInMiles * 1.60934).toFixed(2) : null;
+        // Format the duration based on the language
 
+        useEffect(() => {
+            if (quotations[index]?.duration && language && appData) {
+                const formatted = splitAndTranslateDuration(quotations[index].duration, language, appData);
+                setFormattedDuration(formatted);
+            }
+        }, [language, appData]);
     return (
         <div className={`${styles.journey_summary_panel}`}>
             <div className={styles.content}>
@@ -81,11 +92,11 @@ const TransferJourneySummaryPanel = (props) => {
                     <div className={styles.text_1}>{appData?.words["strTotalLengthofJourney"]} </div>
                     <div className={styles.duration}>
                         <span>{appData?.words["strDistance"]}</span>
-                        <span>{quotations[index].distance}</span>
+                        <span>{distanceInMiles} {appData?.words["strMiles"]} ({distanceInKm} km)</span>
                     </div>
                     <div className={styles.duration}>
                         <span>{appData?.words["strJourneyDurationTitle"]}</span>
-                        <span>{quotations[index].duration}</span>
+                        <span>{formattedDuration ? formattedDuration : quotations[index]?.duration ? quotations[index]?.duration : null}</span>
                     </div>
                 </div>
 

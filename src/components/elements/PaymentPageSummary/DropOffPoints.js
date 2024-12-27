@@ -9,7 +9,7 @@ const DropOffPoints = ({ selectedDropoffPoints, direction, language,showIcon  })
       {selectedDropoffPoints?.map((point, i) => {
         return (
           <div className={pointsStyle.details_bottom_container} key={i}>
-            <p className={pointsStyle.point_adress} direction={String(direction === 'rtl')}>{i + 1}. {language === 'en' ? point.address : point.translatedAddress}</p>
+            <p className={pointsStyle.point_adress} direction={String(direction === 'rtl')}>{i + 1}. {point?.address?.includes(point?.postcode) ? `${point?.address}` : `${point?.address} ${point?.postcode}`}</p>
             {/*  //! for flight  */}
             {point?.flightDetails?.flightNumber && (
               <div className={pointsStyle.details_bottom_description}  direction={String(direction==='rtl')}>
@@ -97,7 +97,7 @@ const DropOffPoints = ({ selectedDropoffPoints, direction, language,showIcon  })
             {point?.pcatId === 10 && point?.["address-description"] && (
               <div className={pointsStyle.details_bottom_description}>
                 <i className="fa-solid fa-circle-dot"></i>
-                <div className={styles.bottom_main_desc}>
+                <div className={pointsStyle.bottom_main_desc}>
                   <span>Description:</span>{" "}
                   <span>{point?.["address-description"]}</span>
                 </div>

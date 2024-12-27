@@ -264,7 +264,6 @@
                                gap: .5rem;
                                align-items: center;
                                margin-left: 2px;
-
                                @media (max-width: 768px) {
                                    display: none;
                                }
@@ -286,7 +285,7 @@
                            margin-bottom: 0px !important;
                            display: flex;
                            gap: 0.5rem;
-
+align-items: flex-end;
                            @media (max-width: 768px) {
                                justify-content: space-between;
                            }
@@ -522,6 +521,8 @@
                    }
 
                    .distance {
+                    text-align: center;
+                    text-transform: capitalize;
                        @media (max-width: 768px) {
                            display: none;
                        }

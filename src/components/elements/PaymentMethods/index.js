@@ -116,10 +116,10 @@ const PaymentMethods = (props) => {
           })
           .catch((error) => {
 
-            window.handelErrorLogs(error, 'APL PaymentMethods Component - stripeMethod function fetching catch blog  ', { config, url })
+            window.handelErrorLogs(error, 'iSTANBUL  PaymentMethods Component - stripeMethod function fetching catch blog  ', { config, url })
           });
       } catch (error) {
-        window.handelErrorLogs(error, ' APL PaymentMethods Component - stripeMethod function try catch blog ', { id, quotations, passengerEmail, url })
+        window.handelErrorLogs(error, ' iSTANBUL PaymentMethods Component - stripeMethod function try catch blog ', { id, quotations, passengerEmail, url })
       }
     }
   };
@@ -152,11 +152,11 @@ const PaymentMethods = (props) => {
             openPopUpWindow({ statusOfWindowCloseOrOpen: "open", url: data?.href });
           })
           .catch((error) => {
-            window.handelErrorLogs(error, 'APL PaymentMethods Component - paypalMethod function fetching catch blog  ', { config, url })
+            window.handelErrorLogs(error, 'Istanbul  PaymentMethods Component - paypalMethod function fetching catch blog  ', { config, url })
           });
       }
     } catch (error) {
-      window.handelErrorLogs(error, ' APL PaymentMethods Component - paypalMethod function try catch blog ', { id, quotations, passengerEmail, url })
+      window.handelErrorLogs(error, ' Istanbul  PaymentMethods Component - paypalMethod function try catch blog ', { id, quotations, passengerEmail, url })
     }
   };
 
@@ -232,7 +232,7 @@ const PaymentMethods = (props) => {
             clearInterval(interVal);
           }
         } catch (error) {
-          let message = "APL  PaymentMethods Component - useEffect statusToken catch blog  "
+          let message = "Istanbul  PaymentMethods Component - useEffect statusToken catch blog  "
           window.handelErrorLogs(error, message, { config })
         }
       }, 2000);

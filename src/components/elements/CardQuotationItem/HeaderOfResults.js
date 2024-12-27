@@ -7,19 +7,19 @@ const HeaderOfResults = ({duration,distance}) => {
   return (
     <div className={` ${styles.quotation_header}`}>
       <ul>
-        {distance ?
-          <li>
-            <span><i className={`fa-solid fa-check ${styles.li_icon}`}></i></span>{" "}
-            {appData?.words["strDistance"]} : <span>{distance}</span>
-          </li>
-          : (<> </>)}
+          {distance ?
+            <li>
+              <span><i className={`fa-solid fa-check ${styles.li_icon}`}></i></span>{" "}
+              {appData?.words["strDistance"]} : <span>{distance}</span>
+            </li>
+            : (<> </>)}
 
-        {duration ?
-          <li>
-            <span>  <i className={`fa-solid fa-check ${styles.li_icon}`}></i></span>{" "}
-            <span className={styles.left} >{appData?.words["strJourneyDurationTitle"]} </span> : <span>{duration}</span>
-          </li>
-          : (<> </>)}
+          {duration ?
+            <li>
+              <span>  <i className={`fa-solid fa-check ${styles.li_icon}`}></i></span>{" "}
+              <span className={styles.left} >{appData?.words["strJourneyDurationTitle"]} </span> : <span>{duration}</span>
+            </li>
+            : (<> </>)}
         <li>
           <span><i className={`fa-solid fa-check ${styles.li_icon}`}></i></span>{" "}
           {appData?.words["strWeConstantlyMonitorAllFlights"] || "We constantly monitor all flights and do not charge for flight delays  or cancellations."}
