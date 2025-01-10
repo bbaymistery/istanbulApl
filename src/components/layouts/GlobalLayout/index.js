@@ -4,7 +4,7 @@ import TopHeader from '../../widgets/TopHeader';
 import { useRouter } from 'next/router';
 import Footer from '../../widgets/Footer';
 
-const GlobalLayout = ({ children, title = "Salam", description = "Salam", keywords = "Salam", }) => {
+const GlobalLayout = ({ children, title = "APL Transfers", description = "Salam", keywords = "Salam", }) => {
   const currentYear = new Date().getFullYear(); // Get the current year
   const router = useRouter()
   return (

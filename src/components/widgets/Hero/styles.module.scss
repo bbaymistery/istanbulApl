@@ -4,11 +4,11 @@
     position: relative;
     padding-top: 90px;
     padding-bottom: 218px;
-    margin-top: 88px;
     z-index: 5;
     height: 770px;
+    margin-top: 87px ;
 
-    @media (max-width:990px) {
+    @media (max-width:1000px) {
         padding-top: 40px;
     }
 
@@ -22,7 +22,7 @@
         border-radius: 12px;
         z-index: -1;
 
-        @media (max-width:990px) {
+        @media (max-width:1000px) {
             right: 0px;
             left: 0px;
             border-radius: 0px;
@@ -191,8 +191,8 @@
                         }
 
                         // Quotation button
-                        // For screens <= 990px: each column takes full width (1fr)
-                        @media (max-width: 990px) {
+                        // For screens <= 1000px: each column takes full width (1fr)
+                        @media (max-width: 1000px) {
                             grid-template-columns: 1fr; // Single column layout
                             grid-template-areas: "pickup" "dropoff" "date" "time" "button";
                         }
@@ -344,7 +344,7 @@
                                             right: 179px;
                                         }
 
-                                        @media(max-width:990px) {
+                                        @media(max-width:1000px) {
                                             width: 100%;
                                             left: 50%;
                                             right: 97%;
@@ -369,7 +369,7 @@
                                         color: $--color-light-2;
 
                                         border-bottom: 1px solid $--color-light-6;
-                                
+
 
                                         &::placeholder {
                                             text-transform: capitalize;
@@ -398,7 +398,7 @@
                                             right: 72px;
                                         }
 
-                                        @media(max-width:990px) {
+                                        @media(max-width:1000px) {
                                             right: 80px;
                                         }
                                     }
@@ -425,7 +425,7 @@
                                             right: 229px;
                                         }
 
-                                        @media(max-width:990px) {
+                                        @media(max-width:1000px) {
                                             right: 80px;
                                         }
                                     }
@@ -494,7 +494,7 @@
                                         font-size: $--text-15;
 
                                         border-bottom: 1px solid $--color-light-6;
-                                
+
 
                                         &::before,
                                         &::after {
@@ -634,7 +634,7 @@
                                         width: 100%;
                                         position: relative;
 
-                                        @media(max-width:990px) {
+                                        @media(max-width:1000px) {
                                             max-width: 100%;
                                         }
 
@@ -646,7 +646,7 @@
 
                                             // -webkit-appearance: menulist;
                                             border-bottom: 1px solid $--color-light-6;
-                                       
+
 
                                             &:focus {
                                                 outline: 0px !important;
@@ -664,7 +664,7 @@
                                             pointer-events: none;
 
 
-                                            @media(max-width:990px) {
+                                            @media(max-width:1000px) {
                                                 display: none;
                                             }
                                         }
@@ -684,7 +684,7 @@
                                 justify-self: flex-end; // Centers the button horizontally within its grid cell
                             }
 
-                            @media (max-width: 990px) {
+                            @media (max-width: 1000px) {
                                 max-width: 100%; // Limit the button's width
                                 width: 100%;
                             }
@@ -695,7 +695,7 @@
                                 i {
                                     display: none;
 
-                                    @media(max-width:990px) {
+                                    @media(max-width:1000px) {
                                         display: block;
                                     }
                                 }
@@ -711,7 +711,7 @@
                                 justify-content: center;
                                 align-items: center;
 
-                                @media(max-width:990px) {
+                                @media(max-width:1000px) {
                                     min-width: 100%;
                                 }
                             }
@@ -730,7 +730,7 @@
 
 
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1000px) {
     .search-input-container[f="true"] {
         position: fixed !important;
         top: 0 !important;

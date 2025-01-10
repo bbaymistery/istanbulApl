@@ -1,4 +1,4 @@
-import React, { useCallback,  useState } from "react";
+import React, { useCallback, useState } from "react";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,6 +8,8 @@ import { extractLanguage } from "../../../helpers/extractLanguage";
 import OutsideClickAlert from "../../elements/OutsideClickAlert";
 import dynamic from 'next/dynamic'
 import { setCookie } from "../../../helpers/cokieesFunc";
+import logoImage from '../../../../public/logos/logo.webp'
+
 const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'),);
 const DesktopMenu = dynamic(() => import('../../elements/DesktopMenu'),);
 const MobileMenu = dynamic(() => import('../../elements/MobileMenu'),);
@@ -91,7 +93,7 @@ const Header = () => {
           <div className={styles.left_items}>
             <div className={styles.left_items_flex_div}>
               <a href={language === 'en' ? '/' : `/${language}`} className={`${styles.logo_tag}`}  >
-                APL Transfers
+                <Image src={logoImage} alt="APL transfers" width={245} height={65} priority />
               </a>
               <DesktopMenu appData={translatedAppData} journeyType={journeyType} language={language} />
               {/* mobile  */}
