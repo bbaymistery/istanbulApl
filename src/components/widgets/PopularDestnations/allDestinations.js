@@ -10,6 +10,7 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى تقسيم",
             linkUrl: "istanbul-airport-to-taksim",
             price: 100,
+            location: "Istanbul",
         },
         {
             en: "Istanbul Airport To Sultanahmet",
@@ -21,6 +22,8 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى السلطان أحمد",
             linkUrl: "istanbul-airport-to-sultanahmet",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Istanbul Airport To Kadıköy (Asian Side)",
@@ -32,6 +35,8 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى كاديكوي (الجانب الآسيوي)",
             linkUrl: "istanbul-airport-to-kadikoy-asian-side",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Istanbul Airport To Levent/Maslak",
@@ -43,6 +48,8 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى ليفنت/ماسلاك",
             linkUrl: "istanbul-airport-to-levent-maslak",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Istanbul Airport To Beyoğlu",
@@ -54,6 +61,8 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى بيوغلو",
             linkUrl: "istanbul-airport-to-beyoglu",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Istanbul Airport To Beşiktaş",
@@ -65,6 +74,8 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى بشيكتاش",
             linkUrl: "istanbul-airport-to-besiktas",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Istanbul Airport To Üsküdar (Asian Side)",
@@ -76,6 +87,8 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى أسكودار (الجانب الآسيوي)",
             linkUrl: "istanbul-airport-to-uskudar-asian-side",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Istanbul Airport To Ortaköy",
@@ -87,6 +100,8 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى أورتاكوي",
             linkUrl: "istanbul-airport-to-ortakoy",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Istanbul Airport To Eminönü",
@@ -98,6 +113,8 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى إمينونو",
             linkUrl: "istanbul-airport-to-eminonu",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Istanbul Airport To Nişantaşı",
@@ -109,6 +126,8 @@ const airportPoints = {
             ar: "مطار إسطنبول إلى نيشان تاشي",
             linkUrl: "istanbul-airport-to-nisantasi",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Istanbul Airport To Sapanca",
@@ -119,6 +138,7 @@ const airportPoints = {
             zh: "伊斯坦布尔机场到萨潘贾",
             ar: "مطار إسطنبول إلى سبانجا",
             linkUrl: "istanbul-airport-to-sapanca",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -130,6 +150,7 @@ const airportPoints = {
             zh: "伊斯坦布尔机场到布尔萨",
             ar: "مطار إسطنبول إلى بورصة",
             linkUrl: "istanbul-airport-to-bursa",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -141,6 +162,7 @@ const airportPoints = {
             zh: "伊斯坦布尔机场到亚洛瓦",
             ar: "مطار إسطنبول إلى يالوفا",
             linkUrl: "istanbul-airport-to-yalova",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -152,6 +174,7 @@ const airportPoints = {
             zh: "伊斯坦布尔机场到科贾埃利（伊兹密特）",
             ar: "مطار إسطنبول إلى كوجالي (إزميت)",
             linkUrl: "istanbul-airport-to-kocaeli-izmit",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -163,6 +186,7 @@ const airportPoints = {
             zh: "伊斯坦布尔机场到希勒和阿格瓦",
             ar: "مطار إسطنبول إلى شيلا وأغفا",
             linkUrl: "istanbul-airport-to-sile-and-agva",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -174,6 +198,7 @@ const airportPoints = {
             zh: "伊斯坦布尔机场到埃迪尔内",
             ar: "مطار إسطنبول إلى أدرنة",
             linkUrl: "istanbul-airport-to-edirne",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -185,6 +210,7 @@ const airportPoints = {
             zh: "伊斯坦布尔机场到泰基尔达",
             ar: "مطار إسطنبول إلى تكيرداغ",
             linkUrl: "istanbul-airport-to-tekirdag",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -196,6 +222,7 @@ const airportPoints = {
             zh: "伊斯坦布尔机场到恰纳卡莱",
             ar: "مطار إسطنبول إلى جناق قلعة",
             linkUrl: "istanbul-airport-to-canakkale",
+            location: "Istanbul",
             price: 100,
         },
     ],
@@ -210,6 +237,8 @@ const airportPoints = {
             ar: "مطار صبيحة كوكجن إلى تقسيم",
             linkUrl: "sabiha-gokcen-airport-to-taksim",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Sabiha Gökçen Airport To Sultanahmet",
@@ -221,6 +250,8 @@ const airportPoints = {
             ar: "مطار صبيحة كوكجن إلى السلطان أحمد",
             linkUrl: "sabiha-gokcen-airport-to-sultanahmet",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Sabiha Gökçen Airport To Kadıköy",
@@ -232,6 +263,8 @@ const airportPoints = {
             ar: "مطار صبيحة كوكجن إلى كاديكوي",
             linkUrl: "sabiha-gokcen-airport-to-kadikoy",
             price: 100,
+            location: "Istanbul",
+
         },
         {
             en: "Sabiha Gökçen Airport To Levent/Maslak",
@@ -242,6 +275,8 @@ const airportPoints = {
             zh: "萨比哈·格克琴机场到勒文特/马斯拉克",
             ar: "مطار صبيحة كوكجن إلى ليفنت/ماسلاك",
             linkUrl: "sabiha-gokcen-airport-to-levent-maslak",
+
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -252,6 +287,7 @@ const airportPoints = {
             ru: "Аэропорт Сабиха Гёкчен в Бейоглу",
             zh: "萨比哈·格克琴机场到贝尤鲁",
             ar: "مطار صبيحة كوكجن إلى بيوغلو",
+            location: "Istanbul",
             linkUrl: "sabiha-gokcen-airport-to-beyoglu",
             price: 100,
         },
@@ -264,6 +300,7 @@ const airportPoints = {
             zh: "萨比哈·格克琴机场到贝西克塔斯",
             ar: "مطار صبيحة كوكجن إلى بشيكتاش",
             linkUrl: "sabiha-gokcen-airport-to-besiktas",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -273,6 +310,7 @@ const airportPoints = {
             it: "Aeroporto di Sabiha Gökçen a Üsküdar",
             ru: "Аэропорт Сабиха Гёкчен в Ускюдар",
             zh: "萨比哈·格克琴机场到于斯屈达尔",
+            location: "Istanbul",
             ar: "مطار صبيحة كوكجن إلى أسكودار",
             linkUrl: "sabiha-gokcen-airport-to-uskudar",
             price: 100,
@@ -286,6 +324,7 @@ const airportPoints = {
             zh: "萨比哈·格克琴机场到奥塔科伊",
             ar: "مطار صبيحة كوكجن إلى أورتاكوي",
             linkUrl: "sabiha-gokcen-airport-to-ortakoy",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -296,6 +335,7 @@ const airportPoints = {
             ru: "Аэропорт Сабиха Гёкчен в Эминёню",
             zh: "萨比哈·格克琴机场到埃米诺努",
             ar: "مطار صبيحة كوكجن إلى إمينونو",
+            location: "Istanbul",
             linkUrl: "sabiha-gokcen-airport-to-eminonu",
             price: 100,
         },
@@ -307,6 +347,7 @@ const airportPoints = {
             ru: "Аэропорт Сабиха Гёкчен в Нишанташи",
             zh: "萨比哈·格克琴机场到尼尚塔西",
             ar: "مطار صبيحة كوكجن إلى نيشان تاشي",
+            location: "Istanbul",
             linkUrl: "sabiha-gokcen-airport-to-nisantasi",
             price: 100,
         },
@@ -319,6 +360,7 @@ const airportPoints = {
             zh: "萨比哈·格克琴机场到萨潘贾",
             ar: "مطار صبيحة كوكجن إلى سبانجا",
             linkUrl: "sabiha-gokcen-airport-to-sapanca",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -330,6 +372,7 @@ const airportPoints = {
             zh: "萨比哈·格克琴机场到布尔萨",
             ar: "مطار صبيحة كوكجن إلى بورصة",
             linkUrl: "sabiha-gokcen-airport-to-bursa",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -341,6 +384,7 @@ const airportPoints = {
             zh: "萨比哈·格克琴机场到亚洛瓦",
             ar: "مطار صبيحة كوكجن إلى يالوفا",
             linkUrl: "sabiha-gokcen-airport-to-yalova",
+            location: "Istanbul",
             price: 100,
         },
         {
@@ -351,6 +395,7 @@ const airportPoints = {
             ru: "Аэропорт Сабиха Гёкчен в Коджаэли (Измит)",
             zh: "萨比哈·格克琴机场到科贾埃利（伊兹密特）",
             ar: "مطار صبيحة كوكجن إلى كوجالي (إزميت)",
+            location: "Istanbul",
             linkUrl: "sabiha-gokcen-airport-to-kocaeli-izmit",
             price: 100,
         },
@@ -362,6 +407,7 @@ const airportPoints = {
             ru: "Аэропорт Сабиха Гёкчен в Шиле и Агва",
             zh: "萨比哈·格克琴机场到希勒和阿格瓦",
             ar: "مطار صبيحة كوكجن إلى شيلا وأغفا",
+            location: "Istanbul",
             linkUrl: "sabiha-gokcen-airport-to-sile-and-agva",
             price: 100,
         },
@@ -373,6 +419,7 @@ const airportPoints = {
             ru: "Аэропорт Сабиха Гёкчен в Эдирне",
             zh: "萨比哈·格克琴机场到埃迪尔内",
             ar: "مطار صبيحة كوكجن إلى أدرنة",
+            location: "Istanbul",
             linkUrl: "sabiha-gokcen-airport-to-edirne",
             price: 100,
         },
@@ -384,6 +431,7 @@ const airportPoints = {
             ru: "Аэропорт Сабиха Гёкчен в Текирдаг",
             zh: "萨比哈·格克琴机场到泰基尔达",
             ar: "مطار صبيحة كوكجن إلى تكيرداغ",
+            location: "Istanbul",
             linkUrl: "sabiha-gokcen-airport-to-tekirdag",
             price: 100,
         },
@@ -395,6 +443,7 @@ const airportPoints = {
             ru: "Аэропорт Сабиха Гёкчен в Чанаккале",
             zh: "萨比哈·格克琴机场到恰纳卡莱",
             ar: "مطار صبيحة كوكجن إلى جناق قلعة",
+            location: "Istanbul",
             linkUrl: "sabiha-gokcen-airport-to-canakkale",
             price: 100,
         },
@@ -410,6 +459,8 @@ const airportPoints = {
             ar: "مطار أنطاليا إلى شاطئ لارا",
             linkUrl: "antalya-airport-to-lara-beach",
             price: 100,
+            location: "Antalya",
+
         },
         {
             en: "Antalya Airport To Konyaalti",
@@ -420,6 +471,8 @@ const airportPoints = {
             zh: "安塔利亚机场到科尼亚尔蒂",
             ar: "مطار أنطاليا إلى كونيالتي",
             linkUrl: "antalya-airport-to-konyaalti",
+            location: "Antalya",
+
             price: 100,
         },
         {
@@ -430,6 +483,7 @@ const airportPoints = {
             ru: "Аэропорт Анталии до центра города Анталия (Калеичи)",
             zh: "安塔利亚机场到安塔利亚市中心（卡莱伊奇）",
             ar: "مطار أنطاليا إلى مركز مدينة أنطاليا (كاليتشي)",
+            location: "Antalya",
             linkUrl: "antalya-airport-to-antalya-city-center-kaleici",
             price: 100,
         },
@@ -441,6 +495,7 @@ const airportPoints = {
             ru: "Аэропорт Анталии до Белека",
             zh: "安塔利亚机场到贝莱克",
             ar: "مطار أنطاليا إلى بيليك",
+            location: "Antalya",
             linkUrl: "antalya-airport-to-belek",
             price: 100,
         },
@@ -453,6 +508,7 @@ const airportPoints = {
             zh: "安塔利亚机场到凯梅尔",
             ar: "مطار أنطاليا إلى كيمير",
             linkUrl: "antalya-airport-to-kemer",
+            location: "Antalya",
             price: 100,
         },
         {
@@ -463,6 +519,7 @@ const airportPoints = {
             ru: "Аэропорт Анталии до Сиде",
             zh: "安塔利亚机场到西德",
             ar: "مطار أنطاليا إلى سايد",
+            location: "Antalya",
             linkUrl: "antalya-airport-to-side",
             price: 100,
         },
@@ -474,6 +531,7 @@ const airportPoints = {
             ru: "Аэропорт Анталии до Алании",
             zh: "安塔利亚机场到阿拉尼亚",
             ar: "مطار أنطاليا إلى ألانيا",
+            location: "Antalya",
             linkUrl: "antalya-airport-to-alanya",
             price: 100,
         },
@@ -486,6 +544,7 @@ const airportPoints = {
             zh: "安塔利亚机场到马纳夫加特",
             ar: "مطار أنطاليا إلى مانافجات",
             linkUrl: "antalya-airport-to-manavgat",
+            location: "Antalya",
             price: 100,
         },
         {
@@ -495,6 +554,7 @@ const airportPoints = {
             it: "Aeroporto di Antalya a Cirali",
             ru: "Аэропорт Анталии до Чиралы",
             zh: "安塔利亚机场到奇拉利",
+            location: "Antalya",
             ar: "مطار أنطاليا إلى تشيرالي",
             linkUrl: "antalya-airport-to-cirali",
             price: 100,
@@ -507,6 +567,7 @@ const airportPoints = {
             ru: "Аэропорт Анталии до Каша",
             zh: "安塔利亚机场到卡斯",
             ar: "مطار أنطاليا إلى كاش",
+            location: "Antalya",
             linkUrl: "antalya-airport-to-kas",
             price: 100,
         },
@@ -518,6 +579,7 @@ const airportPoints = {
             ru: "Аэропорт Анталии до Патары",
             zh: "安塔利亚机场到帕塔拉",
             ar: "مطار أنطاليا إلى باتارا",
+            location: "Antalya",
             linkUrl: "antalya-airport-to-patara",
             price: 100,
         },
@@ -528,6 +590,7 @@ const airportPoints = {
             it: "Aeroporto di Antalya a Demre",
             ru: "Аэропорт Анталии до Демре",
             zh: "安塔利亚机场到代姆雷",
+            location: "Antalya",
             ar: "مطار أنطاليا إلى دمرة",
             linkUrl: "antalya-airport-to-demre",
             price: 100,
@@ -542,6 +605,7 @@ const airportPoints = {
             ar: "مطار أنطاليا إلى فينيكا",
             linkUrl: "antalya-airport-to-finike",
             price: 100,
+            location: "Antalya",
         },
         {
             en: "Antalya Airport To Goynuk",
@@ -551,6 +615,7 @@ const airportPoints = {
             ru: "Аэропорт Анталии до Гейнюка",
             zh: "安塔利亚机场到戈伊努克",
             ar: "مطار أنطاليا إلى غوينوك",
+            location: "Antalya",
             linkUrl: "antalya-airport-to-goynuk",
             price: 100,
         },
@@ -562,6 +627,7 @@ const airportPoints = {
             ru: "Аэропорт Анталии до Олимпоса",
             zh: "安塔利亚机场到奥林波斯",
             ar: "مطار أنطاليا إلى أوليمبوس",
+            location: "Antalya",
             linkUrl: "antalya-airport-to-olympos",
             price: 100,
         },
@@ -573,6 +639,7 @@ const airportPoints = {
             ru: "Аэропорт Анталии до Адрасана",
             zh: "安塔利亚机场到阿德拉桑",
             ar: "مطار أنطاليا إلى أدراسان",
+            location: "Antalya",
             linkUrl: "antalya-airport-to-adrasan",
             price: 100,
         },
@@ -583,6 +650,7 @@ const airportPoints = {
             it: "Aeroporto di Antalya a Tekirova",
             ru: "Аэропорт Анталии до Текерова",
             zh: "安塔利亚机场到特基罗瓦",
+            location: "Antalya",
             ar: "مطار أنطاليا إلى تيكيروفا",
             linkUrl: "antalya-airport-to-tekirova",
             price: 100,
@@ -594,6 +662,7 @@ const airportPoints = {
             it: "Aeroporto di Antalya a Beldibi",
             ru: "Аэропорт Анталии до Бельдиби",
             zh: "安塔利亚机场到贝尔迪比",
+            location: "Antalya",
             ar: "مطار أنطاليا إلى بيلديبي",
             linkUrl: "antalya-airport-to-beldibi",
             price: 100,
@@ -610,6 +679,8 @@ const airportPoints = {
             ar: "مطار دالامان إلى وسط مدينة فتحية",
             linkUrl: "dalaman-airport-to-fethiye-town-center",
             price: 100,
+            location: "Dalaman",
+
         },
         {
             en: "Dalaman Airport To Oludeniz",
@@ -620,6 +691,7 @@ const airportPoints = {
             zh: "达拉曼机场到厄吕代尼兹",
             ar: "مطار دالامان إلى أولودينيز",
             linkUrl: "dalaman-airport-to-oludeniz",
+            location: "Dalaman",
             price: 100,
         },
         {
@@ -631,6 +703,7 @@ const airportPoints = {
             zh: "达拉曼机场到卡利斯海滩",
             ar: "مطار دالامان إلى شاطئ كاليس",
             linkUrl: "dalaman-airport-to-calis-beach",
+            location: "Dalaman",
             price: 100,
         },
         {
@@ -641,6 +714,7 @@ const airportPoints = {
             ru: "Аэропорт Даламан до Хисарёню",
             zh: "达拉曼机场到希萨鲁努",
             ar: "مطار دالامان إلى هيسارونو",
+            location: "Dalaman",
             linkUrl: "dalaman-airport-to-hisaronu",
             price: 100,
         },
@@ -653,6 +727,7 @@ const airportPoints = {
             zh: "达拉曼机场到卡亚克伊",
             ar: "مطار دالامان إلى كاياكوي",
             linkUrl: "dalaman-airport-to-kayakoy",
+            location: "Dalaman",
             price: 100,
         },
         {
@@ -664,6 +739,7 @@ const airportPoints = {
             zh: "达拉曼机场到戈切克",
             ar: "مطار دالامان إلى جوتشيك",
             linkUrl: "dalaman-airport-to-gocek",
+            location: "Dalaman",
             price: 100,
         },
         {
@@ -675,6 +751,7 @@ const airportPoints = {
             zh: "达拉曼机场到法拉利亚（蝴蝶谷）",
             ar: "مطار دالامان إلى فاراليا (وادي الفراشات)",
             linkUrl: "dalaman-airport-to-faralya-butterfly-valley",
+            location: "Dalaman",
             price: 100,
         },
         {
@@ -686,6 +763,7 @@ const airportPoints = {
             zh: "达拉曼机场到卡巴克",
             ar: "مطار دالامان إلى كباك",
             linkUrl: "dalaman-airport-to-kabak",
+            location: "Dalaman",
             price: 100,
         },
         {
@@ -696,6 +774,7 @@ const airportPoints = {
             ru: "Аэропорт Даламан до Яныклар",
             zh: "达拉曼机场到亚尼克拉尔",
             ar: "مطار دالامان إلى يانيكلار",
+            location: "Dalaman",
             linkUrl: "dalaman-airport-to-yaniklar",
             price: 100,
         },
@@ -707,6 +786,7 @@ const airportPoints = {
             ru: "Аэропорт Даламан до Сарыгерме",
             zh: "达拉曼机场到萨里格尔梅",
             ar: "مطار دالامان إلى ساريجيرم",
+            location: "Dalaman",
             linkUrl: "dalaman-airport-to-sarigerme",
             price: 100,
         },
@@ -717,6 +797,7 @@ const airportPoints = {
             it: "Aeroporto di Dalaman a Uzumlu",
             ru: "Аэропорт Даламан до Узюмлю",
             zh: "达拉曼机场到于祖姆鲁",
+            location: "Dalaman",
             ar: "مطار دالامان إلى أوزوملو",
             linkUrl: "dalaman-airport-to-uzumlu",
             price: 100,
@@ -729,6 +810,7 @@ const airportPoints = {
             ru: "Аэропорт Даламан до Калкана",
             zh: "达拉曼机场到卡尔坎",
             ar: "مطار دالامان إلى كالكان",
+            location: "Dalaman",
             linkUrl: "dalaman-airport-to-kalkan",
             price: 100,
         },
@@ -740,6 +822,7 @@ const airportPoints = {
             ru: "Аэропорт Даламан до Патары",
             zh: "达拉曼机场到帕塔拉",
             ar: "مطار دالامان إلى باتارا",
+            location: "Dalaman",
             linkUrl: "dalaman-airport-to-patara",
             price: 100,
         },
@@ -751,6 +834,7 @@ const airportPoints = {
             ru: "Аэропорт Даламан до Дальяна",
             zh: "达拉曼机场到达利安",
             ar: "مطار دالامان إلى داليان",
+            location: "Dalaman",
             linkUrl: "dalaman-airport-to-dalyan",
             price: 100,
         },
@@ -766,6 +850,8 @@ const airportPoints = {
             ar: "مطار بودروم إلى وسط مدينة بودروم",
             linkUrl: "bodrum-airport-to-bodrum-town-center",
             price: 100,
+            location: "Bodrum",
+
         },
         {
             en: "Bodrum Airport To Gumbet",
@@ -774,6 +860,7 @@ const airportPoints = {
             it: "Aeroporto di Bodrum a Gumbet",
             ru: "Аэропорт Бодрум до Гюмбета",
             zh: "博德鲁姆机场到居姆贝特",
+            location: "Bodrum",
             ar: "مطار بودروم إلى غومبيت",
             linkUrl: "bodrum-airport-to-gumbet",
             price: 100,
@@ -788,6 +875,8 @@ const airportPoints = {
             ar: "مطار بودروم إلى بيتز",
             linkUrl: "bodrum-airport-to-bitez",
             price: 100,
+            location: "Bodrum",
+
         },
         {
             en: "Bodrum Airport To Torba",
@@ -797,6 +886,7 @@ const airportPoints = {
             ru: "Аэропорт Бодрум до Торбы",
             zh: "博德鲁姆机场到托尔巴",
             ar: "مطار بودروم إلى توربا",
+            location: "Bodrum",
             linkUrl: "bodrum-airport-to-torba",
             price: 100,
         },
@@ -808,6 +898,7 @@ const airportPoints = {
             ru: "Аэропорт Бодрум до Тургутрейса",
             zh: "博德鲁姆机场到图尔古特雷伊斯",
             ar: "مطار بودروم إلى تورغوتريس",
+            location: "Bodrum",
             linkUrl: "bodrum-airport-to-turgutreis",
             price: 100,
         },
@@ -819,6 +910,7 @@ const airportPoints = {
             ru: "Аэропорт Бодрум до Ялыкавак",
             zh: "博德鲁姆机场到亚利卡瓦克",
             ar: "مطار بودروم إلى ياليكافاك",
+            location: "Bodrum",
             linkUrl: "bodrum-airport-to-yalikavak",
             price: 100,
         },
@@ -831,6 +923,7 @@ const airportPoints = {
             zh: "博德鲁姆机场到戈尔特克布库",
             ar: "مطار بودروم إلى غولتوركبوكو",
             linkUrl: "bodrum-airport-to-golturkbuku",
+            location: "Bodrum",
             price: 100,
         },
         {
@@ -841,6 +934,7 @@ const airportPoints = {
             ru: "Аэропорт Бодрум до Ортакент",
             zh: "博德鲁姆机场到奥尔塔肯特",
             ar: "مطار بودروم إلى أورتاكينت",
+            location: "Bodrum",
             linkUrl: "bodrum-airport-to-ortakent",
             price: 100,
         },
@@ -853,6 +947,7 @@ const airportPoints = {
             zh: "博德鲁姆机场到居韦尔金利克",
             ar: "مطار بودروم إلى غوفرجينليك",
             linkUrl: "bodrum-airport-to-guvercinlik",
+            location: "Bodrum",
             price: 100,
         },
 
@@ -865,6 +960,7 @@ const airportPoints = {
             zh: "博德鲁姆机场到阿克亚拉尔",
             ar: "مطار بودروم إلى أكيارلار",
             linkUrl: "bodrum-airport-to-akyarlar",
+            location: "Bodrum",
             price: 100,
         },
         {
@@ -875,6 +971,7 @@ const airportPoints = {
             ru: "Аэропорт Бодрум до Гюмюшлюка",
             zh: "博德鲁姆机场到居穆什鲁克",
             ar: "مطار بودروم إلى غوموشلوك",
+            location: "Bodrum",
             linkUrl: "bodrum-airport-to-gumusluk",
             price: 100,
         },
@@ -886,6 +983,7 @@ const airportPoints = {
             ru: "Аэропорт Бодрум до Кучюкбюка",
             zh: "博德鲁姆机场到库库克布克",
             ar: "مطار بودروم إلى كوجوكبوك",
+            location: "Bodrum",
             linkUrl: "bodrum-airport-to-kucukbuk",
             price: 100,
         },
@@ -898,6 +996,7 @@ const airportPoints = {
             zh: "博德鲁姆机场到图尔克布克",
             ar: "مطار بودروم إلى توركبوك",
             linkUrl: "bodrum-airport-to-turkbuku",
+            location: "Bodrum",
             price: 100,
         },
         {
@@ -908,6 +1007,7 @@ const airportPoints = {
             ru: "Аэропорт Бодрум до Мазы",
             zh: "博德鲁姆机场到马兹",
             ar: "مطار بودروم إلى مازي",
+            location: "Bodrum",
             linkUrl: "bodrum-airport-to-mazi",
             price: 100,
         },
@@ -919,6 +1019,7 @@ const airportPoints = {
             ru: "Аэропорт Бодрум до Кадыкалеси",
             zh: "博德鲁姆机场到卡迪卡莱西",
             ar: "مطار بودروم إلى كاديكاليسي",
+            location: "Bodrum",
             linkUrl: "bodrum-airport-to-kadikalesi",
             price: 100,
         },
@@ -934,6 +1035,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى وسط مدينة إزمير",
             linkUrl: "izmir-adnan-menderes-airport-to-izmir-city-center",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Alsancak",
@@ -945,6 +1048,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى ألسانجاك",
             linkUrl: "izmir-adnan-menderes-airport-to-alsancak",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Konak",
@@ -956,6 +1061,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى كوناك",
             linkUrl: "izmir-adnan-menderes-airport-to-konak",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Karsiyaka",
@@ -967,6 +1074,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى كارسياكا",
             linkUrl: "izmir-adnan-menderes-airport-to-karsiyaka",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Cesme",
@@ -978,6 +1087,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى تشيشمي",
             linkUrl: "izmir-adnan-menderes-airport-to-cesme",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Alacati",
@@ -989,6 +1100,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى ألاكاتي",
             linkUrl: "izmir-adnan-menderes-airport-to-alacati",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Selcuk",
@@ -999,6 +1112,7 @@ const airportPoints = {
             zh: "伊兹密尔阿德南·门德雷斯机场到塞尔丘克",
             ar: "مطار إزمير عدنان مندريس إلى سلجوق",
             linkUrl: "izmir-adnan-menderes-airport-to-selcuk",
+            location: "Izmir",
             price: 100,
         },
         {
@@ -1010,6 +1124,7 @@ const airportPoints = {
             zh: "伊兹密尔阿德南·门德雷斯机场到以弗所",
             ar: "مطار إزمير عدنان مندريس إلى أفسس",
             linkUrl: "izmir-adnan-menderes-airport-to-ephesus",
+            location: "Izmir",
             price: 100,
         },
         {
@@ -1021,6 +1136,7 @@ const airportPoints = {
             zh: "伊兹密尔阿德南·门德雷斯机场到库沙达瑟",
             ar: "مطار إزمير عدنان مندريس إلى كوساداسي",
             linkUrl: "izmir-adnan-menderes-airport-to-kusadasi",
+            location: "Izmir",
             price: 100,
         },
         {
@@ -1033,8 +1149,9 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى ديديم",
             linkUrl: "izmir-adnan-menderes-airport-to-didim",
             price: 100,
+            location: "Izmir",
+
         },
-        // Previous entries...
 
         {
             en: "Izmir Adnan Menderes Airport To Ozdere",
@@ -1046,6 +1163,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى أوزديري",
             linkUrl: "izmir-adnan-menderes-airport-to-ozdere",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Seferihisar",
@@ -1057,6 +1176,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى سفيريهيسار",
             linkUrl: "izmir-adnan-menderes-airport-to-seferihisar",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Foca",
@@ -1101,6 +1222,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى تيره",
             linkUrl: "izmir-adnan-menderes-airport-to-tire",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Torbali",
@@ -1112,6 +1235,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى توربالي",
             linkUrl: "izmir-adnan-menderes-airport-to-torbali",
             price: 100,
+            location: "Izmir",
+
         },
         {
             en: "Izmir Adnan Menderes Airport To Urla",
@@ -1123,6 +1248,8 @@ const airportPoints = {
             ar: "مطار إزمير عدنان مندريس إلى أورلا",
             linkUrl: "izmir-adnan-menderes-airport-to-urla",
             price: 100,
+            // Previous entries...
+            location: "Izmir",
         },
     ],
     GZP: [
@@ -1136,6 +1263,7 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى ألانيا",
             linkUrl: "gazipasa-alanya-airport-to-alanya",
             price: 100,
+            location: "Gazipasa-Alanya",
         },
         {
             en: "Gazipasa-Alanya Airport To Mahmutlar",
@@ -1147,6 +1275,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى محمودلار",
             linkUrl: "gazipasa-alanya-airport-to-mahmutlar",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
         {
             en: "Gazipasa-Alanya Airport To Oba",
@@ -1158,6 +1288,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى أوبا",
             linkUrl: "gazipasa-alanya-airport-to-oba",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
         {
             en: "Gazipasa-Alanya Airport To Kestel",
@@ -1169,6 +1301,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى كيستل",
             linkUrl: "gazipasa-alanya-airport-to-kestel",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
         {
             en: "Gazipasa-Alanya Airport To Tosmur",
@@ -1180,6 +1314,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى توسمور",
             linkUrl: "gazipasa-alanya-airport-to-tosmur",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
         {
             en: "Gazipasa-Alanya Airport To Avsallar",
@@ -1191,6 +1327,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى أفسالار",
             linkUrl: "gazipasa-alanya-airport-to-avsallar",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
         {
             en: "Gazipasa-Alanya Airport To Konakli",
@@ -1202,6 +1340,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى كوناكلي",
             linkUrl: "gazipasa-alanya-airport-to-konakli",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
         {
             en: "Gazipasa-Alanya Airport To Okurcalar",
@@ -1224,6 +1364,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى إنجيكوم",
             linkUrl: "gazipasa-alanya-airport-to-incekum",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
         {
             en: "Gazipasa-Alanya Airport To Manavgat",
@@ -1235,6 +1377,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى مانافجات",
             linkUrl: "gazipasa-alanya-airport-to-manavgat",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
         {
             en: "Gazipasa-Alanya Airport To Side",
@@ -1246,6 +1390,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى سايد",
             linkUrl: "gazipasa-alanya-airport-to-side",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
         {
             en: "Gazipasa-Alanya Airport To Gazipasa Town Center",
@@ -1257,6 +1403,8 @@ const airportPoints = {
             ar: "مطار غازي باشا-ألانيا إلى وسط مدينة غازي باشا",
             linkUrl: "gazipasa-alanya-airport-to-gazipasa-town-center",
             price: 100,
+            location: "Gazipasa-Alanya",
+
         },
     ],
 };

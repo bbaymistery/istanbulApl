@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from "./styles.module.scss";
 import { useDispatch, useSelector } from 'react-redux';
 import { useVisibility } from '../../../hooks/useVisibility';
@@ -81,11 +81,14 @@ const icons = [
 const tabsBttons = navigator[1].list
 const PopularDestinations = (props) => {
     const { showTabs = true, } = props
+    console.log({ tabsBttons });
 
     const dispatch = useDispatch();
     const state = useSelector(state => state.pickUpDropOffActions);
     const { params: { direction, language, pointsModalStatus, hasTaxiDeals } } = state;
     const { appData } = useSelector(state => state.initialReducer)
+
+    const [points, setPoints] = useState(airportPoints[hasTaxiDeals])
 
     const [tabs, setTabs] = useState(0)
     const [isVisible, ref] = useVisibility();
@@ -100,16 +103,13 @@ const PopularDestinations = (props) => {
         dispatch({ type: "SET_POINTS_MODAL", data: { trueOrFalse: true } })
         document.body.style.overflow = "hidden";
     }
-    console.log(hasTaxiDeals);
+    useEffect(() => {
+        setPoints(airportPoints[hasTaxiDeals])
+    }, [hasTaxiDeals, language])
 
     return (
         <div className={`${styles.populardestination} ${direction} page`} >
-            {pointsModalStatus && <PointsModal
-                dealsName={hasTaxiDeals}
-                points={airportPoints[hasTaxiDeals]}
-                title={getTitleStringOfHastaxiDeals(hasTaxiDeals, language)}
-                language={language}
-            />}
+            {pointsModalStatus && <PointsModal dealsName={hasTaxiDeals} points={points} title={getTitleStringOfHastaxiDeals(hasTaxiDeals, language)} language={language} />}
 
             <div className={`${styles.populardestination_section} page_section`}>
                 <div className={`${styles.populardestination_section_container} page_section_container`}>
@@ -133,22 +133,23 @@ const PopularDestinations = (props) => {
                     </div>
 
                     <div ref={ref} className={`${styles.featureIcons} ${isVisible ? styles.fade_bottom_to_top : ''}`}>
-                        {icons.map((icon, idx) => {
+                        {points.slice(0, 8).map((item, idx) => {
+
                             return (
                                 <div className={styles.featureIcon} key={idx}>
-                                    <a href="#">
+                                    <a href={`/${language}/${item.linkUrl}`}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image src="/images/default.webp" width={250} height={198} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 50vw" alt={icon.altName} />
+                                                <Image src="/images/default.webp" width={250} height={198} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 50vw" alt={item[language]} />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>
                                             <div className={styles.location}>
                                                 <i className="fa-solid fa-location-dot"></i>
-                                                {icon.location}
+                                                {item.location}
                                             </div>
                                             <h3 className={styles.title}>
-                                                <span>{icon.p}</span>
+                                                <span>{item[language]}</span>
                                             </h3>
                                             <div className={styles.tourcard_rating}>
                                                 <div className={styles.stars}>
@@ -165,7 +166,7 @@ const PopularDestinations = (props) => {
                                                     <i className={"fa-solid fa-clock"}></i>
                                                 </div>
                                                 <div className={styles.price}>
-                                                    From <span>{icon.price}</span>
+                                                    From <span>£ {item.price} </span>
                                                 </div>
                                             </div>
                                         </div>
