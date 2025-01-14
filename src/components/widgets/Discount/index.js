@@ -40,7 +40,6 @@ const Discount = () => {
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
-    console.log(width);
 
     return (
         <div className={`${styles.discount} ${direction} page`} >

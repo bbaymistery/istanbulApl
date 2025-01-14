@@ -6,7 +6,7 @@
     padding-bottom: 218px;
     z-index: 5;
     height: 770px;
-    margin-top: 87px ;
+    margin-top: 87px;
 
     @media (max-width:1000px) {
         padding-top: 40px;
@@ -67,13 +67,27 @@
                     padding-top: 30px;
                 }
 
+                .subtitle {
+                    font-size: 20px;
+                }
+
                 .main_search {
-                    padding: 0px 15px 15px 15px;
+                    padding: 20px 15px 20px 15px;
                     background-color: #fff;
                     border-radius: 12px;
                     margin-top: 20px;
                     position: relative;
                     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                    .linkname_title_div {
+                        .title {
+                            padding-bottom: 10px;
+                            padding-left: 3px;
+                            font-weight: 100;
+                            color: $--color-light-2;
+                            font-size: 29px;
+                        }
+                    }
 
                     // radio button component
                     .radio_button_div {

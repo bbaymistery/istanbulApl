@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styles from "./styles.module.scss";
 import { useRouter } from 'next/router';
 
-const MobileMenu = (({ handleClickNavLinkMobileMenuNotList, language, handleClickNavLinkMobileMenuList, openMenu, appData }) => { // Note that `ref` is the second argument here
+const MobileMenu = (({ handleClickNavLinkMobileMenuNotList, language, handleClickNavLinkMobileMenuList, openMenu, appData,airportTranslations }) => { // Note that `ref` is the second argument here
     const router = useRouter()
     return (
         <div className={`${styles.header_content_menu_mobile} ${openMenu ? styles.active_header_content_menu_mobile : ""} `}>
@@ -21,15 +21,11 @@ const MobileMenu = (({ handleClickNavLinkMobileMenuNotList, language, handleClic
                             {type === "list" ?
                                 <ul className={styles.hoverUl}>
                                     {list.map((item) => {
-                                        let { path: listPath, innerText: listInnerText, title: listTitle, hasTaxiDeals, strInnerText } = item
+                                        let { path: listPath, hasTaxiDeals, strInnerText } = item
                                         return (
-                                            <li onClick={() => {
-                                                handleClickNavLinkMobileMenuList({ hasTaxiDeals });
-                                                router.push(`${language === 'en' ? `${listPath}` : `${language}${listPath}`}`)
-                                            }} key={listInnerText} className={`${styles.li_item} ${!listPath.length ? styles.nocursor : ""}  `}>
-                                                <p title={appData?.words[listTitle]} tabIndex="-1">
-                                                    <span>{appData?.words[strInnerText]}</span>
-
+                                            <li onClick={() => { handleClickNavLinkMobileMenuList({ hasTaxiDeals }); router.push(`${language === 'en' ? `${listPath}` : `${language}${listPath}`}`) }} key={strInnerText} className={`${styles.li_item} ${!listPath.length ? styles.nocursor : ""}  `}>
+                                                <p title={airportTranslations[language][strInnerText]}>
+                                                    <span>{airportTranslations[language][strInnerText]}</span>
                                                 </p>
                                             </li>
                                         )

@@ -36,10 +36,8 @@
                     justify-content: space-between;
 
                     .logo_tag {
-                        display: flex;
-                        align-items: center;
-
                         img {
+                            object-fit: none;
                             @media(max-width:1000px) {
                                 width: 185px;
                                 height: 52px;

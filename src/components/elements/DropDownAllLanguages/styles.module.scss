@@ -3,7 +3,7 @@
     .all_languages {
         position: absolute;
         background-color: white;
-        top: 70px;
+        top: 50px;
         left: 0px;
         width: 285px;
         border-radius: 5px;
@@ -15,7 +15,7 @@
         grid-template-columns: 131px 127px;
         visibility: hidden;
         opacity: 0;
-        left: -195px;
+        left: -215px;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
         user-select: none;
 
@@ -32,8 +32,7 @@
             height: 10px;
             background-color: white;
             transform: rotate(45deg);
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             left: 240px;
 
             @media(max-width:1280px) {

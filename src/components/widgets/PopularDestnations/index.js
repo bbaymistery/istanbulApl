@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from "./styles.module.scss";
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useVisibility } from '../../../hooks/useVisibility';
 import Image from 'next/image';
+import airportTranslations, { allTranslations } from '../../../constants/generalTranslataions';
+import { navigator } from '../../../constants/navigatior';
+import dynamic from 'next/dynamic'
+const PointsModal = dynamic(() => import('../../elements/PointsModal'));
+
 const icons = [
     {
         image: "",
@@ -70,25 +75,54 @@ const icons = [
     },
 
 ]
-const PopularDestinations = () => {
-    const state = useSelector(state => state.pickUpDropOffActions);
-    const { params: { direction } } = state;
 
+const tabsBttons = navigator[1].list
+const PopularDestinations = (props) => {
+    const { showTabs = true, } = props
+
+    const dispatch = useDispatch();
+    const state = useSelector(state => state.pickUpDropOffActions);
+    const { params: { direction, language, pointsModalStatus, hasTaxiDeals } } = state;
+    const { appData } = useSelector(state => state.initialReducer)
+
+    const [tabs, setTabs] = useState(0)
+    const [fromAirportToLondon, setFromAirportToLondon] = useState([])
+    const [fromLondonToAirport, setfromLondonToAirport] = useState([])
     const [isVisible, ref] = useVisibility();
+
+    const tabsHandler = async (params = {}) => {
+        let { index, dealsNameProp } = params
+        setTabs(index)
+        // fecthPoints({ dealsNameProp, language })
+        dispatch({ type: "SET_NAVBAR_TAXI_DEALS", data: { hasTaxiDeals: dealsNameProp } });
+    }
+
 
     return (
         <div className={`${styles.populardestination} ${direction} page`} >
+            {pointsModalStatus && <PointsModal dealsName={hasTaxiDeals} fromLondonToAirport={fromLondonToAirport} fromAirportToLondon={fromAirportToLondon} points={[]} title={"Salam"} />}
+
             <div className={`${styles.populardestination_section} page_section`}>
                 <div className={`${styles.populardestination_section_container} page_section_container`}>
+                    {showTabs ?
+                        <div className={`${styles.tabs} `}>
+                            {tabsBttons.map((btn, index) => {
+                                return <button onClick={() => tabsHandler({ index, dealsNameProp: btn.hasTaxiDeals })} className={`${tabs === index ? styles.active : ""} btn`} key={btn.hasTaxiDeals} >
+                                    {airportTranslations[language][btn.strInnerText].split("(")[0]}
+                                </button>
+                            })}
+                        </div>
+                        : <></>}
                     <div className={styles.title_div}>
                         <h2 ref={ref} className={` ${isVisible ? styles.faderight : ''}`} >
-                            Find Popular Tours
+                            {allTranslations["strPopularTours"][language]}
                         </h2>
                         <a href="#" ref={ref} className={` ${isVisible ? styles.fadeleft : ''}`}>
-                            <span>See all</span>
+                            <span>{appData.words["strViewAll"]}</span>
                             <i className="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
+
                     <div ref={ref} className={`${styles.featureIcons} ${isVisible ? styles.fade_bottom_to_top : ''}`}>
                         {icons.map((icon, idx) => {
                             return (
@@ -98,7 +132,6 @@ const PopularDestinations = () => {
                                             <div className={styles.tourcard_image}>
                                                 <Image src="/images/default.webp" width={250} height={198} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 50vw" alt={icon.altName} />
                                             </div>
-
                                         </div>
                                         <div className={styles.tourcard_content}>
                                             <div className={styles.location}>
@@ -118,7 +151,6 @@ const PopularDestinations = () => {
                                                 </div>
                                                 <span>4.8 (243)</span>
                                             </div>
-
                                             <div className={styles.tourcard_bottom}>
                                                 <div>
                                                     <i className={"fa-solid fa-clock"}></i>

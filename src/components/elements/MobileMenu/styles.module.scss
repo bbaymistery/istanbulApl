@@ -16,10 +16,11 @@
 
         .menu_content_ul {
             height: 100vh;
+            padding: 10px 20px
         }
 
         ul {
-            padding: 10px 35px;
+            padding: 0px 35px;
 
             li {
                 border-bottom: 1px solid $--color-light-4;
@@ -34,9 +35,9 @@
                 a {
                     display: flex;
                     justify-content: space-between;
-                    align-items: center;
                     padding: 8px 8px;
                     color: $--color-dark-1;
+
                     span {
                         font-size: 18px;
                         text-transform: capitalize;
@@ -56,57 +57,33 @@
         ul {
 
             .has_children {
-
-                // airports uzerine gelende arxa fonu beyaz olsun ve ul icindeki span rengi gara olsu
-                &:hover {
-                    ul {
-                        li {
-                            &:hover {
-                                a {
-                                    span {
-                                        color: $--color-blue-1;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-
-                // airports uzerine gelende arxa fonu beyaz olsun ve ul icindeki span rengi gara olsu
-                &:hover {
-                    background-color: white !important;
-
-                    ul {
-                        li {
-                            a {
-                                span {
-                                    // background-color: red;
-                                    color: $--color-blue-2;
-                                }
-                            }
-                        }
-                    }
-                }
-
                 .hoverUl {
-                    padding-top: 0px;
-                }
-            }
+                    li {
+                        padding: 4px 0;
 
-            li {
+                        &:last-child {
+                            border: none;
+                        }
+
+                        &:hover {
+                            cursor: pointer;
+                            color: $--color-accent-1;
+                        }
+                    }
+                }
+                
                 .nocursor {
                     pointer-events: none;
+
                     span {
-                        cursor: auto !important;
+                        cursor: pointer !important;
                     }
                 }
 
                 .first_child_a {
-                    background-color: rgba(53, 84, 209, 0.09);
                     padding: 8px;
-                    color: $--color-blue-1;
+                    color: $--color-accent-1;
                 }
-
             }
         }
     }

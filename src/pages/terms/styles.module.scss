@@ -18,6 +18,16 @@
                 width: 100%;
             }
 
+            .breadcrumb {
+                span {
+                    padding: 0px 4px;
+
+                    a {
+                        color: black;
+                    }
+                }
+            }
+
             .terms_container {
                 margin-top: 3rem;
                 display: grid;
@@ -29,14 +39,15 @@
                     div {
                         padding-top: 5px;
                         padding-bottom: 5px;
+
                         button {
 
                             outline: none;
                             border: none;
                             background-color: transparent;
                             padding: 5px 10px;
-                            border-left: 1px solid $--color-light-6 !important; 
-                            
+                            border-left: 1px solid $--color-light-6 !important;
+
                         }
 
                         .active {

@@ -14,6 +14,8 @@ import dynamic from 'next/dynamic'
 import { BUTTON_TYPES } from '../../elements/Button/ButtonTypes';
 import Button from '../../elements/Button/Button';
 import SelectedPointsOnHomePage from '../../elements/SelectedPointsOnHomePage';
+import translations, { titleStringOfHastaxiDeals } from './translations';
+import airportTranslations from '../../../constants/generalTranslataions';
 const HandleSearchResults = dynamic(() => import('../../elements/HandleSearchResults'))
 const WaveLoading = dynamic(() => import('../../elements/LoadingWave'))
 const SearchInputLoading = dynamic(() => import('../../elements/SearchInputLoading'))
@@ -291,6 +293,9 @@ const Hero = (props) => {
         let navbarElement = document.querySelector("#navbar_container");
         navbarElement.style.display = "block";
     }
+
+    // Fallback to English if language not found
+    const { mainTitle, subtitle } = translations[language] || translations.en;
     //when we go quotation page then go back In that case we should check
     //if we have points or not.
     //According to this we will show add extrapoint or not
@@ -302,30 +307,26 @@ const Hero = (props) => {
         // bu rendere sebeb olur
         dispatch({ type: "CHECHK_FLIGHT_WAITING_TIME", data: { journeyType } })
     }, [])
-
-
     return (
         <div className={`${styles.hero} ${direction} page`} >
             <div className={styles.hero_bg}>
-                <Image
-                    priority
-                    className={styles.landing_image}
-                    src={islinknamecomponent ? "/images/Mugla.webp" : "/images/hero.webp"}
-                    alt="APL Transfers "
-                    width={1700}
-                    height={100}
-                    sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 1160px"
-                    quality={75} />
-                    
+                <Image priority className={styles.landing_image} src={islinknamecomponent ? "/images/Mugla.webp" : "/images/hero.webp"} alt="APL Transfers " width={1700} height={100} sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 1160px" quality={75} />
                 <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={59} />
             </div>
             <div className={`${styles.hero_section} page_section`}>
                 <div className={`${styles.hero_section_container} page_section_container`}>
                     <div className={styles.points_content}>
-                        <h1 className={styles.main_title}>Your world of joy</h1>
-                        <p className={styles.subtitle}>From local escapes to far-flung adventures, find what makes you happy anytime, anywhere</p>
+                        <h1 className={styles.main_title}>{mainTitle}</h1>
+                        <p className={styles.subtitle}>{subtitle}</p>
+
                         <div className={styles.main_search}>
-                            <br />
+                            {islinknamecomponent ? <div className={styles.linkname_title_div}>
+                                <h2 style={{ textTransform: "capitalize" }} className={`${styles.title} ${direction} `}>
+                                    {/* {islinknamecomponent ? <span>{appData?.words[`${titleStringOfHastaxiDeals(hasTaxiDeals)}`]}</span> : <span>{appData?.words["searchEngineTitle"]}</span>} */}
+                                    {language === 'en' ? airportTranslations[language][titleStringOfHastaxiDeals(hasTaxiDeals)].split("(")[0] : airportTranslations[language][titleStringOfHastaxiDeals(hasTaxiDeals)]}
+                                </h2>
+                            </div> : null}
+
                             <RadioButton setInternalState={setInternalState} internalState={internalState} />
                             <br />
                             {reservations.map((obj, index) => {

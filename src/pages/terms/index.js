@@ -28,10 +28,10 @@ const Terms = () => {
             <div className={`${styles.terms} ${direction} page`} >
                 <div className={`${styles.terms_section} page_section`}>
                     <div className={`${styles.terms_section_container} page_section_container`}>
-                        <div>
+                        <div className={styles.breadcrumb}>
                             <span><a href="/">Home</a></span>
                             <span>{">"}</span>
-                            <span><a href="#">Terms</a> </span>
+                            <span><a href="/terms">Terms</a> </span>
                         </div>
                         <div className={styles.terms_container}>
                             <div className={styles.terms_container_left}>

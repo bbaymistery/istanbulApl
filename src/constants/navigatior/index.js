@@ -50,53 +50,7 @@ export const Airports = [
         translateTitle: "strStanstedTaxiPrices",
     }
 ]
-export const CruisePorts = [
-    {
-        innerText: "Dover Cruise Port",
-        path: "/dover-cruise-taxi",
-        title: "Dover Cruise Terminal Transfer",
-        type: "cell",
-        hasTaxiDeals: "dover",
-        translateTitle: "strDoverCruisePort",
-        imgUrl: "/images/cruiseto/cruise1__.webp",
-        id: 1,
-    },
-    {
-        innerText: "Harwich Cruise Port ",
-        path: "/harwich-taxi-prices",
-        title: "Harwich Cruise Port  Transfer",
-        type: "cell",
-        hasTaxiDeals: "harwich",
-        title: "Harwich Cruise Port",
-        id: 2,
-        imgUrl: "/images/cruiseto/cruise2__.webp",
-        translateTitle: "strHarwichCruisePort",
-    },
-    {
-        innerText: "Portsmouth Cruise Port",
-        path: "/portsmouth-taxi-prices",
-        title: "Portsmouth Cruise Port Transfer",
-        translateTitle: "strPortsmouthCruisePort",
-        type: "cell",
-        hasTaxiDeals: "portsmouth",
-        imgUrl: "/images/cruiseto/cruise3__.webp",
 
-        id: 3,
-    },
-    {
-        innerText: "Southampton Cruise Port",
-        path: "/southampton-cruise-taxi",
-        title: "Southampton Cruise Port Transfer",
-        type: "cell",
-        hasTaxiDeals: "southampton",
-        translateTitle: "strSouthamptonCruisePort",
-        imgUrl: "/images/cruiseto/cruise4__.webp",
-
-        id: 4,
-
-
-    },
-]
 
 // normal list
 //hasTaxideals=>when we select any link we store that name of
@@ -119,65 +73,63 @@ export const navigator = [
         strInnerText: "strAirportTaxi",
         list: [
             {
-                innerText: "Heathrow Airport Transfer",
-                path: "/heathrow-taxi-prices",
-                title: "strHeathrowTaxiPrices",
+                innerText: "Istanbul Airport (IST)",
+                path: "/istanbul-airport-taxi-prices",
+                title: "strIstanbulAirportPrices",
                 type: "cell",
-                hasTaxiDeals: "heathrow",
-                strInnerText: "strHeathrowTaxiPrices",
+                hasTaxiDeals: "IST",
+                strInnerText: "strIstanbulAirportPrices",
             },
             {
-                innerText: "Gatwick Airport Transfer",
-                path: "/gatwick-taxi-prices",
-                title: "strGatwickTaxiPrices",
+                innerText: "Sabiha Gokcen Airport (SAW)",
+                path: "/sabiha-gokcen-airport-taxi-prices",
+                title: "strSabihaGokcenAirportPrices",
                 type: "cell",
-                hasTaxiDeals: "gatwick",
-                strInnerText: "strGatwickTaxiPrices",
+                hasTaxiDeals: "SAW",
+                strInnerText: "strSabihaGokcenAirportPrices",
             },
+            {
+                innerText: "Dalaman Airport (DLM)",
+                path: "/dalaman-airport-taxi-prices",
+                title: "strDalamanAirportPrices",
+                type: "cell",
+                hasTaxiDeals: "DLM",
+                strInnerText: "strDalamanAirportPrices",
+            },
+            {
+                innerText: "Antalya Airport (AYT)",
+                path: "/antalya-airport-taxi-prices",
+                title: "strAntalyaAirportPrices",
+                type: "cell",
+                hasTaxiDeals: "AYT",
+                strInnerText: "strAntalyaAirportPrices",
+            },
+            {
+                innerText: "Bodrum-Milas Airport (BJV)",
+                path: "/bodrum-milas-airport-taxi-prices",
+                title: "strBodrumMilasAirportPrices",
+                type: "cell",
+                hasTaxiDeals: "BJV",
+                strInnerText: "strBodrumMilasAirportPrices",
+            },
+            // {
+            //     innerText: "Izmir Adnan Menderes Airport (ADB)",
+            //     path: "/izmir-adnan-menderes-airport-taxi-prices",
+            //     title: "strIzmirAdnanMenderesAirportPrices",
+            //     type: "cell",
+            //     hasTaxiDeals: "ADB",
+            //     strInnerText: "strIzmirAdnanMenderesAirportPrices",
+            // },
+            // {
+            //     innerText: "Gazipasha-Alanya Airport (GZP)",
+            //     path: "/gazipasha-alanya-airport-taxi-prices",
+            //     title: "strGazipashaAlanyaAirportPrices",
+            //     type: "cell",
+            //     hasTaxiDeals: "GZP",
+            //     strInnerText: "strGazipashaAlanyaAirportPrices",
+            // },
         ]
     },
-    // {
-    //     innerText: "Cruise Ports",
-    //     path: "/",
-    //     type: "list",
-    //     hasTaxiDeals: "",
-    //     strInnerText: "strCruiseTaxi",
-    //     list: [
-    //         {
-    //             innerText: "Southampton Cruise Port",
-    //             path: "/southampton-cruise-taxi",
-    //             title: "strSouthamptonCruisePort",
-    //             type: "cell",
-    //             hasTaxiDeals: "southampton",
-    //             strInnerText: "strSouthamptonCruisePort"
-    //         },
-    //         {
-    //             innerText: "Dover Cruise Port",
-    //             path: "/dover-cruise-taxi",
-    //             title: "strDoverCruisePort",
-    //             type: "cell",
-    //             hasTaxiDeals: "dover",
-    //             strInnerText: "strDoverCruisePort"
-
-    //         },
-    //         {
-    //             innerText: "Portsmouth Cruise Port",
-    //             path: "/portsmouth-taxi-prices",
-    //             title: "strPortsmouthCruisePort",
-    //             type: "cell",
-    //             hasTaxiDeals: "portsmouth",
-    //             strInnerText: "strPortsmouthCruisePort"
-    //         },
-    //         {
-    //             innerText: "Harwich Cruise Port ",
-    //             path: "/harwich-taxi-prices",
-    //             title: "strHarwichCruisePort",
-    //             type: "cell",
-    //             hasTaxiDeals: "harwich",
-    //             strInnerText: "strHarwichCruisePort"
-    //         },
-    //     ]
-    // },
     {
         innerText: "Terms",
         path: "/terms",
@@ -225,95 +177,73 @@ export const navigatorMobile = [
         strInnerText: "strNavHome",
         firstChild: false,
     },
-    // {
-    //     innerText: "airports",
-    //     path: "/",
-    //     type: "list",
-    //     hasTaxiDeals: "",
-    //     strInnerText: "strAirportTaxi",
-    //     firstChild: true,
-    //     list: [
-    //         {
-    //             innerText: "Heathrow Airport Transfer",
-    //             path: "/heathrow-taxi-prices",
-    //             title: "strHeathrowTaxiPrices",
-    //             type: "cell",
-    //             strInnerText: "strHeathrowTaxiPrices",
-    //             hasTaxiDeals: "heathrow",
-    //         }, {
-    //             innerText: "Gatwick Airport Transfer",
-    //             path: "/gatwick-taxi-prices",
-    //             title: "strGatwickTaxiPrices",
-    //             type: "cell",
-    //             hasTaxiDeals: "gatwick",
-    //             strInnerText: "strGatwickTaxiPrices",
-    //         }, {
-    //             innerText: "City Airport Transfer",
-    //             path: "/london-city-taxi-prices",
-    //             title: "strLCYTaxiPrices",
-    //             type: "cell",
-    //             hasTaxiDeals: "city",
-    //             strInnerText: "strLCYTaxiPrices"
-    //         }, {
-    //             innerText: "Luton Airport Transfer",
-    //             path: "/luton-taxi-prices",
-    //             title: "strLutonTaxiPrices",
-    //             type: "cell",
-    //             hasTaxiDeals: "luton",
-    //             strInnerText: "strLutonTaxiPrices"
-    //         },
-    //         {
-    //             innerText: "Stansted Airport Transfer",
-    //             path: "/stansted-taxi-prices",
-    //             title: "strStanstedTaxiPrices",
-    //             type: "cell",
-    //             hasTaxiDeals: "stansted",
-    //             strInnerText: "strStanstedTaxiPrices"
-    //         }
-    //     ]
-    // },
-    // {
-    //     innerText: "Cruise Ports",
-    //     path: "/",
-    //     firstChild: true,
-    //     type: "list",
-    //     hasTaxiDeals: "",
-    //     strInnerText: "strCruiseTaxi",
-    //     list: [
-    //         {
-    //             innerText: "Southampton Cruise Port",
-    //             path: "/southampton-cruise-taxi",
-    //             title: "strSouthamptonCruisePort",
-    //             type: "cell",
-    //             hasTaxiDeals: "southampton",
-    //             strInnerText: "strSouthamptonCruisePort"
-    //         },
-    //         {
-    //             innerText: "Dover Cruise Port",
-    //             path: "/dover-cruise-taxi",
-    //             title: "strDoverCruisePort",
-    //             type: "cell",
-    //             strInnerText: "strDoverCruisePort",
-    //             hasTaxiDeals: "dover",
-    //         },
-    //         {
-    //             innerText: "Portsmouth Cruise Port",
-    //             path: "/portsmouth-taxi-prices",
-    //             title: "strPortsmouthCruisePort",
-    //             type: "cell",
-    //             strInnerText: "strPortsmouthCruisePort",
-    //             hasTaxiDeals: "portsmouth",
-    //         },
-    //         {
-    //             innerText: "Harwich Cruise Port ",
-    //             path: "/harwich-taxi-prices",
-    //             title: "strHarwichCruisePort",
-    //             type: "cell",
-    //             hasTaxiDeals: "harwich",
-    //             strInnerText: "strHarwichCruisePort"
-    //         },
-    //     ]
-    // },
+    {
+        innerText: "airports",
+        path: "",
+        type: "list",
+        hasTaxiDeals: "IST",
+        strInnerText: "strAirportTaxi",
+        firstChild: true,
+
+        list: [
+            {
+                innerText: "Istanbul Airport (IST)",
+                path: "/istanbul-airport-taxi-prices",
+                title: "strIstanbulAirportPrices",
+                type: "cell",
+                hasTaxiDeals: "IST",
+                strInnerText: "strIstanbulAirportPrices",
+            },
+            {
+                innerText: "Sabiha Gokcen Airport (SAW)",
+                path: "/sabiha-gokcen-airport-taxi-prices",
+                title: "strSabihaGokcenAirportPrices",
+                type: "cell",
+                hasTaxiDeals: "SAW",
+                strInnerText: "strSabihaGokcenAirportPrices",
+            },
+            {
+                innerText: "Dalaman Airport (DLM)",
+                path: "/dalaman-airport-taxi-prices",
+                title: "strDalamanAirportPrices",
+                type: "cell",
+                hasTaxiDeals: "DLM",
+                strInnerText: "strDalamanAirportPrices",
+            },
+            {
+                innerText: "Antalya Airport (AYT)",
+                path: "/antalya-airport-taxi-prices",
+                title: "strAntalyaAirportPrices",
+                type: "cell",
+                hasTaxiDeals: "AYT",
+                strInnerText: "strAntalyaAirportPrices",
+            },
+            {
+                innerText: "Bodrum-Milas Airport (BJV)",
+                path: "/bodrum-milas-airport-taxi-prices",
+                title: "strBodrumMilasAirportPrices",
+                type: "cell",
+                hasTaxiDeals: "BJV",
+                strInnerText: "strBodrumMilasAirportPrices",
+            },
+            // {
+            //     innerText: "Izmir Adnan Menderes Airport (ADB)",
+            //     path: "/izmir-adnan-menderes-airport-taxi-prices",
+            //     title: "strIzmirAdnanMenderesAirportPrices",
+            //     type: "cell",
+            //     hasTaxiDeals: "ADB",
+            //     strInnerText: "strIzmirAdnanMenderesAirportPrices",
+            // },
+            // {
+            //     innerText: "Gazipasha-Alanya Airport (GZP)",
+            //     path: "/gazipasha-alanya-airport-taxi-prices",
+            //     title: "strGazipashaAlanyaAirportPrices",
+            //     type: "cell",
+            //     hasTaxiDeals: "GZP",
+            //     strInnerText: "strGazipashaAlanyaAirportPrices",
+            // },
+        ]
+    },
     {
         innerText: "Terms",
         path: "/terms",
@@ -333,15 +263,7 @@ export const navigatorMobile = [
         hasTaxiDeals: "",
         firstChild: false
     },
-    // {
-    //     innerText: "Travel Agents",
-    //     path: "/travelAgents",
-    //     type: "cell",
-    //     hasTaxiDeals: "",
-    //     strInnerText: "strTravelAgents",
-    //     title: "strTravelAgents",
-    //     firstChild: false
-    // },
+
     {
         innerText: "Our Fleet",
         path: "/fleet",
@@ -362,36 +284,3 @@ export const navigatorMobile = [
 
     }
 ]
-
-
-let taxiPricesLinks = [
-    "/gatwick-taxi-prices",
-    "/heathrow-taxi-prices",
-    "/london-city-taxi-prices",
-    "/luton-taxi-prices",
-    "/stansted-taxi-prices",
-    "/dover-cruise-taxi",
-    "/harwich-taxi-prices",
-    "/portsmouth-taxi-prices",
-    "/southampton-cruise-taxi",
-    "/stansted-taxi-prices"
-]
-
-export let lists = {
-    "strNavHome": "home",
-    "strNavAirports": "airports",
-    "strNavHeathrowAirportTransfer": "heathrow airport transfer",
-    "strNavGatwickAirportTransfer": "gatwick airport transfer",
-    "strNavCityAirportTransfer": "city airport transfer",
-    "strNavLutonAirportTransfer": "luton airport transfer",
-    "strNavStanstedAirportTransfer": "stansted airport transfer",
-    "strNavCruisePorts": "cruise ports",
-    "strNavSouthamptonCruisePort": "southampton cruise port",
-    "strNavDoverCruisePort": "dover cruise port",
-    "strNavPortsmouthCruisePort": "portsmouth cruise port",
-    "strNavHarwichCruisePort": "harwich cruise port",
-    "strNavTerms": "terms",
-    "strNavContactUs": "contact us",
-    "strNavManageMyBooking": "manage my booking",
-    "strNavCorporate": "corporate",
-}

@@ -9,6 +9,7 @@ import OutsideClickAlert from "../../elements/OutsideClickAlert";
 import dynamic from 'next/dynamic'
 import { setCookie } from "../../../helpers/cokieesFunc";
 import logoImage from '../../../../public/logos/logo.webp'
+import airportTranslations from "../../../constants/generalTranslataions";
 
 const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'),);
 const DesktopMenu = dynamic(() => import('../../elements/DesktopMenu'),);
@@ -93,12 +94,12 @@ const Header = () => {
           <div className={styles.left_items}>
             <div className={styles.left_items_flex_div}>
               <a href={language === 'en' ? '/' : `/${language}`} className={`${styles.logo_tag}`}  >
-                <Image src={logoImage} alt="APL transfers" width={245} height={65} priority />
+                <Image src={logoImage} alt="APL transfers" width={255} height={70} priority />
               </a>
-              <DesktopMenu appData={translatedAppData} journeyType={journeyType} language={language} />
+              <DesktopMenu airportTranslations={airportTranslations} appData={translatedAppData} journeyType={journeyType} language={language} />
               {/* mobile  */}
               {openMenu ?
-                <MobileMenu openMenu={openMenu} handleClickNavLinkMobileMenuNotList={handleClickNavLinkMobileMenuNotList} language={language} handleClickNavLinkMobileMenuList={handleClickNavLinkMobileMenuList} appData={translatedAppData} />
+                <MobileMenu airportTranslations={airportTranslations} openMenu={openMenu} handleClickNavLinkMobileMenuNotList={handleClickNavLinkMobileMenuNotList} language={language} handleClickNavLinkMobileMenuList={handleClickNavLinkMobileMenuList} appData={translatedAppData} />
                 : <></>}
             </div>
           </div>
