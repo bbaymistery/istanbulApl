@@ -6,6 +6,8 @@ import Image from 'next/image';
 import airportTranslations, { allTranslations } from '../../../constants/generalTranslataions';
 import { navigator } from '../../../constants/navigatior';
 import dynamic from 'next/dynamic'
+import airportPoints from './allDestinations';
+import { getTitleStringOfHastaxiDeals } from '../../../helpers/splitHelper';
 const PointsModal = dynamic(() => import('../../elements/PointsModal'));
 
 const icons = [
@@ -86,8 +88,6 @@ const PopularDestinations = (props) => {
     const { appData } = useSelector(state => state.initialReducer)
 
     const [tabs, setTabs] = useState(0)
-    const [fromAirportToLondon, setFromAirportToLondon] = useState([])
-    const [fromLondonToAirport, setfromLondonToAirport] = useState([])
     const [isVisible, ref] = useVisibility();
 
     const tabsHandler = async (params = {}) => {
@@ -96,11 +96,20 @@ const PopularDestinations = (props) => {
         // fecthPoints({ dealsNameProp, language })
         dispatch({ type: "SET_NAVBAR_TAXI_DEALS", data: { hasTaxiDeals: dealsNameProp } });
     }
-
+    const setModal = () => {
+        dispatch({ type: "SET_POINTS_MODAL", data: { trueOrFalse: true } })
+        document.body.style.overflow = "hidden";
+    }
+    console.log(hasTaxiDeals);
 
     return (
         <div className={`${styles.populardestination} ${direction} page`} >
-            {pointsModalStatus && <PointsModal dealsName={hasTaxiDeals} fromLondonToAirport={fromLondonToAirport} fromAirportToLondon={fromAirportToLondon} points={[]} title={"Salam"} />}
+            {pointsModalStatus && <PointsModal
+                dealsName={hasTaxiDeals}
+                points={airportPoints[hasTaxiDeals]}
+                title={getTitleStringOfHastaxiDeals(hasTaxiDeals, language)}
+                language={language}
+            />}
 
             <div className={`${styles.populardestination_section} page_section`}>
                 <div className={`${styles.populardestination_section_container} page_section_container`}>
@@ -117,10 +126,10 @@ const PopularDestinations = (props) => {
                         <h2 ref={ref} className={` ${isVisible ? styles.faderight : ''}`} >
                             {allTranslations["strPopularTours"][language]}
                         </h2>
-                        <a href="#" ref={ref} className={` ${isVisible ? styles.fadeleft : ''}`}>
-                            <span>{appData.words["strViewAll"]}</span>
+                        <p ref={ref} className={` ${isVisible ? styles.fadeleft : ''}`} onClick={() => { setModal() }}>
+                            <span style={{ paddingRight: "10px" }}>{appData.words["strViewAll"]}</span>
                             <i className="fa-solid fa-arrow-right"></i>
-                        </a>
+                        </p>
                     </div>
 
                     <div ref={ref} className={`${styles.featureIcons} ${isVisible ? styles.fade_bottom_to_top : ''}`}>

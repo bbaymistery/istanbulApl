@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useOutsideClick } from '../../../hooks/useOutsideClick';
 import styles from "./styles.module.scss";
 
-const PointsModal = ({ points, title, dealsName }) => {
+const PointsModal = ({ points, title, dealsName, language }) => {
     const wrapperRef = useRef();
     const dispatch = useDispatch()
     const { appData } = useSelector(state => state.initialReducer)
@@ -55,13 +55,11 @@ const PointsModal = ({ points, title, dealsName }) => {
                 <h3>{title}</h3>
                 <ul>
                     {(points || [])
-                        .filter(destination => destination.categoryText.toLowerCase() !== "from airport to london")
-                        .filter(destination => destination.categoryText.toLowerCase() !== "from london to airport")
                         ?.map((point, index) => {
-                            return <a href={point.pathname} key={point?.title}>
+                            return <a href={`/${language}/${point.linkUrl}`} key={`${point[language]}${index}`}>
                                 <li className='li_item' >
-                                    <span className={styles.title}>{point?.translatedPageTitle ? point?.translatedPageTitle : point?.title}</span>
-                                    <span className={styles.start_from}>{(appData || {}).words["strStartFrom"]} <span className={styles.price}>{point.price}</span>  </span>
+                                    <span className={styles.title}>{point[language]}</span>
+                                    <span className={styles.start_from}>{(appData || {}).words["strStartFrom"]} <span className={styles.price}>{point.price} $</span>  </span>
                                 </li>
                             </a>
                         })}
@@ -69,7 +67,7 @@ const PointsModal = ({ points, title, dealsName }) => {
                 </ul>
 
 
-                <br /><br />
+                <br />
             </div>
         </div>
     )

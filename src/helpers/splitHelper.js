@@ -1,3 +1,5 @@
+import { titleStringOfHastaxiDeals } from "../components/widgets/Hero/translations";
+import airportTranslations from "../constants/generalTranslataions";
 
 //pass trasnferdateTimeString as parametr then split it  to hour and minute
 export const splitDateTimeStringIntoHourAndMinute = (dateString) => {
@@ -30,3 +32,9 @@ export const splitAndTranslateDuration = (text, language, appData) => {
     return text;
   }
 };
+
+
+//When we click to POPULAR DESTANATIONS we get title by IST ADY ...
+export const getTitleStringOfHastaxiDeals = (hasTaxiDeals, language) => {
+  return language === 'en' ? airportTranslations[language][titleStringOfHastaxiDeals(hasTaxiDeals)].split("(")[0] : airportTranslations[language][titleStringOfHastaxiDeals(hasTaxiDeals)]
+}

@@ -32,14 +32,14 @@
     }
 
     .main_container {
-        border: 1px solid #1660ff;
+        border: 1px solid $--color-accent-1;
         background: #fff;
         border-radius: 4px;
         padding: 2rem;
         max-width: 1200px;
         width: 100%;
         // min-height: min-content;
-        height: 600px !important;
+        height: max-content;
         overflow-y: scroll;
         transition: $tr-cubic;
         position: relative;
@@ -108,11 +108,12 @@
                 padding: 5px 10px;
                 transition: 0.4s linear;
                 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
                 .title {
                     font-weight: 500;
-                    font-size: 17px;
+                    font-size: 16px;
+                    letter-spacing: .2px;
+                    color: $--color-dark-1;
 
                     @media(max-width:1300px) {
                         font-size: 16px;
@@ -124,7 +125,7 @@
                     text-transform: capitalize;
                     display: flex;
                     justify-content: space-between;
-                    color: $--color-light-3;
+                    color: $--color-light-2;
                     transition: $tr-cubic;
 
                     @media(max-width:1300px) {
@@ -144,15 +145,13 @@
                     transition: $tr-cubic;
                     box-shadow: none;
                     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-                    background-color: #c9c9c9;
+                    background-color: $--color-light-5;
 
                     .start_from {
-
-                        color: #0a58ca;
+                        color:$--color-accent-1-dark;
 
                         .price {
-                            color: #0a58ca;
-
+                            color: $--color-accent-1-dark;
                         }
                     }
                 }

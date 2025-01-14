@@ -24,7 +24,7 @@
                     text-align: center;
                 }
 
-                a {
+                p {
                     color: $--color-dark-1;
                     display: flex;
                     gap: 10px;
@@ -32,6 +32,11 @@
                     @media(max-width:600px) {
                         display: flex;
                         justify-content: center;
+                    }
+
+                    span {
+                        cursor: pointer;
+
                     }
 
                     i {

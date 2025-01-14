@@ -1,4 +1,4 @@
-import { splitDateTimeStringIntoDate, splitDateTimeStringIntoHourAndMinute } from '../../../helpers/splitHelper';
+import { getTitleStringOfHastaxiDeals, splitDateTimeStringIntoDate, splitDateTimeStringIntoHourAndMinute } from '../../../helpers/splitHelper';
 import { reservationSchemeValidator } from '../../../helpers/reservationSchemeValidator';
 import { ifHasUnwantedCharacters } from '../../../helpers/ifHasUnwantedCharacters';
 import { hours, minutes } from '../../../constants/minutesHours';
@@ -14,8 +14,7 @@ import dynamic from 'next/dynamic'
 import { BUTTON_TYPES } from '../../elements/Button/ButtonTypes';
 import Button from '../../elements/Button/Button';
 import SelectedPointsOnHomePage from '../../elements/SelectedPointsOnHomePage';
-import translations, { titleStringOfHastaxiDeals } from './translations';
-import airportTranslations from '../../../constants/generalTranslataions';
+import translations from './translations';
 const HandleSearchResults = dynamic(() => import('../../elements/HandleSearchResults'))
 const WaveLoading = dynamic(() => import('../../elements/LoadingWave'))
 const SearchInputLoading = dynamic(() => import('../../elements/SearchInputLoading'))
@@ -310,6 +309,7 @@ const Hero = (props) => {
     return (
         <div className={`${styles.hero} ${direction} page`} >
             <div className={styles.hero_bg}>
+                {/* Dalaman da Mugl olarak kalsin  */}
                 <Image priority className={styles.landing_image} src={islinknamecomponent ? "/images/Mugla.webp" : "/images/hero.webp"} alt="APL Transfers " width={1700} height={100} sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 1160px" quality={75} />
                 <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={59} />
             </div>
@@ -322,8 +322,7 @@ const Hero = (props) => {
                         <div className={styles.main_search}>
                             {islinknamecomponent ? <div className={styles.linkname_title_div}>
                                 <h2 style={{ textTransform: "capitalize" }} className={`${styles.title} ${direction} `}>
-                                    {/* {islinknamecomponent ? <span>{appData?.words[`${titleStringOfHastaxiDeals(hasTaxiDeals)}`]}</span> : <span>{appData?.words["searchEngineTitle"]}</span>} */}
-                                    {language === 'en' ? airportTranslations[language][titleStringOfHastaxiDeals(hasTaxiDeals)].split("(")[0] : airportTranslations[language][titleStringOfHastaxiDeals(hasTaxiDeals)]}
+                                    {getTitleStringOfHastaxiDeals(hasTaxiDeals, language)}
                                 </h2>
                             </div> : null}
 
