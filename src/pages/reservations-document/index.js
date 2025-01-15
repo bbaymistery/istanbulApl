@@ -74,13 +74,11 @@ const ReservationsDocument = (props) => {
             headers: { "Content-Type": "application/json", },
         });
         const data = await response.json();
-        console.log({ data, stage });
 
     };
     const generatePdf = (e) => {
         if (typeof window === "object") {
             let file = document.getElementById("pdf_file");
-            console.log(file);
 
             html2canvas(file, { logging: true, letterRendering: 1, useCORS: true, })
                 .then(function (canvas) {
@@ -141,7 +139,6 @@ const ReservationsDocument = (props) => {
                 window.handelErrorLogs(location, message, options)
             });
     };
-    console.log(paymentType);
 
     // scrolling from top
     useEffect(() => {

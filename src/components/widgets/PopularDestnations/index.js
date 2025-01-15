@@ -6,82 +6,15 @@ import Image from 'next/image';
 import airportTranslations, { allTranslations } from '../../../constants/generalTranslataions';
 import { navigator } from '../../../constants/navigatior';
 import dynamic from 'next/dynamic'
-import airportPoints from './allDestinations';
+import airportPoints from '../../../constants/popularDestinations';
 import { getTitleStringOfHastaxiDeals } from '../../../helpers/splitHelper';
 const PointsModal = dynamic(() => import('../../elements/PointsModal'));
 
-const icons = [
-    {
-        image: "",
-        altName: "Paris France",
-        location: "Paris France",
-        p: "Centipede Tour - Guided Arizona Desert Tour by ATV",
-        rate: "4.8 (243)",
-        price: "$189.25"
-    },
-    {
-        image: "",
-        altName: "New York USA",
-        location: "New York USA",
-        p: "Molokini and Turtle Town Snorkeling Adventure Aboard",
-        rate: "4.8 (243)",
-        price: "$225.25"
-    },
-    {
-        image: "",
-        altName: "London UK",
-        location: "London UK",
-        p: "Westminster Walking Tour & Westminster Abbey Entry",
-        rate: "4.8 (243)",
-        price: "$189.25"
-    },
-    {
-        image: "",
-        altName: "New York USA",
-        location: "New York USA",
-        p: "All Inclusive Ultimate Circle Island Day Tour with Lunch",
-        rate: "4.8 (243)",
-        price: "$943.25"
-    },
-    {
-        image: "",
-        altName: "Paris France",
-        location: "Paris France",
-        p: "Space Center Houston Admission Ticket",
-        rate: "4.8 (243)",
-        price: "$235"
-    },
-    {
-        image: "",
-        altName: "New York",
-        location: "New York",
-        p: "Clear Kayak Tour of Shell Key Preserve and Tampa Bay Area",
-        rate: "4.8 (243)",
-        price: "$235"
-    },
-    {
-        image: "",
-        altName: "London UK",
-        location: "London UK",
-        p: "Westminster Walking Tour & Westminster Abbey Entry",
-        rate: "4.8 (243)",
-        price: "$189.25"
-    },
-    {
-        image: "",
-        altName: "Paris France",
-        location: "Paris France",
-        p: "Centipede Tour - Guided Arizona Desert Tour by ATV",
-        rate: "4.8 (243)",
-        price: "$189.25"
-    },
 
-]
 
 const tabsBttons = navigator[1].list
 const PopularDestinations = (props) => {
     const { showTabs = true, } = props
-    console.log({ tabsBttons });
 
     const dispatch = useDispatch();
     const state = useSelector(state => state.pickUpDropOffActions);
@@ -134,13 +67,13 @@ const PopularDestinations = (props) => {
 
                     <div ref={ref} className={`${styles.featureIcons} ${isVisible ? styles.fade_bottom_to_top : ''}`}>
                         {points.slice(0, 8).map((item, idx) => {
-
+                            let path = language === 'en' ? `/${item.linkUrl}` : `/${language}/${item.linkUrl}`
                             return (
                                 <div className={styles.featureIcon} key={idx}>
-                                    <a href={`/${language}/${item.linkUrl}`}>
+                                    <a href={path}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image src="/images/default.webp" width={250} height={198} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 50vw" alt={item[language]} />
+                                                <Image  style={{ height: "auto", width: "100%",objectFit: 'cover' }} src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198}  alt={item[language]} />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>

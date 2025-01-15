@@ -1,15 +1,15 @@
-import "../styles/global.scss";
 import { createWrapper } from 'next-redux-wrapper';
-import { Provider, useDispatch } from 'react-redux';
-import store from '../store/store';
-import { checkLanguageAttributeOntheUrl } from '../helpers/checkLanguageAttributeOntheUrl';
+import { DM_Sans } from "next/font/google";
 import { useRouter } from 'next/router';
 import { useCallback, useEffect } from 'react';
-import { mobileAndTabletCheck } from '../helpers/mobileAndTabletCheck';
-import { setCookie, getCookie } from "../helpers/cokieesFunc";
-import { DM_Sans } from "next/font/google";
+import { Provider, useDispatch } from 'react-redux';
+import { checkLanguageAttributeOntheUrl } from '../helpers/checkLanguageAttributeOntheUrl';
+import { getCookie, setCookie } from "../helpers/cokieesFunc";
 import { fetchAllLanguagesAppDatas } from "../helpers/fetchAllLanguagesAppDatas";
+import { mobileAndTabletCheck } from '../helpers/mobileAndTabletCheck';
 import { fetchConfig } from "../resources/getEnvConfig";
+import store from '../store/store';
+import "../styles/global.scss";
 const dmsans = DM_Sans({
   weight: ["400", "500", "700"],
   style: ["normal", "italic"],
@@ -18,6 +18,8 @@ const dmsans = DM_Sans({
 });
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
+
+
 
   //localhost:3500//test
   // Check if 'asPath' contains two or more consecutive slashes
@@ -51,6 +53,25 @@ function MyApp({ Component, pageProps }) {
     dispatch({ type: "SET_NEW_LANGUAGE", data: { languageKey: exists ? language : "en", direction, langIndex: index } })
 
   }, [dispatch, appData,])
+
+
+
+
+  // Save scroll position in localStorage
+  const saveScrollPosition = () => {
+    const currentScrollPosition = window.scrollY;
+    localStorage.setItem('scrollPosition', currentScrollPosition); // Persist to localStorage
+  };
+
+  // Restore scroll position from localStorage
+  const restoreScrollPosition = () => {
+    const savedPosition = localStorage.getItem('scrollPosition');
+    if (savedPosition) {
+      const parsedPosition = parseInt(savedPosition, 10);
+      window.scrollTo(0, parsedPosition);
+      localStorage.removeItem('scrollPosition'); // Optional cleanup
+    }
+  };
 
 
   useEffect(() => {
@@ -128,6 +149,22 @@ function MyApp({ Component, pageProps }) {
 
   }, [router.asPath])
 
+  useEffect(() => {
+    // Restore scroll position on page load
+    restoreScrollPosition();
+
+    // Save scroll position before navigation
+    router.events.on('routeChangeStart', saveScrollPosition);
+
+    // Restore scroll position after navigation
+    router.events.on('routeChangeComplete', restoreScrollPosition);
+
+    return () => {
+      // Cleanup event listeners
+      router.events.off('routeChangeStart', saveScrollPosition);
+      router.events.off('routeChangeComplete', restoreScrollPosition);
+    };
+  }, [router]);
 
   return (
     <Provider store={store}>

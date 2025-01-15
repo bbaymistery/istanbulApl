@@ -4,3 +4,5 @@
 //!Check metatags of all pages
 
 //!Footer social icons links what is gonna be 
+
+//Anasayfa Location altindaki 4.8 243 u api requesti eklenmeli Dinamik olmali

@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import styles from "./styles.module.scss"
 import RadioButton from './RadioButton'
 import { useRouter } from 'next/router'
-import React, { useCallback, useEffect, } from 'react'
+import React, { useCallback, useEffect, useState, } from 'react'
 import Image from 'next/image';
 import dynamic from 'next/dynamic'
 import { BUTTON_TYPES } from '../../elements/Button/ButtonTypes';
@@ -18,7 +18,28 @@ import translations from './translations';
 const HandleSearchResults = dynamic(() => import('../../elements/HandleSearchResults'))
 const WaveLoading = dynamic(() => import('../../elements/LoadingWave'))
 const SearchInputLoading = dynamic(() => import('../../elements/SearchInputLoading'))
-
+const LinkNamePageImages = [
+    {
+        key: "IST",
+        imageUrl: "/images/matchingItemImages/besiktas.webp"
+    },
+    {
+        key: "SAW",
+        imageUrl: "/images/matchingItemImages/eminonu.webp"
+    },
+    {
+        key: "AYT",
+        imageUrl: "/images/matchingItemImages/kas-antalya.webp"
+    },
+    {
+        key: "DLM",
+        imageUrl: "/images/matchingItemImages/marmaris.webp"
+    },
+    {
+        key: "BJV",
+        imageUrl: "/images/matchingItemImages/bodrum2.webp"
+    }
+]
 const pushToQuotationsResultPage = (params = {}) => {
     let { dispatch, router, log, journeyType, language } = params
     dispatch({ type: "GET_QUOTATION", data: { results: log, journeyType } })
@@ -64,6 +85,8 @@ const Hero = (props) => {
         "error-booking-message-1": ""
 
     })
+
+    const [matchingLinkNameImage, setmatchingLinkNameImage] = useState("/images/popularDestinations/istanbul/besiktas.webp")
 
     const collectPoints = useCallback((params = {}, callback = () => { }) => {
 
@@ -293,6 +316,13 @@ const Hero = (props) => {
         navbarElement.style.display = "block";
     }
 
+    useEffect(() => {
+        const matchingImage = LinkNamePageImages.find((item) => item.key === hasTaxiDeals).imageUrl;
+        console.log(hasTaxiDeals);
+
+        setmatchingLinkNameImage(matchingImage)
+    }, [hasTaxiDeals])
+
     // Fallback to English if language not found
     const { mainTitle, subtitle } = translations[language] || translations.en;
     //when we go quotation page then go back In that case we should check
@@ -306,12 +336,25 @@ const Hero = (props) => {
         // bu rendere sebeb olur
         dispatch({ type: "CHECHK_FLIGHT_WAITING_TIME", data: { journeyType } })
     }, [])
+
+
+
     return (
         <div className={`${styles.hero} ${direction} page`} >
             <div className={styles.hero_bg}>
                 {/* Dalaman da Mugl olarak kalsin  */}
-                <Image priority className={styles.landing_image} src={islinknamecomponent ? "/images/Mugla.webp" : "/images/hero.webp"} alt="APL Transfers " width={1700} height={100} sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 1160px" quality={75} />
-                <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={59} />
+                <Image
+                    style={{ objectFit: `${islinknamecomponent ? "fill" : "cover"}` }}
+                    priority
+                    height={100}
+                    width={1600}
+                    quality={100}
+                    alt="APL Transfers "
+                    className={styles.landing_image}
+                    sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 1160px"
+                    src={islinknamecomponent ? matchingLinkNameImage : "/images/hero.webp"}
+                />
+                <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={600} style={{ height: "auto", width: "100%" }} />
             </div>
             <div className={`${styles.hero_section} page_section`}>
                 <div className={`${styles.hero_section_container} page_section_container`}>

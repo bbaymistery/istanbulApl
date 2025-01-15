@@ -22,6 +22,17 @@
         border-radius: 12px;
         z-index: -1;
 
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.15);
+            border-radius: inherit;
+        }
+
         @media (max-width:1000px) {
             right: 0px;
             left: 0px;
@@ -31,7 +42,7 @@
         .landing_image {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            // object-fit: fill;
         }
 
         .shape_image {
@@ -63,7 +74,7 @@
                 .main_title,
                 .subtitle {
                     text-align: center;
-                    color: $--color-dark-1 ;
+                    color: white;
                     padding-top: 30px;
                 }
 

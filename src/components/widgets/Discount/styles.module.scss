@@ -29,6 +29,10 @@
                 border-radius: 10px;
                 overflow: hidden;
 
+                .bg_image {
+                    position: relative;
+                }
+
                 .content {
                     display: flex;
                     width: 100%;
@@ -110,7 +114,7 @@
                                 left: 0%;
                                 right: 0%;
                                 /* Move to 50% from the left */
-                                transform: translateY( -50%);
+                                transform: translateY(-50%);
                                 /* Offset by 50% of its own width and height */
                                 width: 100%;
                                 /* For debugging (optional) */

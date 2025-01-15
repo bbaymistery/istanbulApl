@@ -112,6 +112,10 @@ const CarsSlider = (props) => {
                     {/* Using Next.js Image */}
                     <div className={styles.imageWrapper}>
                       <Image
+                        sizes="(max-width: 600px) 100vw, 
+                             (max-width: 1280px) 100vw, 
+                             (max-width: 1440px) 1539px, 
+                             100vw"
                         src={item.carImage} // The source URL of the image
                         alt={item.carName} // Alt text for accessibility
                         fill// Use "fill" to fill the parent container

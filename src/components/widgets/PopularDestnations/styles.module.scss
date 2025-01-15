@@ -111,6 +111,12 @@
                     border: 1px solid $--color-light-6;
                     border-radius: 12px;
 
+                    &:hover {
+                        transition: .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        background-color:$--color-light-5;
+                        ;
+                    }
+
                     a {
                         color: $--color-dark-1;
 
@@ -214,6 +220,8 @@
 
 
                 }
+
+
             }
 
         }
