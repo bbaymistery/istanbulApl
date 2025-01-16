@@ -1,6 +1,6 @@
 //!Constant helpers
 
-import { navigatorMobile } from "./navigatior";
+import { navigator } from "./navigatior";
 
 const airportPoints = {
     IST: [
@@ -1611,12 +1611,22 @@ const airportPoints = {
 
 export default airportPoints;
 
-const navigator = [
+
+//bir airportsarin hepsi  > /gazipasa-alanya-airport-to-alanya'  falan 
+//birde taxi prices  var hansiki navogatorun icinde yerlesen Navbardan gelenOnlarida navigator icine ekleyirik
+const pathForCheckingError404 = [
     { path: "/" },
     { path: "/terms" },
     { path: "/fleet" },
     { path: "/manage-booking.html" },
     { path: "/contact-us" },
+    { path: "/istanbul-airport-taxi-prices", },
+    { path: "/sabiha-gokcen-airport-taxi-prices", },
+    { path: "/dalaman-airport-taxi-prices", },
+    { path: "/antalya-airport-taxi-prices", },
+    { path: "/bodrum-milas-airport-taxi-prices", },
+    { path: "/izmir-adnan-menderes-airport-taxi-prices", },
+    { path: "/gazipasha-alanya-airport-taxi-prices", },
 ];
 
 //?Functions Helpers helpers
@@ -1642,6 +1652,7 @@ const extractLinkUrls = (data) => {
 };
 
 
+
 /**
  * Checks if the given pathname is a valid path in the application.
  * 
@@ -1649,7 +1660,7 @@ const extractLinkUrls = (data) => {
  * @returns {boolean} - True if the pathname is a valid path, false otherwise.
  */
 export const ISvalidPath = (pathname) => {
-    return [...navigator, ...extractLinkUrls(airportPoints)].some((route) => route.path.toLowerCase() === pathname.toLowerCase());
+    return [...pathForCheckingError404, ...extractLinkUrls(airportPoints)].some((route) => route.path.toLowerCase() === pathname.toLowerCase());
 }
 
 
@@ -1662,7 +1673,7 @@ export const ISvalidPath = (pathname) => {
 export const findMatchingItem = (routerPathname) => {
     // Combine all destinations into a single array
 
-    let lists = navigatorMobile[1].list
+    let lists = navigator[1].list
     // Find the matching item based on routerPathname
     const matchingItem = lists?.find((destination) => destination.path === `/${routerPathname}`);
 
@@ -1675,6 +1686,3 @@ export const findMatchingItem = (routerPathname) => {
     // If no match is found, return null or handle accordingly
     return { hasTaxiDeals: "IST" };
 };
-//!Her sehfe icin fergli image getir  sabiha-gokcen-airport-taxi-prices  icin ayri istanbul icin ayri 
-//!Try to remove warning add stles shhet tot document
-//!Try to add taxi Popular turlari bul inside linkname as apl with title  

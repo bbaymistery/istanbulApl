@@ -14,7 +14,7 @@ const PointsModal = dynamic(() => import('../../elements/PointsModal'));
 
 const tabsBttons = navigator[1].list
 const PopularDestinations = (props) => {
-    const { showTabs = true, } = props
+    const { showTabs = true, islinknamecomponent = false } = props
 
     const dispatch = useDispatch();
     const state = useSelector(state => state.pickUpDropOffActions);
@@ -46,7 +46,7 @@ const PopularDestinations = (props) => {
 
             <div className={`${styles.populardestination_section} page_section`}>
                 <div className={`${styles.populardestination_section_container} page_section_container`}>
-                    {showTabs ?
+                    {!islinknamecomponent && showTabs ?
                         <div className={`${styles.tabs} `}>
                             {tabsBttons.map((btn, index) => {
                                 return <button onClick={() => tabsHandler({ index, dealsNameProp: btn.hasTaxiDeals })} className={`${tabs === index ? styles.active : ""} btn`} key={btn.hasTaxiDeals} >
@@ -57,7 +57,7 @@ const PopularDestinations = (props) => {
                         : <></>}
                     <div className={styles.title_div}>
                         <h2 ref={ref} className={` ${isVisible ? styles.faderight : ''}`} >
-                            {allTranslations["strPopularTours"][language]}
+                            {islinknamecomponent ? getTitleStringOfHastaxiDeals(hasTaxiDeals, language) : allTranslations["strPopularTours"][language]}
                         </h2>
                         <p ref={ref} className={` ${isVisible ? styles.fadeleft : ''}`} onClick={() => { setModal() }}>
                             <span style={{ paddingRight: "10px" }}>{appData.words["strViewAll"]}</span>
@@ -73,7 +73,7 @@ const PopularDestinations = (props) => {
                                     <a href={path}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image  style={{ height: "auto", width: "100%",objectFit: 'cover' }} src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198}  alt={item[language]} />
+                                                <Image style={{ height: "auto", width: "100%", objectFit: 'cover' }} src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} alt={item[language]} />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>

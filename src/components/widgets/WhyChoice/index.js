@@ -35,9 +35,9 @@ const WhyChoice = () => {
         <div className={`${styles.whychoice} ${direction} page`} >
             <div className={`${styles.whychoice_section} page_section`}>
                 <div className={`${styles.whychoice_section_container} page_section_container`}>
-                    <h2 ref={ref} className={`${isVisible ? styles.fade_bottom_to_top : ''}`}>
+                    {/* <h2 ref={ref} className={`${isVisible ? styles.fade_bottom_to_top : ''}`}>
                         {translation.title}
-                    </h2>
+                    </h2> */}
                     <div ref={ref} className={`${styles.featureIcons} ${isVisible ? styles.fade_bottom_to_top : ''}`}>
                         {icons.map((icon, idx) => {
                             const content = translation.icons[idx];

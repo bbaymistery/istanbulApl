@@ -38,7 +38,17 @@ const LinkNamePageImages = [
     {
         key: "BJV",
         imageUrl: "/images/matchingItemImages/bodrum2.webp"
-    }
+    },
+    {
+        key: "GZP",
+        imageUrl: "/images/matchingItemImages/fethiye3.webp"
+    },
+    {
+        key: "ADB",
+        imageUrl: "/images/matchingItemImages/izmir3.webp"
+    },
+
+
 ]
 const pushToQuotationsResultPage = (params = {}) => {
     let { dispatch, router, log, journeyType, language } = params
@@ -317,9 +327,7 @@ const Hero = (props) => {
     }
 
     useEffect(() => {
-        const matchingImage = LinkNamePageImages.find((item) => item.key === hasTaxiDeals).imageUrl;
-        console.log(hasTaxiDeals);
-
+        const matchingImage = LinkNamePageImages?.find((item) => item.key === hasTaxiDeals)?.imageUrl;
         setmatchingLinkNameImage(matchingImage)
     }, [hasTaxiDeals])
 
