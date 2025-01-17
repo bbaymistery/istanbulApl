@@ -1,18 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import styles from "./styles.module.scss";
-import { useDispatch, useSelector } from 'react-redux';
-import { useVisibility } from '../../../hooks/useVisibility';
+import dynamic from 'next/dynamic';
 import Image from 'next/image';
-import airportTranslations, { allTranslations } from '../../../constants/generalTranslataions';
+import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import airportTranslations from '../../../constants/generalTranslataions';
 import { navigator } from '../../../constants/navigatior';
-import dynamic from 'next/dynamic'
 import airportPoints from '../../../constants/popularDestinations';
 import { getTitleStringOfHastaxiDeals } from '../../../helpers/splitHelper';
+import styles from "./styles.module.scss";
 const PointsModal = dynamic(() => import('../../elements/PointsModal'));
 
 
 
-const tabsBttons = navigator[1].list
+const tabsBttons = navigator[1].list.slice(0, 5)
 const PopularDestinations = (props) => {
     const { showTabs = true, islinknamecomponent = false } = props
 
@@ -24,7 +23,6 @@ const PopularDestinations = (props) => {
     const [points, setPoints] = useState(airportPoints[hasTaxiDeals])
 
     const [tabs, setTabs] = useState(0)
-    const [isVisible, ref] = useVisibility();
 
     const tabsHandler = async (params = {}) => {
         let { index, dealsNameProp } = params
@@ -56,16 +54,10 @@ const PopularDestinations = (props) => {
                         </div>
                         : <></>}
                     <div className={styles.title_div}>
-                        <h2 ref={ref} className={` ${isVisible ? styles.faderight : ''}`} >
-                            {islinknamecomponent ? getTitleStringOfHastaxiDeals(hasTaxiDeals, language) : allTranslations["strPopularTours"][language]}
-                        </h2>
-                        <p ref={ref} className={` ${isVisible ? styles.fadeleft : ''}`} onClick={() => { setModal() }}>
-                            <span style={{ paddingRight: "10px" }}>{appData.words["strViewAll"]}</span>
-                            <i className="fa-solid fa-arrow-right"></i>
-                        </p>
+                        {islinknamecomponent ? <h2>{getTitleStringOfHastaxiDeals(hasTaxiDeals, language)}</h2> : <></>}
                     </div>
 
-                    <div ref={ref} className={`${styles.featureIcons} ${isVisible ? styles.fade_bottom_to_top : ''}`}>
+                    <div className={styles.featureIcons}>
                         {points.slice(0, 8).map((item, idx) => {
                             let path = language === 'en' ? `/${item.linkUrl}` : `/${language}/${item.linkUrl}`
                             return (
@@ -73,7 +65,7 @@ const PopularDestinations = (props) => {
                                     <a href={path}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image style={{ height: "auto", width: "100%", objectFit: 'cover' }} src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} alt={item[language]} />
+                                                <Image  src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} alt={item[language]} />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>
@@ -110,6 +102,10 @@ const PopularDestinations = (props) => {
                             )
                         })}
                     </div>
+                    <p onClick={() => { setModal() }}>
+                        <span style={{ paddingRight: "10px" }}>{appData.words["strViewAll"]}</span>
+                        <i className="fa-solid fa-arrow-right"></i>
+                    </p>
                 </div>
             </div>
         </div>

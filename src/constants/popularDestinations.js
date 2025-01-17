@@ -608,7 +608,7 @@ const airportPoints = {
             location: "Antalya",
             key: "AYT",
             price: 100,
-            imageUrl: "/images/popularDestinations/antalya/side.webp"
+            imageUrl: "/images/popularDestinations/antalya/manavgat.webp"
 
         },
         {
