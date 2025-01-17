@@ -46,7 +46,7 @@ const WhyChoice = () => {
                                     <div className={styles.featureIcon_icon}>
                                         <i className={icon.i}></i>
                                     </div>
-                                    <h3>{content.mainTitle}</h3>
+                                    <h2>{content.mainTitle}</h2>
                                     <p className={styles.featureIcon__text}>{content.subtitle}</p>
                                 </div>
                             );

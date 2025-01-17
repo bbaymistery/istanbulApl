@@ -521,7 +521,6 @@
 
                                         border-bottom: 1px solid $--color-light-6;
 
-
                                         &::before,
                                         &::after {
                                             content: '';
@@ -585,7 +584,7 @@
                                         &::-webkit-datetime-edit-month-field,
                                         &::-webkit-datetime-edit-day-field {
                                             position: absolute !important;
-                                            color: $--color-light-2;
+                                            color: $--color-light-8;
                                             padding: 0;
                                         }
 
@@ -668,7 +667,7 @@
                                             border: none;
                                             width: 100%;
                                             font-size: $--text-15;
-                                            color: $--color-light-2;
+                                            color: $--color-light-8;
 
                                             // -webkit-appearance: menulist;
                                             border-bottom: 1px solid $--color-light-6;

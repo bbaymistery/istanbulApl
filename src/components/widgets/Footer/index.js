@@ -54,7 +54,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.footer_content}>
                         <div className={`${styles.column} ${styles.first_column}`}>
-                            <h4>Contact</h4>
+                            <p>Contact</p>
                             <div>
                                 <a href="#">
                                     328 Queensberry Street, North Melbourne VIC3051, Australia.
@@ -66,7 +66,7 @@ const Footer = () => {
                         </div>
 
                         <div className={`${styles.column} ${styles.hidemobile}`}>
-                            <h4>Company</h4>
+                            <p>Company</p>
                             <div >
                                 <a href="#">About Us</a>
                                 <a href="#">Tourz Reviews</a>
@@ -79,7 +79,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className={`${styles.column} ${styles.hidemobile}`}>
-                            <h4>Support</h4>
+                            <p>Support</p>
                             <div >
                                 <a>Get in Touch</a>
                                 <a>Help center</a>
@@ -90,7 +90,7 @@ const Footer = () => {
 
                         <div className={styles.mobilevisible}>
                             <div className={`${styles.column} `}>
-                                <h4>Company</h4>
+                                <p>Company</p>
                                 <div >
                                     <a href="#">About Us</a>
                                     <a href="#">Tourz Reviews</a>
@@ -103,7 +103,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className={`${styles.column} `}>
-                                <h4>Support</h4>
+                                <p>Support</p>
                                 <div >
                                     <a>Get in Touch</a>
                                     <a>Help center</a>
@@ -113,7 +113,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className={`${styles.column} ${styles.last_column}`}>
-                            <h4>Newsletter</h4>
+                            <p>Newsletter</p>
                             <p>Subscribe to the free newsletter and stay up to date</p>
                             <div className={styles.footer__newsletter}>
                                 <input type="Email" placeholder="Your email address" />
