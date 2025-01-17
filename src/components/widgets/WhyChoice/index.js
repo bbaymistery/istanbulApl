@@ -5,17 +5,14 @@ import { useVisibility } from '../../../hooks/useVisibility';
 import translations from './translations';
 const icons = [
     {
-        image: "/images/icons/ticket.webp",
         altName: "icon",
         i: "fa-solid fa-ticket"
     },
     {
-        image: "/images/icons/hot-air-balloon.webp",
         altName: "icon",
-        i: "fa-solid fa-plane-departure"
+        i: "fa-solid fa-circle-check"
     },
     {
-        image: "/images/icons/diamond.webp",
         altName: "icon",
         i: "fa-solid fa-gem"
     },

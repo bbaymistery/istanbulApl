@@ -7,8 +7,8 @@ const translations = {
                 subtitle: "Our driver will hold a sign with your name at arrivals"
             },
             {
-                mainTitle: "Ultimate flexibility",
-                subtitle: "You're in control, with free cancellation and payment options to satisfy any plan or budget."
+                mainTitle: "Free Cancellation",
+                subtitle: "You're in control with free cancellation and flexible payments."
             },
             {
                 mainTitle: "All-Inclusive - Fixed Prices",
@@ -28,8 +28,8 @@ const translations = {
                 subtitle: "Sürücümüz sizi karşılamak için adınızı taşıyan bir tabela tutacaktır."
             },
             {
-                mainTitle: "En üst düzey esneklik",
-                subtitle: "Plan veya bütçenize uygun ücretsiz iptaller ve ödeme seçenekleriyle siz kontrol edersiniz."
+                mainTitle: "Ücretsiz İptal",
+                subtitle: "Ücretsiz iptal ve esnek ödemelerle kontrol sizde."
             },
             {
                 mainTitle: "Her Şey Dahil - Sabit Fiyatlar",
@@ -49,8 +49,8 @@ const translations = {
                 subtitle: "سائقنا سيحمل لافتة باسمك عند الوصول."
             },
             {
-                mainTitle: "مرونة قصوى",
-                subtitle: "لديك التحكم، مع خيارات إلغاء مجانية وخيارات دفع تناسب أي خطة أو ميزانية."
+                mainTitle: "إلغاء مجاني",
+                subtitle: "أنت المتحكم مع الإلغاء المجاني والمدفوعات المرنة."
             },
             {
                 mainTitle: "شامل كل شيء - أسعار ثابتة",
@@ -70,8 +70,8 @@ const translations = {
                 subtitle: "Наш водитель будет держать табличку с вашим именем в зоне прибытия."
             },
             {
-                mainTitle: "Максимальная гибкость",
-                subtitle: "Вы контролируете всё: бесплатная отмена и удобные способы оплаты для любого плана или бюджета."
+                mainTitle: "Бесплатная отмена",
+                subtitle: "Вы в контроле с бесплатной отменой и гибкими платежами."
             },
             {
                 mainTitle: "Все включено - фиксированные цены",
@@ -91,8 +91,8 @@ const translations = {
                 subtitle: "Nuestro conductor llevará un cartel con tu nombre en las llegadas"
             },
             {
-                mainTitle: "Flexibilidad definitiva",
-                subtitle: "Tú tienes el control, con cancelaciones gratuitas y opciones de pago para satisfacer cualquier plan o presupuesto."
+                mainTitle: "Cancelación Gratuita",
+                subtitle: "Tú tienes el control con cancelación gratuita y pagos flexibles."
             },
             {
                 mainTitle: "Todo Incluido - Precios Fijos",
@@ -112,8 +112,8 @@ const translations = {
                 subtitle: "我们的司机将在到达处举着写有您名字的牌子。"
             },
             {
-                mainTitle: "终极灵活性",
-                subtitle: "掌控一切，免费取消和支付选项满足任何计划或预算需求。"
+                mainTitle: "免费取消",
+                subtitle: "通过免费取消和灵活支付，您掌握主动权。"
             },
             {
                 mainTitle: "全包 - 固定价格",
@@ -133,8 +133,8 @@ const translations = {
                 subtitle: "Il nostro autista terrà un cartello con il tuo nome agli arrivi."
             },
             {
-                mainTitle: "Massima flessibilità",
-                subtitle: "Hai il controllo, con cancellazione gratuita e opzioni di pagamento adatte a qualsiasi piano o budget."
+                mainTitle: "Cancellazione Gratuita",
+                subtitle: "Hai il controllo con cancellazione gratuita e pagamenti flessibili."
             },
             {
                 mainTitle: "Tutto Incluso - Prezzi Fissi",

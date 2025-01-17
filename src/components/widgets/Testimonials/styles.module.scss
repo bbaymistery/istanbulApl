@@ -1,0 +1,53 @@
+@import '../../../styles/variables';
+
+
+
+.testimonials {
+    height: 100%;
+    position: relative;
+    padding-top: 4rem;
+    margin-top: 0px !important;
+    border-bottom: 1px solid $--color-light-4;
+
+    &_section {
+        &_container {
+
+
+            .dangerous_div {
+                max-width: 990px;
+                width: 100%;
+                margin: 0 auto;
+                color: black;
+                font-family: Roboto;
+
+                p {
+                    font-size: 18px;
+                    font-weight: normal;
+           
+                }
+
+                li {
+                    list-style: disc;
+                    margin-left: 18px;
+                }
+
+
+                h1 {
+                    font-size: 34px;
+                }
+
+                h2 {
+                    margin-top: 16px;
+                    margin-bottom: 10px;
+                    font-weight: normal;
+                    font-size: 30px;
+                }
+
+                h3 {
+                    margin-top: 20px;
+                    font-size: 25;
+                }
+            }
+        }
+    }
+}

@@ -4,9 +4,9 @@ import GlobalLayout from '../components/layouts/GlobalLayout'
 import Hero from '../components/widgets/Hero'
 import PopularDestinations from '../components/widgets/PopularDestnations'
 import WhyChoice from '../components/widgets/WhyChoice'
-import CarsSlider from "../components/widgets/CarsSlider";
-import Discount from '../components/widgets/Discount';
-
+import dynamic from 'next/dynamic';
+const Testimonials = dynamic(() => import('../components/widgets/Testimonials'),);
+const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'),);
 
 export default function Home(props) {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -28,7 +28,8 @@ export default function Home(props) {
       <WhyChoice />
       <PopularDestinations />
       {hasScrolled && <CarsSlider />}
-      <Discount />
+      <Testimonials />
+
     </GlobalLayout>
   )
 }

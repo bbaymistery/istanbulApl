@@ -105,9 +105,10 @@
 .fa-gem:before {
     content: "\f3a5"
 }
-.fa-plane-departure:before {
-    content: "\f5b0"
-}
+
 .fa-ticket:before {
     content: "\f145"
+}
+.fa-circle-check:before {
+    content: "\f058"
 }
