@@ -105,8 +105,7 @@
            transition: .1s linear;
            border: 1px solid transparent;
            background: #fff;
-           //    box-shadow: 0 3px 6px rgb(25 32 36 / 16%), 0 -1px 4px rgb(25 32 36 / 4%);
-           box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+           box-shadow: $box-shadow-1;
 
            @media (max-width: 768px) {
                flex-direction: column;
@@ -630,7 +629,7 @@ align-items: flex-end;
            border-color: lighten($--color-accent-1, 25%);
            transition: .25s linear;
            box-shadow: none;
-           box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+           box-shadow: $box-shadow-1;
 
            &:hover {
                box-shadow: none;

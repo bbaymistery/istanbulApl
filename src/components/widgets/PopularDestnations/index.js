@@ -7,6 +7,8 @@ import { navigator } from '../../../constants/navigatior';
 import airportPoints from '../../../constants/popularDestinations';
 import { getTitleStringOfHastaxiDeals } from '../../../helpers/splitHelper';
 import styles from "./styles.module.scss";
+import Button from '../../elements/Button/Button';
+import { BUTTON_TYPES } from '../../elements/Button/ButtonTypes';
 const PointsModal = dynamic(() => import('../../elements/PointsModal'));
 
 
@@ -47,9 +49,20 @@ const PopularDestinations = (props) => {
                     {!islinknamecomponent && showTabs ?
                         <div className={`${styles.tabs} `}>
                             {tabsBttons.map((btn, index) => {
-                                return <button onClick={() => tabsHandler({ index, dealsNameProp: btn.hasTaxiDeals })} className={`${tabs === index ? styles.active : ""} btn`} key={btn.hasTaxiDeals} >
-                                    {airportTranslations[language][btn.strInnerText].split("(")[0]}
-                                </button>
+                                return (
+                                    //     <button onClick={() => tabsHandler({ index, dealsNameProp: btn.hasTaxiDeals })} className={`${tabs === index ? styles.active : ""} btn`} key={btn.hasTaxiDeals} >
+                                    //     {airportTranslations[language][btn.strInnerText].split("(")[0]}
+                                    // </button>
+
+                                    <Button
+                                        type={tabs === index ? BUTTON_TYPES.PRIMARY : BUTTON_TYPES.PRIMARY_OUTLINE}
+                                        onBtnClick={() => tabsHandler({ index, dealsNameProp: btn.hasTaxiDeals })}
+                                        style={{ padding: "5px 9px", letterSpacing: "0px", }}
+                                        btnText={airportTranslations[language][btn.strInnerText].split("(")[0]}
+                                        key={index}
+                                    />
+                                )
+
                             })}
                         </div>
                         : <></>}
@@ -65,7 +78,7 @@ const PopularDestinations = (props) => {
                                     <a href={path}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image  src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} alt={item[language]} />
+                                                <Image src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} alt={item[language]} />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>
@@ -102,10 +115,17 @@ const PopularDestinations = (props) => {
                             )
                         })}
                     </div>
-                    <p onClick={() => { setModal() }}>
-                        <span style={{ paddingRight: "10px" }}>{appData.words["strViewAll"]}</span>
-                        <i className="fa-solid fa-arrow-right"></i>
-                    </p>
+
+                    <div className={styles.btn_div}>
+                        <Button
+                            type={BUTTON_TYPES.TERTIARY}
+                            onBtnClick={setModal}
+                            style={{ width: '100%' }}
+                            btnText={appData?.words["strViewAll"]}
+                            iconPos='RIGHT'
+                            icon={<i className="fa-solid fa-arrow-right"></i>}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

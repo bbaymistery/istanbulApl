@@ -44,7 +44,7 @@ $checkbox-selected: $--color-accent-1; // Primary colour
                     display: flex;
                     flex-direction: column;
                     padding:20px;
-                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                    box-shadow: $box-shadow-1;
                     @media (max-width:1100px) {
                         flex-basis: 100% !important;
                     }
@@ -471,7 +471,7 @@ $checkbox-selected: $--color-accent-1; // Primary colour
         }
 
         .input_div {
-            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            box-shadow: $box-shadow-1;
        
             p {
                 color: $--color-accent-1;

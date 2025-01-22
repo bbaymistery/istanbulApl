@@ -1,6 +1,7 @@
 $--color-blue-1: #0d6efd; //
 $--color-blue-2: #0a58ca; //
 $--color-dark-1: #05073C; //
+$--color-dark-2: #020322; //
 
 
 
@@ -11,7 +12,7 @@ $--color-yellow-3: #F9AB00;
 
 $--color-accent-1: #EB662B; //
 $--color-accent-1-dark: #CE5A25; //
-$--color-accent-1-light:#fdf3ef;
+$--color-accent-1-light: #fdf3ef;
 $--color-accent-2: #CD4B13;
 
 $--color-light-1: #F5F5F5; //
@@ -31,26 +32,9 @@ $--color-green-3: #34A853;
 $--color-green-3-dark: #1e7034;
 $input_text_color: #62666cd7;
 $label_text_color: rgba(105, 116, 136, 0.579);
-
-
-
-
-$--text-8: 8px;
-$--text-10: 10px;
-$--text-12: 12px;
-$--text-13: 13px;
-$--text-14: 14px;
-$--text-15: 15px;
-$--text-16: 16px;
-$--text-18: 18px;
-$--text-20: 20px;
-$--text-24: 24px;
-$--text-26: 26px;
-$--text-30: 30px;
-$--text-40: 40px;
-$--text-50: 50px;
-$--text-70: 70px;
-
+$box-shadow-1: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+$box-shadow-2: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+$disabled: hsla(215, 9%, 55%, 0.15);
 
 
 $tr-cubic: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);

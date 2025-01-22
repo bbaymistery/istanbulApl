@@ -2,7 +2,7 @@
 
 .button {
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,7 @@
     letter-spacing: 1.3px;
     color: $--color-dark-1;
     font-weight: 500;
+
     i {
         font-style: normal;
         padding: 0px 5px;
@@ -29,7 +30,7 @@
 }
 
 .btn-primary:hover {
-    background-color: ($--color-accent-1-dark);
+    background-color: ($--color-accent-1);
     color: white;
 }
 
@@ -41,7 +42,7 @@
 
 .btn-primary-outline:hover {
     color: rgb(255, 255, 255);
-    background-color:rgb(229, 102, 52);
+    background-color: ($--color-accent-1);
 }
 
 

@@ -5,6 +5,7 @@ import Hero from '../components/widgets/Hero'
 import PopularDestinations from '../components/widgets/PopularDestnations'
 import WhyChoice from '../components/widgets/WhyChoice'
 import dynamic from 'next/dynamic';
+import Tours from './tours';
 const Testimonials = dynamic(() => import('../components/widgets/Testimonials'),);
 const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'),);
 
@@ -27,6 +28,7 @@ export default function Home(props) {
       <Hero env={props.env} />
       <WhyChoice />
       <PopularDestinations />
+      <Tours />
       {hasScrolled && <CarsSlider />}
       <Testimonials />
 
