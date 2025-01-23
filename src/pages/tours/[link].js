@@ -17,6 +17,8 @@ import DateInput from '../../components/elements/DateInput';
 import Loading from '../../components/elements/alert/Loading';
 import { splitDateTimeStringIntoDate } from '../../helpers/splitHelper';
 import { useRouter } from 'next/router';
+import { allTranslations } from '../../constants/generalTranslataions';
+import { hours, minutes } from '../../constants/minutesHours';
 
 
 let data = {
@@ -364,6 +366,7 @@ const TourContentDetails = (props) => {
     const [loadAlert, setLoadAlert] = useState(true)
 
     const tourActionState = useSelector(state => state.tourActions)
+    let { seatLists, seatListPrice } = tourActionState
 
     const { appData } = useSelector(state => state.initialReducer)
     let { params: { language, direction }, reservations } = useSelector((state) => state.pickUpDropOffActions)
@@ -376,24 +379,36 @@ const TourContentDetails = (props) => {
 
     const onchangeDate = (params = {}) => {
         let { value, hourOrMinute, } = params
-        // dispatch({ type: 'SET_TOUR_DATETIME', data: { hourOrMinute, value } })
         dispatch({ type: 'SET_JOURNEY_DATETIME', data: { journeyType: 0, hourOrMinute, value } })
-
     }
     const handleDecrement = (idx, incordec) => dispatch({ type: 'SET_TOUR_SEATLISTS', data: { idx, incordec } })
     const handleIncrement = (idx, incordec) => dispatch({ type: 'SET_TOUR_SEATLISTS', data: { idx, incordec } })
     const handleBookNow = () => {
-        console.log(seatListPrice);
 
+        let selectedTour = {
+            quotationOptions,
+            images,
+            desc: shortDescription,
+            duration,
+            price: 124,
+            // urlImage: quotationImagesObjWebp[quotation?.carId]?.image,  //!We can show here selected tpur image on the tour customer derails (OPTIONAL)
+            title: pageTitle
+        }
         if (+seatListPrice > 0) {
+            dispatch({ type: "SET_TOUR_QUOTATION", data: { selectedTour } })
             router.push(`${language === 'en' ? "/tour_customer_details" : `${language}/tour_customer_details`}`)
         } else {
             alert('Please select adults')
         }
     }
 
-    useEffect(() => { setsliderItems(images) }, [])
+    const onChangeSetDateTimeHandler = (params = {}) => {
+        let { value, hourOrMinute, } = params
+        // dispatch({ type: 'SET_TOUR_DATETIME', data: { hourOrMinute, value } })
+        dispatch({ type: 'SET_JOURNEY_DATETIME', data: { journeyType: 0, hourOrMinute, value } })
+    }
 
+    useEffect(() => { setsliderItems(images) }, [])
     useEffect(() => {
         if (loadAlert) setTimeout(() => { setLoadAlert(false) }, 550);
     }, [language]);
@@ -404,23 +419,14 @@ const TourContentDetails = (props) => {
         if (index > lastIndex) setIndex(0);
     }, [index, sliderItems]);
 
-    if (!tourActionState && loadAlert) {
-        // Render a loading spinner or a placeholder
-        store.injectReducer('tourActions', tourActions);
-        setTimeout(() => { setLoadAlert(false) }, 550);
-
-    }
-    //selencted tour images gelicek
-    if (loadAlert) {
-        return <GlobalLayout>
-            <Loading bgImage={"/images/meetGreet/meetShowCase2.jpg"} />
-        </GlobalLayout>
-    }
-    let { seatLists, seatListPrice } = tourActionState
+ 
 
     return (
         <GlobalLayout >
             <div className={`page ${styles.page} `}>
+
+
+                {/*//! for entry breadcrumb  starting*/}
                 <div className={`${styles.descriptions}`}>
                     <div className={`page_section`}>
                         <div className={`page_section_container ${styles.page_section_container}`} >
@@ -440,10 +446,13 @@ const TourContentDetails = (props) => {
                         </div>
                     </div>
                 </div>
+                {/*//! for entry breadcrumb  finishing*/}
+
                 <div className={`page_section ${styles.page_section} `}  >
                     <div className={`page_section_container ${styles.page_section_container} `} style={{ display: "flex", flexDirection: "column" }} >
                         <div className={styles.wrapper}>
-                            {/*images display  none at the 700px =>for desktop visible*/}
+
+                            {/* //! for title_div_mobile  starting*/}
                             <div className={`${styles.title_div_mobile}`}>
                                 <h1>{pageTitle} </h1>
                                 <div className={styles.title_div_mobile_description}>
@@ -457,8 +466,10 @@ const TourContentDetails = (props) => {
                                     </a>
                                 </div>
                             </div>
+                            {/* //! for title_div_mobile  finishing*/}
 
 
+                            {/* //! for images starting */}
                             {/* Slider images here  IT ISn ot gonna be visible on mobile*/}
                             <div className={styles.images}>
                                 <div className={styles.images_content}>
@@ -487,9 +498,10 @@ const TourContentDetails = (props) => {
                                     ))}
                                 </div>
                             </div>
+                            {/* //! for images finisng */}
 
 
-
+                            {/* //! mobile  slider and snapshot contents starting  */}
                             {/*display block at the 700px =>for mobile visible*/}
                             <div className={styles.content} >
                                 <div className={styles.slider_for_mobile}>
@@ -540,7 +552,7 @@ const TourContentDetails = (props) => {
                                         <Button
                                             type={BUTTON_TYPES.PRIMARY_OUTLINE}
                                             style={{ padding: '6px 5px' }}
-                                            btnText={"per person"}
+                                            btnText={allTranslations.strPerPerson[language]}
                                             icon={<i className="fa-solid fa-arrow-down"></i>}
                                             iconPos='RIGHT' />
                                     </div>
@@ -560,31 +572,35 @@ const TourContentDetails = (props) => {
                                 </div>
 
                             </div>
+                            {/* //! mobile  slider and snapshot contents finishing */}
 
 
+                            {/* //!setlists staring */}
                             <div className={styles.form_div}>
-                                <div className={styles.adults_selection_div}>
-                                    {seatLists?.map((item, index) => {
-                                        return <div key={index} className={styles.adults_selection_div_column}>
-                                            <p className={styles.name}>
-                                                {appData?.words[item.strName]}
-                                                <span>£{item.price}</span>
-                                            </p>
-                                            <p className={styles.desc}>  {item.description}</p>
+                                <div className={styles.form_div_wrapper}>
+                                    <div className={styles.adults_selection_div_columns}>
+                                        {seatLists?.map((item, index) => {
+                                            return <div key={index} className={styles.adults_selection_div_column}>
+                                                <p className={styles.name}>
+                                                    {appData?.words[item.strName]}
+                                                    <span>£{item.price}</span>
+                                                </p>
+                                                <p className={styles.desc}>  {item.description}</p>
 
-                                            <div className={styles.adults_selection_div_column_numbers_div} direction={String(direction === 'rtl')}>
-                                                <div className={styles.adults_selection_div_column_numbers_div_left}>
-                                                    <p className={`${styles.left_arrow}`} onClick={() => handleDecrement(index, "dec")}>
-                                                        <i className="fa-solid fa-chevron-left"></i>
-                                                    </p>
-                                                    <p className={styles.number}>  {item.minNum}  </p>
-                                                    <p className={`${styles.right_arrow} `} onClick={() => handleIncrement(index, "inc")}>
-                                                        <i className="fa-solid fa-chevron-right"></i>
-                                                    </p>
+                                                <div className={styles.adults_selection_div_column_numbers_div} direction={String(direction === 'rtl')}>
+                                                    <div className={styles.adults_selection_div_column_numbers_div_left}>
+                                                        <p className={`${styles.left_arrow}`} onClick={() => handleDecrement(index, "dec")}>
+                                                            <i className="fa-solid fa-chevron-left"></i>
+                                                        </p>
+                                                        <p className={styles.number}>  {item.minNum}  </p>
+                                                        <p className={`${styles.right_arrow} `} onClick={() => handleIncrement(index, "inc")}>
+                                                            <i className="fa-solid fa-chevron-right"></i>
+                                                        </p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    })}
+                                        })}
+                                    </div>
                                     <div className={styles.arrivaldate_div}>
                                         <DateInput
                                             form_control_input_div_style={{ width: "100%", maxWidth: "100%" }}
@@ -595,21 +611,39 @@ const TourContentDetails = (props) => {
                                             title={appData?.words["strTourDate"]}
                                             onChange={(e) => onchangeDate({ value: e.target.value, hourOrMinute: "date", })}
                                         />
+                                    </div>
+                                    <div className={styles.time}>
+                                        <div className={` ${styles.hours_minutes} `}>
+                                            <p className={direction}>{appData?.words["sePickUpTime"]}</p>
+                                            <div className={`${styles.select_time_div} ${direction}`}>
+                                                {Array.from(new Array(2)).map((_, i) => {
+                                                    return (
+                                                        <div key={i} className={styles.booking_form_hour_minute_wrapper}>
+                                                            <label htmlFor={i}></label>
+                                                            <select
+                                                                aria-label={i}
+                                                                defaultValue={i === 0 ? transferDate?.split(" ")[1]?.split(":")[0] : transferDate?.split(" ")[1]?.split(":")[1]}
+                                                                onChange={(e) => onChangeSetDateTimeHandler({ value: e.target.value, hourOrMinute: i === 0 ? "hour" : "minute", })}
+                                                            >
+                                                                {/* //if index==0 thenhours will show up if not then minutes show up */}
+                                                                {i === 0
+                                                                    ? hours.map((hour) => (<option key={hour.id} id={hour.id + 50} value={hour.value}> {hour.value} </option>))
+                                                                    : minutes.map((minute) => (<option key={minute.id} id={minute.id} value={minute.value}  > {minute.value} </option>))}
+                                                            </select>
+                                                        </div>)
+                                                })}
+                                            </div>
+                                        </div>
                                         <div className={styles.price}> {appData?.words["strTotalPrice"]}: £{seatListPrice} </div>
+
                                     </div>
                                 </div>
-
-                                {/* {IsDropdownTextSelectionValid() ? <div className={styles.price}> {appData?.words["strTotalPrice"]}: £{seatListPrice} inc. VAT</div> : <></>} */}
-
                                 <div className={styles.booknow_div}>
-                                    <Button
-                                        type={BUTTON_TYPES.PRIMARY}
-                                        onBtnClick={handleBookNow}
-                                        style={{ padding: '8px 24px' }}
-                                        btnText={appData?.words["strBookNow"]}
-                                    />
+                                    <Button type={BUTTON_TYPES.PRIMARY} onBtnClick={handleBookNow} style={{ padding: '8px 24px' }} btnText={appData?.words["strBookNow"]} />
                                 </div>
                             </div>
+                            {/* //!setlists finisng */}
+
                             <div className={`${styles.page_content} `} dangerouslySetInnerHTML={{ __html: pageContent }} />
                         </div>
                     </div>

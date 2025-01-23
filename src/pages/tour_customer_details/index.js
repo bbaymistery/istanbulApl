@@ -17,10 +17,15 @@ import OutsideClickAlert from '../../components/elements/OutsideClickAlert';
 let description = ""
 let title = ""
 let keywords = ""
-import Loading from '../../components/elements/LoadingWave/index'
 import HandleSearchResults from '../../components/elements/HandleSearchResults';
 import SelectedPointsOnTransferDetails from '../../components/elements/SelectedPointsOnTransferDetails'
 import { reservationSchemeValidator } from '../../helpers/reservationSchemeValidator';
+import { allTranslations } from '../../constants/generalTranslataions';
+import Button from '../../components/elements/Button/Button';
+import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes';
+import TourJourneySummaryPanel from '../../components/elements/TourJourneySummaryPanel';
+import FlightWaitingTimeContent from '../../components/elements/FlightWaitingTimeContent';
+import InfoModal from '../../components/elements/InfoModal/InfoModal';
 const collectPoints = (params = {}, callback = () => { }) => {
 
     let { value = '', reducerSessionToken = "", language = "", env } = params;
@@ -45,7 +50,7 @@ const TourCustomerDetails = (props) => {
     const router = useRouter()
     const dispatch = useDispatch()
     let state = useSelector((state) => state.pickUpDropOffActions)
-    let { reservations, params: { direction, language, passengerDetailsStatus, sessionToken: reducerSessionToken, } } = state
+    let { reservations, params: { direction, language, passengerDetailsStatus, sessionToken: reducerSessionToken,modalInfo } } = state
     let { quotation, passengerDetails: { firstname, phone, email }, transferDetails: { transferDateTimeString, specialRequests, passengersNumber, }, selectedPickupPoints, selectedDropoffPoints, } = reservations[0]
 
 
@@ -55,7 +60,7 @@ const TourCustomerDetails = (props) => {
     //we use it to render paxs inside select component
 
 
-    const carObject = appData?.carsTypes?.reduce((obj, item) => ({ ...obj, [item.id]: item, }), {});
+    // const carObject = appData?.carsTypes?.reduce((obj, item) => ({ ...obj, [item.id]: item, }), {});
 
     const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(transferDateTimeString) || []
     const [splitedDate] = splitDateTimeStringIntoDate(transferDateTimeString) || []
@@ -92,7 +97,6 @@ const TourCustomerDetails = (props) => {
         if (['passengersNumber', "specialRequests"].includes(name))
             dispatch({ type: 'SET_TRANSFER_DETAILS', data: { name, value, index: 0, updateBothJourneyCheckBox: passengerDetailsStatus } })
     }
-
 
     const checkValidation = (e) => {
 
@@ -173,6 +177,8 @@ const TourCustomerDetails = (props) => {
     };
 
     let reservationError = (errorHolder.status === 403 && Array.isArray(errorHolder.reservations)) ? errorHolder.reservations[0] : {};
+
+
     return (
         <GlobalLayout keywords={keywords} title={title} description={description} >
             <div className={`${styles.tr_details} page`}>
@@ -182,7 +188,7 @@ const TourCustomerDetails = (props) => {
                             <div className={`${styles.transferdetails_subcontainer_content} ${direction}`}>
                                 <div className={`${styles.transferdetails_subcontainer_content_points_and_passengerdetails}`}>
                                     <div className={styles.passenger_details_div}>
-                                        {<h2> {appData?.words['strPassengerDetails']}</h2>}
+                                        <h2> {allTranslations.strLeadPassengerName[language]}</h2>
                                         <div className={styles.passenger_details}>
                                             <div className={styles.input_div}>
                                                 <TextInput label={appData?.words["strFullName"]} type="text" name="firstname" onChange={e => onchangeHandler(e)} value={firstname} errorMessage={reservationError?.passengerDetails?.firstname} />
@@ -190,9 +196,11 @@ const TourCustomerDetails = (props) => {
                                             <div className={styles.input_div}>
                                                 <TextInput label={appData?.words["strEmail"]} type="text" name="email" onChange={e => onchangeHandler(e)} value={email} errorMessage={reservationError?.passengerDetails?.email} />
                                             </div>
-                                            <div className={styles.input_div}>
+                                            {/* <div className={styles.input_div}>
                                                 <Select label={appData?.words["strNoofPassengers"]} name="passengersNumber" onChange={e => onchangeHandler(e)} value={passengersNumber} data={carObject[quotation.carId]?.pax} />
-                                            </div>
+                                            </div> */}
+                                            <Textarea inputStyle={{ height: "50px" }} label={appData?.words["strSpecialRequestsTitle"]} name="specialRequests" value={specialRequests} onChange={(e) => onchangeHandler(e)} />
+
                                             <div className={styles.input_div}>
                                                 <PhoneInput
                                                     className={`phone_input ${direction === "rtl" ? "phone_input_direction" : ""}`}
@@ -207,15 +215,14 @@ const TourCustomerDetails = (props) => {
                                                 />
                                             </div>
                                         </div>
-                                        <div className={styles.textarea_div}>
-                                            <Textarea label={appData?.words["strSpecialRequestsTitle"]} name="specialRequests" value={specialRequests} onChange={(e) => onchangeHandler(e)} />
-                                        </div>
+                                        {/* <div className={styles.textarea_div}>
+                                        </div> */}
                                         <div className={styles.points}>
-                                            <div className={`${styles.search_menu} ${styles.second_column}`}>
+                                            <div className={`${styles.search_menu}`}>
                                                 {/* Pick up location text */}
                                                 {!selectedPickupPoints?.length > 0 ? <p className={`${styles.point_title1} ${direction}`}>{`${appData?.words["strPickupAddress"]}:`}</p> : <React.Fragment></React.Fragment>}
                                                 {/* Pick Points text */}
-                                                {selectedPickupPoints?.length > 0 ? <p className={`${styles.point_title} ${direction}`} >{appData?.words["strPickupPoints"]}</p> : <React.Fragment></React.Fragment>}
+                                                {selectedPickupPoints?.length > 0 ? <p className={`${styles.point_title2} ${direction}`} >{appData?.words["strPickupPoints"]}</p> : <React.Fragment></React.Fragment>}
                                                 {/* selectedPoints */}
                                                 {/* //!case 1 => if quotations.points has only one item  =>show selected point*/}
                                                 {selectedPickupPoints?.length === 1 && <SelectedPointsOnHomePage env={env} hasOneItem={false} isTaxiDeal={true} index={0} destination="pickup" points={selectedPickupPoints} isTours={true} />}
@@ -242,7 +249,7 @@ const TourCustomerDetails = (props) => {
                                                                 className={`${direction} ${reservationError?.selectedPickupPoints?.length > 0 && !internalState[`pickup-search-value-${0}`] && selectedPickupPoints?.length === 0 ? styles.error_input : ""}`}
                                                             /> : <React.Fragment></React.Fragment>}
                                                         {/* loading icon inside input */}
-                                                        {internalState[`pickup-search-loading-${0}`] ? <div className={styles.loading_div} popupp={String(internalState[`pickup-search-focus-${0}`])} direction={String(direction === "rtl")}><Loading /></div> : <React.Fragment></React.Fragment>}
+                                                        {/* {internalState[`pickup-search-loading-${0}`] ? <div className={styles.loading_div} popupp={String(internalState[`pickup-search-focus-${0}`])} direction={String(direction === "rtl")}><Loading /></div> : <React.Fragment></React.Fragment>} */}
                                                         {/* results when we get points */}
                                                         {!Array.isArray(internalState[`collecting-pickup-points-${0}`]) ?
                                                             <HandleSearchResults env={env} isTours={true} isTaxiDeal={true} language={language} index={0} destination="pickup" setInternalState={setInternalState} collectingPoints={internalState[`collecting-pickup-points-${0}`]} /> : <React.Fragment></React.Fragment>}
@@ -253,27 +260,29 @@ const TourCustomerDetails = (props) => {
 
                                         <div className={` ${direction === 'rtl' ? styles.directionbuttons : styles.buttons} `} >
                                             <div className={styles.left}>
-                                                <button onClick={goBack} className='btn btn_primary'>{appData?.words["strGoBack"]}</button>
-                                                <button onClick={(e) => checkValidation(e)} className='btn btn_primary'>{appData?.words["strNext"]}</button>
+                                                <Button
+                                                    type={BUTTON_TYPES.PRIMARY_OUTLINE}
+                                                    onBtnClick={goBack}
+                                                    style={{ padding: "12px 22px",  }}
+                                                    btnText={appData?.words["strGoBack"]}
+                                                />
+
+                                                <Button
+                                                    type={BUTTON_TYPES.PRIMARY_OUTLINE}
+                                                    onBtnClick={checkValidation}
+                                                    style={{ padding: "12px 22px",  }}
+                                                    btnText={appData?.words["strNext"]}
+                                                />
                                             </div>
                                             <div className={styles.right}></div>
                                         </div>
                                     </div>
                                 </div>
+                                {<TourJourneySummaryPanel language={language} pickupPointAddress={pickupPointAddress} splitedHour={splitedHour} splitedMinute={splitedMinute} splitedDate={splitedDate} quotation={quotation} selectedTour={selectedTour} />}
+                                {modalInfo ? <InfoModal content={<FlightWaitingTimeContent />} /> : <React.Fragment></React.Fragment>}
 
                             </div>
-                            {/* <div className={`${direction === 'rtl' ? styles.directionbuttons_for_gap : styles.buttons_for_gap}  `} >
-                                    <div className={styles.left}>
-
-                                    </div>
-                                    <div className={styles.right}>
-                                        <div className={`${styles.content} ${styles.summarycontent} `}>
-                                            <div className={`${styles.left_info} ${styles.acceptedcards}`} style={{ marginTop: "0rem" }} title="Accepted Cards for Airport Pickups London">
-                                                <img className={styles.acceptedcards_img} border="0" alt="Accepted Cards for Airport Pickups London " src="/images/others/accepted-cards.png" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
+                    
                         </div>
                     </div>
                 </div>

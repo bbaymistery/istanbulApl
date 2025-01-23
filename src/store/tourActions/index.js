@@ -3,7 +3,7 @@ import SET_TOUR_PASSEGER_DETAILS from "./SET_TOUR_PASSEGER_DETAILS";
 import SET_TOUR_TRANSFER_DETAILS from "./SET_TOUR_TRANSFER_DETAILS";
 import SET_TOUR_PICKUP_ADRESS from "./SET_TOUR_PICKUP_ADRESS";
 import SET_TOUR_SEATLISTS from "./SET_TOUR_SEATLISTS";
-import { currentDate } from "../../helpers/getDates";
+import SET_TOUR_QUOTATION from "./SET_TOUR_QUOTATION";
 
 const INITIAL_STATE = {
     seatLists: [
@@ -41,7 +41,7 @@ const INITIAL_STATE = {
         }
     ],
     seatListPrice: 0,
-    tourDate: currentDate(),
+    selectedTour: {},
 
 }
 
@@ -63,7 +63,9 @@ export const tourActions = (state = INITIAL_STATE, action) => {
         case 'SET_TOUR_SEATLISTS': {
             return SET_TOUR_SEATLISTS({ state, action })
         }
-
+        case 'SET_TOUR_QUOTATION': {
+            return SET_TOUR_QUOTATION({ state, action })
+        }
         default:
             return state;
     }

@@ -26,7 +26,6 @@ function SET_SEATLISTS(params = {}) {
     let { newTotalPrice } = updatePrice(newSeatLists, idx);
 
     newState.seatLists = newSeatLists;
-    newState.totalPrice = newTotalPrice;
     newState.seatListPrice = newTotalPrice;
 
     return newState;

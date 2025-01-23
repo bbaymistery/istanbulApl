@@ -28,6 +28,7 @@ const airportTranslations = {
     strIzmirAdnanMenderesAirportPrices: "Aeroporto di Smirne Adnan Menderes (ADB)",
     strGazipashaAlanyaAirportPrices: "Aeroporto di Gazipasha-Alanya (GZP)",
   },
+
   ru: {
     strIstanbulAirportPrices: "Аэропорт Стамбула",
     strSabihaGokcenAirportPrices: "Аэропорт Сабиха Гёкчен",
@@ -77,5 +78,23 @@ export const allTranslations = {
     it: "Trova Tour Popolari",
     zh: "查找热门旅游",
     ar: "ابحث عن الجولات الشعبية"
+  },
+  strPerPerson: {
+    en: "Per Person",
+    tr: "Kişi başı",
+    ru: "На человека",
+    es: "Por Persona",
+    it: "Per Persona",
+    zh: "每人",
+    ar: "لكل شخص"
+  },
+  strLeadPassengerName:{
+    en: "Lead Passenger Name",
+    tr: " Yolcu Adı",
+    ru: "Имя главного пассажира",
+    es: "Nombre del Pasajero Principal",
+    it: "Nome del Passeggero Principale",
+    zh: "主乘客姓名",
+    ar: "اسم الراكب الرئيسي"
   }
 };

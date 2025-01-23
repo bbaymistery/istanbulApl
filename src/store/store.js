@@ -4,6 +4,7 @@ import { HYDRATE } from 'next-redux-wrapper';
 import { composeWithDevTools } from "redux-devtools-extension";
 import { pickUpDropOffActions } from "./pickUpDropOffActions";
 import { alertReducer } from './alertReducer';
+import { tourActions } from './tourActions'
 import GET_APP_DATA from './pickUpDropOffActions/GET_APP_DATA';
 
 // Initial Reducer
@@ -36,6 +37,7 @@ const staticReducers = {
     pickUpDropOffActions,
     initialReducer,
     alertReducer,
+    tourActions,
 };
 
 // Create store with initial reducers
