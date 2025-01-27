@@ -3,7 +3,7 @@ import { reservationSchemeValidator } from '../../../helpers/reservationSchemeVa
 import { ifHasUnwantedCharacters } from '../../../helpers/ifHasUnwantedCharacters';
 import { hours, minutes } from '../../../constants/minutesHours';
 import OutsideClickAlert from '../../elements/OutsideClickAlert';
-import { currentDate } from '../../../helpers/getDates';
+import { currentDate, currentDateForJourney } from '../../../helpers/getDates';
 import { useDispatch, useSelector } from 'react-redux';
 import styles from "./styles.module.scss"
 import RadioButton from './RadioButton'
@@ -383,7 +383,7 @@ const Hero = (props) => {
                                 let reservationError = (internalState.errorHolder.status === 403 && Array.isArray(internalState.errorHolder.reservations)) ? internalState.errorHolder.reservations?.[index] : {};
                                 let { transferDetails, selectedPickupPoints, selectedDropoffPoints } = obj
                                 let { transferDateTimeString } = transferDetails
-                                const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(transferDateTimeString) || []
+                                const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(currentDateForJourney()) || []
                                 const [splitedDate] = splitDateTimeStringIntoDate(transferDateTimeString) || []
                                 return (
                                     <div key={index}>
