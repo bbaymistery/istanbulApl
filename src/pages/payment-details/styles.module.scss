@@ -53,6 +53,7 @@
                             .left_content_of_card {
                                 padding: 20px 10px;
 
+                              
                                 .show_ondestkop {
                                     @media (max-width: 990px) {
                                         display: none;
@@ -92,6 +93,16 @@
                                             height: 97px;
                                         }
                                     }
+                                }
+
+                                .tour_image_div {
+                                    position: relative;
+                                    margin-top: 1.5rem;
+                                    border: 5px solid $--color-light-6;
+                                    border-radius: 10px;
+                                    height: 240px !important;
+                                    overflow: hidden;
+
                                 }
 
                                 .car_info {
@@ -148,6 +159,7 @@
                                 color: black;
                                 font-size: 20px;
                                 border-bottom: 1px solid $--color-light-6;
+                                text-transform: capitalize;
 
                             }
 
@@ -164,6 +176,12 @@
                                             @media(max-width:990px) {
                                                 display: block;
                                             }
+                                        }
+
+
+                                        li:nth-child(even) {
+                                            background-color: $--color-light-3;
+                                            /* White for even rows */
                                         }
 
                                         li {

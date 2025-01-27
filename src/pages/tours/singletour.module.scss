@@ -17,6 +17,9 @@
             flex-wrap: wrap;
 
             p {
+                a{
+                    color: $--color-accent-1;
+                }
                 padding-left: 5px;
                 padding-right: 5px;
                 text-transform: capitalize;

@@ -1,11 +1,20 @@
-import Link from 'next/link'
+
 import React from 'react'
 import { useSelector } from 'react-redux'
 import styles from "./styles.module.scss"
 import DropOffPoints from './DropOffPoints'
 import PickUpPoints from './PickUpPoints'
+/**
+ * Renders a payment page summary component that displays the selected pickup and drop-off points.
+ *
+ * @param {Object} props - The component props.
+ * @param {Array} props.selectedPickupPoints - The selected pickup points.
+ * @param {Array} props.selectedDropoffPoints - The selected drop-off points.
+ * @param {boolean} [props.showIcon=false] - Whether to show the location icon.
+ * @returns {JSX.Element} - The payment page summary component.
+ */
 const PaymentPageSummary = (props) => {
-  let { index, selectedPickupPoints, selectedDropoffPoints, firstname, email, phone, passengersNumber, specialRequests, showIcon = false } = props
+  let { selectedPickupPoints, selectedDropoffPoints, showIcon = false } = props
   let state = useSelector((state) => state.pickUpDropOffActions)
   let { params: { direction, language } } = state
 

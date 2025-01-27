@@ -7,7 +7,7 @@ import { BUTTON_TYPES } from "../Button/ButtonTypes";
 import Button from "../Button/Button";
 import OutsideClickAlert from "../OutsideClickAlert";
 const PaymentMethods = (props) => {
-  let {env}=props
+  let {env, seatListPrice = 0 } = props
   const router = useRouter()
   const dispatch = useDispatch()
   let state = useSelector((state) => state.pickUpDropOffActions)
@@ -272,7 +272,9 @@ const PaymentMethods = (props) => {
           <div className={styles.header_tot_price} direction={String(direction === 'rtl')}>
             <p className={styles.header_tot_price_text}>{appData?.words["strTotalPrice"]}</p>
             <span className={styles.header_tot_price_price}>
-              £ {parseInt(journeyType) === 0 ? reservations[0].quotation.price : parseInt(reservations[0].quotation.price) + parseInt(reservations[1].quotation.price)}
+              {/* if seatListPrice more than 0 then means we come from tours page  */}
+              £ {seatListPrice > 0 ? seatListPrice :
+                parseInt(journeyType) === 0 ? reservations[0].quotation.price : parseInt(reservations[0].quotation.price) + parseInt(reservations[1].quotation.price)}
             </span>
           </div>
         </div>

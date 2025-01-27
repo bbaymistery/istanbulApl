@@ -16,7 +16,6 @@ const TourJourneySummaryPanel = (props) => {
     const infants = tourActionState.seatLists[2].minNum
     const totalPrice = tourActionState.seatListPrice
 
-    console.log({ adults });
     return (
         <div className={`${styles.journey_summary_panel}`}>
             <div className={styles.content}>

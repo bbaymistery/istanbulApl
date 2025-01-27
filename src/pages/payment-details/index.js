@@ -10,18 +10,27 @@ import PaymentPageSummary from '../../components/elements/PaymentPageSummary'
 import PaymentMethods from '../../components/elements/PaymentMethods'
 import { splitDateTimeStringIntoDate, splitDateTimeStringIntoHourAndMinute } from '../../helpers/splitHelper';
 import { quotationImagesObjWebp } from '../../constants/quotationImages';
+import Image from 'next/image';
+import { useWindowSize } from '../../hooks/useWindowSize';
 let title = ""
 let keywords = ""
 let description = ""
 const PaymentDetails = (props) => {
-    let {env} = props
+    let { env } = props
 
     const router = useRouter()
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { reservations, params: { tokenForArchieve, direction, quotations } } = state
+
+
     const { appData } = useSelector(state => state.initialReducer)
     const carObject = appData?.carsTypes?.reduce((obj, item) => ({ ...obj, [item.id]: item, }), {});
 
+    const tourActionState = useSelector(state => state.tourActions) || {}; // Add a fallback to an empty object
+    let { selectedTour, seatLists, seatListPrice } = tourActionState;
+    const numberOfAdults = seatLists[0].minNum
+    const numberOfChildren = seatLists[1].minNum
+    const numberOfInfants = seatLists[2].minNum
 
     const { nexturls, previousUrls, currentUrls } = urlWithLangAtribute({ languages: appData.languages, previousUrl: "/transfer-details", nextUrl: "/reservations-document", currentUrl: router.asPath })
     // const confirmationAlert = useConfirm({ previousUrl: previousUrls, nextUrl: nexturls, currentUrls, message: "If you refresh the page, all data will be deleted." })
@@ -42,6 +51,9 @@ const PaymentDetails = (props) => {
 
 
     };
+
+    let size = useWindowSize();
+    let { width } = size
     // prompt the user if they try and leave with unsaved changes
     useEffect(() => {
         const confirmationMessage = "If you leave the page, all data will be deleted.";
@@ -104,6 +116,7 @@ const PaymentDetails = (props) => {
     }, [confirmation]);
 
 
+
     return (
         <GlobalLayout keywords={keywords} title={title} description={description} >
             <div className={`${styles.payment_details} page`}>
@@ -116,202 +129,227 @@ const PaymentDetails = (props) => {
                                 let { transferDateTimeString, passengersNumber, specialRequests } = transferDetails
                                 const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(transferDateTimeString) || []
                                 const [splitedDate] = splitDateTimeStringIntoDate(transferDateTimeString) || []
-
+                                //here will be visible when passenger comes from home page
+                                const passengerDetailsConfig = [
+                                    {
+                                        icon: "fas fa-user",
+                                        label: appData.words["appContactUsFormFullname"],
+                                        value: passengerDetails.firstname,
+                                    },
+                                    {
+                                        icon: "fas fa-at",
+                                        label: appData.words["strEmailAddress"],
+                                        value: passengerDetails.email,
+                                    },
+                                    {
+                                        icon: "fas fa-phone",
+                                        label: appData.words["appContactUsFormPhone"],
+                                        value: `+${passengerDetails.phone}`,
+                                    },
+                                    {
+                                        icon: "fas fa-users",
+                                        label: appData.words["strPassengers"],
+                                        value: passengersNumber,
+                                    },
+                                    {
+                                        icon: "fas fa-calendar-alt",
+                                        label: appData.words["strOn"],
+                                        value: splitedDate.split(" ")[0].replace(/(\d+)\-(\d+)-(\d+)/, "$3-$2-$1"),
+                                    },
+                                    {
+                                        icon: "fas fa-clock",
+                                        label: appData.words["strTime"],
+                                        value: `${splitedHour} : ${splitedMinute}`,
+                                    },
+                                    {
+                                        icon: "fa-solid fa-road",
+                                        label: appData.words["strDistance"],
+                                        value: quotations[index]?.distance,
+                                    },
+                                    {
+                                        icon: "fa-solid fa-clock-rotate-left",
+                                        label: appData.words["strDuration"],
+                                        value: quotations[index]?.duration,
+                                    },
+                                    {
+                                        icon: "fas fa-car",
+                                        label: appData.words["carsTransferType"],
+                                        value: carObject[quotation.carId]?.name,
+                                    },
+                                    {
+                                        icon: "fa-solid fa-comment",
+                                        label: appData.words["strNotes"],
+                                        value: specialRequests,
+                                    },
+                                ];
+                                const toursPassengerDetailsConfig = [
+                                    {
+                                        icon: "fas fa-user",
+                                        label: appData.words["appContactUsFormFullname"],
+                                        value: passengerDetails.firstname,
+                                    },
+                                    {
+                                        icon: "fas fa-at",
+                                        label: appData.words["strEmailAddress"],
+                                        value: passengerDetails.email,
+                                    },
+                                    {
+                                        icon: "fas fa-phone",
+                                        label: appData.words["appContactUsFormPhone"],
+                                        value: `+${passengerDetails.phone}`,
+                                    },
+                                    {
+                                        icon: "fas fa-calendar-alt",
+                                        label: appData.words["strOn"],
+                                        value: splitedDate.split(" ")[0].replace(/(\d+)\-(\d+)-(\d+)/, "$3-$2-$1"),
+                                    },
+                                    {
+                                        icon: "fas fa-clock",
+                                        label: appData.words["strTime"],
+                                        value: `${splitedHour} : ${splitedMinute}`,
+                                    },
+                                    {
+                                        icon: "fa-solid fa-comment",
+                                        label: appData.words["strNotes"],
+                                        value: specialRequests,
+                                    },
+                                    {
+                                        icon: "fa-solid fa-landmark",
+                                        label: appData.words["strYouSelected"],
+                                        value: selectedTour?.title ? selectedTour?.title : "",
+                                    },
+                                    {
+                                        icon: "fa-solid fa-user",
+                                        label: appData.words["strAdults"],
+                                        value: numberOfAdults,
+                                    },
+                                    {
+                                        icon: "fa-solid fa-child",
+                                        label: appData.words["strChildren"],
+                                        value: numberOfChildren,
+                                    },
+                                    {
+                                        icon: "fa-solid fa-baby",
+                                        label: appData.words["strInfants"],
+                                        value: numberOfInfants,
+                                    }
+                                ];
                                 return (
                                     <div key={index}>
                                         <div className={`${styles.main_container}`} >
                                             <div className={styles.left}>
                                                 <div className={styles.left_top_title}>
-                                                    Transfer Details
+                                                    {appData?.words["strYourBookingDetails"]}
                                                 </div>
                                                 <div className={styles.left_content_of_card}>
                                                     <div className={styles.show_ondestkop}>
-                                                        <PaymentPageSummary
-                                                            index={index}
-                                                            email={passengerDetails.email}
-                                                            phone={passengerDetails.phone}
-                                                            specialRequests={specialRequests}
-                                                            passengersNumber={passengersNumber}
-                                                            firstname={passengerDetails.firstname}
-                                                            selectedPickupPoints={selectedPickupPoints}
-                                                            selectedDropoffPoints={selectedDropoffPoints}
-                                                        />
+                                                        <PaymentPageSummary selectedPickupPoints={selectedPickupPoints} selectedDropoffPoints={selectedDropoffPoints} />
                                                     </div>
+                                                    {selectedTour?.title ? <></> :
+                                                        (<div className={styles.image_div}>
+                                                            <div className={styles.names}>
+                                                                <div className={styles.text_1} style={{ textTransform: 'capitalize' }}>
+                                                                    {appData?.words["strYouSelected"]}
+                                                                </div>
+                                                                <div className={styles.text_2} style={{ textTransform: 'capitalize' }}>
+                                                                    {carObject[quotation.carId]?.name}
+                                                                </div>
+                                                            </div>
+                                                            <div className={styles.image}>
+                                                                <img src={`${quotationImagesObjWebp[quotation?.carId]?.image}`} alt="" />
+                                                            </div>
+                                                        </div>
+                                                        )}
+                                                    {selectedTour?.title ? <></> :
+                                                        (<div className={styles.car_info}>
+                                                            <div className={styles.type}>
+                                                                {carObject[quotation.carId]?.transferType}
+                                                            </div>
+                                                            <div className={styles.icons}>
+                                                                <div className={styles.icon_div}>
+                                                                    <i className="fa-solid fa-user"></i>
+                                                                    {carObject[quotation.carId].pax}
 
-                                                    <div className={styles.image_div}>
-                                                        <div className={styles.names}>
-                                                            <div className={styles.text_1} style={{ textTransform: 'capitalize' }}>
-                                                                {appData?.words["strYouSelected"]}
+                                                                </div>
+                                                                <div className={styles.icon_div}>
+                                                                    <i className="fa-solid fa-suitcase"></i>
+                                                                    {carObject[quotation.carId].suitcases}
+                                                                </div>
+                                                                <div className={styles.icon_div}>
+                                                                    <i className="fa-solid fa-door-open"></i>
+                                                                    4
+                                                                </div>
+                                                                <div className={styles.icon_div}>
+                                                                    <i className="fa-solid fa-gear"></i>
+                                                                    A
+                                                                </div>
                                                             </div>
-                                                            <div className={styles.text_2} style={{ textTransform: 'capitalize' }}>
-                                                                {carObject[quotation.carId]?.name}
-                                                            </div>
                                                         </div>
-                                                        <div className={styles.image}>
-                                                            <img src={`${quotationImagesObjWebp[quotation?.carId]?.image}`} alt="" />
-                                                        </div>
-                                                    </div>
-                                                    <div className={styles.car_info}>
-                                                        <div className={styles.type}>
-                                                            {carObject[quotation.carId]?.transferType}
-                                                        </div>
-                                                        <div className={styles.icons}>
-                                                            <div className={styles.icon_div}>
-                                                                <i className="fa-solid fa-user"></i>
-                                                                {carObject[quotation.carId].pax}
+                                                        )}
 
-                                                            </div>
-                                                            <div className={styles.icon_div}>
-                                                                <i className="fa-solid fa-suitcase"></i>
-                                                                {carObject[quotation.carId].suitcases}
-                                                            </div>
-                                                            <div className={styles.icon_div}>
-                                                                <i className="fa-solid fa-door-open"></i>
-                                                                4
-                                                            </div>
-                                                            <div className={styles.icon_div}>
-                                                                <i className="fa-solid fa-gear"></i>
-                                                                A
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    {/* we r adding manually tour imagebut it willbe dynamic when we select selected tour */}
+                                                    {selectedTour?.title ?
+                                                        <div className={styles.tour_image_div}  >
+                                                            <Image
+                                                                src={`https://api.london-tech.com/files/randoms/b3de5fe0056954b327e91cf75ccf2e101aa610f6e2d023531a8a02cedf14a0c4.jpg`}
+                                                                className={styles.img}
+                                                                fill
+                                                                alt={"tem.headTitle"}
+                                                                sizes="(max-width: 768px) 100vw, 50vw"
+                                                            />
+                                                        </div> : <></>}
                                                 </div>
                                             </div>
                                             <div className={styles.right}>
                                                 <div className={styles.right_top_title}>
-                                                    Passenger details
+                                                    {appData?.words["strPassengerDetails"]}
                                                 </div>
 
                                                 <div className={styles.passenger_details}>
                                                     <div className={styles.card_info}>
                                                         <div className={styles.info}>
                                                             <ul>
-                                                                <li>
-                                                                    <div className={styles.details}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fas fa-user" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>{appData.words["appContactUsFormFullname"]}</p>
+                                                                {/* name email phone and passengers  here visible if u come from home page 
+                                                                but for tours all are togther
+                                                                */}
+                                                                {
+                                                                    (selectedTour?.title ? toursPassengerDetailsConfig.slice(0, 4) : passengerDetailsConfig.slice(0, 4)).map((detail, idx) => (
+                                                                        // simply we dont add boder bottom for last element of toursPassengerDetailsConfig
+                                                                        <li key={idx} >
+                                                                            <div className={styles.details}>
+                                                                                <div className={`${styles.details_headerr_li} ${direction}`}>
+                                                                                    <div className={styles.li_info}>
+                                                                                        <i className={detail.icon} aria-hidden="true"></i>
+                                                                                        <p className={styles.property}>{detail.label}</p>
+                                                                                    </div>
+                                                                                    <p className={styles.value}>:{detail.value}</p>
+                                                                                </div>
                                                                             </div>
-                                                                            <p className={styles.value}>:{passengerDetails.firstname}</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div className={styles.details}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fas fa-at" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>{appData?.words["strEmailAddress"]}</p>
-                                                                            </div>
-                                                                            <p className={styles.value}>:{passengerDetails.email}</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div className={styles.details}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fas fa-phone" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>{appData?.words["appContactUsFormPhone"]}</p>
-                                                                            </div>
-                                                                            <p className={styles.value}>:+{passengerDetails.phone}</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div className={styles.details}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fas fa-users" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>{appData?.words["strPassengers"]}</p>
-                                                                            </div>
-                                                                            <p className={styles.value}>:{passengersNumber}</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
+                                                                        </li>
+                                                                    ))
+                                                                }
+                                                                {width <= 990 ? <li className={styles.show_onmobile}>
+                                                                    <PaymentPageSummary selectedPickupPoints={selectedPickupPoints} selectedDropoffPoints={selectedDropoffPoints} showIcon={true} />
+                                                                </li> : <></>}
 
-                                                                <li className={styles.show_onmobile}>
-                                                                    <PaymentPageSummary
-                                                                        index={index}
-                                                                        email={passengerDetails.email}
-                                                                        phone={passengerDetails.phone}
-                                                                        specialRequests={specialRequests}
-                                                                        passengersNumber={passengersNumber}
-                                                                        firstname={passengerDetails.firstname}
-                                                                        selectedPickupPoints={selectedPickupPoints}
-                                                                        selectedDropoffPoints={selectedDropoffPoints}
-                                                                        showIcon={true}
-                                                                    />
-                                                                </li>
-                                                                <li>
-                                                                    <div className={`${styles.details} `}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fas fa-calendar-alt" aria-hidden="true" ></i>
-                                                                                <p className={styles.property}>{appData?.words["strOn"]} :</p>
-                                                                            </div>
-                                                                            <p className={styles.value}>:{`${splitedDate.split(" ")[0].replace(/(\d+)\-(\d+)-(\d+)/, "$3-$2-$1")} `}</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div className={`${styles.details} `}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fas fa-clock" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>{appData?.words["strTime"]} :</p>
-                                                                            </div>
-                                                                            <div className={styles.value}>{`${splitedHour} : ${splitedMinute}`}</div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
+                                                                {/* name email phone and passengers  here visible */}
+                                                                {
+                                                                    (selectedTour?.title ? toursPassengerDetailsConfig : passengerDetailsConfig)
+                                                                        .slice(4).map((detail, idx) => (
+                                                                            <li key={idx}>
+                                                                                <div className={styles.details}>
+                                                                                    <div className={`${styles.details_headerr_li} ${direction}`}>
+                                                                                        <div className={styles.li_info}>
+                                                                                            <i className={detail.icon} aria-hidden="true"></i>
+                                                                                            <p className={styles.property}>{detail.label}</p>
+                                                                                        </div>
+                                                                                        <p className={styles.value}>{`:${detail.value}`}</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        ))
+                                                                }
 
-                                                                <li>
-                                                                    <div className={`${styles.details} `}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fa-solid fa-road"></i>
-                                                                                <p className={styles.property}>{appData?.words["strDistance"]} :</p>
-                                                                            </div>
-                                                                            <div className={styles.value}>{quotations[index].distance}</div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div className={`${styles.details} `}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fa-solid fa-clock-rotate-left"></i>
-                                                                                <p className={styles.property}>{appData?.words["strDuration"]} :</p>
-                                                                            </div>
-                                                                            <div className={styles.value}>{quotations[index].duration}</div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <div className={`${styles.details} `}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fas fa-car" aria-hidden="true"></i>
-                                                                                <p className={styles.property}>{appData?.words["carsTransferType"]} :</p>
-                                                                            </div>
-                                                                            <div className={styles.value}>{carObject[quotation.carId]?.name}</div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-
-                                                                <li>
-                                                                    <div className={styles.details}>
-                                                                        <div className={`${styles.details_headerr_li} ${direction}`}>
-                                                                            <div className={styles.li_info}>
-                                                                                <i className="fa-solid fa-comment"></i>
-                                                                                <p className={styles.property}>{appData?.words["strNotes"]}</p>
-                                                                            </div>
-                                                                            <p className={styles.value}>:{specialRequests}</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
 
 
                                                             </ul>
@@ -325,7 +363,7 @@ const PaymentDetails = (props) => {
                                     </div>
                                 )
                             })}
-                            <PaymentMethods env={env} />
+                            <PaymentMethods env={env} seatListPrice={seatListPrice} />
                         </div>
                     </div>
                 </div>
