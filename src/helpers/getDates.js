@@ -39,7 +39,7 @@ export const currentDate = () => {
 
 //!'yyyy-mm-dd HH:MM'   FOR   transferDateTimeString
 export const currentDateForJourney = () => {
-    let tmpDt = new Date(Date.now() + 1000 * 60 * 60 * 5); // 6 saat ekle
+    let tmpDt = new Date(Date.now() + 1000 * 60 * 60 * 6); // 6 saat ekle
     let year = tmpDt.getFullYear();
     let month = tmpDt.getMonth() + 1 < 10 ? `0${tmpDt.getMonth() + 1}` : tmpDt.getMonth() + 1;
     let date = tmpDt.getDate() < 10 ? `0${tmpDt.getDate()}` : tmpDt.getDate();

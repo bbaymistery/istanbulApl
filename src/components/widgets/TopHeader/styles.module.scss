@@ -26,10 +26,12 @@
             @media(max-width:1000px) {
                 padding: 15px 20px;
             }
+
             @media(max-width:768px) {
                 padding: 10px 20px;
 
-               }
+            }
+
             .left_items {
                 width: 100%;
 
@@ -40,14 +42,21 @@
 
                     .logo_tag {
                         display: flex;
+
                         img {
-                            object-fit: none;
+                            @media(max-width:1400px) {
+                                object-fit: cover;
+                            }
+
                             @media(max-width:1000px) {
                                 height: 52px;
+                                object-fit: none;
+
                             }
+
                             @media(max-width:768px) {
-                             width: 180px;
-                            object-fit: contain;
+                                width: 180px;
+                                object-fit: contain;
                             }
                         }
 
