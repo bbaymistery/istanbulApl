@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import GlobalLayout from '../../components/layouts/GlobalLayout';
 import styles from "./styles.module.scss"
 import TextInput from '../../components/elements/TextInput';
-import Select from '../../components/elements/Select';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css'
 import { ifHasUnwantedCharacters } from '../../helpers/ifHasUnwantedCharacters';
@@ -26,6 +25,7 @@ import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes';
 import TourJourneySummaryPanel from '../../components/elements/TourJourneySummaryPanel';
 import FlightWaitingTimeContent from '../../components/elements/FlightWaitingTimeContent';
 import InfoModal from '../../components/elements/InfoModal/InfoModal';
+import WaveLoading from '../../components/elements/LoadingWave';
 const collectPoints = (params = {}, callback = () => { }) => {
 
     let { value = '', reducerSessionToken = "", language = "", env } = params;
@@ -249,7 +249,7 @@ const TourCustomerDetails = (props) => {
                                                                 className={`${direction} ${reservationError?.selectedPickupPoints?.length > 0 && !internalState[`pickup-search-value-${0}`] && selectedPickupPoints?.length === 0 ? styles.error_input : ""}`}
                                                             /> : <React.Fragment></React.Fragment>}
                                                         {/* loading icon inside input */}
-                                                        {/* {internalState[`pickup-search-loading-${0}`] ? <div className={styles.loading_div} popupp={String(internalState[`pickup-search-focus-${0}`])} direction={String(direction === "rtl")}><Loading /></div> : <React.Fragment></React.Fragment>} */}
+                                                        {internalState[`pickup-search-loading-${0}`] ? <div className={styles.loading_div} popupp={String(internalState[`pickup-search-focus-${0}`])} direction={String(direction === "rtl")}><WaveLoading /></div> : <React.Fragment></React.Fragment>}
                                                         {/* results when we get points */}
                                                         {!Array.isArray(internalState[`collecting-pickup-points-${0}`]) ?
                                                             <HandleSearchResults env={env} isTours={true} isTaxiDeal={true} language={language} index={0} destination="pickup" setInternalState={setInternalState} collectingPoints={internalState[`collecting-pickup-points-${0}`]} /> : <React.Fragment></React.Fragment>}

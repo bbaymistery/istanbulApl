@@ -9,21 +9,21 @@ let datas = [
         "tourDealId": 1,
         "images": [
             "https://api.london-tech.com/files/randoms/483ee713fb10490ad27c3036179610ff85274865ca35b1384fe9170db4937a1d.jpg",
-            "https://api.london-tech.com/files/randoms/e194f767e2acc9f24ba61ee0a55e3c41b7ade1c19d7470b4aec840c38b162536.jpg",
+            "/images/tours/12Island.webp",
             "https://api.london-tech.com/files/randoms/90e2f29e1cb03b8ff1742fea6998022258ff26da7f0a77c015f70749af83b57f.jpg",
             "https://api.london-tech.com/files/randoms/967fac771d0645fe354ca710df54afdafb4a3ed61abef1a8fb739d75021e161b.jpg"
         ],
         "sequenceNumber": 1,
-        "pathname": "/tours/cambridge-daily-tour",
-        "pageTitle": "Cambridge Tour",
-        "headTitle": "Cambridge Tour | Explore Historic Cambridge with Our Guided Trips",
+        "pathname": "/tours/12-island-tour",
+        "pageTitle": "12 Island Tour",
+        "headTitle": "12 Island Tour | Explore Hidden Bays & Crystal-Clear Waters ",
         "price": "£ 399.00"
     },
     {
         "tourDealId": 2,
         "images": [
             "https://api.london-tech.com/files/randoms/a5255c17728f131e1d7852cf0eda3ee5147ccafd25c5841ef957a2525f2fe8f4.jpg",
-            "https://api.london-tech.com/files/randoms/d9f713a016419488fc28252817304bbcc738d4d5abf3463ebe8edac5e220edbe.jpg",
+            "oludeniz1.webp",
             "https://api.london-tech.com/files/randoms/d14072a3a91da95afdd81457893d7c76ae03d22e3e0e6bf508f3a027146fa6fb.jpg",
             "https://api.london-tech.com/files/randoms/644f9809d83fc6fe7c31c2abc3375c2d5117520cb6b5571b7c5cba4d464b64b6.jpg"
         ],
@@ -119,7 +119,7 @@ let datas = [
     }
 ]
 
-const Tours = (props) => {
+const  Tours = (props) => {
     let { bggray = false, insideGlobalLayout = true, env, mainCanonicalUrl } = props
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state

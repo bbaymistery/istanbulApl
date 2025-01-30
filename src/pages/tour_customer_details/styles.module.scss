@@ -8,6 +8,7 @@ $checkbox-selected: $--color-accent-1-dark; // Primary colour
     padding-top: 0px;
     padding-bottom: 0px !important;
     position: relative;
+
     .tr_details_section_container {
         @media only screen and (max-width:1200px) {
             max-width: 1150px !important;
@@ -64,6 +65,7 @@ $checkbox-selected: $--color-accent-1-dark; // Primary colour
                         gap: 1rem;
                         margin-top: 35px;
                         border-radius: 4px;
+
                         //pick up drop of input
                         .search_menu {
                             min-height: 50px;
@@ -133,6 +135,29 @@ $checkbox-selected: $--color-accent-1-dark; // Primary colour
                                     }
                                 }
 
+                                .loading_div[direction="false"] {
+                                    position: absolute;
+                                    top: 16px;
+                                    right: 22px;
+                                }
+
+                                .loading_div[popupp="false"][direction="true"] {
+                                    position: absolute !important; 
+                                    top: 15px !important;
+                                    left: 22px !important;
+                                }
+
+                                .loading_div[popupp="true"][direction="false"] {
+                                    top:70px !important;
+                                    right:32px !important;
+                                }
+
+                                .loading_div[popupp="true"][direction="true"] {
+                                    top:70px !important;
+                                    left: 15px !important;
+                                    position: absolute;
+                                }
+
                                 input[f="false"].error_input {
                                     border-bottom: 1px solid red !important;
                                 }
@@ -171,7 +196,7 @@ $checkbox-selected: $--color-accent-1-dark; // Primary colour
             }
         }
     }
- 
+
 
 }
 

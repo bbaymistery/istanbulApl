@@ -8,6 +8,7 @@
 
     @media (max-width:768px) {
         padding: 10px 0px;
+  
     }
 
     .header[direction="true"] {
@@ -26,15 +27,23 @@
         margin-top: 0.5rem;
         margin-bottom: 1rem;
         gap: 3rem;
+        padding: 5px 20px;
+        box-shadow: $box-shadow-1;
+        border-radius: 10px;
 
         @media(max-width:990px) {
             flex-wrap: wrap;
-        }
-
-        @media (max-width:830px) {
             flex-direction: column;
             text-align: center;
+            gap: 1rem;
+        padding: 25px 20px;
+
         }
+        @media (max-width:500px) {
+            padding: 15px 10px;
+
+        }
+ 
 
         &_top {
             margin-bottom: 16px;
@@ -133,9 +142,6 @@
 
         &_tot_price {
             display: flex;
-
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            padding: 10px;
             align-items: center;
             text-transform: capitalize;
 
@@ -151,7 +157,6 @@
             }
 
             &_price {
-                color: #0D233E;
                 font-weight: bold;
                 font-size: 38px;
 

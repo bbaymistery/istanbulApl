@@ -239,7 +239,7 @@ const PaymentDetails = (props) => {
                                         <div className={`${styles.main_container}`} >
                                             <div className={styles.left}>
                                                 <div className={styles.left_top_title}>
-                                                    {appData?.words["strYourBookingDetails"]}
+                                                    {index === 0 ? appData?.words["strYourBookingDetails"] : appData?.words["strReturnJourneyDetails"]}
                                                 </div>
                                                 <div className={styles.left_content_of_card}>
                                                     <div className={styles.show_ondestkop}>
@@ -302,7 +302,7 @@ const PaymentDetails = (props) => {
                                             </div>
                                             <div className={styles.right}>
                                                 <div className={styles.right_top_title}>
-                                                    {appData?.words["strPassengerDetails"]}
+                                                    {index === 0 ? appData?.words["strPassengerDetails"] : appData?.words["strReturnJourneyPassengerDetails"]}
                                                 </div>
 
                                                 <div className={styles.passenger_details}>
