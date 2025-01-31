@@ -15,7 +15,7 @@ const Slider = (props) => {
           if (carIndex === index - 1 || (index === 0 && carIndex === sliderItems.length - 1)) position = `${styles.lastSlide}`;
           return (
             <div className={styles.slide + " " + position} key={carIndex}>
-              <Image src={image} layout="fill" objectFit="cover" alt="Logo" />
+              <Image src={image} fill style={{objectFit:"cover"}} alt="Logo" />
               {/* <img src={image.img} alt="Logo" /> */}
               <div className={styles.container_auto_center}>
                 <div className={styles.intro}>

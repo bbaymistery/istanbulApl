@@ -9,34 +9,29 @@ const INITIAL_STATE = {
     seatLists: [
         {
             name: "Adults",
-            desc: "16+ Years",
             minNum: 0,
             maxNum: 20,
             strName: "strAdults",
             strDesc: "strAbove12yearsold",
             description: "16+ Years",
-
             price: 129
         },
         {
             name: "Children",
-            desc: "3-15 Years",
             minNum: 0,
             maxNum: 20,
             strName: "strChildren",
             strDesc: "strFrom2to12yearsold",
-            description: "3-15 Years",
-
+            description: "6-12 Years",
             price: 57
         },
         {
             name: "Infants",
-            desc: "(below 12y.o.)",
             minNum: 0,
             maxNum: 20,
             strName: "strInfants",
             strDesc: "strBelow2YearsOld",
-            description: "0-3 Years",
+            description: "0-5 Years",
             price: 0
         }
     ],

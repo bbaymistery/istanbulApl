@@ -1,4 +1,28 @@
-const tourDatasTranslated = [
+/**
+ * Retrieves a tour object from the `tourDatasTranslated` array based on the provided `pathname`.
+ *
+ * @param {string} pathname - The pathname of the tour to retrieve.
+ * @returns {object} The tour object that matches the provided `pathname`.
+ */
+export const getTourByPathname = (pathname) => {
+    return tourDatasTranslated.filter((tour) => tour.pathname === pathname);
+};
+
+/**
+ * Retrieves the translated page content for a tour based on the provided pathname and language.
+ *
+ * @param {string} pathname - The pathname of the tour to retrieve the content for.
+ * @param {string} language - The language to retrieve the content in.
+ * @returns {object} The translated page content for the specified tour and language.
+ */
+export const getTourPageContentByPathname=(pathname,language)=>{
+    return singleTourTranslatedPageContents[pathname][language]
+}
+
+
+//!Head title written for Global Layout Title 
+//!We have to make schemas metaTags
+export const tourDatasTranslated = [
     {
         "tourDealId": 1,
         "images": [
@@ -36,7 +60,38 @@ const tourDatasTranslated = [
             ar: "8 ساعات",
             ru: "8 часа",
             it: "8 ore"
-        }
+        },
+        "snapshots": [
+            {
+                "icon": "fa-solid fa-clock",
+                "alias": "strDuration",
+            },
+            {
+                "icon": "fa-solid fa-user-group",
+                "alias": "strCambridgePrivateTour",
+            },
+            {
+                "icon": "fa-solid fa-route",
+                "alias": "strFlexibleItinerary",
+            },
+            {
+                "icon": "fa-solid fa-square-check",
+                "alias": "strFreeCancellation24h",
+            }
+        ],
+        keywords: "",
+        metaDescription: "",
+        "thumbnailTitle": "",
+        "breadcrumbTitle": {
+            "en": "Tours",
+            "tr": "Turlar",
+            "zh": "游览",
+            "ar": "الجولات",
+            "ru": "Туры",
+            "es": "Excursiones",
+            "it": "Tour"
+        },
+
     },
     {
         "tourDealId": 2,
@@ -75,6 +130,36 @@ const tourDatasTranslated = [
             ar: "7 ساعات",
             ru: "7 часа",
             it: "7 ore"
+        },
+        "snapshots": [
+            {
+                "icon": "fa-solid fa-clock",
+                "alias": "strDuration",
+            },
+            {
+                "icon": "fa-solid fa-user-group",
+                "alias": "strCambridgePrivateTour",
+            },
+            {
+                "icon": "fa-solid fa-route",
+                "alias": "strFlexibleItinerary",
+            },
+            {
+                "icon": "fa-solid fa-square-check",
+                "alias": "strFreeCancellation24h",
+            }
+        ],
+        keywords: "",
+        metaDescription: "",
+        "thumbnailTitle": "",
+        "breadcrumbTitle": {
+            "en": "Tours",
+            "tr": "Turlar",
+            "zh": "游览",
+            "ar": "الجولات",
+            "ru": "Туры",
+            "es": "Excursiones",
+            "it": "Tour"
         }
     },
     {
@@ -114,6 +199,36 @@ const tourDatasTranslated = [
             ar: "3 ساعات",
             ru: "3 часа",
             it: "3 ore"
+        },
+        "snapshots": [
+            {
+                "icon": "fa-solid fa-clock",
+                "alias": "strDuration",
+            },
+            {
+                "icon": "fa-solid fa-user-group",
+                "alias": "strCambridgePrivateTour",
+            },
+            {
+                "icon": "fa-solid fa-route",
+                "alias": "strFlexibleItinerary",
+            },
+            {
+                "icon": "fa-solid fa-square-check",
+                "alias": "strFreeCancellation24h",
+            }
+        ],
+        keywords: "",
+        metaDescription: "",
+        "thumbnailTitle": "",
+        "breadcrumbTitle": {
+            "en": "Tours",
+            "tr": "Turlar",
+            "zh": "游览",
+            "ar": "الجولات",
+            "ru": "Туры",
+            "es": "Excursiones",
+            "it": "Tour"
         }
 
     },
@@ -154,6 +269,36 @@ const tourDatasTranslated = [
             ar: "4 ساعات",
             ru: "4 часа",
             it: "4 ore"
+        },
+        "snapshots": [
+            {
+                "icon": "fa-solid fa-clock",
+                "alias": "strDuration",
+            },
+            {
+                "icon": "fa-solid fa-user-group",
+                "alias": "strCambridgePrivateTour",
+            },
+            {
+                "icon": "fa-solid fa-route",
+                "alias": "strFlexibleItinerary",
+            },
+            {
+                "icon": "fa-solid fa-square-check",
+                "alias": "strFreeCancellation24h",
+            }
+        ],
+        keywords: "",
+        metaDescription: "",
+        "thumbnailTitle": "",
+        "breadcrumbTitle": {
+            "en": "Tours",
+            "tr": "Turlar",
+            "zh": "游览",
+            "ar": "الجولات",
+            "ru": "Туры",
+            "es": "Excursiones",
+            "it": "Tour"
         }
     },
     {
@@ -193,53 +338,248 @@ const tourDatasTranslated = [
             ar: "4 ساعات",
             ru: "4 часа",
             it: "4 ore"
+        },
+        "snapshots": [
+            {
+                "icon": "fa-solid fa-clock",
+                "alias": "strDuration",
+            },
+            {
+                "icon": "fa-solid fa-user-group",
+                "alias": "strCambridgePrivateTour",
+            },
+            {
+                "icon": "fa-solid fa-route",
+                "alias": "strFlexibleItinerary",
+            },
+            {
+                "icon": "fa-solid fa-square-check",
+                "alias": "strFreeCancellation24h",
+            }
+        ],
+        keywords: "",
+        metaDescription: "",
+        "thumbnailTitle": "",
+        "breadcrumbTitle": {
+            "en": "Tours",
+            "tr": "Turlar",
+            "zh": "游览",
+            "ar": "الجولات",
+            "ru": "Туры",
+            "es": "Excursiones",
+            "it": "Tour"
         }
     },
     {
         "tourDealId": 6,
         "images": [
-            "https://api.london-tech.com/files/randoms/bdbe91417b168e28ccfc1924b75a826dc07f4a234ee3f8c78626f20c643a0aa8.jpg",
+            "/images/tours/istfullday.webp",
             "https://api.london-tech.com/files/randoms/710adcbd379d1cef8d56ee6f820ea202d404779fea5633a5c365aca6e68fda7e.png",
             "https://api.london-tech.com/files/randoms/5cc96fb4f532670f28ab5a63b38e3e64aef168210ce22da51237904cc1b742b1.jpg",
             "https://api.london-tech.com/files/randoms/ce602b2ca669c77b0b195d3518e06c4ee191891b7cd7daa398803d0c271a9c88.jpg"
         ],
         "sequenceNumber": 5,
-        "pathname": "/tours/canterbury-and-leeds-castle-tour",
-        "pageTitle": "Canterbury and Leeds Castle Tour",
-        "headTitle": "Canterbury & Leeds Castle Tour from London | Private 8-Hour Journey",
-        "price": "£ 450.00"
+        "pathname": "/tours/istanbul-full-day-tour",
+        "pageTitle": {
+            "en": "Istanbul: Full-Day Tour",
+            "tr": "İstanbul: Tam Günlük Tur",
+            "es": "Estambul: Tour de Día Completo",
+            "zh": "伊斯坦布尔：全日游",
+            "ar": "إسطنبول: جولة ليوم كامل",
+            "ru": "Стамбул: Экскурсия на целый день",
+            "it": "Istanbul: Tour di un Giorno Intero"
+        },
+        "headTitle": {
+            "en": "Istanbul: Full-Day Tour | Explore the Heart of Two Continents",
+            "tr": "İstanbul: Tam Günlük Tur | İki Kıtanın Kalbini Keşfedin",
+            "es": "Estambul: Tour de Día Completo | Explora el Corazón de Dos Continentes",
+            "zh": "伊斯坦布尔：全日游 | 探索两大洲的心脏",
+            "ar": "إسطنبول: جولة ليوم كامل | اكتشف قلب قارتين",
+            "ru": "Стамбул: Экскурсия на целый день | Исследуйте сердце двух континентов",
+            "it": "Istanbul: Tour di un Giorno Intero | Esplora il Cuore di Due Continenti"
+        },
+        "price": "£ 450.00",
+        duration: {
+            en: "6 hours",
+            tr: "6 saat",
+            es: "6 horas",
+            zh: "6 小时",
+            ar: "6 ساعات",
+            ru: "6 часа",
+            it: "6 ore"
+        },
+        "snapshots": [
+            {
+                "icon": "fa-solid fa-clock",
+                "alias": "strDuration",
+            },
+            {
+                "icon": "fa-solid fa-user-group",
+                "alias": "strCambridgePrivateTour",
+            },
+            {
+                "icon": "fa-solid fa-route",
+                "alias": "strFlexibleItinerary",
+            },
+            {
+                "icon": "fa-solid fa-square-check",
+                "alias": "strFreeCancellation24h",
+            }
+        ],
+        keywords: "",
+        metaDescription: "",
+        "thumbnailTitle": "",
+        "breadcrumbTitle": {
+            "en": "Tours",
+            "tr": "Turlar",
+            "zh": "游览",
+            "ar": "الجولات",
+            "ru": "Туры",
+            "es": "Excursiones",
+            "it": "Tour"
+        }
     },
     {
         "tourDealId": 7,
         "images": [
-            "https://api.london-tech.com/files/randoms/79833b55e8228ee1845bb9765f7ac0ae14d16b6206609329a43fc4f0f9b3de84.jpg",
+            "/images/tours/paragliding-oludeniz.webp",
             "https://api.london-tech.com/files/randoms/6349b2d3dffc43b3f7c7c17b673fecbc39a13c4f0c5b6e0175a446aa71a42cb8.jpg",
             "https://api.london-tech.com/files/randoms/644f9809d83fc6fe7c31c2abc3375c2d5117520cb6b5571b7c5cba4d464b64b6.jpg",
             "https://api.london-tech.com/files/randoms/d272ef6e2c33fb824a13c38bf2b38d877b585aab625a41f841761a631248f3b3.jpg"
         ],
         "sequenceNumber": 6,
-        "pathname": "/tours/london-tour-full-day",
-        "pageTitle": "London Tour-Full Day",
-        "headTitle": "London Full-Day Private Tour | Luxury Sedan to Mercedes 8-Seater",
-        "price": "£ 360.00"
+        "pathname": "/tours/paragliding-fethiye-oludeniz",
+        "pageTitle": {
+            "en": "Paragliding Adventure in Fethiye Oludeniz",
+            "tr": "Fethiye Ölüdeniz'de Yamaç Paraşütü Macerası",
+            "es": "Aventura en Parapente en Fethiye Oludeniz",
+            "zh": "费特希耶厄吕代尼兹滑翔伞冒险",
+            "ar": "مغامرة الطيران المظلي في فتحية أولودينيز",
+            "ru": "Параглайдинг в Фетхие Олюдениз",
+            "it": "Avventura in Parapendio a Fethiye Oludeniz"
+        },
+        "headTitle": {
+            "en": "Paragliding Adventure in Fethiye Oludeniz | Best Tandem Paragliding Experience",
+            "tr": "Fethiye Ölüdeniz'de Yamaç Paraşütü | En İyi İkili Yamaç Paraşütü Deneyimi",
+            "es": "Aventura en Parapente en Fethiye Oludeniz | La Mejor Experiencia de Parapente Tándem",
+            "zh": "费特希耶厄吕代尼兹滑翔伞冒险 | 最佳双人滑翔伞体验",
+            "ar": "مغامرة الطيران المظلي في فتحية أولودينيز | أفضل تجربة طيران مظلي مزدوج",
+            "ru": "Параглайдинг в Фетхие Олюдениз | Лучший опыт полетов в тандеме",
+            "it": "Avventura in Parapendio a Fethiye Oludeniz | La Migliore Esperienza di Parapendio Tandem"
+        },
+        "price": "£ 360.00",
+        duration: {
+            en: "2 hours",
+            tr: "2 saat",
+            es: "2 horas",
+            zh: "2 小时",
+            ar: "2 ساعات",
+            ru: "2 часа",
+            it: "2 ore"
+        },
+        "snapshots": [
+            {
+                "icon": "fa-solid fa-clock",
+                "alias": "strDuration",
+            },
+            {
+                "icon": "fa-solid fa-user-group",
+                "alias": "strCambridgePrivateTour",
+            },
+            {
+                "icon": "fa-solid fa-route",
+                "alias": "strFlexibleItinerary",
+            },
+            {
+                "icon": "fa-solid fa-square-check",
+                "alias": "strFreeCancellation24h",
+            }
+        ],
+        keywords: "",
+        metaDescription: "",
+        "thumbnailTitle": "",
+        "breadcrumbTitle": {
+            "en": "Tours",
+            "tr": "Turlar",
+            "zh": "游览",
+            "ar": "الجولات",
+            "ru": "Туры",
+            "es": "Excursiones",
+            "it": "Tour"
+        }
     },
     {
         "tourDealId": 8,
         "images": [
-            "https://api.london-tech.com/files/randoms/b3de5fe0056954b327e91cf75ccf2e101aa610f6e2d023531a8a02cedf14a0c4.jpg",
+            "/images/tours/12Island.webp",
             "https://api.london-tech.com/files/randoms/af7b2be798c46cc258f32fe31c47b35d1ad763ff07e3a762a5ead30933b927fe.jpg",
             "https://api.london-tech.com/files/randoms/00925855c3ff16881ce413419b0538acec01add763a8937e5390f27195086eea.jpg",
             "https://api.london-tech.com/files/randoms/a4bbf0cf2004cdfa2d1771c71cebb2b4fa2a8a3f3d852286cbaa4fc3a6ac03d1.jpg"
         ],
         "sequenceNumber": 8,
-        "pathname": "/tours/stonehenge-and-bath",
-        "pageTitle": "Stonehenge & Bath Tour",
-        "headTitle": "Stonehenge & Bath Tour from London | Full-Day Private Excursion",
-        "price": "£ 450.00"
+        "pathname": "/tours/antalya-sightseeing-city-tour",
+        "pageTitle": {
+            "en": "Antalya Sightseeing City Tour with Waterfalls & Cable Car",
+            "tr": "Antalya Şehir Turu: Şelaleler ve Teleferik ile",
+            "es": "Tour Turístico por la Ciudad de Antalya con Cascadas y Teleférico",
+            "zh": "安塔利亚观光城市游览，含瀑布与缆车",
+            "ar": "جولة سياحية في أنطاليا تشمل الشلالات والتلفريك",
+            "ru": "Обзорная экскурсия по Анталии с водопадами и канатной дорогой",
+            "it": "Tour della Città di Antalya con Cascate e Funivia"
+        },
+        "headTitle": {
+            "en": "Antalya Sightseeing City Tour with Waterfalls & Cable Car | Explore the Best of Antalya",
+            "tr": "Antalya Şehir Turu: Şelaleler ve Teleferik ile | Antalya'nın En İyilerini Keşfedin",
+            "es": "Tour Turístico por la Ciudad de Antalya con Cascadas y Teleférico | Explora lo Mejor de Antalya",
+            "zh": "安塔利亚观光城市游览，含瀑布与缆车 | 探索安塔利亚的精华",
+            "ar": "جولة سياحية في أنطاليا تشمل الشلالات والتلفريك | اكتشف أفضل ما في أنطاليا",
+            "ru": "Обзорная экскурсия по Анталии с водопадами и канатной дорогой | Исследуйте лучшее в Анталии",
+            "it": "Tour della Città di Antalya con Cascate e Funivia | Scopri il Meglio di Antalya"
+        },
+        "price": "£ 450.00",
+        duration: {
+            en: "9.5 hours",
+            tr: "9.5 saat",
+            es: "9.5 horas",
+            zh: "9.5 小时",
+            ar: "9.5 ساعات",
+            ru: "9.5 часа",
+            it: "9.5 ore"
+        },
+        "snapshots": [
+            {
+                "icon": "fa-solid fa-clock",
+                "alias": "strDuration",
+            },
+            {
+                "icon": "fa-solid fa-user-group",
+                "alias": "strCambridgePrivateTour",
+            },
+            {
+                "icon": "fa-solid fa-route",
+                "alias": "strFlexibleItinerary",
+            },
+            {
+                "icon": "fa-solid fa-square-check",
+                "alias": "strFreeCancellation24h",
+            }
+        ],
+        keywords: "",
+        metaDescription: "",
+        "thumbnailTitle": "",
+        "breadcrumbTitle": {
+            "en": "Tours",
+            "tr": "Turlar",
+            "zh": "游览",
+            "ar": "الجولات",
+            "ru": "Туры",
+            "es": "Excursiones",
+            "it": "Tour"
+        }
     }
 ]
 
-let tourDetailsContentTranslated = {
+export const singleTourTranslatedPageContents = {
     "/tours/fethiye12-island-tour": {
         en: `
              <h1>Discover the Stunning 12 Islands of Fethiye</h1>
@@ -3149,19 +3489,1616 @@ let tourDetailsContentTranslated = {
         Не упустите возможность – бронируйте ваше место уже сегодня!
     </p>
         `,
+    },
+    "/tours/istanbul-full-day-tour": {
+        en: `
+    <h1>Byzantine & Ottoman Heritage – Blue Mosque, Hagia Sophia, Grand Bazaar & Topkapi Palace</h1>
+    <h2>Tour Highlights</h2>
+    <ul>
+        <li><strong>Uncover History:</strong> Immerse yourself in the rich history of Istanbul, exploring iconic Byzantine and Ottoman landmarks.</li>
+        <li><strong>Cultural Gems:</strong> Visit the UNESCO-listed Hagia Sophia, the majestic Blue Mosque, and the vibrant Grand Bazaar.</li>
+        <li><strong>Topkapi Palace:</strong> Step into the opulent world of Ottoman sultans with a guided tour of their residence.</li>
+        <li><strong>Expert Guidance:</strong> Learn captivating stories and historical insights from a professional, multilingual guide.</li>
+    </ul>
+
+    <h2>Tour Details</h2>
+    <ul>
+        <li><strong>Hotel Pick-Up:</strong> Between 08:30 and 09:30 from central Istanbul hotels. (<em>Pick-up times vary; please confirm upon booking.</em>)</li>
+        <li><strong>Return Time:</strong> Afternoon, approximately 4:30 PM.</li>
+        <li><strong>Language Options:</strong> English, German, Arabic.</li>
+        <li><strong>Not Suitable For:</strong> Guests with walking difficulties.</li>
+    </ul>
+
+    <h2>What's Included</h2>
+    <ul>
+        <li>Round-trip hotel transfers</li>
+        <li>Comfortable, air-conditioned bus transportation</li>
+        <li>Guided walking tour with expert commentary</li>
+    </ul>
+
+    <h2>What's Not Included</h2>
+    <ul>
+        <li>Drinks</li>
+        <li>Museum entrance fees</li>
+        <li>Lunch (<em>Lunch will be at a local restaurant, and participants can purchase their meals directly.</em>)</li>
+    </ul>
+
+    <h2>Important Information</h2>
+    <ul>
+        <li><strong>Topkapi Palace Closure:</strong> Closed on Tuesdays, and an alternative itinerary will be provided.</li>
+        <li><strong>Blue Mosque Visits:</strong> Not available on Fridays due to prayer services.</li>
+        <li><strong>What to Bring:</strong> Camera, comfortable shoes, and clothing.</li>
+        <li><strong>Children’s Admission:</strong> Children must present valid passports for age verification at museums.</li>
+    </ul>
+
+    <h2>Itinerary Overview</h2>
+    <h3>Morning: Iconic Landmarks in Sultanahmet</h3>
+    <p>Your day begins with a convenient hotel pick-up. After meeting your guide and group, the adventure starts in the heart of Istanbul:</p>
+    <ul>
+        <li><strong>Hippodrome:</strong> Explore this historic arena once used for chariot races and public ceremonies. Admire its monuments, including the German Fountain, the Serpentine Column, and the Obelisk of Theodosius.</li>
+        <li><strong>Blue Mosque:</strong> Step inside this architectural wonder, renowned for its dazzling blue Iznik tiles and serene ambiance. (<em>Closed on Fridays.</em>)</li>
+        <li><strong>Hagia Sophia:</strong> Marvel at the breathtaking architecture of this ancient basilica, a masterpiece that transitioned from a Byzantine church to an Ottoman mosque, now a UNESCO-listed museum. (<em>Closed on Mondays; alternative visit to the Underground Cistern will be arranged.</em>)</li>
+    </ul>
+
+    <h3>Midday: Grand Bazaar & Lunch</h3>
+    <p>Dive into the lively atmosphere of the Grand Bazaar, one of the world’s largest and oldest covered markets. With over 4,000 shops, this bustling hub offers everything from spices and textiles to unique souvenirs. Practice your bargaining skills and enjoy the vibrant energy.</p>
+    <p>Enjoy a lunch break at a local restaurant (<em>not included in the price</em>).</p>
+
+    <h3>Afternoon: Sultans’ Tombs & Topkapi Palace</h3>
+    <ul>
+        <li><strong>Sultans’ Tombs:</strong> Visit the beautifully adorned resting places of five Ottoman sultans, showcasing intricate 16th-century ceramic designs.</li>
+        <li><strong>Topkapi Palace:</strong> Conclude your tour with a visit to this stunning palace, once the seat of Ottoman power. Explore its treasures, including imperial jewels, ceremonial costumes, and artifacts from centuries past. (<em>Closed on Tuesdays.</em>)</li>
+    </ul>
+
+    <h2>Additional Information</h2>
+    <ul>
+        <li><strong>Operating Days:</strong> Daily (<em>except Fridays for Blue Mosque & Tuesdays for Topkapi Palace</em>).</li>
+        <li><strong>Duration:</strong> Full day, approximately 8 hours.</li>
+        <li><strong>Group Size:</strong> Small groups to ensure a personalized experience.</li>
+        <li><strong>Booking Tip:</strong> Advance booking recommended to secure your spot.</li>
+    </ul>
+
+    <h2>Reserve Your Spot</h2>
+    <p>Don’t miss this incredible journey through Istanbul’s rich history and vibrant culture. Book your tour now and let the city’s timeless charm captivate you!</p>
+        `,
+        tr: `
+        <h1>Bizans ve Osmanlı Mirası – Sultanahmet Camii, Ayasofya, Kapalı Çarşı & Topkapı Sarayı</h1>
+<h2>Turun Öne Çıkanları</h2>
+<ul>
+    <li><strong>Tarihi Keşfedin:</strong> İstanbul'un zengin tarihine dalın, ikonik Bizans ve Osmanlı dönemi eserlerini keşfedin.</li>
+    <li><strong>Kültürel Hazineler:</strong> UNESCO Dünya Mirası Listesi'ndeki Ayasofya, ihtişamlı Sultanahmet Camii ve canlı Kapalı Çarşı’yı ziyaret edin.</li>
+    <li><strong>Topkapı Sarayı:</strong> Osmanlı sultanlarının görkemli dünyasına bir rehber eşliğinde adım atın.</li>
+    <li><strong>Uzman Rehberlik:</strong> Profesyonel, çok dilli rehberinizden büyüleyici hikayeler ve tarihi bilgiler öğrenin.</li>
+</ul>
+
+<h2>Tur Detayları</h2>
+<ul>
+    <li><strong>Otelden Alma:</strong> Sabah 08:30 ile 09:30 arasında İstanbul merkez otellerinden. (<em>Alım saatleri değişebilir; rezervasyon sırasında teyit edin.</em>)</li>
+    <li><strong>Dönüş Saati:</strong> Öğleden sonra, yaklaşık 16:30.</li>
+    <li><strong>Dil Seçenekleri:</strong> İngilizce, Almanca, Arapça.</li>
+    <li><strong>Uygun Olmayanlar:</strong> Yürüme zorluğu çeken misafirler için uygun değildir.</li>
+</ul>
+
+<h2>Fiyata Dahil Olanlar</h2>
+<ul>
+    <li>Otelden gidiş-dönüş transferler</li>
+    <li>Konforlu, klimalı otobüs ile ulaşım</li>
+    <li>Rehber eşliğinde yürüyüş turu ve uzman yorumları</li>
+</ul>
+
+<h2>Fiyata Dahil Olmayanlar</h2>
+<ul>
+    <li>İçecekler</li>
+    <li>Müze giriş ücretleri</li>
+    <li>Öğle yemeği (<em>Öğle yemeği yerel bir restoranda olacak ve katılımcılar yemeklerini doğrudan satın alabilirler.</em>)</li>
+</ul>
+
+<h2>Önemli Bilgiler</h2>
+<ul>
+    <li><strong>Topkapı Sarayı Kapanışı:</strong> Salı günleri kapalıdır ve alternatif bir tur programı sunulacaktır.</li>
+    <li><strong>Sultanahmet Camii Ziyaretleri:</strong> Cuma günleri namaz nedeniyle ziyarete kapalıdır.</li>
+    <li><strong>Yanınızda Getirmeniz Gerekenler:</strong> Kamera, rahat ayakkabılar ve giysiler.</li>
+    <li><strong>Çocuk Girişi:</strong> Çocuklar müzelerde yaş doğrulaması için geçerli pasaport sunmalıdır.</li>
+</ul>
+
+<h2>Tur Programı</h2>
+<h3>Sabah: Sultanahmet’te İkonik Eserler</h3>
+<p>Gününüz otelden rahat bir şekilde alınarak başlar. Rehberiniz ve grubunuzla buluştuktan sonra macera İstanbul’un kalbinde başlar:</p>
+<ul>
+    <li><strong>Hipodrom:</strong> Eski araba yarışları ve halka açık törenler için kullanılan bu tarihi arenayı keşfedin. Alman Çeşmesi, Yılanlı Sütun ve Dikilitaş gibi anıtları hayranlıkla izleyin.</li>
+    <li><strong>Sultanahmet Camii:</strong> Parlak mavi İznik çinileri ve huzurlu atmosferiyle ünlü bu mimari harikaya adım atın. (<em>Cuma günleri kapalıdır.</em>)</li>
+    <li><strong>Ayasofya:</strong> Bizans kilisesinden Osmanlı camisine dönüşen bu antik bazilikanın nefes kesici mimarisine hayran kalın, şimdi UNESCO Dünya Mirası Listesi'nde bir müze. (<em>Pazartesi günleri kapalıdır; alternatif olarak Yerebatan Sarnıcı’na ziyaret düzenlenecektir.</em>)</li>
+</ul>
+
+<h3>Öğle Arası: Kapalı Çarşı & Öğle Yemeği</h3>
+<p>Dünyanın en büyük ve en eski kapalı çarşılarından biri olan Kapalı Çarşı’nın canlı atmosferine dalın. 4.000’den fazla dükkanıyla bu hareketli merkez baharatlardan tekstil ürünlerine ve eşsiz hediyeliklere kadar her şeyi sunuyor. Pazarlık becerilerinizi geliştirin ve bu canlı enerjinin tadını çıkarın.</p>
+<p>Yerel bir restoranda öğle yemeği molası verin (<em>fiyata dahil değildir</em>).</p>
+
+<h3>Öğleden Sonra: Sultanların Türbeleri & Topkapı Sarayı</h3>
+<ul>
+    <li><strong>Sultanların Türbeleri:</strong> Beş Osmanlı sultanının güzelce süslenmiş dinlenme yerlerini ziyaret edin, 16. yüzyıla ait seramik tasarımlarıyla dikkat çekiyor.</li>
+    <li><strong>Topkapı Sarayı:</strong> Bu etkileyici sarayı ziyaret ederek turunuzu tamamlayın, Osmanlı İmparatorluğu’nun gücünün merkeziydi. İmparatorluk mücevherleri, tören kıyafetleri ve geçmiş yüzyıllardan eserler gibi hazinelerini keşfedin. (<em>Salı günleri kapalıdır.</em>)</li>
+</ul>
+
+<h2>Ek Bilgiler</h2>
+<ul>
+    <li><strong>Açık Günler:</strong> Her gün (<em>Sultanahmet Camii için Cuma ve Topkapı Sarayı için Salı günleri hariç</em>).</li>
+    <li><strong>Süre:</strong> Tam gün, yaklaşık 8 saat.</li>
+    <li><strong>Grup Boyutu:</strong> Kişiselleştirilmiş bir deneyim için küçük gruplar.</li>
+    <li><strong>Rezervasyon İpucu:</strong> Yerinizin garanti altına alınması için önceden rezervasyon önerilir.</li>
+</ul>
+
+<h2>Hemen Rezervasyon Yapın</h2>
+<p>İstanbul’un zengin tarihi ve canlı kültürüne bu inanılmaz yolculuğu kaçırmayın. Turunuzu şimdi rezerve edin ve şehrin zamansız cazibesinin sizi büyülemesine izin verin!</p>
+
+        `,
+        ar: `
+        <h1>التراث البيزنطي والعثماني – المسجد الأزرق، آيا صوفيا، البازار الكبير وقصر توبكابي</h1>
+    <h2>أبرز معالم الجولة</h2>
+    <ul>
+        <li><strong>استكشف التاريخ:</strong> انغمس في التاريخ الغني لإسطنبول، واستكشف المعالم البيزنطية والعثمانية الأيقونية.</li>
+        <li><strong>الكنوز الثقافية:</strong> قم بزيارة مواقع التراث العالمي لليونسكو: آيا صوفيا، المسجد الأزرق الرائع، والبازار الكبير النابض بالحياة.</li>
+        <li><strong>قصر توبكابي:</strong> ادخل إلى العالم الفاخر للسلاطين العثمانيين مع جولة إرشادية في مقر إقامتهم.</li>
+        <li><strong>إرشاد احترافي:</strong> تعلم القصص الجذابة والرؤى التاريخية من دليل محترف متعدد اللغات.</li>
+    </ul>
+
+    <h2>تفاصيل الجولة</h2>
+    <ul>
+        <li><strong>الاستلام من الفندق:</strong> بين الساعة 08:30 و 09:30 من فنادق وسط إسطنبول. (<em>تختلف أوقات الاستلام؛ يرجى التأكيد عند الحجز.</em>)</li>
+        <li><strong>وقت العودة:</strong> بعد الظهر، حوالي الساعة 4:30 مساءً.</li>
+        <li><strong>خيارات اللغة:</strong> الإنجليزية، الألمانية، العربية.</li>
+        <li><strong>غير مناسب لـ:</strong> الضيوف الذين يعانون من صعوبات في المشي.</li>
+    </ul>
+
+    <h2>ما هو مشمول</h2>
+    <ul>
+        <li>النقل من وإلى الفندق</li>
+        <li>المواصلات بالحافلة المكيفة والمريحة</li>
+        <li>جولة سيراً على الأقدام مع تعليق احترافي</li>
+    </ul>
+
+    <h2>ما هو غير مشمول</h2>
+    <ul>
+        <li>المشروبات</li>
+        <li>رسوم دخول المتاحف</li>
+        <li>الغداء (<em>سيتم تناول الغداء في مطعم محلي، ويمكن للمشاركين شراء وجباتهم مباشرةً.</em>)</li>
+    </ul>
+
+    <h2>معلومات مهمة</h2>
+    <ul>
+        <li><strong>إغلاق قصر توبكابي:</strong> مغلق أيام الثلاثاء، وسيتم توفير برنامج جولة بديل.</li>
+        <li><strong>زيارات المسجد الأزرق:</strong> غير متاحة أيام الجمعة بسبب الصلاة.</li>
+        <li><strong>ما الذي يجب إحضاره:</strong> كاميرا، أحذية وملابس مريحة.</li>
+        <li><strong>دخول الأطفال:</strong> يجب على الأطفال تقديم جوازات سفر صالحة للتحقق من العمر في المتاحف.</li>
+    </ul>
+
+    <h2>برنامج الجولة</h2>
+    <h3>الصباح: المعالم الأيقونية في السلطان أحمد</h3>
+    <p>يبدأ يومك بنقل مريح من الفندق. بعد مقابلة دليلك ومجموعتك، تبدأ المغامرة في قلب إسطنبول:</p>
+    <ul>
+        <li><strong>ميدان سباق الخيل:</strong> استكشف هذا الساحة التاريخية التي كانت تُستخدم لسباقات العربات والمناسبات العامة. استمتع بالآثار، بما في ذلك النافورة الألمانية، عمود الثعبان، ومسلة ثيودوسيوس.</li>
+        <li><strong>المسجد الأزرق:</strong> ادخل إلى هذا العجائب المعمارية المشهورة ببلاط إزنيق الأزرق اللامع وأجوائها الهادئة. (<em>مغلق أيام الجمعة.</em>)</li>
+        <li><strong>آيا صوفيا:</strong> استمتع بالهندسة المعمارية المذهلة لهذه البازيليكا القديمة، وهي تحفة فنية انتقلت من كنيسة بيزنطية إلى مسجد عثماني، وهي الآن متحف مدرج في قائمة التراث العالمي لليونسكو. (<em>مغلق أيام الاثنين؛ سيتم ترتيب زيارة بديلة إلى صهريج البازيليك.</em>)</li>
+    </ul>
+
+    <h3>منتصف النهار: البازار الكبير والغداء</h3>
+    <p>انغمس في الأجواء النابضة بالحياة للبازار الكبير، أحد أكبر وأقدم الأسواق المغطاة في العالم. مع أكثر من 4000 متجر، يقدم هذا المركز النابض بالحياة كل شيء من التوابل والمنسوجات إلى الهدايا التذكارية الفريدة. استمتع بممارسة مهاراتك في المساومة واستمتع بالطاقة النابضة.</p>
+    <p>استمتع باستراحة غداء في مطعم محلي (<em>غير مشمول بالسعر</em>).</p>
+
+    <h3>بعد الظهر: أضرحة السلاطين وقصر توبكابي</h3>
+    <ul>
+        <li><strong>أضرحة السلاطين:</strong> قم بزيارة أماكن الراحة المزخرفة لخمسة سلاطين عثمانيين، التي تعرض تصاميم خزفية رائعة من القرن السادس عشر.</li>
+        <li><strong>قصر توبكابي:</strong> اختتم جولتك بزيارة هذا القصر الرائع، الذي كان مركز القوة العثمانية. استكشف كنوزه، بما في ذلك الجواهر الإمبراطورية، والأزياء الاحتفالية، والتحف من القرون الماضية. (<em>مغلق أيام الثلاثاء.</em>)</li>
+    </ul>
+
+    <h2>معلومات إضافية</h2>
+    <ul>
+        <li><strong>أيام العمل:</strong> يومياً (<em>باستثناء أيام الجمعة للمسجد الأزرق وأيام الثلاثاء لقصر توبكابي</em>).</li>
+        <li><strong>المدة:</strong> يوم كامل، حوالي 8 ساعات.</li>
+        <li><strong>حجم المجموعة:</strong> مجموعات صغيرة لضمان تجربة مخصصة.</li>
+        <li><strong>نصيحة الحجز:</strong> يُنصح بالحجز المسبق لضمان مقعدك.</li>
+    </ul>
+
+    <h2>احجز مكانك الآن</h2>
+    <p>لا تفوت هذه الفرصة لاكتشاف التاريخ الغني والثقافة النابضة لإسطنبول. احجز جولتك الآن ودع سحر المدينة يأسر قلبك!</p>
+        `,
+        zh: `
+          <h1>拜占庭与奥斯曼遗产 – 蓝色清真寺、圣索菲亚大教堂、大巴扎和托普卡帕宫</h1>
+    <h2>行程亮点</h2>
+    <ul>
+        <li><strong>探索历史：</strong>沉浸在伊斯坦布尔丰富的历史中，探索标志性的拜占庭和奥斯曼地标。</li>
+        <li><strong>文化瑰宝：</strong>参观联合国教科文组织世界遗产名录中的圣索菲亚大教堂、宏伟的蓝色清真寺和充满活力的大巴扎。</li>
+        <li><strong>托普卡帕宫：</strong>在专业导游的带领下，进入奥斯曼苏丹的奢华世界，参观他们的住所。</li>
+        <li><strong>专业导览：</strong>从多语言的专业导游那里了解迷人的故事和历史见解。</li>
+    </ul>
+
+    <h2>行程详情</h2>
+    <ul>
+        <li><strong>酒店接送：</strong>从伊斯坦布尔市中心酒店接送时间为早上08:30至09:30。（<em>接送时间可能会有所变化，请在预订时确认。</em>）</li>
+        <li><strong>返回时间：</strong>下午，约16:30。</li>
+        <li><strong>语言选项：</strong>英语、德语、阿拉伯语。</li>
+        <li><strong>不适合：</strong>行动不便的客人。</li>
+    </ul>
+
+    <h2>费用包含</h2>
+    <ul>
+        <li>酒店往返接送服务</li>
+        <li>舒适的空调巴士交通</li>
+        <li>由专业导游讲解的徒步游览</li>
+    </ul>
+
+    <h2>费用不包含</h2>
+    <ul>
+        <li>饮品</li>
+        <li>博物馆门票</li>
+        <li>午餐（<em>午餐将在当地餐厅进行，参与者可自行购买。</em>）</li>
+    </ul>
+
+    <h2>重要信息</h2>
+    <ul>
+        <li><strong>托普卡帕宫关闭：</strong>托普卡帕宫周二关闭，将提供替代行程。</li>
+        <li><strong>蓝色清真寺参观：</strong>由于礼拜，周五不开放参观。</li>
+        <li><strong>携带物品：</strong>相机、舒适的鞋子和服装。</li>
+        <li><strong>儿童入场：</strong>儿童在博物馆需要出示有效护照以验证年龄。</li>
+    </ul>
+
+    <h2>行程概览</h2>
+    <h3>上午：苏丹艾哈迈德的标志性地标</h3>
+    <p>您的一天将从舒适的酒店接送开始。与导游和团队会合后，冒险从伊斯坦布尔的中心开始：</p>
+    <ul>
+        <li><strong>古罗马竞技场：</strong>探索这座曾用于战车比赛和公共仪式的历史竞技场。欣赏德式喷泉、蛇柱和狄奥多西方尖碑等古迹。</li>
+        <li><strong>蓝色清真寺：</strong>步入这座以耀眼的蓝色伊兹尼克瓷砖和宁静氛围而闻名的建筑奇观。（<em>周五关闭。</em>）</li>
+        <li><strong>圣索菲亚大教堂：</strong>欣赏这座古老大教堂的壮丽建筑，这是一座从拜占庭教堂转变为奥斯曼清真寺的杰作，现在是一座联合国教科文组织世界遗产博物馆。（<em>周一关闭；将安排参观地下蓄水池作为替代。</em>）</li>
+    </ul>
+
+    <h3>中午：大巴扎和午餐</h3>
+    <p>沉浸在大巴扎热闹的氛围中，这是世界上最大和最古老的有顶市场之一。拥有超过4000家商店，这个繁忙的中心提供从香料和纺织品到独特纪念品的各种商品。练习您的议价技巧，享受充满活力的氛围。</p>
+    <p>在当地餐厅享用午餐（<em>费用不包含在内</em>）。</p>
+
+    <h3>下午：苏丹陵墓和托普卡帕宫</h3>
+    <ul>
+        <li><strong>苏丹陵墓：</strong>参观五位奥斯曼苏丹的精美装饰安息地，展示16世纪精致的陶瓷设计。</li>
+        <li><strong>托普卡帕宫：</strong>通过参观这座宏伟的宫殿结束您的旅程，这里曾是奥斯曼帝国的权力中心。探索其珍宝，包括皇家珠宝、礼仪服装和过去几个世纪的文物。（<em>周二关闭。</em>）</li>
+    </ul>
+
+    <h2>附加信息</h2>
+    <ul>
+        <li><strong>开放日：</strong>每日开放（<em>蓝色清真寺周五和托普卡帕宫周二除外</em>）。</li>
+        <li><strong>时长：</strong>全天，大约8小时。</li>
+        <li><strong>团队规模：</strong>小团队以确保个性化体验。</li>
+        <li><strong>预订提示：</strong>建议提前预订以确保您的位置。</li>
+    </ul>
+
+    <h2>立即预订您的行程</h2>
+    <p>不要错过探索伊斯坦布尔丰富历史和充满活力文化的难忘之旅。立即预订您的行程，让这座城市的迷人魅力征服您！</p>
+        `,
+        it: `
+    <h1>Eredità Bizantina e Ottomana – Moschea Blu, Basilica di Santa Sofia, Gran Bazaar e Palazzo Topkapi</h1>
+    <h2>Punti Salienti del Tour</h2>
+    <ul>
+        <li><strong>Scopri la Storia:</strong> Immergiti nella ricca storia di Istanbul, esplorando i punti di riferimento iconici bizantini e ottomani.</li>
+        <li><strong>Gioielli Culturali:</strong> Visita i siti patrimonio mondiale dell'UNESCO: la Basilica di Santa Sofia, la maestosa Moschea Blu e il vivace Gran Bazaar.</li>
+        <li><strong>Palazzo Topkapi:</strong> Entra nel lussuoso mondo dei sultani ottomani con una visita guidata della loro residenza.</li>
+        <li><strong>Guida Esperta:</strong> Scopri storie affascinanti e approfondimenti storici da una guida professionale multilingue.</li>
+    </ul>
+
+    <h2>Dettagli del Tour</h2>
+    <ul>
+        <li><strong>Pick-Up in Hotel:</strong> Tra le 08:30 e le 09:30 dagli hotel centrali di Istanbul. (<em>Gli orari possono variare; si prega di confermare al momento della prenotazione.</em>)</li>
+        <li><strong>Orario di Ritorno:</strong> Pomeriggio, circa alle 16:30.</li>
+        <li><strong>Opzioni Linguistiche:</strong> Inglese, Tedesco, Arabo.</li>
+        <li><strong>Non Adatto a:</strong> Ospiti con difficoltà di deambulazione.</li>
+    </ul>
+
+    <h2>Cosa è Incluso</h2>
+    <ul>
+        <li>Trasferimenti da e per l'hotel</li>
+        <li>Trasporto in autobus comodo e climatizzato</li>
+        <li>Tour a piedi con guida esperta</li>
+    </ul>
+
+    <h2>Cosa Non è Incluso</h2>
+    <ul>
+        <li>Bevande</li>
+        <li>Biglietti d'ingresso ai musei</li>
+        <li>Pranzo (<em>Il pranzo sarà in un ristorante locale e i partecipanti potranno acquistare i loro pasti direttamente.</em>)</li>
+    </ul>
+
+    <h2>Informazioni Importanti</h2>
+    <ul>
+        <li><strong>Chiusura del Palazzo Topkapi:</strong> Chiuso il martedì, verrà fornito un itinerario alternativo.</li>
+        <li><strong>Visite alla Moschea Blu:</strong> Non disponibili il venerdì a causa delle preghiere.</li>
+        <li><strong>Cosa Portare:</strong> Macchina fotografica, scarpe comode e abbigliamento adeguato.</li>
+        <li><strong>Ingresso Bambini:</strong> I bambini devono presentare un passaporto valido per la verifica dell'età nei musei.</li>
+    </ul>
+
+    <h2>Panoramica dell'Itinerario</h2>
+    <h3>Mattina: Monumenti Iconici a Sultanahmet</h3>
+    <p>La tua giornata inizia con un comodo pick-up dall'hotel. Dopo aver incontrato la tua guida e il gruppo, l'avventura inizia nel cuore di Istanbul:</p>
+    <ul>
+        <li><strong>Ippodromo:</strong> Esplora questa arena storica, un tempo utilizzata per le corse di carri e le cerimonie pubbliche. Ammira i monumenti, tra cui la Fontana Tedesca, la Colonna Serpentina e l'Obelisco di Teodosio.</li>
+        <li><strong>Moschea Blu:</strong> Entra in questo capolavoro architettonico, famoso per le sue splendide piastrelle blu di Iznik e per la sua atmosfera serena. (<em>Chiuso il venerdì.</em>)</li>
+        <li><strong>Basilica di Santa Sofia:</strong> Ammira l'architettura mozzafiato di questa antica basilica, un capolavoro che è passato da chiesa bizantina a moschea ottomana, ora un museo patrimonio dell'UNESCO. (<em>Chiuso il lunedì; sarà organizzata una visita alternativa alla Cisterna Basilica.</em>)</li>
+    </ul>
+
+    <h3>Mezzogiorno: Gran Bazaar e Pranzo</h3>
+    <p>Immergiti nell'atmosfera vivace del Gran Bazaar, uno dei mercati coperti più grandi e antichi del mondo. Con oltre 4.000 negozi, questo vivace centro offre di tutto, dalle spezie ai tessuti fino ai souvenir unici. Pratica le tue abilità di contrattazione e goditi l'energia vibrante.</p>
+    <p>Fai una pausa pranzo in un ristorante locale (<em>non incluso nel prezzo</em>).</p>
+
+    <h3>Pomeriggio: Tombe dei Sultani e Palazzo Topkapi</h3>
+    <ul>
+        <li><strong>Tombe dei Sultani:</strong> Visita i luoghi di riposo riccamente decorati di cinque sultani ottomani, che mostrano intricati disegni ceramici del XVI secolo.</li>
+        <li><strong>Palazzo Topkapi:</strong> Concludi il tuo tour con una visita a questo splendido palazzo, un tempo sede del potere ottomano. Esplora i suoi tesori, tra cui gioielli imperiali, costumi cerimoniali e manufatti di secoli passati. (<em>Chiuso il martedì.</em>)</li>
+    </ul>
+
+    <h2>Informazioni Aggiuntive</h2>
+    <ul>
+        <li><strong>Giorni di Apertura:</strong> Tutti i giorni (<em>esclusi i venerdì per la Moschea Blu e i martedì per il Palazzo Topkapi</em>).</li>
+        <li><strong>Durata:</strong> Intera giornata, circa 8 ore.</li>
+        <li><strong>Dimensione del Gruppo:</strong> Gruppi piccoli per garantire un'esperienza personalizzata.</li>
+        <li><strong>Consiglio per la Prenotazione:</strong> Si consiglia la prenotazione anticipata per assicurarsi un posto.</li>
+    </ul>
+
+    <h2>Prenota Ora il Tuo Posto</h2>
+    <p>Non perdere questa incredibile opportunità di esplorare la ricca storia e la cultura vibrante di Istanbul. Prenota ora il tuo tour e lascia che il fascino senza tempo della città ti conquisti!</p>
+        `,
+        es: `
+    <h1>Herencia Bizantina y Otomana – Mezquita Azul, Santa Sofía, Gran Bazar y Palacio Topkapi</h1>
+    <h2>Puntos Destacados del Tour</h2>
+    <ul>
+        <li><strong>Descubre la Historia:</strong> Sumérgete en la rica historia de Estambul explorando los emblemáticos monumentos bizantinos y otomanos.</li>
+        <li><strong>Tesoros Culturales:</strong> Visita los sitios declarados Patrimonio de la Humanidad por la UNESCO: Santa Sofía, la majestuosa Mezquita Azul y el vibrante Gran Bazar.</li>
+        <li><strong>Palacio Topkapi:</strong> Adéntrate en el lujoso mundo de los sultanes otomanos con una visita guiada a su residencia.</li>
+        <li><strong>Guía Experta:</strong> Aprende fascinantes historias y datos históricos de un guía profesional multilingüe.</li>
+    </ul>
+
+    <h2>Detalles del Tour</h2>
+    <ul>
+        <li><strong>Recogida en el Hotel:</strong> Entre las 08:30 y las 09:30 desde hoteles del centro de Estambul. (<em>Los horarios pueden variar; por favor confirma al momento de la reserva.</em>)</li>
+        <li><strong>Hora de Regreso:</strong> Por la tarde, aproximadamente a las 16:30.</li>
+        <li><strong>Opciones de Idioma:</strong> Inglés, Alemán, Árabe.</li>
+        <li><strong>No Apto para:</strong> Personas con dificultades para caminar.</li>
+    </ul>
+
+    <h2>Qué Incluye</h2>
+    <ul>
+        <li>Traslados de ida y vuelta desde el hotel</li>
+        <li>Transporte en autobús cómodo y climatizado</li>
+        <li>Recorrido a pie con guía experto</li>
+    </ul>
+
+    <h2>Qué No Incluye</h2>
+    <ul>
+        <li>Bebidas</li>
+        <li>Entradas a los museos</li>
+        <li>Almuerzo (<em>El almuerzo será en un restaurante local y los participantes podrán comprar sus comidas directamente.</em>)</li>
+    </ul>
+
+    <h2>Información Importante</h2>
+    <ul>
+        <li><strong>Cierre del Palacio Topkapi:</strong> Cerrado los martes, se ofrecerá un itinerario alternativo.</li>
+        <li><strong>Visitas a la Mezquita Azul:</strong> No disponible los viernes debido a las oraciones.</li>
+        <li><strong>Qué Llevar:</strong> Cámara, calzado cómodo y ropa adecuada.</li>
+        <li><strong>Entrada para Niños:</strong> Los niños deben presentar un pasaporte válido para verificar su edad en los museos.</li>
+    </ul>
+
+    <h2>Resumen del Itinerario</h2>
+    <h3>Mañana: Monumentos Icónicos en Sultanahmet</h3>
+    <p>Tu día comienza con una cómoda recogida en el hotel. Después de reunirte con tu guía y grupo, la aventura comienza en el corazón de Estambul:</p>
+    <ul>
+        <li><strong>Hipódromo:</strong> Explora esta histórica arena utilizada para carreras de carros y ceremonias públicas. Admira monumentos como la Fuente Alemana, la Columna Serpentina y el Obelisco de Teodosio.</li>
+        <li><strong>Mezquita Azul:</strong> Entra en esta maravilla arquitectónica, famosa por sus deslumbrantes azulejos azules de Iznik y su ambiente sereno. (<em>Cerrada los viernes.</em>)</li>
+        <li><strong>Santa Sofía:</strong> Maravíllate con la impresionante arquitectura de esta antigua basílica, una obra maestra que pasó de iglesia bizantina a mezquita otomana, ahora un museo declarado Patrimonio de la Humanidad por la UNESCO. (<em>Cerrada los lunes; se organizará una visita alternativa a la Cisterna Basílica.</em>)</li>
+    </ul>
+
+    <h3>Mediodía: Gran Bazar y Almuerzo</h3>
+    <p>Sumérgete en la animada atmósfera del Gran Bazar, uno de los mercados cubiertos más grandes y antiguos del mundo. Con más de 4,000 tiendas, este animado centro ofrece de todo, desde especias y textiles hasta souvenirs únicos. Practica tus habilidades de regateo y disfruta de la energía vibrante.</p>
+    <p>Disfruta de un descanso para almorzar en un restaurante local (<em>no incluido en el precio</em>).</p>
+
+    <h3>Tarde: Tumbas de los Sultanes y Palacio Topkapi</h3>
+    <ul>
+        <li><strong>Tumbas de los Sultanes:</strong> Visita los ricamente decorados lugares de descanso de cinco sultanes otomanos, que muestran intrincados diseños cerámicos del siglo XVI.</li>
+        <li><strong>Palacio Topkapi:</strong> Concluye tu tour con una visita a este magnífico palacio, que fue el centro del poder otomano. Explora sus tesoros, incluidos joyas imperiales, trajes ceremoniales y artefactos de siglos pasados. (<em>Cerrado los martes.</em>)</li>
+    </ul>
+
+    <h2>Información Adicional</h2>
+    <ul>
+        <li><strong>Días de Operación:</strong> Diario (<em>excepto los viernes para la Mezquita Azul y los martes para el Palacio Topkapi</em>).</li>
+        <li><strong>Duración:</strong> Día completo, aproximadamente 8 horas.</li>
+        <li><strong>Tamaño del Grupo:</strong> Grupos pequeños para garantizar una experiencia personalizada.</li>
+        <li><strong>Consejo para Reservar:</strong> Se recomienda reservar con anticipación para asegurar tu lugar.</li>
+    </ul>
+
+    <h2>Reserva Tu Lugar Ahora</h2>
+    <p>No te pierdas esta increíble oportunidad de explorar la rica historia y vibrante cultura de Estambul. ¡Reserva tu tour ahora y deja que el encanto atemporal de la ciudad te cautive!</p>
+        `,
+        ru: `
+     <h1>Византийское и Османское наследие – Голубая мечеть, Айя-София, Гранд Базар и дворец Топкапы</h1>
+    <h2>Основные моменты тура</h2>
+    <ul>
+        <li><strong>Исследуйте историю:</strong> Погрузитесь в богатую историю Стамбула, изучая знаковые византийские и османские памятники.</li>
+        <li><strong>Культурные сокровища:</strong> Посетите объекты Всемирного наследия ЮНЕСКО: Айя-Софию, величественную Голубую мечеть и оживленный Гранд Базар.</li>
+        <li><strong>Дворец Топкапы:</strong> Окунитесь в роскошный мир османских султанов с экскурсией по их резиденции.</li>
+        <li><strong>Экспертное руководство:</strong> Узнайте увлекательные истории и исторические факты от профессионального многоязычного гида.</li>
+    </ul>
+
+    <h2>Детали тура</h2>
+    <ul>
+        <li><strong>Трансфер из отеля:</strong> С 08:30 до 09:30 из центральных отелей Стамбула. (<em>Время может варьироваться; уточняйте при бронировании.</em>)</li>
+        <li><strong>Время возвращения:</strong> Во второй половине дня, примерно в 16:30.</li>
+        <li><strong>Языковые опции:</strong> Английский, немецкий, арабский.</li>
+        <li><strong>Не подходит для:</strong> Гостей с трудностями передвижения.</li>
+    </ul>
+
+    <h2>Что включено</h2>
+    <ul>
+        <li>Трансфер из отеля и обратно</li>
+        <li>Комфортабельный автобус с кондиционером</li>
+        <li>Пешеходная экскурсия с профессиональным гидом</li>
+    </ul>
+
+    <h2>Что не включено</h2>
+    <ul>
+        <li>Напитки</li>
+        <li>Входные билеты в музеи</li>
+        <li>Обед (<em>Обед будет организован в местном ресторане, и участники могут оплатить его самостоятельно.</em>)</li>
+    </ul>
+
+    <h2>Важная информация</h2>
+    <ul>
+        <li><strong>Закрытие дворца Топкапы:</strong> По вторникам дворец закрыт, и будет предложен альтернативный маршрут.</li>
+        <li><strong>Посещение Голубой мечети:</strong> По пятницам мечеть закрыта для посещений из-за молитвы.</li>
+        <li><strong>Что взять с собой:</strong> Камеру, удобную обувь и одежду.</li>
+        <li><strong>Детский вход:</strong> Дети должны предъявить действующий паспорт для подтверждения возраста в музеях.</li>
+    </ul>
+
+    <h2>Программа тура</h2>
+    <h3>Утро: Знаковые достопримечательности Султанахмета</h3>
+    <p>Ваш день начнется с удобного трансфера из отеля. После встречи с гидом и группой приключение начинается в самом сердце Стамбула:</p>
+    <ul>
+        <li><strong>Ипподром:</strong> Исследуйте эту историческую арену, когда-то использовавшуюся для гонок на колесницах и общественных мероприятий. Полюбуйтесь памятниками, включая Немецкий фонтан, Змеиный столб и Обелиск Феодосия.</li>
+        <li><strong>Голубая мечеть:</strong> Войдите в этот архитектурный шедевр, известный своими ослепительно синими изникскими плитками и спокойной атмосферой. (<em>Закрыта по пятницам.</em>)</li>
+        <li><strong>Айя-София:</strong> Полюбуйтесь захватывающей архитектурой этого древнего собора, шедевра, который перешел от византийской церкви к османской мечети, а теперь является музеем, входящим в список ЮНЕСКО. (<em>Закрыта по понедельникам; будет предложен альтернативный визит в Цистерну Базилику.</em>)</li>
+    </ul>
+
+    <h3>Полдень: Гранд Базар и обед</h3>
+    <p>Окунитесь в оживленную атмосферу Гранд Базара, одного из крупнейших и старейших крытых рынков в мире. С более чем 4000 магазинов, этот оживленный центр предлагает все: от специй и текстиля до уникальных сувениров. Попробуйте свои силы в торге и насладитесь живой энергией.</p>
+    <p>Сделайте перерыв на обед в местном ресторане (<em>не включено в стоимость</em>).</p>
+
+    <h3>После обеда: Гробницы султанов и дворец Топкапы</h3>
+    <ul>
+        <li><strong>Гробницы султанов:</strong> Посетите красиво украшенные места отдыха пяти османских султанов, демонстрирующие изысканный керамический дизайн XVI века.</li>
+        <li><strong>Дворец Топкапы:</strong> Завершите тур посещением этого великолепного дворца, который был центром османской власти. Исследуйте его сокровища, включая имперские драгоценности, церемониальные костюмы и артефакты прошлых веков. (<em>Закрыт по вторникам.</em>)</li>
+    </ul>
+
+    <h2>Дополнительная информация</h2>
+    <ul>
+        <li><strong>Дни работы:</strong> Ежедневно (<em>кроме пятниц для Голубой мечети и вторников для дворца Топкапы</em>).</li>
+        <li><strong>Продолжительность:</strong> Полный день, примерно 8 часов.</li>
+        <li><strong>Размер группы:</strong> Небольшие группы для персонализированного опыта.</li>
+        <li><strong>Совет по бронированию:</strong> Рекомендуется заранее бронировать, чтобы обеспечить себе место.</li>
+    </ul>
+
+    <h2>Забронируйте ваше место уже сегодня</h2>
+    <p>Не упустите возможность отправиться в это невероятное путешествие по богатой истории и яркой культуре Стамбула. Забронируйте тур прямо сейчас и позвольте очарованию этого города заворожить вас!</p>
+`,
+    },
+    "/tours/paragliding-fethiye-oludeniz": {
+        en: `
+         <h1>Experience the Thrill of Paragliding Over Oludeniz</h1>
+    <p>
+        Discover the breathtaking beauty of Oludeniz from the sky! With its world-renowned turquoise waters and lush mountains, Oludeniz offers a paragliding experience like no other. 
+        Perfect for thrill-seekers and nature lovers alike, this 2-hour adventure is your chance to soar through the skies and enjoy panoramic views of one of Turkey’s most iconic locations.
+    </p>
+
+    <h2>Activity Highlights</h2>
+    <ul>
+        <li><strong>Breathtaking Views:</strong> Marvel at the stunning turquoise waters, golden beaches, and lush mountains of Oludeniz as you glide through the sky.</li>
+        <li><strong>Professional Instructors:</strong> Fly tandem with experienced and certified paragliding pilots for a safe and exhilarating experience.</li>
+        <li><strong>Adrenaline Rush:</strong> Feel the thrill of launching off Babadag Mountain, one of the world’s top paragliding destinations.</li>
+        <li><strong>Memorable Experience:</strong> Capture your once-in-a-lifetime flight with optional photo and video packages (available for purchase).</li>
+        <li><strong>Flexible Booking:</strong> Enjoy free cancellation up to 24 hours before your scheduled flight.</li>
+        <li><strong>Female Pilots:</strong> If you prefer a female pilot, please contact us in advance to make arrangements.</li>
+    </ul>
+
+    <h2>Tour Details</h2>
+    <ul>
+        <li><strong>Activity Type:</strong> Extreme Adventure</li>
+        <li><strong>Duration:</strong> 2 Hours (including preparation, flight, and landing)</li>
+        <li><strong>Free Cancellation Period:</strong> Up to 24 hours before the activity.</li>
+    </ul>
+
+    <h2>What’s Included</h2>
+    <ul>
+        <li>Tandem paragliding with a professional pilot</li>
+        <li>All necessary safety equipment</li>
+        <li>Transportation to the launch site (if applicable)</li>
+        <li>Briefing and safety instructions</li>
+    </ul>
+
+    <h2>What’s Not Included</h2>
+    <ul>
+        <li>Photos and videos of your flight (available for purchase)</li>
+        <li>Personal expenses</li>
+    </ul>
+
+    <h2>Important Information</h2>
+    <ul>
+        <li><strong>Age Restrictions:</strong> Participants must be aged 16 or older.</li>
+        <li><strong>Weight Limit:</strong> Maximum weight is 100 kg (220 lbs).</li>
+        <li><strong>Health Requirements:</strong> Not suitable for individuals with heart conditions, back problems, or pregnant women.</li>
+        <li><strong>What to Wear:</strong> Comfortable clothing and closed-toe shoes.</li>
+    </ul>
+
+    <h2>Booking & Address Details</h2>
+    <p>
+        All address and meeting point details will be sent upon confirmation of your booking.
+    </p>
+
+    <h2>Book Now and Soar Above Oludeniz!</h2>
+    <p>
+        Don’t miss the chance to experience one of the world’s most iconic paragliding spots. Whether you’re an adventure enthusiast or a first-timer, this flight over Oludeniz will be a memory you’ll treasure forever.
+    </p>
+        `,
+        tr: `
+        <h1>Ölüdeniz Üzerinde Yamaç Paraşütü Heyecanını Yaşayın</h1>
+    <p>
+        Ölüdeniz'in büyüleyici güzelliğini gökyüzünden keşfedin! Dünyaca ünlü turkuaz suları ve yemyeşil dağlarıyla Ölüdeniz, başka hiçbir şeye benzemeyen bir yamaç paraşütü deneyimi sunuyor. 
+        Macera tutkunları ve doğa severler için mükemmel olan bu 2 saatlik macera, gökyüzünde süzülerek Türkiye’nin en ikonik yerlerinden birinin panoramik manzaralarını izleme şansı sunuyor.
+    </p>
+
+    <h2>Etkinlik Özellikleri</h2>
+    <ul>
+        <li><strong>Nefes Kesici Manzaralar:</strong> Ölüdeniz'in muhteşem turkuaz suları, altın kumsalları ve yemyeşil dağlarının büyüleyici manzaralarına hayran kalın.</li>
+        <li><strong>Profesyonel Eğitmenler:</strong> Deneyimli ve sertifikalı yamaç paraşütü pilotları ile tandem uçuş yaparak güvenli ve heyecan verici bir deneyim yaşayın.</li>
+        <li><strong>Adrenalin Dolu Anlar:</strong> Dünyanın en iyi yamaç paraşütü noktalarından biri olan Babadağ Dağı'ndan atlamanın heyecanını yaşayın.</li>
+        <li><strong>Unutulmaz Deneyim:</strong> Hayatınızda bir kez yaşayacağınız bu uçuşun fotoğraf ve video paketlerini satın alarak anılarınızı ölümsüzleştirin.</li>
+        <li><strong>Esnek Rezervasyon:</strong> Uçuşunuzdan 24 saat öncesine kadar ücretsiz iptal imkanı.</li>
+        <li><strong>Kadın Pilotlar:</strong> Kadın bir pilot tercih ediyorsanız, düzenleme yapmak için lütfen önceden bizimle iletişime geçin.</li>
+    </ul>
+
+    <h2>Tur Detayları</h2>
+    <ul>
+        <li><strong>Etkinlik Türü:</strong> Ekstrem Macera</li>
+        <li><strong>Süre:</strong> 2 Saat (hazırlık, uçuş ve iniş dahil)</li>
+        <li><strong>Ücretsiz İptal Süresi:</strong> Etkinlikten 24 saat öncesine kadar.</li>
+    </ul>
+
+    <h2>Dahil Olanlar</h2>
+    <ul>
+        <li>Profesyonel bir pilot ile tandem yamaç paraşütü</li>
+        <li>Tüm gerekli güvenlik ekipmanları</li>
+        <li>Kalkış alanına ulaşım (uygulanabilir ise)</li>
+        <li>Brifing ve güvenlik talimatları</li>
+    </ul>
+
+    <h2>Dahil Olmayanlar</h2>
+    <ul>
+        <li>Uçuşunuzun fotoğraf ve videoları (satın alınabilir)</li>
+        <li>Kişisel harcamalar</li>
+    </ul>
+
+    <h2>Önemli Bilgiler</h2>
+    <ul>
+        <li><strong>Yaş Sınırı:</strong> Katılımcılar en az 16 yaşında olmalıdır.</li>
+        <li><strong>Ağırlık Limiti:</strong> Maksimum ağırlık 100 kg (220 lbs).</li>
+        <li><strong>Sağlık Koşulları:</strong> Kalp rahatsızlıkları, sırt problemleri veya hamilelik durumunda uygun değildir.</li>
+        <li><strong>Ne Giymeli:</strong> Rahat kıyafetler ve kapalı burunlu ayakkabılar.</li>
+    </ul>
+
+    <h2>Rezervasyon ve Adres Detayları</h2>
+    <p>
+        Tüm adres ve buluşma noktası bilgileri rezervasyon onayı sonrasında gönderilecektir.
+    </p>
+
+    <h2>Hemen Rezervasyon Yapın ve Ölüdeniz'in Üzerinde Süzülün!</h2>
+    <p>
+        Dünyanın en ikonik yamaç paraşütü noktalarından birinde uçma fırsatını kaçırmayın. İster bir macera tutkunu olun, ister ilk kez uçuyor olun, Ölüdeniz üzerindeki bu uçuş hayatınız boyunca unutamayacağınız bir anı olacak.
+    </p>
+        `,
+        ru: `
+          <h1>Испытайте острые ощущения параглайдинга над Олюденизом</h1>
+    <p>
+        Откройте для себя захватывающую красоту Олюдениза с высоты птичьего полета! С его всемирно известными бирюзовыми водами и зелеными горами, Олюдениз предлагает уникальный опыт параглайдинга. 
+        Идеально подходит для любителей приключений и природы, этот двухчасовой тур подарит вам возможность парить в небе и наслаждаться панорамными видами на один из самых знаковых регионов Турции.
+    </p>
+
+    <h2>Особенности мероприятия</h2>
+    <ul>
+        <li><strong>Захватывающие виды:</strong> Полюбуйтесь потрясающими бирюзовыми водами, золотыми пляжами и зелеными горами Олюдениза, паря в небе.</li>
+        <li><strong>Профессиональные инструкторы:</strong> Летайте в тандеме с опытными и сертифицированными пилотами параглайдинга, чтобы получить безопасный и захватывающий опыт.</li>
+        <li><strong>Адреналин:</strong> Почувствуйте прилив адреналина, взлетая с горы Бабадаг, одного из лучших мест для параглайдинга в мире.</li>
+        <li><strong>Незабываемые впечатления:</strong> Сохраните этот уникальный момент вашего полета с помощью дополнительных фото- и видеопакетов (доступны для покупки).</li>
+        <li><strong>Гибкое бронирование:</strong> Бесплатная отмена бронирования до 24 часов до запланированного полета.</li>
+        <li><strong>Женщины-пилоты:</strong> Если вы предпочитаете женщину-пилота, пожалуйста, свяжитесь с нами заранее для организации.</li>
+    </ul>
+
+    <h2>Детали тура</h2>
+    <ul>
+        <li><strong>Тип мероприятия:</strong> Экстремальное приключение</li>
+        <li><strong>Продолжительность:</strong> 2 часа (включая подготовку, полет и посадку)</li>
+        <li><strong>Бесплатная отмена:</strong> До 24 часов до начала мероприятия.</li>
+    </ul>
+
+    <h2>Что включено</h2>
+    <ul>
+        <li>Тандемный параглайдинг с профессиональным пилотом</li>
+        <li>Все необходимое оборудование для безопасности</li>
+        <li>Трансфер к месту взлета (если применимо)</li>
+        <li>Инструктаж и правила безопасности</li>
+    </ul>
+
+    <h2>Что не включено</h2>
+    <ul>
+        <li>Фотографии и видео вашего полета (доступны для покупки)</li>
+        <li>Личные расходы</li>
+    </ul>
+
+    <h2>Важная информация</h2>
+    <ul>
+        <li><strong>Возрастное ограничение:</strong> Участники должны быть не моложе 16 лет.</li>
+        <li><strong>Ограничение по весу:</strong> Максимальный вес 100 кг (220 фунтов).</li>
+        <li><strong>Требования к здоровью:</strong> Не подходит для людей с заболеваниями сердца, проблемами со спиной или для беременных женщин.</li>
+        <li><strong>Что надеть:</strong> Удобная одежда и обувь с закрытым носком.</li>
+    </ul>
+
+    <h2>Детали бронирования и адрес</h2>
+    <p>
+        Все адреса и информация о месте встречи будут предоставлены после подтверждения бронирования.
+    </p>
+
+    <h2>Забронируйте сейчас и парите над Олюденизом!</h2>
+    <p>
+        Не упустите возможность испытать одно из самых знаковых мест для параглайдинга в мире. Независимо от того, являетесь ли вы любителем приключений или новичком, этот полет над Олюденизом станет воспоминанием, которое вы будете беречь всю жизнь.
+    </p>
+        `,
+        es: `
+          <h1>Experimenta la Emoción del Parapente sobre Oludeniz</h1>
+    <p>
+        ¡Descubre la impresionante belleza de Oludeniz desde el cielo! Con sus aguas turquesas mundialmente famosas y montañas verdes, Oludeniz ofrece una experiencia de parapente como ninguna otra. 
+        Perfecto para amantes de la aventura y la naturaleza, esta aventura de 2 horas te brinda la oportunidad de volar por los cielos y disfrutar de vistas panorámicas de uno de los lugares más icónicos de Turquía.
+    </p>
+
+    <h2>Aspectos Destacados de la Actividad</h2>
+    <ul>
+        <li><strong>Vistas Impresionantes:</strong> Maravíllate con las impresionantes aguas turquesas, playas doradas y montañas verdes de Oludeniz mientras vuelas por el cielo.</li>
+        <li><strong>Instructores Profesionales:</strong> Vuela en tándem con pilotos de parapente experimentados y certificados para una experiencia segura y emocionante.</li>
+        <li><strong>Adrenalina:</strong> Siente la emoción de despegar desde la montaña Babadag, uno de los destinos de parapente más importantes del mundo.</li>
+        <li><strong>Experiencia Memorable:</strong> Captura tu vuelo único en la vida con paquetes opcionales de fotos y videos (disponibles para compra).</li>
+        <li><strong>Reserva Flexible:</strong> Disfruta de cancelación gratuita hasta 24 horas antes de tu vuelo programado.</li>
+        <li><strong>Pilotos Mujeres:</strong> Si prefieres una piloto mujer, por favor contáctanos con anticipación para hacer los arreglos necesarios.</li>
+    </ul>
+
+    <h2>Detalles del Tour</h2>
+    <ul>
+        <li><strong>Tipo de Actividad:</strong> Aventura Extrema</li>
+        <li><strong>Duración:</strong> 2 horas (incluyendo preparación, vuelo y aterrizaje)</li>
+        <li><strong>Periodo de Cancelación Gratuita:</strong> Hasta 24 horas antes de la actividad.</li>
+    </ul>
+
+    <h2>Qué Está Incluido</h2>
+    <ul>
+        <li>Parapente en tándem con un piloto profesional</li>
+        <li>Todo el equipo de seguridad necesario</li>
+        <li>Transporte al sitio de despegue (si aplica)</li>
+        <li>Instrucciones de seguridad y sesión informativa</li>
+    </ul>
+
+    <h2>Qué No Está Incluido</h2>
+    <ul>
+        <li>Fotos y videos de tu vuelo (disponibles para compra)</li>
+        <li>Gastos personales</li>
+    </ul>
+
+    <h2>Información Importante</h2>
+    <ul>
+        <li><strong>Restricciones de Edad:</strong> Los participantes deben tener al menos 16 años.</li>
+        <li><strong>Límite de Peso:</strong> Peso máximo de 100 kg (220 lbs).</li>
+        <li><strong>Requisitos de Salud:</strong> No apto para personas con problemas cardíacos, problemas de espalda o mujeres embarazadas.</li>
+        <li><strong>Qué Vestir:</strong> Ropa cómoda y zapatos cerrados.</li>
+    </ul>
+
+    <h2>Detalles de Reserva y Dirección</h2>
+    <p>
+        Todos los detalles de la dirección y el punto de encuentro se enviarán tras la confirmación de tu reserva.
+    </p>
+
+    <h2>¡Reserva Ahora y Vuela sobre Oludeniz!</h2>
+    <p>
+        No te pierdas la oportunidad de experimentar uno de los lugares de parapente más icónicos del mundo. Ya seas un amante de las aventuras o un principiante, este vuelo sobre Oludeniz será un recuerdo que atesorarás para siempre.
+    </p>
+        `,
+        it: `
+          <h1>Vivi l'Emozione del Parapendio sopra Oludeniz</h1>
+    <p>
+        Scopri la bellezza mozzafiato di Oludeniz dal cielo! Con le sue acque turchesi rinomate in tutto il mondo e le montagne verdi, Oludeniz offre un'esperienza di parapendio unica. 
+        Perfetto per gli amanti dell'avventura e della natura, questa avventura di 2 ore ti offre l'opportunità di volare nei cieli e goderti viste panoramiche di uno dei luoghi più iconici della Turchia.
+    </p>
+
+    <h2>Punti Salienti dell'Attività</h2>
+    <ul>
+        <li><strong>Vedute Mozzafiato:</strong> Ammira le straordinarie acque turchesi, le spiagge dorate e le montagne verdi di Oludeniz mentre voli nei cieli.</li>
+        <li><strong>Istruttori Professionisti:</strong> Vola in tandem con piloti di parapendio esperti e certificati per un'esperienza sicura ed emozionante.</li>
+        <li><strong>Scarica di Adrenalina:</strong> Prova l'emozione di decollare dal Monte Babadag, una delle migliori destinazioni al mondo per il parapendio.</li>
+        <li><strong>Esperienza Indimenticabile:</strong> Cattura il tuo volo unico nella vita con pacchetti opzionali di foto e video (disponibili per l'acquisto).</li>
+        <li><strong>Prenotazione Flessibile:</strong> Goditi la cancellazione gratuita fino a 24 ore prima del tuo volo programmato.</li>
+        <li><strong>Piloti Donne:</strong> Se preferisci una pilota donna, contattaci in anticipo per organizzare tutto.</li>
+    </ul>
+
+    <h2>Dettagli del Tour</h2>
+    <ul>
+        <li><strong>Tipo di Attività:</strong> Avventura Estrema</li>
+        <li><strong>Durata:</strong> 2 ore (inclusi preparazione, volo e atterraggio)</li>
+        <li><strong>Periodo di Cancellazione Gratuita:</strong> Fino a 24 ore prima dell'attività.</li>
+    </ul>
+
+    <h2>Cosa È Incluso</h2>
+    <ul>
+        <li>Parapendio in tandem con un pilota professionista</li>
+        <li>Tutta l'attrezzatura di sicurezza necessaria</li>
+        <li>Trasporto al sito di decollo (se applicabile)</li>
+        <li>Briefing e istruzioni di sicurezza</li>
+    </ul>
+
+    <h2>Cosa Non È Incluso</h2>
+    <ul>
+        <li>Foto e video del tuo volo (disponibili per l'acquisto)</li>
+        <li>Spese personali</li>
+    </ul>
+
+    <h2>Informazioni Importanti</h2>
+    <ul>
+        <li><strong>Restrizioni di Età:</strong> I partecipanti devono avere almeno 16 anni.</li>
+        <li><strong>Limite di Peso:</strong> Peso massimo di 100 kg (220 lbs).</li>
+        <li><strong>Requisiti di Salute:</strong> Non adatto a persone con problemi cardiaci, problemi alla schiena o donne in gravidanza.</li>
+        <li><strong>Cosa Indossare:</strong> Abbigliamento comodo e scarpe chiuse.</li>
+    </ul>
+
+    <h2>Dettagli di Prenotazione e Indirizzo</h2>
+    <p>
+        Tutti i dettagli sull'indirizzo e il punto d'incontro saranno inviati al momento della conferma della prenotazione.
+    </p>
+
+    <h2>Prenota Ora e Vola sopra Oludeniz!</h2>
+    <p>
+        Non perdere l'opportunità di vivere uno dei luoghi di parapendio più iconici al mondo. Che tu sia un appassionato di avventura o un principiante, questo volo sopra Oludeniz sarà un ricordo che conserverai per sempre.
+    </p>
+        `,
+        ar: `
+        <h1>اختبر إثارة الطيران المظلي فوق أولودينيز</h1>
+    <p>
+        اكتشف الجمال المذهل لأولودينيز من السماء! مع مياهها الفيروزية المشهورة عالميًا وجبالها الخضراء، تقدم أولودينيز تجربة طيران مظلي لا مثيل لها. 
+        مثالية لعشاق المغامرة والطبيعة، توفر هذه المغامرة التي تستغرق ساعتين فرصة للطيران في السماء والاستمتاع بإطلالات بانورامية على واحدة من أكثر المواقع شهرة في تركيا.
+    </p>
+
+    <h2>أبرز معالم النشاط</h2>
+    <ul>
+        <li><strong>مناظر خلابة:</strong> استمتع بالمياه الفيروزية المذهلة، والشواطئ الذهبية، والجبال الخضراء لأولودينيز أثناء تحليقك في السماء.</li>
+        <li><strong>مدربون محترفون:</strong> حلق بالطيران المظلي المزدوج مع طيارين معتمدين ومؤهلين لتجربة آمنة ومثيرة.</li>
+        <li><strong>اندفاع الأدرينالين:</strong> عش الإثارة أثناء الإقلاع من جبل باباداغ، واحدة من أفضل وجهات الطيران المظلي في العالم.</li>
+        <li><strong>تجربة لا تُنسى:</strong> التقط لحظات طيرانك الفريدة من خلال حزم الصور والفيديو الاختيارية (متوفرة للشراء).</li>
+        <li><strong>حجز مرن:</strong> استمتع بإمكانية الإلغاء المجاني حتى 24 ساعة قبل موعد الطيران.</li>
+        <li><strong>طيارات إناث:</strong> إذا كنت تفضل طيارة، يرجى الاتصال بنا مسبقًا لترتيب ذلك.</li>
+    </ul>
+
+    <h2>تفاصيل الجولة</h2>
+    <ul>
+        <li><strong>نوع النشاط:</strong> مغامرة شديدة</li>
+        <li><strong>المدة:</strong> ساعتان (تشمل التحضير، الطيران، والهبوط)</li>
+        <li><strong>فترة الإلغاء المجاني:</strong> حتى 24 ساعة قبل النشاط.</li>
+    </ul>
+
+    <h2>ما يتضمنه العرض</h2>
+    <ul>
+        <li>طيران مظلي مزدوج مع طيار محترف</li>
+        <li>جميع معدات السلامة اللازمة</li>
+        <li>النقل إلى موقع الإقلاع (إذا كان ذلك ممكنًا)</li>
+        <li>إرشادات السلامة والتعليمات</li>
+    </ul>
+
+    <h2>ما لا يتضمنه العرض</h2>
+    <ul>
+        <li>الصور ومقاطع الفيديو لرحلتك (متوفرة للشراء)</li>
+        <li>النفقات الشخصية</li>
+    </ul>
+
+    <h2>معلومات هامة</h2>
+    <ul>
+        <li><strong>الحد الأدنى للعمر:</strong> يجب أن يكون عمر المشاركين 16 عامًا على الأقل.</li>
+        <li><strong>الحد الأقصى للوزن:</strong> الوزن الأقصى 100 كجم (220 رطلاً).</li>
+        <li><strong>متطلبات الصحة:</strong> غير مناسب للأشخاص الذين يعانون من أمراض القلب، مشاكل الظهر، أو النساء الحوامل.</li>
+        <li><strong>ما يجب ارتداؤه:</strong> ملابس مريحة وأحذية مغلقة.</li>
+    </ul>
+
+    <h2>تفاصيل الحجز والعنوان</h2>
+    <p>
+        سيتم إرسال جميع تفاصيل العنوان ونقطة اللقاء بعد تأكيد الحجز.
+    </p>
+
+    <h2>احجز الآن وحلق فوق أولودينيز!</h2>
+    <p>
+        لا تفوت الفرصة لتجربة واحدة من أكثر مواقع الطيران المظلي شهرة في العالم. سواء كنت من عشاق المغامرة أو تقوم بتجربة الطيران لأول مرة، ستكون هذه الرحلة فوق أولودينيز ذكرى لا تُنسى.
+    </p>
+        `,
+        zh: `
+           <h1>体验厄吕代尼兹滑翔伞的刺激</h1>
+    <p>
+        从天空中探索厄吕代尼兹令人叹为观止的美景！以其世界闻名的碧蓝海水和郁郁葱葱的山脉，厄吕代尼兹提供了无与伦比的滑翔伞体验。 
+        这项为冒险爱好者和自然爱好者量身定制的两小时冒险活动，能让您翱翔天空，尽享土耳其最具标志性的美景之一的全景。
+    </p>
+
+    <h2>活动亮点</h2>
+    <ul>
+        <li><strong>令人叹为观止的景色：</strong>飞越厄吕代尼兹，欣赏令人惊艳的碧蓝海水、金色沙滩和郁郁葱葱的山脉。</li>
+        <li><strong>专业教练：</strong>与经验丰富的认证滑翔伞飞行员双人飞行，确保您的体验安全又刺激。</li>
+        <li><strong>肾上腺素激增：</strong>从巴巴达山起飞，感受世界顶级滑翔伞目的地之一的刺激。</li>
+        <li><strong>难忘的体验：</strong>通过可选的照片和视频包（可购买）记录您一生一次的飞行。</li>
+        <li><strong>灵活预订：</strong>在预定航班前24小时内享受免费取消服务。</li>
+        <li><strong>女性飞行员：</strong>如果您更喜欢女性飞行员，请提前联系我们进行安排。</li>
+    </ul>
+
+    <h2>活动详情</h2>
+    <ul>
+        <li><strong>活动类型：</strong>极限冒险</li>
+        <li><strong>时长：</strong>2小时（包括准备、飞行和着陆）</li>
+        <li><strong>免费取消期限：</strong>活动前24小时内。</li>
+    </ul>
+
+    <h2>包含内容</h2>
+    <ul>
+        <li>与专业飞行员进行的双人滑翔伞飞行</li>
+        <li>所有必要的安全设备</li>
+        <li>前往起飞地点的交通（如适用）</li>
+        <li>安全说明和简报</li>
+    </ul>
+
+    <h2>不包含内容</h2>
+    <ul>
+        <li>飞行的照片和视频（可购买）</li>
+        <li>个人消费</li>
+    </ul>
+
+    <h2>重要信息</h2>
+    <ul>
+        <li><strong>年龄限制：</strong>参与者须年满16岁。</li>
+        <li><strong>体重限制：</strong>最大体重为100公斤（220磅）。</li>
+        <li><strong>健康要求：</strong>不适合患有心脏病、背部问题或孕妇参加。</li>
+        <li><strong>穿着建议：</strong>舒适的衣物和封闭式鞋子。</li>
+    </ul>
+
+    <h2>预订及地址详情</h2>
+    <p>
+        预订确认后，我们将发送所有地址和集合点的详细信息。
+    </p>
+
+    <h2>立即预订，翱翔厄吕代尼兹！</h2>
+    <p>
+        不要错过体验世界上最具标志性的滑翔伞地点之一的机会。无论您是冒险爱好者还是初次体验者，这次厄吕代尼兹的飞行将成为您永生难忘的回忆。
+    </p>
+        `,
+    },
+    "/tours/antalya-sightseeing-city-tour": {
+        en: `
+            <h1>Antalya Sightseeing City Tour with Waterfalls & Cable Car</h1>
+    
+    <h2>Discover Antalya’s Rich History and Stunning Scenery</h2>
+    <p>
+        Join us for an unforgettable day exploring Antalya, a city where ancient history meets breathtaking natural beauty. This full-day sightseeing tour covers some of the most iconic landmarks, offering you the perfect mix of culture, history, and adventure. From wandering through the charming Old Town to witnessing the cascading Duden Waterfalls and enjoying a panoramic cable car ride, this tour promises a memorable experience for every traveler.
+    </p>
+
+    <h2>Tour Highlights</h2>
+    <ul>
+        <li><strong>Antalya Old Town (Kaleiçi):</strong> Walk through the historic streets and explore landmarks such as Hadrian’s Gate, the Clock Tower, and Fluted Minaret.</li>
+        <li><strong>Duden Waterfalls:</strong> Witness the impressive 40-meter-high waterfall as it crashes into the Mediterranean Sea.</li>
+        <li><strong>Sightseeing Boat Trip:</strong> Enjoy a one-hour boat ride from Antalya’s Old Town harbor, soaking in the coastal views.</li>
+        <li><strong>Tünektepe Cable Car:</strong> (Subject to availability) Get a breathtaking bird’s-eye view of the city and the sea from the top.</li>
+        <li><strong>Traditional Turkish Lunch:</strong> Indulge in a delicious local meal at a well-known restaurant.</li>
+        <li><strong>Silver Workshop Visit:</strong> Experience local craftsmanship and discover Antalya’s renowned silver jewelry.</li>
+    </ul>
+
+    <h2>Tour Itinerary</h2>
+    <h3>Hotel Pick-Up & Departure</h3>
+    <p>
+        Start your adventure with a comfortable pick-up from your hotel in Antalya. Our modern, air-conditioned vehicle will transport you to your first stop.
+    </p>
+
+    <h3>Explore Antalya’s Old Town (Kaleiçi)</h3>
+    <p>
+        Discover the charm of Antalya’s historical center as you walk through its narrow streets, ancient ruins, and traditional Ottoman houses. Enjoy free time to explore key attractions like:
+    </p>
+    <ul>
+        <li><strong>Hadrian’s Gate:</strong> A beautifully preserved Roman-era triumphal arch.</li>
+        <li><strong>Clock Tower & Fluted Minaret:</strong> Two iconic landmarks in the heart of the Old Town.</li>
+        <li><strong>Local Shops & Cafés:</strong> Browse for souvenirs or sip on traditional Turkish coffee in a cozy café.</li>
+    </ul>
+
+    <h3>Boat Trip from the Old Town Harbor</h3>
+    <p>
+        Set sail on a one-hour sightseeing cruise along the coastline, where you’ll get a unique perspective of Antalya’s stunning cliffs and seafront. Relax on deck as you take in the magnificent Mediterranean views.
+    </p>
+
+    <h3>Lunch at a Local Turkish Restaurant</h3>
+    <p>
+        After your Old Town exploration, enjoy a delicious lunch featuring traditional Turkish flavors at a well-known local restaurant. Vegetarian options are available upon request.
+    </p>
+
+    <h3>Visit Duden Waterfalls</h3>
+    <p>
+        One of Antalya’s most stunning natural wonders, the Duden Waterfalls cascade from a height of 40 meters into the Mediterranean. Our guide will take you to the perfect vantage points to capture breathtaking photos.
+    </p>
+
+    <h3>Tünektepe Cable Car Ride (Optional, not included in tour price)</h3>
+    <p>
+        If the facility is open, you’ll have the chance to take a scenic cable car ride up Tünektepe Hill for panoramic views of Antalya and its surroundings.
+    </p>
+
+    <h3>Local Silver Workshop Visit</h3>
+    <p>
+        Learn about Antalya’s long-standing tradition of silver craftsmanship. Explore handcrafted jewelry and unique designs made by skilled artisans.
+    </p>
+
+    <h3>Return to Hotel</h3>
+    <p>
+        After an incredible day of sightseeing, our comfortable vehicle will take you back to your hotel, leaving you with unforgettable memories of Antalya.
+    </p>
+
+    <h2>What’s Included</h2>
+    <ul>
+        <li>Hotel Pick-up & Drop-off</li>
+        <li>Entrance Fees for Duden Waterfalls</li>
+        <li>Sightseeing Boat Trip (if selected)</li>
+        <li>Licensed Tour Guide</li>
+        <li>Full Insurance</li>
+        <li>Traditional Turkish Lunch</li>
+    </ul>
+
+    <h2>What’s Not Included</h2>
+    <ul>
+        <li>Drinks</li>
+        <li>Cable Car Ride Fee (if available)</li>
+        <li>Personal Expenses</li>
+    </ul>
+
+    <h2>Important Information</h2>
+    <ul>
+        <li><strong>Walking Involved:</strong> This tour requires a moderate amount of walking and may not be suitable for guests with mobility issues.</li>
+        <li><strong>Meeting Point for Kaleiçi Hotels:</strong> Due to narrow streets, guests staying in small Old Town hotels should meet at McDonald’s Kaleiçi (details provided upon booking).</li>
+        <li><strong>Cable Car Availability:</strong> The Tünektepe Cable Car may be temporarily closed; please check with us before booking.</li>
+        <li><strong>Pick-Up Time Confirmation:</strong> Our team will provide your exact pick-up time the day before your tour.</li>
+    </ul>
+
+    <h2>Why Choose This Tour?</h2>
+    <ul>
+        <li><strong>Comprehensive Antalya Experience:</strong> See the best of the city in one day.</li>
+        <li><strong>Expert Guides:</strong> Learn fascinating insights about Antalya’s history and culture.</li>
+        <li><strong>Scenic & Relaxing:</strong> Enjoy a mix of sightseeing, nature, and leisure time.</li>
+        <li><strong>Hassle-Free Travel:</strong> Comfortable transportation and hotel pick-up included.</li>
+    </ul>
+
+    <h2>Book Your Antalya Sightseeing Tour Today!</h2>
+    <p>
+        Join us for an amazing day exploring the beauty and history of Antalya. Reserve your spot now for an unforgettable experience!
+    </p>
+        `,
+        tr: `
+        <h1>Antalya Şehir Turu: Şelaleler ve Teleferik ile</h1>
+    
+    <h2>Antalya’nın Zengin Tarihi ve Muhteşem Manzaralarını Keşfedin</h2>
+    <p>
+        Antalya’yı keşfetmek için unutulmaz bir günü bizimle geçirin; antik tarihin muhteşem doğa güzellikleriyle buluştuğu bir şehir. Bu tam günlük şehir turu, size en ikonik mekanların bir karışımını sunarak kültür, tarih ve macerayı bir arada sunuyor. Büyüleyici Kaleiçi sokaklarında gezmekten, dökülen Düdensu Şelalesi’ni izlemeye ve panoramik bir teleferik yolculuğunun tadını çıkarmaya kadar bu tur, her gezgin için unutulmaz bir deneyim vaat ediyor.
+    </p>
+
+    <h2>Turun Öne Çıkanları</h2>
+    <ul>
+        <li><strong>Antalya Kaleiçi:</strong> Tarihi sokaklarda yürüyün ve Hadrian Kapısı, Saat Kulesi ve Yivli Minare gibi yerleri keşfedin.</li>
+        <li><strong>Düdensu Şelalesi:</strong> Akdeniz’e dökülen etkileyici 40 metrelik şelaleyi izleyin.</li>
+        <li><strong>Tekne Turu:</strong> Antalya Kaleiçi limanından bir saatlik tekne turu yaparak kıyı manzaralarını seyredin.</li>
+        <li><strong>Tünektepe Teleferiği:</strong> (Müsaitlik durumuna bağlı) Şehir ve denizin yukarıdan büyüleyici manzarasını izleyin.</li>
+        <li><strong>Geleneksel Türk Yemeği:</strong> Ünlü bir restoranda lezzetli yerel bir yemek tadın.</li>
+        <li><strong>Gümüş Atölyesi Ziyareti:</strong> Antalya’nın ünlü gümüş işçiliğini deneyimleyin ve el yapımı takıları keşfedin.</li>
+    </ul>
+
+    <h2>Tur Programı</h2>
+    <h3>Otelden Alma & Hareket</h3>
+    <p>
+        Turunuza Antalya’daki otelinizden rahat bir şekilde alınarak başlayın. Modern, klimalı aracımız sizi ilk durağınıza taşıyacak.
+    </p>
+
+    <h3>Antalya Kaleiçi’ni Keşfedin</h3>
+    <p>
+        Antalya’nın tarihi merkezinin cazibesini keşfedin; dar sokaklar, antik kalıntılar ve geleneksel Osmanlı evleri boyunca yürüyün. Şu mekanlarda serbest zamanın tadını çıkarın:
+    </p>
+    <ul>
+        <li><strong>Hadrian Kapısı:</strong> Korunmuş Roma dönemine ait bir zafer takı.</li>
+        <li><strong>Saat Kulesi & Yivli Minare:</strong> Kaleiçi’nin kalbinde bulunan iki ikonik eser.</li>
+        <li><strong>Yerel Dükkanlar & Kafeler:</strong> Hediyelik eşya alışverişi yapın veya bir kafede Türk kahvesi için.</li>
+    </ul>
+
+    <h3>Kaleiçi Limanı’ndan Tekne Turu</h3>
+    <p>
+        Kıyı boyunca bir saatlik bir tekne gezisine çıkın; Antalya’nın etkileyici kayalıklarını ve sahil şeridini benzersiz bir açıdan seyredin. Akdeniz manzaralarının tadını çıkarmak için güvertede dinlenin.
+    </p>
+
+    <h3>Yerel Bir Restoranda Öğle Yemeği</h3>
+    <p>
+        Kaleiçi’ni keşfettikten sonra ünlü bir yerel restoranda geleneksel Türk lezzetlerinden oluşan bir öğle yemeğinin tadını çıkarın. Vejetaryen seçenekler talep üzerine sunulabilir.
+    </p>
+
+    <h3>Düdensu Şelalesi Ziyareti</h3>
+    <p>
+        Antalya’nın en etkileyici doğal harikalarından biri olan Düdensu Şelalesi, 40 metrelik bir yükseklikten Akdeniz’e dökülür. Rehberimiz sizi fotoğraflar için en iyi görüş noktalarına götürecek.
+    </p>
+
+    <h3>Tünektepe Teleferiği (Opsiyonel, tura dahil değildir)</h3>
+    <p>
+        Tesis açıksa, Tünektepe Tepesi’ne çıkıp Antalya ve çevresinin panoramik manzarasını izleme fırsatı bulacaksınız.
+    </p>
+
+    <h3>Yerel Gümüş Atölyesi Ziyareti</h3>
+    <p>
+        Antalya’nın uzun süreli gümüş işçiliği geleneğini keşfedin. El yapımı takıları ve zanaatkârlar tarafından yapılan benzersiz tasarımları inceleyin.
+    </p>
+
+    <h3>Otele Dönüş</h3>
+    <p>
+        Unutulmaz bir gezi gününün ardından, rahat aracımız sizi otelinize geri götürecek ve Antalya’nın unutulmaz anılarını birakacaksınız.
+    </p>
+
+    <h2>Dahil Olanlar</h2>
+    <ul>
+        <li>Otelden Alış ve Bırakma</li>
+        <li>Düdensu Şelalesi Giriş Üretleri</li>
+        <li>Tekne Turu (eğer seçildiğinde)</li>
+        <li>Lisanslı Tur Rehberi</li>
+        <li>Full Sigorta</li>
+        <li>Geleneksel Türk Öğle Yemeği</li>
+    </ul>
+
+    <h2>Dahil Olmayanlar</h2>
+    <ul>
+        <li>İçecekler</li>
+        <li>Teleferik Üretleri (eğer müsaitse)</li>
+        <li>Kışisel Harcamalar</li>
+    </ul>
+
+    <h2>Önemli Bilgiler</h2>
+    <ul>
+        <li><strong>Yürüyüş Gereklidir:</strong> Bu tur bir miktar yürüyüş gerektirir ve hareket zorluğu olan misafirler için uygun olmayabilir.</li>
+        <li><strong>Kaleiçi Otelleri Buluşma Noktası:</strong> Dar sokaklar nedeniyle, küçük Kaleiçi otellerinde kalan misafirlerin McDonald’s Kaleiçi’nde buluşması gereklidir (rezervasyon sırasında detaylar sağlanacaktır).</li>
+        <li><strong>Teleferik Durumu:</strong> Tünektepe Teleferiği geçici olarak kapalı olabilir; lütfen rezervasyon yapmadan önce bize danışın.</li>
+        <li><strong>Alış Zamanı Onaylama:</strong> Ekibimiz turdan bir gün önce kesin alış zamanınızı size bildirecektir.</li>
+    </ul>
+
+    <h2>Bu Turu Neden Seçmelisiniz?</h2>
+    <ul>
+        <li><strong>Kapsamlı Antalya Deneyimi:</strong> Şehrin en iyilerini bir gün içinde görün.</li>
+        <li><strong>Uzman Rehberler:</strong> Antalya’nın tarihi ve kültürü hakkında büyüleyici bilgiler öğrenin.</li>
+        <li><strong>Manzaralı ve Rahatlatıcı:</strong> Gezi, doğa ve dinlenme zamanının bir karışımını yaşayın.</li>
+        <li><strong>Stresiz Seyahat:</strong> Rahat ulaşım ve otelden alım dahil.</li>
+    </ul>
+
+    <h2>Antalya Şehir Turunuzu Bugün Rezerve Edin!</h2>
+    <p>
+        Antalya’nın güzelliklerini ve tarihini keşfetmek için harika bir gün geçirin. Unutulmaz bir deneyim için yerinizi hemen ayırtın!
+    </p>
+        `,
+        ru: `
+    <h1>Обзорная экскурсия по Анталье с водопадами и канатной дорогой</h1>
+    
+    <h2>Откройте для себя богатую историю и захватывающие пейзажи Антальи</h2>
+    <p>
+        Присоединяйтесь к нам в незабываемый день исследования Антальи, города, где древняя история сочетается с захватывающей природной красотой. Эта однодневная экскурсия охватывает некоторые из самых знаковых достопримечательностей, предлагая вам идеальное сочетание культуры, истории и приключений. От прогулок по очаровательному Старому городу до наблюдения за каскадными водопадами Дюден и наслаждения панорамной поездкой на канатной дороге - этот тур обещает незабываемые впечатления для каждого путешественника.
+    </p>
+
+    <h2>Основные моменты тура</h2>
+    <ul>
+        <li><strong>Старый город Антальи (Калеичи):</strong> Прогуляйтесь по историческим улицам и исследуйте достопримечательности, такие как Ворота Адриана, Часовая башня и Рифленый минарет.</li>
+        <li><strong>Водопады Дюден:</strong> Полюбуйтесь впечатляющим 40-метровым водопадом, который обрушивается в Средиземное море.</li>
+        <li><strong>Прогулка на лодке:</strong> Насладитесь часовым круизом из гавани Старого города Антальи, наслаждаясь прибрежными видами.</li>
+        <li><strong>Канатная дорога Тюнептепе:</strong> (При наличии) Насладитесь захватывающим видом на город и море с высоты птичьего полета.</li>
+        <li><strong>Традиционный турецкий обед:</strong> Побалуйте себя вкусной местной едой в известном ресторане.</li>
+        <li><strong>Посещение мастерской серебра:</strong> Познакомьтесь с местным ремеслом и откройте для себя знаменитые серебряные украшения Антальи.</li>
+    </ul>
+
+    <h2>Программа тура</h2>
+    <h3>Трансфер из отеля и отправление</h3>
+    <p>
+        Начните свое приключение с комфортного трансфера из вашего отеля в Анталье. Наш современный кондиционированный транспорт доставит вас к первому пункту остановки.
+    </p>
+
+    <h3>Исследуйте Старый город Антальи (Калеичи)</h3>
+    <p>
+        Откройте для себя очарование исторического центра Антальи, прогуливаясь по узким улицам, древним руинам и традиционным османским домам. Насладитесь свободным временем для изучения ключевых достопримечательностей, таких как:
+    </p>
+    <ul>
+        <li><strong>Ворота Адриана:</strong> Прекрасно сохранившаяся триумфальная арка римской эпохи.</li>
+        <li><strong>Часовая башня и Рифленый минарет:</strong> Два знаковых объекта в центре Старого города.</li>
+        <li><strong>Местные магазины и кафе:</strong> Приобретите сувениры или выпейте традиционный турецкий кофе в уютном кафе.</li>
+    </ul>
+
+    <h3>Прогулка на лодке из гавани Старого города</h3>
+    <p>
+        Отправьтесь в часовой круиз вдоль побережья, где вы получите уникальную перспективу на впечатляющие утесы и набережную Антальи. Расслабьтесь на палубе, наслаждаясь великолепными видами Средиземного моря.
+    </p>
+
+    <h3>Обед в местном турецком ресторане</h3>
+    <p>
+        После исследования Старого города насладитесь вкусным обедом с традиционными турецкими блюдами в известном местном ресторане. Вегетарианские блюда доступны по запросу.
+    </p>
+
+    <h3>Посещение водопадов Дюден</h3>
+    <p>
+        Один из самых впечатляющих природных чудес Антальи, водопады Дюден обрушиваются с высоты 40 метров в Средиземное море. Наш гид покажет вам лучшие точки для незабываемых фотографий.
+    </p>
+
+    <h3>Поездка на канатной дороге Тюнептепе (опционально, не входит в стоимость тура)</h3>
+    <p>
+        Если объект открыт, у вас будет возможность совершить живописную поездку на канатной дороге на вершину холма Тюнептепе, откуда открываются панорамные виды на Анталью и её окрестности.
+    </p>
+
+    <h3>Посещение местной мастерской серебра</h3>
+    <p>
+        Узнайте больше о давней традиции серебряного ремесла в Анталье. Исследуйте изделия ручной работы и уникальные дизайны, созданные умелыми мастерами.
+    </p>
+
+    <h3>Возвращение в отель</h3>
+    <p>
+        После невероятного дня экскурсий наш комфортный транспорт доставит вас обратно в ваш отель, оставив незабываемые воспоминания об Анталье.
+    </p>
+
+    <h2>Что включено</h2>
+    <ul>
+        <li>Трансфер из отеля и обратно</li>
+        <li>Входные билеты на водопады Дюден</li>
+        <li>Прогулка на лодке (если выбрано)</li>
+        <li>Лицензированный гид</li>
+        <li>Полное страхование</li>
+        <li>Традиционный турецкий обед</li>
+    </ul>
+
+    <h2>Что не включено</h2>
+    <ul>
+        <li>Напитки</li>
+        <li>Плата за канатную дорогу (если доступна)</li>
+        <li>Личные расходы</li>
+    </ul>
+
+    <h2>Важная информация</h2>
+    <ul>
+        <li><strong>Пешие прогулки:</strong> В туре предусмотрено умеренное количество пеших прогулок, что может быть неподходящим для гостей с ограниченной подвижностью.</li>
+        <li><strong>Место встречи для отелей Калеичи:</strong> Из-за узких улиц гости, проживающие в небольших отелях Старого города, должны встретиться у McDonald’s Калеичи (подробности будут предоставлены при бронировании).</li>
+        <li><strong>Доступность канатной дороги:</strong> Канатная дорога Тюнептепе может быть временно закрыта; пожалуйста, уточните у нас перед бронированием.</li>
+        <li><strong>Подтверждение времени выезда:</strong> Наша команда предоставит вам точное время выезда за день до вашего тура.</li>
+    </ul>
+
+    <h2>Почему выбрать этот тур?</h2>
+    <ul>
+        <li><strong>Полный опыт Антальи:</strong> Увидьте все лучшее в городе за один день.</li>
+        <li><strong>Экспертные гиды:</strong> Узнайте увлекательные факты об истории и культуре Антальи.</li>
+        <li><strong>Живописный и расслабляющий:</strong> Наслаждайтесь сочетанием осмотра достопримечательностей, природы и отдыха.</li>
+        <li><strong>Путешествие без хлопот:</strong> Комфортный транспорт и трансфер из отеля включены.</li>
+    </ul>
+
+    <h2>Забронируйте экскурсию по Анталье сегодня!</h2>
+    <p>
+        Присоединяйтесь к нам, чтобы провести удивительный день, исследуя красоту и историю Антальи. Забронируйте место сейчас и получите незабываемые впечатления!
+    </p>
+
+
+        `,
+        es: `
+    <h1>Tour por la Ciudad de Antalya con Cascadas y Teleférico</h1>
+    
+    <h2>Descubre la Rica Historia y los Impresionantes Paisajes de Antalya</h2>
+    <p>
+        Únete a nosotros para un día inolvidable explorando Antalya, una ciudad donde la historia antigua se encuentra con una impresionante belleza natural. Este tour de un día completo cubre algunos de los puntos de referencia más icónicos, ofreciéndote la mezcla perfecta de cultura, historia y aventura. Desde pasear por el encantador casco antiguo hasta presenciar las cascadas de Duden y disfrutar de un paseo panorámico en teleférico, este tour promete una experiencia memorable para cada viajero.
+    </p>
+
+    <h2>Puntos Destacados del Tour</h2>
+    <ul>
+        <li><strong>Casco Antiguo de Antalya (Kaleiçi):</strong> Recorre las calles históricas y explora lugares como la Puerta de Adriano, la Torre del Reloj y el Minarete Estriado.</li>
+        <li><strong>Cascadas de Duden:</strong> Observa la impresionante cascada de 40 metros de altura que desemboca en el mar Mediterráneo.</li>
+        <li><strong>Paseo en Barco:</strong> Disfruta de un paseo en barco de una hora desde el puerto del casco antiguo de Antalya, admirando las vistas costeras.</li>
+        <li><strong>Teleférico de Tünektepe:</strong> (Sujeto a disponibilidad) Obtén una vista panorámica impresionante de la ciudad y el mar desde lo alto.</li>
+        <li><strong>Almuerzo Turco Tradicional:</strong> Deléitate con una deliciosa comida local en un restaurante conocido.</li>
+        <li><strong>Visita a un Taller de Plata:</strong> Experimenta la artesanía local y descubre la famosa joyería de plata de Antalya.</li>
+    </ul>
+
+    <h2>Itinerario del Tour</h2>
+    <h3>Recogida en el Hotel y Salida</h3>
+    <p>
+        Comienza tu aventura con una recogida cómoda desde tu hotel en Antalya. Nuestro moderno vehículo con aire acondicionado te llevará a tu primera parada.
+    </p>
+
+    <h3>Explora el Casco Antiguo de Antalya (Kaleiçi)</h3>
+    <p>
+        Descubre el encanto del centro histórico de Antalya mientras caminas por sus estrechas calles, ruinas antiguas y casas otomanas tradicionales. Disfruta de tiempo libre para explorar atracciones clave como:
+    </p>
+    <ul>
+        <li><strong>Puerta de Adriano:</strong> Un arco triunfal de la era romana bellamente preservado.</li>
+        <li><strong>Torre del Reloj y Minarete Estriado:</strong> Dos hitos icónicos en el corazón del casco antiguo.</li>
+        <li><strong>Tiendas y Cafés Locales:</strong> Busca recuerdos o disfruta de un café turco tradicional en un acogedor café.</li>
+    </ul>
+
+    <h3>Paseo en Barco desde el Puerto del Casco Antiguo</h3>
+    <p>
+        Zarpa en un paseo turístico de una hora a lo largo de la costa, donde obtendrás una perspectiva única de los impresionantes acantilados y el litoral de Antalya. Relájate en la cubierta mientras disfrutas de las magníficas vistas del Mediterráneo.
+    </p>
+
+    <h3>Almuerzo en un Restaurante Turco Local</h3>
+    <p>
+        Después de explorar el casco antiguo, disfruta de un delicioso almuerzo con sabores tradicionales turcos en un restaurante local conocido. Hay opciones vegetarianas disponibles bajo petición.
+    </p>
+
+    <h3>Visita a las Cascadas de Duden</h3>
+    <p>
+        Una de las maravillas naturales más impresionantes de Antalya, las cascadas de Duden caen desde una altura de 40 metros hacia el Mediterráneo. Nuestro guía te llevará a los mejores puntos para capturar fotos impresionantes.
+    </p>
+
+    <h3>Paseo en Teleférico de Tünektepe (Opcional, no incluido en el precio del tour)</h3>
+    <p>
+        Si la instalación está abierta, tendrás la oportunidad de tomar un paseo panorámico en teleférico hasta la colina de Tünektepe para disfrutar de vistas panorámicas de Antalya y sus alrededores.
+    </p>
+
+    <h3>Visita a un Taller de Plata Local</h3>
+    <p>
+        Aprende sobre la larga tradición de Antalya en la artesanía de plata. Explora joyería hecha a mano y diseños únicos creados por artesanos expertos.
+    </p>
+
+    <h3>Regreso al Hotel</h3>
+    <p>
+        Después de un día increíble de turismo, nuestro vehículo cómodo te llevará de regreso a tu hotel, dejándote con recuerdos inolvidables de Antalya.
+    </p>
+
+    <h2>¿Qué Incluye?</h2>
+    <ul>
+        <li>Recogida y regreso al hotel</li>
+        <li>Entradas a las Cascadas de Duden</li>
+        <li>Paseo en barco (si se selecciona)</li>
+        <li>Guía turístico con licencia</li>
+        <li>Seguro completo</li>
+        <li>Almuerzo turco tradicional</li>
+    </ul>
+
+    <h2>¿Qué No Incluye?</h2>
+    <ul>
+        <li>Bebidas</li>
+        <li>Tarifa del teleférico (si está disponible)</li>
+        <li>Gastos personales</li>
+    </ul>
+
+    <h2>Información Importante</h2>
+    <ul>
+        <li><strong>Incluye caminatas:</strong> Este tour requiere una cantidad moderada de caminatas y puede no ser adecuado para huéspedes con problemas de movilidad.</li>
+        <li><strong>Punto de encuentro para hoteles en Kaleiçi:</strong> Debido a las calles estrechas, los huéspedes que se alojen en pequeños hoteles del casco antiguo deben reunirse en McDonald’s Kaleiçi (los detalles se proporcionarán al hacer la reserva).</li>
+        <li><strong>Disponibilidad del teleférico:</strong> El teleférico de Tünektepe puede estar cerrado temporalmente; consulta con nosotros antes de reservar.</li>
+        <li><strong>Confirmación del horario de recogida:</strong> Nuestro equipo te proporcionará la hora exacta de recogida el día anterior a tu tour.
+    </ul>
+
+    <h2>¿Por Qué Elegir Este Tour?</h2>
+    <ul>
+        <li><strong>Experiencia integral en Antalya:</strong> Ve lo mejor de la ciudad en un solo día.</li>
+        <li><strong>Guías expertos:</strong> Aprende datos fascinantes sobre la historia y cultura de Antalya.</li>
+        <li><strong>Escénico y relajante:</strong> Disfruta de una mezcla de turismo, naturaleza y tiempo de ocio.</li>
+        <li><strong>Viaje sin complicaciones:</strong> Transporte cómodo y recogida en el hotel incluidos.
+    </ul>
+
+    <h2>¡Reserva tu Tour por la Ciudad de Antalya Hoy!</h2>
+    <p>
+        Únete a nosotros para un día increíble explorando la belleza e historia de Antalya. ¡Reserva tu lugar ahora para una experiencia inolvidable!
+    </p>
+        `,
+        it: `
+    <h1>Tour della Città di Antalya con Cascate e Funivia</h1>
+    
+    <h2>Scopri la Ricca Storia e gli Splendidi Paesaggi di Antalya</h2>
+    <p>
+        Unisciti a noi per una giornata indimenticabile esplorando Antalya, una città dove la storia antica si fonde con una straordinaria bellezza naturale. Questo tour di un giorno copre alcuni dei punti di riferimento più iconici, offrendoti il mix perfetto di cultura, storia e avventura. Dalla passeggiata nel suggestivo centro storico alla visita delle cascate di Duden e un giro panoramico in funivia, questo tour promette un'esperienza memorabile per ogni viaggiatore.
+    </p>
+
+    <h2>Punti Salienti del Tour</h2>
+    <ul>
+        <li><strong>Centro Storico di Antalya (Kaleiçi):</strong> Passeggia per le strade storiche ed esplora luoghi come la Porta di Adriano, la Torre dell'Orologio e il Minareto scanalato.</li>
+        <li><strong>Cascate di Duden:</strong> Ammira l'imponente cascata alta 40 metri che si riversa nel Mar Mediterraneo.</li>
+        <li><strong>Giro in Barca Turistica:</strong> Goditi un'ora di navigazione dal porto del centro storico di Antalya, ammirando le viste costiere.</li>
+        <li><strong>Funivia di Tünektepe:</strong> (Soggetta a disponibilità) Ammira una vista panoramica mozzafiato della città e del mare dall'alto.</li>
+        <li><strong>Pranzo Turco Tradizionale:</strong> Gusta un delizioso pasto locale in un ristorante rinomato.</li>
+        <li><strong>Visita a un Laboratorio di Argento:</strong> Scopri l'artigianato locale e la famosa gioielleria in argento di Antalya.</li>
+    </ul>
+
+    <h2>Itinerario del Tour</h2>
+    <h3>Trasferimento dall'Hotel e Partenza</h3>
+    <p>
+        Inizia la tua avventura con un comodo trasferimento dal tuo hotel ad Antalya. Il nostro veicolo moderno e climatizzato ti porterà alla tua prima tappa.
+    </p>
+
+    <h3>Esplora il Centro Storico di Antalya (Kaleiçi)</h3>
+    <p>
+        Scopri il fascino del centro storico di Antalya mentre cammini per le sue strade strette, rovine antiche e case ottomane tradizionali. Goditi del tempo libero per esplorare attrazioni chiave come:
+    </p>
+    <ul>
+        <li><strong>Porta di Adriano:</strong> Un arco trionfale dell'epoca romana splendidamente conservato.</li>
+        <li><strong>Torre dell'Orologio e Minareto scanalato:</strong> Due simboli iconici nel cuore del centro storico.</li>
+        <li><strong>Negozietti e Caffè Locali:</strong> Cerca souvenir o gusta un tradizionale caffè turco in un accogliente caffè.</li>
+    </ul>
+
+    <h3>Giro in Barca dal Porto del Centro Storico</h3>
+    <p>
+        Salpa per un'ora di crociera turistica lungo la costa, dove potrai ammirare una prospettiva unica delle scogliere e del litorale mozzafiato di Antalya. Rilassati sul ponte mentre ammiri le magnifiche viste del Mediterraneo.
+    </p>
+
+    <h3>Pranzo in un Ristorante Turco Locale</h3>
+    <p>
+        Dopo aver esplorato il centro storico, gusta un delizioso pranzo con sapori tradizionali turchi in un ristorante locale rinomato. Opzioni vegetariane disponibili su richiesta.
+    </p>
+
+    <h3>Visita alle Cascate di Duden</h3>
+    <p>
+        Una delle meraviglie naturali più spettacolari di Antalya, le cascate di Duden si gettano da un'altezza di 40 metri nel Mediterraneo. La nostra guida ti porterà nei punti migliori per scattare foto mozzafiato.
+    </p>
+
+    <h3>Giro in Funivia di Tünektepe (Opzionale, non incluso nel prezzo del tour)</h3>
+    <p>
+        Se l'impianto è aperto, avrai la possibilità di fare un giro panoramico in funivia fino alla collina di Tünektepe per ammirare viste spettacolari su Antalya e i suoi dintorni.
+    </p>
+
+    <h3>Visita a un Laboratorio di Argento Locale</h3>
+    <p>
+        Scopri la lunga tradizione di Antalya nell'artigianato dell'argento. Esplora gioielli fatti a mano e design unici creati da artigiani esperti.
+    </p>
+
+    <h3>Ritorno in Hotel</h3>
+    <p>
+        Dopo una giornata incredibile di visite turistiche, il nostro veicolo confortevole ti riporterà al tuo hotel, lasciandoti con ricordi indimenticabili di Antalya.
+    </p>
+
+    <h2>Cosa è Incluso</h2>
+    <ul>
+        <li>Trasferimento da e per l'hotel</li>
+        <li>Biglietti d'ingresso per le cascate di Duden</li>
+        <li>Giro in barca (se selezionato)</li>
+        <li>Guida turistica autorizzata</li>
+        <li>Assicurazione completa</li>
+        <li>Pranzo turco tradizionale</li>
+    </ul>
+
+    <h2>Cosa Non è Incluso</h2>
+    <ul>
+        <li>Bevande</li>
+        <li>Biglietto per la funivia (se disponibile)</li>
+        <li>Spese personali</li>
+    </ul>
+
+    <h2>Informazioni Importanti</h2>
+    <ul>
+        <li><strong>Richiede Camminate:</strong> Questo tour include una moderata quantità di camminate e potrebbe non essere adatto a ospiti con problemi di mobilità.</li>
+        <li><strong>Punto d'Incontro per Hotel a Kaleiçi:</strong> A causa delle strade strette, gli ospiti che soggiornano in piccoli hotel del centro storico dovrebbero incontrarsi al McDonald's di Kaleiçi (i dettagli saranno forniti al momento della prenotazione).</li>
+        <li><strong>Disponibilità della Funivia:</strong> La funivia di Tünektepe potrebbe essere temporaneamente chiusa; si prega di verificare con noi prima di prenotare.</li>
+        <li><strong>Conferma dell'Orario di Prelievo:</strong> Il nostro team ti fornirà l'orario esatto di prelievo il giorno prima del tuo tour.</li>
+    </ul>
+
+    <h2>Perché Scegliere Questo Tour?</h2>
+    <ul>
+        <li><strong>Esperienza Completa di Antalya:</strong> Scopri il meglio della città in un solo giorno.</li>
+        <li><strong>Guide Esperte:</strong> Scopri affascinanti dettagli sulla storia e la cultura di Antalya.</li>
+        <li><strong>Panoramico e Rilassante:</strong> Goditi un mix di visite turistiche, natura e tempo libero.</li>
+        <li><strong>Viaggio Senza Problemi:</strong> Trasporto confortevole e prelievo dall'hotel inclusi.</li>
+    </ul>
+
+    <h2>Prenota il Tuo Tour della Città di Antalya Oggi!</h2>
+    <p>
+        Unisciti a noi per una giornata straordinaria esplorando la bellezza e la storia di Antalya. Prenota il tuo posto ora per un'esperienza indimenticabile!
+    </p>
+        `,
+        ar: `
+    <h1>جولة مشاهدة معالم أنطاليا مع الشلالات والتلفريك</h1>
+    
+    <h2>اكتشف تاريخ أنطاليا الغني ومناظرها الخلابة</h2>
+    <p>
+        انضم إلينا ليوم لا يُنسى لاستكشاف أنطاليا، المدينة التي يلتقي فيها التاريخ القديم بالجمال الطبيعي الساحر. تغطي هذه الجولة اليومية بعضًا من أبرز المعالم السياحية، مما يوفر لك مزيجًا مثاليًا من الثقافة والتاريخ والمغامرة. من التجول في البلدة القديمة الساحرة إلى مشاهدة شلالات دودان الساحرة والاستمتاع بركوب التلفريك البانورامي، تعد هذه الجولة بتجربة لا تُنسى لكل مسافر.
+    </p>
+
+    <h2>أبرز معالم الجولة</h2>
+    <ul>
+        <li><strong>المدينة القديمة في أنطاليا (كاليتشي):</strong> تجول في الشوارع التاريخية واستكشف معالم مثل بوابة هادريان، وبرج الساعة، والمئذنة المزينة.</li>
+        <li><strong>شلالات دودان:</strong> شاهد الشلال المذهل الذي يبلغ ارتفاعه 40 مترًا وهو يصب في البحر الأبيض المتوسط.</li>
+        <li><strong>رحلة بالقارب:</strong> استمتع برحلة بحرية لمدة ساعة واحدة من ميناء البلدة القديمة في أنطاليا، وتمتع بالمناظر الساحلية.</li>
+        <li><strong>تلفريك تونيكتيبي:</strong> (رهناً بالتوافر) استمتع بمنظر بانورامي مذهل للمدينة والبحر من الأعلى.</li>
+        <li><strong>غداء تركي تقليدي:</strong> استمتع بوجبة محلية لذيذة في مطعم معروف.</li>
+        <li><strong>زيارة ورشة الفضة المحلية:</strong> اكتشف الحرف اليدوية المحلية وتعرف على مجوهرات أنطاليا الفضية المشهورة.</li>
+    </ul>
+
+    <h2>برنامج الجولة</h2>
+    <h3>الاستقبال من الفندق والانطلاق</h3>
+    <p>
+        ابدأ مغامرتك برحلة مريحة من فندقك في أنطاليا. ستنقلك مركبتنا الحديثة المكيفة إلى أول محطة في جولتك.
+    </p>
+
+    <h3>استكشاف المدينة القديمة في أنطاليا (كاليتشي)</h3>
+    <p>
+        اكتشف سحر مركز أنطاليا التاريخي أثناء التجول في شوارعه الضيقة، وآثاره القديمة، ومنازله العثمانية التقليدية. استمتع بوقت فراغ لاستكشاف المعالم الرئيسية مثل:
+    </p>
+    <ul>
+        <li><strong>بوابة هادريان:</strong> قوس نصر محفوظ بشكل جميل من العصر الروماني.</li>
+        <li><strong>برج الساعة والمئذنة المزينة:</strong> معلمان بارزان في قلب المدينة القديمة.</li>
+        <li><strong>المتاجر والمقاهي المحلية:</strong> تجول لشراء الهدايا التذكارية أو تناول القهوة التركية التقليدية في مقهى مريح.
+    </ul>
+
+    <h3>رحلة بالقارب من ميناء المدينة القديمة</h3>
+    <p>
+        انطلق في رحلة بحرية لمدة ساعة واحدة على طول الساحل، حيث ستحصل على منظور فريد عن المنحدرات البحرية والمناظر الرائعة لأنطاليا. استرخِ على سطح القارب واستمتع بالمناظر الخلابة للبحر الأبيض المتوسط.
+    </p>
+
+    <h3>الغداء في مطعم تركي محلي</h3>
+    <p>
+        بعد استكشاف البلدة القديمة، استمتع بغداء لذيذ يشمل نكهات تركية تقليدية في مطعم محلي معروف. تتوفر خيارات نباتية عند الطلب.
+    </p>
+
+    <h3>زيارة شلالات دودان</h3>
+    <p>
+        تُعد شلالات دودان واحدة من أعظم عجائب أنطاليا الطبيعية، حيث تتدفق من ارتفاع 40 مترًا إلى البحر الأبيض المتوسط. سيأخذك دليلنا إلى أفضل النقاط لالتقاط الصور المذهلة.
+    </p>
+
+    <h3>ركوب تلفريك تونيكتيبي (اختياري، غير مشمول بسعر الجولة)</h3>
+    <p>
+        إذا كانت المنشأة مفتوحة، ستحظى بفرصة ركوب تلفريك بانورامي إلى قمة تلة تونيكتيبي للاستمتاع بمناظر خلابة لأنطاليا وما حولها.
+    </p>
+
+    <h3>زيارة ورشة الفضة المحلية</h3>
+    <p>
+        تعرف على تقاليد أنطاليا الطويلة في صناعة الحرف اليدوية الفضية. استكشف المجوهرات المصنوعة يدويًا والتصاميم الفريدة التي صنعها حرفيون مهرة.
+    </p>
+
+    <h3>العودة إلى الفندق</h3>
+    <p>
+        بعد يوم لا يُنسى من مشاهدة المعالم السياحية، ستعيدك مركبتنا المريحة إلى فندقك، مما يترك لك ذكريات لا تُنسى عن أنطاليا.
+    </p>
+
+    <h2>ما يشمله العرض</h2>
+    <ul>
+        <li>الاستقبال من الفندق والتوصيل</li>
+        <li>رسوم دخول شلالات دودان</li>
+        <li>رحلة بالقارب (إذا تم اختيارها)</li>
+        <li>دليل سياحي مرخص</li>
+        <li>تأمين شامل</li>
+        <li>غداء تركي تقليدي</li>
+    </ul>
+
+    <h2>ما لا يشمله العرض</h2>
+    <ul>
+        <li>المشروبات</li>
+        <li>رسوم ركوب التلفريك (إذا كانت متاحة)</li>
+        <li>النفقات الشخصية</li>
+    </ul>
+
+    <h2>معلومات هامة</h2>
+    <ul>
+        <li><strong>المشي متضمن:</strong> تتطلب الجولة قدرًا معتدلًا من المشي، وقد لا تكون مناسبة للضيوف الذين يعانون من مشاكل في الحركة.</li>
+        <li><strong>نقطة اللقاء لفنادق كاليتشي:</strong> بسبب الشوارع الضيقة، يجب أن يلتقي الضيوف الذين يقيمون في فنادق البلدة القديمة الصغيرة في ماكدونالدز كاليتشي (سيتم تقديم التفاصيل عند الحجز).</li>
+        <li><strong>توفر التلفريك:</strong> قد يكون تلفريك تونيكتيبي مغلقًا مؤقتًا؛ يرجى التحقق معنا قبل الحجز.</li>
+        <li><strong>تأكيد وقت الاستقبال:</strong> ستوفر لك فرقنا الوقت المحدد للاستقبال في اليوم السابق لجولتك.
+    </ul>
+
+    <h2>لماذا تختار هذه الجولة؟</h2>
+    <ul>
+        <li><strong>تجربة أنطاليا شاملة:</strong> استمتع برؤية أفضل معالم المدينة في يوم واحد.</li>
+        <li><strong>أدلة خبراء:</strong> تعرف على حقائق رائعة عن تاريخ وثقافة أنطاليا.</li>
+        <li><strong>مناظر خلابة واسترخاء:</strong> استمتع بمزيج من مشاهدة المعالم والطبيعة ووقت الراحة.</li>
+        <li><strong>رحلة بلا متاعب:</strong> تشمل الجولة وسائل نقل مريحة وخدمة استقبال من الفندق.
+    </ul>
+
+    <h2>احجز جولتك في أنطاليا اليوم!</h2>
+    <p>
+        انضم إلينا ليوم مذهل لاستكشاف جمال وتاريخ أنطاليا. احجز مكانك الآن واستمتع بتجربة لا تُنسى!
+    </p>
+        `,
+        zh: `
+    <h1>安塔利亚城市观光之旅，包含瀑布与缆车体验</h1>
+    
+    <h2>探索安塔利亚的丰富历史与壮丽风景</h2>
+    <p>
+        与我们一起度过难忘的一天，探索安塔利亚，这是一座古老历史与惊人自然美景交汇的城市。本次一日游覆盖了一些最具标志性的景点，为您提供文化、历史与冒险的完美结合。从漫步迷人的老城区，到欣赏杜顿瀑布的壮丽景色，再到体验全景缆车，这次旅行为每位旅行者带来难忘的体验。
+    </p>
+
+    <h2>行程亮点</h2>
+    <ul>
+        <li><strong>安塔利亚老城区 (Kaleiçi):</strong> 漫步于历史街道，探索哈德良门、钟楼和带槽尖塔等地标。</li>
+        <li><strong>杜顿瀑布:</strong> 见证40米高的壮观瀑布飞流直下汇入地中海。</li>
+        <li><strong>观光船之旅:</strong> 从安塔利亚老城区港口出发，享受一小时的船上观光，欣赏沿海风光。</li>
+        <li><strong>Tünektepe 缆车:</strong> （视开放情况而定）从顶部俯瞰城市和大海，体验令人惊叹的鸟瞰视角。</li>
+        <li><strong>传统土耳其午餐:</strong> 在一家知名餐厅享用美味的本地菜肴。</li>
+        <li><strong>银器工坊参观:</strong> 体验当地工艺，探索安塔利亚著名的手工银饰。</li>
+    </ul>
+
+    <h2>行程安排</h2>
+    <h3>酒店接送与出发</h3>
+    <p>
+        乘坐现代化、空调舒适的车辆从安塔利亚酒店接送，开启您的旅程。
+    </p>
+
+    <h3>探索安塔利亚老城区 (Kaleiçi)</h3>
+    <p>
+        探索安塔利亚历史中心的魅力，漫步于狭窄街道、古老遗迹和传统奥斯曼房屋。享受自由时间，探索以下关键景点：
+    </p>
+    <ul>
+        <li><strong>哈德良门:</strong> 保存完好的罗马时期凯旋门。</li>
+        <li><strong>钟楼和带槽尖塔:</strong> 老城区的两个标志性地标。</li>
+        <li><strong>当地商店与咖啡馆:</strong> 寻找纪念品或在温馨的咖啡馆品尝传统土耳其咖啡。</li>
+    </ul>
+
+    <h3>老城区港口出发的船上观光</h3>
+    <p>
+        乘坐一小时的观光游船沿海岸线航行，从独特的视角欣赏安塔利亚壮丽的悬崖和海岸线风光。在甲板上放松身心，欣赏地中海的壮丽美景。
+    </p>
+
+    <h3>在当地土耳其餐厅享用午餐</h3>
+    <p>
+        探索完老城区后，在一家著名的本地餐厅享用传统土耳其美食。可根据需求提供素食选项。
+    </p>
+
+    <h3>参观杜顿瀑布</h3>
+    <p>
+        安塔利亚最令人惊叹的自然奇观之一，杜顿瀑布从40米高处飞流直下汇入地中海。我们的导游会带您前往最佳观景点，捕捉令人屏息的照片。
+    </p>
+
+    <h3>Tünektepe 缆车体验 (可选，不包含在旅行价格内)</h3>
+    <p>
+        如果设施开放，您将有机会乘坐风景优美的缆车，登上Tünektepe山丘，俯瞰安塔利亚及其周边地区的全景。
+    </p>
+
+    <h3>参观当地银器工坊</h3>
+    <p>
+        了解安塔利亚悠久的银器工艺传统。探索由熟练工匠制作的手工珠宝和独特设计。
+    </p>
+
+    <h3>返回酒店</h3>
+    <p>
+        在结束了一天的精彩观光后，我们舒适的车辆会将您送回酒店，为您留下难忘的安塔利亚回忆。
+    </p>
+
+    <h2>费用包含</h2>
+    <ul>
+        <li>酒店接送服务</li>
+        <li>杜顿瀑布门票</li>
+        <li>观光船票（如果选择）</li>
+        <li>持证导游</li>
+        <li>全额保险</li>
+        <li>传统土耳其午餐</li>
+    </ul>
+
+    <h2>费用不包含</h2>
+    <ul>
+        <li>饮料</li>
+        <li>缆车费用（如适用）</li>
+        <li>个人消费</li>
+    </ul>
+
+    <h2>重要信息</h2>
+    <ul>
+        <li><strong>步行要求:</strong> 此行程需适量步行，可能不适合行动不便的客人。</li>
+        <li><strong>Kaleiçi酒店集合点:</strong> 由于街道狭窄，住在小型老城区酒店的客人需在Kaleiçi麦当劳集合（预订时将提供详情）。</li>
+        <li><strong>缆车可用性:</strong> Tünektepe缆车可能暂时关闭；请在预订前与我们确认。</li>
+        <li><strong>接送时间确认:</strong> 我们的团队将在您旅行的前一天提供确切的接送时间。
+        </li>
+    </ul>
+
+    <h2>为什么选择这次旅行？</h2>
+    <ul>
+        <li><strong>全面的安塔利亚体验:</strong> 一天之内体验这座城市的精华。</li>
+        <li><strong>专家导游:</strong> 了解关于安塔利亚历史和文化的迷人见解。</li>
+        <li><strong>风景如画且放松:</strong> 享受观光、自然和休闲的完美结合。</li>
+        <li><strong>无忧旅行:</strong> 包括舒适的交通和酒店接送服务。</li>
+    </ul>
+
+    <h2>立即预订您的安塔利亚观光之旅！</h2>
+    <p>
+        加入我们，一起探索安塔利亚的美丽与历史。现在预订您的位置，享受一段难忘的体验！
+    </p>
+        `
     }
 
 }
 
-/*
-   en: ``,
-        tr: ``,
-        ar: ``,
-        zh: ``,
-        it: ``,
-        es: ``,
-        ru: ``,
-*/
 
 
 /*
@@ -3179,5 +5116,8 @@ Duration: 10:00 AM - 6:00 PM
 !eklenilecekse time secimini kapatmamiz gerekiyor
 
 
+
+slider images eksik 
+adults price nece atanacak ? 
 
 */

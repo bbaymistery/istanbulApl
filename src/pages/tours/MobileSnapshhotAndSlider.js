@@ -1,0 +1,124 @@
+import React, { useEffect, useState } from 'react'
+import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes'
+import Button from '../../components/elements/Button/Button'
+import { allTranslations } from '../../constants/generalTranslataions'
+import ReusableModal from '../../components/elements/ReusableModal'
+import Slider from '../../components/elements/Slider'
+import { Skeleton } from '../../components/elements/Skeleton'
+import styles from "./singletour.module.scss"
+/**
+ * MobileSnapshotAndSlider Component
+ * 
+ * This component is responsible for:
+ * - Displaying a mobile-friendly image slider for a tour.
+ * - Allowing users to view images in a modal.
+ * - Showing tour title, review count, pricing, and key highlights.
+ * 
+ * Props:
+ * @param {Object} props - Component properties.
+ * @param {boolean} props.loadAlert - Flag indicating whether the tour details are loading.
+ * @param {Object} props.appData - Contains UI translations and other app-wide data.
+ * @param {string} props.language - The selected language for translations.
+ * @param {Array} props.tourDetails - Array containing tour information.
+ */
+const MobileSnapshhotAndSlider = (props) => {
+    let { loadAlert, appData, language, tourDetails } = props
+
+    //destructuring tourDetails
+    const pageTitle = tourDetails[0]?.pageTitle[language]
+    const duration = tourDetails[0].duration[language]
+    const snapshots = tourDetails[0]?.snapshots
+    const review = 2000
+    const price = tourDetails[0].price
+    const images = tourDetails[0]?.images
+
+    //state management for slider navigation
+    const [index, setIndex] = useState(0);
+    const [sliderItems, setSliderItems] = useState([]);
+    const [shouldShowModal, setshouldShowModal] = useState(false);
+
+    /** Handlers for slider navigation **/
+    const gotoPreviousSlider = () => setIndex(index - 1)
+    const gotoNextSlider = () => setIndex(index + 1)
+
+    // Set slider images once component mounts
+    useEffect(() => {
+         setSliderItems(images)
+         }, [images]);
+
+    useEffect(() => {
+        const lastIndex = sliderItems.length - 1;
+        if (index < 0) setIndex(lastIndex);
+        if (index > lastIndex) setIndex(0);
+    }, [index, sliderItems]);
+
+
+    return (
+        <div className={styles.content} >
+            <div className={styles.slider_for_mobile}>
+                {loadAlert ? <div style={{ width: "100%", height: "300px", background: "#eae6e6" }}>
+                    <Skeleton width={"100%"} height="100%" />
+                </div> : <Slider appData={appData} setshouldShowModal={setshouldShowModal} index={index} gotoPreviousSlider={gotoPreviousSlider} gotoNextSlider={gotoNextSlider} sliderItems={sliderItems} />}
+            </div>
+            <ReusableModal shouldShowModal={shouldShowModal} onRequestClose={() => { setshouldShowModal(false) }} >
+                <Slider appData={appData} gotoPreviousSlider={gotoPreviousSlider} gotoNextSlider={gotoNextSlider} insideModal={true} index={index} sliderItems={sliderItems} />
+                <div className={styles.navigation_modal_slider}>
+                    <span className={styles.prev_btn} onClick={gotoPreviousSlider}>
+                        <i className="fa-solid fa-chevron-left"></i>
+                    </span>
+                    <span className={styles.next_btn} onClick={gotoNextSlider}>
+                        <i className="fa-solid fa-chevron-right"></i>
+                    </span>
+                </div>
+            </ReusableModal>
+
+            <div className={styles.title_content_for_desktop}>
+                <div className={styles.title_div}>
+                    {loadAlert ? <h1>
+                        <div style={{ width: "100%", height: "100%", background: "#eae6e6" }}>
+                            <Skeleton width={"100%"} height="100%" />
+                        </div>
+                    </h1> : <h1>{pageTitle} </h1>}
+                    <div className={styles.title_div_description}>
+                        <a href="https://www.reviews.co.uk/company-reviews/store/airport-pickups-london-com" target={"_blank"} title="Airport Pickups London Reviews" className={styles.reviews} rel="noreferrer"   >
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star-half-stroke"></i>
+                            <span>{review} {appData?.words["strReviews"]}</span>
+                        </a>
+
+                    </div>
+                </div>
+                <div className={styles.start_from_price_btn_div}>
+                    <div className={styles.start_from_price_btn_div_content}>
+                        {appData?.words["strStartFrom"]}
+                        {loadAlert ?
+                            <span style={{ width: "100%", height: "100%", background: "#eae6e6" }}>
+                                <Skeleton width={"100%"} height="100%" />
+                            </span>
+                            : <span >{price}</span>}
+                    </div>
+                    <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: '6px 5px' }} btnText={allTranslations.strPerPerson[language]} icon={<i className="fa-solid fa-arrow-down"></i>} iconPos='RIGHT' />
+                </div>
+            </div>
+            <h3 className={styles.snapshot_title}>
+                {appData?.words["strTourSnapshot"]}
+            </h3>
+            <div className={styles.snapshot_icons_content}>
+                {Array.isArray(snapshots) && snapshots.slice(0, 4).map((snapshot, index) => (
+                    <div key={index} className={styles.snapshot_icons_div}>
+                        <i className={`${snapshot.icon}`}></i>
+                        <div className={styles.snapshot_icons_div_description}>
+                            {loadAlert ? "..." : index === 2 ? appData?.words["strLuxuryCars"] : appData?.words[snapshot.alias]}
+                            &nbsp;  {index === 0 ? duration : null}
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
+}
+
+export default MobileSnapshhotAndSlider
