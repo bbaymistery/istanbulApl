@@ -16,12 +16,11 @@ const TourContentDetails = () => {
     const router = useRouter()
     const [loadAlert, setLoadAlert] = useState(true);
 
-    // Redux Store Selectors
-    const { initialReducer, pickUpDropOffActions } = useSelector(state => ({
-        initialReducer: state.initialReducer,
-        pickUpDropOffActions: state.pickUpDropOffActions,
-    }));
+
+    const  initialReducer= useSelector(state => ( state.initialReducer));
     const { appData } = initialReducer;
+
+    const  pickUpDropOffActions= useSelector(state => ( state.pickUpDropOffActions));
     const { params: { language, direction }, reservations } = pickUpDropOffActions;
     let transferDate = reservations[0]?.transferDetails?.transferDateTimeString;
 
@@ -55,7 +54,7 @@ const TourContentDetails = () => {
                             {/*display block at the 700px =>for mobile visible*/}
                             <MobileSnapshhotAndSlider tourDetails={tourDetails} appData={appData} loadAlert={loadAlert} language={language} />
                             {/* adults children infants count component */}
-                            <SeatlistAdults appData={appData} transferDate={transferDate} direction={direction} />
+                            <SeatlistAdults language={language} appData={appData} transferDate={transferDate} direction={direction}  tourDetails={tourDetails}/>
                             <div className={`${styles.page_content} `} dangerouslySetInnerHTML={{ __html: pageContent }} />
                         </div>
                     </div>

@@ -20,7 +20,7 @@ const PaymentDetails = (props) => {
 
     const router = useRouter()
     let state = useSelector((state) => state.pickUpDropOffActions)
-    let { reservations, params: { tokenForArchieve, direction, quotations } } = state
+    let { reservations, params: { tokenForArchieve, direction, quotations, language } } = state
 
 
     const { appData } = useSelector(state => state.initialReducer)
@@ -216,7 +216,7 @@ const PaymentDetails = (props) => {
                                     {
                                         icon: "fa-solid fa-landmark",
                                         label: appData.words["strYouSelected"],
-                                        value: selectedTour?.title ? selectedTour?.title : "",
+                                        value: selectedTour[0]?.pageTitle[language] ? selectedTour[0]?.pageTitle[language] : "",
                                     },
                                     {
                                         icon: "fa-solid fa-user",
@@ -245,7 +245,7 @@ const PaymentDetails = (props) => {
                                                     <div className={styles.show_ondestkop}>
                                                         <PaymentPageSummary selectedPickupPoints={selectedPickupPoints} selectedDropoffPoints={selectedDropoffPoints} />
                                                     </div>
-                                                    {selectedTour?.title ? <></> :
+                                                    {selectedTour?.length > 0 ? <></> :
                                                         (<div className={styles.image_div}>
                                                             <div className={styles.names}>
                                                                 <div className={styles.text_1} style={{ textTransform: 'capitalize' }}>
@@ -260,7 +260,7 @@ const PaymentDetails = (props) => {
                                                             </div>
                                                         </div>
                                                         )}
-                                                    {selectedTour?.title ? <></> :
+                                                    {selectedTour?.length > 0 ? <></> :
                                                         (<div className={styles.car_info}>
                                                             <div className={styles.type}>
                                                                 {carObject[quotation.carId]?.transferType}
@@ -288,10 +288,10 @@ const PaymentDetails = (props) => {
                                                         )}
 
                                                     {/* we r adding manually tour imagebut it willbe dynamic when we select selected tour */}
-                                                    {selectedTour?.title ?
+                                                    {selectedTour?.length > 0 ?
                                                         <div className={styles.tour_image_div}  >
                                                             <Image
-                                                                src={`https://api.london-tech.com/files/randoms/b3de5fe0056954b327e91cf75ccf2e101aa610f6e2d023531a8a02cedf14a0c4.jpg`}
+                                                                src={selectedTour[0]?.images[0]}
                                                                 className={styles.img}
                                                                 fill
                                                                 alt={"tem.headTitle"}
@@ -313,7 +313,7 @@ const PaymentDetails = (props) => {
                                                                 but for tours all are togther
                                                                 */}
                                                                 {
-                                                                    (selectedTour?.title ? toursPassengerDetailsConfig.slice(0, 4) : passengerDetailsConfig.slice(0, 4)).map((detail, idx) => (
+                                                                    (selectedTour?.length > 0 ? toursPassengerDetailsConfig.slice(0, 4) : passengerDetailsConfig.slice(0, 4)).map((detail, idx) => (
                                                                         // simply we dont add boder bottom for last element of toursPassengerDetailsConfig
                                                                         <li key={idx} >
                                                                             <div className={styles.details}>
@@ -334,7 +334,7 @@ const PaymentDetails = (props) => {
 
                                                                 {/* name email phone and passengers  here visible */}
                                                                 {
-                                                                    (selectedTour?.title ? toursPassengerDetailsConfig : passengerDetailsConfig)
+                                                                    (selectedTour?.length > 0 ? toursPassengerDetailsConfig : passengerDetailsConfig)
                                                                         .slice(4).map((detail, idx) => (
                                                                             <li key={idx}>
                                                                                 <div className={styles.details}>

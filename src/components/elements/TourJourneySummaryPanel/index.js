@@ -15,6 +15,7 @@ const TourJourneySummaryPanel = (props) => {
     const children = tourActionState.seatLists[1].minNum
     const infants = tourActionState.seatLists[2].minNum
     const totalPrice = tourActionState.seatListPrice
+    console.log({ language, selectedTour: selectedTour[0].pageTitle[language] });
 
     return (
         <div className={`${styles.journey_summary_panel}`}>
@@ -43,8 +44,8 @@ const TourJourneySummaryPanel = (props) => {
                             {children > 0 ? <p><span>{appData?.words["strChildren"]}</span>  <span>{children}</span> </p> : <></>}
                             {infants > 0 ? <p><span>{appData?.words["strInfants"]}</span>  <span>{infants}</span> </p> : <></>}
                             <p>
-                                <span>{selectedTour.title}</span>
-                                <span>{selectedTour.duration.split(" ")[0]} {appData?.words["strHours"]}</span>
+                                <span>{selectedTour[0].pageTitle[language]}</span>
+                                <span>{selectedTour[0].duration[language]}</span>
                             </p>
                             <a href={"https://g.co/kgs/Rg7vb8"} target="_blank" className={styles.review}>
                                 <div className={styles.review_left}>4.8 </div>
@@ -65,7 +66,7 @@ const TourJourneySummaryPanel = (props) => {
                 </div>
 
 
-                <div className={styles.acceptedcards_div}  title="Accepted Cards for Airport Pickups London">
+                <div className={styles.acceptedcards_div} title="Accepted Cards for Airport Pickups London">
                     <img className={styles.acceptedcards_img} border="0" alt="Accepted Cards for Airport Pickups London " src="/images/others/accepted-cards.png" />
                 </div>
             </div>

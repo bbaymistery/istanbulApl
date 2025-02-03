@@ -6,7 +6,8 @@ import { currentDate } from '../../helpers/getDates';
 import { hours, minutes } from '../../constants/minutesHours';
 import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes';
 import Button from '../../components/elements/Button/Button';
-import styles from  "./singletour.module.scss"
+import styles from "./singletour.module.scss"
+import { useRouter } from 'next/router';
 
 /**
  * SeatlistAdults Component
@@ -46,9 +47,10 @@ import styles from  "./singletour.module.scss"
  */
 const SeatlistAdults = (props) => {
 
+    let { tourDetails,language } = props
     let { appData, transferDate, direction } = props
     const dispatch = useDispatch()
-
+    const router = useRouter()
     // Redux Store Selectors
     const tourActions = useSelector(state => (state.tourActions));
     const { seatLists, seatListPrice } = tourActions;
@@ -60,21 +62,14 @@ const SeatlistAdults = (props) => {
     /** Booking Process **/
     const handleBookNow = () => {
 
-        // let selectedTour = {
-        //     quotationOptions,
-        //     images,
-        //     desc: shortDescription,
-        //     duration,
-        //     price: 124,
-        //     // urlImage: quotationImagesObjWebp[quotation?.carId]?.image,  //!We can show here selected tpur image on the tour customer derails (OPTIONAL)
-        //     title: pageTitle
-        // }
-        // if (+seatListPrice > 0) {
-        //     dispatch({ type: "SET_TOUR_QUOTATION", data: { selectedTour } })
-        //     router.push(`${language === 'en' ? "/tour_customer_details" : `${language}/tour_customer_details`}`)
-        // } else {
-        //     alert('Please select adults')
-        // }
+        console.log(tourDetails);
+
+        if (+seatListPrice > 0) {
+            dispatch({ type: "SET_TOUR_QUOTATION", data: { selectedTour: tourDetails } })
+            router.push(`${language === 'en' ? "/tour_customer_details" : `${language}/tour_customer_details`}`)
+        } else {
+            alert('Please select adults')
+        }
     }
     /** Handles date/time changes **/
     const onChangeSetDateTimeHandler = ({ value, hourOrMinute }) => {

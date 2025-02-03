@@ -15,13 +15,16 @@ export const getTourByPathname = (pathname) => {
  * @param {string} language - The language to retrieve the content in.
  * @returns {object} The translated page content for the specified tour and language.
  */
-export const getTourPageContentByPathname=(pathname,language)=>{
+export const getTourPageContentByPathname = (pathname, language) => {
     return singleTourTranslatedPageContents[pathname][language]
 }
-
-
-//!Head title written for Global Layout Title 
-//!We have to make schemas metaTags
+//!Keywords
+//!MetaDescription
+//!Thumbnail Title
+//!Schema
+//!Meta Tags
+//!Adults Children prices
+//!Someof them is written duration like => Duration: 10:00 AM - 6:00 PM  In this case we should remove select data time 
 export const tourDatasTranslated = [
     {
         "tourDealId": 1,
@@ -91,7 +94,8 @@ export const tourDatasTranslated = [
             "es": "Excursiones",
             "it": "Tour"
         },
-
+        adultPrice: 25,
+        duraionTimeRange: "Duration: 10:00 AM - 6:00 PM"
     },
     {
         "tourDealId": 2,
@@ -160,7 +164,9 @@ export const tourDatasTranslated = [
             "ru": "Туры",
             "es": "Excursiones",
             "it": "Tour"
-        }
+        },
+        adultPrice: 25,
+        duraionTimeRange: "Duration: 10:30 AM - 5:30 PM"
     },
     {
         "tourDealId": 3,
@@ -229,7 +235,9 @@ export const tourDatasTranslated = [
             "ru": "Туры",
             "es": "Excursiones",
             "it": "Tour"
-        }
+        },
+        adultPrice: 36,
+        duraionTimeRange: "Activity Duration: 3 Hours"
 
     },
     {
@@ -299,7 +307,9 @@ export const tourDatasTranslated = [
             "ru": "Туры",
             "es": "Excursiones",
             "it": "Tour"
-        }
+        },
+        adultPrice: 30,
+        durationTimeRange: "Departure Time: Approximately 8:00 PM (please confirm the exact time)"
     },
     {
         "tourDealId": 5,
@@ -368,7 +378,9 @@ export const tourDatasTranslated = [
             "ru": "Туры",
             "es": "Excursiones",
             "it": "Tour"
-        }
+        },
+        adultPrice: 35,
+        durationTimeRange: "Departure Time: 13:00"
     },
     {
         "tourDealId": 6,
@@ -437,7 +449,9 @@ export const tourDatasTranslated = [
             "ru": "Туры",
             "es": "Excursiones",
             "it": "Tour"
-        }
+        },
+        adultsPrice: 0,
+        childPrice: 0
     },
     {
         "tourDealId": 7,
@@ -506,7 +520,10 @@ export const tourDatasTranslated = [
             "ru": "Туры",
             "es": "Excursiones",
             "it": "Tour"
-        }
+        },
+        adultsPrice: 0,
+        childPrice: 0,
+        adultPrice: 45,
     },
     {
         "tourDealId": 8,
@@ -575,7 +592,9 @@ export const tourDatasTranslated = [
             "ru": "Туры",
             "es": "Excursiones",
             "it": "Tour"
-        }
+        },
+        adultsPrice: 25,
+        childPrice: 20
     }
 ]
 
@@ -5119,5 +5138,6 @@ Duration: 10:00 AM - 6:00 PM
 
 slider images eksik 
 adults price nece atanacak ? 
+!We have to make schemas metaTags
 
 */

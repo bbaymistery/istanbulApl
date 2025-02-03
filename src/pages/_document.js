@@ -44,32 +44,4 @@ class MyDocument extends Document {
 
 export default MyDocument;
 
-// import Document, { Html, Head, Main, NextScript } from 'next/document';
-// import Script from 'next/script';
-// import React from 'react';
-// class CustomDocument extends Document {
 
-
-
-
-//   render() {
-//     //here i am destructing props which i passed  with MyApp.getInitialProps
-//    
-
-
-//     console.log({ a:this?.props?.__NEXT_DATA__?.props?.pageProps });
-
-
-
-//     return (
-//       <Html lang={hasLanguage ? hasLanguage : "en"}>
-//         <body>
-//           <Main />
-//           <NextScript />
-//         </body>
-//       </Html>
-//     )
-//   }
-// }
-
-// export default CustomDocument;
