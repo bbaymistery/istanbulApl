@@ -18,9 +18,6 @@ export const getTourByPathname = (pathname) => {
 export const getTourPageContentByPathname = (pathname, language) => {
     return singleTourTranslatedPageContents[pathname][language]
 }
-//!Keywords
-//!MetaDescription
-//!Thumbnail Title
 //!Schema
 //!Meta Tags
 //!Adults Children prices
@@ -82,9 +79,33 @@ export const tourDatasTranslated = [
                 "alias": "strFreeCancellation24h",
             }
         ],
-        keywords: "",
-        metaDescription: "",
-        "thumbnailTitle": "",
+        "keywords": {
+            "en": "Fethiye 12 Islands Boat Tour, Fethiye boat trip, 12 Islands cruise, Blue Lagoon tour, Turkish Riviera, boat tours in Fethiye, sailing Fethiye, best boat trips Turkey",
+            "tr": "Fethiye 12 Adalar Tekne Turu, Fethiye tekne turu, 12 adalar gezisi, Ölüdeniz tekne turu, Mavi Yolculuk Fethiye, Fethiye tekne turları, Türkiye'deki en iyi tekne turları",
+            "es": "Tour en barco 12 Islas Fethiye, excursión en barco Fethiye, crucero 12 Islas, tour en barco Turquía, Fethiye navegación, mejores tours en barco Turquía",
+            "zh": "费特希耶12岛游船之旅, 费特希耶游船, 12岛巡航, 土耳其游船之旅, 蓝色航行, 费特希耶最佳游船体验",
+            "ar": "جولة قارب 12 جزيرة في فتحية, جولة بحرية فتحية, رحلة بحرية 12 جزيرة, أجمل الرحلات البحرية في تركيا, جولات القوارب فتحية",
+            "ru": "Тур на лодке по 12 островам Фетхие, круиз по 12 островам, морские экскурсии Фетхие, лучшие лодочные туры Турции, синее путешествие Фетхие",
+            "it": "Tour in barca 12 Isole Fethiye, escursione in barca Fethiye, crociera 12 Isole, navigazione in Turchia, migliori tour in barca Turchia"
+        },
+        "metaDescription": {
+            "en": "Explore the breathtaking Fethiye 12 Islands Boat Tour, a perfect getaway to crystal-clear waters, hidden bays, and scenic landscapes. Experience an unforgettable cruise in the Turkish Riviera!",
+            "tr": "Fethiye 12 Adalar Tekne Turu ile berrak sular, gizli koylar ve muhteşem manzaralar keşfedin. Türk Rivierası'nda unutulmaz bir tekne turu deneyimi yaşayın!",
+            "es": "Descubre la increíble excursión en barco por las 12 Islas de Fethiye. Disfruta de aguas cristalinas, bahías escondidas y paisajes impresionantes en la Riviera Turca.",
+            "zh": "探索令人惊叹的费特希耶12岛游船之旅，畅游清澈海水、隐秘海湾和壮丽风景，体验土耳其里维埃拉的梦幻之旅！",
+            "ar": "استمتع بجولة قارب مذهلة في فتحية 12 جزيرة، واكتشف المياه الصافية، الخلجان المخفية، والمناظر الخلابة في الريفيرا التركية!",
+            "ru": "Исследуйте потрясающий тур на лодке по 12 островам Фетхие. Насладитесь кристально чистыми водами, уединёнными бухтами и живописными пейзажами Турецкой Ривьеры!",
+            "it": "Esplora l'incredibile Tour in Barca delle 12 Isole di Fethiye, un viaggio perfetto tra acque cristalline, baie nascoste e panorami mozzafiato della Riviera Turca!"
+        },
+        "thumbnailTitle": {
+            "en": "12 Islands Adventure",
+            "tr": "12 Adalar Keyfi",
+            "es": "Aventura 12 Islas",
+            "zh": "12岛探险",
+            "ar": "مغامرة 12 جزيرة",
+            "ru": "12 Островов",
+            "it": "Avventura 12 Isole"
+        },
         "breadcrumbTitle": {
             "en": "Tours",
             "tr": "Turlar",
@@ -95,7 +116,9 @@ export const tourDatasTranslated = [
             "it": "Tour"
         },
         adultPrice: 25,
-        duraionTimeRange: "Duration: 10:00 AM - 6:00 PM"
+        duraionTimeRange: "Duration: 10:00 AM - 6:00 PM",
+        // metaTags:[],
+        // schemas:{}
     },
     {
         "tourDealId": 2,
@@ -153,9 +176,33 @@ export const tourDatasTranslated = [
                 "alias": "strFreeCancellation24h",
             }
         ],
-        keywords: "",
-        metaDescription: "",
-        "thumbnailTitle": "",
+        "keywords": {
+            "en": "Fethiye Oludeniz Boat Tour, Oludeniz boat trip, Blue Lagoon boat tour, Fethiye cruise, boat tour Turkey, Oludeniz yacht tour, best boat trips Fethiye",
+            "tr": "Fethiye Ölüdeniz Tekne Turu, Ölüdeniz tekne turu, Mavi Lagün turu, Fethiye yat turu, Türkiye'deki en iyi tekne turları",
+            "es": "Tour en barco Fethiye Oludeniz, paseo en barco Oludeniz, crucero en Turquía, tour en barco Blue Lagoon, mejores tours en barco Fethiye",
+            "zh": "费特希耶Ölüdeniz游船之旅, 蓝色泻湖游船, 费特希耶游艇, 土耳其游船之旅",
+            "ar": "جولة قارب فتحية أولودينيز, جولة بحرية بلو لاغون, أفضل الجولات البحرية في تركيا",
+            "ru": "Тур на лодке Фетхие Олюдениз, морская прогулка Голубая Лагуна, круиз в Турции",
+            "it": "Tour in barca Fethiye Oludeniz, crociera Blue Lagoon, migliori escursioni in barca Turchia"
+        },
+        "metaDescription": {
+            "en": "Sail through the stunning waters of Oludeniz with the Fethiye Oludeniz Boat Tour. Discover the Blue Lagoon, hidden bays, and breathtaking coastal views in Turkey!",
+            "tr": "Fethiye Ölüdeniz Tekne Turu ile muhteşem sulara yelken açın. Mavi Lagün’ü, gizli koyları ve etkileyici kıyı manzaralarını keşfedin!",
+            "es": "Navega por las impresionantes aguas de Oludeniz con el Tour en Barco Fethiye Oludeniz. Descubre la Blue Lagoon y bahías escondidas en Turquía.",
+            "zh": "乘坐费特希耶Ölüdeniz游船，探索蓝色泻湖、隐秘海湾和壮丽海岸线！",
+            "ar": "استمتع بجولة بحرية مذهلة في فتحية أولودينيز، واكتشف بلو لاغون والخليج المخفي!",
+            "ru": "Отправьтесь в путешествие по Олюдениз с туром на лодке. Исследуйте Голубую Лагуну и скрытые бухты Турции!",
+            "it": "Naviga nelle splendide acque di Oludeniz con il Tour in Barca Fethiye Oludeniz. Scopri Blue Lagoon e baie nascoste!"
+        },
+        "thumbnailTitle": {
+            "en": "Oludeniz Boat Trip",
+            "tr": "Ölüdeniz Tekne Turu",
+            "es": "Barco Oludeniz",
+            "zh": "Ölüdeniz游船",
+            "ar": "قارب أولودينيز",
+            "ru": "Лодка Олюдениз",
+            "it": "Barca Oludeniz"
+        },
         "breadcrumbTitle": {
             "en": "Tours",
             "tr": "Turlar",
@@ -224,9 +271,33 @@ export const tourDatasTranslated = [
                 "alias": "strFreeCancellation24h",
             }
         ],
-        keywords: "",
-        metaDescription: "",
-        "thumbnailTitle": "",
+        "keywords": {
+            "en": "Fethiye Quad Bike Safari, Fethiye ATV tour, off-road adventure Fethiye, quad biking Turkey, safari tour Fethiye, best ATV tours Fethiye",
+            "tr": "Fethiye ATV Safari, Fethiye quad bike turu, Fethiye off-road macerası, ATV turları Türkiye, en iyi ATV turları Fethiye",
+            "es": "Safari en Quad Fethiye, tour en ATV Fethiye, aventura todoterreno Turquía, mejores tours en quad Fethiye",
+            "zh": "费特希耶四轮摩托探险, Fethiye ATV游, 土耳其越野之旅, 最佳ATV探险",
+            "ar": "جولة سفاري بالدراجة الرباعية في فتحية, مغامرة ATV في تركيا, جولات ATV في فتحية",
+            "ru": "Квадроцикл сафари Фетхие, тур на квадроциклах в Турции, внедорожные приключения Фетхие",
+            "it": "Safari in Quad Fethiye, tour in ATV Fethiye, avventura off-road Turchia, migliori escursioni in quad"
+        },
+        "metaDescription": {
+            "en": "Experience the thrill of off-road adventure with the Fethiye Quad Bike Safari Tour. Ride through dusty trails, forests, and scenic landscapes for an adrenaline-packed day!",
+            "tr": "Fethiye ATV Safari Turu ile off-road macerasının tadını çıkarın. Tozlu yollar, ormanlar ve etkileyici manzaralar eşliğinde adrenalin dolu bir gün yaşayın!",
+            "es": "Vive la emoción de la aventura todoterreno con el Safari en Quad Fethiye. Recorre senderos polvorientos y paisajes impresionantes!",
+            "zh": "体验费特希耶四轮摩托探险之旅，穿越尘土飞扬的道路和壮丽景色，感受肾上腺素飙升的快感！",
+            "ar": "استمتع بمغامرة مثيرة مع جولة سفاري بالدراجة الرباعية في فتحية، حيث تتجول عبر الطرق الوعرة والمناظر الطبيعية الخلابة!",
+            "ru": "Испытайте адреналин на сафари-туре на квадроциклах в Фетхие! Катайтесь по пыльным тропам и живописным местам!",
+            "it": "Prova l'emozione dell'avventura off-road con il Safari in Quad Fethiye. Percorri sentieri polverosi e paesaggi mozzafiato!"
+        },
+        "thumbnailTitle": {
+            "en": "Quad Bike Safari",
+            "tr": "ATV Safari",
+            "es": "Safari en Quad",
+            "zh": "四轮摩托探险",
+            "ar": "سفاري بالدراجة",
+            "ru": "Квадроцикл Сафари",
+            "it": "Safari in Quad"
+        },
         "breadcrumbTitle": {
             "en": "Tours",
             "tr": "Turlar",
@@ -296,9 +367,33 @@ export const tourDatasTranslated = [
                 "alias": "strFreeCancellation24h",
             }
         ],
-        keywords: "",
-        metaDescription: "",
-        "thumbnailTitle": "",
+        "keywords": {
+            "en": "Istanbul Bosphorus Dinner Cruise, Bosphorus night cruise, dinner cruise Istanbul, Istanbul boat tour, Turkish night cruise, best dinner cruises Istanbul",
+            "tr": "İstanbul Boğazı Akşam Yemeği Turu, Boğaz gece turu, İstanbul yat turu, Boğaz’da akşam yemeği, İstanbul tekne turu",
+            "es": "Crucero con cena Estambul, tour en barco Bósforo, crucero nocturno Turquía, mejor cena crucero Estambul",
+            "zh": "伊斯坦布尔博斯普鲁斯晚餐游船, 博斯普鲁斯夜游, 土耳其游船晚宴, 伊斯坦布尔最佳游船",
+            "ar": "رحلة عشاء بحرية في البوسفور, جولة ليلية في البوسفور, أفضل الرحلات البحرية في إسطنبول",
+            "ru": "Ужин-круиз по Босфору, ночной круиз Стамбул, лучший круиз с ужином в Турции",
+            "it": "Crociera con cena Bosforo, tour in barca Istanbul, miglior crociera con cena Turchia"
+        },
+        "metaDescription": {
+            "en": "Enjoy a magical evening on the Istanbul Bosphorus Dinner Cruise with breathtaking views, delicious cuisine, and live entertainment on the waters of the Bosphorus.",
+            "tr": "İstanbul Boğazı Akşam Yemeği Turu ile büyüleyici bir akşam geçirin. Muhteşem manzaralar, lezzetli yemekler ve canlı eğlencenin keyfini çıkarın!",
+            "es": "Disfruta de una noche mágica en el Crucero con Cena por el Bósforo de Estambul con vistas impresionantes y deliciosa gastronomía.",
+            "zh": "在伊斯坦布尔博斯普鲁斯晚餐游船上享受迷人夜晚，美食与壮丽景色相结合。",
+            "ar": "استمتع بأمسية ساحرة في رحلة عشاء بحرية في البوسفور مع مناظر خلابة ومأكولات لذيذة.",
+            "ru": "Насладитесь волшебным вечером на ужине-круизе по Босфору с захватывающими видами и живой музыкой.",
+            "it": "Vivi una serata incantevole con la Crociera con Cena sul Bosforo, tra panorami mozzafiato e ottima cucina."
+        },
+        "thumbnailTitle": {
+            "en": "Bosphorus Dinner Cruise",
+            "tr": "Boğaz Yemeği Turu",
+            "es": "Cena Crucero Bósforo",
+            "zh": "博斯普鲁斯晚宴",
+            "ar": "عشاء في البوسفور",
+            "ru": "Ужин на Босфоре",
+            "it": "Cena sul Bosforo"
+        },
         "breadcrumbTitle": {
             "en": "Tours",
             "tr": "Turlar",
@@ -367,9 +462,33 @@ export const tourDatasTranslated = [
                 "alias": "strFreeCancellation24h",
             }
         ],
-        keywords: "",
-        metaDescription: "",
-        "thumbnailTitle": "",
+        "keywords": {
+            "en": "Istanbul Bosphorus Lunch Cruise, Bosphorus day cruise, lunch cruise Istanbul, Istanbul boat tour, daytime Bosphorus cruise, best lunch cruises Istanbul",
+            "tr": "İstanbul Boğazı Öğle Yemeği Turu, Boğaz gündüz turu, İstanbul yat turu, Boğaz’da öğle yemeği, İstanbul tekne turu",
+            "es": "Crucero con almuerzo Estambul, tour en barco Bósforo, crucero de día Turquía, mejor almuerzo crucero Estambul",
+            "zh": "伊斯坦布尔博斯普鲁斯午餐游船, 博斯普鲁斯日游, 土耳其午餐游船, 伊斯坦布尔最佳游船",
+            "ar": "رحلة غداء بحرية في البوسفور, جولة نهارية في البوسفور, أفضل الرحلات البحرية في إسطنبول",
+            "ru": "Обед-круиз по Босфору, дневной круиз Стамбул, лучший круиз с обедом в Турции",
+            "it": "Crociera con pranzo Bosforo, tour in barca Istanbul, miglior crociera con pranzo Turchia"
+        },
+        "metaDescription": {
+            "en": "Savor a delightful meal on the Istanbul Bosphorus Lunch Cruise while enjoying panoramic views of Istanbul’s iconic skyline and historic landmarks.",
+            "tr": "İstanbul Boğazı Öğle Yemeği Turu ile lezzetli bir yemek eşliğinde Boğaz’ın eşsiz manzaralarını keşfedin.",
+            "es": "Disfruta de un delicioso almuerzo en el Crucero por el Bósforo de Estambul con vistas panorámicas impresionantes.",
+            "zh": "在伊斯坦布尔博斯普鲁斯午餐游船上品味美食，欣赏壮丽的城市天际线和历史地标。",
+            "ar": "استمتع بغداء شهي في رحلة بحرية عبر البوسفور مع إطلالات بانورامية خلابة على إسطنبول.",
+            "ru": "Насладитесь вкусным обедом на круизе по Босфору, любуясь панорамными видами Стамбула.",
+            "it": "Gusta un delizioso pranzo nella Crociera sul Bosforo con viste spettacolari sullo skyline di Istanbul."
+        },
+        "thumbnailTitle": {
+            "en": "Bosphorus Lunch Cruise",
+            "tr": "Boğaz Öğle Turu",
+            "es": "Almuerzo Crucero Bósforo",
+            "zh": "博斯普鲁斯午宴",
+            "ar": "غداء في البوسفور",
+            "ru": "Обед на Босфоре",
+            "it": "Pranzo sul Bosforo"
+        },
         "breadcrumbTitle": {
             "en": "Tours",
             "tr": "Turlar",
@@ -438,9 +557,33 @@ export const tourDatasTranslated = [
                 "alias": "strFreeCancellation24h",
             }
         ],
-        keywords: "",
-        metaDescription: "",
-        "thumbnailTitle": "",
+        "keywords": {
+            "en": "Istanbul full-day tour, Istanbul city tour, best Istanbul tours, guided tour Istanbul, top attractions Istanbul, sightseeing Istanbul, day trip Istanbul",
+            "tr": "İstanbul tam gün turu, İstanbul şehir turu, en iyi İstanbul turları, rehberli İstanbul turu, İstanbul gezi turu",
+            "es": "Tour de día completo Estambul, visita guiada Estambul, mejores tours Estambul, excursión Estambul",
+            "zh": "伊斯坦布尔一日游, 伊斯坦布尔观光, 土耳其城市之旅, 伊斯坦布尔最佳旅游",
+            "ar": "جولة يوم كامل في إسطنبول, أفضل الجولات في إسطنبول, رحلة سياحية في إسطنبول",
+            "ru": "Экскурсия на целый день по Стамбулу, тур по Стамбулу, достопримечательности Стамбула",
+            "it": "Tour di un giorno intero Istanbul, migliori tour Istanbul, visita guidata Istanbul"
+        },
+        "metaDescription": {
+            "en": "Explore the best of Istanbul in a full-day tour covering iconic landmarks, historical sites, and breathtaking views. A perfect way to experience the city in one day!",
+            "tr": "İstanbul’un en önemli simgelerini, tarihi yerlerini ve muhteşem manzaralarını keşfetmek için tam gün süren unutulmaz bir tur!",
+            "es": "Descubre lo mejor de Estambul en un tour de día completo visitando lugares históricos y vistas impresionantes.",
+            "zh": "在伊斯坦布尔一日游中探索这座城市的标志性景点、历史遗迹和壮丽景色。",
+            "ar": "اكتشف معالم إسطنبول الشهيرة والمواقع التاريخية في جولة يوم كامل لا تُنسى.",
+            "ru": "Исследуйте Стамбул за один день, посетив знаменитые достопримечательности и исторические места.",
+            "it": "Esplora Istanbul in un tour di un giorno visitando siti storici e panorami mozzafiato."
+        },
+        "thumbnailTitle": {
+            "en": "Full-Day Istanbul Tour",
+            "tr": "Tam Gün İstanbul Turu",
+            "es": "Tour Día Completo Estambul",
+            "zh": "伊斯坦布尔一日游",
+            "ar": "جولة يوم كامل إسطنبول",
+            "ru": "Целый день в Стамбуле",
+            "it": "Tour Completo Istanbul"
+        },
         "breadcrumbTitle": {
             "en": "Tours",
             "tr": "Turlar",
@@ -509,9 +652,33 @@ export const tourDatasTranslated = [
                 "alias": "strFreeCancellation24h",
             }
         ],
-        keywords: "",
-        metaDescription: "",
-        "thumbnailTitle": "",
+        "keywords": {
+            "en": "Paragliding in Fethiye, Oludeniz paragliding, best paragliding Turkey, tandem paragliding Fethiye, extreme sports Turkey, adventure sports Fethiye",
+            "tr": "Fethiye yamaç paraşütü, Ölüdeniz yamaç paraşütü, Türkiye’de yamaç paraşütü, tandem yamaç paraşütü Fethiye, ekstrem sporlar Türkiye",
+            "es": "Parapente en Fethiye, vuelo en parapente Oludeniz, mejor parapente Turquía, deportes extremos Fethiye",
+            "zh": "费特希耶滑翔伞, 死海滑翔伞, 土耳其最佳滑翔伞, 极限运动土耳其",
+            "ar": "الطيران الشراعي في فتحية, الطيران المظلي أولودينيز, أفضل الطيران الشراعي في تركيا, الرياضات الخطرة تركيا",
+            "ru": "Парапланеризм в Фетхие, параглайдинг в Олюдениз, лучший параглайдинг в Турции, экстремальные виды спорта Турция",
+            "it": "Parapendio a Fethiye, parapendio Oludeniz, miglior parapendio Turchia, sport estremi Turchia"
+        },
+        "metaDescription": {
+            "en": "Experience the thrill of paragliding in Fethiye Oludeniz! Soar above the breathtaking Blue Lagoon and enjoy the ultimate adrenaline rush with a tandem flight.",
+            "tr": "Fethiye Ölüdeniz'de yamaç paraşütü ile heyecanı yaşayın! Mavi Lagün'ün üzerinde süzülerek unutulmaz bir adrenalin deneyimi yaşayın.",
+            "es": "¡Vive la emoción del parapente en Fethiye Oludeniz! Disfruta de vistas impresionantes de la Laguna Azul en un vuelo tándem.",
+            "zh": "体验费特希耶滑翔伞的刺激！在死海上空翱翔，享受终极肾上腺素飙升体验。",
+            "ar": "عش مغامرة الطيران الشراعي في فتحية أولودينيز! حلّق فوق البحيرة الزرقاء واستمتع بتجربة مليئة بالإثارة.",
+            "ru": "Испытайте адреналин на параплане в Фетхие Олюдениз! Парите над Голубой Лагуной и наслаждайтесь невероятными видами.",
+            "it": "Prova l'emozione del parapendio a Fethiye Oludeniz! Sorvola la Laguna Blu e vivi un'esperienza unica."
+        },
+        "thumbnailTitle": {
+            "en": "Paragliding in Oludeniz",
+            "tr": "Ölüdeniz Yamaç Paraşütü",
+            "es": "Parapente en Oludeniz",
+            "zh": "死海滑翔伞",
+            "ar": "الطيران الشراعي أولودينيز",
+            "ru": "Параглайдинг Олюдениз",
+            "it": "Parapendio a Oludeniz"
+        },
         "breadcrumbTitle": {
             "en": "Tours",
             "tr": "Turlar",
@@ -581,9 +748,33 @@ export const tourDatasTranslated = [
                 "alias": "strFreeCancellation24h",
             }
         ],
-        keywords: "",
-        metaDescription: "",
-        "thumbnailTitle": "",
+        "keywords": {
+            "en": "Paragliding in Fethiye, Oludeniz paragliding, best paragliding Turkey, tandem paragliding Fethiye, extreme sports Turkey, adventure sports Fethiye",
+            "tr": "Fethiye yamaç paraşütü, Ölüdeniz yamaç paraşütü, Türkiye’de yamaç paraşütü, tandem yamaç paraşütü Fethiye, ekstrem sporlar Türkiye",
+            "es": "Parapente en Fethiye, vuelo en parapente Oludeniz, mejor parapente Turquía, deportes extremos Fethiye",
+            "zh": "费特希耶滑翔伞, 死海滑翔伞, 土耳其最佳滑翔伞, 极限运动土耳其",
+            "ar": "الطيران الشراعي في فتحية, الطيران المظلي أولودينيز, أفضل الطيران الشراعي في تركيا, الرياضات الخطرة تركيا",
+            "ru": "Парапланеризм в Фетхие, параглайдинг в Олюдениз, лучший параглайдинг в Турции, экстремальные виды спорта Турция",
+            "it": "Parapendio a Fethiye, parapendio Oludeniz, miglior parapendio Turchia, sport estremi Turchia"
+        },
+        "metaDescription": {
+            "en": "Experience the thrill of paragliding in Fethiye Oludeniz! Soar above the breathtaking Blue Lagoon and enjoy the ultimate adrenaline rush with a tandem flight.",
+            "tr": "Fethiye Ölüdeniz'de yamaç paraşütü ile heyecanı yaşayın! Mavi Lagün'ün üzerinde süzülerek unutulmaz bir adrenalin deneyimi yaşayın.",
+            "es": "¡Vive la emoción del parapente en Fethiye Oludeniz! Disfruta de vistas impresionantes de la Laguna Azul en un vuelo tándem.",
+            "zh": "体验费特希耶滑翔伞的刺激！在死海上空翱翔，享受终极肾上腺素飙升体验。",
+            "ar": "عش مغامرة الطيران الشراعي في فتحية أولودينيز! حلّق فوق البحيرة الزرقاء واستمتع بتجربة مليئة بالإثارة.",
+            "ru": "Испытайте адреналин на параплане в Фетхие Олюдениз! Парите над Голубой Лагуной и наслаждайтесь невероятными видами.",
+            "it": "Prova l'emozione del parapendio a Fethiye Oludeniz! Sorvola la Laguna Blu e vivi un'esperienza unica."
+        },
+        "thumbnailTitle": {
+            "en": "Paragliding in Oludeniz",
+            "tr": "Ölüdeniz Yamaç Paraşütü",
+            "es": "Parapente en Oludeniz",
+            "zh": "死海滑翔伞",
+            "ar": "الطيران الشراعي أولودينيز",
+            "ru": "Параглайдинг Олюдениз",
+            "it": "Parapendio a Oludeniz"
+        },
         "breadcrumbTitle": {
             "en": "Tours",
             "tr": "Turlar",

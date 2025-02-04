@@ -27,12 +27,79 @@ class MyDocument extends Document {
     // Return the initial props provided by Document along with any custom pageProps we might have set.
     return { ...initialProps, pageProps };
   }
-  render() {
-    let { hasLanguage } = this?.props?.__NEXT_DATA__?.props?.pageProps
+  // Function to generate meta and link tags dynamically from an array of tag strings
+  // createMetaTagElements(metaTags) {
+  //   if (metaTags.length > 0) {
+  //     return metaTags.map((tagString, index) => {
 
+  //       // Match meta tags in the provided strings
+  //       const matches = tagString.match(/<meta [^>]+>/g);
+  //       if (matches) {
+  //         return matches.map((metaTag, idx) => {
+  //           const props = {};
+  //           metaTag.replace(/(\w+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g, (m, key, value) => {
+  //             props[key] = value;
+  //             return m;
+  //           });
+  //           return <meta {...props} key={`meta-${index}-${idx}`} />;
+  //         });
+  //       }
+  //       // Match meta tags in the provided strings   For link tags  
+  //       const linkMatches = tagString.match(/<link [^>]+>/g);
+  //       if (linkMatches) {
+  //         return linkMatches.map((linkTag, idx) => {
+  //           const props = {};
+  //           linkTag.replace(/(\w+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g, (m, key, value) => {
+  //             props[key] = value;
+  //             return m;
+  //           });
+  //           return <link {...props} key={`link-${index}-${idx}`} />;
+  //         });
+  //       }
+  //       return null;
+  //     });
+  //   }
+  // }
+  createMetaTagElements(metaTags = []) {
+    return metaTags.flatMap((tagString, index) => {
+      const metaTags = tagString.match(/<meta [^>]+>/g) || [];
+      const linkTags = tagString.match(/<link [^>]+>/g) || [];
+
+      return [...metaTags, ...linkTags].map((tag, idx) => {
+        const props = {};
+        tag.replace(/(\w+)=\"?([^\"\s>]+)\"?/g, (_, key, value) => {
+          props[key] = value;
+          return _;
+        });
+        const TagComponent = tag.startsWith('<meta') ? 'meta' : 'link';
+        return <TagComponent {...props} key={`${TagComponent}-${index}-${idx}`} />;
+      });
+    });
+  }
+  // Function to render JSON-LD schema scripts dynamically
+  renderSchemaScripts(schemas) {
+    return schemas?.length > 0 && schemas.map((schema, index) => (
+      <Script key={index} type="application/ld+json" strategy='beforeInteractive'>
+        {JSON.stringify(schema, null, 2)}
+      </Script>
+    ));
+  }
+  render() {
+    let { generalSchemas, metaTags = [], tourDetails, hasLanguage } = this?.props?.__NEXT_DATA__?.props?.pageProps
+    let schemasOfPages = generalSchemas || [] //home page Terms and the rest page has different schemas 
+
+
+    //checking if datas comes from single tour (tours/link.js)
+    if (tourDetails?.legth === 1) {
+      schemasOfPages = tourDetails.schema
+      metaTags = tourDetails.metaTags
+    }
     return (
       <Html lang={hasLanguage ? hasLanguage : "en"}>
-        <Head />
+        <Head >
+          {this.renderSchemaScripts(schemasOfPages)}
+          {this.createMetaTagElements(metaTags)}
+        </Head>
         <body>
           <Main />
           <NextScript />
@@ -43,5 +110,3 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
-
-

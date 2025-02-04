@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import styles from "./styles.module.scss"
 const TourJourneySummaryPanel = (props) => {
-    let { quotation, splitedDate, splitedHour, splitedMinute, selectedTour, language } = props
+    let {  splitedDate, splitedHour, splitedMinute, selectedTour, language } = props
 
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { params: { direction } } = state
@@ -15,7 +15,6 @@ const TourJourneySummaryPanel = (props) => {
     const children = tourActionState.seatLists[1].minNum
     const infants = tourActionState.seatLists[2].minNum
     const totalPrice = tourActionState.seatListPrice
-    console.log({ language, selectedTour: selectedTour[0].pageTitle[language] });
 
     return (
         <div className={`${styles.journey_summary_panel}`}>

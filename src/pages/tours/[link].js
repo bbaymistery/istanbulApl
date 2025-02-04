@@ -110,10 +110,10 @@ export async function getServerSideProps({ req, res, query }) {
 
         if (pageContent && tourDetails.length === 1) {
             const headTitle = tourDetails[0].headTitle[language]
-            const keywords = tourDetails[0].keywords
-            const metaDescription = tourDetails[0].metaDescription
+            const keywords = tourDetails[0].keywords[language]
+            const metaDescription = tourDetails[0].metaDescription[language]
             const breadcrumbTitle = tourDetails[0].breadcrumbTitle[language]
-            const thumbnailTitle = tourDetails[0].thumbnailTitle
+            const thumbnailTitle = tourDetails[0].thumbnailTitle[language]
             const pageTitle = tourDetails[0]?.pageTitle[language]
             const images = tourDetails[0]?.images
 
@@ -123,6 +123,9 @@ export async function getServerSideProps({ req, res, query }) {
             const review = 2000
             const price = tourDetails[0].price
 
+            // let schemaOfTourDetails = datas.data?.schema || []
+            // schemaOfTourDetails = Object.keys(schemaOfTourDetails).map(key => ({ [key]: schemaOfTourDetails[key] }));//array of objects [b:{ab:"1"},c:{ab:"2"},d:{ab:"3"}]
+            // schemaOfTourDetails = schemaOfTourDetails.map(obj => Object.values(obj)[0]);//Output: ["1", "2", "3"]
             //this is where we destruct for the sake of ceo  
             let finalTourDetails = { headTitle, keywords, metaDescription, breadcrumbTitle, thumbnailTitle, pageTitle, images, duration, snapshots, review, price }
             return {
