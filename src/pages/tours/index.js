@@ -4,7 +4,7 @@ import styles from "./styles.module.scss"
 import Image from 'next/image'
 import Button from '../../components/elements/Button/Button'
 import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes'
-import { tourDatasTranslated } from './transltatedTourDatas'
+import { tourDatasTranslated } from '../../constants/transltatedTourDatas'
 
 
 const  Tours = (props) => {

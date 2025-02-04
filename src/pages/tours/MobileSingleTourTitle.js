@@ -1,30 +1,18 @@
+/**
+ * Renders a mobile-optimized title section for a single tour page, including the tour title and a review summary.
+ *
+ * @param {Object} finalTourDetails - An object containing the final tour details, including the `pageTitle` property.
+ * @param {string} review - The review rating for the tour, displayed as a star rating.
+ * @param {Object} appData - An object containing app-wide data, including the "strReviews" string.
+ * @returns {JSX.Element} - The rendered mobile single tour title section.
+ */
 import React from 'react'
 import styles from "./singletour.module.scss"
-/**
- * MobileSingleTourTitle Component
- *
- * This component displays the title of the tour along with the review rating on mobile screens.
- *
- * Props:
- * @param {Object} tourDetails - Contains details about the selected tour.
- * @param {number} review - Number of reviews for the tour.
- * @param {Object} appData - Contains UI translations and other app-wide data.
- * @param {string} language - Current language for translation.
- *
- * Features:
- * - Displays the tour title dynamically based on the selected language.
- * - Shows a 5-star rating representation along with the total number of reviews.
- * - The review section is linked to an external review site.
- *
 
- * Functionality:
- * - The title is extracted from `tourDetails[0]?.pageTitle[language]`.
- * - The review count is dynamically displayed with localized text.
- * - The review section provides a link to an external review platform.
- */
 
-const MobileSingleTourTitle = ({ tourDetails, review, appData, language }) => {
-    const pageTitle = tourDetails[0]?.pageTitle[language]
+const MobileSingleTourTitle = ({ finalTourDetails, review, appData }) => {
+
+    let {pageTitle}=finalTourDetails
     return (
         <div className={`${styles.title_div_mobile}`}>
             <h1>{pageTitle} </h1>

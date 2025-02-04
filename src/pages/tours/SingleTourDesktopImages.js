@@ -4,37 +4,21 @@ import Button from '../../components/elements/Button/Button'
 import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes'
 import { Skeleton } from '../../components/elements/Skeleton'
 
-/**
- * SingleTourDesktopImages Component
- *
- * This component is responsible for displaying tour images in a grid format on desktop screens.
- * It shows up to four images and provides a button to view all images in a modal.
- *
- * Props:
- * @param {boolean} loadAlert - Indicates whether the data is still loading.
- * @param {Function} setshouldShowModal - Function to open the image modal.
- * @param {Object} appData - Contains UI translations and other app-wide data.
- * @param {Object} tourDetails - Tour details, including images.
- *
- * Features:
- * - Displays up to 4 images in a grid format.
- * - Shows a skeleton loader while images are being fetched.
- * - The last image slot contains a button to open the modal for all images.
- *
- * UI Components:
- * - `Skeleton` - Displays a placeholder while loading images.
- * - `Button` - Allows users to open the image modal.
- *
- * Functionality:
- * - If `loadAlert` is true, a skeleton loader is displayed.
- * - Images are displayed dynamically from `tourDetails[0]?.images`.
- * - When the fourth image is reached, a button is rendered to show all images in a modal.
- */
 
-const SingleTourDesktopImages = ({  loadAlert, setshouldShowModal, appData ,tourDetails}) => {
-    
-    const images = tourDetails[0]?.images
-    
+
+/**
+ * Renders a component that displays a gallery of up to 4 images for a single tour, with a button to view all photos.
+ *
+ * @param {object} props - The component props.
+ * @param {boolean} props.loadAlert - Indicates whether the images are being loaded.
+ * @param {function} props.setshouldShowModal - A function to set whether the modal should be shown.
+ * @param {object} props.appData - The app data, including the "strSeeAllPhotos" string.
+ * @param {object} props.finalTourDetails - The final tour details, including the `images` array.
+ * @returns {JSX.Element} - The rendered SingleTourDesktopImages component.
+ */
+const SingleTourDesktopImages = ({ loadAlert, setshouldShowModal, appData, finalTourDetails }) => {
+
+    let { images } = finalTourDetails
     return (
         <div className={styles.images}>
             <div className={styles.images_content}>

@@ -6,31 +6,20 @@ import ReusableModal from '../../components/elements/ReusableModal'
 import Slider from '../../components/elements/Slider'
 import { Skeleton } from '../../components/elements/Skeleton'
 import styles from "./singletour.module.scss"
+
 /**
- * MobileSnapshotAndSlider Component
- * 
- * This component is responsible for:
- * - Displaying a mobile-friendly image slider for a tour.
- * - Allowing users to view images in a modal.
- * - Showing tour title, review count, pricing, and key highlights.
- * 
- * Props:
- * @param {Object} props - Component properties.
- * @param {boolean} props.loadAlert - Flag indicating whether the tour details are loading.
- * @param {Object} props.appData - Contains UI translations and other app-wide data.
- * @param {string} props.language - The selected language for translations.
- * @param {Array} props.tourDetails - Array containing tour information.
+ * Renders a mobile-friendly snapshot and slider component for a tour.
+ *
+ * @param {Object} props - The component props.
+ * @param {boolean} props.loadAlert - Indicates whether the content is being loaded.
+ * @param {Object} props.appData - The application data.
+ * @param {string} props.language - The current language.
+ * @param {Object} props.finalTourDetails - The details of the tour.
+ * @returns {JSX.Element} - The rendered component.
  */
 const MobileSnapshhotAndSlider = (props) => {
-    let { loadAlert, appData, language, tourDetails } = props
-
-    //destructuring tourDetails
-    const pageTitle = tourDetails[0]?.pageTitle[language]
-    const duration = tourDetails[0].duration[language]
-    const snapshots = tourDetails[0]?.snapshots
-    const review = 2000
-    const price = tourDetails[0].price
-    const images = tourDetails[0]?.images
+    let { loadAlert, appData, language, finalTourDetails, } = props
+    let { pageTitle,duration,snapshots ,review,price,images} = finalTourDetails
 
     //state management for slider navigation
     const [index, setIndex] = useState(0);

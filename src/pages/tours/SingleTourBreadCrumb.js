@@ -1,8 +1,16 @@
+/**
+ * Renders a breadcrumb navigation component for a single tour page.
+ *
+ * @param {Object} finalTourDetails - An object containing details about the tour, including the breadcrumb title and thumbnail title.
+ * @param {boolean} loadAlert - A flag indicating whether to show a loading alert.
+ * @param {Object} appData - An object containing application data, including the localized text for the "Home" navigation link.
+ * @returns {JSX.Element} - The rendered breadcrumb navigation component.
+ */
 import React from 'react'
 import styles from "./singletour.module.scss"
-const SingleTourBreadCrumb = ({ tourDetails, loadAlert, appData, language }) => {
-  const breadcrumbTitle = tourDetails[0].breadcrumbTitle[language]
-  const thumbnailTitle = tourDetails[0].thumbnailTitle
+const SingleTourBreadCrumb = ({ finalTourDetails, loadAlert, appData }) => {
+
+  let {breadcrumbTitle,thumbnailTitle}=finalTourDetails
   return (
     <div className={`${styles.descriptions}`}>
       <div className={`page_section`}>

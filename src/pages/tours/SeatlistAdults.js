@@ -62,8 +62,6 @@ const SeatlistAdults = (props) => {
     /** Booking Process **/
     const handleBookNow = () => {
 
-        console.log(tourDetails);
-
         if (+seatListPrice > 0) {
             dispatch({ type: "SET_TOUR_QUOTATION", data: { selectedTour: tourDetails } })
             router.push(`${language === 'en' ? "/tour_customer_details" : `${language}/tour_customer_details`}`)
