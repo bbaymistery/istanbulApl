@@ -19,6 +19,7 @@ const GlobalLayout = ({ children, title = "APL Transfers", description = "Salam"
         <meta name="googlebot" content="noindex" />
         <meta name="robots" content="noindex" />
         <meta name="copyright" content={`Copyright APL transfers ${currentYear}. All rights reserved.`} />
+        <meta name="author" content="Istanbul APL Transfers\" />
 
         {/* <meta name="googlebot" content="index" /> */}
         {/* <meta name="robots" content="index,follow" /> */}

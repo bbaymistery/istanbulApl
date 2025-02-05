@@ -13,7 +13,7 @@ const manualConfig = { //for backup file in case i cant reach configurationjson 
 const getEnvConfig = (config) => {
     const isDevelopment = false; // localohst -> true || live -> false
     return {
-        websiteDomain: isDevelopment ? "http://localhost:3500" : "https://www.airport-pickups-london.com",
+        websiteDomain: isDevelopment ? "http://localhost:3500" : "https://www.example.com",
         apiDomain: config?.API_SERVER_ORIGIN || manualConfig.API_SERVER_ORIGIN, // Use API domain from config or manual fallback
         status: {
             success: 200,

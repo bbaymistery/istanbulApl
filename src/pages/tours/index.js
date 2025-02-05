@@ -22,9 +22,6 @@ const  Tours = (props) => {
     const handleViewAllClick = () => setViewAll(!viewAll);
 
 
-
-
-
     return (
         <div className={`${styles.tours} ${direction} page`}>
             <div className={`${styles.tours_section} page_section`}>
@@ -81,16 +78,3 @@ const  Tours = (props) => {
 }
 
 export default Tours
-export async function getServerSideProps({ req, res }) {
-    // let firstLoadLangauge = checkLanguageAttributeOntheUrl(req?.url)
-    // const { cookie } = req.headers;
-    // let { pathname } = parse(req?.url, true)
-    // let pathnameUrlWHenChangeByTopbar = pathname
-    // let pathNameUrlCanonical = "/tours"
-    // let { canonicalUrl: mainCanonicalUrl } =
-    //     await fetchContent("/", cookie, firstLoadLangauge, pathnameUrlWHenChangeByTopbar, pathNameUrlCanonical)
-
-    return {
-        props: {}
-    }
-}
