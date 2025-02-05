@@ -6101,7 +6101,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
         es:  [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
