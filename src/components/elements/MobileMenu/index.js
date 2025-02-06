@@ -1,5 +1,5 @@
 import React from 'react'
-import { navigatorMobile } from '../../../constants/navigatior'
+import { navigator } from '../../../constants/navigatior'
 import Link from 'next/link';
 import styles from "./styles.module.scss";
 import { useRouter } from 'next/router';
@@ -9,7 +9,7 @@ const MobileMenu = (({ handleClickNavLinkMobileMenuNotList, language, handleClic
     return (
         <div className={`${styles.header_content_menu_mobile} ${openMenu ? styles.active_header_content_menu_mobile : ""} `}>
             <ul className={styles.menu_content_ul}>
-                {navigatorMobile.map((item, index) => {
+                {navigator.map((item, index) => {
                     let { path, innerText, list, type, title, firstChild, strInnerText } = item
                     return (
                         <li key={innerText} className={`${styles.li_item} ${type === "list" ? styles.has_children : ""}`} id="navLink">

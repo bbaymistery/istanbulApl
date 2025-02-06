@@ -37,7 +37,7 @@ const  Tours = (props) => {
                                     return (
                                         <a href={`${language === "en" ? "" : `${language}`}${item.pathname}`} title={item?.pageTitle} className={`${styles.card}`} key={item.tourDealId}>
                                             <div className={styles.card_image_div}>
-                                                <Image src={`${item.images[0]}`} className={styles.img} fill alt={item.headTitle} sizes="(max-width: 768px) 100vw, 50vw" />
+                                                <Image src={`${item.images[0]}`} className={styles.img} fill alt={item.headTitle[language]} sizes="(max-width: 768px) 100vw, 50vw" />
                                             </div>
                                             <div className={styles.card_body}>
                                                 <h3>{item.pageTitle[language]}</h3>

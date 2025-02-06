@@ -1,21 +1,19 @@
-import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
-import { useSelector } from "react-redux";
 import GlobalLayout from "../../components/layouts/GlobalLayout";
-import Error404 from '../404/index';
-import MobileSingleTourTitle from './MobileSingleTourTitle';
-import MobileSnapshhotAndSlider from './MobileSnapshhotAndSlider';
-import styles from "./singletour.module.scss";
-import SingleTourBreadCrumb from './SingleTourBreadCrumb';
-import SingleTourDesktopImages from './SingleTourDesktopImages';
-import SeatlistAdults from './SeatlistAdults';
 import { getTourByPathname, getTourMetaTagsByPathname, getTourPageContentByPathname } from '../../constants/transltatedTourDatas';
 import { parseCookies } from '../../helpers/cokieesFunc';
 import { parse } from 'url';
 import { checkLanguageAttributeOntheUrl } from '../../helpers/checkLanguageAttributeOntheUrl';
 import { fetchConfig } from '../../resources/getEnvConfig';
-import Head from 'next/head';
 import { useWindowSize } from '../../hooks/useWindowSize';
+import { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
+import Head from "next/head";
+import SeatlistAdults from "./SeatlistAdults";
+import MobileSnapshhotAndSlider from "./MobileSnapshhotAndSlider";
+import SingleTourDesktopImages from "./SingleTourDesktopImages";
+import MobileSingleTourTitle from "./MobileSingleTourTitle";
+import SingleTourBreadCrumb from "./SingleTourBreadCrumb";
+import styles from "./singletour.module.scss";
 
 const TourContentDetails = (props) => {
 
@@ -23,7 +21,6 @@ const TourContentDetails = (props) => {
     if (data === 'not found') {
         return <Error404 />
     }
-
     let { finalTourDetails, pageContent, tourDetails } = props
     let { headTitle, keywords, metaDescription, metaTags } = finalTourDetails
 
@@ -34,6 +31,8 @@ const TourContentDetails = (props) => {
     const pickUpDropOffActions = useSelector(state => (state.pickUpDropOffActions));
     const { params: { language, direction }, reservations } = pickUpDropOffActions;
     let transferDate = reservations[0]?.transferDetails?.transferDateTimeString;
+
+    console.log({ language });
 
     const createMetaTagElements = (metaTags) => {
         if (metaTags.length > 0) {
@@ -72,12 +71,11 @@ const TourContentDetails = (props) => {
 
     useEffect(() => {
         setLoadAlert(true);
-        const timer = setTimeout(() => { setLoadAlert(false) }, 800);
+        const timer = setTimeout(() => { setLoadAlert(false) }, 1200);
         return () => clearTimeout(timer);
     }, [language]);
-
     return (
-        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription}>
+        <GlobalLayout   title={headTitle} keywords={keywords} description={metaDescription}>
             <Head>
                 {createMetaTagElements(metaTags)}
             </Head>
@@ -114,14 +112,13 @@ function adjustPathnameForLanguage(pathname, pageStartLanguage, cookies) {
     }
     return { pathname, pageStartLanguage };
 }
-export async function getServerSideProps({ req, res, query }) {
+export async function getServerSideProps({ req, res, query, resolvedUrl }) {
 
-    let loadingDatas = true
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
     const env = await fetchConfig(); // Fetch environment-specific configuration (e.g., API keys)
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
 
     // URL'yi al ve küçük harfe çevirerek kontrol et
-    const resolvedUrl = req.url || '';
+    // const resolvedUrl = req.url || '';
     const lowerCaseUrl = resolvedUrl.toLowerCase();
 
     if (resolvedUrl !== lowerCaseUrl) {
@@ -133,7 +130,6 @@ export async function getServerSideProps({ req, res, query }) {
 
     //get cookie and pathnames
     let cookies = parseCookies(req.headers.cookie);
-
     let { pathname } = parse(req.url, true)
     let pageStartLanguage = checkLanguageAttributeOntheUrl(req?.url)
 
@@ -144,17 +140,15 @@ export async function getServerSideProps({ req, res, query }) {
 
     const tourDetails = getTourByPathname(`${pathname}`);
 
-
-
     if (tourDetails.length !== 1) {
         return {
-            props: { data: "not found", loadingDatas: false }
+            props: { data: "not found" }
         };
     } else {
         //!Check point try to  pass below datas to client side in order to not ruin the order keywords titles metaga canonical tags
         let language = pageStartLanguage;
         const pageContent = getTourPageContentByPathname(`${pathname}`, language);
-        const metaTags = await getTourMetaTagsByPathname(pathname, language, env);
+        const metaTags = getTourMetaTagsByPathname(pathname, language, env);
         const headTitle = tourDetails[0].headTitle[language]
         const keywords = tourDetails[0].keywords[language]
         const metaDescription = tourDetails[0].metaDescription[language]
@@ -172,9 +166,10 @@ export async function getServerSideProps({ req, res, query }) {
         let finalTourDetails = { headTitle, keywords, metaDescription, breadcrumbTitle, thumbnailTitle, pageTitle, images, duration, snapshots, review, price, metaTags }
         return {
             //we pass tourdetails fot adding inside redux generally all together
-            props: { tourDetails, pageContent, finalTourDetails, loadingDatas }
+            props: { tourDetails, pageContent, finalTourDetails }
         };
     }
+
 }
 
 
