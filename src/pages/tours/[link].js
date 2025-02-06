@@ -149,10 +149,9 @@ export async function getServerSideProps({ req, res, query }) {
         };
     } else {
         //!Check point try to  pass below datas to client side in order to not ruin the order keywords titles metaga canonical tags
-        let language = cookies['lang'] || 'en';
+        let language = pageStartLanguage;
         const pageContent = getTourPageContentByPathname(`${pathname}`, language);
         const metaTags = await getTourMetaTagsByPathname(pathname, language, env);
-
         const headTitle = tourDetails[0].headTitle[language]
         const keywords = tourDetails[0].keywords[language]
         const metaDescription = tourDetails[0].metaDescription[language]
