@@ -8,12 +8,17 @@
  */
 import React from 'react'
 import styles from "./singletour.module.scss"
+import { Skeleton } from '../../components/elements/Skeleton'
 
 
-const MobileSingleTourTitle = ({ finalTourDetails, review, appData }) => {
+const MobileSingleTourTitle = ({ finalTourDetails, review, appData, loadAlert }) => {
 
-    let {pageTitle}=finalTourDetails
-    return (
+    let { pageTitle } = finalTourDetails
+    return (loadAlert ?
+        <div style={{ height: "30px", background: "#eae6e6" }}>
+            <Skeleton />
+        </div>
+        :
         <div className={`${styles.title_div_mobile}`}>
             <h1>{pageTitle} </h1>
             <div className={styles.title_div_mobile_description}>
@@ -27,6 +32,7 @@ const MobileSingleTourTitle = ({ finalTourDetails, review, appData }) => {
                 </a>
             </div>
         </div>
+
     )
 }
 

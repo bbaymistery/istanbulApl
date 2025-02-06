@@ -15,6 +15,7 @@ import { parse } from 'url';
 import { checkLanguageAttributeOntheUrl } from '../../helpers/checkLanguageAttributeOntheUrl';
 import { fetchConfig } from '../../resources/getEnvConfig';
 import Head from 'next/head';
+import { useWindowSize } from '../../hooks/useWindowSize';
 
 const TourContentDetails = (props) => {
 
@@ -25,8 +26,6 @@ const TourContentDetails = (props) => {
 
     let { finalTourDetails, pageContent, tourDetails } = props
     let { headTitle, keywords, metaDescription, metaTags } = finalTourDetails
-    console.log({ finalTourDetails });
-    console.log({ pageContent });
 
     const [loadAlert, setLoadAlert] = useState(true);
     const initialReducer = useSelector(state => (state.initialReducer));
@@ -69,32 +68,33 @@ const TourContentDetails = (props) => {
         }
     }
 
-    // Loading animation delay
+    const { width } = useWindowSize();
+
     useEffect(() => {
-        if (loadAlert) setTimeout(() => setLoadAlert(false), 550);
+        setLoadAlert(true);
+        const timer = setTimeout(() => { setLoadAlert(false) }, 800);
+        return () => clearTimeout(timer);
     }, [language]);
-
-
 
     return (
         <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription}>
             <Head>
-                {/* {createMetaTagElements(metaTags)} */}
+                {createMetaTagElements(metaTags)}
             </Head>
             <div className={`page ${styles.page} `}>
                 <SingleTourBreadCrumb finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} />
                 <div className={`page_section ${styles.page_section} `}  >
                     <div className={`page_section_container ${styles.page_section_container} `} style={{ display: "flex", flexDirection: "column" }} >
-                        <div className={styles.wrapper}>
+                        <div id="Wrapper" className={styles.wrapper}>
                             {/*visible on mobile*/}
-                            {/* <MobileSingleTourTitle finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} /> */}
+                            {width <= 990 ? <MobileSingleTourTitle finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} /> : null}
                             {/*visible on desktop not mobile */}
-                            {/* <SingleTourDesktopImages finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} /> */}
+                            <SingleTourDesktopImages finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} />
                             {/*display block at the 700px =>for mobile visible*/}
-                            {/* <MobileSnapshhotAndSlider finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} language={language} /> */}
+                            {<MobileSnapshhotAndSlider finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} />}
                             {/* adults children infants count component */}
-                            {/* <SeatlistAdults language={language} appData={appData} transferDate={transferDate} direction={direction} tourDetails={tourDetails} /> */}
-                            {/* <div className={`${styles.page_content} `} dangerouslySetInnerHTML={{ __html: pageContent }} /> */}
+                            <SeatlistAdults language={language} appData={appData} transferDate={transferDate} direction={direction} tourDetails={tourDetails} />
+                            <div className={`${styles.page_content} `} dangerouslySetInnerHTML={{ __html: pageContent }} />
                         </div>
                     </div>
                 </div>
@@ -115,6 +115,8 @@ function adjustPathnameForLanguage(pathname, pageStartLanguage, cookies) {
     return { pathname, pageStartLanguage };
 }
 export async function getServerSideProps({ req, res, query }) {
+
+    let loadingDatas = true
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
     const env = await fetchConfig(); // Fetch environment-specific configuration (e.g., API keys)
 
@@ -146,7 +148,7 @@ export async function getServerSideProps({ req, res, query }) {
 
     if (tourDetails.length !== 1) {
         return {
-            props: { data: "not found" }
+            props: { data: "not found", loadingDatas: false }
         };
     } else {
         //!Check point try to  pass below datas to client side in order to not ruin the order keywords titles metaga canonical tags
@@ -170,7 +172,7 @@ export async function getServerSideProps({ req, res, query }) {
         let finalTourDetails = { headTitle, keywords, metaDescription, breadcrumbTitle, thumbnailTitle, pageTitle, images, duration, snapshots, review, price, metaTags }
         return {
             //we pass tourdetails fot adding inside redux generally all together
-            props: { tourDetails, pageContent, finalTourDetails }
+            props: { tourDetails, pageContent, finalTourDetails, loadingDatas }
         };
     }
 }

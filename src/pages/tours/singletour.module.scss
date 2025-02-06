@@ -52,11 +52,11 @@
                     }
 
                     h1 {
-                        font-size: 30px;
+                        font-size: 26px;
                         margin-top: 1rem;
 
                         @media (max-width:480px) {
-                            font-size: 22px;
+                            font-size: 20px;
                         }
 
                     }
@@ -204,7 +204,7 @@
                         .title_div {
                             h1 {
                                 font-weight: 500;
-                                font-size: 30px;
+                                font-size:28px;
                                 margin-top: 1.5rem;
                             }
 
@@ -247,8 +247,6 @@
                         }
                     }
 
-
-
                     .snapshot_title {
                         margin-top: 2rem;
                         font-weight: 500;
@@ -267,6 +265,7 @@
                         @media (max-width: 768px) {
                             display: grid;
                             grid-template-columns: 1fr 1fr;
+
                         }
 
                         @media (max-width: 520px) {

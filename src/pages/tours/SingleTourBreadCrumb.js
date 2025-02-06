@@ -8,20 +8,25 @@
  */
 import React from 'react'
 import styles from "./singletour.module.scss"
+import { Skeleton } from '../../components/elements/Skeleton'
 const SingleTourBreadCrumb = ({ finalTourDetails, loadAlert, appData }) => {
-
   let { breadcrumbTitle, thumbnailTitle } = finalTourDetails
   return (
     <div className={`${styles.descriptions}`}>
       <div className={`page_section`}>
         <div className={`page_section_container ${styles.page_section_container}`} >
-          <div className={styles.links}>
-            <p><a href="/">{appData?.words["strNavHome"]}</a></p>
-            <p> {`>`} </p>
-            <p> <a href="/tours">{breadcrumbTitle}</a></p>
-            {loadAlert ? <></> : <p > {`>`} </p>}
-            {loadAlert ? "..." : <p >{thumbnailTitle} </p>}
-          </div>
+          {loadAlert ?
+            <div style={{ background: "#eae6e6",height:"20px",width:'20%' }}>
+              <Skeleton />
+            </div>
+            :
+            <div className={styles.links}>
+              <p> <a href="/">{appData?.words["strNavHome"]}</a></p>
+              <p > {`>`} </p>
+              <p> <a href="/tours">{breadcrumbTitle}</a></p>
+              <p > {`>`} </p>
+              <p >{thumbnailTitle} </p>
+            </div>}
         </div>
       </div>
     </div>

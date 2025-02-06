@@ -19,7 +19,7 @@ import styles from "./singletour.module.scss"
  */
 const MobileSnapshhotAndSlider = (props) => {
     let { loadAlert, appData, language, finalTourDetails, } = props
-    let { pageTitle,duration,snapshots ,review,price,images} = finalTourDetails
+    let { pageTitle, duration, snapshots, review, price, images } = finalTourDetails
 
     //state management for slider navigation
     const [index, setIndex] = useState(0);
@@ -32,8 +32,8 @@ const MobileSnapshhotAndSlider = (props) => {
 
     // Set slider images once component mounts
     useEffect(() => {
-         setSliderItems(images)
-         }, [images]);
+        setSliderItems(images)
+    }, [images]);
 
     useEffect(() => {
         const lastIndex = sliderItems.length - 1;
@@ -77,10 +77,9 @@ const MobileSnapshhotAndSlider = (props) => {
                             <i className="fa-solid fa-star-half-stroke"></i>
                             <span>{review} {appData?.words["strReviews"]}</span>
                         </a>
-
                     </div>
                 </div>
-                <div className={styles.start_from_price_btn_div}>
+                {/* <div className={styles.start_from_price_btn_div}>
                     <div className={styles.start_from_price_btn_div_content}>
                         {appData?.words["strStartFrom"]}
                         {loadAlert ?
@@ -89,9 +88,15 @@ const MobileSnapshhotAndSlider = (props) => {
                             </span>
                             : <span >{price}</span>}
                     </div>
-                    <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: '6px 5px' }} btnText={allTranslations.strPerPerson[language]} icon={<i className="fa-solid fa-arrow-down"></i>} iconPos='RIGHT' />
-                </div>
+                    <Button
+                        type={BUTTON_TYPES.PRIMARY_OUTLINE}
+                        style={{ padding: '6px 5px' }}
+                         btnText={allTranslations["strPerPerson"][language]}
+                          icon={<i className="fa-solid fa-arrow-down"></i>} 
+                          iconPos='RIGHT' />
+                </div> */}
             </div>
+
             <h3 className={styles.snapshot_title}>
                 {appData?.words["strTourSnapshot"]}
             </h3>
@@ -99,10 +104,10 @@ const MobileSnapshhotAndSlider = (props) => {
                 {Array.isArray(snapshots) && snapshots.slice(0, 4).map((snapshot, index) => (
                     <div key={index} className={styles.snapshot_icons_div}>
                         <i className={`${snapshot.icon}`}></i>
-                        <div className={styles.snapshot_icons_div_description}>
-                            {loadAlert ? "..." : index === 2 ? appData?.words["strLuxuryCars"] : appData?.words[snapshot.alias]}
+                        {loadAlert ? "..." : <div className={styles.snapshot_icons_div_description}>
+                            {index === 2 ? appData?.words["strLuxuryCars"] : appData?.words[snapshot.alias]}
                             &nbsp;  {index === 0 ? duration : null}
-                        </div>
+                        </div>}
                     </div>
                 ))}
             </div>
