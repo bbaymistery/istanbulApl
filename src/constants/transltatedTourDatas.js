@@ -30,7 +30,7 @@ export const getTourPageContentByPathname = (pathname, language) => {
  * @param {string} env - The environment configuration
  * @returns {Promise<Array>} Array of meta tags for the specified tour page and language
  */
-export const getTourMetaTagsByPathname = async (pathname, language, env) => {
+export const getTourMetaTagsByPathname =  (pathname, language, env) => {
     const metaTagsData = getMetatagsForSingleTourPages(env); // Get all meta tag data
     return metaTagsData[pathname]?.[language] || []; // Return the meta tags for the specific pathname and language
 };

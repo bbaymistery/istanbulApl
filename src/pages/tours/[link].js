@@ -25,7 +25,8 @@ const TourContentDetails = (props) => {
 
     let { finalTourDetails, pageContent, tourDetails } = props
     let { headTitle, keywords, metaDescription, metaTags } = finalTourDetails
-
+    console.log({ finalTourDetails });
+    console.log({ pageContent });
 
     const [loadAlert, setLoadAlert] = useState(true);
     const initialReducer = useSelector(state => (state.initialReducer));
@@ -78,7 +79,7 @@ const TourContentDetails = (props) => {
     return (
         <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription}>
             <Head>
-                {createMetaTagElements(metaTags)}
+                {/* {createMetaTagElements(metaTags)} */}
             </Head>
             <div className={`page ${styles.page} `}>
                 <SingleTourBreadCrumb finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} />
@@ -86,14 +87,14 @@ const TourContentDetails = (props) => {
                     <div className={`page_section_container ${styles.page_section_container} `} style={{ display: "flex", flexDirection: "column" }} >
                         <div className={styles.wrapper}>
                             {/*visible on mobile*/}
-                            <MobileSingleTourTitle finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} />
+                            {/* <MobileSingleTourTitle finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} /> */}
                             {/*visible on desktop not mobile */}
-                            <SingleTourDesktopImages finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} />
+                            {/* <SingleTourDesktopImages finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} /> */}
                             {/*display block at the 700px =>for mobile visible*/}
-                            <MobileSnapshhotAndSlider finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} language={language} />
+                            {/* <MobileSnapshhotAndSlider finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} language={language} /> */}
                             {/* adults children infants count component */}
-                            <SeatlistAdults language={language} appData={appData} transferDate={transferDate} direction={direction} tourDetails={tourDetails} />
-                            <div className={`${styles.page_content} `} dangerouslySetInnerHTML={{ __html: pageContent }} />
+                            {/* <SeatlistAdults language={language} appData={appData} transferDate={transferDate} direction={direction} tourDetails={tourDetails} /> */}
+                            {/* <div className={`${styles.page_content} `} dangerouslySetInnerHTML={{ __html: pageContent }} /> */}
                         </div>
                     </div>
                 </div>
