@@ -14,6 +14,7 @@ import SingleTourDesktopImages from "./SingleTourDesktopImages";
 import MobileSingleTourTitle from "./MobileSingleTourTitle";
 import SingleTourBreadCrumb from "./SingleTourBreadCrumb";
 import styles from "./singletour.module.scss";
+import { singleTourSchema, tourDescriptionName } from "./schema";
 
 const TourContentDetails = (props) => {
 
@@ -21,8 +22,9 @@ const TourContentDetails = (props) => {
     if (data === 'not found') {
         return <Error404 />
     }
-    let { finalTourDetails, pageContent, tourDetails } = props
+    let { finalTourDetails, pageContent, tourDetails, } = props
     let { headTitle, keywords, metaDescription, metaTags } = finalTourDetails
+    console.log(tourDetails);
 
     const [loadAlert, setLoadAlert] = useState(true);
     const initialReducer = useSelector(state => (state.initialReducer));
@@ -32,7 +34,6 @@ const TourContentDetails = (props) => {
     const { params: { language, direction }, reservations } = pickUpDropOffActions;
     let transferDate = reservations[0]?.transferDetails?.transferDateTimeString;
 
-    console.log({ language });
 
     const createMetaTagElements = (metaTags) => {
         if (metaTags.length > 0) {
@@ -75,7 +76,7 @@ const TourContentDetails = (props) => {
         return () => clearTimeout(timer);
     }, [language]);
     return (
-        <GlobalLayout   title={headTitle} keywords={keywords} description={metaDescription}>
+        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription}>
             <Head>
                 {createMetaTagElements(metaTags)}
             </Head>
@@ -145,7 +146,10 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
             props: { data: "not found" }
         };
     } else {
-        //!Check point try to  pass below datas to client side in order to not ruin the order keywords titles metaga canonical tags
+
+
+
+
         let language = pageStartLanguage;
         const pageContent = getTourPageContentByPathname(`${pathname}`, language);
         const metaTags = getTourMetaTagsByPathname(pathname, language, env);
@@ -163,10 +167,32 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
         const review = 2000
         const price = tourDetails[0].price
 
-        let finalTourDetails = { headTitle, keywords, metaDescription, breadcrumbTitle, thumbnailTitle, pageTitle, images, duration, snapshots, review, price, metaTags }
+
+        //!Handling schema 
+        const schemaData = singleTourSchema(
+            env,
+            pathname,
+            language,
+            200,
+            tourDescriptionName[pathname].tourName[language],
+            tourDescriptionName[pathname].description[language],
+            new Date().toISOString()
+        );
+        let schemaOfTourDetails = schemaData || []
+        schemaOfTourDetails = Object.keys(schemaOfTourDetails).map(key => ({ [key]: schemaOfTourDetails[key] }));//array of objects [b:{ab:"1"},c:{ab:"2"},d:{ab:"3"}]
+        schemaOfTourDetails = schemaOfTourDetails.map(obj => Object.values(obj)[0]);//Output: ["1", "2", "3"]
+
+        tourDetails[0].schema = schemaOfTourDetails;
+        console.log(tourDetails);
+
+        let finalTourDetails = {
+            headTitle, keywords, metaDescription, breadcrumbTitle,
+            thumbnailTitle, pageTitle, images, duration, snapshots,
+            review, price, metaTags,
+        }
         return {
             //we pass tourdetails fot adding inside redux generally all together
-            props: { tourDetails, pageContent, finalTourDetails }
+            props: { tourDetails, pageContent, finalTourDetails, }
         };
     }
 

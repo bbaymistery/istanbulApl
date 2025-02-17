@@ -149,6 +149,8 @@ function MyApp({ Component, pageProps }) {
 
   }, [router.asPath])
 
+
+  //scrolling useEffect
   useEffect(() => {
     // Restore scroll position on page load
     restoreScrollPosition();

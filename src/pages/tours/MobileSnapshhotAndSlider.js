@@ -69,7 +69,7 @@ const MobileSnapshhotAndSlider = (props) => {
                         </div>
                     </h1> : <h1>{pageTitle} </h1>}
                     <div className={styles.title_div_description}>
-                        <a href="https://www.reviews.co.uk/company-reviews/store/airport-pickups-london-com" target={"_blank"} title="Airport Pickups London Reviews" className={styles.reviews} rel="noreferrer"   >
+                        <a style={{ color: "black" }} href="https://www.reviews.co.uk/company-reviews/store/airport-pickups-london-com" target={"_blank"} title="Airport Pickups London Reviews" className={styles.reviews} rel="noreferrer"   >
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>

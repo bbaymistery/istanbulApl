@@ -88,7 +88,7 @@ export const allTranslations = {
     zh: "每人",
     ar: "لكل شخص"
   },
-  strLeadPassengerName:{
+  strLeadPassengerName: {
     en: "Lead Passenger Name",
     tr: " Yolcu Adı",
     ru: "Имя главного пассажира",
@@ -96,5 +96,32 @@ export const allTranslations = {
     it: "Nome del Passeggero Principale",
     zh: "主乘客姓名",
     ar: "اسم الراكب الرئيسي"
+  },
+  strOurOffices: {
+    en: "Our Offices",
+    tr: "Ofislerimiz",
+    ru: "Наши офисы",
+    es: "Nuestras Oficinas",
+    it: "I Nostri Uffici",
+    zh: "我们的办公室",
+    ar: "مكاتبنا"
+  },
+  strEurope: {
+    en: "Europe",
+    tr: "Avrupa",
+    ru: "Европа",
+    es: "Europa",
+    it: "Europa",
+    zh: "欧洲",
+    ar: "أوروبا"
+  },
+  strQuickLinks: {
+    en: "Quick Links",
+    tr: "Hızlı Bağlantılar",
+    ru: "Быстрые ссылки",
+    es: "Enlaces Rápidos",
+    it: "Link Veloci",
+    zh: "快速链接",
+    ar: "روابط سريعة"
   }
 };

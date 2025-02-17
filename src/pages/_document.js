@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 class MyDocument extends Document {
   // This is a static method in the CustomDocument class that fetches initial properties before rendering the document.
@@ -76,7 +77,7 @@ class MyDocument extends Document {
 
     //checking if datas comes from single tour (tours/link.js)
     if (tourDetails?.length === 1) {
-      schemasOfPages = tourDetails.schema
+      schemasOfPages = tourDetails[0].schema
       // metaTags = [...tourDetails[0].metaTags]
     }
 

@@ -217,7 +217,7 @@ export const tourDatasTranslated = [
             "en": "Fethiye Oludeniz Boat Tour, Oludeniz boat trip, Blue Lagoon boat tour, Fethiye cruise, boat tour Turkey, Oludeniz yacht tour, best boat trips Fethiye",
             "tr": "Fethiye Ölüdeniz Tekne Turu, Ölüdeniz tekne turu, Mavi Lagün turu, Fethiye yat turu, Türkiye'deki en iyi tekne turları",
             "es": "Tour en barco Fethiye Oludeniz, paseo en barco Oludeniz, crucero en Turquía, tour en barco Blue Lagoon, mejores tours en barco Fethiye",
-            "zh": "费特希耶Ölüdeniz游船之旅, 蓝色泻湖游船, 费特希耶游艇, 土耳其游船之旅",
+            "zh": "费特希耶厄吕代尼兹游船之旅，厄吕代尼兹船游，土耳其游船巡游，蓝色泻湖游船之旅，费特希耶最佳游船之旅",
             "ar": "جولة قارب فتحية أولودينيز, جولة بحرية بلو لاغون, أفضل الجولات البحرية في تركيا",
             "ru": "Тур на лодке Фетхие Олюдениз, морская прогулка Голубая Лагуна, круиз в Турции",
             "it": "Tour in barca Fethiye Oludeniz, crociera Blue Lagoon, migliori escursioni in barca Turchia"
@@ -226,7 +226,7 @@ export const tourDatasTranslated = [
             "en": "Sail through the stunning waters of Oludeniz with the Fethiye Oludeniz Boat Tour. Discover the Blue Lagoon, hidden bays, and breathtaking coastal views in Turkey!",
             "tr": "Fethiye Ölüdeniz Tekne Turu ile muhteşem sulara yelken açın. Mavi Lagün’ü, gizli koyları ve etkileyici kıyı manzaralarını keşfedin!",
             "es": "Navega por las impresionantes aguas de Oludeniz con el Tour en Barco Fethiye Oludeniz. Descubre la Blue Lagoon y bahías escondidas en Turquía.",
-            "zh": "乘坐费特希耶Ölüdeniz游船，探索蓝色泻湖、隐秘海湾和壮丽海岸线！",
+            "zh": "乘坐费特希耶厄吕代尼兹游船之旅，扬帆驶向壮丽的海域。探索蓝色泻湖、隐秘海湾和令人惊叹的海岸风光。！",
             "ar": "استمتع بجولة بحرية مذهلة في فتحية أولودينيز، واكتشف بلو لاغون والخليج المخفي!",
             "ru": "Отправьтесь в путешествие по Олюдениз с туром на лодке. Исследуйте Голубую Лагуну и скрытые бухты Турции!",
             "it": "Naviga nelle splendide acque di Oludeniz con il Tour in Barca Fethiye Oludeniz. Scopri Blue Lagoon e baie nascoste!"
@@ -235,7 +235,7 @@ export const tourDatasTranslated = [
             "en": "Oludeniz Boat Trip",
             "tr": "Ölüdeniz Tekne Turu",
             "es": "Barco Oludeniz",
-            "zh": "Ölüdeniz游船",
+            "zh": "歐陸丹尼茲", 
             "ar": "قارب أولودينيز",
             "ru": "Лодка Олюдениз",
             "it": "Barca Oludeniz"

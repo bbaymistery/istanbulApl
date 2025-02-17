@@ -20,7 +20,11 @@ const DesktopMenu = ({ language, journeyType, appData, airportTranslations }) =>
                                     <span>{appData?.words[strInnerText]}</span>
                                 </a>
                                 :
-                                <a href={`${language === 'en' ? `${path}` : `/${language}${path}`}`} title={appData?.words[title]} className={`${path.length ? styles.nocursor : ""}  ${router.pathname === path ? styles.active : ""}`}>
+                                <a href={`${language === 'en' ? `${path}` : `/${language}${path}`}`}
+                                    title={appData?.words[title]}
+                                    className={`${path.length ? styles.nocursor : ""}  ${router.pathname === path ? styles.active : ""}`}
+                                    target={index === 4 ? "_blank" : ""}
+                                >
                                     <span>{appData?.words[strInnerText]}</span>
                                     {type === "list" ? <i className="fa-solid fa-angle-down"></i> : ""}
                                 </a>

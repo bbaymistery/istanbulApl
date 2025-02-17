@@ -6,7 +6,7 @@ import styles from "./styles.module.scss"
 //!when we get search result: there pcatId is :  from greater to less    like >>   4 3 2 1
 //!arrange points maake that from less to more  like >> 1 2 3 4
 const moveZeroosToTheEndMakeAnArray = (params = {}) => {
-    let { keyss = [], collectingPoints = {}} = params
+    let { keyss = [], collectingPoints = {} } = params
     let zeros = 0;
 
     for (let i = 0; i < keyss.length; i++) {
@@ -24,7 +24,7 @@ const moveZeroosToTheEndMakeAnArray = (params = {}) => {
     return newOrderedItems;
 };
 const getPostCodesAndAddToList = (params = {}, callback = () => { }) => {
-    let { point,env } = params
+    let { point, env } = params
     const url = `${env.apiDomain}/api/v1/postcode-address`;
     const headers = { "Content-Type": "application/json" }
     const method = "POST"
@@ -40,7 +40,7 @@ const getPostCodesAndAddToList = (params = {}, callback = () => { }) => {
 }
 
 const requestForGooglePLace = (params = {}, callback = () => { }) => {
-    let { point,env } = params
+    let { point, env } = params
     const url = `${env.apiDomain}/api/v1/google-places`;
     const headers = { "Content-Type": "application/json" }
     const method = "POST"
@@ -59,7 +59,7 @@ const requestForGooglePLace = (params = {}, callback = () => { }) => {
 const getPostCodesAndAddToListAsync = params => new Promise((resolve, reject) => getPostCodesAndAddToList(params, log => resolve(log)))
 const requestForGogglePalceAsync = (params) => new Promise((resolve, reject) => requestForGooglePLace(params, log => resolve(log)))
 const HandleSearchResults = (params = {}) => {
-    let { collectingPoints, destination, setInternalState, index, getQuotations = () => { }, language, isTaxiDeal = false,env,isTours = false,  } = params
+    let { collectingPoints, destination, setInternalState, index, getQuotations = () => { }, language, isTaxiDeal = false, env, isTours = false, } = params
 
     let newOrderedItems = []
     //simplify collectedpoints
@@ -113,7 +113,7 @@ const HandleSearchResults = (params = {}) => {
         //make one request more if point pcatId is equal to 10
         if (point.pcatId === 10) {
             (async () => {
-                let log = await requestForGogglePalceAsync({ point ,env})
+                let log = await requestForGogglePalceAsync({ point, env })
                 if (log.status) point = log.point
             })()
         }
@@ -150,10 +150,12 @@ const HandleSearchResults = (params = {}) => {
         let points = reservations[index][`selected${destination === 'pickup' ? 'Pickup' : 'Dropoff'}Points`]
         reservations[index][`selected${destination === 'pickup' ? 'Pickup' : 'Dropoff'}Points`] = [...points, point]
 
-        let navbarElement = document.querySelector("#navbar_container");
-        navbarElement.style.display = "flex";
-        document.body.style.overflow = "unset";
+        if (width <= 990) {
+            let navbarElement = document.querySelector("#navbar_container");
+            navbarElement.style.display = "flex";
+            document.body.style.overflow = "unset";
 
+        }
         getQuotations()
     }
 
