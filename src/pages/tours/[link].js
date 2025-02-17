@@ -14,7 +14,7 @@ import SingleTourDesktopImages from "./SingleTourDesktopImages";
 import MobileSingleTourTitle from "./MobileSingleTourTitle";
 import SingleTourBreadCrumb from "./SingleTourBreadCrumb";
 import styles from "./singletour.module.scss";
-import { singleTourSchema, tourDescriptionName } from "./schema";
+import singleTourSchema, {  tourDescriptionName } from "./schema";
 
 const TourContentDetails = (props) => {
 

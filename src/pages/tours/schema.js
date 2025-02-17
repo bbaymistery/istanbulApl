@@ -181,7 +181,7 @@ export const tourDescriptionName = {
  * @param {string} datePublished - The date the review or product was published (ISO 8601 format).
  * @returns {Object} - A JSON-LD structured schema object.
  */
-export const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourDescription, datePublished) => ({
+ const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourDescription, datePublished) => ({
 
     "LocalBusiness": {
         "@context": "https://schema.org/",
@@ -258,3 +258,4 @@ export const singleTourSchema = (env, tourPathAddress, language, price, tourName
         "inLanguage": `${language}`
     },
 })
+export default singleTourSchema;
