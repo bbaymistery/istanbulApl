@@ -24,7 +24,6 @@ const TourContentDetails = (props) => {
     }
     let { finalTourDetails, pageContent, tourDetails, } = props
     let { headTitle, keywords, metaDescription, metaTags } = finalTourDetails
-    console.log(tourDetails);
 
     const [loadAlert, setLoadAlert] = useState(true);
     const initialReducer = useSelector(state => (state.initialReducer));

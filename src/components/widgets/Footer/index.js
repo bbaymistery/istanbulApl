@@ -156,7 +156,20 @@ const Footer = () => {
 
                 <div className={`${styles.footer_section_container2} page_section_container`}>
                     <div className={styles.footer_bottom}>
-
+                        <div className={styles.social_icons}>
+                            <a href="#" target={"_blank"} title={"APL Transfers Facebook"}>
+                                <Image src={fbImage} alt="APL Transfers Facebook" width={25} height={25} />
+                            </a>
+                            <a href="#" target={"_blank"} title="APL Transfers Twitters">
+                                <Image src={twImage} alt="APL Transfers Twitters" width={25} height={25} />
+                            </a>
+                            <a href="#" target="_blank" title="APL Transfers News RSS">
+                                <Image src={srImage} alt="APL Transfers News RSS" width={25} height={25} />
+                            </a>
+                            <a href="#" target="_blank" title="APL Transfers Instigram page">
+                                <Image src={instaIamge} alt="APL Transfers Instigram page" width={25} height={25} />
+                            </a>
+                        </div>
                         <p className={styles.allrights}>{new Date().getFullYear()} APLTransfers.com All Rights Reserved</p>
                         <div className={styles.footer_bottom_images}>
                             <div>
