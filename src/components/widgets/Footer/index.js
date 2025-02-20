@@ -5,8 +5,6 @@ import fbImage from '../../../../public/images/social/fb.gif';
 import twImage from '../../../../public/images/social/tw.gif';
 import srImage from '../../../../public/images/social/rss.png';
 import instaIamge from '../../../../public/images/social/Instigram.gif';
-import appleIcon from '../../../../public/images/icons/apple-icon.webp'
-import androidIcon from '../../../../public/images/icons/android.webp'
 import airportTranslations, { allTranslations } from "../../../constants/generalTranslataions";
 import { airportTaxiLinks } from "../../../constants/navigatior";
 const officeLocations = [

@@ -1,0 +1,37 @@
+    <h1>Booking Terms & Conditions - APL Transfers Türkiye</h1>
+    <h2>1. Quotations, Rates, and Charges</h2>
+    <p>1.1 All prices are displayed in Euro (EUR), British Pound (GBP), US Dollar (USD), or Turkish Lira (TRY) and include applicable taxes. Customers can select their preferred currency at the time of booking. The total amount will be calculated based on the selected currency.</p>
+    <p>1.2 APL Transfers operates 24/7. Our contact details are:</p>
+    <div class="contact-info">
+        <p>📞 24/7 Contact: +90 216 550 33 13</p>
+        <p>🌍 From Europe: +44 203 325 9878</p>
+        <p>📱 WhatsApp: +44 73 8790 1028</p>
+        <p>✉ Email: info@apltransfers.com</p>
+    </div>
+    <p>1.3 All quotations are valid for 30 days and include standard airport meet & assist, 60 minutes free waiting time, and parking or tolls. Gratuities are at the customer’s discretion.</p>
+    <h2>2. Free Meet & Greet & Waiting Time</h2>
+    <h3>2.1 Airport Pick-up Waiting Time Policy</h3>
+    <p>APL Transfers provides 60 minutes of free waiting time for all airport pickups from the requested pickup time. If additional waiting time is required beyond this, a €10 / £10 / $10 per 60 minutes charge applies.</p>
+    <h3>2.2 Meeting Points at Major Airports in Türkiye</h3>
+    <ul>
+        <li><strong>Istanbul Airport (IST):</strong> We have a CIMLA - APL Transfer office inside Istanbul Airport.
+            <ul>
+                <li>After collecting your luggage, proceed through Customs.</li>
+                <li>Once you enter the Arrival Hall, turn right, where you will find the Taxi Transfer Offices.</li>
+                <li>Our office is located on your left-hand side. Look for the Cimla Turizm - APL Transfer sign.</li>
+                <li>One of our staff members will meet you there and escort you to your driver.</li>
+            </ul>
+        </li>
+        <li><strong>Sabiha Gökçen Airport (SAW):</strong>
+            <ul>
+                <li>When you arrive at Sabiha Gökçen Airport, after completing your customs procedures and collecting your luggage, please proceed to the exit gate of the terminal.</li>
+                <li>Our driver will hold a passenger name board by Column 13, located at the end of the pedestrian crossing.</li>
+                <li>Upon arrival, please provide your name and reservation code to our welcome team, who will assist you and direct you to your vehicle.</li>
+            </ul>
+        </li>
+        <li><strong>Dalaman Airport (DLM):</strong> Driver will be waiting at the arrival hall exit with an APL Transfers name board.</li>
+        <li><strong>Antalya Airport (AYT):</strong> Driver will be at the arrival hall exit, holding an APL Transfers name board.</li>
+        <li><strong>Bodrum Milas Airport (BJV):</strong> After baggage claim, proceed to the main arrival hall, where the driver will be waiting.</li>
+        <li><strong>Izmir Adnan Menderes Airport (ADB):</strong> Look for your driver at the exit of the arrivals hall, holding a name board.</li>
+    </ul>
+    <p>🔹 If you cannot locate your driver, contact APL Transfers immediately before seeking alternative transport.</p>

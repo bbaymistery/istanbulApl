@@ -182,7 +182,6 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
         schemaOfTourDetails = schemaOfTourDetails.map(obj => Object.values(obj)[0]);//Output: ["1", "2", "3"]
 
         tourDetails[0].schema = schemaOfTourDetails;
-        console.log(tourDetails);
 
         let finalTourDetails = {
             headTitle, keywords, metaDescription, breadcrumbTitle,

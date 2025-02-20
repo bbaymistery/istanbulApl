@@ -123,5 +123,32 @@ export const allTranslations = {
     it: "Link Veloci",
     zh: "快速链接",
     ar: "روابط سريعة"
+  },
+  strHome: {
+    en: "Home",
+    tr: "Anasayfa",
+    ru: "Главная",
+    es: "Inicio",
+    it: "Home",
+    zh: "主页",
+    ar: "الرئيسية"
+  },
+  strTerms: {
+    en: "Terms & Conditions",
+    tr: "Şartlar ve Koşullar",
+    ru: "Условия и положения",
+    es: "Términos y Condiciones",
+    it: "Termini e Condizioni",
+    zh: "条款和条件",
+    ar: "الشروط والأحكام"
+  },
+  strPrivacyPolicy : {
+    en: "Privacy Policy",
+    tr: "Gizlilik Politikası",
+    ru: "Политика конфиденциальности",
+    es: "Política de Privacidad",
+    it: "Politica sulla Privacy",
+    zh: "隐私政策",
+    ar: "سياسة الخصوصية"
   }
 };

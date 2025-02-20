@@ -8,3 +8,4 @@
 //!add channel id   /api/v1/pages/details End-Point
 
 //!Add sitemap link to foter
+//!Generate meta tags for privacy polciy and terms page

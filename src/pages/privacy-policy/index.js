@@ -4,27 +4,33 @@ import { useSelector } from "react-redux";
 import GlobalLayout from "../../components/layouts/GlobalLayout";
 import styles from "./styles.module.scss";
 import { allTranslations } from "../../constants/generalTranslataions";
-import { htmlContentsTerms, termsKeywords } from "./htmlContentsTerms";
+import { htmlContentsPrivacy, privacyKeywords } from "./htmlContentsPrivacy";
 import DangerouslyInnerHtml from "../../components/elements/DangerouslyInnerHtml";
 import { checkLanguageAttributeOntheUrl } from "../../helpers/checkLanguageAttributeOntheUrl";
 import { parseCookies } from "../../helpers/cokieesFunc";
 import { parse } from 'url';
-const Terms = () => {
+
+const PrivacyPolicy = (props) => {
+    let { metaDescription, keywords, headTitle } = props
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state
 
+    console.log({
+        metaDescription, keywords, headTitle
+    });
+
     return (
-        <GlobalLayout title="Terms" keywords="Terms" description="Terms" >
-            <div className={`${styles.terms} ${direction} page`} >
-                <div className={`${styles.terms_section} page_section`}>
-                    <div className={`${styles.terms_section_container} page_section_container`}>
+        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
+            <div className={`${styles.privacy} ${direction} page`} >
+                <div className={`${styles.privacy_section} page_section`}>
+                    <div className={`${styles.privacy_section_container} page_section_container`}>
                         <div className={styles.breadcrumb}>
                             <span><a href="/">{allTranslations.strHome[language]}</a></span>
                             <span>{">"}</span>
-                            <span><a href="/terms">{allTranslations.strTerms[language]} </a> </span>
+                            <span><a href="/terms">{allTranslations.strPrivacyPolicy[language]} </a> </span>
                         </div>
                         <div className={styles.terms_container}>
-                            <DangerouslyInnerHtml htmContent={htmlContentsTerms} language={language} />
+                            <DangerouslyInnerHtml htmContent={htmlContentsPrivacy} language={language} />
                         </div>
                     </div>
                 </div>
@@ -33,7 +39,7 @@ const Terms = () => {
     );
 }
 
-export default Terms
+export default PrivacyPolicy
 function adjustPathnameForLanguage(pathname, pageStartLanguage, cookies) {
     if (pageStartLanguage === 'en') {
         pathname = pathname.replace(/^\/_next\/data\/[^/]+\//, '/').replace(/\.[^/.]+$/, '').replace(/\.json$/, '');
@@ -70,9 +76,9 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
     pathname = adjusted.pathname;
     pageStartLanguage = adjusted.pageStartLanguage;
 
-    let metaDescription = termsKeywords.metaDescription[pageStartLanguage]
-    let keywords = termsKeywords.keywords[pageStartLanguage];
-    let headTitle = termsKeywords.headTitle[pageStartLanguage];
+    let metaDescription = privacyKeywords.metaDescription[pageStartLanguage]
+    let keywords = privacyKeywords.keywords[pageStartLanguage];
+    let headTitle = privacyKeywords.headTitle[pageStartLanguage];
 
 
 
