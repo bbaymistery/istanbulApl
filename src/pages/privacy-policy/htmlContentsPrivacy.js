@@ -1,5 +1,5 @@
 
-export const htmlContentsPrivacy = {
+const htmlContentsPrivacy = {
     en: `
     <h1>PRIVACY POLICY - APL TRANSFERS TÜRKİYE</h1>
 <p>APL Transfers Türkiye ("we", "us", or "our") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website 
@@ -914,7 +914,7 @@ export const htmlContentsPrivacy = {
     `
 }
 
-export const privacyKeywords = {
+const privacyKeywords = {
     "headTitle": {
         "en": "Privacy Policy | APL Transfers Türkiye",
         "tr": "Gizlilik Politikası | APL Transfers Türkiye",
@@ -943,3 +943,5 @@ export const privacyKeywords = {
         "it": "Leggi l'Informativa sulla Privacy di APL Transfers Türkiye. Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali in conformità con il GDPR."
     }
 }
+
+export { privacyKeywords, htmlContentsPrivacy }
