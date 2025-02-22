@@ -4,21 +4,19 @@ import { useSelector } from "react-redux";
 import GlobalLayout from "../../components/layouts/GlobalLayout";
 import styles from "./styles.module.scss";
 import { allTranslations } from "../../constants/generalTranslataions";
-import { htmlContentsPrivacy, privacyKeywords } from "./htmlContentsPrivacy";
 import DangerouslyInnerHtml from "../../components/elements/DangerouslyInnerHtml";
 import { checkLanguageAttributeOntheUrl } from "../../helpers/checkLanguageAttributeOntheUrl";
 import { parseCookies } from "../../helpers/cokieesFunc";
 import { parse } from 'url';
+import { htmlContentsPrivacy, privacyKeywords } from "../../constants/keywordsAndContents/privacy/keywordsAndContents";
+
 
 const PrivacyPolicy = (props) => {
     let { metaDescription, keywords, headTitle } = props
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state
 
-    console.log({
-        metaDescription, keywords, headTitle
-    });
-
+ 
     return (
         <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
             <div className={`${styles.privacy} ${direction} page`} >

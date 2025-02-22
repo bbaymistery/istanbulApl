@@ -4,11 +4,11 @@ import { useSelector } from "react-redux";
 import GlobalLayout from "../../components/layouts/GlobalLayout";
 import styles from "./styles.module.scss";
 import { allTranslations } from "../../constants/generalTranslataions";
-import { htmlContentsTerms, termsKeywords } from "./htmlContentsTerms";
 import DangerouslyInnerHtml from "../../components/elements/DangerouslyInnerHtml";
 import { checkLanguageAttributeOntheUrl } from "../../helpers/checkLanguageAttributeOntheUrl";
 import { parseCookies } from "../../helpers/cokieesFunc";
 import { parse } from 'url';
+import { htmlContentsTerms, termsKeywords } from "../../constants/keywordsAndContents/terms/keywordsAndContents";
 const Terms = () => {
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state

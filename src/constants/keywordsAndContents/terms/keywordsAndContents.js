@@ -1,4 +1,4 @@
- const htmlContentsTerms = {
+export const htmlContentsTerms = {
     en: `
         <h1>Booking Terms & Conditions - APL Transfers Türkiye</h1>
     <h2>1. Quotations, Rates, and Charges</h2>
@@ -726,7 +726,7 @@
 
 
 }
- const termsKeywords = {
+ export const termsKeywords = {
     "headTitle": {
         "en": "Terms & Conditions | APL Transfers Türkiye",
         "tr": "Şartlar ve Koşullar | APL Transfers Türkiye",
@@ -755,5 +755,3 @@
         "it": "Leggi i Termini e Condizioni di APL Transfers Türkiye. Scopri le nostre politiche di prenotazione, cancellazione e rimborso prima di utilizzare i nostri servizi di trasferimento."
     }
 }
-
-export { htmlContentsTerms, termsKeywords };
