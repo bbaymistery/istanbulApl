@@ -10,7 +10,13 @@ import HeaderOfResults from './HeaderOfResults';
 import { BUTTON_TYPES } from '../Button/ButtonTypes';
 import Button from '../Button/Button';
 import { splitAndTranslateDuration } from '../../../helpers/splitHelper';
-
+  // let finalPrice=`£${item?.price.split(".")[0]}.`
+  const currencySymbols = {
+    1: "€", // EUR
+    2: "$", // USD
+    3: "£", // GBP
+    4: "₺"  // TRY
+  };
 const checkJourneyTypeAndAddQuotationToReducer = (params = {}) => {
   //by this index  we r gonna assure in which journey we should add quotation
   //by journey type we r gonn assure should we directly pass to next page or not
@@ -151,7 +157,9 @@ const CardQuotationItem = (params = {}) => {
         {journeyType === 1 && index === 0 && <div>
           {datas.map((item, index) => {
             let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
-
+            const price = currencyId === 3 ? item?.price : item?.exchangedPrice;
+            const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price.split(".")[0]}.`;
+  
             const renderSelectedItem = Number(JSON.parse(localStorage?.getItem("journeyQuotation"))?.carId) === Number(quotationImagesObjWebp[item?.carId]?.id)
             if (renderSelectedItem && journeyAccrodionStatus) {
               return <div
@@ -196,7 +204,7 @@ const CardQuotationItem = (params = {}) => {
                         </span>
 
                         <span className={`${styles.price_span}`} >
-                          {quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`}
+                          {quotationLoading ? "..." : finalPrice}
                           <span>00</span>
                         </span>
                       </p>
@@ -234,6 +242,9 @@ const CardQuotationItem = (params = {}) => {
         {journeyType === 1 && index === 1 && <div>
           {datas.map((item, index) => {
             let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
+            const price = currencyId === 3 ? item?.price : item?.exchangedPrice;
+            const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price.split(".")[0]}.`;
+  
             const renderSelectedItem = Number(JSON.parse(localStorage?.getItem("returnJourneyQuotation"))?.carId) === Number(quotationImagesObjWebp[item?.carId]?.id)
             if (renderSelectedItem && returnJourneyAccordionStatus) {
               return <div
@@ -259,10 +270,7 @@ const CardQuotationItem = (params = {}) => {
                     <div className={styles.car_features}>
                       <div className={styles.feature_column}> <i className="fa-solid fa-user"></i> <span>{carObject[item?.carId]?.pax}</span>  </div>
                       <div className={styles.feature_column}> <i className="fa-solid fa-suitcase"></i><span>{carObject[item?.carId]?.suitcases}</span></div>
-                      {/* <div className={`${styles.feature_column} ${styles.meet_greet_icon}`} direction={String(direction === 'rtl')}>
-                        <Image src={meetAndGret} width="18" height="20" alt="" />
-                        <span style={{ paddingLeft: "5px", fontWeight: '500' }}>Meet & Greet</span>
-                      </div> */}
+           
 
                     </div>
                     <div className={styles.apl_features}>
@@ -285,7 +293,7 @@ const CardQuotationItem = (params = {}) => {
                         </span>
 
                         <span className={`${styles.price_span}`} >
-                          {quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`}
+                          {quotationLoading ? "..." : finalPrice}
                           <span>00</span>
                         </span>
                       </p>
@@ -321,6 +329,9 @@ const CardQuotationItem = (params = {}) => {
         </div>}
         {(!journeyAccrodionStatus && index === 0 && journeyType === 1 || !returnJourneyAccordionStatus && index === 1 && journeyType === 1) && datas?.map((item, index) => {
           let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
+          const price = currencyId === 3 ? item?.price : item?.exchangedPrice;
+          const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price.split(".")[0]}.`;
+
           return (
             <div id="main_container">
               <div
@@ -372,7 +383,7 @@ const CardQuotationItem = (params = {}) => {
                         </span>
 
                         <span className={`${styles.price_span}`} >
-                          {quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`}
+                          {quotationLoading ? "..." : finalPrice}
                           <span>00</span>
                         </span>
                       </p>
@@ -417,13 +428,7 @@ const CardQuotationItem = (params = {}) => {
           console.log({ item });
 
           let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
-          // let finalPrice=`£${item?.price.split(".")[0]}.`
-          const currencySymbols = {
-            1: "€", // EUR
-            2: "$", // USD
-            3: "£", // GBP
-            4: "₺"  // TRY
-          };
+        
 
           const price = currencyId === 3 ? item?.price : item?.exchangedPrice;
           const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price.split(".")[0]}.`;
