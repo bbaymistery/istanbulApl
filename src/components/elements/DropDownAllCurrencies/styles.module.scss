@@ -1,25 +1,23 @@
     @import '../../../styles/variables';
 
-    .all_languages {
+    .all_currrencies {
         position: absolute;
         background-color: white;
         top: 50px;
         left: 0px;
-        width: 285px;
         border-radius: 5px;
-        padding: 13px;
-        height: auto;
+        padding: 11px;
         align-items: center;
         transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
         display: grid;
-        grid-template-columns: 131px 127px;
+        grid-template-columns: 1fr 1fr;
         visibility: hidden;
         opacity: 0;
-        left: -250px;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        left: -80px;
+        box-shadow: $box-shadow-3;
         user-select: none;
 
-   
+
 
         &:before {
             content: '';
@@ -31,33 +29,18 @@
             background-color: white;
             transform: rotate(45deg);
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-            left: 258px;
+
+            left: 90px;
         }
 
         .content {
             padding: 5px 10px;
             display: flex;
             align-items: center;
-
-            .img_div {
-                width: 20px;
-                position: relative;
-                height: 11px;
-            }
-
-            span {
-                margin-left: 10px;
-                color: black !important;
-
-                i {
-                    font-size: 11px;
-                    margin-left: 10px;
-                }
-            }
-
+            border-radius: 5px;
 
             &:hover {
-                background-color: rgba(53, 84, 209, 0.1);
+                background-color: $--color-light-5  ;
                 transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
             }
         }

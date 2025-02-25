@@ -71,7 +71,7 @@ export const htmlContentsTerms = {
     <h2>5. Booking Cancellation Charges</h2>
     <h3>5.1 Cancellation Policy:</h3>
     <ul>
-        <li>More than 12 hours before pickup: FREE cancellation, but a €10 / £10 / $10 / 300 TL admin fee applies.</li>
+        <li>More than 12 hours before pickup: FREE cancellation, but a €10 / £10 / $10 / 450 TL admin fee applies.</li>
         <li>Between 6 and 12 hours before pickup: 50% cancellation charge.</li>
         <li>Less than 6 hours before pickup: 100% cancellation charge.</li>
     </ul>
@@ -85,7 +85,7 @@ export const htmlContentsTerms = {
     <p>7.1 If a customer hires or directly employs an APL driver, we reserve the right to charge a €5,000 / £5,000 / $5,000 penalty to cover recruitment and training costs.</p>
     
     <h2>8. Payments</h2>
-     <p>8.3 We accept cash, credit/debit cards, Apple Pay, Google Pay, PayPal, and online payments via Stripe. No extra charge for card payments.</p>
+     <p>8.1 We accept cash, credit/debit cards, Apple Pay, Google Pay, PayPal, and online payments via Stripe. No extra charge for card payments.</p>
     <p>8.2 Payments are processed securely using SSL encryption. APL Transfers does not store credit card details.</p>
      <p>8.3 Credit card statements will show "Taxi Services" as the merchant name.</p>
     <h2>Contact Information</h2>
@@ -100,7 +100,7 @@ export const htmlContentsTerms = {
         <h1>Rezervasyon Şartları ve Koşulları - APL Transfers Türkiye</h1>
     
     <h2>1. Teklifler, Fiyatlar ve Ücretler</h2>
-    <p>1.1 Tüm fiyatlar Euro (EUR), İngiliz Sterlini (GBP), Amerikan Doları (USD) veya Türk Lirası (TRY) cinsinden görüntülenir ve ilgili vergileri içerir...</p>
+    <p>1.1 Tüm fiyatlar Euro (EUR), İngiliz Sterlini (GBP), Amerikan Doları (USD) veya Türk Lirası (TRY) cinsinden görüntülenir ve ilgili vergileri içerir</p>
     <p>1.2 APL Transfers 7/24 hizmet vermektedir. İletişim bilgilerimiz:</p>
     <div class="contact-info">
         <p>📞 7/24 İletişim: +90 216 550 33 13</p>
@@ -108,11 +108,11 @@ export const htmlContentsTerms = {
         <p>📱 WhatsApp: +44 73 8790 1028</p>
         <p>✉ E-posta: info@apltransfers.com</p>
     </div>
-    <p>1.3 Tüm teklifler 30 gün geçerlidir ve standart havaalanı karşılama & yardım, 60 dakika ücretsiz bekleme süresi...</p>
+    <p>1.3 Tüm teklifler 30 gün geçerlidir ve standart havaalanı karşılama & yardım, 60 dakika ücretsiz bekleme süresi</p>
     
     <h2>2. Ücretsiz Karşılama & Bekleme Süresi</h2>
     <h3>2.1 Havaalanı Karşılama Bekleme Süresi Politikası</h3>
-    <p>APL Transfers, tüm havaalanı karşılamaları için talep edilen saatten itibaren 60 dakika ücretsiz bekleme süresi sağlar...</p>
+    <p>APL Transfers, tüm havaalanı karşılamaları için talep edilen saatten itibaren 60 dakika ücretsiz bekleme süresi sağlar</p>
     
     <h3>2.2 Türkiye'deki Büyük Havalimanlarındaki Buluşma Noktaları</h3>
     <ul>
@@ -172,7 +172,7 @@ export const htmlContentsTerms = {
     <h2>5. Rezervasyon İptal Ücretleri</h2>
     <h3>5.1 İptal Politikası</h3>
     <ul>
-        <li>Alım saatinden 12 saat önce: ÜCRETSİZ iptal, ancak €10 / £10 / $10 / 300 TL işlem ücreti uygulanır.</li>
+        <li>Alım saatinden 12 saat önce: ÜCRETSİZ iptal, ancak €10 / £10 / $10 / 450 TL işlem ücreti uygulanır.</li>
         <li>Alım saatinden 6-12 saat önce: %50 iptal ücreti uygulanır.</li>
         <li>Alım saatinden 6 saatten az süre kala: %100 iptal ücreti uygulanır.</li>
     </ul>
@@ -276,7 +276,7 @@ export const htmlContentsTerms = {
 <h2>5. رسوم إلغاء الحجز</h2>
 <h3>5.1 سياسة الإلغاء:</h3>
 <ul>
-    <li>قبل أكثر من 12 ساعة من وقت الاستلام: إلغاء مجاني، ولكن يتم تطبيق رسوم إدارية بقيمة €10 / £10 / $10 / 300 ليرة تركية.</li>
+    <li>قبل أكثر من 12 ساعة من وقت الاستلام: إلغاء مجاني، ولكن يتم تطبيق رسوم إدارية بقيمة €10 / £10 / $10 / 450 ليرة تركية.</li>
     <li>بين 6 و12 ساعة قبل وقت الاستلام: يتم فرض رسوم إلغاء بنسبة 50%.</li>
     <li>أقل من 6 ساعات قبل وقت الاستلام: يتم فرض رسوم إلغاء بنسبة 100%.</li>
 </ul>
@@ -381,7 +381,7 @@ export const htmlContentsTerms = {
 <h2>5. Комиссия за отмену бронирования</h2>
 <h3>5.1 Политика отмены:</h3>
 <ul>
-    <li>Более чем за 12 часов до поездки: БЕСПЛАТНАЯ отмена, но применяется административный сбор в размере €10 / £10 / $10 / 300 TL.</li>
+    <li>Более чем за 12 часов до поездки: БЕСПЛАТНАЯ отмена, но применяется административный сбор в размере €10 / £10 / $10 / 450 TL.</li>
     <li>От 6 до 12 часов до поездки: взимается 50% от стоимости бронирования.</li>
     <li>Менее чем за 6 часов до поездки: взимается 100% от стоимости бронирования.</li>
 </ul>
@@ -486,7 +486,7 @@ export const htmlContentsTerms = {
 <h2>5. Cargos por cancelación de reserva</h2>
 <h3>5.1 Política de cancelación:</h3>
 <ul>
-    <li>Más de 12 horas antes de la recogida: cancelación GRATUITA, pero se aplicará una tarifa administrativa de €10 / £10 / $10 / 300 TL.</li>
+    <li>Más de 12 horas antes de la recogida: cancelación GRATUITA, pero se aplicará una tarifa administrativa de €10 / £10 / $10 / 450 TL.</li>
     <li>Entre 6 y 12 horas antes de la recogida: se aplicará un cargo de cancelación del 50%.</li>
     <li>Menos de 6 horas antes de la recogida: se aplicará un cargo de cancelación del 100%.</li>
 </ul>
@@ -591,7 +591,7 @@ export const htmlContentsTerms = {
 <h2>5. 预订取消费用</h2>
 <h3>5.1 取消政策：</h3>
 <ul>
-    <li>提前 12 小时以上取消：免费取消，但需支付 €10 / £10 / $10 / 300 TL 管理费。</li>
+    <li>提前 12 小时以上取消：免费取消，但需支付 €10 / £10 / $10 / 450 TL 管理费。</li>
     <li>距离接送时间 6 至 12 小时取消：收取 50% 取消费用。</li>
     <li>距离接送时间少于 6 小时取消：收取 100% 取消费用。</li>
 </ul>
@@ -696,7 +696,7 @@ export const htmlContentsTerms = {
 <h2>5. Costi di cancellazione della prenotazione</h2>
 <h3>5.1 Politica di cancellazione:</h3>
 <ul>
-    <li>Più di 12 ore prima del ritiro: cancellazione GRATUITA, ma si applica una tassa amministrativa di €10 / £10 / $10 / 300 TL.</li>
+    <li>Più di 12 ore prima del ritiro: cancellazione GRATUITA, ma si applica una tassa amministrativa di €10 / £10 / $10 / 450 TL.</li>
     <li>Tra 6 e 12 ore prima del ritiro: addebito del 50% della cancellazione.</li>
     <li>Meno di 6 ore prima del ritiro: addebito del 100% della cancellazione.</li>
 </ul>

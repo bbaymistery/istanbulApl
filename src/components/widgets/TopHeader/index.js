@@ -10,6 +10,7 @@ import dynamic from 'next/dynamic'
 import { setCookie } from "../../../helpers/cokieesFunc";
 import logoImage from '../../../../public/logos/logo.webp'
 import airportTranslations from "../../../constants/generalTranslataions";
+import DropDownAllCurrencies from "../../elements/DropDownAllCurrencies";
 
 const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'),);
 const DesktopMenu = dynamic(() => import('../../elements/DesktopMenu'),);
@@ -17,9 +18,10 @@ const MobileMenu = dynamic(() => import('../../elements/MobileMenu'),);
 const Header = () => {
   const router = useRouter()
   const dispatch = useDispatch()
-  const { params: { language, langIndex: reducerLangIndex, journeyType } } = useSelector(state => state.pickUpDropOffActions)
+  const { params: { language, langIndex: reducerLangIndex, journeyType, selectedCurrency } } = useSelector(state => state.pickUpDropOffActions)
   const [openMenu, setOpenMenu] = useState(false) //mobile
   const [languageStatus, setLanguageStatus] = useState(false)
+  const [currencyStatus, setCurrencyStatus] = useState(false)
   const { appData } = useSelector(state => state.initialReducer)
   const [translatedAppData, setTranslatedAppData] = useState(appData)
 
@@ -60,15 +62,31 @@ const Header = () => {
     setLanguageStatus(!languageStatus)
 
   }
+
+  const handleCurrency = (params = {}) => {
+    let { e, text, currencyId } = params
+    dispatch({ type: "SET_CURRENCY", data: { currencyId: +currencyId, text } })
+    setCurrencyStatus(false)
+  }
+
   const toggleMenu = () => setOpenMenu(!openMenu)
+
   //for language dropdown
-  //for language dropdown
-  const outsideClickDropDown = useCallback((e) => { setLanguageStatus(!languageStatus); }, [languageStatus]);
+  const outsideClickDropDown = useCallback((e) => {
+    setLanguageStatus(false);
+    setCurrencyStatus(false);
+  }, [languageStatus, currencyStatus]);
 
 
   //when we click lang text it opens dropdown
-  const setOpenLanguageDropdown = (e) => {
+  const setOpenLanguageDropdown = () => {
+    setCurrencyStatus(false)
     setLanguageStatus(!languageStatus)
+
+  }
+  const setOpenCurrencyDropDown = () => {
+    setLanguageStatus(false)
+    setCurrencyStatus(!currencyStatus)
   }
 
   const handleClickNavLinkMobileMenuList = useCallback((params = {}) => {
@@ -105,16 +123,20 @@ const Header = () => {
           </div>
 
           <div className={styles.right_items}>
-            {/* eliminate cursor  */}
+
+            <div className={`${styles.currency_dropdown}`} >
+              <div className={styles.text} onClick={setOpenCurrencyDropDown} data-name="currency">
+                {selectedCurrency.currency}
+              </div>
+              {currencyStatus ?
+                <OutsideClickAlert onOutsideClick={outsideClickDropDown}>
+                  <DropDownAllCurrencies currencyStatus={currencyStatus} handleCurrency={handleCurrency} />
+                </OutsideClickAlert> : <></>}
+            </div>
+
             <div className={`${styles.language_dropdown}`} >
-              <div className={styles.top} >
-                <div className={styles.img_div} onClick={setOpenLanguageDropdown} data-name="language">
-                  {appData ? <Image src={`/languages/${language}.gif`} width={20} height={11} priority alt={language} data-name="language" /> : <></>}
-                </div>
-                <span data-name="language" onClick={setOpenLanguageDropdown} className={styles.lang_text}>
-                  {/* {appData?.languages[reducerLangIndex]?.innerText} */}
-                  {router.asPath === "/drivers-wanted" ? <></> : <i className="fa-solid fa-angle-down"></i>}
-                </span>
+              <div className={styles.img_div} onClick={setOpenLanguageDropdown} data-name="language">
+                {appData ? <Image src={`/languages/${language}.gif`} width={20} height={11} priority alt={language} data-name="language" /> : <></>}
               </div>
               {languageStatus ?
                 <OutsideClickAlert onOutsideClick={outsideClickDropDown}>

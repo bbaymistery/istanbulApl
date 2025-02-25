@@ -58,6 +58,11 @@
                                 width: 180px;
                                 object-fit: contain;
                             }
+
+                            @media(max-width:450px) {
+                                width: 175px;
+                                object-fit: contain;
+                            }
                         }
 
                     }
@@ -68,50 +73,41 @@
             .right_items {
                 display: flex;
                 align-items: center;
-                gap: 2rem;
+                gap: 1.5rem;
 
                 @media(max-width:990px) {
                     gap: 1.2rem;
                 }
 
+                @media(max-width:450px) {
+                    gap: 1rem;
+                }
+
+                .currency_dropdown {
+                    cursor: pointer;
+                    position: relative;
+                    user-select: none;
+                    font-size: 13px;
+                    font-weight: 500;
+                    width: 38px;
+                    text-align: center;
+
+                    .text {
+                        background-color: $--color-light-5;
+                        padding: 0px 7px;
+                    }
+
+                }
 
                 .language_dropdown {
                     cursor: pointer;
                     position: relative;
+                    user-select: none;
 
-                    .top {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-
-
-                        .img_div {
-                            background-color: rgb(148 149 151 / 14%);
-                            padding: 0px 5px;
-                        }
-
-                        span {
-                            margin-left: 10px;
-                            color: black;
-
-                            i {
-                                font-size: 11px;
-                                margin-left: 10px;
-                            }
-                        }
-
-                        .lang_text {
-                            display: flex;
-                            align-items: center;
-
-                            @media(max-width:1280px) {
-                                display: none;
-                            }
-                        }
-
+                    .img_div {
+                        background-color: $--color-light-5;
+                        padding: 0px 5px;
                     }
-
-
                 }
 
 

@@ -8,9 +8,8 @@ function useOutsideAlerter(ref, callback) {
        * Alert if clicked on outside of element
        */
     function handleClickOutside(event) {
-        if (event.target.getAttribute("data-name") === 'language')
+        if (event.target.getAttribute("data-name") === 'language' || event.target.getAttribute("data-name") === 'currency')
             return
-
         if (ref.current && !ref.current.contains(event.target)) callback()
 
     }

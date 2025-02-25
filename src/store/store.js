@@ -24,7 +24,10 @@ const initialReducer = (state = {}, action) => {
                     }
                 }
             }
-            return { ...state.initialReducer, ...action.payload.initialReducer };
+            return {
+                ...state.initialReducer,
+                ...action.payload.initialReducer,
+            };
         case 'GET_APP_DATA':
             return GET_APP_DATA({ state, action });
         default:

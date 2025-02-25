@@ -62,7 +62,7 @@ const Hero = (props) => {
     const dispatch = useDispatch()
     const state = useSelector(state => state.pickUpDropOffActions)
     let { reservations, params } = state
-    let { sessionToken: reducerSessionToken, journeyType, direction, language, hasTaxiDeals } = params
+    let { sessionToken: reducerSessionToken, journeyType, direction, language, hasTaxiDeals, selectedCurrency } = params
 
     const { appData } = useSelector(state => state.initialReducer)
     let [internalState, setInternalState] = React.useReducer((s, o) => ({ ...s, ...o }), {
@@ -104,7 +104,7 @@ const Hero = (props) => {
         const url = `${env.apiDomain}/api/v1/suggestions`;
         const method = "POST"
         const headers = { "Content-Type": "application/json" }
-        const body = JSON.stringify({ value, "session-token": reducerSessionToken, language: "en" })
+        const body = JSON.stringify({ value, "session-token": reducerSessionToken, language: "en", "countryId": 203 })
         const config = { method, headers, body }
 
         fetch(url, config)
@@ -142,6 +142,9 @@ const Hero = (props) => {
                 selectedPickupPoints: trSelectedPickPoints,
                 selectedDropoffPoints: trSelectedDroppPoints,
                 transferDateTimeString: transferDAteTimeString,
+                "accountId": 2964,
+                "currencyId": selectedCurrency.currencyId
+
             }),
         };
 
@@ -153,6 +156,8 @@ const Hero = (props) => {
                 selectedPickupPoints: returnPickPoints,
                 selectedDropoffPoints: returnDroppPoints,
                 transferDateTimeString: returnDAteTimeString,
+                "accountId": 2964,
+                "currencyId": selectedCurrency.currencyId
             }),
         };
 
@@ -162,7 +167,6 @@ const Hero = (props) => {
                 .then((res) => res.json())
                 .then((data) => {
                     callback(data, "data");
-
                 })
                 .catch((error) => {
                     let message = "ISTANBUL  Hero component _collectQuotations()  function catch blog  parseInt(journeyType) === 0"

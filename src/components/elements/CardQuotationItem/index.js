@@ -55,6 +55,7 @@ const CardQuotationItem = (params = {}) => {
     setShowMapReturn = () => { },
     showMapReturn = false,
     showMapOneWay = false,
+    currencyId
 
   } = params
 
@@ -324,7 +325,7 @@ const CardQuotationItem = (params = {}) => {
             <div id="main_container">
               <div
                 dataid={index === 0 ? "first_car" : ""}
-                key={index}
+                key={index + 10000}
                 className={`${styles.card_item} ${Number(selectedQuotation?.carId) === Number(quotationImagesObjWebp[item?.carId].id) ? styles.selectedCard : ""}`}
                 onClick={(e) => handleClickForMobile({ e, quotation: item })} >
                 <div data={quotationImagesObjWebp[item?.carId].id} className={styles.column_first} style={{ backgroundImage: `url(${quotationImagesObjWebp[item?.carId]?.image})` }}> </div>
@@ -413,12 +414,25 @@ const CardQuotationItem = (params = {}) => {
         })}
 
         {(+journeyType === 0) && datas?.map((item, index) => {
+          console.log({ item });
+
           let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
+          // let finalPrice=`£${item?.price.split(".")[0]}.`
+          const currencySymbols = {
+            1: "€", // EUR
+            2: "$", // USD
+            3: "£", // GBP
+            4: "₺"  // TRY
+          };
+
+          const price = currencyId === 3 ? item?.price : item?.exchangedPrice;
+          const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price.split(".")[0]}.`;
+
           return (
             <div id="main_container">
               <div
                 dataid={index === 0 ? "first_car" : ""}
-                key={index}
+                key={index + 100000}
                 className={`${styles.card_item} ${Number(selectedQuotation?.carId) === Number(quotationImagesObjWebp[item?.carId].id) ? styles.selectedCard : ""}`}
                 onClick={(e) => handleClickForMobile({ e, quotation: item })} >
                 <div data={quotationImagesObjWebp[item?.carId].id} className={styles.column_first} style={{ backgroundImage: `url(${quotationImagesObjWebp[item?.carId]?.image})` }}> </div>
@@ -439,11 +453,6 @@ const CardQuotationItem = (params = {}) => {
                     <div className={styles.car_features}>
                       <div className={styles.feature_column}> <i className="fa-solid fa-user"></i> <span>{carObject[item?.carId]?.pax}</span>  </div>
                       <div className={styles.feature_column}> <i className="fa-solid fa-suitcase"></i><span>{carObject[item?.carId]?.suitcases}</span></div>
-                      {/* <div className={`${styles.feature_column} ${styles.meet_greet_icon}`} direction={String(direction === 'rtl')}>
-                        <Image src={meetAndGret} width="18" height="20" alt="" />
-                        <span style={{ paddingLeft: "5px", fontWeight: '500' }}>Meet & Greet</span>
-                      </div> */}
-
                     </div>
                     <div className={styles.apl_features}>
                       <p className={`${styles.apl_feature} ${styles.show_more_than360}`}> <i className={`fa-solid fa-check ${direction === "rtl" ? styles.leftFeatureIcon : ""}`}></i> <span>{appData?.words["strCarFeatureFreeMeetAndGreet"]}</span></p>
@@ -485,7 +494,7 @@ const CardQuotationItem = (params = {}) => {
                       <br />
                       {distanceInMiles} {appData?.words["strMiles"]}
                     </span>
-                    <div className={styles.price}>{quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`} <span>{quotationLoading ? "" : "00"}</span> </div>
+                    <div className={styles.price}>{quotationLoading ? "..." : finalPrice} <span>{quotationLoading ? "" : "00"}</span> </div>
                   </div>
                   <div className={`${styles.btn_div} ${selected ? styles.selectedBtnDiv : ""}`}>
                     <Button

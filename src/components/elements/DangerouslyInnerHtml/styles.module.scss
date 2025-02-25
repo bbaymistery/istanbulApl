@@ -7,7 +7,6 @@
     text-align: justify;
 
     p {
-        font-size: 17px;
         padding: 4px 0px;
         font-weight: normal;
 
@@ -23,11 +22,11 @@
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 28px;
         color: $--color-dark-1;
 
-        @media(max-width:768PX) {
-            font-size: 27px;
+        @media(max-width:768px) {
+            font-size: 23px;
         }
 
     }
@@ -36,25 +35,26 @@
         margin-top: 16px;
         margin-bottom: 10px;
         padding-top: 16px;
-        font-weight: normal;
-        font-size: 30px;
+        font-weight: 500;
+        font-size: 21px;
         color: $--color-dark-2;
         border-top: 4px solid $--color-light-5;
 
-        @media(max-width:768PX) {
-            font-size: 22px;
+        @media(max-width:768px) {
+            font-size: 19px;
             border-top: 2px solid $--color-light-5;
 
         }
     }
 
     h3 {
-        margin-top: 20px;
+        margin-top: 17px;
         color: $--color-dark-2;
-        font-size: 22px;
+        font-size: 19px;
+        font-weight: 500 !important;
 
-        @media(max-width:768PX) {
-            font-size: 20px;
+        @media(max-width:768px) {
+            font-size: 17px;
         }
     }
 

@@ -22,6 +22,7 @@ import SWITCH_JOURNEY from "./SWITCH_JOURNEY";
 import SET_QUOTATION from "./SET_QUOTATION";
 import ADD_NEW_POINT from "./ADD_NEW_POINT";
 import GET_QUOTATION from "./GET_QUOTATION";
+import SET_CURRENCY from "./SET_CURRENCY";
 
 //taxi deals
 import GET_QUOTATION_AT_PATHNAME from "./GET_QUOTATION_AT_PATHNAME";
@@ -78,10 +79,8 @@ const INITIAL_STATE = {
     passengerDetailsStatus: true,//checkbox status on transferdetails page
     tokenForArchieve: "",
     pointsModalStatus: false,//we use it on taxi deals component
-    //when we click  Heathrow Airport transfer on navbar we set taxidealsName then we cath it with serverSideProps[linkname].js
-    // inthatCase WE need to pass a props to the changed router So we use redux for that
-    // hasTaxiDeals: typeof window !== 'undefined' && localStorage.getItem("hasTaxiDeals") ? JSON.parse(localStorage.getItem("hasTaxiDeals")) : "heathrow",
     hasTaxiDeals: "IST",
+    selectedCurrency: { currencyId: 1, currency: "EUR" },
 
   }
 };
@@ -179,7 +178,10 @@ export const pickUpDropOffActions = (state = INITIAL_STATE, action) => {
     case "RESELECT_POINTS_FROM_STORE": {
       return RESELECT_POINTS_FROM_STORE({ state, action })
     }
-
+    case "SET_CURRENCY": {
+      return SET_CURRENCY({ state, action })
+    }
+    
     default:
       return state;
   }

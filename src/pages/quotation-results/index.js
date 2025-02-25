@@ -18,17 +18,17 @@ import store from '../../store/store'
 import { createWrapper } from 'next-redux-wrapper'
 import Button from '../../components/elements/Button/Button.js'
 import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes.js'
-let description = "We specialize in airport transfer shuttle service. We can provide you with a chauffeur driven car to and from all major London airports. The airports include Heathrow, Gatwick, Stanstead, Luton and City airport.!"
-let title = "Results Airport Transfers London Airport Pickups"
-let keywords = " London airport transfers, London airport transfer, heathrow airport transfer, Gatwick airport transfer, stansted airport transfer, luton airport transfer, shuttle service, shuttle services, airport shuttle services, airport transfer shuttle service,  airport taxi service, taxi services, cab services, airport taxi service, London airport, airport transport, luton airport transport, London airport transportation, London shuttle services, Gatwick airport shuttle service, Heathrow airport shuttle service, Luton airport shuttle service, Stansted airport shuttle service, London airport taxi transfer, London airport shuttle, airport transfers London, airport transfers, chauffeur driven car, chauffeur driven cars, airport pick up and drop."
+let description = ""
+let title = "Quotation Results APL Transfer"
+let keywords = " "
 
 const collectPoints = (params = {}, callback = () => { }) => {
 
-    let { value = '', reducerSessionToken = "", language = "" ,env} = params;
+    let { value = '', reducerSessionToken = "", language = "", env } = params;
     const url = `${env.apiDomain}/api/v1/suggestions`;
     const method = "POST"
     const headers = { "Content-Type": "application/json" }
-    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language:"en" })
+    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language: "en", "countryId": 203 })
     const config = { method, headers, body }
 
     fetch(url, config)
@@ -44,10 +44,10 @@ const collectPointsAsync = params => new Promise((resolve, reject) => collectPoi
 const readyToCollectQuotations = (params = {}) => {
 
     (async () => {
-        let { dispatch, setInternalState, router, journeyType, reservations,env } = params
+        let { dispatch, setInternalState, router, journeyType, reservations, env, currencyId } = params
 
         setInternalState({ ["quotation-loading"]: true })
-        let log = await collectQuotationsAsync({ reservations, journeyType,env })
+        let log = await collectQuotationsAsync({ reservations, journeyType, env, currencyId })
 
         //if our journey both way
         if (parseInt(journeyType) === 1) {
@@ -83,7 +83,7 @@ const readyToCollectQuotations = (params = {}) => {
 //getting quotations
 const collectQuotations = (params = {}, callback = () => { }) => {
 
-    let { reservations, journeyType ,env} = params
+    let { reservations, journeyType, env, currencyId } = params
 
     //transfer
     let trSelectedPickPoints = reservations[0]?.selectedPickupPoints;
@@ -105,6 +105,8 @@ const collectQuotations = (params = {}, callback = () => { }) => {
             selectedPickupPoints: trSelectedPickPoints,
             selectedDropoffPoints: trSelectedDroppPoints,
             transferDateTimeString: transferDAteTimeString,
+            "accountId": 2964,
+            "currencyId": currencyId
         }),
     };
 
@@ -116,6 +118,8 @@ const collectQuotations = (params = {}, callback = () => { }) => {
             selectedPickupPoints: returnPickPoints,
             selectedDropoffPoints: returnDroppPoints,
             transferDateTimeString: returnDAteTimeString,
+            "accountId": 2964,
+            "currencyId": currencyId
         }),
     };
 
@@ -149,14 +153,14 @@ const pushToQuotationsResultPage = (params = {}) => {
     dispatch({ type: "GET_QUOTATION", data: { results: log, journeyType } })
 }
 const QuotationResults = (props) => {
-    let { isTaxiDeal = false,env } = props
+    let { isTaxiDeal = false, env } = props
     const router = useRouter()
     const dispatch = useDispatch()
 
 
     const state = useSelector(state => state.pickUpDropOffActions)
     let { reservations, params } = state
-    let { sessionToken: reducerSessionToken, journeyType, direction, language, quotations, } = params
+    let { sessionToken: reducerSessionToken, journeyType, direction, language, quotations, selectedCurrency } = params
 
     const { appData } = useSelector(state => state.initialReducer)
     const objectDetailss = appData?.pointTypeCategories?.reduce((obj, item) => ({ ...obj, [item.id]: JSON.parse(item.objectDetails), }), {});
@@ -206,7 +210,7 @@ const QuotationResults = (props) => {
                 //set input loading to true
                 setInternalState({ [`${destination}-search-loading-${index}`]: true })
 
-                let log = await collectPointsAsync({ value, reducerSessionToken, language,env })
+                let log = await collectPointsAsync({ value, reducerSessionToken, language, env })
                 let { status, result, "session-token": sessionToken = "", token } = log
 
                 if (status == 200) {
@@ -264,9 +268,11 @@ const QuotationResults = (props) => {
         setInternalState({ [`show-${destination}-extra-point-${index}`]: false })
     }
     const getQuotations = (params = {}) => {
+        console.log(selectedCurrency.currencyId);
+
         let errorHolder = reservationSchemeValidator({ reservations });
         setInternalState({ errorHolder })
-        if (errorHolder.status === 200) readyToCollectQuotations({ dispatch, setInternalState, router, journeyType, reservations,env })
+        if (errorHolder.status === 200) readyToCollectQuotations({ dispatch, setInternalState, router, journeyType, reservations, env, currencyId: selectedCurrency.currencyId })
     }
     //deleting input field
     const deleteField = (params = {}) => {
@@ -324,7 +330,7 @@ const QuotationResults = (props) => {
         ) {
             getQuotations();
         }
-    }, [reservations?.[0]?.transferDetails?.transferDateTimeString, reservations?.[1]?.transferDetails?.transferDateTimeString]);
+    }, [reservations?.[0]?.transferDetails?.transferDateTimeString, reservations?.[1]?.transferDetails?.transferDateTimeString, selectedCurrency.currencyId]);
 
 
 
@@ -497,17 +503,17 @@ const QuotationResults = (props) => {
                                                 </div>
                                                 {(selectedDropoffPoints.length > 0 && index === 1) && (showMapReturn) ?
                                                     <div className={styles.map_direction} >
-                                                        <Map  env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
+                                                        <Map env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
                                                     </div>
                                                     : <></>}
                                                 {(selectedPickupPoints.length > 0 && index === 0) && (showMapOneWay) ?
                                                     <div className={styles.map_direction} >
-                                                        <Map  env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
+                                                        <Map env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
                                                     </div>
                                                     : <></>}
                                                 {(selectedDropoffPoints.length > 0 && selectedPickupPoints.length > 0) && (+journeyType === 0) ?
                                                     <div className={styles.map_direction} >
-                                                        <Map   env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
+                                                        <Map env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
                                                     </div>
                                                     : <></>}
                                             </div>
@@ -529,6 +535,7 @@ const QuotationResults = (props) => {
                                                         setShowMapReturn={setShowMapReturn}
                                                         showMapOneWay={showMapOneWay}
                                                         showMapReturn={showMapReturn}
+                                                        currencyId={selectedCurrency.currencyId}
                                                     />
                                                 }
                                             </div>
