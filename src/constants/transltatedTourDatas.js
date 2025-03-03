@@ -66,9 +66,9 @@ export const tourDatasTranslated = [
         "tourDealId": 1,
         "images": [
             "/images/tours/12Island.webp",
-            "https://api.london-tech.com/files/randoms/483ee713fb10490ad27c3036179610ff85274865ca35b1384fe9170db4937a1d.jpg",
-            "https://api.london-tech.com/files/randoms/90e2f29e1cb03b8ff1742fea6998022258ff26da7f0a77c015f70749af83b57f.jpg",
-            "https://api.london-tech.com/files/randoms/967fac771d0645fe354ca710df54afdafb4a3ed61abef1a8fb739d75021e161b.jpg"
+            "/images/tours/12iland/fethiyetour1.webp",
+            "/images/tours/12iland/fethiyetour2.webp",
+            "/images/tours/12iland/fethiyetour3.webp",
         ],
         "sequenceNumber": 1,
         "pathname": "/tours/fethiye12-island-tour",
@@ -161,9 +161,9 @@ export const tourDatasTranslated = [
         "tourDealId": 2,
         "images": [
             "/images/tours/oludeniz1.webp",
-            "https://api.london-tech.com/files/randoms/a5255c17728f131e1d7852cf0eda3ee5147ccafd25c5841ef957a2525f2fe8f4.jpg",
-            "https://api.london-tech.com/files/randoms/d14072a3a91da95afdd81457893d7c76ae03d22e3e0e6bf508f3a027146fa6fb.jpg",
-            "https://api.london-tech.com/files/randoms/644f9809d83fc6fe7c31c2abc3375c2d5117520cb6b5571b7c5cba4d464b64b6.jpg"
+            "/images/tours/oludeniz/oludeniz11.webp",
+            "/images/tours/oludeniz/oludeniz22.webp",
+            "/images/tours/oludeniz/oludeniz33.webp",
         ],
         "sequenceNumber": 2,
         "pathname": "/tours/fethiye-oludeniz-boat-tour",
@@ -256,9 +256,9 @@ export const tourDatasTranslated = [
         "tourDealId": 3,
         "images": [
             "/images/tours/quadBikeSafari.webp",
-            "https://api.london-tech.com/files/randoms/69e77fffe8408fcc5e20f9b87fe47a862d07674577f203429ec80cbdd105e5c0.jpg",
-            "https://api.london-tech.com/files/randoms/efdf26f7a759ef42ddcbc6ecfccbfb741fa1b2483c6fc7b66818fa41ad2ec194.jpg",
-            "https://api.london-tech.com/files/randoms/199c9fe69e4c516f021e07a55073d5c2c1d38808ab5126043905a110fcafc076.jpg"
+            "/images/tours/quadbike/quadBikeSafari11.webp",
+            "/images/tours/quadbike/quadBikeSafari22.webp",
+            "/images/tours/quadbike/quadBikeSafari33.webp",
         ],
         "sequenceNumber": 1,
         "pathname": "/tours/fethiye-quad-bike-safari",
@@ -351,9 +351,9 @@ export const tourDatasTranslated = [
         "tourDealId": 4,
         "images": [
             "/images/tours/istanbulTour1.webp",
-            "https://api.london-tech.com/files/randoms/54633cb8ceca37159260e6d61b8d3311d9ba481db88509bb5c7d6d9c03ad6767.jpg",
-            "https://api.london-tech.com/files/randoms/f2afa92e811c88aaf7bd41ae9412e0f5f9e70d0ef7489b922a8e3f19e44c2f93.jpg",
-            "https://api.london-tech.com/files/randoms/80efa76439a189bdd3afa961090af0def73f0243964c4a93dc1ca99b746ca396.jpg"
+            "/images/tours/bosphorusDinner/IstanbulBosphorusDinner1.webp",
+            "/images/tours/bosphorusDinner/IstanbulBosphorusDinner2.webp",
+            "/images/tours/bosphorusDinner/IstanbulBosphorusDinner3.webp",
         ],
         "sequenceNumber": 3,
         "pathname": "/tours/istanbul-bosphorus-dinner-cruise",
@@ -446,9 +446,9 @@ export const tourDatasTranslated = [
         "tourDealId": 5,
         "images": [
             "/images/tours/istanbulTour2.webp",
-            "https://api.london-tech.com/files/randoms/6349b2d3dffc43b3f7c7c17b673fecbc39a13c4f0c5b6e0175a446aa71a42cb8.jpg",
-            "https://api.london-tech.com/files/randoms/644f9809d83fc6fe7c31c2abc3375c2d5117520cb6b5571b7c5cba4d464b64b6.jpg",
-            "https://api.london-tech.com/files/randoms/d272ef6e2c33fb824a13c38bf2b38d877b585aab625a41f841761a631248f3b3.jpg"
+            "/images/tours/bosphorusLunch/IstanbulBosphoruslinchtour1.webp",
+            "/images/tours/bosphorusLunch/IstanbulBosphoruslinchtour2.webp",
+            "/images/tours/bosphorusLunch/IstanbulBosphoruslinchtour3.webp",
         ],
         "sequenceNumber": 4,
         "pathname": "/tours/istanbul-bosphorus-lunch-cruise",
@@ -537,13 +537,15 @@ export const tourDatasTranslated = [
         adultPrice: 35,
         durationTimeRange: "Departure Time: 13:00",
     },
+
     {
         "tourDealId": 6,
         "images": [
             "/images/tours/istfullday.webp",
-            "https://api.london-tech.com/files/randoms/710adcbd379d1cef8d56ee6f820ea202d404779fea5633a5c365aca6e68fda7e.png",
-            "https://api.london-tech.com/files/randoms/5cc96fb4f532670f28ab5a63b38e3e64aef168210ce22da51237904cc1b742b1.jpg",
-            "https://api.london-tech.com/files/randoms/ce602b2ca669c77b0b195d3518e06c4ee191891b7cd7daa398803d0c271a9c88.jpg"
+            "/images/tours/fulldayIstanbul/beyoglu.webp",
+            "/images/tours/fulldayIstanbul/fulldaay3.webp",
+            "/images/tours/fulldayIstanbul/fullday2.webp",
+
         ],
         "sequenceNumber": 5,
         "pathname": "/tours/istanbul-full-day-tour",
@@ -632,13 +634,15 @@ export const tourDatasTranslated = [
         adultsPrice: 0,
         childPrice: 0,
     },
+    //!
+
     {
         "tourDealId": 7,
         "images": [
             "/images/tours/paragliding-oludeniz.webp",
-            "https://api.london-tech.com/files/randoms/6349b2d3dffc43b3f7c7c17b673fecbc39a13c4f0c5b6e0175a446aa71a42cb8.jpg",
-            "https://api.london-tech.com/files/randoms/644f9809d83fc6fe7c31c2abc3375c2d5117520cb6b5571b7c5cba4d464b64b6.jpg",
-            "https://api.london-tech.com/files/randoms/d272ef6e2c33fb824a13c38bf2b38d877b585aab625a41f841761a631248f3b3.jpg"
+            "/images/tours/paragliging/Paragliding1.webp",
+            "/images/tours/paragliging/Paragliding2.webp",
+            "/images/tours/paragliging/Paragliding3.webp",
         ],
         "sequenceNumber": 6,
         "pathname": "/tours/paragliding-fethiye-oludeniz",
@@ -733,9 +737,10 @@ export const tourDatasTranslated = [
         "tourDealId": 8,
         "images": [
             "/images/tours/12Island.webp",
-            "https://api.london-tech.com/files/randoms/af7b2be798c46cc258f32fe31c47b35d1ad763ff07e3a762a5ead30933b927fe.jpg",
-            "https://api.london-tech.com/files/randoms/00925855c3ff16881ce413419b0538acec01add763a8937e5390f27195086eea.jpg",
-            "https://api.london-tech.com/files/randoms/a4bbf0cf2004cdfa2d1771c71cebb2b4fa2a8a3f3d852286cbaa4fc3a6ac03d1.jpg"
+            "/images/tours/antalya/antalya1.webp",
+            "/images/tours/antalya/antalya2.webp",
+            "/images/tours/antalya/antalya3.webp",
+
         ],
         "sequenceNumber": 8,
         "pathname": "/tours/antalya-sightseeing-city-tour",
@@ -1947,7 +1952,7 @@ export const singleTourTranslatedPageContents = {
     </p>
         `
     },
-    "/tours/fethiye-quad-bike-safari-tour": {
+    "/tours/fethiye-quad-bike-safari": {
         en: `
           <h1>Adventure Awaits: Explore Fethiye on a Quad Bike</h1>
     <p>

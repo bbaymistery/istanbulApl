@@ -12,17 +12,27 @@
     .descriptions {
         padding: 10px 0px;
 
+        @media (max-width: 768px) {
+            padding: 0px;
+        }
+
         .links {
             display: flex;
             flex-wrap: wrap;
 
             p {
-                a{
+                a {
                     color: $--color-accent-1;
                 }
+
                 padding-left: 5px;
                 padding-right: 5px;
                 text-transform: capitalize;
+
+                @media (max-width: 990px) {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
             }
         }
     }
@@ -204,7 +214,7 @@
                         .title_div {
                             h1 {
                                 font-weight: 500;
-                                font-size:28px;
+                                font-size: 28px;
                                 margin-top: 1.5rem;
                             }
 
@@ -509,6 +519,7 @@
 
                         padding: 5px 0px;
                         font-weight: 500;
+
                         strong {
                             font-weight: 500;
                         }
@@ -516,16 +527,17 @@
 
                     p {
                         padding: 5px 0px;
+
                         strong {
                             font-weight: 500;
-                        }                    
-                }
+                        }
+                    }
 
                     li {
                         list-style: disc;
                         margin-left: 18px;
-padding: 3px 0px;
-font-weight: 500;
+                        padding: 3px 0px;
+                        font-weight: 500;
 
                         strong {
                             font-weight: bold;

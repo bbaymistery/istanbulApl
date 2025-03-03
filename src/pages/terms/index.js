@@ -9,6 +9,7 @@ import { checkLanguageAttributeOntheUrl } from "../../helpers/checkLanguageAttri
 import { parseCookies } from "../../helpers/cokieesFunc";
 import { parse } from 'url';
 import { htmlContentsTerms, termsKeywords } from "../../constants/keywordsAndContents/terms/keywordsAndContents";
+import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
 const Terms = () => {
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state
@@ -34,17 +35,7 @@ const Terms = () => {
 }
 
 export default Terms
-function adjustPathnameForLanguage(pathname, pageStartLanguage, cookies) {
-    if (pageStartLanguage === 'en') {
-        pathname = pathname.replace(/^\/_next\/data\/[^/]+\//, '/').replace(/\.[^/.]+$/, '').replace(/\.json$/, '');
-        pageStartLanguage = cookies['lang'] || 'en';  // Default to 'en' if no lang cookie is present
-    } else {
-        //let pathname ='/tr/tours/cambridge-daily-tour'  let pagestartLanguage="tr"
-        pathname = pathname.replace(`/${pageStartLanguage}`, '');
 
-    }
-    return { pathname, pageStartLanguage };
-}
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
 
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat

@@ -12,19 +12,20 @@ import styles from "./singletour.module.scss"
  *
  * @param {Object} props - The component props.
  * @param {boolean} props.loadAlert - Indicates whether the content is being loaded.
+ * @param {boolean} props.shouldShowModal - Indicates showmodal if it is true
+ * @param {function} props.setshouldShowModal - A function to set whether the modal should be shown.
  * @param {Object} props.appData - The application data.
  * @param {string} props.language - The current language.
  * @param {Object} props.finalTourDetails - The details of the tour.
  * @returns {JSX.Element} - The rendered component.
  */
 const MobileSnapshhotAndSlider = (props) => {
-    let { loadAlert, appData, language, finalTourDetails, } = props
+    let { loadAlert, appData, language, finalTourDetails, shouldShowModal, setshouldShowModal } = props
     let { pageTitle, duration, snapshots, review, price, images } = finalTourDetails
 
     //state management for slider navigation
     const [index, setIndex] = useState(0);
     const [sliderItems, setSliderItems] = useState([]);
-    const [shouldShowModal, setshouldShowModal] = useState(false);
 
     /** Handlers for slider navigation **/
     const gotoPreviousSlider = () => setIndex(index - 1)

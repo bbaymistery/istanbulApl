@@ -19,7 +19,7 @@ let keywords = ""
 let description = ""
 
 const ReservationsDocument = (props) => {
-    let {env}   =props
+    let { env } = props
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { reservations, params: { journeyType, tokenForArchieve, direction, language } } = state
     let { paymentDetails: { paymentType } } = reservations[0]
@@ -35,8 +35,12 @@ const ReservationsDocument = (props) => {
     const [confirmation, setConfirmation] = useState(true);
     //when passenger gets reserv d we need archieve token
     const fetchArchieveToken = async (params = {}) => {
-        let { id, stage } = params
+        let { id, stage, response = {} } = params
         let reservationObj = parseInt(journeyType) === 1 ? reservations : [reservations[0]];
+        if (stage === 'GET_SERVER_RESPONED') {
+            reservationObj = JSON.parse(JSON.stringify(reservationObj))
+            reservationObj[0].response = response
+        }
         if (reservationObj.length > 1) {
             reservationObj = [
                 {
@@ -68,12 +72,13 @@ const ReservationsDocument = (props) => {
         }
 
         let url = `${env.apiDomain}/api/v1/sessions/add`;
-        const response = await fetch(url, {
+        const resp = await fetch(url, {
             method: "POST",
             body: JSON.stringify({ token: tokenForArchieve, details: reservationObj, stage }),
             headers: { "Content-Type": "application/json", },
         });
-        const data = await response.json();
+        const data = await resp.json();
+        console.log({ data, stage });
 
     };
     const generatePdf = (e) => {
@@ -121,11 +126,12 @@ const ReservationsDocument = (props) => {
 
                 if (typeof response === "object" && response.status === 200) {
                     setReservId(response.data["reservations-ids"] ? response.data["reservations-ids"] : null);
-                    // fetchArchieveToken({ id: response.data["reservations-ids"], stage: "GET_RESERVATION_ID" });
+                    fetchArchieveToken({ id: response.data["reservations-ids"], stage: "GET_RESERVATION_ID" });
 
                 } else {
                     //if fail it means we dont have any reservation id So we made it null
-                    // fetchArchieveToken({ id: [[null], [null]], stage: "GET_SERVER_RESPONED" });
+                    // fetchArchieveToken({ id: [[null], [null]], stage: "GET_SERVER_RESPONED", response });
+                    //if fail it means we dont have any reservation id So we made it null
                     let location = "else part fetch response  https://api.london-tech.com/api/v1/reservation"
                     let message = 'Istanbul reservations-document Component - submitDataToGetReservId function fetch_response_ else part '
                     let options = { requestOptions, response, body }
@@ -137,14 +143,14 @@ const ReservationsDocument = (props) => {
                 let message = 'Istanbul reservations-document Component - submitDataToGetReservId function fetch_ cathc blog'
                 let options = { body }
                 window.handelErrorLogs(location, message, options)
+                fetchArchieveToken({ id: [[null], [null]], stage: "GET_SERVER_RESPONED", 'response': { 'message': error.message, 'status': error.status } });
+
             });
     };
 
     // scrolling from top
     useEffect(() => {
-        submitDataToGetReservId() 
-    
-
+        submitDataToGetReservId()
     }, [])
     useEffect(() => {
         // if (reservId) fetchArchieveToken({ id: reservId, stage: "RENDER_RESERVATION_DETAILS" });
@@ -237,14 +243,14 @@ const ReservationsDocument = (props) => {
                                                             <div className={`${styles.text1} ${direction}`}>{appData?.words["strPaymentMethod"]}</div>
                                                             <div className={`${styles.text2} ${direction}`}>
 
-                                                            {(() => {
-                                                                            switch (paymentType) {
-                                                                                case 1: return appData?.words["strCash"];
-                                                                                case 5: return appData?.words["strPayWithPayPal"];
-                                                                                case 7: return appData?.words["strPaybycard"];
-                                                                                default: return "Pay by Cash";
-                                                                            }
-                                                                        })()}
+                                                                {(() => {
+                                                                    switch (paymentType) {
+                                                                        case 1: return appData?.words["strCash"];
+                                                                        case 5: return appData?.words["strPayWithPayPal"];
+                                                                        case 7: return appData?.words["strPaybycard"];
+                                                                        default: return "Pay by Cash";
+                                                                    }
+                                                                })()}
                                                             </div>
                                                         </div>
                                                     </div>

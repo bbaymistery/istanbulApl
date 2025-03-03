@@ -14,7 +14,8 @@ import SingleTourDesktopImages from "./SingleTourDesktopImages";
 import MobileSingleTourTitle from "./MobileSingleTourTitle";
 import SingleTourBreadCrumb from "./SingleTourBreadCrumb";
 import styles from "./singletour.module.scss";
-import singleTourSchema, {  tourDescriptionName } from "./schema";
+import singleTourSchema, { tourDescriptionName } from "./schema";
+import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
 
 const TourContentDetails = (props) => {
 
@@ -28,7 +29,7 @@ const TourContentDetails = (props) => {
     const [loadAlert, setLoadAlert] = useState(true);
     const initialReducer = useSelector(state => (state.initialReducer));
     const { appData } = initialReducer;
-
+    const [shouldShowModal, setshouldShowModal] = useState(false)
     const pickUpDropOffActions = useSelector(state => (state.pickUpDropOffActions));
     const { params: { language, direction }, reservations } = pickUpDropOffActions;
     let transferDate = reservations[0]?.transferDetails?.transferDateTimeString;
@@ -87,9 +88,9 @@ const TourContentDetails = (props) => {
                             {/*visible on mobile*/}
                             {width <= 990 ? <MobileSingleTourTitle finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} /> : null}
                             {/*visible on desktop not mobile */}
-                            <SingleTourDesktopImages finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} />
+                            <SingleTourDesktopImages finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} setshouldShowModal={setshouldShowModal} />
                             {/*display block at the 700px =>for mobile visible*/}
-                            {<MobileSnapshhotAndSlider finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} />}
+                            {<MobileSnapshhotAndSlider finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} shouldShowModal={shouldShowModal} setshouldShowModal={setshouldShowModal} />}
                             {/* adults children infants count component */}
                             <SeatlistAdults language={language} appData={appData} transferDate={transferDate} direction={direction} tourDetails={tourDetails} />
                             <div className={`${styles.page_content} `} dangerouslySetInnerHTML={{ __html: pageContent }} />
@@ -101,17 +102,7 @@ const TourContentDetails = (props) => {
 
     )
 }
-function adjustPathnameForLanguage(pathname, pageStartLanguage, cookies) {
-    if (pageStartLanguage === 'en') {
-        pathname = pathname.replace(/^\/_next\/data\/[^/]+\//, '/').replace(/\.[^/.]+$/, '').replace(/\.json$/, '');
-        pageStartLanguage = cookies['lang'] || 'en';  // Default to 'en' if no lang cookie is present
-    } else {
-        //let pathname ='/tr/tours/cambridge-daily-tour'  let pagestartLanguage="tr"
-        pathname = pathname.replace(`/${pageStartLanguage}`, '');
 
-    }
-    return { pathname, pageStartLanguage };
-}
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
 
     const env = await fetchConfig(); // Fetch environment-specific configuration (e.g., API keys)
@@ -145,10 +136,6 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
             props: { data: "not found" }
         };
     } else {
-
-
-
-
         let language = pageStartLanguage;
         const pageContent = getTourPageContentByPathname(`${pathname}`, language);
         const metaTags = getTourMetaTagsByPathname(pathname, language, env);

@@ -44,7 +44,7 @@ const Discount = () => {
                                 </div>
                             </div>
                             <div className={`${styles.right} `}>
-                                <Image className={styles.landing_image} src={"/images/750600.webp"} alt="Image" width={width < 990 ? 350 : 700} height={width < 990 ? 350 : 600} />
+                                {/* <Image className={styles.landing_image} src={"/images/750600.webp"} alt="Image" width={width < 990 ? 350 : 700} height={width < 990 ? 350 : 600} /> */}
                             </div>
 
 

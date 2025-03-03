@@ -9,3 +9,8 @@
 
 //!Add sitemap link to foter
 //!Generate meta tags for privacy polciy and terms page
+//generate tours page cayuse it already exsist
+
+
+
+//Open archieve token

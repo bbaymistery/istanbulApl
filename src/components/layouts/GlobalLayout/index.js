@@ -3,9 +3,14 @@ import Head from 'next/head';
 import TopHeader from '../../widgets/TopHeader';
 import { useRouter } from 'next/router';
 import Footer from '../../widgets/Footer';
+const seoDefaults = {
+  title: "APL Transfers ",
+  keywords: "Istanbul airport transfer, Sabiha Gokcen transfer, Beşiktaş taxi, Taksim transportation, Antalya tours, Fethiye boat tour, Oludeniz paragliding, Cappadocia balloon tour, Turkey tours, private transfer service",
+  description: "We provide private transfer and tour services in Istanbul, Antalya, Fethiye, and more. Enjoy safe and comfortable airport transfers, city transport, and top-rated tours in Turkey. Book now for a hassle-free experience!",
+};
 
-const GlobalLayout = ({ children, title = "APL Transfers", description = "Salam", keywords = "Salam", }) => {
-  const currentYear = new Date().getFullYear(); // Get the current year
+const GlobalLayout = ({ children, title = seoDefaults.title, description = seoDefaults.description, keywords = seoDefaults.keywords }) => {
+  const currentYear = new Date().getFullYear(); 
   const router = useRouter()
   return (
     <>

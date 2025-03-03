@@ -40,7 +40,7 @@ export const tourDescriptionName = {
             "zh": "费特希耶Ölüdeniz船游"
         }
     },
-    "/tours/fethiye-quad-bike-safari-tour": {
+    "/tours/fethiye-quad-bike-safari": {
         "description": {
             "en": "Get ready for an adrenaline-pumping adventure with the Fethiye Quad Bike Safari! Ride through rugged terrains, dusty trails, and lush forests while enjoying the stunning landscapes of Fethiye.",
             "tr": "Fethiye ATV Safari ile adrenalin dolu bir maceraya hazır olun! Zorlu arazilerde, tozlu patikalarda ve yemyeşil ormanlarda sürüş yaparak Fethiye’nin eşsiz manzaralarının keyfini çıkarın.",
