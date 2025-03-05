@@ -75,9 +75,7 @@ const CardQuotationItem = (params = {}) => {
   const [journeyAccrodionStatus, setJourneyAccrodionStatus] = useState(true)
   const [returnJourneyAccordionStatus, setReturnJourneyAccordionStatus] = useState(true)
 
-  // Check if distance exists, remove 'mile', and convert to km
-  const distanceInMiles = distance ? parseFloat(distance.replace(' mile', '')) : null;
-  const distanceInKm = distanceInMiles ? (distanceInMiles * 1.60934).toFixed(2) : null;
+
   // Format the duration based on the language
   const formattedDuration = splitAndTranslateDuration(duration, language, appData);
 
@@ -214,13 +212,13 @@ const CardQuotationItem = (params = {}) => {
 
                 <div className={`${direction === 'rtl' ? styles.thirdcolumnDirection : ""} ${styles.column_third}`}>
                   <div className={styles.duration_price}>
-                    <span>
+                    {/* <span>
                       <i className="fa-solid fa-location-dot"></i>
                       {distanceInKm} km
                       <br />
 
                       {distanceInMiles} {appData?.words["strMiles"]}
-                    </span>
+                    </span> */}
                     <div className={styles.price}>{quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`} <span>{quotationLoading ? "" : "00"}</span> </div>
                   </div>
 
@@ -303,13 +301,13 @@ const CardQuotationItem = (params = {}) => {
 
                 <div className={`${direction === 'rtl' ? styles.thirdcolumnDirection : ""} ${styles.column_third}`}>
                   <div className={styles.duration_price}>
-                    <span>
+                    {/* <span>
                       <i className="fa-solid fa-location-dot"></i>
                       {distanceInKm} km
                       <br />
                       {distanceInMiles} {appData?.words["strMiles"]}
 
-                    </span>
+                    </span> */}
                     <div className={styles.price}>{quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`} <span>{quotationLoading ? "" : "00"}</span> </div>
                   </div>
 
@@ -397,13 +395,13 @@ const CardQuotationItem = (params = {}) => {
 
                 <div className={`${direction === 'rtl' ? styles.thirdcolumnDirection : ""} ${styles.column_third}`}>
                   <div className={styles.duration_price}>
-                    <span>
+                    {/* <span>
                       <i className="fa-solid fa-location-dot"></i>
                       {distanceInKm} km
                       <br />
                       {distanceInMiles} {appData?.words["strMiles"]}
 
-                    </span>
+                    </span> */}
                     <div className={styles.price}>{quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`} <span>{quotationLoading ? "" : "00"}</span> </div>
                   </div>
 
@@ -425,11 +423,7 @@ const CardQuotationItem = (params = {}) => {
         })}
 
         {(+journeyType === 0) && datas?.map((item, index) => {
-          console.log({ item });
-
           let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
-        
-
           const price = currencyId === 3 ? item?.price : item?.exchangedPrice;
           const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price.split(".")[0]}.`;
 
@@ -493,12 +487,12 @@ const CardQuotationItem = (params = {}) => {
 
                 <div className={` ${styles.column_third}`}>
                   <div className={styles.duration_price}>
-                    <span className={styles.distance}>
+                    {/* <span className={styles.distance}>
                       <i className="fa-solid fa-location-dot"></i>
                       {distanceInKm} km
                       <br />
                       {distanceInMiles} {appData?.words["strMiles"]}
-                    </span>
+                    </span> */}
                     <div className={styles.price}>{quotationLoading ? "..." : finalPrice} <span>{quotationLoading ? "" : "00"}</span> </div>
                   </div>
                   <div className={`${styles.btn_div} ${selected ? styles.selectedBtnDiv : ""}`}>

@@ -44,6 +44,8 @@ const collectPointsAsync = params => new Promise((resolve, reject) => collectPoi
 const readyToCollectQuotations = (params = {}) => {
 
     (async () => {
+        const startTime = performance.now(); // Start timing
+
         let { dispatch, setInternalState, router, journeyType, reservations, env, currencyId } = params
 
         setInternalState({ ["quotation-loading"]: true })
@@ -77,8 +79,18 @@ const readyToCollectQuotations = (params = {}) => {
                 setInternalState({ ["error-booking-message-0"]: log?.error?.global[0] })
             }
         }
+
         setInternalState({ ["quotation-loading"]: false })
+
+
+        const endTime = performance.now(); // End timing
+        console.log(`Execution time: ${(endTime - startTime).toFixed(2)} ms`);
     })()
+
+
+
+
+
 }
 //getting quotations
 const collectQuotations = (params = {}, callback = () => { }) => {
@@ -122,6 +134,13 @@ const collectQuotations = (params = {}, callback = () => { }) => {
             "currencyId": currencyId
         }),
     };
+// console.log(JSON.stringify({
+//     selectedPickupPoints: trSelectedPickPoints,
+//     selectedDropoffPoints: trSelectedDroppPoints,
+//     transferDateTimeString: transferDAteTimeString,
+//     "accountId": 2964,
+//     "currencyId": currencyId
+// }));
 
     //check if tru then get oneway guotations
     if (parseInt(journeyType) === 0) {
@@ -268,8 +287,6 @@ const QuotationResults = (props) => {
         setInternalState({ [`show-${destination}-extra-point-${index}`]: false })
     }
     const getQuotations = (params = {}) => {
-        console.log(selectedCurrency.currencyId);
-
         let errorHolder = reservationSchemeValidator({ reservations });
         setInternalState({ errorHolder })
         if (errorHolder.status === 200) readyToCollectQuotations({ dispatch, setInternalState, router, journeyType, reservations, env, currencyId: selectedCurrency.currencyId })

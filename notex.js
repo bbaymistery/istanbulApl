@@ -6,7 +6,7 @@
 //!Check metatags of all pages
 
 //!add channel id   /api/v1/pages/details End-Point
-
+//!tOURS ICINDE ki schema kontrol et price range adress
 //!Add sitemap link to foter
 //!Generate meta tags for privacy polciy and terms page
 //generate tours page cayuse it already exsist

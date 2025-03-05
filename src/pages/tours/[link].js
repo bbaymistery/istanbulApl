@@ -1,5 +1,5 @@
 import GlobalLayout from "../../components/layouts/GlobalLayout";
-import { getTourByPathname, getTourMetaTagsByPathname, getTourPageContentByPathname } from '../../constants/transltatedTourDatas';
+import { getTourByPathname, getTourMetaTagsByPathname, getTourPageContentByPathname } from '../../constants/keywordsAndContents/toursKeywordsContentSchemas';
 import { parseCookies } from '../../helpers/cokieesFunc';
 import { parse } from 'url';
 import { checkLanguageAttributeOntheUrl } from '../../helpers/checkLanguageAttributeOntheUrl';

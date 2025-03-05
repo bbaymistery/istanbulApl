@@ -56,7 +56,6 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
     const { linkname } = query; // Extract the linkname parameter from the query string
     const env = await fetchConfig(); // Fetch environment-specific configuration (e.g., API keys)
 
-
     // Disable caching for dynamic responses
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
 

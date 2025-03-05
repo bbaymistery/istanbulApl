@@ -10,12 +10,12 @@ import { parseCookies } from "../../helpers/cokieesFunc";
 import { parse } from 'url';
 import { htmlContentsTerms, termsKeywords } from "../../constants/keywordsAndContents/terms/keywordsAndContents";
 import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
-const Terms = () => {
+const Terms = (props) => {
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state
-
+let  { metaDescription, keywords, headTitle } = props
     return (
-        <GlobalLayout title="Terms" keywords="Terms" description="Terms" >
+        <GlobalLayout title={headTitle} keywords={keywords} description={   metaDescription} >
             <div className={`${styles.terms} ${direction} page`} >
                 <div className={`${styles.terms_section} page_section`}>
                     <div className={`${styles.terms_section_container} page_section_container`}>
@@ -65,6 +65,7 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
     let keywords = termsKeywords.keywords[pageStartLanguage];
     let headTitle = termsKeywords.headTitle[pageStartLanguage];
 
+    console.log({ keywords ,headTitle});
 
 
 

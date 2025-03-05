@@ -181,7 +181,7 @@ export const tourDescriptionName = {
  * @param {string} datePublished - The date the review or product was published (ISO 8601 format).
  * @returns {Object} - A JSON-LD structured schema object.
  */
- const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourDescription, datePublished) => ({
+const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourDescription, datePublished) => ({
 
     "LocalBusiness": {
         "@context": "https://schema.org/",
@@ -190,17 +190,22 @@ export const tourDescriptionName = {
         "image": `${env.websiteDomain}/logos/logo.webp`,
         "@id": "1",
         "url": `${env.websiteDomain}${tourPathAddress}`,
-        "telephone": "+44 208 688 7744",
+        "telephone": "+90 216 550 3313",
         "priceRange": "35",
         "address": {
             "@type": "PostalAddress",
-            "postalCode": "UB7 9HJ",
-            "fullDetails": ["APL Office, ", "Novotel Heathrow, ", "Cherry Lane, ", "West Drayton, London, ", "UB7 9HJ"],
-            "streetAddress": "APL Office, Cherry Lane",
-            "addressCountry": "GB",
-            "addressLocality": "West Drayton"
+            "postalCode": "34714",
+            "fullDetails": ["Muhurdar Caddesi", "No 14 D3 Kadikoy", "Istanbul", "Turkiye"],
+            "streetAddress": "Muhurdar Caddesi, No 14 D3, Kadikoy, Istanbul, Turkiye",
+            "addressCountry": "TR",
+            "addressLocality": "Kadıköy"
         },
-        "geo": { "@type": "GeoCoordinates", "latitude": 51.49759087451854, "longitude": -0.455451293899482 },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.9810,
+            "longitude": 29.0276
+        }
+        ,
         "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
@@ -225,9 +230,8 @@ export const tourDescriptionName = {
         "offers": {
             "@type": "Offer",
             "url": `${env.websiteDomain}${tourPathAddress}`,
-            "priceCurrency": "GBP",
+            "priceCurrency": "TRY",
             "price": `${price}`,
-            "priceValidUntil": "2025-05-01",
             "availability": "https://schema.org/InStock",
             "itemCondition": "https://schema.org/NewCondition"
         },

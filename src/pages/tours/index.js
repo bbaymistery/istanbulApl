@@ -4,7 +4,7 @@ import styles from "./styles.module.scss"
 import Image from 'next/image'
 import Button from '../../components/elements/Button/Button'
 import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes'
-import { tourDatasTranslated } from '../../constants/transltatedTourDatas'
+import { tourDatasTranslated } from '../../constants/keywordsAndContents/toursKeywordsContentSchemas'
 import GlobalLayout from '../../components/layouts/GlobalLayout'
 import { parseCookies } from '../../helpers/cokieesFunc'
 import { checkLanguageAttributeOntheUrl } from '../../helpers/checkLanguageAttributeOntheUrl'
@@ -13,7 +13,7 @@ import { adjustPathnameForLanguage } from '../../helpers/adjustedPageLanguage'
 
 
 const Tours = (props) => {
-    let { insideGlobalLayout = true,seoDatas } = props
+    let { insideGlobalLayout = true, seoDatas } = props
 
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state
