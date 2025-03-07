@@ -10,6 +10,7 @@ import { parseCookies } from "../../helpers/cokieesFunc";
 import { parse } from 'url';
 import { htmlContentsPrivacy, privacyKeywords } from "../../constants/keywordsAndContents/privacy/keywordsAndContents";
 import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
+import { isUrlLoverCase } from "../../helpers/isUrlLoverCase";
 
 
 const PrivacyPolicy = (props) => {
@@ -17,7 +18,7 @@ const PrivacyPolicy = (props) => {
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state
 
- 
+
     return (
         <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
             <div className={`${styles.privacy} ${direction} page`} >
@@ -44,16 +45,7 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
 
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
 
-    // URL'yi al ve küçük harfe çevirerek kontrol et
-    // const resolvedUrl = req.url || '';
-    const lowerCaseUrl = resolvedUrl.toLowerCase();
-
-    if (resolvedUrl !== lowerCaseUrl) {
-        res.setHeader('Location', lowerCaseUrl); // Yeni URL'yi ayarla
-        res.statusCode = 301; // 301 yönlendirme kodu
-        res.end(); // Yanıtı bitir
-        return { props: { data: "not found" } }; // Props döndür
-    }
+    isUrlLoverCase(resolvedUrl, res)
 
     //get cookie and pathnames
     let cookies = parseCookies(req.headers.cookie);

@@ -22,7 +22,7 @@ const SelectedPointsOnHomePage = (params = {}) => {
 
     return (<div className={`${styles.selected_points} `}>
         {points.map((point, index) => {
-            const addressText = point.address.includes(point.postcode) ? `${point.address}` : `${point.address} ${point.postcode}`
+            const addressText = point.address.includes(point.postcode) ? `${point.address}` : `${point.address} ${point.postcode ? point.postcode : ""}`
 
             return (
                 <div key={index} className={styles.point_div} direction={String(direction === "rtl")} title={addressText}>

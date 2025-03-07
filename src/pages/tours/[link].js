@@ -16,6 +16,7 @@ import SingleTourBreadCrumb from "./SingleTourBreadCrumb";
 import styles from "./singletour.module.scss";
 import singleTourSchema, { tourDescriptionName } from "./schema";
 import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
+import { isUrlLoverCase } from "../../helpers/isUrlLoverCase";
 
 const TourContentDetails = (props) => {
 
@@ -108,16 +109,7 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
     const env = await fetchConfig(); // Fetch environment-specific configuration (e.g., API keys)
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
 
-    // URL'yi al ve küçük harfe çevirerek kontrol et
-    // const resolvedUrl = req.url || '';
-    const lowerCaseUrl = resolvedUrl.toLowerCase();
-
-    if (resolvedUrl !== lowerCaseUrl) {
-        res.setHeader('Location', lowerCaseUrl); // Yeni URL'yi ayarla
-        res.statusCode = 301; // 301 yönlendirme kodu
-        res.end(); // Yanıtı bitir
-        return { props: { data: "not found" } }; // Props döndür
-    }
+    isUrlLoverCase(resolvedUrl, res);
 
     //get cookie and pathnames
     let cookies = parseCookies(req.headers.cookie);

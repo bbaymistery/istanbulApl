@@ -10,12 +10,13 @@ import { parseCookies } from "../../helpers/cokieesFunc";
 import { parse } from 'url';
 import { htmlContentsTerms, termsKeywords } from "../../constants/keywordsAndContents/terms/keywordsAndContents";
 import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
+import { isUrlLoverCase } from "../../helpers/isUrlLoverCase";
 const Terms = (props) => {
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state
-let  { metaDescription, keywords, headTitle } = props
+    let { metaDescription, keywords, headTitle } = props
     return (
-        <GlobalLayout title={headTitle} keywords={keywords} description={   metaDescription} >
+        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
             <div className={`${styles.terms} ${direction} page`} >
                 <div className={`${styles.terms_section} page_section`}>
                     <div className={`${styles.terms_section_container} page_section_container`}>
@@ -40,16 +41,7 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
 
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
 
-    // URL'yi al ve küçük harfe çevirerek kontrol et
-    // const resolvedUrl = req.url || '';
-    const lowerCaseUrl = resolvedUrl.toLowerCase();
-
-    if (resolvedUrl !== lowerCaseUrl) {
-        res.setHeader('Location', lowerCaseUrl); // Yeni URL'yi ayarla
-        res.statusCode = 301; // 301 yönlendirme kodu
-        res.end(); // Yanıtı bitir
-        return { props: { data: "not found" } }; // Props döndür
-    }
+    isUrlLoverCase(resolvedUrl, res)
 
     //get cookie and pathnames
     let cookies = parseCookies(req.headers.cookie);
@@ -65,7 +57,7 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
     let keywords = termsKeywords.keywords[pageStartLanguage];
     let headTitle = termsKeywords.headTitle[pageStartLanguage];
 
-    console.log({ keywords ,headTitle});
+    console.log({ keywords, headTitle });
 
 
 

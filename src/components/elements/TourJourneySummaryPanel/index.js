@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import styles from "./styles.module.scss"
 const TourJourneySummaryPanel = (props) => {
-    let {  splitedDate, splitedHour, splitedMinute, selectedTour, language } = props
+    let { splitedDate, splitedHour, splitedMinute, selectedTour, language } = props
 
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { params: { direction } } = state
@@ -27,7 +27,7 @@ const TourJourneySummaryPanel = (props) => {
                             <h5>{appData?.words["strPickupAddress"]}:  </h5>
                             {selectedPickupPoints.map((point, i) => {
                                 return <p style={{ borderBottom: "0px" }} key={i}>
-                                    <span>{`${i + 1}. `}  {point.address.includes(point.postcode) ? `${point.address}` : `${point.address} ${point.postcode}`}</span>
+                                    <span>{`${i + 1}. `}  {point.address.includes(point.postcode) ? `${point.address}` : `${point.address} ${point.postcode ? point.postcode : ""}`}</span>
                                 </p>
                             })}
                             <h5>{appData?.words["strOn"]}:</h5>

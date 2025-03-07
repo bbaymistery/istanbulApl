@@ -194,17 +194,17 @@ MyApp.getInitialProps = wrapper.getInitialAppProps((store) => async ({ Component
 
   // Fetch app data and payment types
   if (ctx?.req?.url) {
-    const paymentUrl = `${env.apiDomain}/api/v1/payment-types`;
 
-    const appDataUrl = `${env.apiDomain}/app/${lang?.length === 2 ? lang : 'en'}`; // Use the preferred language if available, otherwise default to English
-    const urls = [paymentUrl, appDataUrl];
+
+    const appDataUrl = `https://cdn.london-tech.com/app/${lang?.length === 2 ? lang : 'en'}.json`;
+    const urls = [appDataUrl];
     let response = await Promise.all(urls.map(async url => {
       let resp = await fetch(url);
       return resp.json();
     }));
 
-    appDataInitial = response[1];
-    paymentTypesInitial = response[0].data;
+    appDataInitial = response[0];
+    paymentTypesInitial = response[0].paymentTypes;
 
     if (isExcluded) {
       // Eğer rota /News veya /blog ile başlıyorsa verileri null yap

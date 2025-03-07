@@ -33,7 +33,7 @@ const SelectedPointOnTransferDetails = (props) => {
                                 isTaxiDeal ? <></> : <div className={styles.list}>
                                     {imageObjects && <img className={styles.list_image} src={`${env.apiDomain}${imageObjects[point?.pcatId]}`} alt={point.address} />}
                                     <p className={styles.list_description}>
-                                        {point.address.includes(point.postcode) ? `${point.address}` : `${point.address} ${point.postcode}`}
+                                        {point.address.includes(point.postcode) ? `${point.address}` : `${point.address} ${point.postcode ? point.postcode : ""}`}
                                     </p>
                                 </div>
                             }

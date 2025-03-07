@@ -55,7 +55,7 @@ const TransferJourneySummaryPanel = (props) => {
                             {selectedPickupPoints.map((pickup, i) => {
                                     const addressText = pickup.address.includes(pickup.postcode)
                                         ? `${pickup.address}`
-                                        : `${pickup.address} ${pickup.postcode}`;
+                                        : `${pickup.address} ${pickup.postcode ? pickup.postcode : ""}`;
                                     return (
                                         <li key={i + 15}>
                                             <span>{isTaxiDeal ? "" : `${i + 1}. `}{addressText}</span>
@@ -66,7 +66,7 @@ const TransferJourneySummaryPanel = (props) => {
                             {selectedDropoffPoints.map((dropoff, i) => {
                                     const addressText = dropoff.address.includes(dropoff.postcode)
                                         ? `${dropoff.address}`
-                                        : `${dropoff.address} ${dropoff.postcode}`;
+                                        : `${dropoff.address} ${dropoff.postcode ? dropoff.postcode : ""}`;
                                     return (
                                         <li key={i + 15}>
                                             <span>{isTaxiDeal ? "" : `${i + 1}. `}{addressText}</span>

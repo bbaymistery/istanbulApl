@@ -14,3 +14,33 @@
 
 
 //Open archieve token
+
+
+
+//toursKeywordsContentSchemas
+/*
+!Bu bilgiler elenilmelimidir ? 
+Istanbul Bosphorus Lunch Cruise: Explore the Strait and the Black Sea  £35
+Tour Duration: 4 Hours
+Start Point: Hotel Pick-Up
+End Point: Hotel Drop-Off
+Departure Time: 13:00
+
+
+Price: Adult £25.00
+Location: Muğla / Fethiye
+Duration: 10:00 AM - 6:00 PM
+!eklenilecekse time secimini kapatmamiz gerekiyor
+
+
+
+slider images eksik 
+adults price nece atanacak ? 
+!We have to make schemas metaTags
+
+*/
+//!google-site-verification >degisicekmi yoksa apldeki gibi kalicak
+//!Schema
+//!Antalyanin ilk images[0] degisicek ve   de de antalyaya aid olan degisicek
+//!Adults Children prices
+//!Someof them is written duration like => Duration: 10:00 AM - 6:00 PM  In this case we should remove select data time 

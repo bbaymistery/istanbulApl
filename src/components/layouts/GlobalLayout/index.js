@@ -18,7 +18,7 @@ const GlobalLayout = ({ children, title = seoDefaults.title, description = seoDe
         <title>{title}</title>
         <meta name="keywords" content={keywords} />
         <meta name="description" content={description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 " />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
         {/*//? no follow  */}
         <meta name="googlebot" content="noindex" />

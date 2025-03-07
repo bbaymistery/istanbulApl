@@ -10,6 +10,7 @@ import Tours from './tours';
 import { parseCookies } from '../helpers/cokieesFunc';
 import { checkLanguageAttributeOntheUrl } from '../helpers/checkLanguageAttributeOntheUrl';
 import { adjustPathnameForLanguage } from '../helpers/adjustedPageLanguage';
+import { isUrlLoverCase } from '../helpers/isUrlLoverCase';
 const Testimonials = dynamic(() => import('../components/widgets/Testimonials'),);
 const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'),);
 
@@ -33,7 +34,7 @@ export default function Home(props) {
       <Hero env={props.env} />
       <WhyChoice />
       <PopularDestinations />
-      <Tours  insideGlobalLayout={false} />
+      <Tours insideGlobalLayout={false} />
       {hasScrolled && <CarsSlider />}
       <Testimonials />
 
@@ -93,27 +94,20 @@ const seoHomeDefaults = {
 };
 
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
-    const lowerCaseUrl = resolvedUrl.toLowerCase();
+  res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
+  isUrlLoverCase(resolvedUrl, res)
 
-    if (resolvedUrl !== lowerCaseUrl) {
-        res.setHeader('Location', lowerCaseUrl); // Yeni URL'yi ayarla
-        res.statusCode = 301; // 301 yönlendirme kodu
-        res.end(); // Yanıtı bitir
-        return { props: { data: "not found" } }; // Props döndür
-    }
-
-    //get cookie and pathnames
-    let cookies = parseCookies(req.headers.cookie);
-    let { pathname } = parse(req.url, true)
-    let pageStartLanguage = checkLanguageAttributeOntheUrl(req?.url)
-    // Adjust pathname and language based on initial language
-    const adjusted = adjustPathnameForLanguage(pathname, pageStartLanguage, cookies);
-    // pathname = adjusted.pathname;
-    pageStartLanguage = adjusted.pageStartLanguage;
-    const seoDatas = seoHomeDefaults[pageStartLanguage];
-    return {
-        //we pass tourdetails fot adding inside redux generally all together
-        props: { seoDatas }
-    };
+  //get cookie and pathnames
+  let cookies = parseCookies(req.headers.cookie);
+  let { pathname } = parse(req.url, true)
+  let pageStartLanguage = checkLanguageAttributeOntheUrl(req?.url)
+  // Adjust pathname and language based on initial language
+  const adjusted = adjustPathnameForLanguage(pathname, pageStartLanguage, cookies);
+  // pathname = adjusted.pathname;
+  pageStartLanguage = adjusted.pageStartLanguage;
+  const seoDatas = seoHomeDefaults[pageStartLanguage];
+  return {
+    //we pass tourdetails fot adding inside redux generally all together
+    props: { seoDatas }
+  };
 }

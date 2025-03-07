@@ -50,10 +50,6 @@ const PopularDestinations = (props) => {
                         <div className={`${styles.tabs} `}>
                             {tabsBttons.map((btn, index) => {
                                 return (
-                                    //     <button onClick={() => tabsHandler({ index, dealsNameProp: btn.hasTaxiDeals })} className={`${tabs === index ? styles.active : ""} btn`} key={btn.hasTaxiDeals} >
-                                    //     {airportTranslations[language][btn.strInnerText].split("(")[0]}
-                                    // </button>
-
                                     <Button
                                         type={tabs === index ? BUTTON_TYPES.PRIMARY : BUTTON_TYPES.PRIMARY_OUTLINE}
                                         onBtnClick={() => tabsHandler({ index, dealsNameProp: btn.hasTaxiDeals })}

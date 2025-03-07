@@ -10,6 +10,7 @@ import { parseCookies } from '../../helpers/cokieesFunc'
 import { checkLanguageAttributeOntheUrl } from '../../helpers/checkLanguageAttributeOntheUrl'
 import { parse } from 'url';
 import { adjustPathnameForLanguage } from '../../helpers/adjustedPageLanguage'
+import { isUrlLoverCase } from '../../helpers/isUrlLoverCase'
 
 
 const Tours = (props) => {
@@ -189,14 +190,8 @@ const seoData = {
 };
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
-    const lowerCaseUrl = resolvedUrl.toLowerCase();
 
-    if (resolvedUrl !== lowerCaseUrl) {
-        res.setHeader('Location', lowerCaseUrl); // Yeni URL'yi ayarla
-        res.statusCode = 301; // 301 yönlendirme kodu
-        res.end(); // Yanıtı bitir
-        return { props: { data: "not found" } }; // Props döndür
-    }
+    isUrlLoverCase(resolvedUrl, res)
 
     //get cookie and pathnames
     let cookies = parseCookies(req.headers.cookie);

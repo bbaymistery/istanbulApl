@@ -1638,7 +1638,6 @@ const pathForCheckingError404 = [
  */
 const extractLinkUrls = (data) => {
     const urls = [];
-
     Object.keys(data).forEach((key) => {
         const destinations = data[key];
         destinations.forEach((destination) => {
@@ -1647,7 +1646,6 @@ const extractLinkUrls = (data) => {
             }
         });
     });
-
     return urls;
 };
 
@@ -1662,7 +1660,9 @@ const extractLinkUrls = (data) => {
 export const ISvalidPath = (pathname) => {
     return [...pathForCheckingError404, ...extractLinkUrls(airportPoints)].some((route) => route.path.toLowerCase() === pathname.toLowerCase());
 }
-
+export const ifItIsQuotationLink = (pathname) => {
+    return [...extractLinkUrls(airportPoints)].some((route) => route.path.toLowerCase() === pathname.toLowerCase());
+}
 
 /**
  * Finds the matching destination item based on the provided router pathname.
