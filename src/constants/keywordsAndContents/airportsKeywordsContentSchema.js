@@ -1,3 +1,10 @@
+/**
+ * Retrieves the airport page content for the given pathname and language.
+ *
+ * @param {string} pathname - The pathname of the airport page.
+ * @param {string} [language="en"] - The language of the airport page content.
+ * @returns {string} The airport page content for the given pathname and language.
+ */
 export const getAirportPageContentByPathname = (pathname, language = "en") => {
     return airportPageContents[pathname][language]
 }
@@ -1304,40 +1311,2466 @@ const airportPageContents = {
         `,
     },
     "/antalya-airport-taxi-prices": {
-        en: ``,
-        tr: ``,
-        ar: ``,
-        es: ``,
-        it: ``,
-        ru: ``,
-        zh: ``,
+        en: `
+        <h1>Antalya Airport Taxi Transfer Prices – Private & Fixed-Price Transfers</h1>
+
+<h2>Reliable & Comfortable Transfers from Antalya Airport (AYT)</h2>
+
+<p>
+    Traveling to <strong>Kemer, Belek, Side, Alanya, Lara Beach, or Konyaaltı</strong>?  
+    APL Transfers offers <strong>fixed-price private airport transfers</strong> from  
+    <strong>Antalya Airport (AYT)</strong> to all major resorts and hotels across the region.  
+    Whether you need a <strong>saloon car, a people carrier for five passengers,  
+    an eight-seater minibus, or a luxury Mercedes business-class vehicle</strong>,  
+    we ensure a smooth, comfortable journey.
+</p>
+
+<p>
+    Our <strong>meet & greet service at the arrival gates</strong> guarantees  
+    that your driver will be waiting for you as soon as you land.
+</p>
+
+<h2>Vehicle Options for Antalya Airport Transfers</h2>
+<ul>
+    <li><strong>Saloon Car</strong> – Ideal for solo travelers and couples.</li>
+    <li><strong>People Carrier (5 Passengers)</strong> – Perfect for families and small groups.</li>
+    <li><strong>8-Seater Minibus</strong> – Spacious for larger groups with luggage.</li>
+    <li><strong>Business-Class Mercedes Vehicles</strong> – Luxury travel for business and VIP passengers.</li>
+</ul>
+
+<h2>Meet & Greet Service – Where to Find Your Driver</h2>
+<ul>
+    <li><strong>Location:</strong> Upon arrival at <strong>Antalya Airport (AYT)</strong>,  
+        your driver will be waiting <strong>by the arrival gates</strong>,  
+        holding a passenger name board for easy recognition.</li>
+    <li><strong>No delays:</strong> Even if your flight arrives early or is delayed,  
+        our drivers track your arrival and adjust accordingly.</li>
+    <li><strong>Seamless Transfers:</strong> Avoid the hassle of last-minute taxi negotiations—  
+        your private driver will be ready to take you to your destination.</li>
+</ul>
+
+<h2>Top Destinations for Antalya Airport Transfers</h2>
+
+<p>We provide private transfers from <strong>Antalya Airport (AYT)</strong> to:</p>
+<ul>
+    <li><strong>Kemer</strong> – A scenic coastal resort known for its beaches, marina, and luxury hotels.</li>
+    <li><strong>Belek</strong> – Famous for its world-class golf courses and 5-star resorts.</li>
+    <li><strong>Side</strong> – A historic seaside town with ancient ruins and golden beaches.</li>
+    <li><strong>Alanya</strong> – A lively city with a vibrant nightlife, sandy beaches, and historical sites.</li>
+    <li><strong>Lara Beach</strong> – Home to some of the best all-inclusive resorts in Antalya.</li>
+    <li><strong>Konyaaltı</strong> – A beautiful beach district with crystal-clear waters and scenic mountains.</li>
+</ul>
+
+<p>
+    Whether you're heading to a <strong>luxury resort, boutique hotel, or private villa</strong>,  
+    APL Transfers provides a stress-free, fixed-price transfer service.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li><strong>Meet & Greet at the Arrival Gates</strong> – Your driver will be waiting for you with a name board.</li>
+    <li><strong>Fixed Prices – No Hidden Costs</strong> – What you see is what you pay.</li>
+    <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Book with confidence.</li>
+    <li><strong>Free Child Seats for 8 & 9-Seater Private Vehicles</strong> – Safety for families at no extra cost.</li>
+    <li><strong>24/7 Customer Support</strong> – Always available to assist with your journey.</li>
+    <li><strong>Corporate Travel Solutions</strong> – Reliable airport transfers for business travelers.</li>
+    <li><strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Enjoy a smooth and comfortable ride.</li>
+</ul>
+
+<h2>Book Your Antalya Airport Taxi Now</h2>
+
+<p>
+    Make your arrival at <strong>Antalya Airport (AYT)</strong> stress-free by pre-booking  
+    your <strong>private taxi transfer</strong>. Whether you're traveling to the  
+    <strong>beach resorts of Lara and Konyaaltı, the golf courses of Belek,  
+    or the historic sites of Side</strong>, our fixed-price transfers  
+    ensure a smooth and affordable journey.
+</p>
+
+<ul>
+    <li><strong>Instant Online Booking</strong></li>
+    <li><strong>Secure Payment</strong> (Euro, GBP, US Dollar & Turkish Lira Accepted)</li>
+    <li><strong>No Hidden Fees – Transparent Pricing</strong></li>
+</ul>
+
+<p>
+    Need help? Contact our <strong>24/7 customer support</strong> for assistance.
+    <a href="/">Book Now</a> and travel with ease.
+</p>
+
+        `,
+        tr: `
+        <h1>Antalya Havalimanı Taksi Transfer Fiyatları – Özel ve Sabit Fiyatlı Transferler</h1>
+
+<h2>Antalya Havalimanı'ndan Güvenilir ve Konforlu Transferler (AYT)</h2>
+
+<p>
+    <strong>Kemer, Belek, Side, Alanya, Lara Plajı veya Konyaaltı</strong>’na mı seyahat ediyorsunuz?  
+    APL Transfers, <strong>Antalya Havalimanı (AYT)</strong>’ndan tüm büyük tatil köylerine ve otellere  
+    <strong>sabit fiyatlı özel havalimanı transferleri</strong> sunar.  
+    İhtiyacınız ister <strong>sedan bir araç, beş yolcu kapasiteli geniş bir araç,  
+    sekiz kişilik bir minibüs veya lüks bir Mercedes iş sınıfı araç</strong> olsun,  
+    konforlu ve sorunsuz bir yolculuk sağlıyoruz.
+</p>
+
+<p>
+    <strong>Varış kapılarında karşılama hizmetimiz</strong>, şoförünüzün uçaktan indiğiniz anda  
+    sizi bekliyor olmasını garanti eder.
+</p>
+
+<h2>Antalya Havalimanı Transfer Araç Seçenekleri</h2>
+<ul>
+    <li><strong>Sedan Araç</strong> – Bireysel yolcular ve çiftler için ideal.</li>
+    <li><strong>Minivan (5 Yolcu)</strong> – Aileler ve küçük gruplar için mükemmel.</li>
+    <li><strong>8 Kişilik Minibüs</strong> – Daha büyük gruplar ve fazla bagaj için geniş ve rahat.</li>
+    <li><strong>Mercedes İş Sınıfı Araçlar</strong> – VIP ve iş seyahatleri için üst düzey konfor.</li>
+</ul>
+
+<h2>Karşılama Hizmeti – Sürücünüzü Nerede Bulabilirsiniz?</h2>
+<ul>
+    <li><strong>Konum:</strong> <strong>Antalya Havalimanı (AYT)</strong>’na vardığınızda,  
+        şoförünüz sizi <strong>varış kapılarında</strong> isminizin yazılı olduğu bir tabela ile bekliyor olacak.</li>
+    <li><strong>Gecikme Yok:</strong> Uçağınız erken inse veya rötar yapsa bile,  
+        şoförlerimiz varış saatlerinizi takip ederek programlarını buna göre ayarlar.</li>
+    <li><strong>Hızlı ve Kolay Transfer:</strong> Taksi beklemenize veya son dakika pazarlıkları yapmanıza gerek yok –  
+        özel şoförünüz sizi doğrudan gitmek istediğiniz yere götürecektir.</li>
+</ul>
+
+<h2>Antalya Havalimanı Transferlerinde Popüler Destinasyonlar</h2>
+
+<p>Antalya Havalimanı’ndan (AYT) özel transferler sağlıyoruz:</p>
+<ul>
+    <li><strong>Kemer</strong> – Muhteşem plajları, marinası ve lüks otelleriyle ünlü bir tatil beldesi.</li>
+    <li><strong>Belek</strong> – Dünya standartlarında golf sahaları ve 5 yıldızlı tatil köyleri ile tanınır.</li>
+    <li><strong>Side</strong> – Tarihi kalıntıları ve altın kumsallarıyla ünlü bir sahil kasabası.</li>
+    <li><strong>Alanya</strong> – Canlı gece hayatı, geniş kumsalları ve tarihi mekanlarıyla popüler.</li>
+    <li><strong>Lara Plajı</strong> – Antalya’nın en iyi her şey dahil tatil köylerine ev sahipliği yapar.</li>
+    <li><strong>Konyaaltı</strong> – Kristal berraklığındaki denizi ve muhteşem dağ manzaraları ile ünlü bir sahil bölgesi.</li>
+</ul>
+
+<p>
+    İster bir <strong>lüks tatil köyüne, butik bir otele veya özel bir villaya</strong> gidiyor olun,  
+    APL Transfers size konforlu ve sabit fiyatlı bir transfer hizmeti sunar.
+</p>
+
+<h2>Neden APL Transfers’i Seçmelisiniz?</h2>
+<ul>
+    <li><strong>Varış Kapılarında Karşılama</strong> – Şoförünüz isminizin yazılı olduğu bir tabela ile bekleyecek.</li>
+    <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Ne görüyorsanız onu ödersiniz.</li>
+    <li><strong>Varıştan 24 Saat Öncesine Kadar Ücretsiz İptal</strong> – Esnek ve risksiz rezervasyon.</li>
+    <li><strong>8 ve 9 Kişilik Özel Araçlar İçin Ücretsiz Çocuk Koltuğu</strong> – Aileler için ekstra güvenlik, ek ücret olmadan.</li>
+    <li><strong>7/24 Müşteri Desteği</strong> – Seyahatinizde her zaman yardıma hazırız.</li>
+    <li><strong>Kurumsal Seyahat Çözümleri</strong> – İş seyahatleri için güvenilir transfer hizmetleri.</li>
+    <li><strong>Temiz, Konforlu ve Bakımlı Araçlar</strong> – Varış noktanıza konfor içinde ulaşın.</li>
+</ul>
+
+<h2>Antalya Havalimanı Taksi Rezervasyonu Yapın</h2>
+
+<p>
+    <strong>Antalya Havalimanı (AYT)</strong>’na vardığınızda taksi arama stresinden kaçının.  
+    <strong>Özel havalimanı taksi transferinizi</strong> önceden rezerve edin ve konforlu bir yolculuk yapın.  
+    İster <strong>Lara ve Konyaaltı’nın muhteşem sahillerine, Belek’in ünlü golf sahalarına  
+    veya Side’nin tarihi güzelliklerine</strong> gidiyor olun, sabit fiyatlarımız  
+    size ekonomik ve sorunsuz bir transfer sağlar.
+</p>
+
+<ul>
+    <li><strong>Anında Online Rezervasyon</strong></li>
+    <li><strong>Güvenli Ödeme</strong> (Euro, GBP, ABD Doları & Türk Lirası kabul edilir)</li>
+    <li><strong>Gizli Ücret Yok – Şeffaf Fiyatlandırma</strong></li>
+</ul>
+
+<p>
+    Yardıma mı ihtiyacınız var? <strong>7/24 müşteri destek</strong> ekibimizle iletişime geçin.
+    <a href="/">Hemen Rezervasyon Yapın</a> ve rahat bir yolculuk yapın.
+</p>
+
+        `,
+        ar: `
+        <h1>أسعار سيارات الأجرة في مطار أنطاليا – خدمات نقل خاصة وثابتة</h1>
+
+<h2>خدمات نقل موثوقة ومريحة من مطار أنطاليا (AYT)</h2>
+
+<p>
+    هل تسافر إلى <strong>كيمر، بيليك، سايد، ألانيا، شاطئ لارا أو كونيالتي</strong>؟  
+    تقدم APL Transfers <strong>خدمات نقل خاصة بأسعار ثابتة</strong>  
+    من <strong>مطار أنطاليا (AYT)</strong> إلى جميع المنتجعات والفنادق الرئيسية في المنطقة.  
+    سواء كنت بحاجة إلى <strong>سيارة سيدان، حافلة صغيرة تتسع لخمسة ركاب،  
+    حافلة صغيرة بثمانية مقاعد، أو سيارة مرسيدس فاخرة للأعمال</strong>،  
+    نضمن لك رحلة سلسة ومريحة.
+</p>
+
+<p>
+    <strong>خدمة الاستقبال عند بوابات الوصول</strong> تضمن لك أن يكون سائقك  
+    في انتظارك فور وصولك.
+</p>
+
+<h2>خيارات المركبات لخدمة النقل من مطار أنطاليا</h2>
+<ul>
+    <li><strong>سيارة سيدان</strong> – مثالية للمسافرين الأفراد والأزواج.</li>
+    <li><strong>حافلة صغيرة (5 ركاب)</strong> – رائعة للعائلات والمجموعات الصغيرة.</li>
+    <li><strong>حافلة صغيرة بـ 8 مقاعد</strong> – فسيحة ومناسبة للمجموعات الكبيرة مع الأمتعة.</li>
+    <li><strong>سيارات مرسيدس للأعمال</strong> – توفر الراحة والفخامة للمسافرين من رجال الأعمال وVIP.</li>
+</ul>
+
+<h2>خدمة الاستقبال – أين تجد سائقك؟</h2>
+<ul>
+    <li><strong>الموقع:</strong> عند وصولك إلى <strong>مطار أنطاليا (AYT)</strong>،  
+        سيكون سائقك بانتظارك <strong>عند بوابات الوصول</strong>  
+        حاملًا لوحة تحمل اسمك لسهولة التعرف عليه.</li>
+    <li><strong>بدون تأخير:</strong> حتى إذا كان وصول رحلتك مبكرًا أو متأخرًا،  
+        فإن سائقينا يتابعون وقت وصولك ويعدّلون جدولهم وفقًا لذلك.</li>
+    <li><strong>نقل سلس:</strong> لا داعي للانتظار لسيارات الأجرة أو التفاوض في اللحظة الأخيرة –  
+        سيكون سائقك الخاص جاهزًا لنقلك مباشرة إلى وجهتك.</li>
+</ul>
+
+<h2>أهم الوجهات لخدمة النقل من مطار أنطاليا</h2>
+
+<p>نحن نقدم خدمات نقل خاصة من <strong>مطار أنطاليا (AYT)</strong> إلى:</p>
+<ul>
+    <li><strong>كيمر</strong> – منتجع ساحلي خلاب معروف بشواطئه ومينائه وفنادقه الفاخرة.</li>
+    <li><strong>بيليك</strong> – مشهورة بملاعب الجولف ذات المستوى العالمي ومنتجعاتها الفاخرة ذات الخمس نجوم.</li>
+    <li><strong>سايد</strong> – مدينة ساحلية تاريخية تحتوي على آثار قديمة وشواطئ ذهبية.</li>
+    <li><strong>ألانيا</strong> – مدينة نابضة بالحياة تضم حياة ليلية رائعة، شواطئ رملية، ومواقع تاريخية.</li>
+    <li><strong>شاطئ لارا</strong> – موطن لبعض أفضل المنتجعات الشاملة في أنطاليا.</li>
+    <li><strong>كونيالتي</strong> – منطقة شاطئية رائعة بمياهها الصافية وجبالها الخلابة.</li>
+</ul>
+
+<p>
+    سواء كنت متجهًا إلى <strong>منتجع فاخر، فندق بوتيك أو فيلا خاصة</strong>،  
+    توفر APL Transfers خدمة نقل خالية من الإجهاد وبأسعار ثابتة.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li><strong>الاستقبال عند بوابات الوصول</strong> – سيكون السائق بانتظارك بلوحة تحمل اسمك.</li>
+    <li><strong>أسعار ثابتة – بدون رسوم خفية</strong> – لا يوجد أي تكاليف إضافية.</li>
+    <li><strong>إمكانية الإلغاء المجاني حتى 24 ساعة قبل الوصول</strong> – احجز بثقة وراحة بال.</li>
+    <li><strong>مقاعد أطفال مجانية للمركبات الخاصة بـ 8 و 9 مقاعد</strong> – لضمان سلامة العائلات.</li>
+    <li><strong>دعم العملاء 24/7</strong> – متاح دائمًا لمساعدتك أثناء رحلتك.</li>
+    <li><strong>حلول سفر الشركات</strong> – خدمات نقل موثوقة للمسافرين من رجال الأعمال.</li>
+    <li><strong>مركبات فاخرة ونظيفة ومُصانة جيدًا</strong> – استمتع برحلة مريحة إلى وجهتك.</li>
+</ul>
+
+<h2>احجز سيارة الأجرة من مطار أنطاليا الآن</h2>
+
+<p>
+    تجنب عناء البحث عن سيارة أجرة عند وصولك إلى <strong>مطار أنطاليا (AYT)</strong>.  
+    احجز <strong>خدمة النقل الخاصة</strong> مسبقًا وتمتع برحلة مريحة وخالية من المتاعب.<br>  
+    سواء كنت متجهًا إلى <strong>المنتجعات الشاطئية في لارا وكونيالتي، ملاعب الجولف في بيليك،  
+    أو المواقع التاريخية في سايد</strong>، فإننا نوفر لك خدمة نقل  
+    بأسعار ثابتة وبدون أي رسوم خفية.
+</p>
+
+<ul>
+    <li><strong>حجز فوري عبر الإنترنت</strong></li>
+    <li><strong>دفع آمن</strong> (نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية)</li>
+    <li><strong>بدون رسوم خفية – تسعير شفاف</strong></li>
+</ul>
+
+<p>
+    هل تحتاج إلى مساعدة؟ تواصل مع <strong>خدمة العملاء المتوفرة 24/7</strong> لضمان تجربة نقل سلسة.
+    <a href="/">احجز الآن</a> وسافر براحة وطمأنينة!
+</p>
+
+        `,
+        es: `
+        <h1>Precios de Taxi en el Aeropuerto de Antalya – Traslados Privados y a Precio Fijo</h1>
+
+<h2>Traslados Confiables y Cómodos desde el Aeropuerto de Antalya (AYT)</h2>
+
+<p>
+    ¿Viajas a <strong>Kemer, Belek, Side, Alanya, Playa de Lara o Konyaaltı</strong>?  
+    APL Transfers ofrece <strong>traslados privados con tarifa fija</strong>  
+    desde el <strong>Aeropuerto de Antalya (AYT)</strong> a todos los principales resorts y hoteles de la región.  
+    Ya sea que necesites un <strong>sedán, un monovolumen espacioso para cinco pasajeros,  
+    un minibús de ocho plazas o un lujoso Mercedes de clase ejecutiva</strong>,  
+    garantizamos un traslado cómodo y sin complicaciones.
+</p>
+
+<p>
+    Nuestro <strong>servicio de bienvenida en las puertas de llegada</strong> garantiza  
+    que tu conductor estará esperándote tan pronto como aterrices.
+</p>
+
+<h2>Opciones de Vehículos para Traslados desde el Aeropuerto de Antalya</h2>
+<ul>
+    <li><strong>Sedán</strong> – Ideal para viajeros solos y parejas.</li>
+    <li><strong>Monovolumen (5 Pasajeros)</strong> – Perfecto para familias y grupos pequeños.</li>
+    <li><strong>Minibús de 8 Plazas</strong> – Espacioso y adecuado para grupos grandes con equipaje.</li>
+    <li><strong>Vehículos Mercedes de Clase Ejecutiva</strong> – Viajes de lujo para ejecutivos y VIPs.</li>
+</ul>
+
+<h2>Servicio de Bienvenida – ¿Dónde Encontrar a tu Conductor?</h2>
+<ul>
+    <li><strong>Ubicación:</strong> Al llegar al <strong>Aeropuerto de Antalya (AYT)</strong>,  
+        tu conductor te estará esperando <strong>en las puertas de llegada</strong>,  
+        sosteniendo un cartel con tu nombre para que lo reconozcas fácilmente.</li>
+    <li><strong>Sin retrasos:</strong> Incluso si tu vuelo llega antes o se retrasa,  
+        nuestros conductores monitorean la hora de llegada y ajustan el horario según sea necesario.</li>
+    <li><strong>Traslados sin Esperas:</strong> No es necesario hacer fila para un taxi  
+        ni negociar precios de última hora – tu conductor privado estará listo  
+        para llevarte directamente a tu destino.</li>
+</ul>
+
+<h2>Destinos Populares para Traslados desde el Aeropuerto de Antalya</h2>
+
+<p>Ofrecemos traslados privados desde el <strong>Aeropuerto de Antalya (AYT)</strong> a:</p>
+<ul>
+    <li><strong>Kemer</strong> – Un resort costero pintoresco, conocido por sus playas, marina y hoteles de lujo.</li>
+    <li><strong>Belek</strong> – Famoso por sus campos de golf de clase mundial y resorts de 5 estrellas.</li>
+    <li><strong>Side</strong> – Un histórico pueblo costero con ruinas antiguas y playas doradas.</li>
+    <li><strong>Alanya</strong> – Una ciudad vibrante con una animada vida nocturna, playas de arena y sitios históricos.</li>
+    <li><strong>Playa de Lara</strong> – Hogar de algunos de los mejores resorts con todo incluido en Antalya.</li>
+    <li><strong>Konyaaltı</strong> – Un hermoso distrito de playa con aguas cristalinas y montañas escénicas.</li>
+</ul>
+
+<p>
+    Ya sea que te dirijas a un <strong>resort de lujo, un hotel boutique o una villa privada</strong>,  
+    APL Transfers ofrece un servicio de traslado sin estrés y con tarifa fija.
+</p>
+
+<h2>¿Por Qué Elegir APL Transfers?</h2>
+<ul>
+    <li><strong>Servicio de Bienvenida en las Puertas de Llegada</strong> – Tu conductor te estará esperando con un cartel con tu nombre.</li>
+    <li><strong>Precios Fijos – Sin Costos Ocultos</strong> – Lo que ves es lo que pagas.</li>
+    <li><strong>Cancelación Gratuita Hasta 24 Horas Antes de la Llegada</strong> – Reserva con total confianza.</li>
+    <li><strong>Asientos para Niños Gratis en Vehículos de 8 y 9 Plazas</strong> – Seguridad para familias sin costo adicional.</li>
+    <li><strong>Atención al Cliente 24/7</strong> – Siempre disponible para ayudarte en tu viaje.</li>
+    <li><strong>Soluciones de Viaje para Empresas</strong> – Traslados confiables para viajeros de negocios.</li>
+    <li><strong>Vehículos de Lujo, Limpios y Bien Mantenidos</strong> – Disfruta de un viaje cómodo a tu destino.</li>
+</ul>
+
+<h2>Reserva Ahora tu Taxi en el Aeropuerto de Antalya</h2>
+
+<p>
+    Evita el estrés de buscar un taxi al llegar al <strong>Aeropuerto de Antalya (AYT)</strong>.  
+    Reserva con anticipación tu <strong>traslado privado</strong> y disfruta de un viaje sin preocupaciones.<br>  
+    Ya sea que te dirijas a los <strong>resorts de playa de Lara y Konyaaltı, los campos de golf de Belek,  
+    o los sitios históricos de Side</strong>, nuestros traslados con tarifa fija  
+    garantizan un servicio fluido y asequible.
+</p>
+
+<ul>
+    <li><strong>Reserva Online al Instante</strong></li>
+    <li><strong>Pago Seguro</strong> (Se aceptan Euros, GBP, Dólares Estadounidenses y Liras Turcas)</li>
+    <li><strong>Sin Costos Ocultos – Tarifas Transparentes</strong></li>
+</ul>
+
+<p>
+    ¿Necesitas ayuda? Contacta con nuestro <strong>soporte al cliente 24/7</strong> para una experiencia de traslado sin inconvenientes.
+    <a href="/">Reserva Ahora</a> y viaja con tranquilidad.
+</p>
+
+        `,
+        it: `
+        <h1>Prezzi Taxi Aeroporto di Antalya – Trasferimenti Privati e a Prezzo Fisso</h1>
+
+<h2>Trasferimenti Affidabili e Confortevoli dall'Aeroporto di Antalya (AYT)</h2>
+
+<p>
+    Viaggi verso <strong>Kemer, Belek, Side, Alanya, Spiaggia di Lara o Konyaaltı</strong>?  
+    APL Transfers offre <strong>trasferimenti privati con tariffa fissa</strong>  
+    dall'<strong>Aeroporto di Antalya (AYT)</strong> a tutti i principali resort e hotel della regione.  
+    Che tu abbia bisogno di una <strong>berlina, un monovolume spazioso per cinque passeggeri,  
+    un minibus a otto posti o un lussuoso veicolo Mercedes business-class</strong>,  
+    garantiamo un viaggio confortevole e senza stress.
+</p>
+
+<p>
+    Il nostro <strong>servizio di accoglienza alle porte di arrivo</strong> garantisce  
+    che il tuo autista ti stia aspettando non appena atterri.
+</p>
+
+<h2>Opzioni di Veicoli per i Trasferimenti dall'Aeroporto di Antalya</h2>
+<ul>
+    <li><strong>Berlina</strong> – Ideale per viaggiatori singoli e coppie.</li>
+    <li><strong>Monovolume (5 Passeggeri)</strong> – Perfetto per famiglie e piccoli gruppi.</li>
+    <li><strong>Minibus a 8 Posti</strong> – Spazioso e ideale per gruppi numerosi con bagagli.</li>
+    <li><strong>Veicoli Mercedes Business-Class</strong> – Viaggi di lusso per dirigenti e VIP.</li>
+</ul>
+
+<h2>Servizio di Accoglienza – Dove Trovare il Tuo Autista?</h2>
+<ul>
+    <li><strong>Posizione:</strong> All'arrivo all'<strong>Aeroporto di Antalya (AYT)</strong>,  
+        il tuo autista ti aspetterà <strong>alle porte di arrivo</strong>,  
+        tenendo un cartello con il tuo nome per un facile riconoscimento.</li>
+    <li><strong>Nessun ritardo:</strong> Anche se il tuo volo arriva in anticipo o è in ritardo,  
+        i nostri autisti monitorano l'orario di arrivo e si adattano di conseguenza.</li>
+    <li><strong>Trasferimenti senza Attese:</strong> Evita lo stress delle negoziazioni dell'ultimo minuto per un taxi –  
+        il tuo autista privato sarà pronto a portarti direttamente a destinazione.</li>
+</ul>
+
+<h2>Destinazioni Popolari per i Trasferimenti dall'Aeroporto di Antalya</h2>
+
+<p>Forniamo trasferimenti privati dall'<strong>Aeroporto di Antalya (AYT)</strong> a:</p>
+<ul>
+    <li><strong>Kemer</strong> – Un suggestivo resort costiero noto per le sue spiagge, il porto turistico e gli hotel di lusso.</li>
+    <li><strong>Belek</strong> – Famoso per i suoi campi da golf di livello mondiale e resort a 5 stelle.</li>
+    <li><strong>Side</strong> – Una storica città costiera con rovine antiche e spiagge dorate.</li>
+    <li><strong>Alanya</strong> – Una città vivace con una vita notturna animata, spiagge sabbiose e siti storici.</li>
+    <li><strong>Spiaggia di Lara</strong> – Sede di alcuni dei migliori resort all-inclusive di Antalya.</li>
+    <li><strong>Konyaaltı</strong> – Una splendida zona balneare con acque cristalline e montagne panoramiche.</li>
+</ul>
+
+<p>
+    Che tu stia andando in un <strong>resort di lusso, un hotel boutique o una villa privata</strong>,  
+    APL Transfers offre un servizio di trasferimento senza stress con prezzo fisso.
+</p>
+
+<h2>Perché Scegliere APL Transfers?</h2>
+<ul>
+    <li><strong>Accoglienza alle Porte di Arrivo</strong> – Il tuo autista ti attenderà con un cartello con il tuo nome.</li>
+    <li><strong>Prezzi Fissi – Nessun Costo Nascosto</strong> – Paghi solo quello che vedi.</li>
+    <li><strong>Cancellazione Gratuita fino a 24 Ore Prima dell'Arrivo</strong> – Prenotazione flessibile e sicura.</li>
+    <li><strong>Seggiolini per Bambini Gratuiti per Veicoli Privati a 8 e 9 Posti</strong> – Sicurezza per le famiglie senza costi aggiuntivi.</li>
+    <li><strong>Supporto Clienti 24/7</strong> – Sempre disponibile per assisterti nel tuo viaggio.</li>
+    <li><strong>Soluzioni per Viaggi Aziendali</strong> – Trasferimenti affidabili per professionisti.</li>
+    <li><strong>Veicoli di Lusso, Puliti e Ben Manutenuti</strong> – Viaggia in totale comfort fino alla tua destinazione.</li>
+</ul>
+
+<h2>Prenota Ora il Tuo Taxi dall'Aeroporto di Antalya</h2>
+
+<p>
+    Evita lo stress di cercare un taxi all'arrivo all'<strong>Aeroporto di Antalya (AYT)</strong>.  
+    Prenota in anticipo il tuo <strong>trasferimento privato</strong> e goditi un viaggio senza pensieri.<br>  
+    Che tu stia andando nei <strong>resort balneari di Lara e Konyaaltı, nei campi da golf di Belek  
+    o nei siti storici di Side</strong>, i nostri trasferimenti a prezzo fisso  
+    garantiscono un viaggio fluido e conveniente.
+</p>
+
+<ul>
+    <li><strong>Prenotazione Online Immediata</strong></li>
+    <li><strong>Pagamento Sicuro</strong> (Accettati Euro, GBP, Dollari USA e Lira Turca)</li>
+    <li><strong>Nessun Costo Nascosto – Prezzi Trasparenti</strong></li>
+</ul>
+
+<p>
+    Hai bisogno di aiuto? Contatta il nostro <strong>supporto clienti 24/7</strong> per assistenza.
+    <a href="/">Prenota Ora</a> e viaggia con tranquillità.
+</p>
+
+        `,
+        ru: `
+        <h1>Цены на такси в аэропорту Антальи – Частные и фиксированные трансферы</h1>
+
+<h2>Надежные и комфортные трансферы из аэропорта Антальи (AYT)</h2>
+
+<p>
+    Путешествуете в <strong>Кемер, Белек, Сиде, Аланья, пляж Лара или Коньяалты</strong>?  
+    APL Transfers предлагает <strong>частные трансферы по фиксированной цене</strong>  
+    из <strong>аэропорта Антальи (AYT)</strong> в крупнейшие курорты и отели региона.  
+    Независимо от того, нужен ли вам <strong>седан, просторный минивэн на пять пассажиров,  
+    микроавтобус на восемь мест или роскошный автомобиль Mercedes бизнес-класса</strong>,  
+    мы обеспечим вам комфортную и беззаботную поездку.
+</p>
+
+<p>
+    <strong>Услуга встречи у выходов из зоны прилета</strong> гарантирует,  
+    что ваш водитель будет ожидать вас сразу после посадки.
+</p>
+
+<h2>Варианты транспорта для трансфера из аэропорта Антальи</h2>
+<ul>
+    <li><strong>Седан</strong> – Идеально для индивидуальных путешественников и пар.</li>
+    <li><strong>Минивэн (5 пассажиров)</strong> – Отличный вариант для семей и небольших групп.</li>
+    <li><strong>Микроавтобус на 8 мест</strong> – Просторное решение для больших групп с багажом.</li>
+    <li><strong>Автомобили Mercedes бизнес-класса</strong> – Премиальный комфорт для деловых поездок и VIP-гостей.</li>
+</ul>
+
+<h2>Где найти вашего водителя?</h2>
+<ul>
+    <li><strong>Местоположение:</strong> По прибытии в <strong>аэропорт Антальи (AYT)</strong>  
+        ваш водитель будет ждать вас <strong>у выходов из зоны прилета</strong>,  
+        держа табличку с вашим именем для удобного опознания.</li>
+    <li><strong>Без задержек:</strong> Даже если ваш рейс прибывает раньше или с опозданием,  
+        наши водители отслеживают время прилета и корректируют расписание.</li>
+    <li><strong>Быстрый и удобный трансфер:</strong> Вам не нужно стоять в очереди на такси  
+        или договариваться о цене – ваш личный водитель отвезет вас прямо в пункт назначения.</li>
+</ul>
+
+<h2>Популярные направления для трансфера из аэропорта Антальи</h2>
+
+<p>Мы предоставляем частные трансферы из <strong>аэропорта Антальи (AYT)</strong> в:</p>
+<ul>
+    <li><strong>Кемер</strong> – Живописный курорт на побережье, известный своими пляжами, яхтенной гаванью и роскошными отелями.</li>
+    <li><strong>Белек</strong> – Знаменитый своими полями для гольфа мирового уровня и курортами 5 звезд.</li>
+    <li><strong>Сиде</strong> – Исторический приморский город с древними руинами и золотыми пляжами.</li>
+    <li><strong>Аланья</strong> – Оживленный город с активной ночной жизнью, песчаными пляжами и историческими достопримечательностями.</li>
+    <li><strong>Пляж Лара</strong> – Место расположения лучших отелей "все включено" в Анталье.</li>
+    <li><strong>Коньяалты</strong> – Живописный пляжный район с кристально чистой водой и величественными горами.</li>
+</ul>
+
+<p>
+    Независимо от того, направляетесь ли вы в <strong>роскошный курорт, бутик-отель или частную виллу</strong>,  
+    APL Transfers предлагает удобный трансфер по фиксированной цене.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li><strong>Встреча у выходов из зоны прилета</strong> – Водитель будет ждать вас с табличкой с вашим именем.</li>
+    <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Вы платите ровно столько, сколько указано.</li>
+    <li><strong>Бесплатная отмена бронирования за 24 часа до прибытия</strong> – Гибкие условия бронирования без риска.</li>
+    <li><strong>Бесплатные детские кресла в автомобилях на 8 и 9 мест</strong> – Дополнительная безопасность для семей.</li>
+    <li><strong>Круглосуточная поддержка клиентов</strong> – Мы всегда готовы помочь вам.</li>
+    <li><strong>Корпоративные трансферы</strong> – Надежные поездки для деловых клиентов.</li>
+    <li><strong>Роскошные, чистые и ухоженные автомобили</strong> – Наслаждайтесь комфортной поездкой.</li>
+</ul>
+
+<h2>Забронируйте такси из аэропорта Антальи</h2>
+
+<p>
+    Избегайте поисков такси по прилету в <strong>аэропорт Антальи (AYT)</strong>.  
+    Забронируйте <strong>частный трансфер</strong> заранее и наслаждайтесь спокойной поездкой.<br>  
+    Независимо от того, направляетесь ли вы на <strong>побережье Лара и Коньяалты,  
+    на гольф-поля Белека или к историческим достопримечательностям Сиде</strong>,  
+    наши трансферы по фиксированной цене обеспечат вам комфорт и доступность.
+</p>
+
+<ul>
+    <li><strong>Мгновенное онлайн-бронирование</strong></li>
+    <li><strong>Безопасная оплата</strong> (Принимаются евро, фунты стерлингов, доллары США и турецкие лиры)</li>
+    <li><strong>Без скрытых платежей – Прозрачные цены</strong></li>
+</ul>
+
+<p>
+    Нужна помощь? Свяжитесь с нашей <strong>службой поддержки 24/7</strong> для комфортного трансфера.
+    <a href="/">Забронировать сейчас</a> и путешествуйте без забот!
+</p>
+
+        `,
+        zh: `
+        <h1>安塔利亚机场出租车价格 – 私人接送 & 固定价格</h1>
+
+<h2>可靠 & 舒适的安塔利亚机场 (AYT) 接送服务</h2>
+
+<p>
+    计划前往 <strong>凯梅尔 (Kemer)、贝莱克 (Belek)、西戴 (Side)、阿兰亚 (Alanya)、拉腊海滩 (Lara Beach) 或 孔亚尔特 (Konyaaltı)</strong>？  
+    APL Transfers 提供 <strong>安塔利亚机场 (AYT) 的私人固定价格机场出租车接送服务</strong>。<br>
+    无论您需要 <strong>轿车、可容纳五名乘客的宽敞 MPV、八座小型巴士，还是豪华奔驰商务车</strong>，我们都能为您提供顺畅无忧的接送服务。
+</p>
+
+<p>
+    我们的 <strong>到达门迎接服务</strong> 确保您的司机将在您降落后立即等候。
+</p>
+
+<h2>安塔利亚机场接送车辆选择</h2>
+<ul>
+    <li><strong>轿车</strong> – 适合个人和情侣出行。</li>
+    <li><strong>MPV（5 人座）</strong> – 适合家庭和小团体。</li>
+    <li><strong>8 座小型巴士</strong> – 空间宽敞，适合较大的团队和行李较多的旅客。</li>
+    <li><strong>奔驰商务车型</strong> – 为高端商务人士和 VIP 旅客提供尊贵舒适的乘坐体验。</li>
+</ul>
+
+<h2>接机服务 – 在哪里找到您的司机？</h2>
+<ul>
+    <li><strong>位置：</strong> 抵达 <strong>安塔利亚机场 (AYT)</strong> 后，您的司机将在
+        <strong>到达门</strong> 等候，并举着写有您的姓名的接机牌，方便您认出。</li>
+    <li><strong>无延误：</strong> 即使您的航班提前或延误，我们的司机也会实时跟踪您的抵达时间并相应调整。</li>
+    <li><strong>快速便捷：</strong> 无需排队等待出租车或与司机议价，您的私人司机将直接送您到达目的地。</li>
+</ul>
+
+<h2>安塔利亚机场接送热门目的地</h2>
+
+<p>我们提供从 <strong>安塔利亚机场 (AYT)</strong> 出发的私人接送服务：</p>
+<ul>
+    <li><strong>凯梅尔 (Kemer)</strong> – 以海滩、码头和豪华酒店闻名的风景胜地。</li>
+    <li><strong>贝莱克 (Belek)</strong> – 以世界级高尔夫球场和五星级度假村而闻名。</li>
+    <li><strong>西戴 (Side)</strong> – 拥有古代遗址和金色沙滩的历史悠久的海滨小镇。</li>
+    <li><strong>阿兰亚 (Alanya)</strong> – 拥有热闹的夜生活、细腻沙滩和历史景点的活力城市。</li>
+    <li><strong>拉腊海滩 (Lara Beach)</strong> – 安塔利亚最好的全包式度假胜地之一。</li>
+    <li><strong>孔亚尔特 (Konyaaltı)</strong> – 拥有清澈海水和壮丽山景的美丽海滩区。</li>
+</ul>
+
+<p>
+    无论您前往 <strong>豪华度假村、精品酒店或私人别墅</strong>，  
+    APL Transfers 都能为您提供无忧的固定价格接送服务。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li><strong>到达门迎接服务</strong> – 司机将在到达门举牌等候，方便识别。</li>
+    <li><strong>固定价格 – 无隐藏费用</strong> – 透明定价，无额外收费。</li>
+    <li><strong>支持 24 小时前免费取消</strong> – 预订灵活，无后顾之忧。</li>
+    <li><strong>8 座和 9 座私人车辆提供免费儿童座椅</strong> – 确保家庭旅客的安全。</li>
+    <li><strong>24/7 客户支持</strong> – 随时提供帮助。</li>
+    <li><strong>企业差旅解决方案</strong> – 提供可靠的商务接送服务。</li>
+    <li><strong>豪华、干净且维护良好的车辆</strong> – 享受高品质的舒适旅行体验。</li>
+</ul>
+
+<h2>立即预订安塔利亚机场出租车</h2>
+
+<p>
+    抵达 <strong>安塔利亚机场 (AYT)</strong> 后无需费心寻找出租车。提前预订
+    <strong>私人机场接送服务</strong>，享受轻松无忧的旅程。<br>
+    无论您前往 <strong>拉腊和孔亚尔特的海滩度假胜地、贝莱克的高尔夫球场  
+    或西戴的历史遗址</strong>，我们的固定价格接送服务可确保顺畅和实惠的出行体验。
+</p>
+
+<ul>
+    <li><strong>即时在线预订</strong></li>
+    <li><strong>安全支付</strong>（支持欧元 (EUR)、英镑 (GBP)、美元 (USD) 和土耳其里拉 (TRY)）</li>
+    <li><strong>无隐藏费用 – 透明定价</strong></li>
+</ul>
+
+<p>
+    需要帮助？请联系 <strong>24/7 客户支持</strong>，确保您拥有顺畅的接送体验。
+    <a href="/">立即预订</a>，享受安心之旅！
+</p>
+
+        `,
     },
     "/bodrum-milas-airport-taxi-prices": {
-        en: ``,
-        tr: ``,
-        ar: ``,
-        es: ``,
-        it: ``,
-        ru: ``,
-        zh: ``,
+        en: `
+        <h1>Bodrum Milas Airport Taxi Transfer Prices – Private & Fixed-Price Transfers</h1>
+
+<h2>Reliable & Comfortable Transfers from Bodrum Milas Airport (BJV)</h2>
+
+<p>
+    Planning a trip to <strong>Bodrum, Gumbet, Torba, Bitez, Yalikavak, or Turgutreis</strong>?  
+    APL Transfers offers <strong>fixed-price private airport taxi transfers</strong>  
+    from <strong>Bodrum Milas Airport (BJV)</strong> to all major resorts and towns in the region.  
+    Whether you need a <strong>saloon car, a people carrier for five passengers,  
+    an eight-seater minibus, or a luxury Mercedes business-class vehicle</strong>,  
+    we ensure a stress-free, comfortable journey.
+</p>
+
+<p>
+    Our <strong>meet & greet service at the arrival gates</strong> means your driver  
+    will be ready to welcome you as soon as you land.
+</p>
+
+<h2>Vehicle Options for Bodrum Milas Airport Transfers</h2>
+<ul>
+    <li><strong>Saloon Car</strong> – Perfect for solo travelers and couples.</li>
+    <li><strong>People Carrier (5 Passengers)</strong> – Ideal for families and small groups.</li>
+    <li><strong>8-Seater Minibus</strong> – Spacious for larger groups with luggage.</li>
+    <li><strong>Business-Class Mercedes Vehicles</strong> – Luxury travel for business and VIP passengers.</li>
+</ul>
+
+<h2>Meet & Greet Service – Where to Find Your Driver</h2>
+<ul>
+    <li><strong>Location:</strong> Upon arrival at <strong>Bodrum Milas Airport (BJV)</strong>,  
+        your driver will be waiting <strong>by the arrival gates</strong>,  
+        holding a passenger name board for easy recognition.</li>
+    <li><strong>No delays:</strong> Even if your flight is early or delayed,  
+        our drivers track your arrival time and adjust accordingly.</li>
+    <li><strong>Seamless Transfers:</strong> Avoid the hassle of searching for taxis—  
+        your private driver will be ready to take you directly to your hotel, villa, or resort.</li>
+</ul>
+
+<h2>Top Destinations for Bodrum Milas Airport Transfers</h2>
+
+<p>We provide private transfers from <strong>Bodrum Milas Airport (BJV)</strong> to:</p>
+<ul>
+    <li><strong>Bodrum</strong> – The heart of the region, famous for its marina, nightlife, and beaches.</li>
+    <li><strong>Gumbet</strong> – A lively beach town known for water sports and entertainment.</li>
+    <li><strong>Torba</strong> – A peaceful bay area just minutes from Bodrum.</li>
+    <li><strong>Bitez</strong> – A relaxed coastal town, ideal for windsurfing and beachfront dining.</li>
+    <li><strong>Yalikavak</strong> – A luxury resort area with stunning marinas and upmarket restaurants.</li>
+    <li><strong>Turgutreis</strong> – Known for its breathtaking sunsets and charming seafront.</li>
+</ul>
+
+<p>
+    No matter your destination, APL Transfers provides a  
+    <strong>fixed-price, no-hassle</strong> transfer service for a smooth start to your holiday.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li><strong>Meet & Greet at the Arrival Gates</strong> – Your driver will be waiting for you with a name board.</li>
+    <li><strong>Fixed Prices – No Hidden Costs</strong> – What you see is what you pay.</li>
+    <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Book with confidence.</li>
+    <li><strong>Free Child Seats for 8 & 9-Seater Private Vehicles</strong> – Safety for families at no extra cost.</li>
+    <li><strong>24/7 Customer Support</strong> – Always available to assist with your journey.</li>
+    <li><strong>Corporate Travel Solutions</strong> – Reliable airport transfers for business travelers.</li>
+    <li><strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Enjoy a smooth and comfortable ride.</li>
+</ul>
+
+<h2>Book Your Bodrum Milas Airport Taxi Now</h2>
+
+<p>
+    Make your arrival at <strong>Bodrum Milas Airport (BJV)</strong> stress-free  
+    by pre-booking your <strong>private taxi transfer</strong>.  
+    Whether you're traveling to the <strong>bustling town of Bodrum,  
+    the scenic beaches of Bitez, or the luxury resorts of Yalikavak</strong>,  
+    we provide an affordable and reliable transfer service.
+</p>
+
+<ul>
+    <li><strong>Instant Online Booking</strong></li>
+    <li><strong>Secure Payment</strong> (Euro, GBP, US Dollar & Turkish Lira Accepted)</li>
+    <li><strong>No Hidden Fees – Transparent Pricing</strong></li>
+</ul>
+
+<p>
+    Need help? Contact our <strong>24/7 customer support</strong> for assistance.
+    <a href="/">Book Now</a> and travel with ease.
+</p>
+
+        `,
+        tr: `
+        <h1>Bodrum Milas Havalimanı Taksi Transfer Fiyatları – Özel ve Sabit Fiyatlı Transferler</h1>
+
+<h2>Bodrum Milas Havalimanı’ndan (BJV) Güvenilir ve Konforlu Transferler</h2>
+
+<p>
+    <strong>Bodrum, Gümbet, Torba, Bitez, Yalıkavak veya Turgutreis</strong>’e mi seyahat ediyorsunuz?  
+    APL Transfers, <strong>Bodrum Milas Havalimanı (BJV)</strong>’dan  
+    <strong>sabit fiyatlı özel havalimanı taksi transferleri</strong> sunmaktadır.  
+    İhtiyacınız ister <strong>sedan bir araç, beş yolcu kapasiteli geniş bir araç,  
+    sekiz kişilik bir minibüs veya lüks bir Mercedes iş sınıfı araç</strong> olsun,  
+    konforlu ve sorunsuz bir yolculuk sağlıyoruz.
+</p>
+
+<p>
+    <strong>Varış kapılarında karşılama hizmetimiz</strong>, şoförünüzün uçaktan indiğiniz anda  
+    sizi bekliyor olmasını garanti eder.
+</p>
+
+<h2>Bodrum Milas Havalimanı Transfer Araç Seçenekleri</h2>
+<ul>
+    <li><strong>Sedan Araç</strong> – Bireysel yolcular ve çiftler için ideal.</li>
+    <li><strong>Minivan (5 Yolcu)</strong> – Aileler ve küçük gruplar için mükemmel.</li>
+    <li><strong>8 Kişilik Minibüs</strong> – Daha büyük gruplar ve fazla bagaj için geniş ve rahat.</li>
+    <li><strong>Mercedes İş Sınıfı Araçlar</strong> – VIP ve iş seyahatleri için üst düzey konfor.</li>
+</ul>
+
+<h2>Karşılama Hizmeti – Sürücünüzü Nerede Bulabilirsiniz?</h2>
+<ul>
+    <li><strong>Konum:</strong> <strong>Bodrum Milas Havalimanı (BJV)</strong>’na vardığınızda,  
+        şoförünüz sizi <strong>varış kapılarında</strong> isminizin yazılı olduğu bir tabela ile bekliyor olacak.</li>
+    <li><strong>Gecikme Yok:</strong> Uçağınız erken inse veya rötar yapsa bile,  
+        şoförlerimiz varış saatlerinizi takip ederek programlarını buna göre ayarlar.</li>
+    <li><strong>Hızlı ve Kolay Transfer:</strong> Taksi beklemenize veya son dakika pazarlıkları yapmanıza gerek yok –  
+        özel şoförünüz sizi doğrudan gitmek istediğiniz yere götürecektir.</li>
+</ul>
+
+<h2>Bodrum Milas Havalimanı Transferlerinde Popüler Destinasyonlar</h2>
+
+<p>Bodrum Milas Havalimanı’ndan (BJV) özel transferler sağlıyoruz:</p>
+<ul>
+    <li><strong>Bodrum</strong> – Marina, gece hayatı ve plajlarıyla ünlü bölgenin merkezi.</li>
+    <li><strong>Gümbet</strong> – Su sporları ve eğlence hayatı ile tanınan hareketli bir tatil beldesi.</li>
+    <li><strong>Torba</strong> – Bodrum’a sadece birkaç dakika uzaklıkta, huzurlu bir koy bölgesi.</li>
+    <li><strong>Bitez</strong> – Rüzgar sörfü ve sahil restoranları için mükemmel olan sakin bir kıyı kasabası.</li>
+    <li><strong>Yalıkavak</strong> – Muhteşem marinaları ve lüks restoranlarıyla ünlü bir tatil merkezi.</li>
+    <li><strong>Turgutreis</strong> – Nefes kesen gün batımları ve şirin sahil şeridi ile tanınır.</li>
+</ul>
+
+<p>
+    Hangi destinasyona giderseniz gidin, APL Transfers  
+    <strong>sabit fiyatlı, zahmetsiz</strong> bir transfer hizmeti sunmaktadır.
+</p>
+
+<h2>Neden APL Transfers’i Seçmelisiniz?</h2>
+<ul>
+    <li><strong>Varış Kapılarında Karşılama</strong> – Şoförünüz isminizin yazılı olduğu bir tabela ile bekleyecek.</li>
+    <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Ne görüyorsanız onu ödersiniz.</li>
+    <li><strong>Varıştan 24 Saat Öncesine Kadar Ücretsiz İptal</strong> – Esnek ve risksiz rezervasyon.</li>
+    <li><strong>8 ve 9 Kişilik Özel Araçlar İçin Ücretsiz Çocuk Koltuğu</strong> – Aileler için ekstra güvenlik, ek ücret olmadan.</li>
+    <li><strong>7/24 Müşteri Desteği</strong> – Seyahatinizde her zaman yardıma hazırız.</li>
+    <li><strong>Kurumsal Seyahat Çözümleri</strong> – İş seyahatleri için güvenilir transfer hizmetleri.</li>
+    <li><strong>Temiz, Konforlu ve Bakımlı Araçlar</strong> – Varış noktanıza konfor içinde ulaşın.</li>
+</ul>
+
+<h2>Bodrum Milas Havalimanı Taksi Rezervasyonu Yapın</h2>
+
+<p>
+    <strong>Bodrum Milas Havalimanı (BJV)</strong>’na vardığınızda taksi arama stresinden kaçının.  
+    <strong>Özel havalimanı taksi transferinizi</strong> önceden rezerve edin ve konforlu bir yolculuk yapın.  
+    İster <strong>canlı Bodrum şehir merkezine, Bitez’in huzurlu plajlarına  
+    veya Yalıkavak’ın lüks tatil köylerine</strong> gidiyor olun, ekonomik ve güvenilir bir transfer hizmeti sunuyoruz.
+</p>
+
+<ul>
+    <li><strong>Anında Online Rezervasyon</strong></li>
+    <li><strong>Güvenli Ödeme</strong> (Euro, GBP, ABD Doları & Türk Lirası kabul edilir)</li>
+    <li><strong>Gizli Ücret Yok – Şeffaf Fiyatlandırma</strong></li>
+</ul>
+
+<p>
+    Yardıma mı ihtiyacınız var? <strong>7/24 müşteri destek</strong> ekibimizle iletişime geçin.
+    <a href="/">Hemen Rezervasyon Yapın</a> ve rahat bir yolculuk yapın.
+</p>
+
+        `,
+        ar: `<h1>أسعار سيارات الأجرة في مطار بودروم ميلاس – خدمات نقل خاصة وثابتة</h1>
+
+<h2>خدمات نقل موثوقة ومريحة من مطار بودروم ميلاس (BJV)</h2>
+
+<p>
+    هل تخطط للسفر إلى <strong>بودروم، غومبيت، توربا، بيتز، ياليكافاك، أو تورغوترييس</strong>؟  
+    تقدم APL Transfers <strong>خدمات نقل خاصة بأسعار ثابتة</strong>  
+    من <strong>مطار بودروم ميلاس (BJV)</strong> إلى جميع المنتجعات والبلدات الرئيسية في المنطقة.  
+    سواء كنت بحاجة إلى <strong>سيارة سيدان، حافلة صغيرة تتسع لخمسة ركاب،  
+    حافلة صغيرة بثمانية مقاعد، أو سيارة مرسيدس فاخرة للأعمال</strong>،  
+    نضمن لك رحلة مريحة وخالية من المتاعب.
+</p>
+
+<p>
+    <strong>خدمة الاستقبال عند بوابات الوصول</strong> تضمن أن يكون سائقك  
+    في انتظارك فور وصولك.
+</p>
+
+<h2>خيارات المركبات لخدمة النقل من مطار بودروم ميلاس</h2>
+<ul>
+    <li><strong>سيارة سيدان</strong> – مثالية للمسافرين الأفراد والأزواج.</li>
+    <li><strong>حافلة صغيرة (5 ركاب)</strong> – مثالية للعائلات والمجموعات الصغيرة.</li>
+    <li><strong>حافلة صغيرة بـ 8 مقاعد</strong> – فسيحة ومناسبة للمجموعات الكبيرة مع الأمتعة.</li>
+    <li><strong>سيارات مرسيدس للأعمال</strong> – توفر الراحة والفخامة للمسافرين من رجال الأعمال وVIP.</li>
+</ul>
+
+<h2>خدمة الاستقبال – أين تجد سائقك؟</h2>
+<ul>
+    <li><strong>الموقع:</strong> عند وصولك إلى <strong>مطار بودروم ميلاس (BJV)</strong>،  
+        سيكون سائقك بانتظارك <strong>عند بوابات الوصول</strong>  
+        حاملًا لوحة تحمل اسمك لسهولة التعرف عليه.</li>
+    <li><strong>بدون تأخير:</strong> حتى إذا كان وصول رحلتك مبكرًا أو متأخرًا،  
+        فإن سائقينا يتابعون وقت وصولك ويعدّلون جدولهم وفقًا لذلك.</li>
+    <li><strong>نقل سلس:</strong> لا داعي للانتظار لسيارات الأجرة أو التفاوض في اللحظة الأخيرة –  
+        سيكون سائقك الخاص جاهزًا لنقلك مباشرة إلى وجهتك.</li>
+</ul>
+
+<h2>الوجهات الشهيرة لخدمة النقل من مطار بودروم ميلاس</h2>
+
+<p>نحن نقدم خدمات نقل خاصة من <strong>مطار بودروم ميلاس (BJV)</strong> إلى:</p>
+<ul>
+    <li><strong>بودروم</strong> – قلب المنطقة، يشتهر بماريناه وحياته الليلية وشواطئه.</li>
+    <li><strong>غومبيت</strong> – مدينة شاطئية حيوية تشتهر بالرياضات المائية والترفيه.</li>
+    <li><strong>توربا</strong> – منطقة خليج هادئة على بُعد دقائق فقط من بودروم.</li>
+    <li><strong>بيتز</strong> – مدينة ساحلية هادئة، مثالية لركوب الأمواج وتناول الطعام على الشاطئ.</li>
+    <li><strong>ياليكافاك</strong> – منطقة منتجعات فاخرة مع مراسي خلابة ومطاعم راقية.</li>
+    <li><strong>تورغوترييس</strong> – معروفة بغروبها الساحر وساحلها الخلاب.</li>
+</ul>
+
+<p>
+    بغض النظر عن وجهتك، تقدم APL Transfers  
+    <strong>خدمة نقل بسعر ثابت وبدون متاعب</strong> لضمان بداية سلسة لعطلتك.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li><strong>الاستقبال عند بوابات الوصول</strong> – سيكون السائق في انتظارك بلوحة تحمل اسمك.</li>
+    <li><strong>أسعار ثابتة – بدون رسوم خفية</strong> – لا يوجد أي تكاليف إضافية.</li>
+    <li><strong>إمكانية الإلغاء المجاني حتى 24 ساعة قبل الوصول</strong> – احجز بثقة وراحة بال.</li>
+    <li><strong>مقاعد أطفال مجانية للمركبات الخاصة بـ 8 و 9 مقاعد</strong> – لضمان سلامة العائلات.</li>
+    <li><strong>دعم العملاء 24/7</strong> – متاح دائمًا لمساعدتك أثناء رحلتك.</li>
+    <li><strong>حلول سفر الشركات</strong> – خدمات نقل موثوقة للمسافرين من رجال الأعمال.</li>
+    <li><strong>مركبات فاخرة ونظيفة ومُصانة جيدًا</strong> – استمتع برحلة مريحة إلى وجهتك.</li>
+</ul>
+
+<h2>احجز سيارة الأجرة من مطار بودروم ميلاس الآن</h2>
+
+<p>
+    تجنب عناء البحث عن سيارة أجرة عند وصولك إلى <strong>مطار بودروم ميلاس (BJV)</strong>.  
+    احجز <strong>خدمة النقل الخاصة</strong> مسبقًا وتمتع برحلة مريحة وخالية من المتاعب.<br>  
+    سواء كنت متجهًا إلى <strong>وسط مدينة بودروم النابضة بالحياة،  
+    شواطئ بيتز الخلابة، أو منتجعات ياليكافاك الفاخرة</strong>،  
+    فإننا نوفر لك خدمة نقل بأسعار معقولة وموثوقة.
+</p>
+
+<ul>
+    <li><strong>حجز فوري عبر الإنترنت</strong></li>
+    <li><strong>دفع آمن</strong> (نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية)</li>
+    <li><strong>بدون رسوم خفية – تسعير شفاف</strong></li>
+</ul>
+
+<p>
+    هل تحتاج إلى مساعدة؟ تواصل مع <strong>خدمة العملاء المتوفرة 24/7</strong> لضمان تجربة نقل سلسة.
+    <a href="/">احجز الآن</a> وسافر براحة وطمأنينة!
+</p>
+`,
+        es: `
+        <h1>Precios de Taxi en el Aeropuerto de Bodrum Milas – Traslados Privados y a Precio Fijo</h1>
+
+<h2>Traslados Confiables y Cómodos desde el Aeropuerto de Bodrum Milas (BJV)</h2>
+
+<p>
+    ¿Viajas a <strong>Bodrum, Gümbet, Torba, Bitez, Yalıkavak o Turgutreis</strong>?  
+    APL Transfers ofrece <strong>traslados privados con tarifa fija</strong>  
+    desde el <strong>Aeropuerto de Bodrum Milas (BJV)</strong> a todos los principales resorts y ciudades de la región.  
+    Ya sea que necesites un <strong>sedán, un monovolumen espacioso para cinco pasajeros,  
+    un minibús de ocho plazas o un lujoso Mercedes de clase ejecutiva</strong>,  
+    garantizamos un traslado cómodo y sin preocupaciones.
+</p>
+
+<p>
+    Nuestro <strong>servicio de bienvenida en las puertas de llegada</strong> garantiza  
+    que tu conductor estará esperándote tan pronto como aterrices.
+</p>
+
+<h2>Opciones de Vehículos para Traslados desde el Aeropuerto de Bodrum Milas</h2>
+<ul>
+    <li><strong>Vehículo Sedán</strong> – Ideal para viajeros solos y parejas.</li>
+    <li><strong>Monovolumen (5 Pasajeros)</strong> – Perfecto para familias y grupos pequeños.</li>
+    <li><strong>Minibús de 8 Plazas</strong> – Espacioso y adecuado para grupos grandes con equipaje.</li>
+    <li><strong>Vehículos Mercedes de Clase Ejecutiva</strong> – Viajes de lujo para ejecutivos y pasajeros VIP.</li>
+</ul>
+
+<h2>Servicio de Bienvenida – ¿Dónde Encontrar a tu Conductor?</h2>
+<ul>
+    <li><strong>Ubicación:</strong> Al llegar al <strong>Aeropuerto de Bodrum Milas (BJV)</strong>,  
+        tu conductor te estará esperando <strong>en las puertas de llegada</strong>,  
+        sosteniendo un cartel con tu nombre para que lo reconozcas fácilmente.</li>
+    <li><strong>Sin retrasos:</strong> Incluso si tu vuelo llega antes o se retrasa,  
+        nuestros conductores monitorean la hora de llegada y ajustan el horario según sea necesario.</li>
+    <li><strong>Traslados sin Esperas:</strong> No es necesario hacer fila para un taxi  
+        ni negociar precios de última hora – tu conductor privado estará listo  
+        para llevarte directamente a tu destino.</li>
+</ul>
+
+<h2>Destinos Populares para Traslados desde el Aeropuerto de Bodrum Milas</h2>
+
+<p>Ofrecemos traslados privados desde el <strong>Aeropuerto de Bodrum Milas (BJV)</strong> a:</p>
+<ul>
+    <li><strong>Bodrum</strong> – El corazón de la región, famoso por su marina, vida nocturna y playas.</li>
+    <li><strong>Gümbet</strong> – Una animada ciudad costera conocida por sus deportes acuáticos y entretenimiento.</li>
+    <li><strong>Torba</strong> – Una tranquila zona de bahía a pocos minutos de Bodrum.</li>
+    <li><strong>Bitez</strong> – Un relajado pueblo costero, ideal para practicar windsurf y cenar junto al mar.</li>
+    <li><strong>Yalıkavak</strong> – Una zona de resorts de lujo con impresionantes marinas y restaurantes de alta gama.</li>
+    <li><strong>Turgutreis</strong> – Conocida por sus impresionantes puestas de sol y su encantador paseo marítimo.</li>
+</ul>
+
+<p>
+    No importa cuál sea tu destino, APL Transfers ofrece  
+    un servicio de traslado <strong>con tarifa fija y sin complicaciones</strong>  
+    para un inicio perfecto de tus vacaciones.
+</p>
+
+<h2>¿Por Qué Elegir APL Transfers?</h2>
+<ul>
+    <li><strong>Servicio de Bienvenida en las Puertas de Llegada</strong> – Tu conductor te estará esperando con un cartel con tu nombre.</li>
+    <li><strong>Precios Fijos – Sin Costos Ocultos</strong> – Lo que ves es lo que pagas.</li>
+    <li><strong>Cancelación Gratuita Hasta 24 Horas Antes de la Llegada</strong> – Reserva con total confianza.</li>
+    <li><strong>Asientos para Niños Gratis en Vehículos de 8 y 9 Plazas</strong> – Seguridad para familias sin costo adicional.</li>
+    <li><strong>Atención al Cliente 24/7</strong> – Siempre disponible para ayudarte en tu viaje.</li>
+    <li><strong>Soluciones de Viaje para Empresas</strong> – Traslados confiables para viajeros de negocios.</li>
+    <li><strong>Vehículos de Lujo, Limpios y Bien Mantenidos</strong> – Disfruta de un viaje cómodo a tu destino.</li>
+</ul>
+
+<h2>Reserva Ahora tu Taxi en el Aeropuerto de Bodrum Milas</h2>
+
+<p>
+    Evita el estrés de buscar un taxi al llegar al <strong>Aeropuerto de Bodrum Milas (BJV)</strong>.  
+    Reserva con anticipación tu <strong>traslado privado</strong> y disfruta de un viaje sin preocupaciones.<br>  
+    Ya sea que te dirijas a <strong>la animada ciudad de Bodrum,  
+    las tranquilas playas de Bitez o los resorts de lujo de Yalıkavak</strong>,  
+    ofrecemos un servicio de traslado económico y confiable.
+</p>
+
+<ul>
+    <li><strong>Reserva Online al Instante</strong></li>
+    <li><strong>Pago Seguro</strong> (Se aceptan Euros, GBP, Dólares Estadounidenses y Liras Turcas)</li>
+    <li><strong>Sin Costos Ocultos – Tarifas Transparentes</strong></li>
+</ul>
+
+<p>
+    ¿Necesitas ayuda? Contacta con nuestro <strong>soporte al cliente 24/7</strong> para una experiencia de traslado sin inconvenientes.
+    <a href="/">Reserva Ahora</a> y viaja con tranquilidad.
+</p>
+
+        `,
+        it: `
+        <h1>Prezzi Taxi Aeroporto di Bodrum Milas – Trasferimenti Privati e a Prezzo Fisso</h1>
+
+<h2>Trasferimenti Affidabili e Confortevoli dall'Aeroporto di Bodrum Milas (BJV)</h2>
+
+<p>
+    Stai viaggiando verso <strong>Bodrum, Gümbet, Torba, Bitez, Yalıkavak o Turgutreis</strong>?  
+    APL Transfers offre <strong>trasferimenti privati a prezzo fisso</strong>  
+    dall'<strong>Aeroporto di Bodrum Milas (BJV)</strong> a tutte le principali località turistiche della regione.  
+    Che tu abbia bisogno di una <strong>berlina, un monovolume spazioso per cinque passeggeri,  
+    un minibus a otto posti o un lussuoso veicolo Mercedes business-class</strong>,  
+    garantiamo un viaggio confortevole e senza stress.
+</p>
+
+<p>
+    Il nostro <strong>servizio di accoglienza alle porte di arrivo</strong> garantisce  
+    che il tuo autista sarà pronto ad accoglierti non appena atterri.
+</p>
+
+<h2>Opzioni di Veicoli per i Trasferimenti dall'Aeroporto di Bodrum Milas</h2>
+<ul>
+    <li><strong>Berlina</strong> – Ideale per viaggiatori singoli e coppie.</li>
+    <li><strong>Monovolume (5 Passeggeri)</strong> – Perfetto per famiglie e piccoli gruppi.</li>
+    <li><strong>Minibus a 8 Posti</strong> – Spazioso e ideale per gruppi numerosi con bagagli.</li>
+    <li><strong>Veicoli Mercedes Business-Class</strong> – Viaggi di lusso per dirigenti e VIP.</li>
+</ul>
+
+<h2>Servizio di Accoglienza – Dove Trovare il Tuo Autista?</h2>
+<ul>
+    <li><strong>Posizione:</strong> All'arrivo all'<strong>Aeroporto di Bodrum Milas (BJV)</strong>,  
+        il tuo autista ti aspetterà <strong>alle porte di arrivo</strong>,  
+        tenendo un cartello con il tuo nome per un facile riconoscimento.</li>
+    <li><strong>Nessun ritardo:</strong> Anche se il tuo volo arriva in anticipo o è in ritardo,  
+        i nostri autisti monitorano l'orario di arrivo e si adattano di conseguenza.</li>
+    <li><strong>Trasferimenti senza Attese:</strong> Evita lo stress delle negoziazioni dell'ultimo minuto per un taxi –  
+        il tuo autista privato sarà pronto a portarti direttamente a destinazione.</li>
+</ul>
+
+<h2>Destinazioni Popolari per i Trasferimenti dall'Aeroporto di Bodrum Milas</h2>
+
+<p>Forniamo trasferimenti privati dall'<strong>Aeroporto di Bodrum Milas (BJV)</strong> a:</p>
+<ul>
+    <li><strong>Bodrum</strong> – Il cuore della regione, famosa per il suo porto turistico, la vita notturna e le spiagge.</li>
+    <li><strong>Gümbet</strong> – Una vivace località balneare nota per gli sport acquatici e l’intrattenimento.</li>
+    <li><strong>Torba</strong> – Una tranquilla area di baia a pochi minuti da Bodrum.</li>
+    <li><strong>Bitez</strong> – Una rilassante cittadina costiera, ideale per il windsurf e la ristorazione sul lungomare.</li>
+    <li><strong>Yalıkavak</strong> – Una lussuosa zona turistica con splendidi porti turistici e ristoranti esclusivi.</li>
+    <li><strong>Turgutreis</strong> – Nota per i suoi spettacolari tramonti e il suo incantevole lungomare.</li>
+</ul>
+
+<p>
+    Qualunque sia la tua destinazione, APL Transfers offre  
+    un servizio di trasferimento <strong>a prezzo fisso e senza problemi</strong>  
+    per un inizio di vacanza perfetto.
+</p>
+
+<h2>Perché Scegliere APL Transfers?</h2>
+<ul>
+    <li><strong>Accoglienza alle Porte di Arrivo</strong> – Il tuo autista ti attenderà con un cartello con il tuo nome.</li>
+    <li><strong>Prezzi Fissi – Nessun Costo Nascosto</strong> – Paghi solo quello che vedi.</li>
+    <li><strong>Cancellazione Gratuita fino a 24 Ore Prima dell'Arrivo</strong> – Prenotazione flessibile e sicura.</li>
+    <li><strong>Seggiolini per Bambini Gratuiti per Veicoli Privati a 8 e 9 Posti</strong> – Sicurezza per le famiglie senza costi aggiuntivi.</li>
+    <li><strong>Supporto Clienti 24/7</strong> – Sempre disponibile per assisterti nel tuo viaggio.</li>
+    <li><strong>Soluzioni per Viaggi Aziendali</strong> – Trasferimenti affidabili per professionisti.</li>
+    <li><strong>Veicoli di Lusso, Puliti e Ben Manutenuti</strong> – Viaggia in totale comfort fino alla tua destinazione.</li>
+</ul>
+
+<h2>Prenota Ora il Tuo Taxi dall'Aeroporto di Bodrum Milas</h2>
+
+<p>
+    Evita lo stress di cercare un taxi all'arrivo all'<strong>Aeroporto di Bodrum Milas (BJV)</strong>.  
+    Prenota in anticipo il tuo <strong>trasferimento privato</strong> e goditi un viaggio senza pensieri.<br>  
+    Che tu stia andando nella <strong>vivace città di Bodrum,  
+    nelle tranquille spiagge di Bitez o nei lussuosi resort di Yalıkavak</strong>,  
+    offriamo un servizio di trasferimento economico e affidabile.
+</p>
+
+<ul>
+    <li><strong>Prenotazione Online Immediata</strong></li>
+    <li><strong>Pagamento Sicuro</strong> (Accettati Euro, GBP, Dollari USA e Lira Turca)</li>
+    <li><strong>Nessun Costo Nascosto – Prezzi Trasparenti</strong></li>
+</ul>
+
+<p>
+    Hai bisogno di aiuto? Contatta il nostro <strong>supporto clienti 24/7</strong> per assistenza.
+    <a href="/">Prenota Ora</a> e viaggia con tranquillità.
+</p>
+
+        `,
+        ru: `
+        <h1>Цены на такси из аэропорта Бодрум Милас – Частные и фиксированные трансферы</h1>
+
+<h2>Надежные и комфортные трансферы из аэропорта Бодрум Милас (BJV)</h2>
+
+<p>
+    Путешествуете в <strong>Бодрум, Гюмбет, Торба, Битез, Ялыкавак или Тургутрейс</strong>?  
+    APL Transfers предлагает <strong>частные трансферы по фиксированной цене</strong>  
+    из <strong>аэропорта Бодрум Милас (BJV)</strong> во все популярные курортные зоны и города региона.  
+    Независимо от того, нужен ли вам <strong>седан, просторный минивэн на пять пассажиров,  
+    микроавтобус на восемь мест или роскошный автомобиль Mercedes бизнес-класса</strong>,  
+    мы обеспечим вам комфортную и беззаботную поездку.
+</p>
+
+<p>
+    <strong>Услуга встречи у выходов из зоны прилета</strong> гарантирует,  
+    что ваш водитель будет ждать вас сразу после посадки.
+</p>
+
+<h2>Варианты транспорта для трансфера из аэропорта Бодрум Милас</h2>
+<ul>
+    <li><strong>Седан</strong> – Идеально для индивидуальных путешественников и пар.</li>
+    <li><strong>Минивэн (5 пассажиров)</strong> – Отличный вариант для семей и небольших групп.</li>
+    <li><strong>Микроавтобус на 8 мест</strong> – Просторное решение для больших групп с багажом.</li>
+    <li><strong>Автомобили Mercedes бизнес-класса</strong> – Премиальный комфорт для деловых поездок и VIP-гостей.</li>
+</ul>
+
+<h2>Где найти вашего водителя?</h2>
+<ul>
+    <li><strong>Местоположение:</strong> По прибытии в <strong>аэропорт Бодрум Милас (BJV)</strong>  
+        ваш водитель будет ждать вас <strong>у выходов из зоны прилета</strong>,  
+        держа табличку с вашим именем для удобного опознания.</li>
+    <li><strong>Без задержек:</strong> Даже если ваш рейс прибывает раньше или с опозданием,  
+        наши водители отслеживают время прилета и корректируют расписание.</li>
+    <li><strong>Быстрый и удобный трансфер:</strong> Вам не нужно стоять в очереди на такси  
+        или договариваться о цене – ваш личный водитель отвезет вас прямо в пункт назначения.</li>
+</ul>
+
+<h2>Популярные направления для трансфера из аэропорта Бодрум Милас</h2>
+
+<p>Мы предоставляем частные трансферы из <strong>аэропорта Бодрум Милас (BJV)</strong> в:</p>
+<ul>
+    <li><strong>Бодрум</strong> – Центр региона, знаменитый своей гаванью, ночной жизнью и пляжами.</li>
+    <li><strong>Гюмбет</strong> – Оживленный курортный город, известный водными видами спорта и развлечениями.</li>
+    <li><strong>Торба</strong> – Спокойный залив всего в нескольких минутах от Бодрума.</li>
+    <li><strong>Битез</strong> – Уютный курортный поселок, идеально подходящий для виндсерфинга и ресторанов на берегу.</li>
+    <li><strong>Ялыкавак</strong> – Роскошный курорт с живописными пристанями и первоклассными ресторанами.</li>
+    <li><strong>Тургутрейс</strong> – Известен своими потрясающими закатами и очаровательной набережной.</li>
+</ul>
+
+<p>
+    Независимо от вашего пункта назначения, APL Transfers предлагает  
+    <strong>фиксированный тариф и удобный трансфер</strong>,  
+    чтобы ваше путешествие началось без лишних хлопот.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li><strong>Встреча у выходов из зоны прилета</strong> – Водитель будет ждать вас с табличкой с вашим именем.</li>
+    <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Вы платите ровно столько, сколько указано.</li>
+    <li><strong>Бесплатная отмена бронирования за 24 часа до прибытия</strong> – Гибкие условия бронирования без риска.</li>
+    <li><strong>Бесплатные детские кресла в автомобилях на 8 и 9 мест</strong> – Дополнительная безопасность для семей.</li>
+    <li><strong>Круглосуточная поддержка клиентов</strong> – Мы всегда готовы помочь вам.</li>
+    <li><strong>Корпоративные трансферы</strong> – Надежные поездки для деловых клиентов.</li>
+    <li><strong>Роскошные, чистые и ухоженные автомобили</strong> – Наслаждайтесь комфортной поездкой.</li>
+</ul>
+
+<h2>Забронируйте такси из аэропорта Бодрум Милас</h2>
+
+<p>
+    Избегайте поисков такси по прилету в <strong>аэропорт Бодрум Милас (BJV)</strong>.  
+    Забронируйте <strong>частный трансфер</strong> заранее и наслаждайтесь спокойной поездкой.<br>  
+    Независимо от того, направляетесь ли вы в <strong>оживленный центр Бодрума,  
+    живописные пляжи Битеза или роскошные курорты Ялыкавака</strong>,  
+    наши фиксированные тарифы гарантируют вам удобный и надежный трансфер.
+</p>
+
+<ul>
+    <li><strong>Мгновенное онлайн-бронирование</strong></li>
+    <li><strong>Безопасная оплата</strong> (Принимаются евро, фунты стерлингов, доллары США и турецкие лиры)</li>
+    <li><strong>Без скрытых платежей – Прозрачные цены</strong></li>
+</ul>
+
+<p>
+    Нужна помощь? Свяжитесь с нашей <strong>службой поддержки 24/7</strong> для комфортного трансфера.
+    <a href="/">Забронировать сейчас</a> и путешествуйте без забот!
+</p>
+
+        `,
+        zh: `
+        <h1>博德鲁姆米拉斯机场出租车价格 – 私人接送 & 固定价格</h1>
+
+<h2>博德鲁姆米拉斯机场 (BJV) 可靠 & 舒适的接送服务</h2>
+
+<p>
+    计划前往 <strong>博德鲁姆 (Bodrum)、古姆贝特 (Gümbet)、托尔巴 (Torba)、比泰兹 (Bitez)、亚利卡瓦克 (Yalıkavak) 或 图尔古特雷斯 (Turgutreis)</strong>？  
+    APL Transfers 提供 <strong>博德鲁姆米拉斯机场 (BJV) 的固定价格私人机场出租车接送服务</strong>。<br>
+    无论您需要 <strong>轿车、可容纳五名乘客的宽敞 MPV、八座小型巴士，还是豪华奔驰商务车</strong>，我们都能为您提供顺畅无忧的接送服务。
+</p>
+
+<p>
+    我们的 <strong>到达门迎接服务</strong> 确保您的司机将在您降落后立即等候。
+</p>
+
+<h2>博德鲁姆米拉斯机场接送车辆选择</h2>
+<ul>
+    <li><strong>轿车</strong> – 适合个人和情侣出行。</li>
+    <li><strong>MPV（5 人座）</strong> – 适合家庭和小团体。</li>
+    <li><strong>8 座小型巴士</strong> – 空间宽敞，适合较大的团队和行李较多的旅客。</li>
+    <li><strong>奔驰商务车型</strong> – 为高端商务人士和 VIP 旅客提供尊贵舒适的乘坐体验。</li>
+</ul>
+
+<h2>接机服务 – 在哪里找到您的司机？</h2>
+<ul>
+    <li><strong>位置：</strong> 抵达 <strong>博德鲁姆米拉斯机场 (BJV)</strong> 后，您的司机将在
+        <strong>到达门</strong> 等候，并举着写有您的姓名的接机牌，方便您认出。</li>
+    <li><strong>无延误：</strong> 即使您的航班提前或延误，我们的司机也会实时跟踪您的抵达时间并相应调整。</li>
+    <li><strong>快速便捷：</strong> 无需排队等待出租车或与司机议价，您的私人司机将直接送您到达目的地。</li>
+</ul>
+
+<h2>博德鲁姆米拉斯机场接送热门目的地</h2>
+
+<p>我们提供从 <strong>博德鲁姆米拉斯机场 (BJV)</strong> 出发的私人接送服务：</p>
+<ul>
+    <li><strong>博德鲁姆 (Bodrum)</strong> – 该地区的中心，以其码头、夜生活和海滩而闻名。</li>
+    <li><strong>古姆贝特 (Gümbet)</strong> – 热闹的海滨城镇，以水上运动和娱乐活动著称。</li>
+    <li><strong>托尔巴 (Torba)</strong> – 一个宁静的海湾，距离博德鲁姆仅几分钟车程。</li>
+    <li><strong>比泰兹 (Bitez)</strong> – 一个休闲的海滨小镇，适合风帆冲浪和海滨餐饮。</li>
+    <li><strong>亚利卡瓦克 (Yalıkavak)</strong> – 一个豪华度假胜地，拥有壮观的游艇码头和高端餐厅。</li>
+    <li><strong>图尔古特雷斯 (Turgutreis)</strong> – 以其壮丽的日落和迷人的海滨而闻名。</li>
+</ul>
+
+<p>
+    无论您的目的地在哪里，APL Transfers 都提供  
+    <strong>固定价格、无忧接送</strong>，  
+    让您的旅程从一开始就顺畅轻松。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li><strong>到达门迎接服务</strong> – 司机将在到达门举牌等候，方便识别。</li>
+    <li><strong>固定价格 – 无隐藏费用</strong> – 透明定价，无额外收费。</li>
+    <li><strong>支持 24 小时前免费取消</strong> – 预订灵活，无后顾之忧。</li>
+    <li><strong>8 座和 9 座私人车辆提供免费儿童座椅</strong> – 确保家庭旅客的安全。</li>
+    <li><strong>24/7 客户支持</strong> – 随时提供帮助。</li>
+    <li><strong>企业差旅解决方案</strong> – 提供可靠的商务接送服务。</li>
+    <li><strong>豪华、干净且维护良好的车辆</strong> – 享受高品质的舒适旅行体验。</li>
+</ul>
+
+<h2>立即预订博德鲁姆米拉斯机场出租车</h2>
+
+<p>
+    抵达 <strong>博德鲁姆米拉斯机场 (BJV)</strong> 后无需费心寻找出租车。提前预订
+    <strong>私人机场接送服务</strong>，享受轻松无忧的旅程。<br>
+    无论您前往 <strong>热闹的博德鲁姆市中心、  
+    宁静的比泰兹海滩，或豪华的亚利卡瓦克度假村</strong>，  
+    我们提供经济实惠且可靠的接送服务。
+</p>
+
+<ul>
+    <li><strong>即时在线预订</strong></li>
+    <li><strong>安全支付</strong>（支持欧元 (EUR)、英镑 (GBP)、美元 (USD) 和土耳其里拉 (TRY)）</li>
+    <li><strong>无隐藏费用 – 透明定价</strong></li>
+</ul>
+
+<p>
+    需要帮助？请联系 <strong>24/7 客户支持</strong>，确保您拥有顺畅的接送体验。
+    <a href="/">立即预订</a>，享受安心之旅！
+</p>
+
+        `,
     },
     "/izmir-adnan-menderes-airport-taxi-prices": {
-        en: ``,
-        tr: ``,
-        ar: ``,
-        es: ``,
-        it: ``,
-        ru: ``,
-        zh: ``,
+        en: `
+        <h1>Izmir Adnan Menderes Airport Taxi Prices – Private & Fixed-Price Transfers</h1>
+
+<h2>Reliable & Comfortable Transfers from Izmir Adnan Menderes Airport (ADB)</h2>
+
+<p>
+    Planning a trip to <strong>Kusadasi, Cesme, Alacati, Selcuk, or Ephesus</strong>?  
+    APL Transfers offers <strong>fixed-price private airport taxi transfers</strong>  
+    from <strong>Izmir Adnan Menderes Airport (ADB)</strong> to major destinations across the region.  
+    Whether you need a <strong>saloon car, a people carrier for five passengers,  
+    an eight-seater minibus, or a luxury Mercedes business-class vehicle</strong>,  
+    we provide a hassle-free, comfortable transfer experience.
+</p>
+
+<p>
+    Our <strong>meet & greet service at the arrival gates</strong> ensures  
+    your driver will be waiting for you as soon as you land.
+</p>
+
+<h2>Vehicle Options for Izmir Adnan Menderes Airport Transfers</h2>
+<ul>
+    <li><strong>Saloon Car</strong> – Ideal for solo travelers and couples.</li>
+    <li><strong>People Carrier (5 Passengers)</strong> – Perfect for families and small groups.</li>
+    <li><strong>8-Seater Minibus</strong> – Spacious for larger groups with luggage.</li>
+    <li><strong>Business-Class Mercedes Vehicles</strong> – Premium travel for business and VIP passengers.</li>
+</ul>
+
+<h2>Meet & Greet Service – Where to Find Your Driver</h2>
+<ul>
+    <li><strong>Location:</strong> Upon arrival at <strong>Izmir Adnan Menderes Airport (ADB)</strong>,  
+        your driver will be waiting <strong>by the arrival gates</strong>,  
+        holding a passenger name board for easy recognition.</li>
+    <li><strong>Flight tracking:</strong> Even if your flight arrives early or is delayed,  
+        our drivers track your arrival time and adjust accordingly.</li>
+    <li><strong>Seamless Transfers:</strong> Avoid the hassle of searching for taxis—  
+        your private driver will be ready to take you to your hotel, resort, or private villa.</li>
+</ul>
+
+<h2>Top Destinations for Izmir Airport Transfers</h2>
+
+<p>We provide private transfers from <strong>Izmir Adnan Menderes Airport (ADB)</strong> to:</p>
+<ul>
+    <li><strong>Kusadasi</strong> – A vibrant coastal town with stunning beaches and luxury resorts.</li>
+    <li><strong>Cesme</strong> – A popular seaside destination known for its thermal waters and lively atmosphere.</li>
+    <li><strong>Alacati</strong> – A charming village famous for its windsurfing spots, boutique hotels, and cobblestone streets.</li>
+    <li><strong>Selcuk</strong> – Home to ancient ruins, including the <strong>Temple of Artemis</strong>,  
+        one of the Seven Wonders of the Ancient World.</li>
+    <li><strong>Ephesus</strong> – A must-visit UNESCO World Heritage Site featuring well-preserved Roman ruins.</li>
+</ul>
+
+<p>
+    Whether you're traveling for a <strong>holiday, business, or sightseeing</strong>,  
+    APL Transfers ensures a <strong>smooth, fixed-price transfer</strong> to your destination.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li><strong>Meet & Greet at the Arrival Gates</strong> – Your driver will be waiting for you with a name board.</li>
+    <li><strong>Fixed Prices – No Hidden Costs</strong> – What you see is what you pay.</li>
+    <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Book with confidence.</li>
+    <li><strong>Free Child Seats for 8 & 9-Seater Private Vehicles</strong> – Safety for families at no extra cost.</li>
+    <li><strong>24/7 Customer Support</strong> – Always available to assist with your journey.</li>
+    <li><strong>Corporate Travel Solutions</strong> – Reliable airport transfers for business travelers.</li>
+    <li><strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Enjoy a smooth and comfortable ride.</li>
+</ul>
+
+<h2>Book Your Izmir Airport Taxi Now</h2>
+
+<p>
+    Make your arrival at <strong>Izmir Adnan Menderes Airport (ADB)</strong> stress-free  
+    by pre-booking your <strong>private taxi transfer</strong>.  
+    Whether you're traveling to <strong>the beach resorts of Cesme,  
+    the ancient city of Ephesus, or the vibrant town of Kusadasi</strong>,  
+    our fixed-price transfers ensure a smooth and affordable journey.
+</p>
+
+<ul>
+    <li><strong>Instant Online Booking</strong></li>
+    <li><strong>Secure Payment</strong> (Euro, GBP, US Dollar & Turkish Lira Accepted)</li>
+    <li><strong>No Hidden Fees – Transparent Pricing</strong></li>
+</ul>
+
+<p>
+    Need help? Contact our <strong>24/7 customer support</strong> for assistance.
+    <a href="/">Book Now</a> and travel with ease.
+</p>
+
+        `,
+        tr: `
+        <h1>İzmir Adnan Menderes Havalimanı Taksi Transfer Fiyatları – Özel ve Sabit Fiyatlı Transferler</h1>
+
+<h2>İzmir Adnan Menderes Havalimanı'ndan (ADB) Güvenilir ve Konforlu Transferler</h2>
+
+<p>
+    <strong>Kuşadası, Çeşme, Alaçatı, Selçuk veya Efes</strong>’e mi seyahat ediyorsunuz?  
+    APL Transfers, <strong>İzmir Adnan Menderes Havalimanı (ADB)</strong>’ndan  
+    <strong>sabit fiyatlı özel havalimanı taksi transferleri</strong> sunmaktadır.  
+    İhtiyacınız ister <strong>sedan bir araç, beş yolcu kapasiteli geniş bir araç,  
+    sekiz kişilik bir minibüs veya lüks bir Mercedes iş sınıfı araç</strong> olsun,  
+    konforlu ve sorunsuz bir yolculuk sağlıyoruz.
+</p>
+
+<p>
+    <strong>Varış kapılarında karşılama hizmetimiz</strong>, şoförünüzün uçaktan indiğiniz anda  
+    sizi bekliyor olmasını garanti eder.
+</p>
+
+<h2>İzmir Adnan Menderes Havalimanı Transfer Araç Seçenekleri</h2>
+<ul>
+    <li><strong>Sedan Araç</strong> – Bireysel yolcular ve çiftler için ideal.</li>
+    <li><strong>Minivan (5 Yolcu)</strong> – Aileler ve küçük gruplar için mükemmel.</li>
+    <li><strong>8 Kişilik Minibüs</strong> – Daha büyük gruplar ve fazla bagaj için geniş ve rahat.</li>
+    <li><strong>Mercedes İş Sınıfı Araçlar</strong> – VIP ve iş seyahatleri için üst düzey konfor.</li>
+</ul>
+
+<h2>Karşılama Hizmeti – Sürücünüzü Nerede Bulabilirsiniz?</h2>
+<ul>
+    <li><strong>Konum:</strong> <strong>İzmir Adnan Menderes Havalimanı (ADB)</strong>’na vardığınızda,  
+        şoförünüz sizi <strong>varış kapılarında</strong> isminizin yazılı olduğu bir tabela ile bekliyor olacak.</li>
+    <li><strong>Uçuş Takibi:</strong> Uçağınız erken inse veya rötar yapsa bile,  
+        şoförlerimiz varış saatlerinizi takip ederek programlarını buna göre ayarlar.</li>
+    <li><strong>Hızlı ve Kolay Transfer:</strong> Taksi beklemenize veya son dakika pazarlıkları yapmanıza gerek yok –  
+        özel şoförünüz sizi doğrudan gitmek istediğiniz yere götürecektir.</li>
+</ul>
+
+<h2>İzmir Havalimanı Transferlerinde Popüler Destinasyonlar</h2>
+
+<p>İzmir Adnan Menderes Havalimanı’ndan (ADB) özel transferler sağlıyoruz:</p>
+<ul>
+    <li><strong>Kuşadası</strong> – Muhteşem plajları ve lüks tatil köyleriyle ünlü canlı bir sahil kasabası.</li>
+    <li><strong>Çeşme</strong> – Termal suları ve hareketli atmosferi ile ünlü popüler bir tatil beldesi.</li>
+    <li><strong>Alaçatı</strong> – Rüzgar sörfü noktaları, butik otelleri ve taş sokaklarıyla ünlü büyüleyici bir kasaba.</li>
+    <li><strong>Selçuk</strong> – <strong>Artemis Tapınağı</strong> gibi antik kalıntılara ev sahipliği yapan,  
+        Antik Dünyanın Yedi Harikasından biri.</li>
+    <li><strong>Efes</strong> – İyi korunmuş Roma kalıntılarını içeren, mutlaka ziyaret edilmesi gereken  
+        bir UNESCO Dünya Mirası Alanı.</li>
+</ul>
+
+<p>
+    Tatil, iş veya turistik gezi için seyahat ediyor olun,  
+    APL Transfers <strong>konforlu ve sabit fiyatlı transfer</strong> hizmeti sunar.
+</p>
+
+<h2>Neden APL Transfers’i Seçmelisiniz?</h2>
+<ul>
+    <li><strong>Varış Kapılarında Karşılama</strong> – Şoförünüz isminizin yazılı olduğu bir tabela ile bekleyecek.</li>
+    <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Ne görüyorsanız onu ödersiniz.</li>
+    <li><strong>Varıştan 24 Saat Öncesine Kadar Ücretsiz İptal</strong> – Esnek ve risksiz rezervasyon.</li>
+    <li><strong>8 ve 9 Kişilik Özel Araçlar İçin Ücretsiz Çocuk Koltuğu</strong> – Aileler için ekstra güvenlik, ek ücret olmadan.</li>
+    <li><strong>7/24 Müşteri Desteği</strong> – Seyahatinizde her zaman yardıma hazırız.</li>
+    <li><strong>Kurumsal Seyahat Çözümleri</strong> – İş seyahatleri için güvenilir transfer hizmetleri.</li>
+    <li><strong>Temiz, Konforlu ve Bakımlı Araçlar</strong> – Varış noktanıza konfor içinde ulaşın.</li>
+</ul>
+
+<h2>İzmir Havalimanı Taksi Rezervasyonu Yapın</h2>
+
+<p>
+    <strong>İzmir Adnan Menderes Havalimanı (ADB)</strong>’na vardığınızda taksi arama stresinden kaçının.  
+    <strong>Özel havalimanı taksi transferinizi</strong> önceden rezerve edin ve konforlu bir yolculuk yapın.  
+    İster <strong>Çeşme’nin sahil tatil köylerine,  
+    Efes’in antik kentine veya Kuşadası’nın hareketli şehir merkezine</strong> gidiyor olun,  
+    ekonomik ve güvenilir bir transfer hizmeti sunuyoruz.
+</p>
+
+<ul>
+    <li><strong>Anında Online Rezervasyon</strong></li>
+    <li><strong>Güvenli Ödeme</strong> (Euro, GBP, ABD Doları & Türk Lirası kabul edilir)</li>
+    <li><strong>Gizli Ücret Yok – Şeffaf Fiyatlandırma</strong></li>
+</ul>
+
+<p>
+    Yardıma mı ihtiyacınız var? <strong>7/24 müşteri destek</strong> ekibimizle iletişime geçin.
+    <a href="/">Hemen Rezervasyon Yapın</a> ve rahat bir yolculuk yapın.
+</p>
+
+        `,
+        ar: `
+        <h1>أسعار سيارات الأجرة في مطار إزمير عدنان مندريس – خدمات نقل خاصة وثابتة</h1>
+
+<h2>خدمات نقل موثوقة ومريحة من مطار إزمير عدنان مندريس (ADB)</h2>
+
+<p>
+    هل تخطط للسفر إلى <strong>كوشاداسي، تشيشمي، ألاكاتي، سلجوق، أو أفسس</strong>؟  
+    تقدم APL Transfers <strong>خدمات نقل خاصة بأسعار ثابتة</strong>  
+    من <strong>مطار إزمير عدنان مندريس (ADB)</strong> إلى الوجهات الرئيسية في المنطقة.  
+    سواء كنت بحاجة إلى <strong>سيارة سيدان، حافلة صغيرة تتسع لخمسة ركاب،  
+    حافلة صغيرة بثمانية مقاعد، أو سيارة مرسيدس فاخرة للأعمال</strong>،  
+    نضمن لك تجربة نقل مريحة وخالية من المتاعب.
+</p>
+
+<p>
+    <strong>خدمة الاستقبال عند بوابات الوصول</strong> تضمن أن يكون سائقك  
+    في انتظارك فور وصولك.
+</p>
+
+<h2>خيارات المركبات لخدمة النقل من مطار إزمير عدنان مندريس</h2>
+<ul>
+    <li><strong>سيارة سيدان</strong> – مثالية للمسافرين الأفراد والأزواج.</li>
+    <li><strong>حافلة صغيرة (5 ركاب)</strong> – مثالية للعائلات والمجموعات الصغيرة.</li>
+    <li><strong>حافلة صغيرة بـ 8 مقاعد</strong> – فسيحة ومناسبة للمجموعات الكبيرة مع الأمتعة.</li>
+    <li><strong>سيارات مرسيدس للأعمال</strong> – توفر الراحة والفخامة للمسافرين من رجال الأعمال وVIP.</li>
+</ul>
+
+<h2>خدمة الاستقبال – أين تجد سائقك؟</h2>
+<ul>
+    <li><strong>الموقع:</strong> عند وصولك إلى <strong>مطار إزمير عدنان مندريس (ADB)</strong>،  
+        سيكون سائقك بانتظارك <strong>عند بوابات الوصول</strong>  
+        حاملًا لوحة تحمل اسمك لسهولة التعرف عليه.</li>
+    <li><strong>تتبع الرحلات:</strong> حتى إذا كان وصول رحلتك مبكرًا أو متأخرًا،  
+        فإن سائقينا يتابعون وقت وصولك ويعدّلون جدولهم وفقًا لذلك.</li>
+    <li><strong>نقل سلس:</strong> لا داعي للانتظار لسيارات الأجرة أو التفاوض في اللحظة الأخيرة –  
+        سيكون سائقك الخاص جاهزًا لنقلك مباشرة إلى وجهتك.</li>
+</ul>
+
+<h2>الوجهات الشهيرة لخدمة النقل من مطار إزمير</h2>
+
+<p>نحن نقدم خدمات نقل خاصة من <strong>مطار إزمير عدنان مندريس (ADB)</strong> إلى:</p>
+<ul>
+    <li><strong>كوشاداسي</strong> – مدينة ساحلية حيوية بشواطئ خلابة ومنتجعات فاخرة.</li>
+    <li><strong>تشيشمي</strong> – وجهة ساحلية شهيرة معروفة بمياهها الحرارية وأجوائها النابضة بالحياة.</li>
+    <li><strong>ألاكاتي</strong> – قرية ساحرة تشتهر برياضة ركوب الأمواج، والفنادق البوتيكية، وشوارعها المرصوفة بالحصى.</li>
+    <li><strong>سلجوق</strong> – موطن للآثار القديمة، بما في ذلك <strong>معبد أرتميس</strong>،  
+        أحد عجائب الدنيا السبع في العالم القديم.</li>
+    <li><strong>أفسس</strong> – موقع تراث عالمي لليونسكو يجب زيارته، ويضم أنقاضًا رومانية محفوظة جيدًا.</li>
+</ul>
+
+<p>
+    سواء كنت مسافرًا من أجل <strong>العطلات، أو العمل، أو السياحة</strong>،  
+    تضمن APL Transfers <strong>نقلًا سلسًا بأسعار ثابتة</strong> إلى وجهتك.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li><strong>الاستقبال عند بوابات الوصول</strong> – سيكون السائق في انتظارك بلوحة تحمل اسمك.</li>
+    <li><strong>أسعار ثابتة – بدون رسوم خفية</strong> – لا يوجد أي تكاليف إضافية.</li>
+    <li><strong>إمكانية الإلغاء المجاني حتى 24 ساعة قبل الوصول</strong> – احجز بثقة وراحة بال.</li>
+    <li><strong>مقاعد أطفال مجانية للمركبات الخاصة بـ 8 و 9 مقاعد</strong> – لضمان سلامة العائلات.</li>
+    <li><strong>دعم العملاء 24/7</strong> – متاح دائمًا لمساعدتك أثناء رحلتك.</li>
+    <li><strong>حلول سفر الشركات</strong> – خدمات نقل موثوقة للمسافرين من رجال الأعمال.</li>
+    <li><strong>مركبات فاخرة ونظيفة ومُصانة جيدًا</strong> – استمتع برحلة مريحة إلى وجهتك.</li>
+</ul>
+
+<h2>احجز سيارة الأجرة من مطار إزمير الآن</h2>
+
+<p>
+    تجنب عناء البحث عن سيارة أجرة عند وصولك إلى <strong>مطار إزمير عدنان مندريس (ADB)</strong>.  
+    احجز <strong>خدمة النقل الخاصة</strong> مسبقًا وتمتع برحلة مريحة وخالية من المتاعب.<br>  
+    سواء كنت متجهًا إلى <strong>منتجعات شاطئ تشيشمي،  
+    المدينة القديمة في أفسس، أو مدينة كوشاداسي النابضة بالحياة</strong>،  
+    فإننا نوفر لك خدمة نقل بأسعار معقولة وموثوقة.
+</p>
+
+<ul>
+    <li><strong>حجز فوري عبر الإنترنت</strong></li>
+    <li><strong>دفع آمن</strong> (نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية)</li>
+    <li><strong>بدون رسوم خفية – تسعير شفاف</strong></li>
+</ul>
+
+<p>
+    هل تحتاج إلى مساعدة؟ تواصل مع <strong>خدمة العملاء المتوفرة 24/7</strong> لضمان تجربة نقل سلسة.
+    <a href="/">احجز الآن</a> وسافر براحة وطمأنينة!
+</p>
+
+        `,
+        es: `
+        <h1>Precios de Taxi en el Aeropuerto de Izmir Adnan Menderes – Traslados Privados y a Precio Fijo</h1>
+
+<h2>Traslados Confiables y Cómodos desde el Aeropuerto de Izmir Adnan Menderes (ADB)</h2>
+
+<p>
+    ¿Viajas a <strong>Kusadasi, Cesme, Alacati, Selcuk o Éfeso</strong>?  
+    APL Transfers ofrece <strong>traslados privados con tarifa fija</strong>  
+    desde el <strong>Aeropuerto de Izmir Adnan Menderes (ADB)</strong> a todos los principales destinos de la región.  
+    Ya sea que necesites un <strong>sedán, un monovolumen espacioso para cinco pasajeros,  
+    un minibús de ocho plazas o un lujoso Mercedes de clase ejecutiva</strong>,  
+    garantizamos un traslado cómodo y sin preocupaciones.
+</p>
+
+<p>
+    Nuestro <strong>servicio de bienvenida en las puertas de llegada</strong> garantiza  
+    que tu conductor estará esperándote tan pronto como aterrices.
+</p>
+
+<h2>Opciones de Vehículos para Traslados desde el Aeropuerto de Izmir Adnan Menderes</h2>
+<ul>
+    <li><strong>Vehículo Sedán</strong> – Ideal para viajeros solos y parejas.</li>
+    <li><strong>Monovolumen (5 Pasajeros)</strong> – Perfecto para familias y grupos pequeños.</li>
+    <li><strong>Minibús de 8 Plazas</strong> – Espacioso y adecuado para grupos grandes con equipaje.</li>
+    <li><strong>Vehículos Mercedes de Clase Ejecutiva</strong> – Viajes de lujo para ejecutivos y pasajeros VIP.</li>
+</ul>
+
+<h2>Servicio de Bienvenida – ¿Dónde Encontrar a tu Conductor?</h2>
+<ul>
+    <li><strong>Ubicación:</strong> Al llegar al <strong>Aeropuerto de Izmir Adnan Menderes (ADB)</strong>,  
+        tu conductor te estará esperando <strong>en las puertas de llegada</strong>,  
+        sosteniendo un cartel con tu nombre para que lo reconozcas fácilmente.</li>
+    <li><strong>Seguimiento de vuelos:</strong> Incluso si tu vuelo llega antes o se retrasa,  
+        nuestros conductores monitorean la hora de llegada y ajustan el horario según sea necesario.</li>
+    <li><strong>Traslados sin Esperas:</strong> Evita el estrés de buscar un taxi  
+        o negociar precios de última hora – tu conductor privado estará listo  
+        para llevarte directamente a tu destino.</li>
+</ul>
+
+<h2>Destinos Populares para Traslados desde el Aeropuerto de Izmir</h2>
+
+<p>Ofrecemos traslados privados desde el <strong>Aeropuerto de Izmir Adnan Menderes (ADB)</strong> a:</p>
+<ul>
+    <li><strong>Kusadasi</strong> – Una vibrante ciudad costera con impresionantes playas y lujosos resorts.</li>
+    <li><strong>Cesme</strong> – Un popular destino de playa conocido por sus aguas termales y su animado ambiente.</li>
+    <li><strong>Alacati</strong> – Un encantador pueblo famoso por sus zonas de windsurf, hoteles boutique y calles empedradas.</li>
+    <li><strong>Selcuk</strong> – Hogar de ruinas antiguas, incluido el <strong>Templo de Artemisa</strong>,  
+        una de las Siete Maravillas del Mundo Antiguo.</li>
+    <li><strong>Éfeso</strong> – Un sitio del Patrimonio Mundial de la UNESCO imprescindible,  
+        con bien conservadas ruinas romanas.</li>
+</ul>
+
+<p>
+    Ya sea que viajes por <strong>vacaciones, negocios o turismo</strong>,  
+    APL Transfers garantiza un <strong>traslado cómodo y con tarifa fija</strong> a tu destino.
+</p>
+
+<h2>¿Por Qué Elegir APL Transfers?</h2>
+<ul>
+    <li><strong>Servicio de Bienvenida en las Puertas de Llegada</strong> – Tu conductor te estará esperando con un cartel con tu nombre.</li>
+    <li><strong>Precios Fijos – Sin Costos Ocultos</strong> – Lo que ves es lo que pagas.</li>
+    <li><strong>Cancelación Gratuita Hasta 24 Horas Antes de la Llegada</strong> – Reserva con total confianza.</li>
+    <li><strong>Asientos para Niños Gratis en Vehículos de 8 y 9 Plazas</strong> – Seguridad para familias sin costo adicional.</li>
+    <li><strong>Atención al Cliente 24/7</strong> – Siempre disponible para ayudarte en tu viaje.</li>
+    <li><strong>Soluciones de Viaje para Empresas</strong> – Traslados confiables para viajeros de negocios.</li>
+    <li><strong>Vehículos de Lujo, Limpios y Bien Mantenidos</strong> – Disfruta de un viaje cómodo a tu destino.</li>
+</ul>
+
+<h2>Reserva Ahora tu Taxi en el Aeropuerto de Izmir</h2>
+
+<p>
+    Evita el estrés de buscar un taxi al llegar al <strong>Aeropuerto de Izmir Adnan Menderes (ADB)</strong>.  
+    Reserva con anticipación tu <strong>traslado privado</strong> y disfruta de un viaje sin preocupaciones.<br>  
+    Ya sea que te dirijas a <strong>los resorts de playa en Cesme,  
+    la antigua ciudad de Éfeso o la vibrante ciudad de Kusadasi</strong>,  
+    ofrecemos un servicio de traslado económico y confiable.
+</p>
+
+<ul>
+    <li><strong>Reserva Online al Instante</strong></li>
+    <li><strong>Pago Seguro</strong> (Se aceptan Euros, GBP, Dólares Estadounidenses y Liras Turcas)</li>
+    <li><strong>Sin Costos Ocultos – Tarifas Transparentes</strong></li>
+</ul>
+
+<p>
+    ¿Necesitas ayuda? Contacta con nuestro <strong>soporte al cliente 24/7</strong> para una experiencia de traslado sin inconvenientes.
+    <a href="/">Reserva Ahora</a> y viaja con tranquilidad.
+</p>
+
+        `,
+        it: `
+        <h1>Precios de Taxi en el Aeropuerto de Izmir Adnan Menderes – Traslados Privados y a Precio Fijo</h1>
+
+<h2>Traslados Confiables y Cómodos desde el Aeropuerto de Izmir Adnan Menderes (ADB)</h2>
+
+<p>
+    ¿Viajas a <strong>Kusadasi, Cesme, Alacati, Selcuk o Éfeso</strong>?  
+    APL Transfers ofrece <strong>traslados privados con tarifa fija</strong>  
+    desde el <strong>Aeropuerto de Izmir Adnan Menderes (ADB)</strong> a todos los principales destinos de la región.  
+    Ya sea que necesites un <strong>sedán, un monovolumen espacioso para cinco pasajeros,  
+    un minibús de ocho plazas o un lujoso Mercedes de clase ejecutiva</strong>,  
+    garantizamos un traslado cómodo y sin preocupaciones.
+</p>
+
+<p>
+    Nuestro <strong>servicio de bienvenida en las puertas de llegada</strong> garantiza  
+    que tu conductor estará esperándote tan pronto como aterrices.
+</p>
+
+<h2>Opciones de Vehículos para Traslados desde el Aeropuerto de Izmir Adnan Menderes</h2>
+<ul>
+    <li><strong>Vehículo Sedán</strong> – Ideal para viajeros solos y parejas.</li>
+    <li><strong>Monovolumen (5 Pasajeros)</strong> – Perfecto para familias y grupos pequeños.</li>
+    <li><strong>Minibús de 8 Plazas</strong> – Espacioso y adecuado para grupos grandes con equipaje.</li>
+    <li><strong>Vehículos Mercedes de Clase Ejecutiva</strong> – Viajes de lujo para ejecutivos y pasajeros VIP.</li>
+</ul>
+
+<h2>Servicio de Bienvenida – ¿Dónde Encontrar a tu Conductor?</h2>
+<ul>
+    <li><strong>Ubicación:</strong> Al llegar al <strong>Aeropuerto de Izmir Adnan Menderes (ADB)</strong>,  
+        tu conductor te estará esperando <strong>en las puertas de llegada</strong>,  
+        sosteniendo un cartel con tu nombre para que lo reconozcas fácilmente.</li>
+    <li><strong>Seguimiento de vuelos:</strong> Incluso si tu vuelo llega antes o se retrasa,  
+        nuestros conductores monitorean la hora de llegada y ajustan el horario según sea necesario.</li>
+    <li><strong>Traslados sin Esperas:</strong> Evita el estrés de buscar un taxi  
+        o negociar precios de última hora – tu conductor privado estará listo  
+        para llevarte directamente a tu destino.</li>
+</ul>
+
+<h2>Destinos Populares para Traslados desde el Aeropuerto de Izmir</h2>
+
+<p>Ofrecemos traslados privados desde el <strong>Aeropuerto de Izmir Adnan Menderes (ADB)</strong> a:</p>
+<ul>
+    <li><strong>Kusadasi</strong> – Una vibrante ciudad costera con impresionantes playas y lujosos resorts.</li>
+    <li><strong>Cesme</strong> – Un popular destino de playa conocido por sus aguas termales y su animado ambiente.</li>
+    <li><strong>Alacati</strong> – Un encantador pueblo famoso por sus zonas de windsurf, hoteles boutique y calles empedradas.</li>
+    <li><strong>Selcuk</strong> – Hogar de ruinas antiguas, incluido el <strong>Templo de Artemisa</strong>,  
+        una de las Siete Maravillas del Mundo Antiguo.</li>
+    <li><strong>Éfeso</strong> – Un sitio del Patrimonio Mundial de la UNESCO imprescindible,  
+        con bien conservadas ruinas romanas.</li>
+</ul>
+
+<p>
+    Ya sea que viajes por <strong>vacaciones, negocios o turismo</strong>,  
+    APL Transfers garantiza un <strong>traslado cómodo y con tarifa fija</strong> a tu destino.
+</p>
+
+<h2>¿Por Qué Elegir APL Transfers?</h2>
+<ul>
+    <li><strong>Servicio de Bienvenida en las Puertas de Llegada</strong> – Tu conductor te estará esperando con un cartel con tu nombre.</li>
+    <li><strong>Precios Fijos – Sin Costos Ocultos</strong> – Lo que ves es lo que pagas.</li>
+    <li><strong>Cancelación Gratuita Hasta 24 Horas Antes de la Llegada</strong> – Reserva con total confianza.</li>
+    <li><strong>Asientos para Niños Gratis en Vehículos de 8 y 9 Plazas</strong> – Seguridad para familias sin costo adicional.</li>
+    <li><strong>Atención al Cliente 24/7</strong> – Siempre disponible para ayudarte en tu viaje.</li>
+    <li><strong>Soluciones de Viaje para Empresas</strong> – Traslados confiables para viajeros de negocios.</li>
+    <li><strong>Vehículos de Lujo, Limpios y Bien Mantenidos</strong> – Disfruta de un viaje cómodo a tu destino.</li>
+</ul>
+
+<h2>Reserva Ahora tu Taxi en el Aeropuerto de Izmir</h2>
+
+<p>
+    Evita el estrés de buscar un taxi al llegar al <strong>Aeropuerto de Izmir Adnan Menderes (ADB)</strong>.  
+    Reserva con anticipación tu <strong>traslado privado</strong> y disfruta de un viaje sin preocupaciones.<br>  
+    Ya sea que te dirijas a <strong>los resorts de playa en Cesme,  
+    la antigua ciudad de Éfeso o la vibrante ciudad de Kusadasi</strong>,  
+    ofrecemos un servicio de traslado económico y confiable.
+</p>
+
+<ul>
+    <li><strong>Reserva Online al Instante</strong></li>
+    <li><strong>Pago Seguro</strong> (Se aceptan Euros, GBP, Dólares Estadounidenses y Liras Turcas)</li>
+    <li><strong>Sin Costos Ocultos – Tarifas Transparentes</strong></li>
+</ul>
+
+<p>
+    ¿Necesitas ayuda? Contacta con nuestro <strong>soporte al cliente 24/7</strong> para una experiencia de traslado sin inconvenientes.
+    <a href="/">Reserva Ahora</a> y viaja con tranquilidad.
+</p>
+
+        `,
+        ru: `
+        <h1>Цены на такси из аэропорта Измир Аднан Мендерес – Частные и фиксированные трансферы</h1>
+
+<h2>Надежные и комфортные трансферы из аэропорта Измир Аднан Мендерес (ADB)</h2>
+
+<p>
+    Путешествуете в <strong>Кушадасы, Чешме, Алачаты, Сельчук или Эфес</strong>?  
+    APL Transfers предлагает <strong>частные трансферы по фиксированной цене</strong>  
+    из <strong>аэропорта Измир Аднан Мендерес (ADB)</strong> в популярные направления региона.  
+    Независимо от того, нужен ли вам <strong>седан, просторный минивэн на пять пассажиров,  
+    микроавтобус на восемь мест или роскошный автомобиль Mercedes бизнес-класса</strong>,  
+    мы обеспечим вам комфортную и беззаботную поездку.
+</p>
+
+<p>
+    <strong>Услуга встречи у выходов из зоны прилета</strong> гарантирует,  
+    что ваш водитель будет ждать вас сразу после посадки.
+</p>
+
+<h2>Варианты транспорта для трансфера из аэропорта Измир Аднан Мендерес</h2>
+<ul>
+    <li><strong>Седан</strong> – Идеально для индивидуальных путешественников и пар.</li>
+    <li><strong>Минивэн (5 пассажиров)</strong> – Отличный вариант для семей и небольших групп.</li>
+    <li><strong>Микроавтобус на 8 мест</strong> – Просторное решение для больших групп с багажом.</li>
+    <li><strong>Автомобили Mercedes бизнес-класса</strong> – Премиальный комфорт для деловых поездок и VIP-гостей.</li>
+</ul>
+
+<h2>Где найти вашего водителя?</h2>
+<ul>
+    <li><strong>Местоположение:</strong> По прибытии в <strong>аэропорт Измир Аднан Мендерес (ADB)</strong>  
+        ваш водитель будет ждать вас <strong>у выходов из зоны прилета</strong>,  
+        держа табличку с вашим именем для удобного опознания.</li>
+    <li><strong>Отслеживание рейсов:</strong> Даже если ваш рейс прибывает раньше или с опозданием,  
+        наши водители отслеживают время прилета и корректируют расписание.</li>
+    <li><strong>Быстрый и удобный трансфер:</strong> Вам не нужно стоять в очереди на такси  
+        или договариваться о цене – ваш личный водитель отвезет вас прямо в пункт назначения.</li>
+</ul>
+
+<h2>Популярные направления для трансфера из аэропорта Измир</h2>
+
+<p>Мы предоставляем частные трансферы из <strong>аэропорта Измир Аднан Мендерес (ADB)</strong> в:</p>
+<ul>
+    <li><strong>Кушадасы</strong> – Оживленный прибрежный город с потрясающими пляжами и роскошными курортами.</li>
+    <li><strong>Чешме</strong> – Популярное морское направление, известное своими термальными водами и живой атмосферой.</li>
+    <li><strong>Алачаты</strong> – Очаровательная деревня, известная своими местами для виндсерфинга,  
+        бутиковыми отелями и мощеными улочками.</li>
+    <li><strong>Сельчук</strong> – Здесь находятся древние руины, включая <strong>Храм Артемиды</strong>,  
+        одно из Семи Чудес Древнего мира.</li>
+    <li><strong>Эфес</strong> – Объект Всемирного наследия ЮНЕСКО, который стоит посетить.  
+        Здесь сохранились древнеримские руины.</li>
+</ul>
+
+<p>
+    Независимо от цели вашей поездки – <strong>отдых, бизнес или экскурсия</strong>,  
+    APL Transfers предлагает <strong>удобный трансфер по фиксированной цене</strong> до вашего пункта назначения.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li><strong>Встреча у выходов из зоны прилета</strong> – Водитель будет ждать вас с табличкой с вашим именем.</li>
+    <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Вы платите ровно столько, сколько указано.</li>
+    <li><strong>Бесплатная отмена бронирования за 24 часа до прибытия</strong> – Гибкие условия бронирования без риска.</li>
+    <li><strong>Бесплатные детские кресла в автомобилях на 8 и 9 мест</strong> – Дополнительная безопасность для семей.</li>
+    <li><strong>Круглосуточная поддержка клиентов</strong> – Мы всегда готовы помочь вам.</li>
+    <li><strong>Корпоративные трансферы</strong> – Надежные поездки для деловых клиентов.</li>
+    <li><strong>Роскошные, чистые и ухоженные автомобили</strong> – Наслаждайтесь комфортной поездкой.</li>
+</ul>
+
+<h2>Забронируйте такси из аэропорта Измир</h2>
+
+<p>
+    Избегайте поисков такси по прилету в <strong>аэропорт Измир Аднан Мендерес (ADB)</strong>.  
+    Забронируйте <strong>частный трансфер</strong> заранее и наслаждайтесь спокойной поездкой.<br>  
+    Независимо от того, направляетесь ли вы на <strong>пляжные курорты Чешме,  
+    в древний город Эфес или в оживленный центр Кушадасы</strong>,  
+    наши фиксированные тарифы гарантируют вам удобный и надежный трансфер.
+</p>
+
+<ul>
+    <li><strong>Мгновенное онлайн-бронирование</strong></li>
+    <li><strong>Безопасная оплата</strong> (Принимаются евро, фунты стерлингов, доллары США и турецкие лиры)</li>
+    <li><strong>Без скрытых платежей – Прозрачные цены</strong></li>
+</ul>
+
+<p>
+    Нужна помощь? Свяжитесь с нашей <strong>службой поддержки 24/7</strong> для комфортного трансфера.
+    <a href="/">Забронировать сейчас</a> и путешествуйте без забот!
+</p>
+
+        `,
+        zh: `
+        <h1>伊兹密尔阿德南·门德列斯机场出租车价格 – 私人接送 & 固定价格</h1>
+
+<h2>伊兹密尔阿德南·门德列斯机场 (ADB) 可靠 & 舒适的接送服务</h2>
+
+<p>
+    计划前往 <strong>库萨达斯 (Kusadasi)、切什梅 (Cesme)、阿拉恰特 (Alacati)、塞尔丘克 (Selcuk) 或 以弗所 (Ephesus)</strong>？  
+    APL Transfers 提供 <strong>伊兹密尔阿德南·门德列斯机场 (ADB) 的固定价格私人机场出租车接送服务</strong>。<br>
+    无论您需要 <strong>轿车、可容纳五名乘客的宽敞 MPV、八座小型巴士，还是豪华奔驰商务车</strong>，我们都能为您提供顺畅无忧的接送服务。
+</p>
+
+<p>
+    我们的 <strong>到达门迎接服务</strong> 确保您的司机将在您降落后立即等候。
+</p>
+
+<h2>伊兹密尔阿德南·门德列斯机场接送车辆选择</h2>
+<ul>
+    <li><strong>轿车</strong> – 适合个人和情侣出行。</li>
+    <li><strong>MPV（5 人座）</strong> – 适合家庭和小团体。</li>
+    <li><strong>8 座小型巴士</strong> – 空间宽敞，适合较大的团队和行李较多的旅客。</li>
+    <li><strong>奔驰商务车型</strong> – 为高端商务人士和 VIP 旅客提供尊贵舒适的乘坐体验。</li>
+</ul>
+
+<h2>接机服务 – 在哪里找到您的司机？</h2>
+<ul>
+    <li><strong>位置：</strong> 抵达 <strong>伊兹密尔阿德南·门德列斯机场 (ADB)</strong> 后，您的司机将在
+        <strong>到达门</strong> 等候，并举着写有您的姓名的接机牌，方便您认出。</li>
+    <li><strong>航班追踪：</strong> 即使您的航班提前或延误，我们的司机也会实时跟踪您的抵达时间并相应调整。</li>
+    <li><strong>快速便捷：</strong> 无需排队等待出租车或与司机议价，您的私人司机将直接送您到达目的地。</li>
+</ul>
+
+<h2>伊兹密尔阿德南·门德列斯机场接送热门目的地</h2>
+
+<p>我们提供从 <strong>伊兹密尔阿德南·门德列斯机场 (ADB)</strong> 出发的私人接送服务：</p>
+<ul>
+    <li><strong>库萨达斯 (Kusadasi)</strong> – 充满活力的海滨城镇，拥有迷人的海滩和豪华度假村。</li>
+    <li><strong>切什梅 (Cesme)</strong> – 以温泉水疗和热闹的氛围而闻名的海滨目的地。</li>
+    <li><strong>阿拉恰特 (Alacati)</strong> – 迷人的村庄，以风帆冲浪、精品酒店和鹅卵石街道而闻名。</li>
+    <li><strong>塞尔丘克 (Selcuk)</strong> – 这里拥有著名的古代遗址，包括 <strong>阿尔忒弥斯神庙</strong>，  
+        这是古代世界七大奇迹之一。</li>
+    <li><strong>以弗所 (Ephesus)</strong> – 联合国教科文组织世界遗产地，保留完好的古罗马遗址，不容错过。</li>
+</ul>
+
+<p>
+    无论您是为了 <strong>度假、商务还是观光</strong> 而旅行，  
+    APL Transfers 都能确保您享受 <strong>舒适且价格透明的接送服务</strong>。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li><strong>到达门迎接服务</strong> – 司机将在到达门举牌等候，方便识别。</li>
+    <li><strong>固定价格 – 无隐藏费用</strong> – 透明定价，无额外收费。</li>
+    <li><strong>支持 24 小时前免费取消</strong> – 预订灵活，无后顾之忧。</li>
+    <li><strong>8 座和 9 座私人车辆提供免费儿童座椅</strong> – 确保家庭旅客的安全。</li>
+    <li><strong>24/7 客户支持</strong> – 随时提供帮助。</li>
+    <li><strong>企业差旅解决方案</strong> – 提供可靠的商务接送服务。</li>
+    <li><strong>豪华、干净且维护良好的车辆</strong> – 享受高品质的舒适旅行体验。</li>
+</ul>
+
+<h2>立即预订伊兹密尔阿德南·门德列斯机场出租车</h2>
+
+<p>
+    抵达 <strong>伊兹密尔阿德南·门德列斯机场 (ADB)</strong> 后无需费心寻找出租车。提前预订
+    <strong>私人机场接送服务</strong>，享受轻松无忧的旅程。<br>
+    无论您前往 <strong>切什梅的海滨度假村、  
+    以弗所的古城，还是库萨达斯的活力小镇</strong>，  
+    我们提供经济实惠且可靠的接送服务。
+</p>
+
+<ul>
+    <li><strong>即时在线预订</strong></li>
+    <li><strong>安全支付</strong>（支持欧元 (EUR)、英镑 (GBP)、美元 (USD) 和土耳其里拉 (TRY)）</li>
+    <li><strong>无隐藏费用 – 透明定价</strong></li>
+</ul>
+
+<p>
+    需要帮助？请联系 <strong>24/7 客户支持</strong>，确保您拥有顺畅的接送体验。
+    <a href="/">立即预订</a>，享受安心之旅！
+</p>
+
+        `,
     },
     "/gazipasha-alanya-airport-taxi-prices": {
-        en: ``,
-        tr: ``,
-        ar: ``,
-        es: ``,
-        it: ``,
-        ru: ``,
-        zh: ``,
-    },
+        en: `
+        <h1>Gazipaşa-Alanya Airport Taxi Prices – Private & Fixed-Price Transfers</h1>
 
+<h2>Reliable & Comfortable Transfers from Gazipaşa-Alanya Airport (GZP)</h2>
+
+<p>
+    Traveling to <strong>Alanya, Mahmutlar, Kargicak, Anamur, or Avsallar</strong>?  
+    APL Transfers provides <strong>fixed-price private airport transfers</strong>  
+    from <strong>Gazipaşa-Alanya Airport (GZP)</strong> to major resorts and towns along  
+    the stunning Mediterranean coast. Whether you need a  
+    <strong>saloon car, a people carrier for five passengers,  
+    an eight-seater minibus, or a luxury Mercedes business-class vehicle</strong>,  
+    we ensure a smooth and hassle-free journey.
+</p>
+
+<p>
+    Our <strong>meet & greet service at the arrival gates</strong> guarantees  
+    that your driver will be waiting for you as soon as you land.
+</p>
+
+<h2>Vehicle Options for Gazipaşa-Alanya Airport Transfers</h2>
+<ul>
+    <li><strong>Saloon Car</strong> – Ideal for solo travelers and couples.</li>
+    <li><strong>People Carrier (5 Passengers)</strong> – Perfect for families and small groups.</li>
+    <li><strong>8-Seater Minibus</strong> – Spacious for larger groups with luggage.</li>
+    <li><strong>Business-Class Mercedes Vehicles</strong> – Luxury travel for business and VIP passengers.</li>
+</ul>
+
+<h2>Meet & Greet Service – Where to Find Your Driver</h2>
+<ul>
+    <li><strong>Location:</strong> Upon arrival at <strong>Gazipaşa-Alanya Airport (GZP)</strong>,  
+        your driver will be waiting <strong>by the arrival gates</strong>,  
+        holding a passenger name board for easy recognition.</li>
+    <li><strong>No delays:</strong> Even if your flight is early or delayed,  
+        our drivers track your arrival time and adjust accordingly.</li>
+    <li><strong>Seamless Transfers:</strong> Avoid long taxi queues—  
+        your private driver will take you directly to your hotel, resort, or private villa.</li>
+</ul>
+
+<h2>Top Destinations for Gazipaşa-Alanya Airport Transfers</h2>
+
+<p>We provide private transfers from <strong>Gazipaşa-Alanya Airport (GZP)</strong> to:</p>
+<ul>
+    <li><strong>Alanya</strong> – A lively coastal city famous for its beaches, nightlife,  
+        and historical landmarks like Alanya Castle.</li>
+    <li><strong>Mahmutlar</strong> – A growing resort area known for its relaxed atmosphere and long sandy beaches.</li>
+    <li><strong>Kargicak</strong> – A peaceful coastal town with scenic views and luxurious villa accommodations.</li>
+    <li><strong>Anamur</strong> – A hidden gem with unspoiled beaches, historical sites,  
+        and a laid-back atmosphere.</li>
+    <li><strong>Avsallar</strong> – Home to some of the best family-friendly resorts and stunning sandy beaches.</li>
+</ul>
+
+<p>
+    Whether you're visiting for a <strong>beach holiday, a sightseeing trip, or a business stay</strong>,  
+    APL Transfers provides <strong>fixed-price, hassle-free</strong> transport to your destination.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li><strong>Meet & Greet at the Arrival Gates</strong> – Your driver will be waiting for you with a name board.</li>
+    <li><strong>Fixed Prices – No Hidden Costs</strong> – What you see is what you pay.</li>
+    <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Book with confidence.</li>
+    <li><strong>Free Child Seats for 8 & 9-Seater Private Vehicles</strong> – Safety for families at no extra cost.</li>
+    <li><strong>24/7 Customer Support</strong> – Always available to assist with your journey.</li>
+    <li><strong>Corporate Travel Solutions</strong> – Reliable airport transfers for business travelers.</li>
+    <li><strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Enjoy a smooth and comfortable ride.</li>
+</ul>
+
+<h2>Book Your Gazipaşa-Alanya Airport Taxi Now</h2>
+
+<p>
+    Make your arrival at <strong>Gazipaşa-Alanya Airport (GZP)</strong> stress-free  
+    by pre-booking your <strong>private taxi transfer</strong>.  
+    Whether you're traveling to <strong>the beaches of Alanya,  
+    the peaceful retreat of Anamur, or the vibrant town of Mahmutlar</strong>,  
+    our fixed-price transfers guarantee a smooth and affordable journey.
+</p>
+
+<ul>
+    <li><strong>Instant Online Booking</strong></li>
+    <li><strong>Secure Payment</strong> (Euro, GBP, US Dollar & Turkish Lira Accepted)</li>
+    <li><strong>No Hidden Fees – Transparent Pricing</strong></li>
+</ul>
+
+<p>
+    Need help? Contact our <strong>24/7 customer support</strong> for assistance.
+    <a href="/">Book Now</a> and travel with ease.
+</p>
+
+        `,
+        tr: `
+        <h1>Gazipaşa-Alanya Havalimanı Taksi Fiyatları – Özel ve Sabit Fiyatlı Transferler</h1>
+
+<h2>Gazipaşa-Alanya Havalimanı'ndan (GZP) Güvenilir ve Konforlu Transferler</h2>
+
+<p>
+    <strong>Alanya, Mahmutlar, Kargıcak, Anamur veya Avsallar</strong>’a mı seyahat ediyorsunuz?  
+    APL Transfers, <strong>Gazipaşa-Alanya Havalimanı (GZP)</strong>’ndan  
+    <strong>sabit fiyatlı özel havalimanı taksi transferleri</strong> sunmaktadır.  
+    Akdeniz'in muhteşem kıyıları boyunca büyük tatil köylerine ve kasabalara transfer sağlıyoruz.  
+    İhtiyacınız ister <strong>sedan bir araç, beş yolcu kapasiteli geniş bir araç,  
+    sekiz kişilik bir minibüs veya lüks bir Mercedes iş sınıfı araç</strong> olsun,  
+    konforlu ve sorunsuz bir yolculuk sağlıyoruz.
+</p>
+
+<p>
+    <strong>Varış kapılarında karşılama hizmetimiz</strong>, şoförünüzün uçaktan indiğiniz anda  
+    sizi bekliyor olmasını garanti eder.
+</p>
+
+<h2>Gazipaşa-Alanya Havalimanı Transfer Araç Seçenekleri</h2>
+<ul>
+    <li><strong>Sedan Araç</strong> – Bireysel yolcular ve çiftler için ideal.</li>
+    <li><strong>Minivan (5 Yolcu)</strong> – Aileler ve küçük gruplar için mükemmel.</li>
+    <li><strong>8 Kişilik Minibüs</strong> – Daha büyük gruplar ve fazla bagaj için geniş ve rahat.</li>
+    <li><strong>Mercedes İş Sınıfı Araçlar</strong> – VIP ve iş seyahatleri için üst düzey konfor.</li>
+</ul>
+
+<h2>Karşılama Hizmeti – Sürücünüzü Nerede Bulabilirsiniz?</h2>
+<ul>
+    <li><strong>Konum:</strong> <strong>Gazipaşa-Alanya Havalimanı (GZP)</strong>’na vardığınızda,  
+        şoförünüz sizi <strong>varış kapılarında</strong> isminizin yazılı olduğu bir tabela ile bekliyor olacak.</li>
+    <li><strong>Gecikme Yok:</strong> Uçağınız erken inse veya rötar yapsa bile,  
+        şoförlerimiz varış saatlerinizi takip ederek programlarını buna göre ayarlar.</li>
+    <li><strong>Hızlı ve Kolay Transfer:</strong> Taksi beklemenize veya uzun kuyruklarla uğraşmanıza gerek yok –  
+        özel şoförünüz sizi doğrudan gitmek istediğiniz yere götürecektir.</li>
+</ul>
+
+<h2>Gazipaşa-Alanya Havalimanı Transferlerinde Popüler Destinasyonlar</h2>
+
+<p>Gazipaşa-Alanya Havalimanı’ndan (GZP) özel transferler sağlıyoruz:</p>
+<ul>
+    <li><strong>Alanya</strong> – Plajları, gece hayatı ve Alanya Kalesi gibi tarihi yerleriyle ünlü hareketli bir sahil şehri.</li>
+    <li><strong>Mahmutlar</strong> – Rahat atmosferi ve uzun kumlu plajlarıyla tanınan büyüyen bir tatil bölgesi.</li>
+    <li><strong>Kargıcak</strong> – Muhteşem manzaraları ve lüks villa konaklama seçenekleriyle huzurlu bir sahil kasabası.</li>
+    <li><strong>Anamur</strong> – Bozulmamış plajları, tarihi yerleri ve sakin atmosferiyle gizli bir cennet.</li>
+    <li><strong>Avsallar</strong> – Aile dostu tatil köyleri ve büyüleyici kumlu plajlara ev sahipliği yapmaktadır.</li>
+</ul>
+
+<p>
+    İster <strong>plaj tatili, şehir turu veya iş seyahati</strong> için seyahat ediyor olun,  
+    APL Transfers <strong>sabit fiyatlı, zahmetsiz</strong> bir transfer hizmeti sunmaktadır.
+</p>
+
+<h2>Neden APL Transfers’i Seçmelisiniz?</h2>
+<ul>
+    <li><strong>Varış Kapılarında Karşılama</strong> – Şoförünüz isminizin yazılı olduğu bir tabela ile bekleyecek.</li>
+    <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Ne görüyorsanız onu ödersiniz.</li>
+    <li><strong>Varıştan 24 Saat Öncesine Kadar Ücretsiz İptal</strong> – Esnek ve risksiz rezervasyon.</li>
+    <li><strong>8 ve 9 Kişilik Özel Araçlar İçin Ücretsiz Çocuk Koltuğu</strong> – Aileler için ekstra güvenlik, ek ücret olmadan.</li>
+    <li><strong>7/24 Müşteri Desteği</strong> – Seyahatinizde her zaman yardıma hazırız.</li>
+    <li><strong>Kurumsal Seyahat Çözümleri</strong> – İş seyahatleri için güvenilir transfer hizmetleri.</li>
+    <li><strong>Temiz, Konforlu ve Bakımlı Araçlar</strong> – Varış noktanıza konfor içinde ulaşın.</li>
+</ul>
+
+<h2>Gazipaşa-Alanya Havalimanı Taksi Rezervasyonu Yapın</h2>
+
+<p>
+    <strong>Gazipaşa-Alanya Havalimanı (GZP)</strong>’na vardığınızda taksi arama stresinden kaçının.  
+    <strong>Özel havalimanı taksi transferinizi</strong> önceden rezerve edin ve konforlu bir yolculuk yapın.  
+    İster <strong>Alanya’nın plajlarına, Anamur’un huzurlu doğasına  
+    veya Mahmutlar’ın hareketli merkezine</strong> gidiyor olun,  
+    ekonomik ve güvenilir bir transfer hizmeti sunuyoruz.
+</p>
+
+<ul>
+    <li><strong>Anında Online Rezervasyon</strong></li>
+    <li><strong>Güvenli Ödeme</strong> (Euro, GBP, ABD Doları & Türk Lirası kabul edilir)</li>
+    <li><strong>Gizli Ücret Yok – Şeffaf Fiyatlandırma</strong></li>
+</ul>
+
+<p>
+    Yardıma mı ihtiyacınız var? <strong>7/24 müşteri destek</strong> ekibimizle iletişime geçin.
+    <a href="/">Hemen Rezervasyon Yapın</a> ve rahat bir yolculuk yapın.
+</p>
+`,
+        ar: `
+        <h1>أسعار سيارات الأجرة في مطار غازي باشا-ألانيا – خدمات نقل خاصة وثابتة</h1>
+
+<h2>خدمات نقل موثوقة ومريحة من مطار غازي باشا-ألانيا (GZP)</h2>
+
+<p>
+    هل تخطط للسفر إلى <strong>ألانيا، محمودلار، كارجيجاك، أنامور، أو أفسالار</strong>؟  
+    توفر APL Transfers <strong>خدمات نقل خاصة بأسعار ثابتة</strong>  
+    من <strong>مطار غازي باشا-ألانيا (GZP)</strong> إلى المنتجعات والمدن الرئيسية  
+    على طول ساحل البحر الأبيض المتوسط الرائع. سواء كنت بحاجة إلى  
+    <strong>سيارة سيدان، حافلة صغيرة تتسع لخمسة ركاب،  
+    حافلة صغيرة بثمانية مقاعد، أو سيارة مرسيدس فاخرة للأعمال</strong>،  
+    نضمن لك رحلة سلسة وخالية من المتاعب.
+</p>
+
+<p>
+    <strong>خدمة الاستقبال عند بوابات الوصول</strong> تضمن أن يكون سائقك  
+    في انتظارك فور وصولك.
+</p>
+
+<h2>خيارات المركبات لخدمة النقل من مطار غازي باشا-ألانيا</h2>
+<ul>
+    <li><strong>سيارة سيدان</strong> – مثالية للمسافرين الأفراد والأزواج.</li>
+    <li><strong>حافلة صغيرة (5 ركاب)</strong> – مثالية للعائلات والمجموعات الصغيرة.</li>
+    <li><strong>حافلة صغيرة بـ 8 مقاعد</strong> – فسيحة ومناسبة للمجموعات الكبيرة مع الأمتعة.</li>
+    <li><strong>سيارات مرسيدس للأعمال</strong> – توفر الراحة والفخامة للمسافرين من رجال الأعمال وVIP.</li>
+</ul>
+
+<h2>خدمة الاستقبال – أين تجد سائقك؟</h2>
+<ul>
+    <li><strong>الموقع:</strong> عند وصولك إلى <strong>مطار غازي باشا-ألانيا (GZP)</strong>،  
+        سيكون سائقك بانتظارك <strong>عند بوابات الوصول</strong>  
+        حاملًا لوحة تحمل اسمك لسهولة التعرف عليه.</li>
+    <li><strong>لا تأخير:</strong> حتى إذا كان وصول رحلتك مبكرًا أو متأخرًا،  
+        فإن سائقينا يتابعون وقت وصولك ويعدّلون جدولهم وفقًا لذلك.</li>
+    <li><strong>نقل سلس:</strong> تجنب طوابير سيارات الأجرة الطويلة –  
+        سيأخذك سائقك الخاص مباشرة إلى الفندق أو المنتجع أو الفيلا الخاصة بك.</li>
+</ul>
+
+<h2>الوجهات الشهيرة لخدمة النقل من مطار غازي باشا-ألانيا</h2>
+
+<p>نحن نقدم خدمات نقل خاصة من <strong>مطار غازي باشا-ألانيا (GZP)</strong> إلى:</p>
+<ul>
+    <li><strong>ألانيا</strong> – مدينة ساحلية حيوية مشهورة بشواطئها، وحياتها الليلية،  
+        والمعالم التاريخية مثل قلعة ألانيا.</li>
+    <li><strong>محمودلار</strong> – منطقة منتجعات متنامية تشتهر بأجوائها الهادئة وشواطئها الرملية الطويلة.</li>
+    <li><strong>كارجيجاك</strong> – مدينة ساحلية هادئة تتمتع بإطلالات خلابة وفيلات فاخرة.</li>
+    <li><strong>أنامور</strong> – جوهرة مخفية بشواطئها البكر ومواقعها التاريخية  
+        وأجوائها الهادئة.</li>
+    <li><strong>أفسالار</strong> – موطن لبعض أفضل المنتجعات العائلية والشواطئ الرملية الخلابة.</li>
+</ul>
+
+<p>
+    سواء كنت تزور لأجل <strong>عطلة شاطئية، أو جولة سياحية، أو رحلة عمل</strong>،  
+    فإن APL Transfers تقدم لك <strong>نقلًا ثابت السعر وخاليًا من المتاعب</strong> إلى وجهتك.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li><strong>الاستقبال عند بوابات الوصول</strong> – سيكون السائق في انتظارك بلوحة تحمل اسمك.</li>
+    <li><strong>أسعار ثابتة – بدون رسوم خفية</strong> – لا يوجد أي تكاليف إضافية.</li>
+    <li><strong>إمكانية الإلغاء المجاني حتى 24 ساعة قبل الوصول</strong> – احجز بثقة وراحة بال.</li>
+    <li><strong>مقاعد أطفال مجانية للمركبات الخاصة بـ 8 و 9 مقاعد</strong> – لضمان سلامة العائلات.</li>
+    <li><strong>دعم العملاء 24/7</strong> – متاح دائمًا لمساعدتك أثناء رحلتك.</li>
+    <li><strong>حلول سفر الشركات</strong> – خدمات نقل موثوقة للمسافرين من رجال الأعمال.</li>
+    <li><strong>مركبات فاخرة ونظيفة ومُصانة جيدًا</strong> – استمتع برحلة مريحة إلى وجهتك.</li>
+</ul>
+
+<h2>احجز سيارة الأجرة من مطار غازي باشا-ألانيا الآن</h2>
+
+<p>
+    تجنب عناء البحث عن سيارة أجرة عند وصولك إلى <strong>مطار غازي باشا-ألانيا (GZP)</strong>.  
+    احجز <strong>خدمة النقل الخاصة</strong> مسبقًا وتمتع برحلة مريحة وخالية من المتاعب.<br>  
+    سواء كنت متجهًا إلى <strong>شواطئ ألانيا،  
+    أو الملاذ الهادئ في أنامور، أو مدينة محمودلار النابضة بالحياة</strong>،  
+    فإننا نوفر لك خدمة نقل بأسعار معقولة وموثوقة.
+</p>
+
+<ul>
+    <li><strong>حجز فوري عبر الإنترنت</strong></li>
+    <li><strong>دفع آمن</strong> (نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية)</li>
+    <li><strong>بدون رسوم خفية – تسعير شفاف</strong></li>
+</ul>
+
+<p>
+    هل تحتاج إلى مساعدة؟ تواصل مع <strong>خدمة العملاء المتوفرة 24/7</strong> لضمان تجربة نقل سلسة.
+    <a href="/">احجز الآن</a> وسافر براحة وطمأنينة!
+</p>
+
+        `,
+        es: `
+        
+        <h1>Precios de Taxi en el Aeropuerto de Gazipaşa-Alanya – Traslados Privados y a Precio Fijo</h1>
+
+<h2>Traslados Confiables y Cómodos desde el Aeropuerto de Gazipaşa-Alanya (GZP)</h2>
+
+<p>
+    ¿Viajas a <strong>Alanya, Mahmutlar, Kargicak, Anamur o Avsallar</strong>?  
+    APL Transfers ofrece <strong>traslados privados con tarifa fija</strong>  
+    desde el <strong>Aeropuerto de Gazipaşa-Alanya (GZP)</strong> a los principales resorts y ciudades  
+    a lo largo de la impresionante costa mediterránea. Ya sea que necesites  
+    un <strong>sedán, un monovolumen espacioso para cinco pasajeros,  
+    un minibús de ocho plazas o un lujoso Mercedes de clase ejecutiva</strong>,  
+    garantizamos un traslado cómodo y sin preocupaciones.
+</p>
+
+<p>
+    Nuestro <strong>servicio de bienvenida en las puertas de llegada</strong> garantiza  
+    que tu conductor estará esperándote tan pronto como aterrices.
+</p>
+
+<h2>Opciones de Vehículos para Traslados desde el Aeropuerto de Gazipaşa-Alanya</h2>
+<ul>
+    <li><strong>Vehículo Sedán</strong> – Ideal para viajeros solos y parejas.</li>
+    <li><strong>Monovolumen (5 Pasajeros)</strong> – Perfecto para familias y grupos pequeños.</li>
+    <li><strong>Minibús de 8 Plazas</strong> – Espacioso y adecuado para grupos grandes con equipaje.</li>
+    <li><strong>Vehículos Mercedes de Clase Ejecutiva</strong> – Viajes de lujo para ejecutivos y pasajeros VIP.</li>
+</ul>
+
+<h2>Servicio de Bienvenida – ¿Dónde Encontrar a tu Conductor?</h2>
+<ul>
+    <li><strong>Ubicación:</strong> Al llegar al <strong>Aeropuerto de Gazipaşa-Alanya (GZP)</strong>,  
+        tu conductor te estará esperando <strong>en las puertas de llegada</strong>,  
+        sosteniendo un cartel con tu nombre para que lo reconozcas fácilmente.</li>
+    <li><strong>Sin demoras:</strong> Incluso si tu vuelo llega antes o se retrasa,  
+        nuestros conductores monitorean la hora de llegada y ajustan el horario según sea necesario.</li>
+    <li><strong>Traslados sin Esperas:</strong> Evita largas filas para tomar un taxi –  
+        tu conductor privado te llevará directamente a tu hotel, resort o villa privada.</li>
+</ul>
+
+<h2>Destinos Populares para Traslados desde el Aeropuerto de Gazipaşa-Alanya</h2>
+
+<p>Ofrecemos traslados privados desde el <strong>Aeropuerto de Gazipaşa-Alanya (GZP)</strong> a:</p>
+<ul>
+    <li><strong>Alanya</strong> – Una vibrante ciudad costera famosa por sus playas, vida nocturna  
+        y lugares históricos como el Castillo de Alanya.</li>
+    <li><strong>Mahmutlar</strong> – Una creciente zona turística conocida por su ambiente relajado y largas playas de arena.</li>
+    <li><strong>Kargicak</strong> – Un tranquilo pueblo costero con vistas panorámicas y lujosas villas.</li>
+    <li><strong>Anamur</strong> – Un tesoro escondido con playas vírgenes, sitios históricos y un ambiente relajado.</li>
+    <li><strong>Avsallar</strong> – Hogar de algunos de los mejores resorts familiares y hermosas playas de arena.</li>
+</ul>
+
+<p>
+    Ya sea que viajes por <strong>vacaciones en la playa, turismo o negocios</strong>,  
+    APL Transfers garantiza un <strong>traslado con tarifa fija y sin complicaciones</strong> hasta tu destino.
+</p>
+
+<h2>¿Por Qué Elegir APL Transfers?</h2>
+<ul>
+    <li><strong>Servicio de Bienvenida en las Puertas de Llegada</strong> – Tu conductor te estará esperando con un cartel con tu nombre.</li>
+    <li><strong>Precios Fijos – Sin Costos Ocultos</strong> – Lo que ves es lo que pagas.</li>
+    <li><strong>Cancelación Gratuita Hasta 24 Horas Antes de la Llegada</strong> – Reserva con total confianza.</li>
+    <li><strong>Asientos para Niños Gratis en Vehículos de 8 y 9 Plazas</strong> – Seguridad para familias sin costo adicional.</li>
+    <li><strong>Atención al Cliente 24/7</strong> – Siempre disponible para ayudarte en tu viaje.</li>
+    <li><strong>Soluciones para Viajes Corporativos</strong> – Traslados confiables para viajeros de negocios.</li>
+    <li><strong>Vehículos de Lujo, Limpios y Bien Mantenidos</strong> – Disfruta de un viaje cómodo a tu destino.</li>
+</ul>
+
+<h2>Reserva Ahora tu Taxi en el Aeropuerto de Gazipaşa-Alanya</h2>
+
+<p>
+    Evita el estrés de buscar un taxi al llegar al <strong>Aeropuerto de Gazipaşa-Alanya (GZP)</strong>.  
+    Reserva con anticipación tu <strong>traslado privado</strong> y disfruta de un viaje sin preocupaciones.<br>  
+    Ya sea que te dirijas a <strong>las playas de Alanya,  
+    el refugio tranquilo de Anamur o la vibrante ciudad de Mahmutlar</strong>,  
+    ofrecemos un servicio de traslado económico y confiable.
+</p>
+
+<ul>
+    <li><strong>Reserva Online al Instante</strong></li>
+    <li><strong>Pago Seguro</strong> (Se aceptan Euros, GBP, Dólares Estadounidenses y Liras Turcas)</li>
+    <li><strong>Sin Costos Ocultos – Tarifas Transparentes</strong></li>
+</ul>
+
+<p>
+    ¿Necesitas ayuda? Contacta con nuestro <strong>soporte al cliente 24/7</strong> para una experiencia de traslado sin inconvenientes.
+    <a href="/">Reserva Ahora</a> y viaja con tranquilidad.
+</p>
+`,
+        it: `
+        <h1>Prezzi Taxi Aeroporto di Gazipaşa-Alanya – Trasferimenti Privati e a Prezzo Fisso</h1>
+
+<h2>Trasferimenti Affidabili e Confortevoli dall'Aeroporto di Gazipaşa-Alanya (GZP)</h2>
+
+<p>
+    Stai viaggiando verso <strong>Alanya, Mahmutlar, Kargicak, Anamur o Avsallar</strong>?  
+    APL Transfers offre <strong>trasferimenti privati a prezzo fisso</strong>  
+    dall'<strong>Aeroporto di Gazipaşa-Alanya (GZP)</strong> alle principali località turistiche  
+    lungo la splendida costa mediterranea. Che tu abbia bisogno di  
+    un <strong>berlina, un monovolume spazioso per cinque passeggeri,  
+    un minibus a otto posti o un lussuoso Mercedes business-class</strong>,  
+    garantiamo un trasferimento comodo e senza stress.
+</p>
+
+<p>
+    Il nostro <strong>servizio di accoglienza alle porte di arrivo</strong> garantisce  
+    che il tuo autista sarà pronto ad accoglierti non appena atterri.
+</p>
+
+<h2>Opzioni di Veicoli per i Trasferimenti dall'Aeroporto di Gazipaşa-Alanya</h2>
+<ul>
+    <li><strong>Berlina</strong> – Ideale per viaggiatori singoli e coppie.</li>
+    <li><strong>Monovolume (5 Passeggeri)</strong> – Perfetto per famiglie e piccoli gruppi.</li>
+    <li><strong>Minibus a 8 Posti</strong> – Spazioso e ideale per gruppi numerosi con bagagli.</li>
+    <li><strong>Veicoli Mercedes Business-Class</strong> – Viaggi di lusso per dirigenti e VIP.</li>
+</ul>
+
+<h2>Servizio di Accoglienza – Dove Trovare il Tuo Autista?</h2>
+<ul>
+    <li><strong>Posizione:</strong> All'arrivo all'<strong>Aeroporto di Gazipaşa-Alanya (GZP)</strong>,  
+        il tuo autista ti aspetterà <strong>alle porte di arrivo</strong>,  
+        tenendo un cartello con il tuo nome per un facile riconoscimento.</li>
+    <li><strong>Nessun Ritardo:</strong> Anche se il tuo volo arriva in anticipo o è in ritardo,  
+        i nostri autisti monitorano l'orario di arrivo e si adattano di conseguenza.</li>
+    <li><strong>Trasferimenti senza Attese:</strong> Evita lo stress di cercare un taxi –  
+        il tuo autista privato sarà pronto a portarti direttamente a destinazione.</li>
+</ul>
+
+<h2>Destinazioni Popolari per i Trasferimenti dall'Aeroporto di Gazipaşa-Alanya</h2>
+
+<p>Forniamo trasferimenti privati dall'<strong>Aeroporto di Gazipaşa-Alanya (GZP)</strong> a:</p>
+<ul>
+    <li><strong>Alanya</strong> – Una vivace città costiera famosa per le sue spiagge,  
+        la vita notturna e i suoi monumenti storici come il Castello di Alanya.</li>
+    <li><strong>Mahmutlar</strong> – Un'area turistica emergente nota per la sua atmosfera rilassata  
+        e le sue lunghe spiagge sabbiose.</li>
+    <li><strong>Kargicak</strong> – Un tranquillo villaggio costiero con viste panoramiche  
+        e ville di lusso.</li>
+    <li><strong>Anamur</strong> – Un gioiello nascosto con spiagge incontaminate,  
+        siti storici e un'atmosfera rilassata.</li>
+    <li><strong>Avsallar</strong> – Sede di alcuni dei migliori resort per famiglie  
+        e di splendide spiagge sabbiose.</li>
+</ul>
+
+<p>
+    Che tu stia viaggiando per <strong>una vacanza al mare, un tour turistico o un viaggio di lavoro</strong>,  
+    APL Transfers offre <strong>trasferimenti a prezzo fisso e senza stress</strong> fino alla tua destinazione.
+</p>
+
+<h2>Perché Scegliere APL Transfers?</h2>
+<ul>
+    <li><strong>Accoglienza alle Porte di Arrivo</strong> – Il tuo autista ti attenderà con un cartello con il tuo nome.</li>
+    <li><strong>Prezzi Fissi – Nessun Costo Nascosto</strong> – Paghi solo quello che vedi.</li>
+    <li><strong>Cancellazione Gratuita fino a 24 Ore Prima dell'Arrivo</strong> – Prenotazione flessibile e sicura.</li>
+    <li><strong>Seggiolini per Bambini Gratuiti per Veicoli Privati a 8 e 9 Posti</strong> – Sicurezza per le famiglie senza costi aggiuntivi.</li>
+    <li><strong>Supporto Clienti 24/7</strong> – Sempre disponibile per assisterti nel tuo viaggio.</li>
+    <li><strong>Soluzioni per Viaggi Aziendali</strong> – Trasferimenti affidabili per professionisti.</li>
+    <li><strong>Veicoli di Lusso, Puliti e Ben Manutenuti</strong> – Viaggia in totale comfort fino alla tua destinazione.</li>
+</ul>
+
+<h2>Prenota Ora il Tuo Taxi dall'Aeroporto di Gazipaşa-Alanya</h2>
+
+<p>
+    Evita lo stress di cercare un taxi all'arrivo all'<strong>Aeroporto di Gazipaşa-Alanya (GZP)</strong>.  
+    Prenota in anticipo il tuo <strong>trasferimento privato</strong> e goditi un viaggio senza pensieri.<br>  
+    Che tu stia andando alle <strong>spiagge di Alanya,  
+    al tranquillo rifugio di Anamur o alla vivace città di Mahmutlar</strong>,  
+    offriamo un servizio di trasferimento economico e affidabile.
+</p>
+
+<ul>
+    <li><strong>Prenotazione Online Immediata</strong></li>
+    <li><strong>Pagamento Sicuro</strong> (Accettati Euro, GBP, Dollari USA e Lira Turca)</li>
+    <li><strong>Nessun Costo Nascosto – Prezzi Trasparenti</strong></li>
+</ul>
+
+<p>
+    Hai bisogno di aiuto? Contatta il nostro <strong>supporto clienti 24/7</strong> per assistenza.
+    <a href="/">Prenota Ora</a> e viaggia con tranquillità.
+</p>
+
+        `,
+        ru: `
+        <h1>Цены на такси в аэропорту Газипаша-Аланья – Частные и фиксированные трансферы</h1>
+
+<h2>Надежные и комфортные трансферы из аэропорта Газипаша-Аланья (GZP)</h2>
+
+<p>
+    Путешествуете в <strong>Аланью, Махмутлар, Каргыджак, Анамур или Авсаллар</strong>?  
+    APL Transfers предлагает <strong>частные трансферы по фиксированной цене</strong>  
+    из <strong>аэропорта Газипаша-Аланья (GZP)</strong> в популярные курорты и города  
+    вдоль живописного Средиземного побережья. Независимо от того, нужен ли вам  
+    <strong>седан, просторный минивэн на пять пассажиров,  
+    микроавтобус на восемь мест или роскошный автомобиль Mercedes бизнес-класса</strong>,  
+    мы обеспечим вам комфортный и беззаботный трансфер.
+</p>
+
+<p>
+    <strong>Услуга встречи у выходов из зоны прилета</strong> гарантирует,  
+    что ваш водитель будет ждать вас сразу после посадки.
+</p>
+
+<h2>Варианты транспорта для трансфера из аэропорта Газипаша-Аланья</h2>
+<ul>
+    <li><strong>Седан</strong> – Идеально для индивидуальных путешественников и пар.</li>
+    <li><strong>Минивэн (5 пассажиров)</strong> – Отличный вариант для семей и небольших групп.</li>
+    <li><strong>Микроавтобус на 8 мест</strong> – Просторный и удобный вариант для больших групп с багажом.</li>
+    <li><strong>Автомобили Mercedes бизнес-класса</strong> – Премиальный комфорт для деловых поездок и VIP-гостей.</li>
+</ul>
+
+<h2>Где найти вашего водителя?</h2>
+<ul>
+    <li><strong>Местоположение:</strong> По прибытии в <strong>аэропорт Газипаша-Аланья (GZP)</strong>,  
+        ваш водитель будет ждать вас <strong>у выходов из зоны прилета</strong>,  
+        держа табличку с вашим именем для удобного опознания.</li>
+    <li><strong>Отслеживание рейсов:</strong> Даже если ваш рейс прибывает раньше или с опозданием,  
+        наши водители отслеживают время прилета и корректируют расписание.</li>
+    <li><strong>Быстрый и удобный трансфер:</strong> Вам не нужно стоять в очереди на такси  
+        или договариваться о цене – ваш личный водитель отвезет вас прямо в пункт назначения.</li>
+</ul>
+
+<h2>Популярные направления для трансфера из аэропорта Газипаша-Аланья</h2>
+
+<p>Мы предоставляем частные трансферы из <strong>аэропорта Газипаша-Аланья (GZP)</strong> в:</p>
+<ul>
+    <li><strong>Аланья</strong> – Оживленный прибрежный город, известный своими пляжами,  
+        ночной жизнью и историческими достопримечательностями, такими как замок Аланьи.</li>
+    <li><strong>Махмутлар</strong> – Развивающийся курортный район с расслабляющей атмосферой  
+        и длинными песчаными пляжами.</li>
+    <li><strong>Каргыджак</strong> – Спокойный прибрежный город с живописными видами  
+        и роскошными виллами.</li>
+    <li><strong>Анамур</strong> – Скрытая жемчужина с нетронутыми пляжами,  
+        историческими местами и расслабляющей атмосферой.</li>
+    <li><strong>Авсаллар</strong> – Популярное место с лучшими семейными курортами  
+        и прекрасными песчаными пляжами.</li>
+</ul>
+
+<p>
+    Независимо от цели вашей поездки – <strong>пляжный отдых, экскурсия или деловая поездка</strong>,  
+    APL Transfers предлагает <strong>удобный трансфер по фиксированной цене</strong> до вашего пункта назначения.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li><strong>Встреча у выходов из зоны прилета</strong> – Водитель будет ждать вас с табличкой с вашим именем.</li>
+    <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Вы платите ровно столько, сколько указано.</li>
+    <li><strong>Бесплатная отмена бронирования за 24 часа до прибытия</strong> – Гибкие условия бронирования без риска.</li>
+    <li><strong>Бесплатные детские кресла в автомобилях на 8 и 9 мест</strong> – Дополнительная безопасность для семей.</li>
+    <li><strong>Круглосуточная поддержка клиентов</strong> – Мы всегда готовы помочь вам.</li>
+    <li><strong>Корпоративные трансферы</strong> – Надежные поездки для деловых клиентов.</li>
+    <li><strong>Роскошные, чистые и ухоженные автомобили</strong> – Наслаждайтесь комфортной поездкой.</li>
+</ul>
+
+<h2>Забронируйте такси из аэропорта Газипаша-Аланья</h2>
+
+<p>
+    Избегайте поисков такси по прилету в <strong>аэропорт Газипаша-Аланья (GZP)</strong>.  
+    Забронируйте <strong>частный трансфер</strong> заранее и наслаждайтесь спокойной поездкой.<br>  
+    Независимо от того, направляетесь ли вы на <strong>пляжи Аланьи,  
+    уединенные места Анамура или оживленный центр Махмутлара</strong>,  
+    наши фиксированные тарифы гарантируют вам удобный и надежный трансфер.
+</p>
+
+<ul>
+    <li><strong>Мгновенное онлайн-бронирование</strong></li>
+    <li><strong>Безопасная оплата</strong> (Принимаются евро, фунты стерлингов, доллары США и турецкие лиры)</li>
+    <li><strong>Без скрытых платежей – Прозрачные цены</strong></li>
+</ul>
+
+<p>
+    Нужна помощь? Свяжитесь с нашей <strong>службой поддержки 24/7</strong> для комфортного трансфера.
+    <a href="/">Забронировать сейчас</a> и путешествуйте без забот!
+</p>
+
+        `,
+        zh: `
+        <h1>加济帕夏-阿兰亚机场出租车价格 – 私人接送 & 固定价格</h1>
+
+<h2>加济帕夏-阿兰亚机场 (GZP) 可靠 & 舒适的接送服务</h2>
+
+<p>
+    计划前往 <strong>阿兰亚 (Alanya)、马赫穆特拉 (Mahmutlar)、卡尔吉贾克 (Kargicak)、阿纳穆尔 (Anamur) 或 阿夫萨拉尔 (Avsallar)</strong>？  
+    APL Transfers 提供 <strong>加济帕夏-阿兰亚机场 (GZP) 的固定价格私人机场出租车接送服务</strong>。<br>
+    我们为前往地中海沿岸的主要度假胜地和城镇的旅客提供服务。  
+    无论您需要 <strong>轿车、可容纳五名乘客的宽敞 MPV、八座小型巴士，还是豪华奔驰商务车</strong>，我们都能为您提供顺畅无忧的接送服务。
+</p>
+
+<p>
+    我们的 <strong>到达门迎接服务</strong> 确保您的司机将在您降落后立即等候。
+</p>
+
+<h2>加济帕夏-阿兰亚机场接送车辆选择</h2>
+<ul>
+    <li><strong>轿车</strong> – 适合个人和情侣出行。</li>
+    <li><strong>MPV（5 人座）</strong> – 适合家庭和小团体。</li>
+    <li><strong>8 座小型巴士</strong> – 空间宽敞，适合较大的团队和行李较多的旅客。</li>
+    <li><strong>奔驰商务车型</strong> – 为高端商务人士和 VIP 旅客提供尊贵舒适的乘坐体验。</li>
+</ul>
+
+<h2>接机服务 – 在哪里找到您的司机？</h2>
+<ul>
+    <li><strong>位置：</strong> 抵达 <strong>加济帕夏-阿兰亚机场 (GZP)</strong> 后，您的司机将在
+        <strong>到达门</strong> 等候，并举着写有您的姓名的接机牌，方便您认出。</li>
+    <li><strong>航班追踪：</strong> 即使您的航班提前或延误，我们的司机也会实时跟踪您的抵达时间并相应调整。</li>
+    <li><strong>快速便捷：</strong> 无需排队等待出租车或与司机议价，您的私人司机将直接送您到达目的地。</li>
+</ul>
+
+<h2>加济帕夏-阿兰亚机场接送热门目的地</h2>
+
+<p>我们提供从 <strong>加济帕夏-阿兰亚机场 (GZP)</strong> 出发的私人接送服务：</p>
+<ul>
+    <li><strong>阿兰亚 (Alanya)</strong> – 充满活力的海滨城市，因其美丽的海滩、夜生活和历史地标（如阿兰亚城堡）而闻名。</li>
+    <li><strong>马赫穆特拉 (Mahmutlar)</strong> – 发展中的度假区，以其悠闲的氛围和绵长的沙滩而闻名。</li>
+    <li><strong>卡尔吉贾克 (Kargicak)</strong> – 风景如画的海滨小镇，拥有豪华别墅和迷人景色。</li>
+    <li><strong>阿纳穆尔 (Anamur)</strong> – 隐藏的瑰宝，拥有原始海滩、历史遗迹和宁静的氛围。</li>
+    <li><strong>阿夫萨拉尔 (Avsallar)</strong> – 家庭友好型度假村所在地，拥有美丽的沙滩。</li>
+</ul>
+
+<p>
+    无论您是为了 <strong>度假、观光还是商务出行</strong>，  
+    APL Transfers 都能确保您享受 <strong>舒适且价格透明的接送服务</strong>。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li><strong>到达门迎接服务</strong> – 司机将在到达门举牌等候，方便识别。</li>
+    <li><strong>固定价格 – 无隐藏费用</strong> – 透明定价，无额外收费。</li>
+    <li><strong>支持 24 小时前免费取消</strong> – 预订灵活，无后顾之忧。</li>
+    <li><strong>8 座和 9 座私人车辆提供免费儿童座椅</strong> – 确保家庭旅客的安全。</li>
+    <li><strong>24/7 客户支持</strong> – 随时提供帮助。</li>
+    <li><strong>企业差旅解决方案</strong> – 提供可靠的商务接送服务。</li>
+    <li><strong>豪华、干净且维护良好的车辆</strong> – 享受高品质的舒适旅行体验。</li>
+</ul>
+
+<h2>立即预订加济帕夏-阿兰亚机场出租车</h2>
+
+<p>
+    抵达 <strong>加济帕夏-阿兰亚机场 (GZP)</strong> 后无需费心寻找出租车。提前预订
+    <strong>私人机场接送服务</strong>，享受轻松无忧的旅程。<br>
+    无论您前往 <strong>阿兰亚的海滩、  
+    阿纳穆尔的宁静度假胜地，还是马赫穆特拉的繁华城镇</strong>，  
+    我们提供经济实惠且可靠的接送服务。
+</p>
+
+<ul>
+    <li><strong>即时在线预订</strong></li>
+    <li><strong>安全支付</strong>（支持欧元 (EUR)、英镑 (GBP)、美元 (USD) 和土耳其里拉 (TRY)）</li>
+    <li><strong>无隐藏费用 – 透明定价</strong></li>
+</ul>
+
+<p>
+    需要帮助？请联系 <strong>24/7 客户支持</strong>，确保您拥有顺畅的接送体验。
+    <a href="/">立即预订</a>，享受安心之旅！
+</p>
+
+        `,
+    },
 }

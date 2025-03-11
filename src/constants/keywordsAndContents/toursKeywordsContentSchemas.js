@@ -51,15 +51,10 @@ Duration: 10:00 AM - 6:00 PM
 
 
 
-slider images eksik 
-adults price nece atanacak ? 
-!We have to make schemas metaTags
 
 */
-//!google-site-verification >degisicekmi yoksa apldeki gibi kalicak
-//!Schema
-//!Antalyanin ilk images[0] degisicek ve   de de antalyaya aid olan degisicek
-//!Adults Children prices
+
+//!adult price and children exist only in antalya tour what will be the others 
 //!Someof them is written duration like => Duration: 10:00 AM - 6:00 PM  In this case we should remove select data time 
 export const tourDatasTranslated = [
     {
@@ -736,7 +731,7 @@ export const tourDatasTranslated = [
     {
         "tourDealId": 8,
         "images": [
-            "/images/tours/12Island.webp",
+            "/images/tours/antalya.webp",
             "/images/tours/antalya/antalya1.webp",
             "/images/tours/antalya/antalya2.webp",
             "/images/tours/antalya/antalya3.webp",
@@ -5352,6 +5347,10 @@ export const singleTourTranslatedPageContents = {
 
 }
 
+
+
+//!google-site-verification >degisicekmi yoksa apldeki gibi kalicak
+// !We have to make schemas for single tour page
 export const getMetatagsForSingleTourPages = (env) => ({
     "/tours/fethiye12-island-tour": {
         en: [
@@ -6559,13 +6558,13 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta property=\"og:title\" content=\"Antalya Sightseeing City Tour – Discover the Beauty of the Mediterranean\">",
             "<meta property=\"og:description\" content=\"Explore Antalya’s stunning landmarks with a guided sightseeing city tour. Visit historic sites, breathtaking waterfalls, and panoramic viewpoints for an unforgettable experience.\">",
             `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\">`,
-            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
             "<meta name=\"twitter:card\" content=\"summary_large_image\">",
             "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
             "<meta name=\"twitter:title\" content=\"Antalya Sightseeing City Tour – Explore History & Nature\">",
             "<meta name=\"twitter:description\" content=\"Discover the wonders of Antalya on a sightseeing tour! Visit historic attractions, admire waterfalls, and soak in the city’s breathtaking Mediterranean scenery.\">",
-            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
@@ -6583,13 +6582,13 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta property=\"og:title\" content=\"Обзорная экскурсия по Анталии – Откройте красоту Средиземного моря\">",
             "<meta property=\"og:description\" content=\"Исследуйте самые удивительные достопримечательности Анталии с экскурсионным туром. Посетите исторические места, великолепные водопады и панорамные смотровые площадки.\">",
             `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\">`,
-            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
             "<meta name=\"twitter:card\" content=\"summary_large_image\">",
             "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
             "<meta name=\"twitter:title\" content=\"Обзорная экскурсия по Анталии – История и природная красота\">",
             "<meta name=\"twitter:description\" content=\"Откройте для себя чудеса Анталии во время обзорного тура! Посетите исторические достопримечательности, полюбуйтесь водопадами и насладитесь средиземноморскими пейзажами.\">",
-            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
@@ -6607,13 +6606,13 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta property=\"og:title\" content=\"Antalya Şehir Turu – Akdeniz’in Güzelliklerini Keşfedin\">",
             "<meta property=\"og:description\" content=\"Antalya’nın en ünlü tarihi ve doğal güzelliklerini keşfedin! Şehir turunda büyüleyici şelaleleri ziyaret edin, tarihi mekanları görün ve panoramik manzaraların tadını çıkarın.\">",
             `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\">`,
-            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
             "<meta name=\"twitter:card\" content=\"summary_large_image\">",
             "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
             "<meta name=\"twitter:title\" content=\"Antalya Şehir Turu – Tarih ve Doğanın Buluştuğu Nokta\">",
             "<meta name=\"twitter:description\" content=\"Antalya’nın eşsiz güzelliklerini şehir turuyla keşfedin! Tarihi mekanları gezin, büyüleyici şelaleleri izleyin ve Akdeniz’in muhteşem manzarasının keyfini çıkarın.\">",
-            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
@@ -6631,13 +6630,13 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta property=\"og:title\" content=\"Tour por la Ciudad de Antalya – Descubre la Belleza del Mediterráneo\">",
             "<meta property=\"og:description\" content=\"Explora los lugares más emblemáticos de Antalya con un tour guiado por la ciudad. Visita sitios históricos, impresionantes cascadas y miradores panorámicos en una experiencia inolvidable.\">",
             `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\">`,
-            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
             "<meta name=\"twitter:card\" content=\"summary_large_image\">",
             "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
             "<meta name=\"twitter:title\" content=\"Tour por la Ciudad de Antalya – Historia y Naturaleza en un Solo Lugar\">",
             "<meta name=\"twitter:description\" content=\"Descubre la magia de Antalya en un tour por la ciudad. Visita monumentos históricos, maravíllate con sus cascadas y disfruta de impresionantes vistas del Mediterráneo.\">",
-            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
@@ -6655,13 +6654,13 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta property=\"og:title\" content=\"Tour della Città di Antalya – Scopri la Bellezza del Mediterraneo\">",
             "<meta property=\"og:description\" content=\"Esplora i luoghi più famosi di Antalya con un tour guidato. Visita siti storici, ammira spettacolari cascate e goditi viste panoramiche indimenticabili sul Mediterraneo.\">",
             `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\">`,
-            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
             "<meta name=\"twitter:card\" content=\"summary_large_image\">",
             "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
             "<meta name=\"twitter:title\" content=\"Tour della Città di Antalya – Tra Storia e Natura\">",
             "<meta name=\"twitter:description\" content=\"Scopri la magia di Antalya con un tour guidato. Esplora monumenti storici, ammira cascate mozzafiato e goditi panorami spettacolari sul Mediterraneo.\">",
-            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
@@ -6679,13 +6678,13 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta property=\"og:title\" content=\"安塔利亚观光城市之旅 – 探索地中海的美丽\">",
             "<meta property=\"og:description\" content=\"跟随导游探索安塔利亚最著名的地标。参观历史遗迹、欣赏壮丽瀑布，并在令人惊叹的观景点上欣赏地中海的壮丽景色。\">",
             `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\">`,
-            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
             "<meta name=\"twitter:card\" content=\"summary_large_image\">",
             "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
             "<meta name=\"twitter:title\" content=\"安塔利亚观光城市之旅 – 历史与自然的完美结合\">",
             "<meta name=\"twitter:description\" content=\"在安塔利亚的观光之旅中，探索这座城市的魅力！参观历史古迹，欣赏壮观的瀑布，沉浸在迷人的地中海景色中。\">",
-            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
@@ -6703,13 +6702,13 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta property=\"og:title\" content=\"جولة سياحية في أنطاليا – استكشف جمال البحر الأبيض المتوسط\">",
             "<meta property=\"og:description\" content=\"استمتع بجولة سياحية في أنطاليا واكتشف معالمها الشهيرة. زر المواقع التاريخية، وشاهد الشلالات الرائعة، واستمتع بإطلالات بانورامية خلابة على البحر الأبيض المتوسط.\">",
             `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\">`,
-            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
             "<meta name=\"twitter:card\" content=\"summary_large_image\">",
             "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
             "<meta name=\"twitter:title\" content=\"جولة سياحية في أنطاليا – مزيج بين التاريخ والطبيعة\">",
             "<meta name=\"twitter:description\" content=\"اكتشف سحر أنطاليا من خلال جولة سياحية رائعة! قم بزيارة المعالم التاريخية، واستمتع بمشاهدة الشلالات المذهلة، واستمتع بالإطلالات الساحرة على البحر الأبيض المتوسط.\">",
-            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
             "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",

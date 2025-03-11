@@ -22,3 +22,28 @@ const Toast = ({ title, body, bgColor }) => {
 }
 
 export default Toast
+/*
+// [13:56, 05.09.2022] MustafaHoca: Miranuras20092021
+// [13:56, 05.09.2022] MustafaHoca: demo@aplcars.com
+//sifre chat gpt =>6231028Fatih!     ++  jay@aplcars.com
+
+username : Elgun
+password : 1q2w3e
+
+
+
+
+
+https://platform.illow.io/#/?utm_content=illow.io  
+Mustafa@aplcars.com
+6231028Fatih!!
+
+
+
+21.44
+
+
+volta pin node@16
+
+https://www.youtube.com/watch?v=vo_lZiytsMw 8.57 eng
+*/
