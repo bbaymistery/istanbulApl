@@ -57,10 +57,6 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
     let keywords = termsKeywords.keywords[pageStartLanguage];
     let headTitle = termsKeywords.headTitle[pageStartLanguage];
 
-    console.log({ keywords, headTitle });
-
-
-
     return {
         //we pass tourdetails fot adding inside redux generally all together
         props: { metaDescription, keywords, headTitle }

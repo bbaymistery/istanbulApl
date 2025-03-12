@@ -17,6 +17,7 @@ import styles from "./singletour.module.scss";
 import singleTourSchema, { tourDescriptionName } from "./schema";
 import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
 import { isUrlLoverCase } from "../../helpers/isUrlLoverCase";
+import { createMetaTagElementsClientSide, renderSchemaScriptsClientSide } from "../../helpers/schemaMetaTagHelper";
 
 const TourContentDetails = (props) => {
 
@@ -24,7 +25,7 @@ const TourContentDetails = (props) => {
     if (data === 'not found') {
         return <Error404 />
     }
-    let { finalTourDetails, pageContent, tourDetails, } = props
+    let { finalTourDetails, pageContent, tourDetails, schemaOfTourDetails } = props
     let { headTitle, keywords, metaDescription, metaTags } = finalTourDetails
 
     const [loadAlert, setLoadAlert] = useState(true);
@@ -36,39 +37,6 @@ const TourContentDetails = (props) => {
     let transferDate = reservations[0]?.transferDetails?.transferDateTimeString;
 
 
-    const createMetaTagElements = (metaTags) => {
-        if (metaTags.length > 0) {
-            return metaTags.map((tagString, index) => {
-
-                // Match meta tags in the provided strings
-                const matches = tagString.match(/<meta [^>]+>/g);
-                if (matches) {
-                    return matches.map((metaTag, idx) => {
-                        const props = {};
-                        metaTag.replace(/(\w+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g, (m, key, value) => {
-                            props[key] = value;
-                            return m;
-                        });
-                        return <meta {...props} key={`meta-${index}-${idx}`} />;
-                    });
-                }
-                // Match meta tags in the provided strings   For link tags  
-                const linkMatches = tagString.match(/<link [^>]+>/g);
-                if (linkMatches) {
-                    return linkMatches.map((linkTag, idx) => {
-                        const props = {};
-                        linkTag.replace(/(\w+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g, (m, key, value) => {
-                            props[key] = value;
-                            return m;
-                        });
-                        return <link {...props} key={`link-${index}-${idx}`} />;
-                    });
-                }
-                return null;
-            });
-        }
-    }
-
     const { width } = useWindowSize();
 
     useEffect(() => {
@@ -79,7 +47,8 @@ const TourContentDetails = (props) => {
     return (
         <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription}>
             <Head>
-                {createMetaTagElements(metaTags)}
+                {createMetaTagElementsClientSide(metaTags)}
+                {renderSchemaScriptsClientSide(schemaOfTourDetails)}
             </Head>
             <div className={`page ${styles.page} `}>
                 <SingleTourBreadCrumb finalTourDetails={finalTourDetails} appData={appData} loadAlert={loadAlert} />
@@ -169,7 +138,7 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
         }
         return {
             //we pass tourdetails fot adding inside redux generally all together
-            props: { tourDetails, pageContent, finalTourDetails, }
+            props: { tourDetails, pageContent, finalTourDetails, schemaOfTourDetails }
         };
     }
 

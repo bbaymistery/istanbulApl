@@ -5,7 +5,7 @@ import Hero from "../components/widgets/Hero";
 import { parse } from 'url';
 import { fetchConfig } from "../resources/getEnvConfig";
 import store from "../store/store";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, } from "react-redux";
 import { useRouter } from "next/router";
 import { useEffect, } from "react";
 import Error404 from './404/index';
@@ -16,7 +16,11 @@ import { parseCookies } from "../helpers/cokieesFunc";
 import { checkLanguageAttributeOntheUrl } from "../helpers/checkLanguageAttributeOntheUrl";
 import { adjustPathnameForLanguage } from "../helpers/adjustedPageLanguage";
 import LinkNameDescription from "../components/elements/LinkNameDescription";
-import { getAirportPageContentByPathname } from "../constants/keywordsAndContents/airportsKeywordsContentSchema";
+import { getAirportPageContentByPathname, getMetaTagSingleAirportPage, getSingleAirportSchemaByPathname } from "../constants/keywordsAndContents/airportsKeywordsContentSchema";
+import Head from "next/head";
+import { createMetaTagElementsClientSide, renderSchemaScriptsClientSide } from "../helpers/schemaMetaTagHelper";
+
+
 
 const NavbarLinkName = (props) => {
     // Destructure props passed from getServerSideProps
@@ -27,9 +31,7 @@ const NavbarLinkName = (props) => {
 
     // If server-side validation fails (data is "not found"), render the 404 page
     if (data === "not found") return <Error404 />;
-    let { pageContent } = data
-    console.log(data);
-
+    let { pageContent, schemas, metaTags } = data
 
     useEffect(() => {
         // If not a "Quotation" link, find the matching item and update Redux state
@@ -39,9 +41,14 @@ const NavbarLinkName = (props) => {
         }
     }, [linkname, dispatch]);
 
+
     // Render the main layout and components if validation passes
     return (isItQuationLink ? <>Quotation Link </> :
         <GlobalLayout>
+            <Head>
+                {createMetaTagElementsClientSide(metaTags)}
+                {renderSchemaScriptsClientSide(schemas)}
+            </Head>
             <Hero islinknamecomponent={true} env={env} />
             <PopularDestinations islinknamecomponent={true} />
             {pageContent.length > 0 && <LinkNameDescription pageContent={pageContent} />}
@@ -57,12 +64,15 @@ const makestore = () => store;
 const wrapper = createWrapper(makestore);
 
 const handleStandartContent = (params = {}) => {
-    let { isItQuationLink = false, pageStartLanguage: language, pathname } = params
+    let { isItQuationLink = false, pageStartLanguage: language, pathname, env } = params
 
-    const pageContent = getAirportPageContentByPathname(`${pathname}`, language);
+    const pageContent = getAirportPageContentByPathname(pathname, language);
+    const schemas = [getSingleAirportSchemaByPathname(pathname, language)]
+    const metaTags = getMetaTagSingleAirportPage(pathname, language, env);
 
-    let data = { pageContent }
-    return { props: { data, isItQuationLink } }
+
+    let data = { pageContent, schemas, metaTags }
+    return { props: { data, isItQuationLink, } }
 }
 const handleQuotationLink = (params = {}) => {
     let { isItQuationLink = true, } = params
@@ -98,14 +108,10 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
     }
 
     let isItQuationLink = ifItIsQuotationLink(`/${linkname}`);
-    console.log({ isItQuationLink, isValid });
 
     if (isItQuationLink) {
-        return handleQuotationLink({ isItQuationLink, pageStartLanguage, pathname })
+        return handleQuotationLink({ isItQuationLink, pageStartLanguage, pathname, env })
     } else {
-        return handleStandartContent({ isItQuationLink, pageStartLanguage, pathname });
-
+        return handleStandartContent({ isItQuationLink, pageStartLanguage, pathname, env });
     }
-
-
 });

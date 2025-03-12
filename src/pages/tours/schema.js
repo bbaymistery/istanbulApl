@@ -252,7 +252,7 @@ const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourD
         "@type": "Organization",
         "name": "Apl Transfers",
         //! Check point url adress
-        "url": `website domain`,
+        "url":`${env.websiteDomain}`,
         //! Check point Social Addresses
         "sameAs": [
             "https://x.com/Airport_Pickups",

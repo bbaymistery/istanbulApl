@@ -30,8 +30,8 @@ export const getTourPageContentByPathname = (pathname, language) => {
  * @param {string} env - The environment configuration
  * @returns {Promise<Array>} Array of meta tags for the specified tour page and language
  */
-export const getTourMetaTagsByPathname =  (pathname, language, env) => {
-    const metaTagsData = getMetatagsForSingleTourPages(env); // Get all meta tag data
+export const getTourMetaTagsByPathname = (pathname, language, env) => {
+    const metaTagsData = metaTagsForSingleTourPages(env); // Get all meta tag data
     return metaTagsData[pathname]?.[language] || []; // Return the meta tags for the specific pathname and language
 };
 
@@ -230,7 +230,7 @@ export const tourDatasTranslated = [
             "en": "Oludeniz Boat Trip",
             "tr": "Ölüdeniz Tekne Turu",
             "es": "Barco Oludeniz",
-            "zh": "歐陸丹尼茲", 
+            "zh": "歐陸丹尼茲",
             "ar": "قارب أولودينيز",
             "ru": "Лодка Олюдениз",
             "it": "Barca Oludeniz"
@@ -5351,7 +5351,7 @@ export const singleTourTranslatedPageContents = {
 
 //!google-site-verification >degisicekmi yoksa apldeki gibi kalicak
 // !We have to make schemas for single tour page
-export const getMetatagsForSingleTourPages = (env) => ({
+const metaTagsForSingleTourPages = (env) => ({
     "/tours/fethiye12-island-tour": {
         en: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/tours/fethiye12-island-tour\" />`,
@@ -6007,7 +6007,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        ar:  [
+        ar: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
@@ -6081,7 +6081,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        tr:  [
+        tr: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/tours/istanbul-bosphorus-lunch-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
@@ -6105,7 +6105,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        es:  [
+        es: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
@@ -6153,7 +6153,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        zh:  [
+        zh: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-lunch-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
@@ -6203,7 +6203,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
         ],
     },
     "/tours/istanbul-full-day-tour": {
-        
+
 
         en: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
@@ -6229,7 +6229,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        ru:[
+        ru: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/tours/istanbul-full-day-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
@@ -6277,7 +6277,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        es:  [
+        es: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/tours/istanbul-full-day-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
@@ -6423,7 +6423,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        tr:  [
+        tr: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/tours/paragliding-fethiye-oludeniz\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/paragliding-fethiye-oludeniz\" />`,
@@ -6641,7 +6641,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        it:  [
+        it: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/tours/antalya-sightseeing-city-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/antalya-sightseeing-city-tour\" />`,
@@ -6665,7 +6665,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        zh:  [
+        zh: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/tours/antalya-sightseeing-city-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/antalya-sightseeing-city-tour\" />`,
@@ -6689,7 +6689,7 @@ export const getMetatagsForSingleTourPages = (env) => ({
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
-        ar:[
+        ar: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/tours/antalya-sightseeing-city-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/antalya-sightseeing-city-tour\" />`,
             `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/antalya-sightseeing-city-tour\" />`,

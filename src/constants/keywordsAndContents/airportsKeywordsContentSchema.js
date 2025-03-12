@@ -8,7 +8,6 @@
 export const getAirportPageContentByPathname = (pathname, language = "en") => {
     return airportPageContents[pathname][language]
 }
-
 const airportPageContents = {
     "/istanbul-airport-taxi-prices": {
         en: `
@@ -3774,3 +3773,3503 @@ const airportPageContents = {
         `,
     },
 }
+
+//*****************************************
+//*****************************************
+
+/**
+ * Retrieves the single airport schema for the given pathname and language.
+ * If the schema is not found for the given pathname and language, it returns `null`.
+ *
+ * @param {string} pathname - The pathname to look up the airport schema for.
+ * @param {string} language - The language to retrieve the airport schema for.
+ * @returns {object|null} The single airport schema, or `null` if not found.
+ */
+export const getSingleAirportSchemaByPathname = (pathname, language) => {
+    return singleAirportSchema[pathname]?.[language] || null; // ✅ Returns `null` instead of `undefined`
+};
+const singleAirportSchema = {
+    "/istanbul-airport-taxi-prices": {
+        en: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Where will my driver meet me at Istanbul Airport?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Your driver will meet you by our APL Transfers office in the Arrival Hall at Istanbul Airport, holding a name board for easy identification."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are the taxi prices from Istanbul Airport fixed?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you offer free cancellations for Istanbul Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What payment methods do you accept?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you provide child seats for Istanbul Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, we offer free child seats for 8 and 9-seater private vehicles to ensure safety for families."
+                    }
+                }
+            ]
+        },
+        tr: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Sürücüm beni İstanbul Havalimanı'nda nerede karşılayacak?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sürücünüz sizi İstanbul Havalimanı Geliş Salonu'ndaki APL Transfers ofisimizde karşılayacak ve kolay tanınmanız için bir isim tabelası tutacaktır."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "İstanbul Havalimanı'ndan taksi ücretleri sabit mi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, tüm taksi fiyatlarımız sabittir ve gizli ücret yoktur, şeffaf ve rekabetçi fiyatlar sunarız."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "İstanbul Havalimanı transferleri için ücretsiz iptal seçeneği sunuyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz iptal edebilirsiniz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ödemeleri Euro, GBP, ABD Doları ve Türk Lirası cinsinden güvenli çevrimiçi ödeme yöntemiyle kabul ediyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "İstanbul Havalimanı transferleri için çocuk koltuğu sağlıyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, ailelerin güvenliği için 8 ve 9 kişilik özel araçlarımızda ücretsiz çocuk koltuğu sunuyoruz."
+                    }
+                }
+            ]
+        }
+        ,
+        ar: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "أين سيلتقيني السائق في مطار إسطنبول؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "سيلتقي بك سائقك في مكتب APL Transfers في صالة الوصول بمطار إسطنبول، وهو يحمل لافتة تحمل اسمك لسهولة التعرف عليه."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل أسعار سيارات الأجرة من مطار إسطنبول ثابتة؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، جميع أسعار سيارات الأجرة لدينا ثابتة بدون أي رسوم مخفية، مما يضمن أسعار شفافة وتنافسية."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل تقدمون إلغاء مجاني لخدمات النقل من مطار إسطنبول؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، يمكنك إلغاء حجزك مجانًا حتى 24 ساعة قبل الوصول."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "ما هي طرق الدفع التي تقبلونها؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نحن نقبل المدفوعات باليورو والجنيه الإسترليني والدولار الأمريكي والليرة التركية من خلال الدفع الآمن عبر الإنترنت."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل توفرون مقاعد للأطفال في خدمات النقل من مطار إسطنبول؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، نقدم مقاعد مجانية للأطفال في المركبات الخاصة التي تتسع لـ 8 و9 ركاب لضمان سلامة العائلات."
+                    }
+                }
+            ]
+        }
+        ,
+        es: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Estambul?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Su conductor lo recibirá en nuestra oficina de APL Transfers en la sala de llegadas del Aeropuerto de Estambul, sosteniendo un cartel con su nombre para una fácil identificación."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Los precios de los taxis desde el Aeropuerto de Estambul son fijos?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, todos nuestros precios de taxi son fijos y no tienen cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Ofrecen cancelaciones gratuitas para los traslados desde el Aeropuerto de Estambul?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, puede cancelar su reserva sin costo hasta 24 horas antes de la llegada."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Qué métodos de pago aceptan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas a través de un pago seguro en línea."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Proporcionan asientos para niños en los traslados desde el Aeropuerto de Estambul?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, ofrecemos asientos para niños gratuitos en vehículos privados de 8 y 9 plazas para garantizar la seguridad de las familias."
+                    }
+                }
+            ]
+        }
+        ,
+        it: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Dove mi incontrerà il mio autista all'Aeroporto di Istanbul?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Il tuo autista ti aspetterà presso il nostro ufficio APL Transfers nella sala arrivi dell'Aeroporto di Istanbul, tenendo un cartello con il tuo nome per un facile riconoscimento."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "I prezzi dei taxi dall'Aeroporto di Istanbul sono fissi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, tutti i nostri prezzi per i taxi sono fissi e senza costi nascosti, offrendo tariffe trasparenti e competitive."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Istanbul?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Quali metodi di pagamento accettate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Accettiamo pagamenti in Euro, Sterline britanniche, Dollari americani e Lire turche tramite pagamento online sicuro."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Fornite seggiolini per bambini nei trasferimenti dall'Aeroporto di Istanbul?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, offriamo seggiolini per bambini gratuiti nei veicoli privati da 8 e 9 posti per garantire la sicurezza delle famiglie."
+                    }
+                }
+            ]
+        }
+        ,
+        ru: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Где меня встретит водитель в аэропорту Стамбула?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ваш водитель встретит вас в нашем офисе APL Transfers в зале прибытия аэропорта Стамбула, держа табличку с вашим именем для удобного опознания."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Являются ли тарифы на такси из аэропорта Стамбула фиксированными?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, все наши тарифы на такси фиксированы, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные цены."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы бесплатную отмену бронирования для трансферов из аэропорта Стамбула?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, вы можете отменить свое бронирование бесплатно за 24 часа до прибытия."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Какие способы оплаты вы принимаете?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасный онлайн-платеж."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы детские сиденья для трансферов из аэропорта Стамбула?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, мы предоставляем бесплатные детские сиденья в частных автомобилях на 8 и 9 мест для обеспечения безопасности семей."
+                    }
+                }
+            ]
+        }
+        ,
+        zh: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "我的司机会在伊斯坦布尔机场哪里接我？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "您的司机将在伊斯坦布尔机场抵达大厅的 APL Transfers 办公室接您，并举着带有您姓名的牌子，方便识别。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "从伊斯坦布尔机场出发的出租车价格是固定的吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，提供透明且具有竞争力的价格。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您提供伊斯坦布尔机场接送的免费取消服务吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，您可以在抵达前 24 小时免费取消您的预订。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您接受哪些付款方式？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "我们接受欧元、英镑、美元和土耳其里拉的在线安全支付。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您是否为伊斯坦布尔机场接送提供儿童座椅？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们为 8 座和 9 座的私人车辆免费提供儿童座椅，以确保家庭旅客的安全。"
+                    }
+                }
+            ]
+        }
+
+
+    },
+    "/sabiha-gokcen-airport-taxi-prices": {
+        en: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Where will my driver meet me at Sabiha Gökçen Airport?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Your driver will be waiting at Column 13, located at the end of the pedestrian crossing, holding a passenger name board."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are the taxi prices from Sabiha Gökçen Airport fixed?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you offer free cancellations for Sabiha Gökçen Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What payment methods do you accept?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you provide child seats for Sabiha Gökçen Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, we offer free child seats for 8 and 9-seater private vehicles to ensure safety for families."
+                    }
+                }
+            ]
+        },
+        tr: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Sürücüm beni Sabiha Gökçen Havalimanı'nda nerede karşılayacak?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sürücünüz, yaya geçidinin sonunda bulunan 13. Kolonun yanında sizi bekliyor olacak ve üzerinde isminiz yazılı bir tabela tutacaktır."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Sabiha Gökçen Havalimanı'ndan taksi ücretleri sabit mi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, tüm taksi fiyatlarımız sabittir ve gizli ücret bulunmamaktadır, şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Sabiha Gökçen Havalimanı transferleri için ücretsiz iptal seçeneği sunuyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz iptal edebilirsiniz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ödemeleri Euro, GBP, ABD Doları ve Türk Lirası cinsinden güvenli çevrimiçi ödeme yöntemiyle kabul ediyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Sabiha Gökçen Havalimanı transferleri için çocuk koltuğu sağlıyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, ailelerin güvenliği için 8 ve 9 kişilik özel araçlarımızda ücretsiz çocuk koltuğu sunuyoruz."
+                    }
+                }
+            ]
+        },
+        ru: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Где меня встретит водитель в аэропорту Сабиха Гёкчен?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ваш водитель будет ждать вас у Колонны 13, расположенной в конце пешеходного перехода, держа табличку с вашим именем."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Фиксированные ли цены на такси из аэропорта Сабиха Гёкчен?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, все наши цены на такси фиксированы, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные тарифы."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы бесплатную отмену бронирования для трансферов из аэропорта Сабиха Гёкчен?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, вы можете отменить свое бронирование бесплатно за 24 часа до прибытия."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Какие способы оплаты вы принимаете?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасный онлайн-платеж."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы детские сиденья для трансферов из аэропорта Сабиха Гёкчен?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, мы предоставляем бесплатные детские сиденья в частных автомобилях на 8 и 9 мест для обеспечения безопасности семей."
+                    }
+                }
+            ]
+        }
+        ,
+        zh: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "我的司机会在萨比哈·格克琴机场哪里接我？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "您的司机将在人行横道尽头的13号柱附近等待，并举着写有您姓名的接机牌。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "萨比哈·格克琴机场的出租车价格是固定的吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，提供透明且具有竞争力的价格。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您是否提供萨比哈·格克琴机场接送的免费取消服务？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，您可以在抵达前 24 小时免费取消您的预订。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您接受哪些付款方式？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "我们接受欧元、英镑、美元和土耳其里拉的在线安全支付。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您是否为萨比哈·格克琴机场接送提供儿童座椅？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们为 8 座和 9 座的私人车辆免费提供儿童座椅，以确保家庭旅客的安全。"
+                    }
+                }
+            ]
+        }
+        ,
+        es: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Sabiha Gökçen?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Su conductor lo estará esperando en la Columna 13, ubicada al final del paso de peatones, sosteniendo un cartel con su nombre."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Los precios de los taxis desde el Aeropuerto de Sabiha Gökçen son fijos?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, todos nuestros precios de taxi son fijos y no tienen cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Ofrecen cancelaciones gratuitas para los traslados desde el Aeropuerto de Sabiha Gökçen?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, puede cancelar su reserva sin costo hasta 24 horas antes de la llegada."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Qué métodos de pago aceptan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas a través de un pago seguro en línea."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Proporcionan asientos para niños en los traslados desde el Aeropuerto de Sabiha Gökçen?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, ofrecemos asientos para niños gratuitos en vehículos privados de 8 y 9 plazas para garantizar la seguridad de las familias."
+                    }
+                }
+            ]
+        }
+        ,
+        it: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Dove mi incontrerà il mio autista all'Aeroporto di Sabiha Gökçen?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Il tuo autista ti aspetterà alla Colonna 13, situata alla fine del passaggio pedonale, tenendo un cartello con il tuo nome."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "I prezzi dei taxi dall'Aeroporto di Sabiha Gökçen sono fissi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, tutti i nostri prezzi per i taxi sono fissi e senza costi nascosti, offrendo tariffe trasparenti e competitive."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Sabiha Gökçen?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Quali metodi di pagamento accettate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Accettiamo pagamenti in Euro, Sterline britanniche, Dollari americani e Lire turche tramite pagamento online sicuro."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Fornite seggiolini per bambini nei trasferimenti dall'Aeroporto di Sabiha Gökçen?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, offriamo seggiolini per bambini gratuiti nei veicoli privati da 8 e 9 posti per garantire la sicurezza delle famiglie."
+                    }
+                }
+            ]
+        }
+        ,
+        ar: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "أين سيلتقيني السائق في مطار صبيحة كوكجن؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "سينتظرك سائقك عند العمود رقم 13، الواقع في نهاية ممر المشاة، حاملًا لافتة تحمل اسمك."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل أسعار سيارات الأجرة من مطار صبيحة كوكجن ثابتة؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، جميع أسعار سيارات الأجرة لدينا ثابتة بدون أي رسوم مخفية، مما يضمن أسعار شفافة وتنافسية."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل تقدمون إلغاء مجاني لخدمات النقل من مطار صبيحة كوكجن؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، يمكنك إلغاء حجزك مجانًا حتى 24 ساعة قبل الوصول."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "ما هي طرق الدفع التي تقبلونها؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نحن نقبل المدفوعات باليورو والجنيه الإسترليني والدولار الأمريكي والليرة التركية من خلال الدفع الآمن عبر الإنترنت."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل توفرون مقاعد للأطفال في خدمات النقل من مطار صبيحة كوكجن؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، نقدم مقاعد مجانية للأطفال في المركبات الخاصة التي تتسع لـ 8 و9 ركاب لضمان سلامة العائلات."
+                    }
+                }
+            ]
+        }
+
+    },
+    "/dalaman-airport-taxi-prices": {
+        en: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Where will my driver meet me at Dalaman Airport?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Your driver will meet you by the arrival gates at Dalaman Airport (DLM), holding a passenger name board for easy identification."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are the taxi prices from Dalaman Airport fixed?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all our taxi prices are fixed with no hidden charges, ensuring transparent and competitive rates."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you offer free cancellations for Dalaman Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What payment methods do you accept?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you provide child seats for Dalaman Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, we offer free child seats for 8 and 9-seater private vehicles to ensure safety for families."
+                    }
+                }
+            ]
+        }
+        ,
+        tr: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Sürücüm beni Dalaman Havalimanı'nda nerede karşılayacak?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sürücünüz sizi Dalaman Havalimanı (DLM) geliş kapılarında, üzerinde adınızın yazılı olduğu bir tabela ile karşılayacaktır."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Dalaman Havalimanı'ndan taksi ücretleri sabit mi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, tüm taksi fiyatlarımız sabittir ve gizli ücretler yoktur, şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Dalaman Havalimanı transferleri için ücretsiz iptal seçeneği sunuyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz iptal edebilirsiniz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ödemeleri Euro, GBP, ABD Doları ve Türk Lirası cinsinden güvenli çevrimiçi ödeme yöntemiyle kabul ediyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Dalaman Havalimanı transferleri için çocuk koltuğu sağlıyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, ailelerin güvenliği için 8 ve 9 kişilik özel araçlarımızda ücretsiz çocuk koltuğu sunuyoruz."
+                    }
+                }
+            ]
+        }
+        ,
+        ru: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Где меня встретит водитель в аэропорту Даламан?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ваш водитель встретит вас у выхода для прибывающих пассажиров в аэропорту Даламан (DLM), держа табличку с вашим именем для удобного опознания."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Фиксированные ли цены на такси из аэропорта Даламан?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, все наши цены на такси фиксированы, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные тарифы."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы бесплатную отмену бронирования для трансферов из аэропорта Даламан?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, вы можете отменить свое бронирование бесплатно за 24 часа до прибытия."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Какие способы оплаты вы принимаете?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасный онлайн-платеж."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы детские сиденья для трансферов из аэропорта Даламан?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, мы предоставляем бесплатные детские сиденья в частных автомобилях на 8 и 9 мест для обеспечения безопасности семей."
+                    }
+                }
+            ]
+        }
+        ,
+        es: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Dalaman?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Su conductor lo recibirá en las puertas de llegada del Aeropuerto de Dalaman (DLM), sosteniendo un cartel con su nombre para una fácil identificación."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Los precios de los taxis desde el Aeropuerto de Dalaman son fijos?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, todos nuestros precios de taxi son fijos y no tienen cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Ofrecen cancelaciones gratuitas para los traslados desde el Aeropuerto de Dalaman?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, puede cancelar su reserva sin costo hasta 24 horas antes de la llegada."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Qué métodos de pago aceptan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas a través de un pago seguro en línea."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Proporcionan asientos para niños en los traslados desde el Aeropuerto de Dalaman?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, ofrecemos asientos para niños gratuitos en vehículos privados de 8 y 9 plazas para garantizar la seguridad de las familias."
+                    }
+                }
+            ]
+        }
+        ,
+        it: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Dove mi incontrerà il mio autista all'Aeroporto di Dalaman?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Il tuo autista ti aspetterà ai cancelli di arrivo dell'Aeroporto di Dalaman (DLM), tenendo un cartello con il tuo nome per un facile riconoscimento."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "I prezzi dei taxi dall'Aeroporto di Dalaman sono fissi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, tutti i nostri prezzi per i taxi sono fissi e senza costi nascosti, offrendo tariffe trasparenti e competitive."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Dalaman?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Quali metodi di pagamento accettate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Accettiamo pagamenti in Euro, Sterline britanniche, Dollari americani e Lire turche tramite pagamento online sicuro."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Fornite seggiolini per bambini nei trasferimenti dall'Aeroporto di Dalaman?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, offriamo seggiolini per bambini gratuiti nei veicoli privati da 8 e 9 posti per garantire la sicurezza delle famiglie."
+                    }
+                }
+            ]
+        }
+        ,
+        ar: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "أين سيلتقيني السائق في مطار دالامان؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "سينتظرك سائقك عند بوابات الوصول في مطار دالامان (DLM)، حاملًا لافتة تحمل اسمك لسهولة التعرف عليه."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل أسعار سيارات الأجرة من مطار دالامان ثابتة؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، جميع أسعار سيارات الأجرة لدينا ثابتة بدون أي رسوم مخفية، مما يضمن أسعار شفافة وتنافسية."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل تقدمون إلغاء مجاني لخدمات النقل من مطار دالامان؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، يمكنك إلغاء حجزك مجانًا حتى 24 ساعة قبل الوصول."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "ما هي طرق الدفع التي تقبلونها؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نحن نقبل المدفوعات باليورو والجنيه الإسترليني والدولار الأمريكي والليرة التركية من خلال الدفع الآمن عبر الإنترنت."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل توفرون مقاعد للأطفال في خدمات النقل من مطار دالامان؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، نقدم مقاعد مجانية للأطفال في المركبات الخاصة التي تتسع لـ 8 و9 ركاب لضمان سلامة العائلات."
+                    }
+                }
+            ]
+        }
+        ,
+        zh: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "我的司机会在达拉曼机场哪里接我？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "您的司机将在达拉曼机场 (DLM) 到达门口等候，并举着写有您姓名的接机牌，以便识别。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "从达拉曼机场出发的出租车价格是固定的吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，提供透明且具有竞争力的价格。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您提供达拉曼机场接送的免费取消服务吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，您可以在抵达前 24 小时免费取消您的预订。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您接受哪些付款方式？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "我们接受欧元、英镑、美元和土耳其里拉的在线安全支付。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您是否为达拉曼机场接送提供儿童座椅？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们为 8 座和 9 座的私人车辆免费提供儿童座椅，以确保家庭旅客的安全。"
+                    }
+                }
+            ]
+        }
+
+    },
+    "/antalya-airport-taxi-prices": {
+        en: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Where will my driver meet me at Antalya Airport?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Your driver will meet you by the arrival gates at Antalya Airport (AYT), holding a passenger name board for easy identification."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are the taxi prices from Antalya Airport fixed?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all our taxi prices are fixed with no hidden charges, ensuring transparent and competitive rates."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you offer free cancellations for Antalya Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What payment methods do you accept?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you provide child seats for Antalya Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, we offer free child seats for 8 and 9-seater private vehicles to ensure safety for families."
+                    }
+                }
+            ]
+        }
+        ,
+        tr: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Sürücüm beni Antalya Havalimanı'nda nerede karşılayacak?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sürücünüz sizi Antalya Havalimanı (AYT) geliş kapılarında, üzerinde adınızın yazılı olduğu bir tabela ile karşılayacaktır."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Antalya Havalimanı'ndan taksi ücretleri sabit mi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, tüm taksi fiyatlarımız sabittir ve gizli ücretler yoktur, şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Antalya Havalimanı transferleri için ücretsiz iptal seçeneği sunuyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz iptal edebilirsiniz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ödemeleri Euro, GBP, ABD Doları ve Türk Lirası cinsinden güvenli çevrimiçi ödeme yöntemiyle kabul ediyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Antalya Havalimanı transferleri için çocuk koltuğu sağlıyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, ailelerin güvenliği için 8 ve 9 kişilik özel araçlarımızda ücretsiz çocuk koltuğu sunuyoruz."
+                    }
+                }
+            ]
+        }
+        ,
+        ru: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Где меня встретит водитель в аэропорту Анталии?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ваш водитель встретит вас у выхода для прибывающих пассажиров в аэропорту Анталии (AYT), держа табличку с вашим именем для удобного опознания."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Фиксированные ли цены на такси из аэропорта Анталии?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, все наши цены на такси фиксированы, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные тарифы."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы бесплатную отмену бронирования для трансферов из аэропорта Анталии?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, вы можете отменить свое бронирование бесплатно за 24 часа до прибытия."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Какие способы оплаты вы принимаете?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасный онлайн-платеж."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы детские сиденья для трансферов из аэропорта Анталии?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, мы предоставляем бесплатные детские сиденья в частных автомобилях на 8 и 9 мест для обеспечения безопасности семей."
+                    }
+                }
+            ]
+        }
+        ,
+        es: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Antalya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Su conductor lo recibirá en las puertas de llegada del Aeropuerto de Antalya (AYT), sosteniendo un cartel con su nombre para una fácil identificación."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Los precios de los taxis desde el Aeropuerto de Antalya son fijos?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, todos nuestros precios de taxi son fijos y no tienen cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Ofrecen cancelaciones gratuitas para los traslados desde el Aeropuerto de Antalya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, puede cancelar su reserva sin costo hasta 24 horas antes de la llegada."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Qué métodos de pago aceptan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas a través de un pago seguro en línea."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Proporcionan asientos para niños en los traslados desde el Aeropuerto de Antalya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, ofrecemos asientos para niños gratuitos en vehículos privados de 8 y 9 plazas para garantizar la seguridad de las familias."
+                    }
+                }
+            ]
+        }
+        ,
+        it: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Dove mi incontrerà il mio autista all'Aeroporto di Antalya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Il tuo autista ti aspetterà ai cancelli di arrivo dell'Aeroporto di Antalya (AYT), tenendo un cartello con il tuo nome per un facile riconoscimento."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "I prezzi dei taxi dall'Aeroporto di Antalya sono fissi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, tutti i nostri prezzi per i taxi sono fissi e senza costi nascosti, offrendo tariffe trasparenti e competitive."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Antalya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Quali metodi di pagamento accettate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Accettiamo pagamenti in Euro, Sterline britanniche, Dollari americani e Lire turche tramite pagamento online sicuro."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Fornite seggiolini per bambini nei trasferimenti dall'Aeroporto di Antalya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, offriamo seggiolini per bambini gratuiti nei veicoli privati da 8 e 9 posti per garantire la sicurezza delle famiglie."
+                    }
+                }
+            ]
+        }
+        ,
+        ar: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "أين سيلتقيني السائق في مطار أنطاليا؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "سينتظرك سائقك عند بوابات الوصول في مطار أنطاليا (AYT)، حاملًا لافتة تحمل اسمك لسهولة التعرف عليه."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل أسعار سيارات الأجرة من مطار أنطاليا ثابتة؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، جميع أسعار سيارات الأجرة لدينا ثابتة بدون أي رسوم مخفية، مما يضمن أسعار شفافة وتنافسية."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل تقدمون إلغاء مجاني لخدمات النقل من مطار أنطاليا؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، يمكنك إلغاء حجزك مجانًا حتى 24 ساعة قبل الوصول."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "ما هي طرق الدفع التي تقبلونها؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نحن نقبل المدفوعات باليورو والجنيه الإسترليني والدولار الأمريكي والليرة التركية من خلال الدفع الآمن عبر الإنترنت."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل توفرون مقاعد للأطفال في خدمات النقل من مطار أنطاليا؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، نقدم مقاعد مجانية للأطفال في المركبات الخاصة التي تتسع لـ 8 و9 ركاب لضمان سلامة العائلات."
+                    }
+                }
+            ]
+        }
+        ,
+        zh: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "我的司机会在安塔利亚机场哪里接我？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "您的司机将在安塔利亚机场 (AYT) 到达门口等候，并举着写有您姓名的接机牌，以便识别。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "从安塔利亚机场出发的出租车价格是固定的吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，提供透明且具有竞争力的价格。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您提供安塔利亚机场接送的免费取消服务吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，您可以在抵达前 24 小时免费取消您的预订。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您接受哪些付款方式？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "我们接受欧元、英镑、美元和土耳其里拉的在线安全支付。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您是否为安塔利亚机场接送提供儿童座椅？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们为 8 座和 9 座的私人车辆免费提供儿童座椅，以确保家庭旅客的安全。"
+                    }
+                }
+            ]
+        }
+
+    },
+    "/bodrum-milas-airport-taxi-prices": {
+        en: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Where will my driver meet me at Bodrum Milas Airport?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Your driver will meet you by the arrival gates at Bodrum Milas Airport (BJV), holding a passenger name board for easy identification."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are the taxi prices from Bodrum Milas Airport fixed?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all our taxi prices are fixed with no hidden charges, ensuring transparent and competitive rates."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you offer free cancellations for Bodrum Milas Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What payment methods do you accept?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you provide child seats for Bodrum Milas Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, we offer free child seats for 8 and 9-seater private vehicles to ensure safety for families."
+                    }
+                }
+            ]
+        }
+        ,
+        tr: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Sürücüm beni Bodrum Milas Havalimanı'nda nerede karşılayacak?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sürücünüz sizi Bodrum Milas Havalimanı (BJV) geliş kapılarında, üzerinde adınızın yazılı olduğu bir tabela ile karşılayacaktır."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Bodrum Milas Havalimanı'ndan taksi ücretleri sabit mi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, tüm taksi fiyatlarımız sabittir ve gizli ücretler yoktur, şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Bodrum Milas Havalimanı transferleri için ücretsiz iptal seçeneği sunuyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz iptal edebilirsiniz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ödemeleri Euro, GBP, ABD Doları ve Türk Lirası cinsinden güvenli çevrimiçi ödeme yöntemiyle kabul ediyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Bodrum Milas Havalimanı transferleri için çocuk koltuğu sağlıyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, ailelerin güvenliği için 8 ve 9 kişilik özel araçlarımızda ücretsiz çocuk koltuğu sunuyoruz."
+                    }
+                }
+            ]
+        }
+        ,
+        ru: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Где меня встретит водитель в аэропорту Бодрум-Милас?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ваш водитель встретит вас у выхода для прибывающих пассажиров в аэропорту Бодрум-Милас (BJV), держа табличку с вашим именем для удобного опознания."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Фиксированные ли цены на такси из аэропорта Бодрум-Милас?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, все наши цены на такси фиксированы, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные тарифы."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы бесплатную отмену бронирования для трансферов из аэропорта Бодрум-Милас?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, вы можете отменить свое бронирование бесплатно за 24 часа до прибытия."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Какие способы оплаты вы принимаете?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасный онлайн-платеж."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы детские сиденья для трансферов из аэропорта Бодрум-Милас?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, мы предоставляем бесплатные детские сиденья в частных автомобилях на 8 и 9 мест для обеспечения безопасности семей."
+                    }
+                }
+            ]
+        }
+        ,
+        es: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Bodrum Milas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Su conductor lo recibirá en las puertas de llegada del Aeropuerto de Bodrum Milas (BJV), sosteniendo un cartel con su nombre para una fácil identificación."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Los precios de los taxis desde el Aeropuerto de Bodrum Milas son fijos?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, todos nuestros precios de taxi son fijos y no tienen cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Ofrecen cancelaciones gratuitas para los traslados desde el Aeropuerto de Bodrum Milas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, puede cancelar su reserva sin costo hasta 24 horas antes de la llegada."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Qué métodos de pago aceptan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas a través de un pago seguro en línea."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Proporcionan asientos para niños en los traslados desde el Aeropuerto de Bodrum Milas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, ofrecemos asientos para niños gratuitos en vehículos privados de 8 y 9 plazas para garantizar la seguridad de las familias."
+                    }
+                }
+            ]
+        }
+        ,
+        it: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Dove mi incontrerà il mio autista all'Aeroporto di Bodrum Milas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Il tuo autista ti aspetterà ai cancelli di arrivo dell'Aeroporto di Bodrum Milas (BJV), tenendo un cartello con il tuo nome per un facile riconoscimento."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "I prezzi dei taxi dall'Aeroporto di Bodrum Milas sono fissi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, tutti i nostri prezzi per i taxi sono fissi e senza costi nascosti, offrendo tariffe trasparenti e competitive."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Bodrum Milas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Quali metodi di pagamento accettate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Accettiamo pagamenti in Euro, Sterline britanniche, Dollari americani e Lire turche tramite pagamento online sicuro."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Fornite seggiolini per bambini nei trasferimenti dall'Aeroporto di Bodrum Milas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, offriamo seggiolini per bambini gratuiti nei veicoli privati da 8 e 9 posti per garantire la sicurezza delle famiglie."
+                    }
+                }
+            ]
+        }
+        ,
+        ar: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "أين سيلتقيني السائق في مطار بودروم ميلاس؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "سينتظرك سائقك عند بوابات الوصول في مطار بودروم ميلاس (BJV)، حاملًا لافتة تحمل اسمك لسهولة التعرف عليه."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل أسعار سيارات الأجرة من مطار بودروم ميلاس ثابتة؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، جميع أسعار سيارات الأجرة لدينا ثابتة بدون أي رسوم مخفية، مما يضمن أسعار شفافة وتنافسية."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل تقدمون إلغاء مجاني لخدمات النقل من مطار بودروم ميلاس؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، يمكنك إلغاء حجزك مجانًا حتى 24 ساعة قبل الوصول."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "ما هي طرق الدفع التي تقبلونها؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نحن نقبل المدفوعات باليورو والجنيه الإسترليني والدولار الأمريكي والليرة التركية من خلال الدفع الآمن عبر الإنترنت."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل توفرون مقاعد للأطفال في خدمات النقل من مطار بودروم ميلاس؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، نقدم مقاعد مجانية للأطفال في المركبات الخاصة التي تتسع لـ 8 و9 ركاب لضمان سلامة العائلات."
+                    }
+                }
+            ]
+        }
+        ,
+        zh: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "我的司机会在博德鲁姆米拉斯机场哪里接我？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "您的司机将在博德鲁姆米拉斯机场 (BJV) 到达门口等候，并举着写有您姓名的接机牌，以便识别。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "从博德鲁姆米拉斯机场出发的出租车价格是固定的吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，提供透明且具有竞争力的价格。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您提供博德鲁姆米拉斯机场接送的免费取消服务吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，您可以在抵达前 24 小时免费取消您的预订。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您接受哪些付款方式？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "我们接受欧元、英镑、美元和土耳其里拉的在线安全支付。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您是否为博德鲁姆米拉斯机场接送提供儿童座椅？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们为 8 座和 9 座的私人车辆免费提供儿童座椅，以确保家庭旅客的安全。"
+                    }
+                }
+            ]
+        }
+
+    },
+    "/izmir-adnan-menderes-airport-taxi-prices": {
+        en: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Where will my driver meet me at Izmir Adnan Menderes Airport?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Your driver will meet you by the arrival gates at Izmir Adnan Menderes Airport (ADB), holding a passenger name board for easy identification."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are the taxi prices from Izmir Airport fixed?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all our taxi prices are fixed with no hidden charges, ensuring transparent and competitive rates."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you offer free cancellations for Izmir Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What payment methods do you accept?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you provide child seats for Izmir Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, we offer free child seats for 8 and 9-seater private vehicles to ensure safety for families."
+                    }
+                }
+            ]
+        }
+        ,
+        tr: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Sürücüm beni İzmir Adnan Menderes Havalimanı'nda nerede karşılayacak?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sürücünüz sizi İzmir Adnan Menderes Havalimanı (ADB) geliş kapılarında, üzerinde adınızın yazılı olduğu bir tabela ile karşılayacaktır."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "İzmir Havalimanı'ndan taksi ücretleri sabit mi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, tüm taksi fiyatlarımız sabittir ve gizli ücretler yoktur, şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "İzmir Havalimanı transferleri için ücretsiz iptal seçeneği sunuyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz iptal edebilirsiniz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ödemeleri Euro, GBP, ABD Doları ve Türk Lirası cinsinden güvenli çevrimiçi ödeme yöntemiyle kabul ediyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "İzmir Havalimanı transferleri için çocuk koltuğu sağlıyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, ailelerin güvenliği için 8 ve 9 kişilik özel araçlarımızda ücretsiz çocuk koltuğu sunuyoruz."
+                    }
+                }
+            ]
+        }
+        ,
+        ru: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Где меня встретит водитель в аэропорту Измир Аднан Мендерес?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ваш водитель встретит вас у выхода для прибывающих пассажиров в аэропорту Измир Аднан Мендерес (ADB), держа табличку с вашим именем для удобного опознания."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Фиксированные ли цены на такси из аэропорта Измир?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, все наши цены на такси фиксированы, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные тарифы."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы бесплатную отмену бронирования для трансферов из аэропорта Измир?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, вы можете отменить свое бронирование бесплатно за 24 часа до прибытия."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Какие способы оплаты вы принимаете?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасный онлайн-платеж."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы детские сиденья для трансферов из аэропорта Измир?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, мы предоставляем бесплатные детские сиденья в частных автомобилях на 8 и 9 мест для обеспечения безопасности семей."
+                    }
+                }
+            ]
+        }
+        ,
+        es: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Izmir Adnan Menderes?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Su conductor lo recibirá en las puertas de llegada del Aeropuerto de Izmir Adnan Menderes (ADB), sosteniendo un cartel con su nombre para una fácil identificación."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Los precios de los taxis desde el Aeropuerto de Izmir son fijos?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, todos nuestros precios de taxi son fijos y no tienen cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Ofrecen cancelaciones gratuitas para los traslados desde el Aeropuerto de Izmir?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, puede cancelar su reserva sin costo hasta 24 horas antes de la llegada."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Qué métodos de pago aceptan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas a través de un pago seguro en línea."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Proporcionan asientos para niños en los traslados desde el Aeropuerto de Izmir?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, ofrecemos asientos para niños gratuitos en vehículos privados de 8 y 9 plazas para garantizar la seguridad de las familias."
+                    }
+                }
+            ]
+        }
+        ,
+        it: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Dove mi incontrerà il mio autista all'Aeroporto di Izmir Adnan Menderes?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Il tuo autista ti aspetterà ai cancelli di arrivo dell'Aeroporto di Izmir Adnan Menderes (ADB), tenendo un cartello con il tuo nome per un facile riconoscimento."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "I prezzi dei taxi dall'Aeroporto di Izmir sono fissi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, tutti i nostri prezzi per i taxi sono fissi e senza costi nascosti, offrendo tariffe trasparenti e competitive."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Izmir?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Quali metodi di pagamento accettate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Accettiamo pagamenti in Euro, Sterline britanniche, Dollari americani e Lire turche tramite pagamento online sicuro."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Fornite seggiolini per bambini nei trasferimenti dall'Aeroporto di Izmir?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, offriamo seggiolini per bambini gratuiti nei veicoli privati da 8 e 9 posti per garantire la sicurezza delle famiglie."
+                    }
+                }
+            ]
+        }
+        ,
+        ar: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "أين سيلتقيني السائق في مطار إزمير عدنان مندريس؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "سينتظرك سائقك عند بوابات الوصول في مطار إزمير عدنان مندريس (ADB)، حاملًا لافتة تحمل اسمك لسهولة التعرف عليه."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل أسعار سيارات الأجرة من مطار إزمير ثابتة؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، جميع أسعار سيارات الأجرة لدينا ثابتة بدون أي رسوم مخفية، مما يضمن أسعار شفافة وتنافسية."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل تقدمون إلغاء مجاني لخدمات النقل من مطار إزمير؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، يمكنك إلغاء حجزك مجانًا حتى 24 ساعة قبل الوصول."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "ما هي طرق الدفع التي تقبلونها؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نحن نقبل المدفوعات باليورو والجنيه الإسترليني والدولار الأمريكي والليرة التركية من خلال الدفع الآمن عبر الإنترنت."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل توفرون مقاعد للأطفال في خدمات النقل من مطار إزمير؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، نقدم مقاعد مجانية للأطفال في المركبات الخاصة التي تتسع لـ 8 و9 ركاب لضمان سلامة العائلات."
+                    }
+                }
+            ]
+        }
+        ,
+        zh: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "我的司机会在伊兹密尔阿德南·门德雷斯机场哪里接我？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "您的司机将在伊兹密尔阿德南·门德雷斯机场 (ADB) 到达门口等候，并举着写有您姓名的接机牌，以便识别。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "从伊兹密尔机场出发的出租车价格是固定的吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，提供透明且具有竞争力的价格。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您提供伊兹密尔机场接送的免费取消服务吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，您可以在抵达前 24 小时免费取消您的预订。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您接受哪些付款方式？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "我们接受欧元、英镑、美元和土耳其里拉的在线安全支付。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您是否为伊兹密尔机场接送提供儿童座椅？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们为 8 座和 9 座的私人车辆免费提供儿童座椅，以确保家庭旅客的安全。"
+                    }
+                }
+            ]
+        }
+
+    },
+    "/gazipasha-alanya-airport-taxi-prices": {
+        en: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Where will my driver meet me at Gazipaşa-Alanya Airport?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Your driver will meet you by the arrival gates at Gazipaşa-Alanya Airport (GZP), holding a passenger name board for easy identification."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are the taxi prices from Gazipaşa-Alanya Airport fixed?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, all our taxi prices are fixed with no hidden charges, ensuring transparent and competitive rates."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you offer free cancellations for Gazipaşa-Alanya Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What payment methods do you accept?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you provide child seats for Gazipaşa-Alanya Airport transfers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, we offer free child seats for 8 and 9-seater private vehicles to ensure safety for families."
+                    }
+                }
+            ]
+        }
+        ,
+        tr: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Sürücüm beni Gazipaşa-Alanya Havalimanı'nda nerede karşılayacak?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sürücünüz sizi Gazipaşa-Alanya Havalimanı (GZP) geliş kapılarında, üzerinde adınızın yazılı olduğu bir tabela ile karşılayacaktır."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Gazipaşa-Alanya Havalimanı'ndan taksi ücretleri sabit mi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, tüm taksi fiyatlarımız sabittir ve gizli ücretler yoktur, şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Gazipaşa-Alanya Havalimanı transferleri için ücretsiz iptal seçeneği sunuyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz iptal edebilirsiniz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ödemeleri Euro, GBP, ABD Doları ve Türk Lirası cinsinden güvenli çevrimiçi ödeme yöntemiyle kabul ediyoruz."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Gazipaşa-Alanya Havalimanı transferleri için çocuk koltuğu sağlıyor musunuz?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Evet, ailelerin güvenliği için 8 ve 9 kişilik özel araçlarımızda ücretsiz çocuk koltuğu sunuyoruz."
+                    }
+                }
+            ]
+        }
+        ,
+        ru: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Где меня встретит водитель в аэропорту Газипаша-Алания?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ваш водитель встретит вас у выхода для прибывающих пассажиров в аэропорту Газипаша-Алания (GZP), держа табличку с вашим именем для удобного опознания."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Фиксированные ли цены на такси из аэропорта Газипаша-Алания?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, все наши цены на такси фиксированы, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные тарифы."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы бесплатную отмену бронирования для трансферов из аэропорта Газипаша-Алания?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, вы можете отменить свое бронирование бесплатно за 24 часа до прибытия."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Какие способы оплаты вы принимаете?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасный онлайн-платеж."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Предоставляете ли вы детские сиденья для трансферов из аэропорта Газипаша-Алания?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Да, мы предоставляем бесплатные детские сиденья в частных автомобилях на 8 и 9 мест для обеспечения безопасности семей."
+                    }
+                }
+            ]
+        }
+        ,
+        es: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Gazipaşa-Alanya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Su conductor lo recibirá en las puertas de llegada del Aeropuerto de Gazipaşa-Alanya (GZP), sosteniendo un cartel con su nombre para una fácil identificación."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Los precios de los taxis desde el Aeropuerto de Gazipaşa-Alanya son fijos?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, todos nuestros precios de taxi son fijos y no tienen cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Ofrecen cancelaciones gratuitas para los traslados desde el Aeropuerto de Gazipaşa-Alanya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, puede cancelar su reserva sin costo hasta 24 horas antes de la llegada."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Qué métodos de pago aceptan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas a través de un pago seguro en línea."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "¿Proporcionan asientos para niños en los traslados desde el Aeropuerto de Gazipaşa-Alanya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sí, ofrecemos asientos para niños gratuitos en vehículos privados de 8 y 9 plazas para garantizar la seguridad de las familias."
+                    }
+                }
+            ]
+        }
+        ,
+        it: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Dove mi incontrerà il mio autista all'Aeroporto di Gazipaşa-Alanya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Il tuo autista ti aspetterà ai cancelli di arrivo dell'Aeroporto di Gazipaşa-Alanya (GZP), tenendo un cartello con il tuo nome per un facile riconoscimento."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "I prezzi dei taxi dall'Aeroporto di Gazipaşa-Alanya sono fissi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, tutti i nostri prezzi per i taxi sono fissi e senza costi nascosti, offrendo tariffe trasparenti e competitive."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Gazipaşa-Alanya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Quali metodi di pagamento accettate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Accettiamo pagamenti in Euro, Sterline britanniche, Dollari americani e Lire turche tramite pagamento online sicuro."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Fornite seggiolini per bambini nei trasferimenti dall'Aeroporto di Gazipaşa-Alanya?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, offriamo seggiolini per bambini gratuiti nei veicoli privati da 8 e 9 posti per garantire la sicurezza delle famiglie."
+                    }
+                }
+            ]
+        }
+        ,
+        ar: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "أين سيلتقيني السائق في مطار غازي باشا-ألانيا؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "سينتظرك سائقك عند بوابات الوصول في مطار غازي باشا-ألانيا (GZP)، حاملًا لافتة تحمل اسمك لسهولة التعرف عليه."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل أسعار سيارات الأجرة من مطار غازي باشا-ألانيا ثابتة؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، جميع أسعار سيارات الأجرة لدينا ثابتة بدون أي رسوم مخفية، مما يضمن أسعار شفافة وتنافسية."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل تقدمون إلغاء مجاني لخدمات النقل من مطار غازي باشا-ألانيا؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، يمكنك إلغاء حجزك مجانًا حتى 24 ساعة قبل الوصول."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "ما هي طرق الدفع التي تقبلونها؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نحن نقبل المدفوعات باليورو والجنيه الإسترليني والدولار الأمريكي والليرة التركية من خلال الدفع الآمن عبر الإنترنت."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "هل توفرون مقاعد للأطفال في خدمات النقل من مطار غازي باشا-ألانيا؟",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "نعم، نقدم مقاعد مجانية للأطفال في المركبات الخاصة التي تتسع لـ 8 و9 ركاب لضمان سلامة العائلات."
+                    }
+                }
+            ]
+        }
+        ,
+        zh: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "我的司机会在加济帕夏-阿拉尼亚机场哪里接我？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "您的司机将在加济帕夏-阿拉尼亚机场 (GZP) 到达门口等候，并举着写有您姓名的接机牌，以便识别。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "从加济帕夏-阿拉尼亚机场出发的出租车价格是固定的吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，提供透明且具有竞争力的价格。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您提供加济帕夏-阿拉尼亚机场接送的免费取消服务吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，您可以在抵达前 24 小时免费取消您的预订。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您接受哪些付款方式？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "我们接受欧元、英镑、美元和土耳其里拉的在线安全支付。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "您是否为加济帕夏-阿拉尼亚机场接送提供儿童座椅？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "是的，我们为 8 座和 9 座的私人车辆免费提供儿童座椅，以确保家庭旅客的安全。"
+                    }
+                }
+            ]
+        }
+
+    }
+
+}
+
+//*****************************************
+//*****************************************
+export const getMetaTagSingleAirportPage = (pathname, language, env) => {
+    const metaTagsData = metaTagSingleAirportPage(env); // Get all meta tag data
+    return metaTagsData[pathname]?.[language] || []; // Return the meta tags for the specific pathname and language
+};
+const metaTagSingleAirportPage = (env) => ({
+    "/istanbul-airport-taxi-prices": {
+        en: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Istanbul Airport Taxi Prices | Fixed & Private Transfers\">",
+            "<meta property=\"og:description\" content=\"Book a private taxi from Istanbul Airport (IST) with fixed prices, free meet & greet, and no hidden fees. Secure online booking & 24/7 customer support.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-taxi-prices\">`,
+            `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:title\" content=\"Istanbul Airport Taxi Prices | Fixed & Private Transfers\">",
+            "<meta name=\"twitter:description\" content=\"Book a private taxi from Istanbul Airport (IST) with fixed prices, free meet & greet, and no hidden fees. Secure online booking & 24/7 customer support.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+        ],
+        tr: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"İstanbul Havalimanı Taksi Fiyatları | Sabit ve Özel Transferler\">",
+            "<meta property=\"og:description\" content=\"İstanbul Havalimanı'ndan (IST) sabit fiyatlarla özel taksi rezervasyonu yapın, ücretsiz karşılama hizmeti ve gizli ücretler olmadan seyahat edin. Güvenli online rezervasyon ve 7/24 müşteri desteği.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-taxi-prices\">`,
+            `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:title\" content=\"İstanbul Havalimanı Taksi Fiyatları | Sabit ve Özel Transferler\">",
+            "<meta name=\"twitter:description\" content=\"İstanbul Havalimanı'ndan (IST) sabit fiyatlarla özel taksi rezervasyonu yapın, ücretsiz karşılama hizmeti ve gizli ücretler olmadan seyahat edin. Güvenli online rezervasyon ve 7/24 müşteri desteği.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+        ],
+        ru: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Цены на такси из аэропорта Стамбула | Фиксированные и частные трансферы\">",
+            "<meta property=\"og:description\" content=\"Закажите частное такси из аэропорта Стамбула (IST) по фиксированной цене, с бесплатной встречей и без скрытых платежей. Безопасное онлайн-бронирование и круглосуточная поддержка клиентов.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-taxi-prices\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:title\" content=\"Цены на такси из аэропорта Стамбула | Фиксированные и частные трансферы\">",
+            "<meta name=\"twitter:description\" content=\"Закажите частное такси из аэропорта Стамбула (IST) по фиксированной цене, с бесплатной встречей и без скрытых платежей. Безопасное онлайн-бронирование и круглосуточная поддержка клиентов.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+        ],
+        es: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Precios de taxi del aeropuerto de Estambul | Traslados privados y con tarifa fija\">",
+            "<meta property=\"og:description\" content=\"Reserve un taxi privado desde el aeropuerto de Estambul (IST) con tarifas fijas, servicio de bienvenida gratuito y sin cargos ocultos. Reserva en línea segura y atención al cliente 24/7.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-taxi-prices\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:title\" content=\"Precios de taxi del aeropuerto de Estambul | Traslados privados y con tarifa fija\">",
+            "<meta name=\"twitter:description\" content=\"Reserve un taxi privado desde el aeropuerto de Estambul (IST) con tarifas fijas, servicio de bienvenida gratuito y sin cargos ocultos. Reserva en línea segura y atención al cliente 24/7.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+        ],
+        it: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Prezzi taxi Aeroporto di Istanbul | Trasferimenti privati e a tariffa fissa\">",
+            "<meta property=\"og:description\" content=\"Prenota un taxi privato dall'Aeroporto di Istanbul (IST) con tariffe fisse, accoglienza gratuita e senza costi nascosti. Prenotazione online sicura e assistenza clienti 24/7.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-taxi-prices\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:title\" content=\"Prezzi taxi Aeroporto di Istanbul | Trasferimenti privati e a tariffa fissa\">",
+            "<meta name=\"twitter:description\" content=\"Prenota un taxi privato dall'Aeroporto di Istanbul (IST) con tariffe fisse, accoglienza gratuita e senza costi nascosti. Prenotazione online sicura e assistenza clienti 24/7.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+        ],
+        zh: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"伊斯坦布尔机场出租车价格 | 固定价格和私人接送\">",
+            "<meta property=\"og:description\" content=\"从伊斯坦布尔机场 (IST) 预订私人出租车，固定价格，免费迎接，无隐藏费用。安全的在线预订和 24/7 客户支持。\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-taxi-prices\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:title\" content=\"伊斯坦布尔机场出租车价格 | 固定价格和私人接送\">",
+            "<meta name=\"twitter:description\" content=\"从伊斯坦布尔机场 (IST) 预订私人出租车，固定价格，免费迎接，无隐藏费用。安全的在线预订和 24/7 客户支持。\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+        ],
+        ar: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"أسعار سيارات الأجرة في مطار إسطنبول | خدمات النقل الخاصة والثابتة\">",
+            "<meta property=\"og:description\" content=\"احجز سيارة أجرة خاصة من مطار إسطنبول (IST) بأسعار ثابتة، مع استقبال مجاني وبدون رسوم مخفية. حجز آمن عبر الإنترنت ودعم العملاء على مدار الساعة طوال أيام الأسبوع.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-taxi-prices\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:title\" content=\"أسعار سيارات الأجرة في مطار إسطنبول | خدمات النقل الخاصة والثابتة\">",
+            "<meta name=\"twitter:description\" content=\"احجز سيارة أجرة خاصة من مطار إسطنبول (IST) بأسعار ثابتة، مع استقبال مجاني وبدون رسوم مخفية. حجز آمن عبر الإنترنت ودعم العملاء على مدار الساعة طوال أيام الأسبوع.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
+        ],
+    },
+    "/sabiha-gokcen-airport-taxi-prices": {
+        en: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Fethiye Oludeniz Boat Tour – Explore the Blue Lagoon\">",
+            "<meta property=\"og:description\" content=\"Embark on the Fethiye Oludeniz Boat Tour and sail through turquoise waters, discover hidden bays, and relax in the breathtaking Blue Lagoon of Turkey’s coastline.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Fethiye Oludeniz Boat Tour – A Scenic Coastal Adventure\">",
+            "<meta name=\"twitter:description\" content=\"Sail through the crystal-clear waters of Oludeniz on this unforgettable boat tour. Swim in hidden bays, explore the Blue Lagoon, and enjoy the stunning Turkish coastline.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ru: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Лодочный тур по Фетхие и Олюдениз – Исследуйте Голубую Лагуну\">",
+            "<meta property=\"og:description\" content=\"Отправьтесь в увлекательное путешествие на лодке по Фетхие и Олюдениз. Насладитесь бирюзовыми водами, исследуйте скрытые бухты и расслабьтесь в живописной Голубой Лагуне Турции\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Лодочный тур по Фетхие и Олюдениз – Живописное приключение на побережье\">",
+            "<meta name=\"twitter:description\" content=\"Проплывите по кристально чистым водам Олюдениз в этом незабываемом туре. Откройте для себя уединенные бухты, насладитесь Голубой Лагуной и полюбуйтесь потрясающими видами турецкого побережья.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        tr: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Fethiye Ölüdeniz Tekne Turu – Mavi Lagün’ü Keşfedin\">",
+            "<meta property=\"og:description\" content=\"Fethiye Ölüdeniz Tekne Turu ile unutulmaz bir yolculuğa çıkın. Turkuaz suların üzerinde süzülün, gizli koyları keşfedin ve Türkiye’nin muhteşem Mavi Lagünü'nde dinlenin.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Fethiye Ölüdeniz Tekne Turu – Muhteşem Bir Sahil Macerası\">",
+            "<meta name=\"twitter:description\" content=\"Ölüdeniz’in berrak sularında keyifli bir tekne turuna çıkın. Gizli koyları keşfedin, Mavi Lagün’ün tadını çıkarın ve eşsiz Türk sahil manzaralarının keyfini sürün\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        es: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Tour en barco por Fethiye y Oludeniz – Explora la Laguna Azul\">",
+            "<meta property=\"og:description\" content=\"Embárcate en un increíble tour en barco por Fethiye y Oludeniz. Navega por aguas turquesas, descubre bahías ocultas y relájate en la hermosa Laguna Azul de Turquía.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Tour en barco por Fethiye y Oludeniz – Una aventura costera espectacular\">",
+            "<meta name=\"twitter:description\" content=\"Navega por las aguas cristalinas de Oludeniz en este inolvidable tour en barco. Descubre bahías escondidas, disfruta de la Laguna Azul y relájate con las impresionantes vistas de la costa turca.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        it: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Tour in barca a Fethiye e Oludeniz – Esplora la Laguna Blu\">",
+            "<meta property=\"og:description\" content=\"Parti per un incredibile tour in barca a Fethiye e Oludeniz. Naviga nelle acque turchesi, scopri baie nascoste e rilassati nella splendida Laguna Blu della Turchia.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Tour in barca a Fethiye e Oludeniz – Un'avventura costiera indimenticabile\">",
+            "<meta name=\"twitter:description\" content=\"Naviga nelle acque cristalline di Oludeniz in questo tour in barca imperdibile. Scopri baie segrete, ammira la Laguna Blu e goditi panorami mozzafiato della costa turca.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        zh: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"费特希耶和厄吕代尼兹游船之旅 – 探索蓝色泻湖\">",
+            "<meta property=\"og:description\" content=\"踏上令人惊叹的费特希耶和厄吕代尼兹游船之旅。畅游碧蓝海水，探索隐藏海湾，在土耳其美丽的蓝色泻湖中放松身心。\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"费特希耶和厄吕代尼兹游船之旅 – 绝美海岸探险\">",
+            "<meta name=\"twitter:description\" content=\"乘坐游船穿越厄吕代尼兹的清澈海水，探索神秘海湾，欣赏蓝色泻湖，并沉浸在土耳其海岸的壮丽风景中。\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ar: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-oludeniz-boat-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"جولة بالقارب في فتحية وأولودينيز – استكشف البحيرة الزرقاء\">",
+            "<meta property=\"og:description\" content=\"انطلق في رحلة رائعة بالقارب في فتحية وأولودينيز. أبحر في المياه الفيروزية، واكتشف الخلجان المخفية، واستمتع بالاسترخاء في البحيرة الزرقاء الساحرة في تركيا.。\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-oludeniz-boat-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"جولة بالقارب في فتحية وأولودينيز – مغامرة ساحلية لا تُنسى\">",
+            "<meta name=\"twitter:description\" content=\"أبحر عبر المياه الصافية لأولودينيز في هذه الجولة البحرية الرائعة. استكشف الخلجان المخفية، واستمتع بالبحيرة الزرقاء، وتأمل جمال الساحل التركي الخلاب。\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+    },
+    "/dalaman-airport-taxi-prices": {
+        en: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Fethiye Quad Bike Safari – Off-Road Adventure in Nature\">",
+            "<meta property=\"og:description\" content=\"Experience the thrill of an off-road adventure with the Fethiye Quad Bike Safari. Ride through dusty trails, forests, and scenic landscapes for an unforgettable adrenaline rush.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Fethiye Quad Bike Safari – Ride Through Stunning Landscapes\">",
+            "<meta name=\"twitter:description\" content=\"Join the Fethiye Quad Bike Safari for an exciting off-road experience. Explore rugged terrains, enjoy breathtaking views, and feel the adrenaline rush of adventure.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ru: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Сафари на квадроциклах в Фетхие – Внедорожное приключение в природе\">",
+            "<meta property=\"og:description\" content=\"Испытайте азарт внедорожного приключения с сафари на квадроциклах в Фетхие. Прокатитесь по пыльным тропам, лесам и живописным ландшафтам для незабываемого выброса адреналина.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Сафари на квадроциклах в Фетхие – Прокатитесь по потрясающим пейзажам\">",
+            "<meta name=\"twitter:description\" content=\"Присоединяйтесь к сафари на квадроциклах в Фетхие для захватывающего внедорожного приключения. Исследуйте пересеченную местность, наслаждайтесь потрясающими видами и почувствуйте прилив адреналина.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        tr: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Fethiye ATV Safari – Doğada Heyecan Dolu Bir Macera\">",
+            "<meta property=\"og:description\" content=\"Fethiye ATV Safari ile doğada heyecan dolu bir macera yaşayın. Tozlu yollar, ormanlar ve etkileyici manzaralar eşliğinde unutulmaz bir adrenalin deneyimi sizi bekliyor.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Fethiye ATV Safari – Muhteşem Manzaralar Eşliğinde Sürüş Keyfi\">",
+            "<meta name=\"twitter:description\" content=\"Fethiye ATV Safari ile unutulmaz bir off-road deneyimi yaşayın. Engebeli arazileri keşfedin, nefes kesen manzaralara tanık olun ve adrenalin dolu bir maceraya atılın..\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        es: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Safari en quad en Fethiye – Aventura todoterreno en la naturaleza\">",
+            "<meta property=\"og:description\" content=\"Vive la emoción de una aventura todoterreno con el Safari en quad en Fethiye. Recorre caminos polvorientos, bosques y paisajes impresionantes para una descarga de adrenalina inolvidable.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Safari en quad en Fethiye – Conduce por paisajes impresionantes\">",
+            "<meta name=\"twitter:description\" content=\"Únete al Safari en quad en Fethiye para una emocionante aventura todoterreno. Explora terrenos accidentados, disfruta de vistas espectaculares y siente la adrenalina en cada recorrido.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        it: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Safari in quad a Fethiye – Avventura fuoristrada nella natura\">",
+            "<meta property=\"og:description\" content=\"Vivi l'emozione di un'avventura fuoristrada con il Safari in quad a Fethiye. Attraversa sentieri polverosi, foreste e paesaggi mozzafiato per un'esperienza adrenalinica indimenticabile.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Safari in quad a Fethiye – Guida tra paesaggi spettacolari\">",
+            "<meta name=\"twitter:description\" content=\"Partecipa al Safari in quad a Fethiye per un'incredibile avventura off-road. Esplora terreni accidentati, ammira viste mozzafiato e lasciati travolgere dall’adrenalina.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        zh: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"费特希耶四轮摩托探险 – 穿越自然的越野冒险\">",
+            "<meta property=\"og:description\" content=\"体验费特希耶四轮摩托探险带来的越野刺激。驰骋于尘土飞扬的小径、森林和壮丽的景观，享受难忘的肾上腺素飙升之旅。\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"费特希耶四轮摩托探险 – 穿越壮丽景观\">",
+            "<meta name=\"twitter:description\" content=\"加入费特希耶四轮摩托探险，体验令人兴奋的越野之旅。探索崎岖地形，欣赏壮丽景色，感受肾上腺素飙升的快感。\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ar: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/fethiye-quad-bike-safari-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"سفاري الدراجات الرباعية في فتحية – مغامرة برية وسط الطبيعة\">",
+            "<meta property=\"og:description\" content=\"استمتع بتجربة مثيرة مع سفاري الدراجات الرباعية في فتحية. انطلق عبر المسارات الترابية، والغابات، والمناظر الطبيعية الخلابة في مغامرة لا تُنسى مليئة بالإثارة.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/fethiye-quad-bike-safari-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"سفاري الدراجات الرباعية في فتحية – جولة عبر مناظر خلابة\">",
+            "<meta name=\"twitter:description\" content=\"انضم إلى سفاري الدراجات الرباعية في فتحية لتجربة مثيرة مليئة بالمغامرات. استكشف التضاريس الوعرة، واستمتع بالمناظر الخلابة، وشعر بإثارة المغامرة على الطرق الوعرة.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+    },
+    "/antalya-airport-taxi-prices": {
+        en: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Istanbul Bosphorus Dinner Cruise – A Night to Remember\">",
+            "<meta property=\"og:description\" content=\"Enjoy a luxurious evening on the Istanbul Bosphorus Dinner Cruise. Savor a delicious meal, watch live entertainment, and admire breathtaking views of Istanbul’s skyline.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Istanbul Bosphorus Dinner Cruise – A Night to Remember\">",
+            "<meta name=\"twitter:description\" content=\"Experience an unforgettable night on the Bosphorus with fine dining, live music, and stunning city views. Book your Istanbul Bosphorus Dinner Cruise today!\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ru: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Ужин-круиз по Босфору в Стамбуле – Волшебный вечер на воде\">",
+            "<meta property=\"og:description\" content=\"Насладитесь роскошным ужином-круизом по Босфору в Стамбуле. Попробуйте изысканные блюда, наслаждайтесь живой музыкой и полюбуйтесь великолепными видами на ночной город.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Ужин-круиз по Босфору в Стамбуле – Незабываемая ночь\">",
+            "<meta name=\"twitter:description\" content=\"Проведите незабываемую ночь на Босфоре с ужином, живой музыкой и потрясающими видами на город. Забронируйте ужин-круиз в Стамбуле уже сегодня!\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        tr: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"İstanbul Boğazı Akşam Yemeği Turu – Suyun Üzerinde Büyüleyici Bir Gece\">",
+            "<meta property=\"og:description\" content=\"İstanbul Boğazı Akşam Yemeği Turu ile unutulmaz bir gece yaşayın. Lezzetli bir akşam yemeğinin tadını çıkarın, canlı müzik dinleyin ve İstanbul’un eşsiz manzarasının keyfini sürün.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"İstanbul Boğazı Akşam Yemeği Turu – Unutulmaz Bir Gece\">",
+            "<meta name=\"twitter:description\" content=\"Boğaz’da muhteşem bir akşam yemeği turuna katılın. Lezzetli yemekler, canlı müzik ve büyüleyici İstanbul manzarası ile rüya gibi bir gece yaşayın!\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        es: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Crucero con Cena por el Bósforo en Estambul – Una Noche Mágica en el Agua\">",
+            "<meta property=\"og:description\" content=\"Disfruta de una noche de lujo en el Crucero con Cena por el Bósforo en Estambul. Saborea una deliciosa cena, disfruta de espectáculos en vivo y admira las impresionantes vistas del horizonte de Estambul.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Crucero con Cena por el Bósforo en Estambul – Una Noche Inolvidable\">",
+            "<meta name=\"twitter:description\" content=\"Vive una noche inolvidable en el Bósforo con una cena exquisita, música en vivo y vistas espectaculares de la ciudad. ¡Reserva tu crucero con cena por Estambul hoy!\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        it: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Crociera con Cena sul Bosforo a Istanbul – Una Sera Magica sull’Acqua\">",
+            "<meta property=\"og:description\" content=\"Goditi una serata di lusso con la Crociera con Cena sul Bosforo a Istanbul. Assapora una cena deliziosa, assisti a spettacoli dal vivo e ammira il magnifico skyline della città.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Crociera con Cena sul Bosforo a Istanbul – Una Notte Indimenticabile\">",
+            "<meta name=\"twitter:description\" content=\"Vivi un’esperienza unica con la Crociera con Cena sul Bosforo. Cena raffinata, musica dal vivo e una vista spettacolare sulla città ti aspettano. Prenota ora!\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        zh: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"伊斯坦布尔博斯普鲁斯晚餐游船 – 水上的梦幻之夜\">",
+            "<meta property=\"og:description\" content=\"在伊斯坦布尔博斯普鲁斯晚餐游船上享受豪华夜晚。品尝美味佳肴，观看现场表演，并欣赏壮丽的城市天际线景色。\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"伊斯坦布尔博斯普鲁斯晚餐游船 – 难忘的夜晚体验\">",
+            "<meta name=\"twitter:description\" content=\"在博斯普鲁斯夜游船上度过难忘的夜晚。精致晚餐、现场音乐和壮丽的城市景色等你来体验！立即预订吧！\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ar: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"رحلة عشاء بحرية في مضيق البوسفور بإسطنبول – ليلة ساحرة على الماء\">",
+            "<meta property=\"og:description\" content=\"استمتع بأمسية فاخرة في رحلة العشاء البحرية بمضيق البوسفور في إسطنبول. تذوق أشهى الأطباق، واستمتع بالعروض الحية، وتأمل أروع إطلالات المدينة.。\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-dinner-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"رحلة عشاء بحرية في مضيق البوسفور – ليلة لا تُنسى\">",
+            "<meta name=\"twitter:description\" content=\"اقضِ ليلة لا تُنسى على متن رحلة العشاء البحرية في البوسفور، حيث الطعام الفاخر والموسيقى الحية والمناظر الخلابة للمدينة. احجز الآن!\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+    },
+    "/bodrum-milas-airport-taxi-prices": {
+        en: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Istanbul Bosphorus Lunch Cruise – A Scenic Daytime Voyage\">",
+            "<meta property=\"og:description\" content=\"Sail through the iconic Bosphorus Strait with the Istanbul Bosphorus Lunch Cruise. Enjoy a delicious meal while admiring panoramic views of Istanbul’s stunning skyline and historic landmarks.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Istanbul Bosphorus Lunch Cruise – Relax & Dine with a View\">",
+            "<meta name=\"twitter:description\" content=\"Enjoy a relaxing lunch cruise on the Bosphorus. Savor Turkish delicacies while taking in breathtaking views of Istanbul’s waterfront and historical sights.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ru: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Обеденный круиз по Босфору в Стамбуле – Живописное дневное путешествие\">",
+            "<meta property=\"og:description\" content=\"Отправьтесь в незабываемый круиз по знаменитому проливу Босфор. Наслаждайтесь вкусным обедом с панорамными видами на захватывающий городской пейзаж и исторические достопримечательности Стамбула.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Обеденный круиз по Босфору – Расслабьтесь и насладитесь прекрасным видом\">",
+            "<meta name=\"twitter:description\" content=\"Насладитесь расслабляющим круизом по Босфору с обедом. Откройте для себя турецкие деликатесы и полюбуйтесь великолепными видами на город и его исторические достопримечательности.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        tr: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"İstanbul Boğazı Öğle Yemeği Turu – Manzaralı Bir Yolculuk\">",
+            "<meta property=\"og:description\" content=\"İstanbul Boğazı'nda unutulmaz bir öğle yemeği turuna çıkın. Lezzetli yemeklerin tadını çıkarırken, İstanbul’un tarihi simgeleri ve eşsiz manzarası eşliğinde huzurlu bir yolculuk yapın.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"İstanbul Boğazı Öğle Yemeği Turu – Manzara Eşliğinde Lezzet\">",
+            "<meta name=\"twitter:description\" content=\"Boğaz’da huzurlu bir öğle yemeği turuna katılın. Türk mutfağının lezzetlerini tadarken İstanbul’un büyüleyici sahil şeridini ve tarihi yapıları keşfedin.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        es: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Crucero con Almuerzo por el Bósforo – Un Viaje Escénico de Día\">",
+            "<meta property=\"og:description\" content=\"Disfruta de un almuerzo inolvidable en un crucero por el Bósforo. Saborea la deliciosa comida mientras contemplas las impresionantes vistas del horizonte y los monumentos históricos de Estambul.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Crucero con Almuerzo por el Bósforo – Relájate y Disfruta la Vista\">",
+            "<meta name=\"twitter:description\" content=\"Relájate en un crucero por el Bósforo mientras disfrutas de un almuerzo exquisito. Explora la belleza del Estambul histórico con vistas panorámicas impresionantes.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        it: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Crociera con Pranzo sul Bosforo – Un Viaggio Panoramico di Giorno\">",
+            "<meta property=\"og:description\" content=\"Goditi un pranzo indimenticabile durante una crociera sul Bosforo. Assapora deliziosi piatti turchi mentre ammiri lo straordinario skyline e i monumenti storici di Istanbul.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Crociera con Pranzo sul Bosforo – Rilassati e Ammira la Vista\">",
+            "<meta name=\"twitter:description\" content=\"Rilassati in una crociera panoramica sul Bosforo mentre gusti un delizioso pranzo. Scopri la bellezza storica di Istanbul con viste mozzafiato.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        zh: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"伊斯坦布尔博斯普鲁斯午餐游船 – 享受白天的壮丽航程\">",
+            "<meta property=\"og:description\" content=\"乘坐伊斯坦布尔博斯普鲁斯午餐游船，享受一顿难忘的午餐。品尝美味的土耳其菜肴，同时欣赏壮丽的城市天际线和历史遗迹。\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"伊斯坦布尔博斯普鲁斯午餐游船 – 享受美食与壮观景色\">",
+            "<meta name=\"twitter:description\" content=\"在博斯普鲁斯享受宁静的午餐游船。品尝地道的土耳其美食，同时欣赏伊斯坦布尔历史遗迹的壮丽景观。\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ar: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"رحلة غداء بحرية في مضيق البوسفور بإسطنبول – رحلة نهارية ساحرة\">",
+            "<meta property=\"og:description\" content=\"استمتع برحلة غداء رائعة على متن رحلة بحرية في مضيق البوسفور بإسطنبول. تذوق أشهى المأكولات التركية أثناء الاستمتاع بإطلالات بانورامية على أفق المدينة ومعالمها التاريخية.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-bosphorus-lunch-cruise\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"رحلة غداء بحرية في مضيق البوسفور – استمتع بالطعام والمناظر الخلابة\">",
+            "<meta name=\"twitter:description\" content=\"انضم إلى رحلة غداء مميزة في البوسفور، حيث يمكنك تذوق المأكولات التركية اللذيذة أثناء تأمل المناظر الخلابة للمدينة ومعالمها التاريخية.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+    },
+    "/izmir-adnan-menderes-airport-taxi-prices": {
+
+
+        en: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Istanbul Full-Day Tour – Explore the City’s Iconic Landmarks\">",
+            "<meta property=\"og:description\" content=\"Discover the rich history and vibrant culture of Istanbul with a full-day city tour. Visit famous landmarks, explore historic sites, and experience the unique charm of this incredible city.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-full-day-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Istanbul Full-Day Tour – A Journey Through Time and Culture\">",
+            "<meta name=\"twitter:description\" content=\"Explore Istanbul’s most iconic attractions in a full-day tour. Visit the Hagia Sophia, Blue Mosque, Grand Bazaar, and more while immersing yourself in the city's rich heritage .\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ru: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Полнодневный тур по Стамбулу – Исследуйте знаковые достопримечательности\">",
+            "<meta property=\"og:description\" content=\"Откройте для себя богатую историю и уникальную культуру Стамбула во время полнодневного тура по городу. Посетите известные достопримечательности, исторические места и почувствуйте атмосферу этого удивительного города.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-full-day-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Полнодневный тур по Стамбулу – Путешествие во времени и культуре\">",
+            "<meta name=\"twitter:description\" content=\"Посетите самые знаковые достопримечательности Стамбула за один день. Айя-София, Голубая мечеть, Гранд базар и многое другое ждут вас в этом незабываемом путешествии.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        tr: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"İstanbul Tam Günlük Tur – Şehrin Tarihi ve Kültürünü Keşfedin\">",
+            "<meta property=\"og:description\" content=\"İstanbul’un zengin tarihini ve büyüleyici kültürünü keşfetmek için tam günlük bir şehir turuna katılın. Ayasofya, Sultanahmet Camii, Kapalıçarşı ve daha birçok tarihi noktayı ziyaret edin.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-full-day-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"İstanbul Tam Günlük Tur – Tarih ve Kültürle Dolu Bir Yolculuk\">",
+            "<meta name=\"twitter:description\" content=\"İstanbul’un en ikonik yerlerini tam günlük bir turla keşfedin. Ayasofya, Sultanahmet Camii, Kapalıçarşı ve daha fazlasını ziyaret ederek şehrin tarihine tanıklık edin.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        es: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Tour de Día Completo por Estambul – Explora los Monumentos Icónicos\">",
+            "<meta property=\"og:description\" content=\"Descubre la rica historia y la vibrante cultura de Estambul con un tour de día completo. Visita monumentos famosos, explora sitios históricos y sumérgete en el encanto único de esta increíble ciudad.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-full-day-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Tour de Día Completo por Estambul – Un Viaje en el Tiempo y la Cultura\">",
+            "<meta name=\"twitter:description\" content=\"Explora los monumentos más icónicos de Estambul en un tour de día completo. Visita Santa Sofía, la Mezquita Azul, el Gran Bazar y mucho más mientras descubres la historia de la ciudad.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        it: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Tour di un Giorno Intero a Istanbul – Esplora i Monumenti Iconici\">",
+            "<meta property=\"og:description\" content=\"Scopri la ricca storia e la cultura vibrante di Istanbul con un tour di un giorno intero. Visita i monumenti più famosi, esplora i siti storici e lasciati affascinare dal fascino unico di questa incredibile città.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-full-day-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Tour di un Giorno Intero a Istanbul – Un Viaggio nella Storia e nella Cultura\">",
+            "<meta name=\"twitter:description\" content=\"Esplora le attrazioni più iconiche di Istanbul in un tour di un giorno intero. Visita Santa Sofia, la Moschea Blu, il Grand Bazaar e molto altro mentre scopri la storia della città.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        zh: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"伊斯坦布尔一日游 – 探索标志性地标\">",
+            "<meta property=\"og:description\" content=\"通过伊斯坦布尔一日游，探索这座城市丰富的历史和文化魅力。游览著名的地标，参观历史遗址，感受这座迷人城市的独特魅力。\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-full-day-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"伊斯坦布尔一日游 – 穿越历史与文化的旅程\">",
+            "<meta name=\"twitter:description\" content=\"在伊斯坦布尔一日游中探索这座城市最具代表性的景点。游览圣索菲亚大教堂、蓝色清真寺、大巴扎等历史遗迹，沉浸在这座城市的辉煌历史中。\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ar: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/istanbul-full-day-tour\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/istanbul-full-day-tour\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"جولة يوم كامل في إسطنبول – استكشف المعالم الأثرية الشهيرة\">",
+            "<meta property=\"og:description\" content=\"اكتشف التاريخ العريق والثقافة النابضة بالحياة في إسطنبول من خلال جولة يوم كامل. زر المعالم الشهيرة، استكشف المواقع التاريخية، واستمتع بسحر هذه المدينة المذهلة.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/istanbul-full-day-tour\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"جولة يوم كامل في إسطنبول – رحلة عبر الزمن والثقافة\">",
+            "<meta name=\"twitter:description\" content=\"استكشف أشهر معالم إسطنبول من خلال جولة يوم كامل. قم بزيارة آيا صوفيا، المسجد الأزرق، السوق الكبير، والمزيد بينما تغوص في تاريخ المدينة العريق.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+    },
+    "/gazipasha-alanya-airport-taxi-prices": {
+        en: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Paragliding in Fethiye Oludeniz – Soar Above the Blue Lagoon\">",
+            "<meta property=\"og:description\" content=\"Experience the thrill of paragliding over Fethiye Oludeniz! Enjoy breathtaking aerial views of the Blue Lagoon as you glide through the sky in this unforgettable adventure.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Paragliding in Fethiye Oludeniz – A Sky-High Adventure Awaits\">",
+            "<meta name=\"twitter:description\" content=\"Take off from Babadağ Mountain and experience the ultimate paragliding adventure over Oludeniz. Fly high above the Blue Lagoon and enjoy the thrill of free flight.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ru: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Параглайдинг в Фетхие Олюдениз – Парите над Голубой Лагуной\">",
+            "<meta property=\"og:description\" content=\"Ощутите настоящий адреналин, полетая на параплане над Фетхие Олюдениз! Насладитесь захватывающими видами Голубой Лагуны с высоты птичьего полета.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Параглайдинг в Фетхие Олюдениз – Невероятное приключение в небе\">",
+            "<meta name=\"twitter:description\" content=\"Стартуйте с горы Бабадаг и испытайте незабываемый полет на параплане над Олюдениз. Ощутите свободу полета и насладитесь красотой природы с высоты\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        tr: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Fethiye Ölüdeniz Yamaç Paraşütü – Mavi Lagün’ün Üzerinde Uçun\">",
+            "<meta property=\"og:description\" content=\"Fethiye Ölüdeniz’de yamaç paraşütü yaparak adrenalin dolu bir deneyim yaşayın! Mavi Lagün’ün eşsiz manzarasına gökyüzünden bakarken özgürlüğü hissedin.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Fethiye Ölüdeniz Yamaç Paraşütü – Gökyüzünde Heyecan Dolu Bir Macera\">",
+            "<meta name=\"twitter:description\" content=\"Babadağ Dağı’ndan havalanın ve Ölüdeniz’in muhteşem manzarasında yamaç paraşütü yapmanın tadını çıkarın. Bu eşsiz macerayı kaçırmayın\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        es: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Parapente en Fethiye Oludeniz – Vuela Sobre la Laguna Azul\">",
+            "<meta property=\"og:description\" content=\"Vive la emoción del parapente en Fethiye Oludeniz. Disfruta de impresionantes vistas aéreas de la Laguna Azul mientras vuelas por los cielos en esta aventura inolvidable.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Parapente en Fethiye Oludeniz – Una Aventura en el Cielo\">",
+            "<meta name=\"twitter:description\" content=\"Despega desde la montaña Babadağ y experimenta la aventura definitiva del parapente sobre Oludeniz. Vuela alto sobre la Laguna Azul y siente la emoción del vuelo libre.\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        it: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"Parapendio a Fethiye Oludeniz – Vola sopra la Laguna Blu\">",
+            "<meta property=\"og:description\" content=\"Vivi l'emozione del parapendio sopra Fethiye Oludeniz! Ammira viste mozzafiato della Laguna Blu mentre voli nel cielo in un'avventura indimenticabile.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"Parapendio a Fethiye Oludeniz – Un'Avventura nel Cielo\">",
+            "<meta name=\"twitter:description\" content=\"Decolla dal Monte Babadağ e prova l'emozione del parapendio su Oludeniz. Vola alto sopra la Laguna Blu e goditi l'incredibile esperienza del volo libero\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        zh: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"费特希耶厄吕代尼兹滑翔伞 – 飞越蓝色泻湖\">",
+            "<meta property=\"og:description\" content=\"体验在费特希耶厄吕代尼兹上空滑翔伞的刺激！俯瞰蓝色泻湖的壮丽景色，在这次难忘的冒险中自由翱翔于天空。\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"费特希耶厄吕代尼兹滑翔伞 – 一场空中的奇妙冒险\">",
+            "<meta name=\"twitter:description\" content=\"从巴巴达山起飞，体验终极滑翔伞之旅。翱翔在蓝色泻湖上空，感受自由飞行的惊险刺激\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+        ar: [
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"en\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ar\" href=\"${env.websiteDomain}/ar/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"es\" href=\"${env.websiteDomain}/es/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"it\" href=\"${env.websiteDomain}/it/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"ru\" href=\"${env.websiteDomain}/ru/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"zh\" href=\"${env.websiteDomain}/zh/tours/paragliding-fethiye-oludeniz\" />`,
+            `<link rel=\"alternate\" hreflang=\"x-default\" href=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\" />`,
+            "<meta property=\"og:type\" content=\"website\">",
+            "<meta property=\"og:title\" content=\"القفز بالمظلات في فتحية أولودينيز – حلق فوق البحيرة الزرقاء\">",
+            "<meta property=\"og:description\" content=\"استمتع بتجربة القفز بالمظلات المثيرة فوق فتحية أولودينيز! استمتع بالمناظر الجوية الخلابة للبحيرة الزرقاء بينما تحلق في السماء في مغامرة لا تُنسى.\">",
+            `<meta property=\"og:url\" content=\"${env.websiteDomain}/tours/paragliding-fethiye-oludeniz\">`,
+            `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta property=\"og:site_name\" content=\"Istanbul APL Transfers\">",
+            "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "<meta name=\"twitter:site\" content=\"@Istanbul_APL_Transfers\">",
+            "<meta name=\"twitter:title\" content=\"القفز بالمظلات في فتحية أولودينيز – مغامرة جوية لا مثيل لها\">",
+            "<meta name=\"twitter:description\" content=\"انطلق من جبل باباداغ واستمتع بأروع مغامرة للقفز بالمظلات فوق أولودينيز. حلق فوق البحيرة الزرقاء واستمتع بالإثارة المطلقة للطيران الحر!\">",
+            `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
+            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
+            "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
+            "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
+        ],
+    },
+
+})
