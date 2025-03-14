@@ -16,7 +16,7 @@ import { parseCookies } from "../helpers/cokieesFunc";
 import { checkLanguageAttributeOntheUrl } from "../helpers/checkLanguageAttributeOntheUrl";
 import { adjustPathnameForLanguage } from "../helpers/adjustedPageLanguage";
 import LinkNameDescription from "../components/elements/LinkNameDescription";
-import { getAirportPageContentByPathname, getMetaTagSingleAirportPage, getSingleAirportSchemaByPathname } from "../constants/keywordsAndContents/airportsKeywordsContentSchema";
+import { getAirportPageContentByPathname, getMetaTagSingleAirportPage, getSingleAirportSchemaByPathname, getSinglekeywordsTitleAirportPage } from "../constants/keywordsAndContents/airportsKeywordsContentSchema";
 import Head from "next/head";
 import { createMetaTagElementsClientSide, renderSchemaScriptsClientSide } from "../helpers/schemaMetaTagHelper";
 
@@ -31,7 +31,7 @@ const NavbarLinkName = (props) => {
 
     // If server-side validation fails (data is "not found"), render the 404 page
     if (data === "not found") return <Error404 />;
-    let { pageContent, schemas, metaTags } = data
+    let { pageContent, schemas, metaTags, keywords, headTitle, metaDescription } = data
 
     useEffect(() => {
         // If not a "Quotation" link, find the matching item and update Redux state
@@ -44,7 +44,7 @@ const NavbarLinkName = (props) => {
 
     // Render the main layout and components if validation passes
     return (isItQuationLink ? <>Quotation Link </> :
-        <GlobalLayout>
+        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
             <Head>
                 {createMetaTagElementsClientSide(metaTags)}
                 {renderSchemaScriptsClientSide(schemas)}
@@ -69,9 +69,10 @@ const handleStandartContent = (params = {}) => {
     const pageContent = getAirportPageContentByPathname(pathname, language);
     const schemas = [getSingleAirportSchemaByPathname(pathname, language)]
     const metaTags = getMetaTagSingleAirportPage(pathname, language, env);
+    const { keywords, headTitle, metaDescription } = getSinglekeywordsTitleAirportPage(pathname, language);
 
 
-    let data = { pageContent, schemas, metaTags }
+    let data = { pageContent, schemas, metaTags, keywords, headTitle, metaDescription }
     return { props: { data, isItQuationLink, } }
 }
 const handleQuotationLink = (params = {}) => {
