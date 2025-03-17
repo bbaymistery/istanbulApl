@@ -46,13 +46,7 @@
     content: "\f105"
 }
 
-.fa-angle-left:before {
-    content: "\f104"
-}
 
-.fa-arrow-right:before {
-    content: "\f061"
-}
 
 .fa-times:before {
     content: "\f00d"
@@ -84,17 +78,13 @@
 .fa-clock:before {
     content: "\f017"
 }
-.fa-comment:before {
-    content: "\f075"
-}
+
 
 .fa-user:before {
     content: "\f007"
 }
 
-.fa-headphones:before {
-    content: "\f025"
-}
+
 
 .fa-arrow-right:before {
     content: "\f061"

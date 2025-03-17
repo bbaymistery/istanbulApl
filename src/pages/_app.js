@@ -189,8 +189,8 @@ MyApp.getInitialProps = wrapper.getInitialAppProps((store) => async ({ Component
   let appDataInitial = store.getState().initialReducer?.appData
   let paymentTypesInitial = store.getState().initialReducer?.paymentTypes
   // Pathname kontrolü
-  const excludePaths = ['/news', '/blog'];
-  const isExcluded = excludePaths.some((path) => ctx?.req?.url.toLowerCase().startsWith(path));
+  // const excludePaths = ['/news', '/blog'];
+  // const isExcluded = excludePaths.some((path) => ctx?.req?.url.toLowerCase().startsWith(path));
 
   // Fetch app data and payment types
   if (ctx?.req?.url) {
@@ -206,21 +206,21 @@ MyApp.getInitialProps = wrapper.getInitialAppProps((store) => async ({ Component
     appDataInitial = response[0];
     paymentTypesInitial = response[0].paymentTypes;
 
-    if (isExcluded) {
-      // Eğer rota /News veya /blog ile başlıyorsa verileri null yap
-      store.dispatch({ type: "GET_APP_DATA", data: { appData: null, paymentTypes: null, } });
-    } else {
-      // Dispatch values to Redux store
-      store.dispatch({ type: "GET_APP_DATA", data: { appData: appDataInitial, paymentTypes: paymentTypesInitial, } });
-    }
+    // if (isExcluded) {
+    //   // Eğer rota /News veya /blog ile başlıyorsa verileri null yap
+    //   store.dispatch({ type: "GET_APP_DATA", data: { appData: null, paymentTypes: null, } });
+    // } else {
+    //   // Dispatch values to Redux store
+    // }
+    store.dispatch({ type: "GET_APP_DATA", data: { appData: appDataInitial, paymentTypes: paymentTypesInitial, } });
 
   }
 
-  if (isExcluded) {
-    pageProps = { hasLanguage: "en", appData: null, paymentTypes: null, }
-  } else {
-    pageProps = { appData: appDataInitial, hasLanguage: lang || "en", env, }
-  }
+  // if (isExcluded) {
+  //   pageProps = { hasLanguage: "en", appData: null, paymentTypes: null, }
+  // } else {
+  // }
+  pageProps = { appData: appDataInitial, hasLanguage: lang || "en", env, }
   return { pageProps: { ...pageProps, } };
 
 });

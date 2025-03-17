@@ -42,14 +42,15 @@ const Footer = () => {
                             <ul>
                                 <li className={styles.phone}>
                                     <span>
-                                        <img src="/images/others/tel.webp" alt="APL transfer hotline" />
+                                        <Image src={"/images/others/tel.webp"} alt="APL transfer hotline" width={25} height={20} />
+
                                         {appData?.words["appContactUsHotLine"]}:
                                     </span>
                                     <a href="tel:+902165503313">+90 216 550 3313</a>
                                 </li>
                                 <li className={styles.ep}>
                                     <span>
-                                        <img src="/images/others/world.webp" alt="APL transfer  Support" />
+                                        <Image src={"/images/others/world.webp"} alt="APL transfer  Support" width={25} height={20} />
                                         {allTranslations.strEurope[language]}:
                                     </span>
                                     <a href="tel:+442033259878">
@@ -58,7 +59,7 @@ const Footer = () => {
                                 </li>
                                 <li className={styles.wp}>
                                     <span>
-                                        <img src="/images/others/WhatsAppp.webp" alt="APL transfer WhatsApp" />
+                                        <Image src={"/images/others/WhatsAppp.webp"} alt="APL transfer WhatsApp" width={25} height={25} />
                                         {appData?.words["strWhatsAppUs"]}:
                                     </span>
                                     <a target="_blank" href="https://wa.me/447387901028">
@@ -67,7 +68,7 @@ const Footer = () => {
                                 </li>
                                 <li className={styles.mail}>
                                     <span>
-                                        <img border="0" alt="APL transfer Email" src="/images/others/mail.webp" />
+                                        <Image src={"/images/others/mail.webp"} alt="APL transfer Email" width={25} height={20} />
                                         {appData.words["strEmail"]}:
                                     </span>
                                     <a href="mailto:info@aplcars.com" >info@aplcars.com</a>
@@ -155,16 +156,16 @@ const Footer = () => {
                 <div className={`${styles.footer_section_container2} page_section_container`}>
                     <div className={styles.footer_bottom}>
                         <div className={styles.social_icons}>
-                            <a href="#" target={"_blank"} title={"APL Transfers Facebook"}>
+                            <a href="/" target={"_blank"} title={"APL Transfers Facebook"}>
                                 <Image src={fbImage} alt="APL Transfers Facebook" width={25} height={25} />
                             </a>
-                            <a href="#" target={"_blank"} title="APL Transfers Twitters">
+                            <a href="/" target={"_blank"} title="APL Transfers Twitters">
                                 <Image src={twImage} alt="APL Transfers Twitters" width={25} height={25} />
                             </a>
-                            <a href="#" target="_blank" title="APL Transfers News RSS">
+                            <a href="/" target="_blank" title="APL Transfers News RSS">
                                 <Image src={srImage} alt="APL Transfers News RSS" width={25} height={25} />
                             </a>
-                            <a href="#" target="_blank" title="APL Transfers Instigram page">
+                            <a href="/" target="_blank" title="APL Transfers Instigram page">
                                 <Image src={instaIamge} alt="APL Transfers Instigram page" width={25} height={25} />
                             </a>
                         </div>
