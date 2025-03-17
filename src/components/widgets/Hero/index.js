@@ -358,12 +358,11 @@ const Hero = (props) => {
                 <Image
                     style={{ objectFit: `${islinknamecomponent ? "fill" : "cover"}` }}
                     priority
-                    height={100}
-                    width={1600}
-                    quality={100}
+                    quality={80}
                     alt="APL Transfers "
+                    fill 
                     className={styles.landing_image}
-                    sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 1160px"
+                      sizes="(max-width: 600px) 100vw, (max-width: 1200px) 75vw, 100vw"
                     src={islinknamecomponent ? matchingLinkNameImage : "/images/hero.webp"}
                 />
                 <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={600} style={{ height: "auto", width: "100%" }} />
