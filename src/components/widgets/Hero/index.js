@@ -350,7 +350,6 @@ const Hero = (props) => {
     }, [])
 
 
-
     return (
         <div className={`${styles.hero} ${direction} page`} >
             <div className={styles.hero_bg}>
