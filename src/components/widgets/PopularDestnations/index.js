@@ -74,7 +74,13 @@ const PopularDestinations = (props) => {
                                     <a href={path}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} alt={item[language]} />
+                                                <Image
+                                                    sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px"
+                                                    src={item.imageUrl ? item.imageUrl : "/images/default.webp"}
+                                                    width={250}
+                                                    height={198}
+                                                    alt={item[language]}
+                                                />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>
