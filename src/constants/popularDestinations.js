@@ -42,7 +42,7 @@ const airportPoints = {
             ru: "Аэропорт Стамбула в Кадыкёй (азиатская сторона)",
             zh: "伊斯坦布尔机场到卡德柯伊（亚洲侧）",
             ar: "مطار إسطنبول إلى كاديكوي (الجانب الآسيوي)",
-            linkUrl: "istanbul-airport-to-kadikoy-asian-side",
+            linkUrl: "istanbul-airport-to-kadikoy",
             key: "IST",
             price: 100,
             location: "Istanbul",
@@ -80,20 +80,20 @@ const airportPoints = {
 
         },
         {
-            en: "Istanbul Airport To Nişantaşı",
-            tr: "İstanbul Havalimanı Nişantaşı'na",
-            es: "Aeropuerto de Estambul a Nişantaşı",
-            it: "Aeroporto di Istanbul a Nişantaşı",
-            ru: "Аэропорт Стамбула в Нишанташи",
-            zh: "伊斯坦布尔机场到尼尚塔西",
-            ar: "مطار إسطنبول إلى نيشان تاشي",
-            linkUrl: "istanbul-airport-to-nisantasi",
+            en: "Istanbul Airport To Bursa",
+            tr: "İstanbul Havalimanı Bursa'ya",
+            es: "Aeropuerto de Estambul a Bursa",
+            it: "Aeroporto di Istanbul a Bursa",
+            ru: "Аэропорт Стамбула в Бурсу",
+            zh: "伊斯坦布尔机场到布尔萨",
+            ar: "مطار إسطنبول إلى بورصة",
+            linkUrl: "istanbul-airport-to-bursa",
+            location: "Istanbul",
             key: "IST",
             price: 100,
-            location: "Istanbul",
             imageUrl: "/images/popularDestinations/istanbul/nisantasi.webp"
-
         },
+
         {
             en: "Istanbul Airport To Eminönü",
             tr: "İstanbul Havalimanı Eminönü'ne",
@@ -138,9 +138,6 @@ const airportPoints = {
             location: "Istanbul",
 
         },
-
-
-
         {
             en: "Istanbul Airport To Ortaköy",
             tr: "İstanbul Havalimanı Ortaköy'e",
@@ -155,8 +152,6 @@ const airportPoints = {
             location: "Istanbul",
 
         },
-
-
         {
             en: "Istanbul Airport To Sapanca",
             tr: "İstanbul Havalimanı Sapanca'ya",
@@ -171,17 +166,19 @@ const airportPoints = {
             price: 100,
         },
         {
-            en: "Istanbul Airport To Bursa",
-            tr: "İstanbul Havalimanı Bursa'ya",
-            es: "Aeropuerto de Estambul a Bursa",
-            it: "Aeroporto di Istanbul a Bursa",
-            ru: "Аэропорт Стамбула в Бурсу",
-            zh: "伊斯坦布尔机场到布尔萨",
-            ar: "مطار إسطنبول إلى بورصة",
-            linkUrl: "istanbul-airport-to-bursa",
-            location: "Istanbul",
+            en: "Istanbul Airport To Nişantaşı",
+            tr: "İstanbul Havalimanı Nişantaşı'na",
+            es: "Aeropuerto de Estambul a Nişantaşı",
+            it: "Aeroporto di Istanbul a Nişantaşı",
+            ru: "Аэропорт Стамбула в Нишанташи",
+            zh: "伊斯坦布尔机场到尼尚塔西",
+            ar: "مطار إسطنبول إلى نيشان تاشي",
+            linkUrl: "istanbul-airport-to-nisantasi",
             key: "IST",
             price: 100,
+            location: "Istanbul",
+
+
         },
         {
             en: "Istanbul Airport To Yalova",

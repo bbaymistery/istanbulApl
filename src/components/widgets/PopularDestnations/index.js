@@ -118,7 +118,7 @@ const PopularDestinations = (props) => {
                         })}
                     </div>
 
-                    <div className={styles.btn_div}>
+                    {/* <div className={styles.btn_div}>
                         <Button
                             type={BUTTON_TYPES.TERTIARY}
                             onBtnClick={setModal}
@@ -127,7 +127,7 @@ const PopularDestinations = (props) => {
                             iconPos='RIGHT'
                             icon={<i className="fa-solid fa-arrow-right"></i>}
                         />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

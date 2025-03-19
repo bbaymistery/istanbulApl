@@ -30,7 +30,7 @@ const PrivacyPolicy = (props) => {
                             <span><a href="/terms">{allTranslations.strPrivacyPolicy[language]} </a> </span>
                         </div>
                         <div className={styles.terms_container}>
-                            <DangerouslyInnerHtml htmContent={htmlContentsPrivacy} language={language} />
+                            <DangerouslyInnerHtml htmContent={htmlContentsPrivacy[language]} />
                         </div>
                     </div>
                 </div>

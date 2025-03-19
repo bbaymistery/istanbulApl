@@ -212,11 +212,10 @@ const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourD
             "opens": "00:00",
             "closes": "23:59"
         },
-        //!Check point Social Addresses should be changed 
         "sameAs": [
-            "https://www.facebook.com/AirportPickupsLondon",
-            "https://twitter.com/Airport_Pickups",
-            "https://www.youtube.com/c/Airport-pickups-london"
+            "https://www.facebook.com/APLTransfers",
+            "https://twitter.com/APLTransfers",
+            "https://www.youtube.com/APLTransfers"
         ]
     },
     "Product": {
@@ -253,11 +252,10 @@ const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourD
         "name": "Apl Transfers",
         //! Check point url adress
         "url":`${env.websiteDomain}`,
-        //! Check point Social Addresses
         "sameAs": [
-            "https://x.com/Airport_Pickups",
-            "https://www.instagram.com/airport_pickups_london",
-            "https://www.facebook.com/AirportPickupsLondon"
+            "https://www.facebook.com/APLTransfers",
+            "https://twitter.com/APLTransfers",
+            "https://www.youtube.com/APLTransfers"
         ],
         "inLanguage": `${language}`
     },

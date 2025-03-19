@@ -19,6 +19,8 @@ import LinkNameDescription from "../components/elements/LinkNameDescription";
 import { getAirportPageContentByPathname, getMetaTagSingleAirportPage, getSingleAirportSchemaByPathname, getSinglekeywordsTitleAirportPage } from "../constants/keywordsAndContents/airportsKeywordsContentSchema";
 import Head from "next/head";
 import { createMetaTagElementsClientSide, renderSchemaScriptsClientSide } from "../helpers/schemaMetaTagHelper";
+import { getMetaTagPopularDestinationPage, getPopularDestinationsPageContentByPathname, getSinglekeywordsTitlePopularDestinationPage, getSinglePopularDestinationSchemaByPathname } from "../constants/keywordsAndContents/popularDestinationsKeywordsContents/popularKeywordsContents";
+import DangerouslyInnerHtml from "../components/elements/DangerouslyInnerHtml";
 
 
 
@@ -31,7 +33,7 @@ const NavbarLinkName = (props) => {
 
     // If server-side validation fails (data is "not found"), render the 404 page
     if (data === "not found") return <Error404 />;
-    let { pageContent, schemas, metaTags, keywords, headTitle, metaDescription } = data
+    let { pageContent, schemas, metaTags, keywords, headTitle, metaDescription, } = data
 
     useEffect(() => {
         // If not a "Quotation" link, find the matching item and update Redux state
@@ -41,9 +43,19 @@ const NavbarLinkName = (props) => {
         }
     }, [linkname, dispatch]);
 
+    console.log(schemas);
+
 
     // Render the main layout and components if validation passes
-    return (isItQuationLink ? <>Quotation Link </> :
+    return (isItQuationLink ?
+        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
+            <Head>
+                {createMetaTagElementsClientSide(metaTags)}
+                {renderSchemaScriptsClientSide(schemas)}
+            </Head>
+            <DangerouslyInnerHtml htmContent={pageContent} />
+        </GlobalLayout>
+        :
         <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
             <Head>
                 {createMetaTagElementsClientSide(metaTags)}
@@ -64,6 +76,7 @@ const makestore = () => store;
 const wrapper = createWrapper(makestore);
 
 const handleStandartContent = (params = {}) => {
+
     let { isItQuationLink = false, pageStartLanguage: language, pathname, env } = params
 
     const pageContent = getAirportPageContentByPathname(pathname, language);
@@ -71,13 +84,27 @@ const handleStandartContent = (params = {}) => {
     const metaTags = getMetaTagSingleAirportPage(pathname, language, env);
     const { keywords, headTitle, metaDescription } = getSinglekeywordsTitleAirportPage(pathname, language);
 
-
     let data = { pageContent, schemas, metaTags, keywords, headTitle, metaDescription }
     return { props: { data, isItQuationLink, } }
 }
+
+
 const handleQuotationLink = (params = {}) => {
-    let { isItQuationLink = true, } = params
-    return { props: { data: "found", isItQuationLink } }
+
+    let { isItQuationLink = true, pageStartLanguage: language, pathname, env, hasTaxiDeals } = params
+
+    const pageContent = getPopularDestinationsPageContentByPathname(pathname, language, hasTaxiDeals);
+    const metaTags = getMetaTagPopularDestinationPage(pathname, language, env, hasTaxiDeals);
+    const { keywords, headTitle, metaDescription } = getSinglekeywordsTitlePopularDestinationPage(pathname, language, hasTaxiDeals);
+    let schemas = getSinglePopularDestinationSchemaByPathname(env, hasTaxiDeals, pathname, language);
+
+    if (schemas) {
+        schemas = Object.keys(schemas).map(key => ({ [key]: schemas[key] }));//array of objects [b:{ab:"1"},c:{ab:"2"},d:{ab:"3"}]
+        schemas = schemas.map(obj => Object.values(obj)[0]);//Output: ["1", "2", "3"]
+    }
+
+    let data = { pageContent, metaTags, keywords, headTitle, metaDescription, schemas }
+    return { props: { data, isItQuationLink } }
 }
 
 
@@ -89,13 +116,13 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
     // Disable caching for dynamic responses
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
 
-    isUrlLoverCase(resolvedUrl, res)
+    isUrlLoverCase(resolvedUrl, res);
 
-    //get cookie and pathnames
+    // Get cookies and pathnames
     let cookies = parseCookies(req.headers.cookie);
-    let { pathname } = parse(req.url, true)
+    let { pathname } = parse(req.url, true);
 
-    let pageStartLanguage = checkLanguageAttributeOntheUrl(req?.url)
+    let pageStartLanguage = checkLanguageAttributeOntheUrl(req?.url);
     const adjusted = adjustPathnameForLanguage(pathname, pageStartLanguage, cookies);
 
     pageStartLanguage = adjusted.pageStartLanguage;
@@ -108,10 +135,21 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
         return { props: { data: "not found", env } };
     }
 
+    // Determine hasTaxiDeals based on linkname prefix
+    let hasTaxiDeals = "IST"; // Default value
+
+    if (linkname.startsWith("istanbul")) hasTaxiDeals = "IST";
+    else if (linkname.startsWith("sabiha-")) hasTaxiDeals = "SAW";
+    else if (linkname.startsWith("antalya-")) hasTaxiDeals = "AYT";
+    else if (linkname.startsWith("dalaman-")) hasTaxiDeals = "DLM";
+    else if (linkname.startsWith("bodrum-")) hasTaxiDeals = "BJV";
+    else if (linkname.startsWith("izmir-adnan-")) hasTaxiDeals = "ADB";
+    else if (linkname.startsWith("gazipasa-")) hasTaxiDeals = "GZP";
+
     let isItQuationLink = ifItIsQuotationLink(`/${linkname}`);
 
     if (isItQuationLink) {
-        return handleQuotationLink({ isItQuationLink, pageStartLanguage, pathname, env })
+        return handleQuotationLink({ isItQuationLink, pageStartLanguage, pathname, env, hasTaxiDeals });
     } else {
         return handleStandartContent({ isItQuationLink, pageStartLanguage, pathname, env });
     }

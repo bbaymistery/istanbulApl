@@ -14,7 +14,7 @@ const Testimonials = () => {
         <div className={`${styles.testimonials} ${direction} page`} >
             <div className={`${styles.testimonials_section} page_section`}>
                 <div className={`${styles.testimonials_section_container} page_section_container`}>
-                    <DangerouslyInnerHtml  htmContent={htmlContentsTestimonials} language={language} />
+                    <DangerouslyInnerHtml  htmContent={htmlContentsTestimonials[language]} />
                 </div>
             </div>
         </div>

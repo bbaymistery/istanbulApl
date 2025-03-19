@@ -15,6 +15,7 @@ const Terms = (props) => {
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state
     let { metaDescription, keywords, headTitle } = props
+    
     return (
         <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
             <div className={`${styles.terms} ${direction} page`} >
@@ -26,7 +27,7 @@ const Terms = (props) => {
                             <span><a href="/terms">{allTranslations.strTerms[language]} </a> </span>
                         </div>
                         <div className={styles.terms_container}>
-                            <DangerouslyInnerHtml htmContent={htmlContentsTerms} language={language} />
+                            <DangerouslyInnerHtml htmContent={htmlContentsTerms[language]}  />
                         </div>
                     </div>
                 </div>

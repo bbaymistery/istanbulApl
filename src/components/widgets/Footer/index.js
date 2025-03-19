@@ -44,7 +44,7 @@ const Footer = () => {
                                     <span>
                                         <Image src={"/images/others/tel.webp"} alt="APL transfer hotline" width={25} height={20} />
 
-                                        {appData?.words["appContactUsHotLine"]}:
+                                        {appData?.words["appContactUsHotLine"] ? appData?.words["appContactUsHotLine"] : "Hotline 24/7"}:
                                     </span>
                                     <a href="tel:+902165503313">+90 216 550 3313</a>
                                 </li>

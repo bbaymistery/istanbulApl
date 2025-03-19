@@ -4117,8 +4117,6 @@ const singleAirportSchema = {
                 }
             ]
         }
-
-
     },
     "/sabiha-gokcen-airport-taxi-prices": {
         en: {
@@ -7129,7 +7127,6 @@ const keywordsTitleAirportPage = {
             "ar": "احجز سيارة أجرة خاصة من مطار إسطنبول (IST) بأسعار ثابتة، استقبال مجاني، وبدون رسوم مخفية. حجز آمن عبر الإنترنت ودعم العملاء 24/7."
         }
     },
-
     "/sabiha-gokcen-airport-taxi-prices": {
         "headTitle": {
             "en": "Sabiha Gökçen Airport Taxi Prices | Fixed & Private Transfers",
@@ -7308,5 +7305,5 @@ const keywordsTitleAirportPage = {
             "ar": "احجز سيارة أجرة خاصة من مطار غازي باشا - ألانيا (GZP) إلى ألانيا، محمودلار، كارجيجاك، أنامور وأفسالار. أسعار ثابتة، استقبال، بدون رسوم مخفية. دعم 24/7."
         }
     }
-
 }
+
