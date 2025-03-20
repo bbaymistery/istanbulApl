@@ -693,7 +693,6 @@ const metaTagPopularDestatinationPage = (env) => ({
             ]
             ,
         },
-
         "/istanbul-airport-to-kadikoy": {
             en: [
                 `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-kadikoy\" />`,
@@ -837,7 +836,25 @@ const metaTagPopularDestatinationPage = (env) => ({
         },
 
         "/istanbul-airport-to-besiktas": {
-            en: ``,
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Istanbul Airport to Beşiktaş Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Istanbul Airport to Beşiktaş? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet service. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-besiktas\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Istanbul Airport to Beşiktaş Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Istanbul Airport to Beşiktaş transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+            ],
             tr: ``,
             ar: ``,
             es: ``,
@@ -5002,7 +5019,53 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                             }
                         }
                     },
-                    "FAQPage": {},
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Do you track flights, and will I be charged if my flight is delayed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we track your flight in real-time. If your flight is delayed, we adjust your pickup time accordingly, and you will not be charged extra for delays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Istanbul Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you by our APL Transfers office in the Arrival Hall at Istanbul Airport, holding a name board for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Istanbul Airport to Beşiktaş fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer free cancellations for Istanbul Airport to Beşiktaş transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What payment methods do you accept for Istanbul Airport transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                                }
+                            }
+                        ]
+                    }
+                    ,
                 },
                 tr: {
                     "LocalBusiness": {
@@ -5092,7 +5155,53 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     }
                     ,
-                    "FAQPage": {},
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum gecikirse ek ücret öder miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu gerçek zamanlı olarak takip ediyoruz. Eğer uçuşunuz gecikirse, buna göre karşılama saatinizi ayarlıyoruz ve gecikmeler için ek ücret alınmaz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz, İstanbul Havalimanı Gelen Yolcu Salonu'ndaki APL Transfers ofisimizin önünde sizi isminizin yazılı olduğu bir tabela ile karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'ndan Beşiktaş'a taksi fiyatları sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm taksi fiyatlarımız sabittir ve gizli ücretler içermez. Şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'ndan Beşiktaş'a yapılan transferlerde ücretsiz iptal hakkı sunuyor musunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Euro, İngiliz Sterlini (GBP), ABD Doları (USD) ve Türk Lirası (TRY) ile güvenli online ödeme kabul ediyoruz."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 ar: {
                     "LocalBusiness": {
@@ -5182,7 +5291,52 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     }
                     ,
-                    "FAQPage": {},
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "هل تقومون بتتبع الرحلات الجوية، وهل سأُحاسب إذا تأخرت رحلتي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نقوم بتتبع رحلتك الجوية في الوقت الفعلي. إذا تأخرت رحلتك، نقوم بتعديل وقت الاستقبال وفقًا لذلك، ولن يتم فرض أي رسوم إضافية على التأخير."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقي بي السائق في مطار إسطنبول؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقي بك سائقك عند مكتب APL Transfers في صالة الوصول بمطار إسطنبول، حاملًا لافتة باسمك لسهولة التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار إسطنبول إلى بشكتاش ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعار التاكسي لدينا ثابتة وبدون أي رسوم مخفية، حيث نوفر أسعارًا شفافة وتنافسية."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء حجز النقل من مطار إسطنبول إلى بشكتاش مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الوصول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي طرق الدفع التي تقبلونها لنقل المطار في إسطنبول؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نقبل المدفوعات باليورو، الجنيه الإسترليني (GBP)، الدولار الأمريكي (USD)، والليرة التركية (TRY) عبر الدفع الإلكتروني الآمن."
+                                }
+                            }
+                        ]
+                    }
                 },
                 es: {
                     "LocalBusiness": {
@@ -5271,7 +5425,53 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                             }
                         }
                     },
-                    "FAQPage": {},
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Rastrean los vuelos y me cobrarán si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, rastreamos tu vuelo en tiempo real. Si tu vuelo se retrasa, ajustamos tu hora de recogida en consecuencia y no se te cobrará ningún cargo adicional."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Estambul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Tu conductor te esperará en la oficina de APL Transfers en la Sala de Llegadas del Aeropuerto de Estambul, sosteniendo un cartel con tu nombre para una fácil identificación."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Los precios del taxi desde el Aeropuerto de Estambul a Beşiktaş son fijos?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos nuestros precios de taxi son fijos y no tienen cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen cancelaciones gratuitas para los traslados desde el Aeropuerto de Estambul a Beşiktaş?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva sin costo hasta 24 horas antes de la llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto de Estambul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en Euro, Libra Esterlina (GBP), Dólar Americano (USD) y Lira Turca (TRY) a través de pago seguro en línea."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 it: {
                     "LocalBusiness": {
@@ -5361,7 +5561,53 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     }
                     ,
-                    "FAQPage": {},
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Tracciate i voli e mi verrà addebitato un costo se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tracciamo il tuo volo in tempo reale. Se il tuo volo è in ritardo, adeguiamo l'orario di ritiro di conseguenza e non ti verrà addebitato alcun costo aggiuntivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all'Aeroporto di Istanbul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti incontrerà presso l'ufficio APL Transfers nella Sala Arrivi dell'Aeroporto di Istanbul, tenendo un cartello con il tuo nome per un facile riconoscimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "I prezzi del taxi dall'Aeroporto di Istanbul a Beşiktaş sono fissi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i nostri prezzi dei taxi sono fissi e non ci sono costi nascosti. Offriamo tariffe trasparenti e competitive."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Istanbul a Beşiktaş?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall'Aeroporto di Istanbul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in Euro, Sterlina Britannica (GBP), Dollaro USA (USD) e Lira Turca (TRY) tramite pagamento online sicuro."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 ru: {
                     "LocalBusiness": {
@@ -5451,7 +5697,53 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     }
                     ,
-                    "FAQPage": {},
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Вы отслеживаете рейсы, и будет ли взиматься плата, если мой рейс задержится?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы отслеживаем ваш рейс в реальном времени. Если ваш рейс задерживается, мы корректируем время подачи такси, и дополнительная плата не взимается."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Стамбула?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель встретит вас у офиса APL Transfers в зале прилёта аэропорта Стамбула с табличкой с вашим именем для удобства опознавания."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксированы ли цены на такси из аэропорта Стамбула в Бешикташ?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши тарифы на такси фиксированы, без скрытых платежей. Мы предлагаем прозрачные и конкурентоспособные цены."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Можно ли бесплатно отменить бронирование трансфера из аэропорта Стамбула в Бешикташ?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до прибытия."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какие способы оплаты принимаются для трансфера из аэропорта Стамбула?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Мы принимаем оплату в евро, британских фунтах стерлингов (GBP), долларах США (USD) и турецких лирах (TRY) через безопасный онлайн-платеж."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 zh: {
                     "LocalBusiness": {
@@ -5541,7 +5833,53 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     }
                     ,
-                    "FAQPage": {},
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "你们会跟踪航班吗？如果我的航班延误，会额外收费吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们会实时跟踪您的航班。如果您的航班延误，我们会相应调整接机时间，并且不会收取额外费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在哪里接我（伊斯坦布尔机场）？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在伊斯坦布尔机场的抵达大厅 APL Transfers 办公室前等候，并举着您的名字牌，方便您识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从伊斯坦布尔机场到贝西克塔斯的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，提供透明且有竞争力的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消从伊斯坦布尔机场到贝西克塔斯的接送服务吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，您可以在抵达前 24 小时内免费取消您的预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们接受哪些支付方式？（伊斯坦布尔机场接送服务）",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "我们接受欧元（EUR）、英镑（GBP）、美元（USD）和土耳其里拉（TRY）在线安全支付。"
+                                }
+                            }
+                        ]
+                    }
+
                 },
             },
 
