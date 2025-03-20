@@ -4914,17 +4914,637 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
 
                 },
             },
-
-
             "/istanbul-airport-to-besiktas": {
-                en: ``,
-                tr: ``,
-                ar: ``,
-                es: ``,
-                it: ``,
-                ru: ``,
-                zh: ``,
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "37",
+                        "url": `${env.websiteDomain}/istanbul-airport-to-besiktas`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Istanbul Airport to Beşiktaş Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "Book a premium taxi transfer from Istanbul Airport to Beşiktaş with APL Transfers. Fixed price, free meet & greet, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BES-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/istanbul-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Brown",
+                            "reviewBody": "Fantastic service! My driver was on time, the ride to Beşiktaş was smooth, and the car was comfortable. Highly recommended!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Istanbul Airport to Beşiktaş Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {},
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "37",
+                        "url": `${env.websiteDomain}/tr/istanbul-airport-to-besiktas`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "İstanbul Havalimanı Beşiktaş Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "APL Transfers ile İstanbul Havalimanı'ndan Beşiktaş'a premium taksi transferinizi ayırtın. Sabit fiyat, ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ek ücret yok.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BES-001",
+                        "offers": {
+                            "@type": "Teklif",
+                            "url": `${env.websiteDomain}/tr/istanbul-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "OrtalamaDeğerlendirme",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Yorum",
+                            "name": "David Brown",
+                            "reviewBody": "Harika hizmet! Şoförüm tam zamanında geldi, Beşiktaş'a yolculuk çok rahattı ve araç oldukça konforluydu. Kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "İstanbul Havalimanı Beşiktaş Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Derecelendirme",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Kişi",
+                                "name": "David Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organizasyon",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {},
+                },
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "37",
+                        "url": `${env.websiteDomain}/ar/istanbul-airport-to-besiktas`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "تاكسي مطار إسطنبول إلى بشكتاش",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "احجز خدمة التاكسي الفاخرة من مطار إسطنبول إلى بشكتاش مع APL Transfers. سعر ثابت، استقبال مجاني، وخدمة 24/7. لا رسوم إضافية على تأخير الرحلات.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BES-001",
+                        "offers": {
+                            "@type": "عرض",
+                            "url": `${env.websiteDomain}/ar/istanbul-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "التقييم الإجمالي",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "مراجعة",
+                            "name": "ديفيد براون",
+                            "reviewBody": "خدمة رائعة! كان السائق في الوقت المحدد، وكانت الرحلة إلى بشكتاش سلسة، وكانت السيارة مريحة للغاية. أنصح بها بشدة!",
+                            "itemReviewed": {
+                                "@type": "شيء",
+                                "name": "تاكسي مطار إسطنبول إلى بشكتاش"
+                            },
+                            "reviewRating": {
+                                "@type": "تقييم",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "شخص",
+                                "name": "ديفيد براون"
+                            },
+                            "publisher": {
+                                "@type": "منظمة",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {},
+                },
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "37",
+                        "url": `${env.websiteDomain}/es/istanbul-airport-to-besiktas`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Taxi del Aeropuerto de Estambul a Beşiktaş",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "Reserva un traslado en taxi premium desde el Aeropuerto de Estambul a Beşiktaş con APL Transfers. Precio fijo, recepción gratuita y servicio 24/7. Sin cargos adicionales por retrasos en los vuelos.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BES-001",
+                        "offers": {
+                            "@type": "Oferta",
+                            "url": `${env.websiteDomain}/es/istanbul-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "ValoraciónAgregada",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Reseña",
+                            "name": "David Brown",
+                            "reviewBody": "¡Servicio fantástico! Mi conductor llegó a tiempo, el viaje a Beşiktaş fue cómodo y el coche era muy confortable. ¡Muy recomendable!",
+                            "itemReviewed": {
+                                "@type": "Cosa",
+                                "name": "Taxi del Aeropuerto de Estambul a Beşiktaş"
+                            },
+                            "reviewRating": {
+                                "@type": "Calificación",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Persona",
+                                "name": "David Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organización",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {},
+                },
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "37",
+                        "url": `${env.websiteDomain}/it/istanbul-airport-to-besiktas`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Taxi dall'Aeroporto di Istanbul a Beşiktaş",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "Prenota un trasferimento in taxi premium dall'Aeroporto di Istanbul a Beşiktaş con APL Transfers. Prezzo fisso, accoglienza gratuita e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BES-001",
+                        "offers": {
+                            "@type": "Offerta",
+                            "url": `${env.websiteDomain}/it/istanbul-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "ValutazioneAggregata",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Recensione",
+                            "name": "David Brown",
+                            "reviewBody": "Servizio fantastico! Il mio autista è arrivato in orario, il viaggio fino a Beşiktaş è stato confortevole e l'auto molto comoda. Altamente consigliato!",
+                            "itemReviewed": {
+                                "@type": "Cosa",
+                                "name": "Taxi dall'Aeroporto di Istanbul a Beşiktaş"
+                            },
+                            "reviewRating": {
+                                "@type": "Valutazione",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Persona",
+                                "name": "David Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organizzazione",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {},
+                },
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "37",
+                        "url": `${env.websiteDomain}/ru/istanbul-airport-to-besiktas`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Такси из аэропорта Стамбула в Бешикташ",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "Забронируйте премиальный трансфер на такси из аэропорта Стамбула в Бешикташ с APL Transfers. Фиксированная цена, бесплатная встреча и обслуживание 24/7. Без доплат за задержку рейса.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BES-001",
+                        "offers": {
+                            "@type": "Предложение",
+                            "url": `${env.websiteDomain}/ru/istanbul-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "ОбщийРейтинг",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Отзыв",
+                            "name": "Дэвид Браун",
+                            "reviewBody": "Отличный сервис! Водитель прибыл вовремя, поездка до Бешикташа была комфортной, а машина очень удобной. Очень рекомендую!",
+                            "itemReviewed": {
+                                "@type": "Объект",
+                                "name": "Такси из аэропорта Стамбула в Бешикташ"
+                            },
+                            "reviewRating": {
+                                "@type": "Рейтинг",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Человек",
+                                "name": "Дэвид Браун"
+                            },
+                            "publisher": {
+                                "@type": "Организация",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {},
+                },
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "37",
+                        "url": `${env.websiteDomain}/zh/istanbul-airport-to-besiktas`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "伊斯坦布尔机场至贝西克塔斯出租车接送",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "通过 APL Transfers 预订从伊斯坦布尔机场到贝西克塔斯的豪华出租车接送服务。固定价格，免费迎接，24/7 全天候服务。航班延误无额外费用。",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BES-001",
+                        "offers": {
+                            "@type": "优惠",
+                            "url": `${env.websiteDomain}/zh/istanbul-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "综合评分",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "评论",
+                            "name": "大卫·布朗",
+                            "reviewBody": "非常棒的服务！我的司机准时到达，前往贝西克塔斯的旅程非常顺畅，车辆也很舒适。强烈推荐！",
+                            "itemReviewed": {
+                                "@type": "物品",
+                                "name": "伊斯坦布尔机场至贝西克塔斯出租车接送"
+                            },
+                            "reviewRating": {
+                                "@type": "评分",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "人物",
+                                "name": "大卫·布朗"
+                            },
+                            "publisher": {
+                                "@type": "组织",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {},
+                },
             },
+
             "/istanbul-airport-to-nisantasi": {
                 en: ``,
                 tr: ``,
@@ -6190,17 +6810,276 @@ const popularDestinationsPageContents = {
 
             `,
         },
-
-
         "/istanbul-airport-to-besiktas": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Istanbul Airport to Beşiktaş Taxi Transfer</h1>
+<p>Enjoy a seamless and comfortable <strong>Istanbul Airport to Beşiktaş taxi transfer</strong> with APL Transfers. Whether you’re visiting for business or leisure, our fixed-price, private transfer service ensures a stress-free ride to one of Istanbul’s most lively districts.</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li><strong>Free Meet & Greet & Waiting Time</strong> – Your driver will be waiting at the arrivals hall with a name board.</li>
+    <li><strong>Flight Tracking & No Extra Charge for Delays</strong> – We monitor your flight and adjust your pickup time accordingly at no extra cost.</li>
+    <li><strong>Fixed Prices – No Hidden Costs</strong> – What you see is what you pay.</li>
+    <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Flexible booking options.</li>
+    <li><strong>24/7 Customer Support</strong> – We are available anytime you need assistance.</li>
+    <li><strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Travel in style and comfort.</li>
+    <li><strong>Comprehensive Coverage</strong> – We provide transfers to <strong>all hotels and addresses in Beşiktaş</strong>.</li>
+</ul>
+
+<h2>Reliable & Hassle-Free Airport Transfer</h2>
+<p>Skip the long taxi queues and unreliable public transport. With <strong>APL Transfers</strong>, your driver will pick you up directly from <strong>Istanbul Airport (IST)</strong> and take you to <strong>Beşiktaş in a modern, well-maintained vehicle</strong>.</p>
+
+<h2>Journey Details</h2>
+<ul>
+    <li><strong>Distance:</strong> Approximately 43 km</li>
+    <li><strong>Duration:</strong> Around 45-60 minutes (depending on traffic)</li>
+    <li><strong>Route Options:</strong> Via O-7 Highway or TEM Highway, crossing the Bosphorus Bridge</li>
+</ul>
+
+<h2>Booking Your Taxi Transfer</h2>
+<p>Booking your <strong>Istanbul Airport to Beşiktaş taxi</strong> is simple. Use our <strong>secure online booking system</strong> to reserve your ride in advance and ensure a smooth arrival in Istanbul.</p>
+
+<h2>Additional Services</h2>
+<ul>
+    <li><strong>Child Seats Available</strong> – Safe travel for families.</li>
+    <li><strong>Business-Class Transfers</strong> – Premium vehicle options for corporate travelers.</li>
+    <li><strong>Group Transfers</strong> – Minibuses available for larger parties.</li>
+</ul>
+
+<p>Experience a <strong>comfortable, reliable, and affordable</strong> transfer from <strong>Istanbul Airport to Beşiktaş</strong>. <strong>Book now</strong> and start your journey in Istanbul with ease!</p>
+
+            `,
+            tr: `
+            <h1>İstanbul Havalimanı Beşiktaş Taksi Transferi</h1>
+<p><strong>İstanbul Havalimanı'ndan Beşiktaş'a taksi transferinizi</strong> APL Transfers ile zahmetsiz ve konforlu bir şekilde gerçekleştirin. İster iş ister tatil amaçlı seyahat ediyor olun, sabit fiyatlı özel transfer hizmetimiz, İstanbul’un en hareketli bölgelerinden birine stressiz bir yolculuk sunar.</p>
+
+<h2>Neden APL Transfers’i Tercih Etmelisiniz?</h2>
+<ul>
+    <li><strong>Ücretsiz Karşılama & Bekleme Süresi</strong> – Şoförünüz, isminizin yazılı olduğu tabela ile varış salonunda sizi bekliyor olacak.</li>
+    <li><strong>Uçuş Takibi & Gecikmeler İçin Ek Ücret Yok</strong> – Uçuşunuzu anlık olarak takip ediyor ve rötar durumunda ek ücret almadan transfer saatinizi ayarlıyoruz.</li>
+    <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Ödediğiniz fiyat dışında ekstra bir ücret çıkmaz.</li>
+    <li><strong>Varıştan 24 Saat Öncesine Kadar Ücretsiz İptal</strong> – Esnek rezervasyon seçenekleri.</li>
+    <li><strong>7/24 Müşteri Desteği</strong> – Yardıma ihtiyacınız olduğunda her zaman buradayız.</li>
+    <li><strong>Lüks, Temiz & Bakımlı Araçlar</strong> – Konforlu ve şık bir yolculuk deneyimi yaşayın.</li>
+    <li><strong>Kapsamlı Hizmet</strong> – <strong>Beşiktaş’taki tüm otel ve adreslere</strong> transfer hizmeti sağlıyoruz.</li>
+</ul>
+
+<h2>Güvenilir & Sorunsuz Havalimanı Transferi</h2>
+<p>Uzun taksi kuyruklarını ve güvenilmez toplu taşımayı unutun. <strong>APL Transfers</strong> ile şoförünüz sizi doğrudan <strong>İstanbul Havalimanı’ndan (IST)</strong> alır ve <strong>Beşiktaş’a modern, bakımlı bir araçla</strong> götürür.</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 43 km</li>
+    <li><strong>Süre:</strong> Trafik durumuna bağlı olarak yaklaşık 45-60 dakika</li>
+    <li><strong>Rota Seçenekleri:</strong> O-7 Otoyolu veya TEM Otoyolu üzerinden Boğaziçi Köprüsü</li>
+</ul>
+
+<h2>Taksi Transferinizi Rezerve Edin</h2>
+<p><strong>İstanbul Havalimanı’ndan Beşiktaş’a taksi</strong> rezervasyonu yapmak çok kolay. <strong>Güvenli online rezervasyon sistemimizi</strong> kullanarak önceden transferinizi planlayın ve İstanbul’a sorunsuz bir şekilde varın.</p>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+    <li><strong>Çocuk Koltukları Mevcut</strong> – Aileler için güvenli seyahat imkanı.</li>
+    <li><strong>Business-Class Transferler</strong> – İş seyahati yapanlar için premium araç seçenekleri.</li>
+    <li><strong>Grup Transferleri</strong> – Büyük gruplar için minibüs seçenekleri.</li>
+</ul>
+
+<p><strong>Konforlu, güvenilir ve uygun fiyatlı</strong> bir transfer deneyimi için <strong>İstanbul Havalimanı’ndan Beşiktaş’a</strong> yolculuğunuza başlayın. <strong>Hemen rezervasyon yapın</strong> ve İstanbul seyahatinize sorunsuz bir başlangıç yapın!</p>
+
+            `,
+            ar: `
+            <h1>تاكسي من مطار إسطنبول إلى بشكتاش</h1>
+<p>استمتع برحلة مريحة وسلسة مع <strong>خدمة التاكسي من مطار إسطنبول إلى بشكتاش</strong> مع APL Transfers. سواء كنت مسافرًا للعمل أو السياحة، فإن خدمتنا الخاصة ذات الأسعار الثابتة تضمن لك رحلة خالية من التوتر إلى أحد أكثر أحياء إسطنبول حيوية.</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li><strong>استقبال مجاني & وقت انتظار</strong> – سيكون سائقك في انتظارك في صالة الوصول حاملًا لافتة تحمل اسمك.</li>
+    <li><strong>تتبع الرحلات & لا توجد رسوم إضافية على التأخيرات</strong> – نتابع رحلتك في الوقت الفعلي ونعدل وقت الاستقبال دون أي رسوم إضافية.</li>
+    <li><strong>أسعار ثابتة – لا تكاليف مخفية</strong> – ما تراه هو ما تدفعه.</li>
+    <li><strong>إلغاء مجاني حتى 24 ساعة قبل الوصول</strong> – خيارات حجز مرنة.</li>
+    <li><strong>دعم العملاء على مدار 24/7</strong> – نحن متاحون لمساعدتك في أي وقت تحتاج فيه.</li>
+    <li><strong>سيارات فاخرة ونظيفة ومُعتنى بها جيدًا</strong> – استمتع برحلة أنيقة ومريحة.</li>
+    <li><strong>تغطية شاملة</strong> – نقدم خدمات النقل إلى <strong>جميع الفنادق والعناوين في بشكتاش</strong>.</li>
+</ul>
+
+<h2>نقل موثوق وخالٍ من المتاعب من المطار</h2>
+<p>تجنب طوابير التاكسي الطويلة والمواصلات العامة غير الموثوقة. مع <strong>APL Transfers</strong>، سيقوم سائقك بأخذك مباشرة من <strong>مطار إسطنبول (IST)</strong> وينقلك إلى <strong>بشكتاش بسيارة حديثة ومُعتنى بها جيدًا</strong>.</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+    <li><strong>المسافة:</strong> حوالي 43 كم</li>
+    <li><strong>المدة:</strong> حوالي 45-60 دقيقة (حسب حركة المرور)</li>
+    <li><strong>خيارات المسار:</strong> عبر طريق O-7 السريع أو طريق TEM السريع عبر جسر البوسفور</li>
+</ul>
+
+<h2>احجز خدمة التاكسي الخاصة بك</h2>
+<p>حجز <strong>تاكسي من مطار إسطنبول إلى بشكتاش</strong> سهل وسريع. استخدم <strong>نظام الحجز الإلكتروني الآمن</strong> لدينا لتحديد موعد رحلتك مسبقًا وضمان وصول سلس إلى إسطنبول.</p>
+
+<h2>خدمات إضافية</h2>
+<ul>
+    <li><strong>مقاعد أطفال متاحة</strong> – لضمان سفر آمن للعائلات.</li>
+    <li><strong>نقل درجة رجال الأعمال</strong> – خيارات سيارات فاخرة للمسافرين من رجال الأعمال.</li>
+    <li><strong>نقل المجموعات</strong> – تتوفر حافلات صغيرة للمجموعات الكبيرة.</li>
+</ul>
+
+<p>ابدأ رحلتك بدون قلق مع <strong>خدمة التاكسي المريحة والموثوقة والميسورة التكلفة</strong> من <strong>مطار إسطنبول إلى بشكتاش</strong>. <strong>احجز الآن</strong> واستمتع برحلة سلسة!</p>
+
+            `,
+            es: `
+            <h1>Taxi del Aeropuerto de Estambul a Beşiktaş</h1>
+<p>Disfruta de un traslado en <strong>taxi desde el Aeropuerto de Estambul a Beşiktaş</strong> con APL Transfers de manera cómoda y sin complicaciones. Ya sea por negocios o placer, nuestro servicio de traslado privado con tarifa fija garantiza un viaje sin estrés a uno de los distritos más animados de Estambul.</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+    <li><strong>Recepción gratuita & Tiempo de espera</strong> – Tu conductor te estará esperando en la sala de llegadas con un cartel con tu nombre.</li>
+    <li><strong>Seguimiento de vuelos & Sin cargo adicional por retrasos</strong> – Monitoreamos tu vuelo y ajustamos la hora de recogida sin costo adicional.</li>
+    <li><strong>Precios fijos – Sin costos ocultos</strong> – Lo que ves es lo que pagas.</li>
+    <li><strong>Cancelación gratuita hasta 24 horas antes de la llegada</strong> – Opciones de reserva flexibles.</li>
+    <li><strong>Atención al cliente 24/7</strong> – Estamos disponibles en cualquier momento que necesites asistencia.</li>
+    <li><strong>Vehículos de lujo, limpios y bien mantenidos</strong> – Viaja con estilo y comodidad.</li>
+    <li><strong>Cobertura completa</strong> – Ofrecemos traslados a <strong>todos los hoteles y direcciones en Beşiktaş</strong>.</li>
+</ul>
+
+<h2>Traslado confiable y sin complicaciones desde el aeropuerto</h2>
+<p>Evita las largas colas para tomar un taxi y el transporte público poco confiable. Con <strong>APL Transfers</strong>, tu conductor te recogerá directamente en el <strong>Aeropuerto de Estambul (IST)</strong> y te llevará a <strong>Beşiktaş en un vehículo moderno y bien mantenido</strong>.</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+    <li><strong>Distancia:</strong> Aproximadamente 43 km</li>
+    <li><strong>Duración:</strong> Alrededor de 45-60 minutos (dependiendo del tráfico)</li>
+    <li><strong>Opciones de ruta:</strong> A través de la autopista O-7 o la autopista TEM, cruzando el Puente del Bósforo</li>
+</ul>
+
+<h2>Reserva tu traslado en taxi</h2>
+<p>Reservar tu <strong>taxi del Aeropuerto de Estambul a Beşiktaş</strong> es simple y rápido. Usa nuestro <strong>sistema de reserva en línea seguro</strong> para programar tu viaje con anticipación y asegurarte de una llegada sin problemas a Estambul.</p>
+
+<h2>Servicios adicionales</h2>
+<ul>
+    <li><strong>Asientos para niños disponibles</strong> – Viaje seguro para familias.</li>
+    <li><strong>Traslados en clase ejecutiva</strong> – Opciones de vehículos premium para viajeros de negocios.</li>
+    <li><strong>Traslados grupales</strong> – Minibuses disponibles para grupos grandes.</li>
+</ul>
+
+<p>Experimenta un traslado <strong>cómodo, confiable y asequible</strong> desde el <strong>Aeropuerto de Estambul a Beşiktaş</strong>. <strong>¡Reserva ahora</strong> y comienza tu viaje en Estambul con tranquilidad!</p>
+
+            `,
+            it: `
+            <h1>Taxi dall'Aeroporto di Istanbul a Beşiktaş</h1>
+<p>Goditi un trasferimento <strong>in taxi dall'Aeroporto di Istanbul a Beşiktaş</strong> con APL Transfers in modo semplice e confortevole. Che tu stia viaggiando per affari o per piacere, il nostro servizio di trasferimento privato a prezzo fisso garantisce un viaggio senza stress verso uno dei quartieri più vivaci di Istanbul.</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+    <li><strong>Accoglienza gratuita & Tempo di attesa</strong> – Il tuo autista ti aspetterà nella sala arrivi con un cartello con il tuo nome.</li>
+    <li><strong>Monitoraggio del volo & Nessun costo aggiuntivo per ritardi</strong> – Monitoriamo il tuo volo e regoliamo l'orario di prelievo senza costi aggiuntivi.</li>
+    <li><strong>Prezzi fissi – Nessun costo nascosto</strong> – Paghi solo quello che vedi.</li>
+    <li><strong>Cancellazione gratuita fino a 24 ore prima dell'arrivo</strong> – Opzioni di prenotazione flessibili.</li>
+    <li><strong>Supporto clienti 24/7</strong> – Siamo disponibili in qualsiasi momento per aiutarti.</li>
+    <li><strong>Veicoli di lusso, puliti e ben mantenuti</strong> – Viaggia con stile e comfort.</li>
+    <li><strong>Copertura completa</strong> – Offriamo trasferimenti a <strong>tutti gli hotel e indirizzi di Beşiktaş</strong>.</li>
+</ul>
+
+<h2>Trasferimento affidabile e senza problemi dall'aeroporto</h2>
+<p>Evita le lunghe code per i taxi e il trasporto pubblico inaffidabile. Con <strong>APL Transfers</strong>, il tuo autista ti preleverà direttamente dall'<strong>Aeroporto di Istanbul (IST)</strong> e ti porterà a <strong>Beşiktaş con un veicolo moderno e ben mantenuto</strong>.</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+    <li><strong>Distanza:</strong> Circa 43 km</li>
+    <li><strong>Durata:</strong> Circa 45-60 minuti (a seconda del traffico)</li>
+    <li><strong>Opzioni di percorso:</strong> Autostrada O-7 o Autostrada TEM attraversando il Ponte sul Bosforo</li>
+</ul>
+
+<h2>Prenota il tuo trasferimento in taxi</h2>
+<p>Prenotare il tuo <strong>taxi dall'Aeroporto di Istanbul a Beşiktaş</strong> è semplice e veloce. Usa il nostro <strong>sistema di prenotazione online sicuro</strong> per organizzare il tuo trasferimento in anticipo e assicurarti un arrivo senza problemi a Istanbul.</p>
+
+<h2>Servizi aggiuntivi</h2>
+<ul>
+    <li><strong>Seggiolini per bambini disponibili</strong> – Viaggi sicuri per famiglie.</li>
+    <li><strong>Trasferimenti Business-Class</strong> – Opzioni di veicoli premium per viaggiatori d'affari.</li>
+    <li><strong>Trasferimenti di gruppo</strong> – Minibus disponibili per gruppi numerosi.</li>
+</ul>
+
+<p>Goditi un trasferimento <strong>comodo, affidabile e conveniente</strong> dall'<strong>Aeroporto di Istanbul a Beşiktaş</strong>. <strong>Prenota ora</strong> e inizia il tuo viaggio a Istanbul senza stress!</p>
+
+            `,
+            ru: `
+            <h1>Такси из аэропорта Стамбула в Бешикташ</h1>
+<p>Наслаждайтесь комфортным <strong>трансфером на такси из аэропорта Стамбула в Бешикташ</strong> с APL Transfers. Независимо от того, путешествуете ли вы по делам или в отпуск, наша услуга частного трансфера с фиксированной ценой обеспечит вам поездку без стресса в один из самых оживленных районов Стамбула.</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li><strong>Бесплатная встреча & Ожидание</strong> – Ваш водитель будет ждать вас в зале прилета с табличкой с вашим именем.</li>
+    <li><strong>Отслеживание рейсов & Без дополнительной платы за задержки</strong> – Мы отслеживаем ваш рейс и корректируем время подачи такси без дополнительной оплаты.</li>
+    <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Вы платите только ту сумму, которую видите.</li>
+    <li><strong>Бесплатная отмена за 24 часа до прибытия</strong> – Гибкие условия бронирования.</li>
+    <li><strong>Круглосуточная поддержка клиентов</strong> – Мы всегда на связи, когда вам нужна помощь.</li>
+    <li><strong>Роскошные, чистые и ухоженные автомобили</strong> – Путешествуйте с комфортом и в безопасности.</li>
+    <li><strong>Широкий охват</strong> – Мы предлагаем трансферы во <strong>все отели и по всем адресам в Бешикташе</strong>.</li>
+</ul>
+
+<h2>Надежный и удобный трансфер из аэропорта</h2>
+<p>Избегайте длинных очередей на такси и ненадежного общественного транспорта. С <strong>APL Transfers</strong> ваш водитель встретит вас прямо в <strong>аэропорту Стамбула (IST)</strong> и доставит вас в <strong>Бешикташ на современном, комфортабельном автомобиле</strong>.</p>
+
+<h2>Детали поездки</h2>
+<ul>
+    <li><strong>Расстояние:</strong> около 43 км</li>
+    <li><strong>Длительность:</strong> около 45-60 минут (в зависимости от дорожной ситуации)</li>
+    <li><strong>Маршрут:</strong> по шоссе O-7 или TEM через Босфорский мост</li>
+</ul>
+
+<h2>Бронирование такси</h2>
+<p>Забронировать <strong>такси из аэропорта Стамбула в Бешикташ</strong> просто и удобно. Используйте нашу <strong>безопасную онлайн-систему бронирования</strong>, чтобы оформить заказ заранее и обеспечить себе комфортное прибытие в Стамбул.</p>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+    <li><strong>Детские кресла</strong> – Безопасные поездки для семей с детьми.</li>
+    <li><strong>Бизнес-класс трансфер</strong> – Премиальные автомобили для деловых поездок.</li>
+    <li><strong>Групповые трансферы</strong> – Минивэны для больших групп.</li>
+</ul>
+
+<p>Наслаждайтесь <strong>комфортным, надежным и доступным</strong> трансфером <strong>из аэропорта Стамбула в Бешикташ</strong>. <strong>Забронируйте сейчас</strong> и начните свое путешествие в Стамбуле с комфортом!</p>
+
+            `,
+            zh: `
+            <h1>伊斯坦布尔机场至贝西克塔斯出租车</h1>
+<p>通过 APL Transfers 享受顺畅舒适的 <strong>伊斯坦布尔机场至贝西克塔斯出租车接送服务</strong>。无论您是商务出行还是旅游观光，我们的固定价格私人接送服务都能确保您轻松前往伊斯坦布尔最热闹的地区之一。</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li><strong>免费迎接 & 等候时间</strong> – 您的司机将在到达大厅举着您的姓名牌等待您。</li>
+    <li><strong>航班跟踪 & 延误无额外费用</strong> – 我们实时监控您的航班，并相应调整接送时间，无需额外费用。</li>
+    <li><strong>固定价格 – 无隐藏费用</strong> – 透明定价，无任何额外收费。</li>
+    <li><strong>最多可在抵达前 24 小时免费取消</strong> – 灵活的预订选项。</li>
+    <li><strong>24/7 客户支持</strong> – 无论何时您需要帮助，我们都随时待命。</li>
+    <li><strong>豪华、干净且维护良好的车辆</strong> – 享受舒适、时尚的旅程。</li>
+    <li><strong>全面覆盖</strong> – 我们提供前往 <strong>贝西克塔斯所有酒店和地址</strong>的接送服务。</li>
+</ul>
+
+<h2>可靠 & 无忧的机场接送</h2>
+<p>无需排长队等候出租车，也不用担心公共交通的不确定性。选择 <strong>APL Transfers</strong>，您的司机将在 <strong>伊斯坦布尔机场 (IST)</strong> 直接接您，并使用 <strong>现代化、高质量的车辆</strong>安全送达贝西克塔斯。</p>
+
+<h2>行程详情</h2>
+<ul>
+    <li><strong>距离：</strong> 约 43 公里</li>
+    <li><strong>时长：</strong> 约 45-60 分钟（取决于交通情况）</li>
+    <li><strong>路线选择：</strong> 经 O-7 高速公路或 TEM 高速公路，途经博斯普鲁斯大桥</li>
+</ul>
+
+<h2>预订您的出租车接送服务</h2>
+<p>预订 <strong>伊斯坦布尔机场至贝西克塔斯出租车</strong> 非常简单快捷。使用我们的 <strong>安全在线预订系统</strong> 提前预定，确保您顺利抵达伊斯坦布尔。</p>
+
+<h2>额外服务</h2>
+<ul>
+    <li><strong>提供儿童座椅</strong> – 保障家庭出行安全。</li>
+    <li><strong>商务舱接送</strong> – 为商务旅客提供高端车辆选择。</li>
+    <li><strong>团体接送</strong> – 提供适合大型团队的商务面包车。</li>
+</ul>
+
+<p>享受 <strong>舒适、可靠、经济实惠</strong> 的 <strong>伊斯坦布尔机场至贝西克塔斯</strong> 接送服务。<strong>立即预订</strong>，轻松开启您的伊斯坦布尔之旅！</p>
+
+            `,
         },
+
+
         "/istanbul-airport-to-nisantasi": {
             en: ``,
             tr: ``,
