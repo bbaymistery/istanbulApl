@@ -12634,8 +12634,7 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
 
                 }
             },
-            // "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
-            // 
+
 
             "/sabiha-gokcen-airport-to-kadikoy": {
                 en: {
@@ -13516,42 +13515,42 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
             },
             "/sabiha-gokcen-airport-to-beyoglu": {
                 en: {
-                    "LocalBusiness":     {
+                    "LocalBusiness": {
                         "@context": "https://schema.org/",
                         "@type": "LocalBusiness",
                         "name": "APL Transfers",
                         "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
                         "@id": "43",
-                       "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu`,
+                        "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu`,
                         "telephone": "+90 212 123 4567",
                         "priceRange": "35",
                         "address": {
-                          "@type": "PostalAddress",
-                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
-                          "addressLocality": "Istanbul",
-                          "addressCountry": "TR",
-                          "postalCode": "34710"
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
                         },
                         "geo": {
-                          "@type": "GeoCoordinates",
-                          "latitude": 40.987843,
-                          "longitude": 29.022205
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
                         },
                         "openingHoursSpecification": {
-                          "@type": "OpeningHoursSpecification",
-                          "dayOfWeek": [
-                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-                          ],
-                          "opens": "00:00",
-                          "closes": "23:59"
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
                         },
                         "sameAs": [
-                          "https://www.facebook.com/APLTransfers",
-                          "https://twitter.com/APLTransfers",
-                          "https://www.instagram.com/APLTransfers"
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
                         ]
-                      }
-                  
+                    }
+
                     ,
                     "Product": {
                         "@context": "https://schema.org/",
@@ -13653,41 +13652,41 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
 
                 },
                 tr: {
-                    "LocalBusiness":     {
+                    "LocalBusiness": {
                         "@context": "https://schema.org/",
                         "@type": "LocalBusiness",
                         "name": "APL Transfers",
                         "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
                         "@id": "43",
-                       "url": `${env.websiteDomain}/tr/sabiha-gokcen-airport-to-beyoglu`,
+                        "url": `${env.websiteDomain}/tr/sabiha-gokcen-airport-to-beyoglu`,
                         "telephone": "+90 212 123 4567",
                         "priceRange": "35",
                         "address": {
-                          "@type": "PostalAddress",
-                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
-                          "addressLocality": "Istanbul",
-                          "addressCountry": "TR",
-                          "postalCode": "34710"
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
                         },
                         "geo": {
-                          "@type": "GeoCoordinates",
-                          "latitude": 40.987843,
-                          "longitude": 29.022205
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
                         },
                         "openingHoursSpecification": {
-                          "@type": "OpeningHoursSpecification",
-                          "dayOfWeek": [
-                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-                          ],
-                          "opens": "00:00",
-                          "closes": "23:59"
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
                         },
                         "sameAs": [
-                          "https://www.facebook.com/APLTransfers",
-                          "https://twitter.com/APLTransfers",
-                          "https://www.instagram.com/APLTransfers"
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
                         ]
-                      }
+                    }
                     ,
                     "Product": {
                         "@context": "https://schema.org/",
@@ -13791,41 +13790,41 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
 
                 },
                 ar: {
-                    "LocalBusiness":     {
+                    "LocalBusiness": {
                         "@context": "https://schema.org/",
                         "@type": "LocalBusiness",
                         "name": "APL Transfers",
                         "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
                         "@id": "43",
-                       "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu`,
+                        "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu`,
                         "telephone": "+90 212 123 4567",
                         "priceRange": "35",
                         "address": {
-                          "@type": "PostalAddress",
-                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
-                          "addressLocality": "Istanbul",
-                          "addressCountry": "TR",
-                          "postalCode": "34710"
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
                         },
                         "geo": {
-                          "@type": "GeoCoordinates",
-                          "latitude": 40.987843,
-                          "longitude": 29.022205
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
                         },
                         "openingHoursSpecification": {
-                          "@type": "OpeningHoursSpecification",
-                          "dayOfWeek": [
-                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-                          ],
-                          "opens": "00:00",
-                          "closes": "23:59"
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
                         },
                         "sameAs": [
-                          "https://www.facebook.com/APLTransfers",
-                          "https://twitter.com/APLTransfers",
-                          "https://www.instagram.com/APLTransfers"
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
                         ]
-                      }
+                    }
                     ,
                     "Product": {
                         "@context": "https://schema.org/",
@@ -13929,41 +13928,41 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
 
                 },
                 it: {
-                    "LocalBusiness":     {
+                    "LocalBusiness": {
                         "@context": "https://schema.org/",
                         "@type": "LocalBusiness",
                         "name": "APL Transfers",
                         "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
                         "@id": "43",
-                       "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu`,
+                        "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu`,
                         "telephone": "+90 212 123 4567",
                         "priceRange": "35",
                         "address": {
-                          "@type": "PostalAddress",
-                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
-                          "addressLocality": "Istanbul",
-                          "addressCountry": "TR",
-                          "postalCode": "34710"
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
                         },
                         "geo": {
-                          "@type": "GeoCoordinates",
-                          "latitude": 40.987843,
-                          "longitude": 29.022205
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
                         },
                         "openingHoursSpecification": {
-                          "@type": "OpeningHoursSpecification",
-                          "dayOfWeek": [
-                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-                          ],
-                          "opens": "00:00",
-                          "closes": "23:59"
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
                         },
                         "sameAs": [
-                          "https://www.facebook.com/APLTransfers",
-                          "https://twitter.com/APLTransfers",
-                          "https://www.instagram.com/APLTransfers"
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
                         ]
-                      }
+                    }
                     ,
                     "Product": {
                         "@context": "https://schema.org/",
@@ -14067,41 +14066,41 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
 
                 },
                 ru: {
-                    "LocalBusiness":     {
+                    "LocalBusiness": {
                         "@context": "https://schema.org/",
                         "@type": "LocalBusiness",
                         "name": "APL Transfers",
                         "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
                         "@id": "43",
-                       "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu`,
+                        "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu`,
                         "telephone": "+90 212 123 4567",
                         "priceRange": "35",
                         "address": {
-                          "@type": "PostalAddress",
-                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
-                          "addressLocality": "Istanbul",
-                          "addressCountry": "TR",
-                          "postalCode": "34710"
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
                         },
                         "geo": {
-                          "@type": "GeoCoordinates",
-                          "latitude": 40.987843,
-                          "longitude": 29.022205
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
                         },
                         "openingHoursSpecification": {
-                          "@type": "OpeningHoursSpecification",
-                          "dayOfWeek": [
-                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-                          ],
-                          "opens": "00:00",
-                          "closes": "23:59"
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
                         },
                         "sameAs": [
-                          "https://www.facebook.com/APLTransfers",
-                          "https://twitter.com/APLTransfers",
-                          "https://www.instagram.com/APLTransfers"
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
                         ]
-                      }
+                    }
                     ,
                     "Product": {
                         "@context": "https://schema.org/",
@@ -14205,41 +14204,41 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
 
                 },
                 es: {
-                    "LocalBusiness":     {
+                    "LocalBusiness": {
                         "@context": "https://schema.org/",
                         "@type": "LocalBusiness",
                         "name": "APL Transfers",
                         "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
                         "@id": "43",
-                       "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu`,
+                        "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu`,
                         "telephone": "+90 212 123 4567",
                         "priceRange": "35",
                         "address": {
-                          "@type": "PostalAddress",
-                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
-                          "addressLocality": "Istanbul",
-                          "addressCountry": "TR",
-                          "postalCode": "34710"
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
                         },
                         "geo": {
-                          "@type": "GeoCoordinates",
-                          "latitude": 40.987843,
-                          "longitude": 29.022205
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
                         },
                         "openingHoursSpecification": {
-                          "@type": "OpeningHoursSpecification",
-                          "dayOfWeek": [
-                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-                          ],
-                          "opens": "00:00",
-                          "closes": "23:59"
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
                         },
                         "sameAs": [
-                          "https://www.facebook.com/APLTransfers",
-                          "https://twitter.com/APLTransfers",
-                          "https://www.instagram.com/APLTransfers"
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
                         ]
-                      }
+                    }
                     ,
                     "Product": {
                         "@context": "https://schema.org/",
@@ -14344,41 +14343,41 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                 }
                 ,
                 zh: {
-                    "LocalBusiness":     {
+                    "LocalBusiness": {
                         "@context": "https://schema.org/",
                         "@type": "LocalBusiness",
                         "name": "APL Transfers",
                         "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
                         "@id": "43",
-                       "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu`,
+                        "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu`,
                         "telephone": "+90 212 123 4567",
                         "priceRange": "35",
                         "address": {
-                          "@type": "PostalAddress",
-                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
-                          "addressLocality": "Istanbul",
-                          "addressCountry": "TR",
-                          "postalCode": "34710"
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
                         },
                         "geo": {
-                          "@type": "GeoCoordinates",
-                          "latitude": 40.987843,
-                          "longitude": 29.022205
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
                         },
                         "openingHoursSpecification": {
-                          "@type": "OpeningHoursSpecification",
-                          "dayOfWeek": [
-                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-                          ],
-                          "opens": "00:00",
-                          "closes": "23:59"
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
                         },
                         "sameAs": [
-                          "https://www.facebook.com/APLTransfers",
-                          "https://twitter.com/APLTransfers",
-                          "https://www.instagram.com/APLTransfers"
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
                         ]
-                      }
+                    }
                     ,
                     "Product": {
                         "@context": "https://schema.org/",
@@ -14483,62 +14482,981 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
             },
             "/sabiha-gokcen-airport-to-besiktas": {
                 en: {
-                    "LocalBusiness": {}
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "42",
+                        "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas`,
+
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+
                     ,
-                    "Product": {}
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Airport to Beşiktaş Taxi Transfer",
+                        "image": "https://www.apltransfers.com/assets/taxi-istanbul.jpg",
+                        "description": "Book a premium taxi transfer from Sabiha Gökçen Airport to Beşiktaş with APL Transfers. Fixed price, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BES-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1400,
+                            "reviewCount": 1400
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Adams",
+                            "reviewBody": "Amazing transfer! The driver was punctual and met me at Column 13 as instructed. The ride to Beşiktaş was comfortable and smooth. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Airport to Beşiktaş Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Adams"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
                     ,
-                    "FAQPage": {}
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Sabiha Gökçen Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you at Column 13, located at the end of the pedestrian crossing, holding a passenger name board for easy recognition."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you track flights, and will I be charged if my flight is delayed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we track your flight in real-time. If your flight is delayed, we adjust your pickup time accordingly, and you will not be charged extra for delays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Sabiha Gökçen Airport to Beşiktaş fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer free cancellations for Sabiha Gökçen Airport to Beşiktaş transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What payment methods do you accept for Sabiha Gökçen Airport transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                                }
+                            }
+                        ]
+                    }
 
                 },
                 tr: {
-                    "LocalBusiness": {}
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "42",
+                        "url": `${env.websiteDomain}/tr/sabiha-gokcen-airport-to-besiktas`,
+
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
                     ,
-                    "Product": {}
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Havalimanı Beşiktaş Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "Sabiha Gökçen Havalimanı'ndan Beşiktaş'a premium taksi transferinizi APL Transfers ile ayırtın. Sabit fiyat, Kolon 13'te ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ek ücret yok.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BES-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/sabiha-gokcen-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1400,
+                            "reviewCount": 1400
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Adams",
+                            "reviewBody": "Harika bir transfer! Şoför dakikti ve belirtilen şekilde Kolon 13'te beni karşıladı. Beşiktaş'a yolculuk rahat ve sorunsuz geçti. APL Transfers'i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Havalimanı Beşiktaş Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Adams"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
                     ,
-                    "FAQPage": {}
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz sizi yaya geçidinin sonunda bulunan Kolon 13'te karşılayacaktır. Yolcu isminizin yazılı olduğu bir tabela tutarak kolayca tanınmanızı sağlayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum gecikirse ek ücret öder miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu gerçek zamanlı olarak takip ediyoruz. Eğer uçuşunuz gecikirse, karşılama saatini buna göre ayarlıyoruz ve gecikmeler için ek ücret talep etmiyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Beşiktaş'a taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm taksi ücretlerimiz sabittir ve gizli ücretler içermez. Şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Beşiktaş'a transferlerde ücretsiz iptal hakkı sunuyor musunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, rezervasyonunuzu varışınızdan 24 saat öncesine kadar ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Euro, İngiliz Sterlini (GBP), Amerikan Doları (USD) ve Türk Lirası (TRY) ile güvenli online ödeme kabul ediyoruz."
+                                }
+                            }
+                        ]
+                    }
+
 
                 },
                 ar: {
-                    "LocalBusiness": {}
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "42",
+                        "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-besiktas`,
+
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
                     ,
-                    "Product": {}
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "تاكسي من مطار صبيحة كوكجن إلى بشكتاش",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "احجز خدمة التاكسي المتميزة من مطار صبيحة كوكجن إلى بشكتاش مع APL Transfers. سعر ثابت، استقبال مجاني عند العمود 13، وخدمة متاحة 24/7. لا رسوم إضافية على تأخير الرحلات.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BES-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1400,
+                            "reviewCount": 1400
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Adams",
+                            "reviewBody": "خدمة انتقال رائعة! كان السائق دقيقًا في المواعيد واستقبلني عند العمود 13 كما هو متفق عليه. كانت الرحلة إلى بشكتاش مريحة وسلسة. أوصي بشدة بـ APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "تاكسي من مطار صبيحة كوكجن إلى بشكتاش"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Adams"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+
                     ,
-                    "FAQPage": {}
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقيني السائق في مطار صبيحة كوكجن؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتق بك السائق عند العمود 13، الموجود في نهاية ممر المشاة، حاملًا لوحة باسم الراكب لتسهيل التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تتابعون الرحلات الجوية، وهل سيتم فرض رسوم إضافية إذا تأخرت رحلتي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نحن نتابع رحلتك الجوية في الوقت الفعلي. في حال تأخرت رحلتك، نقوم بتعديل وقت الاستقبال وفقًا لذلك، ولن يتم فرض أي رسوم إضافية على التأخير."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار صبيحة كوكجن إلى بشكتاش ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعار التاكسي لدينا ثابتة ولا توجد رسوم مخفية، مما يضمن شفافية الأسعار وتنافسيتها."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تقدمون خدمة الإلغاء المجاني لرحلات التوصيل من مطار صبيحة كوكجن إلى بشكتاش؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء حجزك مجانًا حتى 24 ساعة قبل موعد الوصول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي طرق الدفع المقبولة لخدمات التوصيل من مطار صبيحة كوكجن؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نقبل الدفع بعملات اليورو (EUR)، الجنيه الإسترليني (GBP)، الدولار الأمريكي (USD)، والليرة التركية (TRY) من خلال الدفع الإلكتروني الآمن."
+                                }
+                            }
+                        ]
+                    }
+
 
                 },
                 it: {
-                    "LocalBusiness": {}
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "42",
+                        "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas`,
+
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
                     ,
-                    "Product": {}
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Taxi Aeroporto Sabiha Gökçen Beşiktaş",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "Prenota un trasferimento in taxi premium dall'Aeroporto Sabiha Gökçen a Beşiktaş con APL Transfers. Prezzo fisso, accoglienza gratuita alla Colonna 13 e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BES-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1400,
+                            "reviewCount": 1400
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Adams",
+                            "reviewBody": "Trasferimento eccellente! L'autista è stato puntuale e mi ha accolto alla Colonna 13 come indicato. Il viaggio verso Beşiktaş è stato confortevole e senza problemi. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Taxi Aeroporto Sabiha Gökçen Beşiktaş"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Adams"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
                     ,
-                    "FAQPage": {}
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all'Aeroporto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà alla Colonna 13, situata alla fine del passaggio pedonale, con un cartello con il nome del passeggero per un facile riconoscimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Monitorate i voli e dovrò pagare un costo aggiuntivo se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, monitoriamo il tuo volo in tempo reale. Se il tuo volo è in ritardo, adegueremo l'orario di prelievo di conseguenza e non ti verrà addebitato alcun costo extra per il ritardo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Le tariffe del taxi dall'Aeroporto Sabiha Gökçen a Beşiktaş sono fisse?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutte le nostre tariffe taxi sono fisse, senza costi nascosti, garantendo prezzi trasparenti e competitivi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto Sabiha Gökçen a Beşiktaş?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall'Aeroporto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in Euro, Sterline Britanniche (GBP), Dollari Statunitensi (USD) e Lire Turche (TRY) tramite pagamento sicuro online."
+                                }
+                            }
+                        ]
+                    }
+
 
                 },
                 ru: {
-                    "LocalBusiness": {}
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "42",
+                        "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas`,
+
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
                     ,
-                    "Product": {}
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Такси трансфер из аэропорта Сабиха Гёкчен в Бешикташ",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "Закажите премиальный такси-трансфер из аэропорта Сабиха Гёкчен в Бешикташ с APL Transfers. Фиксированная цена, бесплатная встреча у Колонны 13 и круглосуточное обслуживание. Без дополнительных платежей за задержку рейса.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BES-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1400,
+                            "reviewCount": 1400
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Adams",
+                            "reviewBody": "Отличный трансфер! Водитель был пунктуален и встретил меня у Колонны 13, как и было указано. Поездка в Бешикташ прошла комфортно и без проблем. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Такси трансфер из аэропорта Сабиха Гёкчен в Бешикташ"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Adams"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
                     ,
-                    "FAQPage": {}
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Сабиха Гёкчен?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель встретит вас у Колонны 13, которая находится в конце пешеходного перехода, держа табличку с вашим именем для удобного опознавания."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Отслеживаете ли вы рейсы, и будет ли взиматься плата, если мой рейс задерживается?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы отслеживаем ваш рейс в режиме реального времени. Если ваш рейс задерживается, мы скорректируем время встречи, и дополнительная плата за задержку не взимается."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксированы ли цены на такси из аэропорта Сабиха Гёкчен в Бешикташ?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши тарифы фиксированы, без скрытых платежей, что гарантирует прозрачные и конкурентные цены."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Предоставляете ли вы бесплатную отмену бронирования трансфера из аэропорта Сабиха Гёкчен в Бешикташ?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до прибытия."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какие способы оплаты вы принимаете для трансферов из аэропорта Сабиха Гёкчен?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Мы принимаем платежи в евро (EUR), британских фунтах (GBP), долларах США (USD) и турецких лирах (TRY) через безопасную онлайн-оплату."
+                                }
+                            }
+                        ]
+                    }
+
 
                 },
                 es: {
-                    "LocalBusiness": {}
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "42",
+                        "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-besiktas`,
+
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
                     ,
-                    "Product": {}
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Taxi Aeropuerto Sabiha Gökçen a Beşiktaş",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "Reserva un traslado en taxi premium desde el Aeropuerto Sabiha Gökçen a Beşiktaş con APL Transfers. Precio fijo, recepción gratuita en la Columna 13 y servicio 24/7. Sin cargos adicionales por retrasos en los vuelos.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BES-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1400,
+                            "reviewCount": 1400
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Adams",
+                            "reviewBody": "¡Traslado excelente! El conductor fue puntual y me recibió en la Columna 13 como se indicó. El viaje a Beşiktaş fue cómodo y sin problemas. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Taxi Aeropuerto Sabiha Gökçen a Beşiktaş"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Adams"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
                     ,
-                    "FAQPage": {}
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me recibirá mi conductor en el Aeropuerto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Tu conductor te esperará en la Columna 13, ubicada al final del paso de peatones, con un cartel con tu nombre para facilitar el reconocimiento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Monitorizan los vuelos y me cobrarán si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, monitoreamos tu vuelo en tiempo real. Si tu vuelo se retrasa, ajustamos la hora de recogida en consecuencia y no se te cobrará ningún cargo adicional por el retraso."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Los precios del taxi desde el Aeropuerto Sabiha Gökçen a Beşiktaş son fijos?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todas nuestras tarifas de taxi son fijas, sin cargos ocultos, garantizando precios transparentes y competitivos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen cancelaciones gratuitas para traslados del Aeropuerto Sabiha Gökçen a Beşiktaş?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva de forma gratuita hasta 24 horas antes de la llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en Euros, Libras Esterlinas (GBP), Dólares Estadounidenses (USD) y Liras Turcas (TRY) mediante pago seguro en línea."
+                                }
+                            }
+                        ]
+                    }
+
 
                 }
                 ,
                 zh: {
-                    "LocalBusiness": {}
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "@id": "42",
+                        "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas`,
+
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
                     ,
-                    "Product": {}
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "萨比哈·格克琴机场至贝西克塔斯出租车",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+                        "description": "预订从萨比哈·格克琴机场到贝西克塔斯的高级出租车接送服务，APL Transfers 提供固定价格、免费在第 13 柱迎接和 24/7 全天候服务。航班延误无额外费用。",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BES-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1400,
+                            "reviewCount": 1400
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Adams",
+                            "reviewBody": "非常棒的接送服务！司机准时到达，并在第 13 柱迎接我，行程安排得很好。从机场到贝西克塔斯的旅程非常舒适和顺利。我强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "萨比哈·格克琴机场至贝西克塔斯出租车"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Adams"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
                     ,
-                    "FAQPage": {}
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在哪里接我（萨比哈·格克琴机场）？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在人行横道尽头的第 13 柱迎接您，并举着写有乘客姓名的牌子，方便识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们会跟踪航班吗？如果航班延误，我会被收取额外费用吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们会实时跟踪您的航班。如果航班延误，我们会相应调整接送时间，不会收取额外费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从萨比哈·格克琴机场到贝西克塔斯的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们所有的出租车价格均为固定价格，无隐藏费用，确保价格透明且具有竞争力。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "萨比哈·格克琴机场至贝西克塔斯的接送服务是否可以免费取消？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，您可以在抵达前 24 小时内免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们接受哪些支付方式用于萨比哈·格克琴机场的接送服务？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "我们接受欧元（EUR）、英镑（GBP）、美元（USD）和土耳其里拉（TRY）的安全在线支付。"
+                                }
+                            }
+                        ]
+                    }
+
                 }
             },
+            // "image": `${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp`,
+            // "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas`,
             "/sabiha-gokcen-airport-to-uskudar": {
                 en: {
                     "LocalBusiness": {}
