@@ -366,16 +366,17 @@ const airportPoints = {
             imageUrl: "/images/popularDestinations/istanbul/eminonu.webp"
 
         },
+        //!here 1
         {
-            en: "Sabiha Gökçen Airport To Nişantaşı",
-            tr: "Sabiha Gökçen Havalimanı Nişantaşı'na",
-            es: "Aeropuerto de Sabiha Gökçen a Nişantaşı",
-            it: "Aeroporto di Sabiha Gökçen a Nişantaşı",
-            ru: "Аэропорт Сабиха Гёкчен в Нишанташи",
-            zh: "萨比哈·格克琴机场到尼尚塔西",
-            ar: "مطار صبيحة كوكجن إلى نيشان تاشي",
+            en: "Sabiha Gökçen Airport To Bursa",
+            tr: "Sabiha Gökçen Havalimanı Bursa'ya",
+            es: "Aeropuerto de Sabiha Gökçen a Bursa",
+            it: "Aeroporto di Sabiha Gökçen a Bursa",
+            ru: "Аэропорт Сабиха Гёкчен в Бурсу",
+            zh: "萨比哈·格克琴机场到布尔萨",
+            ar: "مطار صبيحة كوكجن إلى بورصة",
+            linkUrl: "sabiha-gokcen-airport-to-bursa",
             location: "Istanbul",
-            linkUrl: "sabiha-gokcen-airport-to-nisantasi",
             key: "SAW",
             price: 100,
             imageUrl: "/images/popularDestinations/istanbul/nisantasi.webp"
@@ -424,19 +425,22 @@ const airportPoints = {
             key: "SAW",
             price: 100,
         },
+
         {
-            en: "Sabiha Gökçen Airport To Bursa",
-            tr: "Sabiha Gökçen Havalimanı Bursa'ya",
-            es: "Aeropuerto de Sabiha Gökçen a Bursa",
-            it: "Aeroporto di Sabiha Gökçen a Bursa",
-            ru: "Аэропорт Сабиха Гёкчен в Бурсу",
-            zh: "萨比哈·格克琴机场到布尔萨",
-            ar: "مطار صبيحة كوكجن إلى بورصة",
-            linkUrl: "sabiha-gokcen-airport-to-bursa",
+            en: "Sabiha Gökçen Airport To Nişantaşı",
+            tr: "Sabiha Gökçen Havalimanı Nişantaşı'na",
+            es: "Aeropuerto de Sabiha Gökçen a Nişantaşı",
+            it: "Aeroporto di Sabiha Gökçen a Nişantaşı",
+            ru: "Аэропорт Сабиха Гёкчен в Нишанташи",
+            zh: "萨比哈·格克琴机场到尼尚塔西",
+            ar: "مطار صبيحة كوكجن إلى نيشان تاشي",
             location: "Istanbul",
+            linkUrl: "sabiha-gokcen-airport-to-nisantasi",
             key: "SAW",
             price: 100,
+
         },
+
         {
             en: "Sabiha Gökçen Airport To Yalova",
             tr: "Sabiha Gökçen Havalimanı Yalova'ya",

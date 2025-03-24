@@ -130,43 +130,126 @@ const keywordsTitlePopularDestinationPage = {
                 "ar": "احجز انتقال تاكسي موثوق من مطار إسطنبول إلى كاديكوي. أسعار ثابتة، استقبال مجاني وخدمة 24/7. لا توجد رسوم إضافية لتأخير الرحلات."
             }
         },
-
         "/istanbul-airport-to-besiktas": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
-        },
+            "headTitle": {
+                "en": "Istanbul Airport to Beşiktaş Taxi | Fast & Reliable Transfers",
+                "zh": "伊斯坦布尔机场至贝西克塔斯出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Стамбула в Бешикташ | Быстрые и Надежные Трансферы",
+                "es": "Taxi del Aeropuerto de Estambul a Beşiktaş | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Istanbul Beşiktaş | Trasferimenti Veloci e Affidabili",
+                "ar": "تاكسي من مطار إسطنبول إلى بشكتاش | انتقالات سريعة وموثوقة",
+                "tr": "İstanbul Havalimanı Beşiktaş Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Istanbul Airport to Beşiktaş taxi, IST airport transfer, Beşiktaş taxi service, private airport transfer Istanbul, Istanbul taxi service",
+                "tr": "İstanbul havalimanı Beşiktaş taksi, IST havalimanı transferi, Beşiktaş taksi hizmeti, özel havalimanı transferi İstanbul, İstanbul taksi hizmeti",
+                "zh": "伊斯坦布尔机场至贝西克塔斯出租车, IST机场接送, 贝西克塔斯出租车服务, 私人机场接送伊斯坦布尔, 伊斯坦布尔出租车服务",
+                "ru": "Такси из аэропорта Стамбула в Бешикташ, трансфер из аэропорта IST, такси в Бешикташ, частный трансфер в аэропорт Стамбула, такси в Стамбуле",
+                "es": "Taxi aeropuerto Estambul a Beşiktaş, traslado aeropuerto IST, servicio de taxi Beşiktaş, traslado privado aeropuerto Estambul, servicio de taxi Estambul",
+                "it": "Taxi aeroporto Istanbul Beşiktaş, trasferimento aeroporto IST, servizio taxi Beşiktaş, trasferimento privato aeroporto Istanbul, servizio taxi Istanbul",
+                "ar": "تاكسي مطار إسطنبول إلى بشكتاش, نقل مطار IST, خدمة تاكسي بشكتاش, انتقال خاص من مطار إسطنبول, خدمة تاكسي إسطنبول"
+            },
+            "metaDescription": {
+                "en": "Book a reliable Istanbul Airport to Beşiktaş taxi transfer. Fixed prices, free meet & greet, and 24/7 service. No extra charge for flight delays.",
+                "tr": "Güvenilir bir İstanbul Havalimanı Beşiktaş taksi transferi rezerve edin. Sabit fiyatlar, ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ek ücret yok.",
+                "zh": "预订可靠的伊斯坦布尔机场至贝西克塔斯出租车接送。固定价格，免费接机，24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Стамбула в Бешикташ. Фиксированные цены, бесплатная встреча и обслуживание 24/7. Без доплат за задержку рейса.",
+                "es": "Reserva un traslado en taxi confiable desde el Aeropuerto de Estambul a Beşiktaş. Precios fijos, bienvenida gratuita y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi affidabile dall Aeroporto di Istanbul a Beşiktaş. Prezzi fissi, accoglienza gratuita e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                "ar": "احجز انتقال تاكسي موثوق من مطار إسطنبول إلى بشكتاش. أسعار ثابتة، استقبال مجاني وخدمة 24/7. لا توجد رسوم إضافية لتأخير الرحلات."
+            }
+        }
+        ,
         "/istanbul-airport-to-bursa": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
-        },
+            "headTitle": {
+                "en": "Istanbul Airport to Bursa Taxi | Private Transfers 24/7",
+                "zh": "伊斯坦布尔机场至布尔萨出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Стамбула в Бурсу | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Estambul a Bursa | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Istanbul Bursa | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار إسطنبول إلى بورصة | انتقالات خاصة 24/7",
+                "tr": "İstanbul Havalimanı Bursa Taksi | 7/24 Özel Transferler"
+            },
+            "keywords": {
+                "en": "Istanbul Airport to Bursa taxi, IST airport transfer, Bursa private taxi, Istanbul to Bursa transfer, Bursa taxi service",
+                "tr": "İstanbul havalimanı Bursa taksi, IST havalimanı transferi, Bursa özel taksi, İstanbul Bursa transfer, Bursa taksi hizmeti",
+                "zh": "伊斯坦布尔机场至布尔萨出租车, IST机场接送, 布尔萨私人出租车, 伊斯坦布尔至布尔萨接送, 布尔萨出租车服务",
+                "ru": "Такси из аэропорта Стамбула в Бурсу, трансфер из аэропорта IST, частное такси в Бурсу, трансфер из Стамбула в Бурсу, такси в Бурсе",
+                "es": "Taxi aeropuerto Estambul a Bursa, traslado aeropuerto IST, taxi privado Bursa, traslado Estambul Bursa, servicio de taxi Bursa",
+                "it": "Taxi aeroporto Istanbul Bursa, trasferimento aeroporto IST, taxi privato Bursa, trasferimento Istanbul Bursa, servizio taxi Bursa",
+                "ar": "تاكسي مطار إسطنبول إلى بورصة, نقل مطار IST, تاكسي خاص بورصة, انتقال إسطنبول بورصة, خدمة تاكسي بورصة"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Istanbul Airport to Bursa. Fixed prices, free meet & greet, and 24/7 service. No extra charge for flight delays.",
+                "tr": "İstanbul Havalimanı'ndan Bursa'ya özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ek ücret yok.",
+                "zh": "预订可靠的伊斯坦布尔机场至布尔萨出租车接送。固定价格，免费接机，24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Стамбула в Бурсу. Фиксированные цены, бесплатная встреча и обслуживание 24/7. Без доплат за задержку рейса.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto de Estambul a Bursa. Precios fijos, bienvenida gratuita y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto di Istanbul a Bursa. Prezzi fissi, accoglienza gratuita e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                "ar": "احجز انتقال تاكسي خاص من مطار إسطنبول إلى بورصة. أسعار ثابتة، استقبال مجاني وخدمة 24/7. لا توجد رسوم إضافية لتأخير الرحلات."
+            }
+        }
+        ,
         "/istanbul-airport-to-eminonu": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            "headTitle": {
+                "en": "Istanbul Airport to Eminönü Taxi | Fast & Reliable Transfers",
+                "zh": "伊斯坦布尔机场至埃米诺努出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Стамбула в Эминоню | Быстрые и Надежные Трансферы",
+                "es": "Taxi del Aeropuerto de Estambul a Eminönü | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Istanbul Eminönü | Trasferimenti Veloci e Affidabili",
+                "ar": "تاكسي من مطار إسطنبول إلى إمينونو | انتقالات سريعة وموثوقة",
+                "tr": "İstanbul Havalimanı Eminönü Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Istanbul Airport to Eminönü taxi, IST airport transfer, Eminönü taxi service, private airport transfer Istanbul, Istanbul taxi service",
+                "tr": "İstanbul havalimanı Eminönü taksi, IST havalimanı transferi, Eminönü taksi hizmeti, özel havalimanı transferi İstanbul, İstanbul taksi hizmeti",
+                "zh": "伊斯坦布尔机场至埃米诺努出租车, IST机场接送, 埃米诺努出租车服务, 私人机场接送伊斯坦布尔, 伊斯坦布尔出租车服务",
+                "ru": "Такси из аэропорта Стамбула в Эминоню, трансфер из аэропорта IST, такси в Эминоню, частный трансфер в аэропорт Стамбула, такси в Стамбуле",
+                "es": "Taxi aeropuerto Estambul a Eminönü, traslado aeropuerto IST, servicio de taxi Eminönü, traslado privado aeropuerto Estambul, servicio de taxi Estambul",
+                "it": "Taxi aeroporto Istanbul Eminönü, trasferimento aeroporto IST, servizio taxi Eminönü, trasferimento privato aeroporto Istanbul, servizio taxi Istanbul",
+                "ar": "تاكسي مطار إسطنبول إلى إمينونو, نقل مطار IST, خدمة تاكسي إمينونو, انتقال خاص من مطار إسطنبول, خدمة تاكسي إسطنبول"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Istanbul Airport to Eminönü. Fixed prices, free meet & greet, and 24/7 service. No extra charge for flight delays.",
+                "tr": "İstanbul Havalimanı'ndan Eminönü'ne özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ek ücret yok.",
+                "zh": "预订可靠的伊斯坦布尔机场至埃米诺努出租车接送。固定价格，免费接机，24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Стамбула в Эминоню. Фиксированные цены, бесплатная встреча и обслуживание 24/7. Без доплат за задержку рейса.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto de Estambul a Eminönü. Precios fijos, bienvenida gratuita y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto di Istanbul a Eminönü. Prezzi fissi, accoglienza gratuita e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                "ar": "احجز انتقال تاكسي خاص من مطار إسطنبول إلى إمينونو. أسعار ثابتة، استقبال مجاني وخدمة 24/7. لا توجد رسوم إضافية لتأخير الرحلات."
+            }
         },
         "/istanbul-airport-to-uskudar-asian-side": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            "headTitle": {
+                "en": "Istanbul Airport to Üsküdar Taxi | Fast & Reliable Transfers",
+                "zh": "伊斯坦布尔机场至于斯屈达出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Стамбула в Ускюдар | Быстрые и Надежные Трансферы",
+                "es": "Taxi del Aeropuerto de Estambul a Üsküdar | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Istanbul Üsküdar | Trasferimenti Veloci e Affidabili",
+                "ar": "تاكسي من مطار إسطنبول إلى أسكدار | انتقالات سريعة وموثوقة",
+                "tr": "İstanbul Havalimanı Üsküdar Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Istanbul Airport to Üsküdar taxi, IST airport transfer, Üsküdar taxi service, private airport transfer Istanbul, Istanbul taxi service",
+                "tr": "İstanbul havalimanı Üsküdar taksi, IST havalimanı transferi, Üsküdar taksi hizmeti, özel havalimanı transferi İstanbul, İstanbul taksi hizmeti",
+                "zh": "伊斯坦布尔机场至于斯屈达出租车, IST机场接送, 于斯屈达出租车服务, 私人机场接送伊斯坦布尔, 伊斯坦布尔出租车服务",
+                "ru": "Такси из аэропорта Стамбула в Ускюдар, трансфер из аэропорта IST, такси в Ускюдар, частный трансфер в аэропорт Стамбула, такси в Стамбуле",
+                "es": "Taxi aeropuerto Estambul a Üsküdar, traslado aeropuerto IST, servicio de taxi Üsküdar, traslado privado aeropuerto Estambul, servicio de taxi Estambul",
+                "it": "Taxi aeroporto Istanbul Üsküdar, trasferimento aeroporto IST, servizio taxi Üsküdar, trasferimento privato aeroporto Istanbul, servizio taxi Istanbul",
+                "ar": "تاكسي مطار إسطنبول إلى أسكدار, نقل مطار IST, خدمة تاكسي أسكدار, انتقال خاص من مطار إسطنبول, خدمة تاكسي إسطنبول"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Istanbul Airport to Üsküdar. Fixed prices, free meet & greet, and 24/7 service. No extra charge for flight delays.",
+                "tr": "İstanbul Havalimanı'ndan Üsküdar'a özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ek ücret yok.",
+                "zh": "预订可靠的伊斯坦布尔机场至于斯屈达出租车接送。固定价格，免费接机，24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Стамбула в Ускюдар. Фиксированные цены, бесплатная встреча и обслуживание 24/7. Без доплат за задержку рейса.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto de Estambul a Üsküdar. Precios fijos, bienvenida gratuita y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto di Istanbul a Üsküdar. Prezzi fissi, accoglienza gratuita e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                "ar": "احجز انتقال تاكسي خاص من مطار إسطنبول إلى أسكدار. أسعار ثابتة، استقبال مجاني وخدمة 24/7. لا توجد رسوم إضافية لتأخير الرحلات."
+            }
         },
+
+        //!...
         "/istanbul-airport-to-levent-maslak": {
             en: ``,
             tr: ``,
@@ -259,7 +342,246 @@ const keywordsTitlePopularDestinationPage = {
             zh: ``,
         },
     },
-    SAW: {},
+    SAW: {
+        "/sabiha-gokcen-airport-to-taksim": {
+            "headTitle": {
+                "en": "Sabiha Gökçen Airport to Taksim Taxi | Fast & Reliable Transfers",
+                "zh": "萨比哈·格克琴机场至塔克西姆出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Таксим | Быстрые и надежные трансферы",
+                "es": "Taxi del Aeropuerto Sabiha Gökçen a Taksim | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Sabiha Gökçen Taksim | Trasferimenti Rapidi e Affidabili",
+                "ar": "تاكسي من مطار صبيحة كوكجن إلى تقسيم | انتقالات سريعة وموثوقة",
+                "tr": "Sabiha Gökçen Havalimanı Taksim Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Sabiha Gökçen Airport to Taksim taxi, SAW airport transfer, Taksim taxi service, private airport transfer Istanbul, Istanbul taxi service",
+                "tr": "Sabiha Gökçen havalimanı Taksim taksi, SAW havalimanı transferi, Taksim taksi hizmeti, özel havalimanı transferi İstanbul, İstanbul taksi hizmeti",
+                "zh": "萨比哈·格克琴机场至塔克西姆出租车, SAW机场接送, 塔克西姆出租车服务, 私人机场接送伊斯坦布尔, 伊斯坦布尔出租车服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Таксим, трансфер из аэропорта SAW, такси в Таксим, частный трансфер в аэропорт Стамбула, такси в Стамбуле",
+                "es": "Taxi aeropuerto Sabiha Gökçen a Taksim, traslado aeropuerto SAW, servicio de taxi Taksim, traslado privado aeropuerto Estambul, servicio de taxi Estambul",
+                "it": "Taxi aeroporto Sabiha Gökçen Taksim, trasferimento aeroporto SAW, servizio taxi Taksim, trasferimento privato aeroporto Istanbul, servizio taxi Istanbul",
+                "ar": "تاكسي مطار صبيحة كوكجن إلى تقسيم, نقل مطار SAW, خدمة تاكسي تقسيم, انتقال خاص من مطار إسطنبول, خدمة تاكسي إسطنبول"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Sabiha Gökçen Airport to Taksim. Fixed prices, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                "tr": "Sabiha Gökçen Havalimanı'ndan Taksim'e özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama (Kolon 13) ve 7/24 hizmet. Uçuş gecikmeleri için ekstra ücret yok.",
+                "zh": "预订从萨比哈·格克琴机场到塔克西姆的私人出租车接送。固定价格, 免费接机（第13列）, 24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте частный трансфер такси из аэропорта Сабиха Гёкчен в Таксим. Фиксированные цены, бесплатная встреча (Колонна 13) и обслуживание 24/7. Без доплаты за задержку рейсов.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto Sabiha Gökçen a Taksim. Precios fijos, bienvenida gratuita en la Columna 13 y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto Sabiha Gökçen a Taksim. Prezzi fissi, accoglienza gratuita (Colonna 13) e servizio 24/7. Nessun costo aggiuntivo per ritardi di volo.",
+                "ar": "احجز انتقال تاكسي خاص من مطار صبيحة كوكجن إلى تقسيم. أسعار ثابتة، استقبال مجاني (العمود 13)، وخدمة 24/7. لا رسوم إضافية على تأخير الرحلات."
+            }
+        },
+        "/sabiha-gokcen-airport-to-sultanahmet": {
+            "headTitle": {
+                "en": "Sabiha Gökçen Airport to Sultanahmet Taxi | Fast & Reliable Transfers",
+                "zh": "萨比哈·格克琴机场至苏丹艾哈迈德出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Султанахмет | Быстрые и надежные трансферы",
+                "es": "Taxi del Aeropuerto Sabiha Gökçen a Sultanahmet | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Sabiha Gökçen Sultanahmet | Trasferimenti Rapidi e Affidabili",
+                "ar": "تاكسي من مطار صبيحة كوكجن إلى السلطان أحمد | انتقالات سريعة وموثوقة",
+                "tr": "Sabiha Gökçen Havalimanı Sultanahmet Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Sabiha Gökçen Airport to Sultanahmet taxi, SAW to Sultanahmet transfer, Sultanahmet private taxi, Istanbul airport transfer, Sabiha Gökçen taxi service",
+                "tr": "Sabiha Gökçen havalimanı Sultanahmet taksi, SAW Sultanahmet transferi, Sultanahmet özel taksi, İstanbul havalimanı transferi, Sabiha Gökçen taksi hizmeti",
+                "zh": "萨比哈·格克琴机场至苏丹艾哈迈德出租车, SAW至苏丹艾哈迈德接送, 苏丹艾哈迈德私人出租车, 伊斯坦布尔机场接送, 萨比哈·格克琴出租车服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Султанахмет, трансфер SAW - Султанахмет, частное такси в Султанахмет, трансфер из аэропорта Стамбула, такси Сабиха Гёкчен",
+                "es": "Taxi aeropuerto Sabiha Gökçen a Sultanahmet, traslado SAW a Sultanahmet, taxi privado Sultanahmet, traslado aeropuerto Estambul, servicio de taxi Sabiha Gökçen",
+                "it": "Taxi aeroporto Sabiha Gökçen Sultanahmet, trasferimento SAW Sultanahmet, taxi privato Sultanahmet, trasferimento aeroporto Istanbul, servizio taxi Sabiha Gökçen",
+                "ar": "تاكسي مطار صبيحة كوكجن إلى السلطان أحمد, نقل SAW إلى السلطان أحمد, تاكسي خاص السلطان أحمد, انتقال مطار إسطنبول, خدمة تاكسي صبيحة كوكجن"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Sabiha Gökçen Airport to Sultanahmet. Fixed prices, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                "tr": "Sabiha Gökçen Havalimanı'ndan Sultanahmet'e özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama (Kolon 13) ve 7/24 hizmet. Uçuş gecikmeleri için ekstra ücret yok.",
+                "zh": "预订从萨比哈·格克琴机场到苏丹艾哈迈德的私人出租车接送。固定价格, 免费接机（第13列）, 24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте частный трансфер такси из аэропорта Сабиха Гёкчен в Султанахмет. Фиксированные цены, бесплатная встреча (Колонна 13) и обслуживание 24/7. Без доплаты за задержку рейсов.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto Sabiha Gökçen a Sultanahmet. Precios fijos, bienvenida gratuita en la Columna 13 y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto Sabiha Gökçen a Sultanahmet. Prezzi fissi, accoglienza gratuita (Colonna 13) e servizio 24/7. Nessun costo aggiuntivo per ritardi di volo.",
+                "ar": "احجز انتقال تاكسي خاص من مطار صبيحة كوكجن إلى السلطان أحمد. أسعار ثابتة، استقبال مجاني (العمود 13)، وخدمة 24/7. لا رسوم إضافية على تأخير الرحلات."
+            }
+        }
+        ,
+        "/sabiha-gokcen-airport-to-kadikoy": {
+            "headTitle": {
+                "en": "Sabiha Gökçen Airport to Kadıköy Taxi | Fast & Reliable Transfers",
+                "zh": "萨比哈·格克琴机场至卡德柯伊出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Кадыкёй | Быстрые и надежные трансферы",
+                "es": "Taxi del Aeropuerto Sabiha Gökçen a Kadıköy | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Sabiha Gökçen Kadıköy | Trasferimenti Rapidi e Affidabili",
+                "ar": "تاكسي من مطار صبيحة كوكجن إلى كاديكوي | انتقالات سريعة وموثوقة",
+                "tr": "Sabiha Gökçen Havalimanı Kadıköy Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Sabiha Gökçen Airport to Kadıköy taxi, SAW to Kadıköy transfer, Kadıköy private taxi, Istanbul airport transfer, Sabiha Gökçen taxi service",
+                "tr": "Sabiha Gökçen havalimanı Kadıköy taksi, SAW Kadıköy transferi, Kadıköy özel taksi, İstanbul havalimanı transferi, Sabiha Gökçen taksi hizmeti",
+                "zh": "萨比哈·格克琴机场至卡德柯伊出租车, SAW至卡德柯伊接送, 卡德柯伊私人出租车, 伊斯坦布尔机场接送, 萨比哈·格克琴出租车服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Кадыкёй, трансфер SAW - Кадыкёй, частное такси в Кадыкёй, трансфер из аэропорта Стамбула, такси Сабиха Гёкчен",
+                "es": "Taxi aeropuerto Sabiha Gökçen a Kadıköy, traslado SAW a Kadıköy, taxi privado Kadıköy, traslado aeropuerto Estambul, servicio de taxi Sabiha Gökçen",
+                "it": "Taxi aeroporto Sabiha Gökçen Kadıköy, trasferimento SAW Kadıköy, taxi privato Kadıköy, trasferimento aeroporto Istanbul, servizio taxi Sabiha Gökçen",
+                "ar": "تاكسي مطار صبيحة كوكجن إلى كاديكوي, نقل SAW إلى كاديكوي, تاكسي خاص كاديكوي, انتقال مطار إسطنبول, خدمة تاكسي صبيحة كوكجن"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Sabiha Gökçen Airport to Kadıköy. Fixed prices, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                "tr": "Sabiha Gökçen Havalimanı'ndan Kadıköy'e özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama (Kolon 13) ve 7/24 hizmet. Uçuş gecikmeleri için ekstra ücret yok.",
+                "zh": "预订从萨比哈·格克琴机场到卡德柯伊的私人出租车接送。固定价格, 免费接机（第13列）, 24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте частный трансфер такси из аэропорта Сабиха Гёкчен в Кадыкёй. Фиксированные цены, бесплатная встреча (Колонна 13) и обслуживание 24/7. Без доплаты за задержку рейсов.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto Sabiha Gökçen a Kadıköy. Precios fijos, bienvenida gratuita en la Columna 13 y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto Sabiha Gökçen a Kadıköy. Prezzi fissi, accoglienza gratuita (Colonna 13) e servizio 24/7. Nessun costo aggiuntivo per ritardi di volo.",
+                "ar": "احجز انتقال تاكسي خاص من مطار صبيحة كوكجن إلى كاديكوي. أسعار ثابتة، استقبال مجاني (العمود 13)، وخدمة 24/7. لا رسوم إضافية على تأخير الرحلات."
+            }
+        }
+        ,
+        "/sabiha-gokcen-airport-to-beyoglu": {
+            "headTitle": {
+                "en": "Sabiha Gökçen Airport to Beyoğlu Taxi | Fast & Reliable Transfers",
+                "zh": "萨比哈·格克琴机场至贝伊奥卢出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Бейоглу | Быстрые и надежные трансферы",
+                "es": "Taxi del Aeropuerto Sabiha Gökçen a Beyoğlu | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Sabiha Gökçen Beyoğlu | Trasferimenti Rapidi e Affidabili",
+                "ar": "تاكسي من مطار صبيحة كوكجن إلى بيوغلو | انتقالات سريعة وموثوقة",
+                "tr": "Sabiha Gökçen Havalimanı Beyoğlu Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Sabiha Gökçen Airport to Beyoğlu taxi, SAW airport transfer, Beyoğlu taxi service, private airport transfer Istanbul, Istanbul taxi service",
+                "tr": "Sabiha Gökçen havalimanı Beyoğlu taksi, SAW havalimanı transferi, Beyoğlu taksi hizmeti, özel havalimanı transferi İstanbul, İstanbul taksi hizmeti",
+                "zh": "萨比哈·格克琴机场至贝伊奥卢出租车, SAW机场接送, 贝伊奥卢出租车服务, 私人机场接送伊斯坦布尔, 伊斯坦布尔出租车服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Бейоглу, трансфер из аэропорта SAW, такси в Бейоглу, частный трансфер в аэропорт Стамбула, такси в Стамбуле",
+                "es": "Taxi aeropuerto Sabiha Gökçen a Beyoğlu, traslado aeropuerto SAW, servicio de taxi Beyoğlu, traslado privado aeropuerto Estambul, servicio de taxi Estambul",
+                "it": "Taxi aeroporto Sabiha Gökçen Beyoğlu, trasferimento aeroporto SAW, servizio taxi Beyoğlu, trasferimento privato aeroporto Istanbul, servizio taxi Istanbul",
+                "ar": "تاكسي مطار صبيحة كوكجن إلى بيوغلو, نقل مطار SAW, خدمة تاكسي بيوغلو, انتقال خاص من مطار إسطنبول, خدمة تاكسي إسطنبول"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Sabiha Gökçen Airport to Beyoğlu. Fixed prices, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                "tr": "Sabiha Gökçen Havalimanı'ndan Beyoğlu'na özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama (Kolon 13) ve 7/24 hizmet. Uçuş gecikmeleri için ekstra ücret yok.",
+                "zh": "预订从萨比哈·格克琴机场到贝伊奥卢的私人出租车接送。固定价格, 免费接机（第13列）, 24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте частный трансфер такси из аэропорта Сабиха Гёкчен в Бейоглу. Фиксированные цены, бесплатная встреча (Колонна 13) и обслуживание 24/7. Без доплаты за задержку рейсов.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto Sabiha Gökçen a Beyoğlu. Precios fijos, bienvenida gratuita en la Columna 13 y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto Sabiha Gökçen a Beyoğlu. Prezzi fissi, accoglienza gratuita (Colonna 13) e servizio 24/7. Nessun costo aggiuntivo per ritardi di volo.",
+                "ar": "احجز انتقال تاكسي خاص من مطار صبيحة كوكجن إلى بيوغلو. أسعار ثابتة، استقبال مجاني (العمود 13)، وخدمة 24/7. لا رسوم إضافية على تأخير الرحلات."
+            }
+        }
+        ,
+        "/sabiha-gokcen-airport-to-besiktas": {
+            "headTitle": {
+                "en": "Sabiha Gökçen Airport to Beşiktaş Taxi | Fast & Reliable Transfers",
+                "zh": "萨比哈·格克琴机场至贝西克塔斯出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Бешикташ | Быстрые и надежные трансферы",
+                "es": "Taxi del Aeropuerto Sabiha Gökçen a Beşiktaş | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Sabiha Gökçen Beşiktaş | Trasferimenti Rapidi e Affidabili",
+                "ar": "تاكسي من مطار صبيحة كوكجن إلى بشيكتاش | انتقالات سريعة وموثوقة",
+                "tr": "Sabiha Gökçen Havalimanı Beşiktaş Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Sabiha Gökçen Airport to Beşiktaş taxi, SAW airport transfer, Beşiktaş taxi service, private airport transfer Istanbul, Istanbul taxi service",
+                "tr": "Sabiha Gökçen havalimanı Beşiktaş taksi, SAW havalimanı transferi, Beşiktaş taksi hizmeti, özel havalimanı transferi İstanbul, İstanbul taksi hizmeti",
+                "zh": "萨比哈·格克琴机场至贝西克塔斯出租车, SAW机场接送, 贝西克塔斯出租车服务, 私人机场接送伊斯坦布尔, 伊斯坦布尔出租车服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Бешикташ, трансфер из аэропорта SAW, такси в Бешикташ, частный трансфер в аэропорт Стамбула, такси в Стамбуле",
+                "es": "Taxi aeropuerto Sabiha Gökçen a Beşiktaş, traslado aeropuerto SAW, servicio de taxi Beşiktaş, traslado privado aeropuerto Estambul, servicio de taxi Estambul",
+                "it": "Taxi aeroporto Sabiha Gökçen Beşiktaş, trasferimento aeroporto SAW, servizio taxi Beşiktaş, trasferimento privato aeroporto Istanbul, servizio taxi Sabiha Gökçen",
+                "ar": "تاكسي مطار صبيحة كوكجن إلى بشيكتاش, نقل مطار SAW, خدمة تاكسي بشيكتاش, انتقال خاص من مطار إسطنبول, خدمة تاكسي إسطنبول"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Sabiha Gökçen Airport to Beşiktaş. Fixed prices, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                "tr": "Sabiha Gökçen Havalimanı'ndan Beşiktaş'a özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama (Kolon 13) ve 7/24 hizmet. Uçuş gecikmeleri için ekstra ücret yok.",
+                "zh": "预订从萨比哈·格克琴机场到贝西克塔斯的私人出租车接送。固定价格, 免费接机（第13列）, 24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте частный трансфер такси из аэропорта Сабиха Гёкчен в Бешикташ. Фиксированные цены, бесплатная встреча (Колонна 13) и обслуживание 24/7. Без доплаты за задержку рейсов.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto Sabiha Gökçen a Beşiktaş. Precios fijos, bienvenida gratuita en la Columna 13 y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto Sabiha Gökçen a Beşiktaş. Prezzi fissi, accoglienza gratuita (Colonna 13) e servizio 24/7. Nessun costo aggiuntivo per ritardi di volo.",
+                "ar": "احجز انتقال تاكسي خاص من مطار صبيحة كوكجن إلى بشيكتاش. أسعار ثابتة، استقبال مجاني (العمود 13)، وخدمة 24/7. لا رسوم إضافية على تأخير الرحلات."
+            }
+        }
+        ,
+        "/sabiha-gokcen-airport-to-uskudar": {
+            "headTitle": {
+                "en": "Sabiha Gökçen Airport to Üsküdar Taxi | Fast & Reliable Transfers",
+                "zh": "萨比哈·格克琴机场至于斯屈达尔出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Ускюдар | Быстрые и надежные трансферы",
+                "es": "Taxi del Aeropuerto Sabiha Gökçen a Üsküdar | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Sabiha Gökçen Üsküdar | Trasferimenti Rapidi e Affidabili",
+                "ar": "تاكسي من مطار صبيحة كوكجن إلى أوسكودار | انتقالات سريعة وموثوقة",
+                "tr": "Sabiha Gökçen Havalimanı Üsküdar Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Sabiha Gökçen Airport to Üsküdar taxi, SAW to Üsküdar transfer, Üsküdar private taxi, Istanbul airport transfer, Sabiha Gökçen taxi service",
+                "tr": "Sabiha Gökçen havalimanı Üsküdar taksi, SAW Üsküdar transferi, Üsküdar özel taksi, İstanbul havalimanı transferi, Sabiha Gökçen taksi hizmeti",
+                "zh": "萨比哈·格克琴机场至于斯屈达尔出租车, SAW至于斯屈达尔接送, 于斯屈达尔私人出租车, 伊斯坦布尔机场接送, 萨比哈·格克琴出租车服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Ускюдар, трансфер SAW - Ускюдар, частное такси в Ускюдар, трансфер из аэропорта Стамбула, такси Сабиха Гёкчен",
+                "es": "Taxi aeropuerto Sabiha Gökçen a Üsküdar, traslado SAW a Üsküdar, taxi privado Üsküdar, traslado aeropuerto Estambul, servicio de taxi Sabiha Gökçen",
+                "it": "Taxi aeroporto Sabiha Gökçen Üsküdar, trasferimento SAW Üsküdar, servizio taxi Üsküdar, trasferimento privato aeroporto Istanbul, servizio taxi Sabiha Gökçen",
+                "ar": "تاكسي مطار صبيحة كوكجن إلى أوسكودار, نقل مطار SAW, خدمة تاكسي أوسكودار, انتقال خاص من مطار إسطنبول, خدمة تاكسي صبيحة كوكجن"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Sabiha Gökçen Airport to Üsküdar. Fixed prices, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                "tr": "Sabiha Gökçen Havalimanı'ndan Üsküdar'a özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama (Kolon 13) ve 7/24 hizmet. Uçuş gecikmeleri için ekstra ücret yok.",
+                "zh": "预订从萨比哈·格克琴机场到于斯屈达尔的私人出租车接送。固定价格, 免费接机（第13列）, 24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте частный трансфер такси из аэропорта Сабиха Гёкчен в Ускюдар. Фиксированные цены, бесплатная встреча (Колонна 13) и обслуживание 24/7. Без доплаты за задержку рейсов.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto Sabiha Gökçen a Üsküdar. Precios fijos, bienvenida gratuita en la Columna 13 y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto Sabiha Gökçen a Üsküdar. Prezzi fissi, accoglienza gratuita (Colonna 13) e servizio 24/7. Nessun costo aggiuntivo per ritardi di volo.",
+                "ar": "احجز انتقال تاكسي خاص من مطار صبيحة كوكجن إلى أوسكودار. أسعار ثابتة، استقبال مجاني (العمود 13)، وخدمة 24/7. لا رسوم إضافية على تأخير الرحلات."
+            }
+        }
+        ,
+        "/sabiha-gokcen-airport-to-eminonu": {
+            "headTitle": {
+                "en": "Sabiha Gökçen Airport to Eminönü Taxi | Fast & Reliable Transfers",
+                "zh": "萨比哈·格克琴机场至艾敏努努出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Эминёню | Быстрые и надежные трансферы",
+                "es": "Taxi del Aeropuerto Sabiha Gökçen a Eminönü | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Sabiha Gökçen Eminönü | Trasferimenti Rapidi e Affidabili",
+                "ar": "تاكسي من مطار صبيحة كوكجن إلى إمينونو | انتقالات سريعة وموثوقة",
+                "tr": "Sabiha Gökçen Havalimanı Eminönü Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Sabiha Gökçen Airport to Eminönü taxi, SAW to Eminönü transfer, Eminönü private taxi, Istanbul airport transfer, Sabiha Gökçen taxi service",
+                "tr": "Sabiha Gökçen havalimanı Eminönü taksi, SAW Eminönü transferi, Eminönü özel taksi, İstanbul havalimanı transferi, Sabiha Gökçen taksi hizmeti",
+                "zh": "萨比哈·格克琴机场至艾敏努努出租车, SAW至艾敏努努接送, 艾敏努努私人出租车, 伊斯坦布尔机场接送, 萨比哈·格克琴出租车服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Эминёню, трансфер SAW - Эминёню, частное такси в Эминёню, трансфер из аэропорта Стамбула, такси Сабиха Гёкчен",
+                "es": "Taxi aeropuerto Sabiha Gökçen a Eminönü, traslado SAW a Eminönü, taxi privado Eminönü, traslado aeropuerto Estambul, servicio de taxi Sabiha Gökçen",
+                "it": "Taxi aeroporto Sabiha Gökçen Eminönü, trasferimento SAW Eminönü, servizio taxi Eminönü, trasferimento privato aeroporto Istanbul, servizio taxi Sabiha Gökçen",
+                "ar": "تاكسي مطار صبيحة كوكجن إلى إمينونو, نقل مطار SAW, خدمة تاكسي إمينونو, انتقال خاص من مطار إسطنبول, خدمة تاكسي صبيحة كوكجن"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Sabiha Gökçen Airport to Eminönü. Fixed prices, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                "tr": "Sabiha Gökçen Havalimanı'ndan Eminönü'ne özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama (Kolon 13) ve 7/24 hizmet. Uçuş gecikmeleri için ekstra ücret yok.",
+                "zh": "预订从萨比哈·格克琴机场到艾敏努努的私人出租车接送。固定价格, 免费接机（第13列）, 24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте частный трансфер такси из аэропорта Сабиха Гёкчен в Эминёню. Фиксированные цены, бесплатная встреча (Колонна 13) и обслуживание 24/7. Без доплаты за задержку рейсов.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto Sabiha Gökçen a Eminönü. Precios fijos, bienvenida gratuita en la Columna 13 y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto Sabiha Gökçen a Eminönü. Prezzi fissi, accoglienza gratuita (Colonna 13) e servizio 24/7. Nessun costo aggiuntivo per ritardi di volo.",
+                "ar": "احجز انتقال تاكسي خاص من مطار صبيحة كوكجن إلى إمينونو. أسعار ثابتة، استقبال مجاني (العمود 13)، وخدمة 24/7. لا رسوم إضافية على تأخير الرحلات."
+            }
+        }
+        ,
+        "/sabiha-gokcen-airport-to-bursa": {
+            "headTitle": {
+                "en": "Sabiha Gökçen Airport to Bursa Taxi | Fast & Reliable Transfers",
+                "zh": "萨比哈·格克琴机场至布尔萨出租车 | 快速可靠的接送服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Бурсу | Быстрые и надежные трансферы",
+                "es": "Taxi del Aeropuerto Sabiha Gökçen a Bursa | Traslados Rápidos y Confiables",
+                "it": "Taxi Aeroporto Sabiha Gökçen Bursa | Trasferimenti Rapidi e Affidabili",
+                "ar": "تاكسي من مطار صبيحة كوكجن إلى بورصة | انتقالات سريعة وموثوقة",
+                "tr": "Sabiha Gökçen Havalimanı Bursa Taksi | Hızlı ve Güvenilir Transferler"
+            },
+            "keywords": {
+                "en": "Sabiha Gökçen Airport to Bursa taxi, SAW to Bursa transfer, Bursa private taxi, Istanbul to Bursa transport, Sabiha Gökçen taxi service",
+                "tr": "Sabiha Gökçen havalimanı Bursa taksi, SAW Bursa transferi, Bursa özel taksi, İstanbul Bursa ulaşım, Sabiha Gökçen taksi hizmeti",
+                "zh": "萨比哈·格克琴机场至布尔萨出租车, SAW至布尔萨接送, 布尔萨私人出租车, 伊斯坦布尔到布尔萨交通, 萨比哈·格克琴出租车服务",
+                "ru": "Такси из аэропорта Сабиха Гёкчен в Бурсу, трансфер SAW - Бурса, частное такси в Бурсу, транспорт из Стамбула в Бурсу, такси Сабиха Гёкчен",
+                "es": "Taxi aeropuerto Sabiha Gökçen a Bursa, traslado SAW a Bursa, taxi privado Bursa, transporte de Estambul a Bursa, servicio de taxi Sabiha Gökçen",
+                "it": "Taxi aeroporto Sabiha Gökçen Bursa, trasferimento SAW Bursa, servizio taxi Bursa, trasporto da Istanbul a Bursa, servizio taxi Sabiha Gökçen",
+                "ar": "تاكسي مطار صبيحة كوكجن إلى بورصة, نقل مطار SAW إلى بورصة, تاكسي خاص بورصة, نقل من إسطنبول إلى بورصة, خدمة تاكسي صبيحة كوكجن"
+            },
+            "metaDescription": {
+                "en": "Book a private taxi transfer from Sabiha Gökçen Airport to Bursa. Fixed prices, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                "tr": "Sabiha Gökçen Havalimanı'ndan Bursa'ya özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama (Kolon 13) ve 7/24 hizmet. Uçuş gecikmeleri için ekstra ücret yok.",
+                "zh": "预订从萨比哈·格克琴机场到布尔萨的私人出租车接送。固定价格, 免费接机（第13列）, 24/7服务。航班延误无额外费用。",
+                "ru": "Забронируйте частный трансфер такси из аэропорта Сабиха Гёкчен в Бурсу. Фиксированные цены, бесплатная встреча (Колонна 13) и обслуживание 24/7. Без доплаты за задержку рейсов.",
+                "es": "Reserva un traslado en taxi privado desde el Aeropuerto Sabiha Gökçen a Bursa. Precios fijos, bienvenida gratuita en la Columna 13 y servicio 24/7. Sin cargo extra por retrasos de vuelos.",
+                "it": "Prenota un trasferimento in taxi privato dall Aeroporto Sabiha Gökçen a Bursa. Prezzi fissi, accoglienza gratuita (Colonna 13) e servizio 24/7. Nessun costo aggiuntivo per ritardi di volo.",
+                "ar": "احجز انتقال تاكسي خاص من مطار صبيحة كوكجن إلى بورصة. أسعار ثابتة، استقبال مجاني (العمود 13)، وخدمة 24/7. لا رسوم إضافية على تأخير الرحلات."
+            }
+        }
+    },
     AYT: {},
     DLM: {},
     BJY: {},
@@ -834,7 +1156,6 @@ const metaTagPopularDestatinationPage = (env) => ({
             ]
             ,
         },
-
         "/istanbul-airport-to-besiktas": {
             en: [
                 `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
@@ -855,40 +1176,542 @@ const metaTagPopularDestatinationPage = (env) => ({
                 "<meta name=\"twitter:description\" content=\"Book your Istanbul Airport to Beşiktaş transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
                 `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
             ],
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"İstanbul Havalimanı Beşiktaş Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"İstanbul Havalimanı'ndan Beşiktaş'a taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Ücretsiz karşılama, uçuş gecikmelerinde ek ücret yok. Hemen rezervasyon yapın!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"İstanbul Havalimanı Beşiktaş Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"İstanbul Havalimanı'ndan Beşiktaş'a transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار إسطنبول إلى بشكتاش | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار إسطنبول إلى بشكتاش؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة على مدار 24/7 مع استقبال مجاني. لا توجد رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار إسطنبول إلى بشكتاش | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار إسطنبول إلى بشكتاش مع APL Transfers. خدمة موثوقة، أسعار مناسبة ومتاحة 24/7 مع إلغاء مجاني. لا رسوم إضافية على تأخير الرحلات الجوية.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto de Estambul a Beşiktaş | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi desde el Aeropuerto de Estambul a Beşiktaş? APL Transfers ofrece traslados privados con precio fijo, servicio 24/7 y recepción gratuita. Sin cargos adicionales por retrasos en los vuelos. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto de Estambul a Beşiktaş | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Estambul a Beşiktaş con APL Transfers. Servicio confiable, precios accesibles y disponible 24/7 con cancelación gratuita. Sin cargos adicionales por retrasos en los vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi dall'Aeroporto di Istanbul a Beşiktaş | Trasferimenti Veloci e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall'Aeroporto di Istanbul a Beşiktaş? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza gratuita. Nessun costo aggiuntivo per ritardi dei voli. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi dall'Aeroporto di Istanbul a Beşiktaş | Trasferimenti Veloci e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall'Aeroporto di Istanbul a Beşiktaş con APL Transfers. Servizio affidabile, prezzi accessibili e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi dei voli.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`
+            ],
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Стамбула в Бешикташ | Быстрые и Надежные Трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужен такси из аэропорта Стамбула в Бешикташ? APL Transfers предлагает частные трансферы по фиксированной цене, круглосуточное обслуживание и бесплатную встречу. Без дополнительных сборов за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Стамбула в Бешикташ | Быстрые и Надежные Трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Стамбула в Бешикташ с APL Transfers. Надежное обслуживание, доступные цены и круглосуточная работа с бесплатной отменой. Без дополнительных сборов за задержку рейса.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`
+            ],
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/istanbul-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"伊斯坦布尔机场至贝西克塔斯出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从伊斯坦布尔机场到贝西克塔斯的出租车吗？APL Transfers 提供固定价格、24/7 私人接送和免费接机服务。航班延误无额外费用。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"伊斯坦布尔机场至贝西克塔斯出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从伊斯坦布尔机场到贝西克塔斯的接送服务。可靠、价格合理，并提供 24/7 全天候服务和免费取消。航班延误无额外费用。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`
+            ]
         },
-        "/istanbul-airport-to-nisantasi": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+        "/istanbul-airport-to-bursa": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-bursa\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Istanbul Airport to Bursa Taxi | Private Transfers 24/7\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Istanbul Airport to Bursa? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet service. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-bursa\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Istanbul Airport to Bursa Taxi | Private Transfers 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Book your Istanbul Airport to Bursa transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`,
+            ],
+            tr: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"İstanbul Havalimanı Bursa Taksi | 7/24 Özel Transferler\">",
+                "<meta property=\"og:description\" content=\"İstanbul Havalimanı'ndan Bursa'ya özel taksi transferinizi rezerve edin. Sabit fiyatlar, ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ek ücret yok.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"İstanbul Havalimanı Bursa Taksi | 7/24 Özel Transferler\">",
+                "<meta name=\"twitter:description\" content=\"İstanbul Havalimanı'ndan Bursa'ya transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`
+            ],
+            ar: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار إسطنبول إلى بورصة | انتقالات خاصة 24/7\">",
+                "<meta property=\"og:description\" content=\"احجز انتقال تاكسي خاص من مطار إسطنبول إلى بورصة. أسعار ثابتة، استقبال مجاني وخدمة 24/7. لا توجد رسوم إضافية لتأخير الرحلات.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار إسطنبول إلى بورصة | انتقالات خاصة 24/7\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار إسطنبول إلى بورصة مع APL Transfers. خدمة موثوقة، أسعار مناسبة ومتاحة 24/7 مع إلغاء مجاني. لا توجد رسوم إضافية لتأخير الرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`
+            ],
+            es: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto de Estambul a Bursa | Traslados Privados 24/7\">",
+                "<meta property=\"og:description\" content=\"Reserva un traslado en taxi privado desde el Aeropuerto de Estambul a Bursa. Precios fijos, recepción gratuita y servicio 24/7. Sin cargos adicionales por retrasos de vuelos.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto de Estambul a Bursa | Traslados Privados 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Estambul a Bursa con APL Transfers. Servicio confiable, precios accesibles y disponible 24/7 con cancelación gratuita. Sin cargos adicionales por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`
+            ],
+            it: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Istanbul Bursa | Trasferimenti Privati 24/7\">",
+                "<meta property=\"og:description\" content=\"Prenota un trasferimento in taxi privato dall'Aeroporto di Istanbul a Bursa. Prezzi fissi, accoglienza gratuita e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Istanbul Bursa | Trasferimenti Privati 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall'Aeroporto di Istanbul a Bursa con APL Transfers. Servizio affidabile, prezzi convenienti e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi dei voli.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`
+            ],
+            ru: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Стамбула в Бурсу | Частные трансферы 24/7\">",
+                "<meta property=\"og:description\" content=\"Закажите частный трансфер на такси из аэропорта Стамбула в Бурсу. Фиксированные цены, бесплатная встреча и обслуживание 24/7. Без дополнительных затрат за задержку рейса.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Стамбула в Бурсу | Частные трансферы 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте свой трансфер из аэропорта Стамбула в Бурсу с APL Transfers. Надежное обслуживание, доступные цены и круглосуточная поддержка. Бесплатная отмена бронирования и никаких дополнительных затрат за задержки рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`
+            ],
+            zh: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-bursa" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-bursa" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"伊斯坦布尔机场至布尔萨出租车 | 24/7 私人接送\">",
+                "<meta property=\"og:description\" content=\"预订从伊斯坦布尔机场到布尔萨的私人出租车接送服务。固定价格，免费接机，24/7服务。航班延误无额外费用。\”>",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"伊斯坦布尔机场至布尔萨出租车 | 24/7 私人接送\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订从伊斯坦布尔机场到布尔萨的接送服务。可靠、实惠，并提供 24/7 服务，免费取消，无额外费用。\”>",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp\">`
+            ],
         },
         "/istanbul-airport-to-eminonu": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Istanbul Airport to Eminönü Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Istanbul Airport to Eminönü? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet service. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-eminonu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Istanbul Airport to Eminönü Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Istanbul Airport to Eminönü transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"İstanbul Havalimanı Eminönü Taksi | Hızlı & Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"İstanbul Havalimanı'ndan Eminönü'ne taksi mi gerekiyor? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunuyor. Uçuş rötarlarında ekstra ücret yok. Hemen rezervasyon yapın!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-eminonu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"İstanbul Havalimanı Eminönü Taksi | Hızlı & Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"İstanbul Havalimanı'ndan Eminönü'ne transferinizi APL Transfers ile yapın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal imkanı ve uçuş rötarlarında ek ücret yok.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار إسطنبول إلى إمينونو | نقل سريع وموثوق\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار إسطنبول إلى إمينونو؟ توفر APL Transfers خدمة نقل خاصة بأسعار ثابتة على مدار الساعة طوال أيام الأسبوع مع خدمة الاستقبال والترحيب. لا رسوم إضافية لتأخير الرحلات الجوية. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-eminonu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار إسطنبول إلى إمينونو | نقل سريع وموثوق\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار إسطنبول إلى إمينونو مع APL Transfers. خدمة موثوقة بأسعار مناسبة ومتاحة على مدار الساعة مع إلغاء مجاني. لا رسوم إضافية لتأخير الرحلات الجوية.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto de Estambul a Eminönü | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi desde el Aeropuerto de Estambul a Eminönü? APL Transfers ofrece traslados privados con precio fijo, disponibles 24/7 con servicio de bienvenida. Sin cargos adicionales por retrasos de vuelos. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-eminonu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto de Estambul a Eminönü | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Estambul a Eminönü con APL Transfers. Servicio confiable, asequible y disponible 24/7 con cancelación gratuita. Sin cargos adicionales por retrasos de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi dall Aeroporto di Istanbul a Eminönü | Trasferimenti Rapidi e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto di Istanbul a Eminönü? APL Transfers offre trasferimenti privati a prezzo fisso, disponibili 24/7 con servizio di accoglienza. Nessun costo aggiuntivo per ritardi dei voli. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-eminonu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi dall Aeroporto di Istanbul a Eminönü | Trasferimenti Rapidi e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Istanbul a Eminönü con APL Transfers. Servizio affidabile, economico e disponibile 24/7 con cancellazione gratuita. Nessun costo extra per ritardi dei voli.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Стамбула в Эминёню | Быстрые и Надежные Перевозки\">",
+                "<meta property=\"og:description\" content=\"Нуждаетесь в такси из аэропорта Стамбула в Эминёню? APL Transfers предлагает частные трансферы по фиксированной цене 24/7 с услугой встречи. Без дополнительных платежей за задержку рейса. Бронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-eminonu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Стамбула в Эминёню | Быстрые и Надежные Перевозки\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Стамбула в Эминёню с APL Transfers. Надежный сервис по доступной цене, доступен 24/7 с бесплатной отменой. Без доплат за задержку рейса.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"从伊斯坦布尔机场到埃米诺努的出租车 | 快捷可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从伊斯坦布尔机场到埃米诺努的出租车吗？APL Transfers 提供固定价格的 24/7 私人接送服务，包括迎接服务。航班延误无需额外收费。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-eminonu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"从伊斯坦布尔机场到埃米诺努的出租车 | 快捷可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的伊斯坦布尔机场至埃米诺努接送服务。可靠、实惠，全天 24 小时服务，并提供免费取消。航班延误无需额外收费。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
         },
         "/istanbul-airport-to-uskudar-asian-side": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-to-uskudar-asian-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-to-uskudar-asian-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-to-uskudar-asian-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/istanbul-airport-to-uskudar-asian-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/istanbul-airport-to-uskudar-asian-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/istanbul-airport-to-uskudar-asian-side\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Istanbul Airport to Üsküdar Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Istanbul Airport to Üsküdar? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet service. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Istanbul Airport to Üsküdar Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Istanbul Airport to Üsküdar transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+            ],
+            tr: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"İstanbul Havalimanı Üsküdar Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"İstanbul Havalimanı'ndan Üsküdar'a taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Ücretsiz karşılama, uçuş gecikmelerinde ek ücret yok. Hemen rezervasyon yapın!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"İstanbul Havalimanı Üsküdar Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"İstanbul Havalimanı'ndan Üsküdar'a transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`
+            ],
+
+            ar: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار إسطنبول إلى أسكدار | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار إسطنبول إلى أسكدار؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة ومتاحة على مدار الساعة مع استقبال مجاني. لا رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/ar/istanbul-airport-to-uskudar-asian-side\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار إسطنبول إلى أسكدار | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار إسطنبول إلى أسكدار مع APL Transfers. خدمة موثوقة، أسعار مناسبة ومتاحة على مدار الساعة مع إلغاء مجاني. لا رسوم إضافية على تأخير الرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`
+            ],
+
+            es: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto de Estambul a Üsküdar | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi desde el Aeropuerto de Estambul a Üsküdar? APL Transfers ofrece traslados privados con precio fijo, servicio 24/7 y recepción gratuita. Sin cargos adicionales por retrasos de vuelo. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/es/istanbul-airport-to-uskudar-asian-side\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto de Estambul a Üsküdar | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Estambul a Üsküdar con APL Transfers. Servicio confiable, precios accesibles y disponible 24/7 con cancelación gratuita. Sin cargos adicionales por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`
+            ],
+
+            it: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Istanbul Üsküdar | Trasferimenti Veloci e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall'Aeroporto di Istanbul a Üsküdar? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza gratuita. Nessun costo aggiuntivo per ritardi dei voli. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/it/istanbul-airport-to-uskudar-asian-side\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Istanbul Üsküdar | Trasferimenti Veloci e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall'Aeroporto di Istanbul a Üsküdar con APL Transfers. Servizio affidabile, prezzi accessibili e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi dei voli.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`
+            ],
+
+            ru: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Стамбула в Ускюдар | Быстрые и Надежные Трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужно такси из аэропорта Стамбула в Ускюдар? APL Transfers предлагает частные трансферы по фиксированной цене, 24/7 сервис и бесплатную встречу. Без доплат за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/ru/istanbul-airport-to-uskudar-asian-side\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Стамбула в Ускюдар | Быстрые и Надежные Трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте свой трансфер из аэропорта Стамбула в Ускюдар с APL Transfers. Надежный сервис, доступные цены и круглосуточное обслуживание с бесплатной отменой. Без доплат за задержку рейса.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`
+            ],
+
+            zh: [
+                `<link rel="canonical" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="en" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ar" href="${env.websiteDomain}/ar/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="es" href="${env.websiteDomain}/es/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="it" href="${env.websiteDomain}/it/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="ru" href="${env.websiteDomain}/ru/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="zh" href="${env.websiteDomain}/zh/istanbul-airport-to-uskudar-asian-side" />`,
+                `<link rel="alternate" hrefLang="x-default" href="${env.websiteDomain}/istanbul-airport-to-uskudar-asian-side" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"伊斯坦布尔机场至于斯屈达出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从伊斯坦布尔机场到于斯屈达的出租车吗？APL Transfers 提供固定价格的私人接送服务，24/7 全天候运营，并提供免费接机。航班延误无额外费用。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/zh/istanbul-airport-to-uskudar-asian-side\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"伊斯坦布尔机场至于斯屈达出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的伊斯坦布尔机场至于斯屈达接送服务。可靠、实惠，24/7 全天候提供免费取消服务。航班延误无额外费用。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`
+            ],
+
         },
+
+
+
         "/istanbul-airport-to-levent-maslak": {
             en: ``,
             tr: ``,
@@ -916,7 +1739,7 @@ const metaTagPopularDestatinationPage = (env) => ({
             ru: ``,
             zh: ``,
         },
-        "/istanbul-airport-to-bursa": {
+        "/istanbul-airport-to-nisantasi": {
             en: ``,
             tr: ``,
             ar: ``,
@@ -980,7 +1803,1132 @@ const metaTagPopularDestatinationPage = (env) => ({
             zh: ``,
         }
     },
-    SAW: {},
+    SAW: {
+        "/sabiha-gokcen-airport-to-taksim": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-taksim\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Taksim Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Taksim? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Airport to Taksim Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Sabiha Gökçen Airport to Taksim transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Havalimanı Taksim Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"Sabiha Gökçen Havalimanı'ndan Taksim'e taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Kolon 13'te karşılama ve uçuş gecikmeleri için ek ücret yok. Şimdi rezerve edin!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Havalimanı Taksim Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"Sabiha Gökçen Havalimanı'ndan Taksim'e transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+            ],
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Taksim | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi del Aeropuerto Sabiha Gökçen a Taksim? APL Transfers ofrece traslados privados con tarifa fija, servicio 24/7 y recepción en la Columna 13. Sin cargos adicionales por retrasos de vuelo. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Taksim | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto Sabiha Gökçen a Taksim con APL Transfers. Servicio confiable, asequible y disponible 24/7 con cancelación gratuita. Sin cargos extra por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+            ],
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Sabiha Gökçen Taksim | Trasferimenti Rapidi e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto Sabiha Gökçen a Taksim? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza alla Colonna 13. Nessun costo extra per ritardi di volo. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Sabiha Gökçen Taksim | Trasferimenti Rapidi e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto Sabiha Gökçen a Taksim con APL Transfers. Servizio affidabile, conveniente e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+            ],
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي مطار صبيحة كوكجن إلى تقسيم | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار صبيحة كوكجن إلى تقسيم؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة، متاحة على مدار الساعة مع استقبال مجاني عند العمود 13. لا رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي مطار صبيحة كوكجن إلى تقسيم | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار صبيحة كوكجن إلى تقسيم مع APL Transfers. خدمة موثوقة، بأسعار معقولة ومتاحة 24/7 مع إمكانية الإلغاء المجاني. لا رسوم إضافية على تأخير الرحلات!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Таксим | Быстрые и надежные трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужен такси трансфер из аэропорта Сабиха Гёкчен в Таксим? APL Transfers предлагает фиксированные цены, частные поездки 24/7 и встречу у Колонны 13. Без дополнительных платежей за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Таксим | Быстрые и надежные трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Сабиха Гёкчен в Таксим с APL Transfers. Надежный сервис, доступные цены и обслуживание 24/7 с бесплатной отменой. Без дополнительных платежей за задержку рейса!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"萨比哈·格克琴机场至塔克西姆出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从萨比哈·格克琴机场到塔克西姆的出租车吗？APL Transfers 提供固定价格、24/7 私人接送服务，并在第 13 柱免费迎接。航班延误无需额外收费。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"萨比哈·格克琴机场至塔克西姆出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的萨比哈·格克琴机场至塔克西姆的接送服务。可靠、实惠，提供 24/7 服务并支持免费取消。航班延误无需额外收费！\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp\">`,
+            ],
+
+        },
+        "/sabiha-gokcen-airport-to-sultanahmet": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Sultanahmet Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Sultanahmet? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Airport to Sultanahmet Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Sabiha Gökçen Airport to Sultanahmet transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Havalimanı Sultanahmet Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"Sabiha Gökçen Havalimanı'ndan Sultanahmet'e taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Kolon 13'te karşılama ve uçuş gecikmeleri için ek ücret yok. Şimdi rezerve edin!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Havalimanı Sultanahmet Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"Sabiha Gökçen Havalimanı'ndan Sultanahmet'e transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Sultanahmet | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi del Aeropuerto Sabiha Gökçen a Sultanahmet? APL Transfers ofrece traslados privados con tarifa fija, servicio 24/7 y recepción en la Columna 13. Sin cargos adicionales por retrasos de vuelo. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Sultanahmet | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto Sabiha Gökçen a Sultanahmet con APL Transfers. Servicio confiable, asequible y disponible 24/7 con cancelación gratuita. Sin cargos extra por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Sabiha Gökçen Sultanahmet | Trasferimenti Rapidi e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto Sabiha Gökçen a Sultanahmet? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza alla Colonna 13. Nessun costo extra per ritardi di volo. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Sabiha Gökçen Sultanahmet | Trasferimenti Rapidi e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto Sabiha Gökçen a Sultanahmet con APL Transfers. Servizio affidabile, conveniente e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى السلطان أحمد | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار صبيحة كوكجن إلى السلطان أحمد؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة، متاحة على مدار الساعة مع استقبال مجاني عند العمود 13. لا رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى السلطان أحمد | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار صبيحة كوكجن إلى السلطان أحمد مع APL Transfers. خدمة موثوقة، بأسعار معقولة ومتاحة 24/7 مع إمكانية الإلغاء المجاني. لا رسوم إضافية على تأخير الرحلات!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Султанахмет | Быстрые и надежные трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужен такси трансфер из аэропорта Сабиха Гёкчен в Султанахмет? APL Transfers предлагает фиксированные цены, частные поездки 24/7 и встречу у Колонны 13. Без дополнительных платежей за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Султанахмет | Быстрые и надежные трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Сабиха Гёкчен в Султанахмет с APL Transfers. Надежный сервис, доступные цены и обслуживание 24/7 с бесплатной отменой. Без дополнительных платежей за задержку рейса!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"萨比哈·格克琴机场至苏丹艾哈迈德出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从萨比哈·格克琴机场到苏丹艾哈迈德的出租车吗？APL Transfers 提供固定价格、24/7 私人接送服务，并在第 13 柱免费迎接。航班延误无需额外收费。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"萨比哈·格克琴机场至苏丹艾哈迈德出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的萨比哈·格克琴机场至苏丹艾哈迈德的接送服务。可靠、实惠，提供 24/7 服务并支持免费取消。航班延误无需额外收费！\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp\">`,
+            ],
+
+        },
+        "/sabiha-gokcen-airport-to-kadikoy": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-kadikoy\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Kadıköy Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Kadıköy? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Airport to Kadıköy Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Sabiha Gökçen Airport to Kadıköy transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Havalimanı Kadıköy Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"Sabiha Gökçen Havalimanı'ndan Kadıköy'e taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Kolon 13'te karşılama ve uçuş gecikmeleri için ek ücret yok. Şimdi rezerve edin!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Havalimanı Kadıköy Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"Sabiha Gökçen Havalimanı'ndan Kadıköy'e transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Kadıköy | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi del Aeropuerto Sabiha Gökçen a Kadıköy? APL Transfers ofrece traslados privados con tarifa fija, servicio 24/7 y recepción en la Columna 13. Sin cargos adicionales por retrasos de vuelo. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Kadıköy | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto Sabiha Gökçen a Kadıköy con APL Transfers. Servicio confiable, asequible y disponible 24/7 con cancelación gratuita. Sin cargos extra por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Sabiha Gökçen Kadıköy | Trasferimenti Rapidi e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto Sabiha Gökçen a Kadıköy? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza alla Colonna 13. Nessun costo extra per ritardi di volo. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Sabiha Gökçen Kadıköy | Trasferimenti Rapidi e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto Sabiha Gökçen a Kadıköy con APL Transfers. Servizio affidabile, conveniente e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+            ],
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى كاديكوي | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار صبيحة كوكجن إلى كاديكوي؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة، متاحة على مدار الساعة مع استقبال مجاني عند العمود 13. لا رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى كاديكوي | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار صبيحة كوكجن إلى كاديكوي مع APL Transfers. خدمة موثوقة، بأسعار معقولة ومتاحة 24/7 مع إمكانية الإلغاء المجاني. لا رسوم إضافية على تأخير الرحلات!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Кадыкёй | Быстрые и надежные трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужен такси трансфер из аэропорта Сабиха Гёкчен в Кадыкёй? APL Transfers предлагает фиксированные цены, частные поездки 24/7 и встречу у Колонны 13. Без дополнительных платежей за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Кадыкёй | Быстрые и надежные трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Сабиха Гёкчен в Кадыкёй с APL Transfers. Надежный сервис, доступные цены и обслуживание 24/7 с бесплатной отменой. Без дополнительных платежей за задержку рейса!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"萨比哈·格克琴机场至卡德柯伊出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从萨比哈·格克琴机场到卡德柯伊的出租车吗？APL Transfers 提供固定价格、24/7 私人接送服务，并在第 13 柱免费迎接。航班延误无需额外收费。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"萨比哈·格克琴机场至卡德柯伊出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的萨比哈·格克琴机场至卡德柯伊的接送服务。可靠、实惠，提供 24/7 服务并支持免费取消。航班延误无需额外收费！\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp\">`,
+            ],
+
+        },
+        "/sabiha-gokcen-airport-to-beyoglu": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-beyoglu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Beyoğlu Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Beyoğlu? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Airport to Beyoğlu Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Sabiha Gökçen Airport to Beyoğlu transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Havalimanı Beyoğlu Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"Sabiha Gökçen Havalimanı'ndan Beyoğlu'na taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Kolon 13'te karşılama ve uçuş gecikmeleri için ek ücret yok. Şimdi rezerve edin!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Havalimanı Beyoğlu Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"Sabiha Gökçen Havalimanı'ndan Beyoğlu'na transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Beyoğlu | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi del Aeropuerto Sabiha Gökçen a Beyoğlu? APL Transfers ofrece traslados privados con tarifa fija, servicio 24/7 y recepción en la Columna 13. Sin cargos adicionales por retrasos de vuelo. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Beyoğlu | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto Sabiha Gökçen a Beyoğlu con APL Transfers. Servicio confiable, asequible y disponible 24/7 con cancelación gratuita. Sin cargos extra por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Sabiha Gökçen Beyoğlu | Trasferimenti Rapidi e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto Sabiha Gökçen a Beyoğlu? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza alla Colonna 13. Nessun costo extra per ritardi di volo. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Sabiha Gökçen Beyoğlu | Trasferimenti Rapidi e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto Sabiha Gökçen a Beyoğlu con APL Transfers. Servizio affidabile, conveniente e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى بيوغلو | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار صبيحة كوكجن إلى بيوغلو؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة، متاحة على مدار الساعة مع استقبال مجاني عند العمود 13. لا رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى بيوغلو | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار صبيحة كوكجن إلى بيوغلو مع APL Transfers. خدمة موثوقة، بأسعار معقولة ومتاحة 24/7 مع إمكانية الإلغاء المجاني. لا رسوم إضافية على تأخير الرحلات!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Бейоглу | Быстрые и надежные трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужен такси трансфер из аэропорта Сабиха Гёкчен в Бейоглу? APL Transfers предлагает фиксированные цены, частные поездки 24/7 и встречу у Колонны 13. Без дополнительных платежей за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Бейоглу | Быстрые и надежные трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Сабиха Гёкчен в Бейоглу с APL Transfers. Надежный сервис, доступные цены и обслуживание 24/7 с бесплатной отменой. Без дополнительных платежей за задержку рейса!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"萨比哈·格克琴机场至贝伊奥卢出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从萨比哈·格克琴机场到贝伊奥卢的出租车吗？APL Transfers 提供固定价格、24/7 私人接送服务，并在第 13 柱免费迎接。航班延误无需额外收费。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"萨比哈·格克琴机场至贝伊奥卢出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的萨比哈·格克琴机场至贝伊奥卢的接送服务。可靠、实惠，提供 24/7 服务并支持免费取消。航班延误无需额外收费！\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp\">`,
+            ],
+
+        },
+        "/sabiha-gokcen-airport-to-besiktas": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Beşiktaş Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Beşiktaş? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Airport to Beşiktaş Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Sabiha Gökçen Airport to Beşiktaş transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Havalimanı Beşiktaş Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"Sabiha Gökçen Havalimanı'ndan Beşiktaş'a taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Kolon 13'te karşılama ve uçuş gecikmeleri için ek ücret yok. Şimdi rezerve edin!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Havalimanı Beşiktaş Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"Sabiha Gökçen Havalimanı'ndan Beşiktaş'a transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Beşiktaş | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi del Aeropuerto Sabiha Gökçen a Beşiktaş? APL Transfers ofrece traslados privados con tarifa fija, servicio 24/7 y recepción en la Columna 13. Sin cargos adicionales por retrasos de vuelo. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Beşiktaş | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto Sabiha Gökçen a Beşiktaş con APL Transfers. Servicio confiable, asequible y disponible 24/7 con cancelación gratuita. Sin cargos extra por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Sabiha Gökçen Beşiktaş | Trasferimenti Rapidi e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto Sabiha Gökçen a Beşiktaş? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza alla Colonna 13. Nessun costo extra per ritardi di volo. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Sabiha Gökçen Beşiktaş | Trasferimenti Rapidi e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto Sabiha Gökçen a Beşiktaş con APL Transfers. Servizio affidabile, conveniente e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى بشيكتاش | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار صبيحة كوكجن إلى بشيكتاش؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة، متاحة على مدار الساعة مع استقبال مجاني عند العمود 13. لا رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى بشيكتاش | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار صبيحة كوكجن إلى بشيكتاش مع APL Transfers. خدمة موثوقة، بأسعار معقولة ومتاحة 24/7 مع إمكانية الإلغاء المجاني. لا رسوم إضافية على تأخير الرحلات!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Бешикташ | Быстрые и надежные трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужен такси трансфер из аэропорта Сабиха Гёкчен в Бешикташ? APL Transfers предлагает фиксированные цены, частные поездки 24/7 и встречу у Колонны 13. Без дополнительных платежей за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Бешикташ | Быстрые и надежные трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Сабиха Гёкчен в Бешикташ с APL Transfers. Надежный сервис, доступные цены и обслуживание 24/7 с бесплатной отменой. Без дополнительных платежей за задержку рейса!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"萨比哈·格克琴机场至贝西克塔斯出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从萨比哈·格克琴机场到贝西克塔斯的出租车吗？APL Transfers 提供固定价格、24/7 私人接送服务，并在第 13 柱免费迎接。航班延误无需额外收费。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"萨比哈·格克琴机场至贝西克塔斯出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的萨比哈·格克琴机场至贝西克塔斯的接送服务。可靠、实惠，提供 24/7 服务并支持免费取消。航班延误无需额外收费！\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/besiktas.webp\">`,
+            ],
+
+        },
+        "/sabiha-gokcen-airport-to-uskudar": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-uskudar\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Üsküdar Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Üsküdar? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Airport to Üsküdar Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Sabiha Gökçen Airport to Üsküdar transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Havalimanı Üsküdar Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"Sabiha Gökçen Havalimanı'ndan Üsküdar'a taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Kolon 13'te karşılama ve uçuş gecikmeleri için ek ücret yok. Şimdi rezerve edin!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Havalimanı Üsküdar Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"Sabiha Gökçen Havalimanı'ndan Üsküdar'a transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Üsküdar | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi del Aeropuerto Sabiha Gökçen a Üsküdar? APL Transfers ofrece traslados privados con tarifa fija, servicio 24/7 y recepción en la Columna 13. Sin cargos adicionales por retrasos de vuelo. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Üsküdar | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto Sabiha Gökçen a Üsküdar con APL Transfers. Servicio confiable, asequible y disponible 24/7 con cancelación gratuita. Sin cargos extra por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Sabiha Gökçen Üsküdar | Trasferimenti Rapidi e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto Sabiha Gökçen a Üsküdar? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza alla Colonna 13. Nessun costo extra per ritardi di volo. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Sabiha Gökçen Üsküdar | Trasferimenti Rapidi e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto Sabiha Gökçen a Üsküdar con APL Transfers. Servizio affidabile, conveniente e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى أوسكودار | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار صبيحة كوكجن إلى أوسكودار؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة، متاحة على مدار الساعة مع استقبال مجاني عند العمود 13. لا رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى أوسكودار | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار صبيحة كوكجن إلى أوسكودار مع APL Transfers. خدمة موثوقة، بأسعار معقولة ومتاحة 24/7 مع إمكانية الإلغاء المجاني. لا رسوم إضافية على تأخير الرحلات!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Ускюдар | Быстрые и надежные трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужен такси трансфер из аэропорта Сабиха Гёкчен в Ускюдар? APL Transfers предлагает фиксированные цены, частные поездки 24/7 и встречу у Колонны 13. Без дополнительных платежей за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Ускюдар | Быстрые и надежные трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Сабиха Гёкчен в Ускюдар с APL Transfers. Надежный сервис, доступные цены и обслуживание 24/7 с бесплатной отменой. Без дополнительных платежей за задержку рейса!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"萨比哈·格克琴机场至于斯屈达尔出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从萨比哈·格克琴机场到于斯屈达尔的出租车吗？APL Transfers 提供固定价格、24/7 私人接送服务，并在第 13 柱免费迎接。航班延误无需额外收费。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"萨比哈·格克琴机场至于斯屈达尔出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的萨比哈·格克琴机场至于斯屈达尔的接送服务。可靠、实惠，提供 24/7 服务并支持免费取消。航班延误无需额外收费！\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp\">`,
+            ],
+
+        },
+        "/sabiha-gokcen-airport-to-eminonu": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Eminönü Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Eminönü? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Airport to Eminönü Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Sabiha Gökçen Airport to Eminönü transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Havalimanı Eminönü Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"Sabiha Gökçen Havalimanı'ndan Eminönü'ne taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Kolon 13'te karşılama ve uçuş gecikmeleri için ek ücret yok. Şimdi rezerve edin!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Havalimanı Eminönü Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"Sabiha Gökçen Havalimanı'ndan Eminönü'ne transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Eminönü | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi del Aeropuerto Sabiha Gökçen a Eminönü? APL Transfers ofrece traslados privados con tarifa fija, servicio 24/7 y recepción en la Columna 13. Sin cargos adicionales por retrasos de vuelo. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Eminönü | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto Sabiha Gökçen a Eminönü con APL Transfers. Servicio confiable, asequible y disponible 24/7 con cancelación gratuita. Sin cargos extra por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Sabiha Gökçen Eminönü | Trasferimenti Rapidi e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto Sabiha Gökçen a Eminönü? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza alla Colonna 13. Nessun costo extra per ritardi di volo. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Sabiha Gökçen Eminönü | Trasferimenti Rapidi e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto Sabiha Gökçen a Eminönü con APL Transfers. Servizio affidabile, conveniente e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى إمينونو | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار صبيحة كوكجن إلى إمينونو؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة، متاحة على مدار الساعة مع استقبال مجاني عند العمود 13. لا رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى إمينونو | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار صبيحة كوكجن إلى إمينونو مع APL Transfers. خدمة موثوقة، بأسعار معقولة ومتاحة 24/7 مع إمكانية الإلغاء المجاني. لا رسوم إضافية على تأخير الرحلات!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Эминёню | Быстрые и надежные трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужен такси трансфер из аэропорта Сабиха Гёкчен в Эминёню? APL Transfers предлагает фиксированные цены, частные поездки 24/7 и встречу у Колонны 13. Без дополнительных платежей за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Эминёню | Быстрые и надежные трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Сабиха Гёкчен в Эминёню с APL Transfers. Надежный сервис, доступные цены и обслуживание 24/7 с бесплатной отменой. Без дополнительных платежей за задержку рейса!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"萨比哈·格克琴机场至艾敏努努出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从萨比哈·格克琴机场到艾敏努努的出租车吗？APL Transfers 提供固定价格、24/7 私人接送服务，并在第 13 柱免费迎接。航班延误无需额外收费。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"萨比哈·格克琴机场至艾敏努努出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的萨比哈·格克琴机场至艾敏努努的接送服务。可靠、实惠，提供 24/7 服务并支持免费取消。航班延误无需额外收费！\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+        },
+        "/sabiha-gokcen-airport-to-bursa": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-bursa\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Bursa Taxi | Fast & Reliable Transfers\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Bursa? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Airport to Bursa Taxi | Fast & Reliable Transfers\">",
+                "<meta name=\"twitter:description\" content=\"Book your Sabiha Gökçen Airport to Bursa transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation. No extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Sabiha Gökçen Havalimanı Bursa Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta property=\"og:description\" content=\"Sabiha Gökçen Havalimanı'ndan Bursa'ya taksi mi lazım? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti sunar. Kolon 13'te karşılama ve uçuş gecikmeleri için ek ücret yok. Şimdi rezerve edin!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Sabiha Gökçen Havalimanı Bursa Taksi | Hızlı ve Güvenilir Transferler\">",
+                "<meta name=\"twitter:description\" content=\"Sabiha Gökçen Havalimanı'ndan Bursa'ya transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal ve uçuş gecikmelerinde ek ücret yok!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Bursa | Traslados Rápidos y Confiables\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi del Aeropuerto Sabiha Gökçen a Bursa? APL Transfers ofrece traslados privados con tarifa fija, servicio 24/7 y recepción en la Columna 13. Sin cargos adicionales por retrasos de vuelo. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto Sabiha Gökçen a Bursa | Traslados Rápidos y Confiables\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto Sabiha Gökçen a Bursa con APL Transfers. Servicio confiable, asequible y disponible 24/7 con cancelación gratuita. Sin cargos extra por retrasos de vuelo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Sabiha Gökçen Bursa | Trasferimenti Rapidi e Affidabili\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto Sabiha Gökçen a Bursa? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza alla Colonna 13. Nessun costo extra per ritardi di volo. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Sabiha Gökçen Bursa | Trasferimenti Rapidi e Affidabili\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto Sabiha Gökçen a Bursa con APL Transfers. Servizio affidabile, conveniente e disponibile 24/7 con cancellazione gratuita. Nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى بورصة | انتقالات سريعة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار صبيحة كوكجن إلى بورصة؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة، متاحة على مدار الساعة مع استقبال مجاني عند العمود 13. لا رسوم إضافية على تأخير الرحلات. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار صبيحة كوكجن إلى بورصة | انتقالات سريعة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار صبيحة كوكجن إلى بورصة مع APL Transfers. خدمة موثوقة، بأسعار معقولة ومتاحة 24/7 مع إمكانية الإلغاء المجاني. لا رسوم إضافية على تأخير الرحلات!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Бурсу | Быстрые и надежные трансферы\">",
+                "<meta property=\"og:description\" content=\"Нужен такси трансфер из аэропорта Сабиха Гёкчен в Бурсу? APL Transfers предлагает фиксированные цены, частные поездки 24/7 и встречу у Колонны 13. Без дополнительных платежей за задержку рейса. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Сабиха Гёкчен в Бурсу | Быстрые и надежные трансферы\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Сабиха Гёкчен в Бурсу с APL Transfers. Надежный сервис, доступные цены и обслуживание 24/7 с бесплатной отменой. Без дополнительных платежей за задержку рейса!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"萨比哈·格克琴机场至布尔萨出租车 | 快速可靠的接送服务\">",
+                "<meta property=\"og:description\" content=\"需要从萨比哈·格克琴机场到布尔萨的出租车吗？APL Transfers 提供固定价格、24/7 私人接送服务，并在第 13 柱免费迎接。航班延误无需额外收费。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"萨比哈·格克琴机场至布尔萨出租车 | 快速可靠的接送服务\">",
+                "<meta name=\"twitter:description\" content=\"使用 APL Transfers 预订您的萨比哈·格克琴机场至布尔萨的接送服务。可靠、实惠，提供 24/7 服务并支持免费取消。航班延误无需额外收费！\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp\">`,
+            ],
+
+        },
+    },
     AYT: {},
     DLM: {},
     BJY: {},
@@ -5882,34 +7830,2856 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
 
                 },
             },
+            "/istanbul-airport-to-bursa": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+                        "@id": "38",
+                        "url": `${env.websiteDomain}/istanbul-airport-to-bursa`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Istanbul Airport to Bursa Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
 
-            "/istanbul-airport-to-nisantasi": {
-                en: ``,
-                tr: ``,
-                ar: ``,
-                es: ``,
-                it: ``,
-                ru: ``,
-                zh: ``,
+                        "description": "Book a premium taxi transfer from Istanbul Airport to Bursa with APL Transfers. Fixed price, free meet & greet, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BUR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/istanbul-airport-to-bursa`,
+
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Carter",
+                            "reviewBody": "Smooth and easy transfer from Istanbul Airport to Bursa! The driver was professional, and the journey was comfortable. Highly recommended!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Istanbul Airport to Bursa Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Do you track flights, and will I be charged if my flight is delayed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we track your flight in real-time. If your flight is delayed, we adjust your pickup time accordingly, and you will not be charged extra for delays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Istanbul Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you by our APL Transfers office in the Arrival Hall at Istanbul Airport, holding a name board for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Istanbul Airport to Bursa fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer free cancellations for Istanbul Airport to Bursa transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What payment methods do you accept for Istanbul Airport transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                                }
+                            }
+                        ]
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+                        "@id": "38",
+                        "url": `${env.websiteDomain}/tr/istanbul-airport-to-bursa`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "İstanbul Havalimanı Bursa Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+
+                        "description": "APL Transfers ile İstanbul Havalimanı'ndan Bursa'ya premium taksi transferinizi rezerve edin. Sabit fiyat, ücretsiz karşılama ve 7/24 hizmet. Uçuş rötarlarında ek ücret yok.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BUR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/istanbul-airport-to-bursa`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Carter",
+                            "reviewBody": "İstanbul Havalimanı'ndan Bursa'ya sorunsuz ve rahat bir transfer! Şoför profesyoneldi ve yolculuk konforluydu. Kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "İstanbul Havalimanı Bursa Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum rötar yaparsa ek ücret alınır mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu gerçek zamanlı olarak takip ediyoruz. Uçuşunuz rötar yaparsa, karşılama saatini buna göre ayarlıyoruz ve gecikmeler için ekstra ücret alınmaz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz sizi İstanbul Havalimanı Geliş Terminali'nde bulunan APL Transfers ofisimizin yanında, isminizin yazılı olduğu bir tabela ile karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'ndan Bursa'ya taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm taksi ücretlerimiz sabittir ve gizli ücret yoktur. Şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'ndan Bursa'ya transferler için ücretsiz iptal seçeneğiniz var mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, varıştan 24 saat öncesine kadar rezervasyonunuzu ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ödemeleri Euro, GBP, Amerikan Doları ve Türk Lirası olarak güvenli çevrimiçi ödeme sistemiyle kabul ediyoruz."
+                                }
+                            }
+                        ]
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+                        "@id": "38",
+                        "url": `${env.websiteDomain}/ar/istanbul-airport-to-bursa`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التاكسي من مطار إسطنبول إلى بورصة",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+
+                        "description": "احجز خدمة النقل المتميزة من مطار إسطنبول إلى بورصة مع APL Transfers. سعر ثابت، استقبال مجاني، وخدمة متاحة 24/7. لا رسوم إضافية عند تأخر الرحلة.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BUR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/istanbul-airport-to-bursa`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "إميلي كارتر",
+                            "reviewBody": "خدمة نقل سلسة ومريحة من مطار إسطنبول إلى بورصة! السائق كان محترفًا والرحلة كانت مريحة. أنصح بها بشدة!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التاكسي من مطار إسطنبول إلى بورصة"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "إميلي كارتر"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "هل تتابعون الرحلات الجوية، وهل سيتم فرض رسوم إذا تأخرت رحلتي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نحن نتابع رحلتك الجوية في الوقت الفعلي. إذا تأخرت رحلتك، نقوم بتعديل وقت الاستقبال وفقًا لذلك، ولن يتم فرض أي رسوم إضافية على التأخير."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقيني السائق في مطار إسطنبول؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقيك السائق بجوار مكتب APL Transfers في صالة الوصول بمطار إسطنبول، حاملًا لافتة تحمل اسمك لسهولة التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار إسطنبول إلى بورصة ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعار التاكسي لدينا ثابتة بدون أي رسوم مخفية، مما يوفر أسعارًا شفافة ومنافسة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تقدمون إلغاءً مجانيًا لعمليات النقل من مطار إسطنبول إلى بورصة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل الوصول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي طرق الدفع التي تقبلونها لعمليات النقل من مطار إسطنبول؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نحن نقبل الدفع باليورو، الجنيه الإسترليني، الدولار الأمريكي، والليرة التركية عبر نظام دفع آمن عبر الإنترنت."
+                                }
+                            }
+                        ]
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+                        "@id": "38",
+                        "url": `${env.websiteDomain}/es/istanbul-airport-to-bursa`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Servicio de Taxi desde el Aeropuerto de Estambul a Bursa",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+
+                        "description": "Reserva tu traslado en taxi premium desde el Aeropuerto de Estambul a Bursa con APL Transfers. Precio fijo, recepción gratuita y servicio 24/7. Sin cargos adicionales por retrasos en los vuelos.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BUR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/istanbul-airport-to-bursa`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Carter",
+                            "reviewBody": "¡Traslado sin problemas y cómodo desde el Aeropuerto de Estambul a Bursa! El conductor fue profesional y el viaje muy agradable. ¡Totalmente recomendado!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Servicio de Taxi desde el Aeropuerto de Estambul a Bursa"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Supervisan los vuelos y me cobrarán si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, supervisamos tu vuelo en tiempo real. Si tu vuelo se retrasa, ajustamos tu hora de recogida en consecuencia y no se aplicará ningún cargo adicional por el retraso."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Estambul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Tu conductor te esperará junto a la oficina de APL Transfers en la sala de llegadas del Aeropuerto de Estambul, con un cartel con tu nombre para facilitar la identificación."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Son fijas las tarifas de taxi desde el Aeropuerto de Estambul a Bursa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todas nuestras tarifas de taxi son fijas, sin cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen cancelaciones gratuitas para los traslados del Aeropuerto de Estambul a Bursa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva de forma gratuita hasta 24 horas antes de la llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto de Estambul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en Euros, GBP, Dólares Estadounidenses y Liras Turcas a través de un sistema de pago seguro en línea."
+                                }
+                            }
+                        ]
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+                        "@id": "38",
+                        "url": `${env.websiteDomain}/it/istanbul-airport-to-bursa`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Servizio Taxi dall Aeroporto di Istanbul a Bursa",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+
+                        "description": "Prenota il tuo trasferimento in taxi premium dall Aeroporto di Istanbul a Bursa con APL Transfers. Prezzo fisso, accoglienza gratuita e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BUR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/istanbul-airport-to-bursa`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Carter",
+                            "reviewBody": "Trasferimento senza problemi e confortevole dall Aeroporto di Istanbul a Bursa! L autista era professionale e il viaggio molto piacevole. Assolutamente consigliato!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Servizio Taxi dall Aeroporto di Istanbul a Bursa"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Monitorate i voli e verrà addebitato un costo se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, monitoriamo il tuo volo in tempo reale. Se il tuo volo è in ritardo, adeguiamo l'orario di prelievo di conseguenza e non verrà applicato alcun costo aggiuntivo per i ritardi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all Aeroporto di Istanbul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà accanto all'ufficio di APL Transfers nella sala arrivi dell Aeroporto di Istanbul, con un cartello con il tuo nome per facilitare l'identificazione."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Le tariffe dei taxi dall Aeroporto di Istanbul a Bursa sono fisse?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutte le nostre tariffe sono fisse senza costi nascosti, garantendo prezzi trasparenti e competitivi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite cancellazioni gratuite per i trasferimenti dall Aeroporto di Istanbul a Bursa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall Aeroporto di Istanbul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in Euro, GBP, Dollari USA e Lira Turca tramite pagamento sicuro online."
+                                }
+                            }
+                        ]
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+                        "@id": "38",
+                        "url": `${env.websiteDomain}/ru/istanbul-airport-to-bursa`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Такси трансфер из аэропорта Стамбула в Бурсу",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+
+                        "description": "Забронируйте премиум-трансфер на такси из аэропорта Стамбула в Бурсу с APL Transfers. Фиксированная цена, бесплатная встреча и обслуживание 24/7. Без дополнительных платежей за задержку рейса.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BUR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/istanbul-airport-to-bursa`,
+
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Carter",
+                            "reviewBody": "Легкий и комфортный трансфер из аэропорта Стамбула в Бурсу! Водитель был профессионалом, а поездка удобной. Очень рекомендую!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Такси трансфер из аэропорта Стамбула в Бурсу"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Вы отслеживаете рейсы, и будет ли взиматься плата, если мой рейс задержится?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы отслеживаем ваш рейс в режиме реального времени. Если ваш рейс задерживается, мы корректируем время встречи, и дополнительная плата за задержку не взимается."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Где мой водитель встретит меня в аэропорту Стамбула?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель встретит вас рядом с офисом APL Transfers в зале прилета аэропорта Стамбула, держа табличку с вашим именем для удобства опознавания."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксированные ли цены на такси из аэропорта Стамбула в Бурсу?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши тарифы фиксированы, без скрытых платежей, что обеспечивает прозрачные и конкурентоспособные цены."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Предлагаете ли вы бесплатную отмену трансфера из аэропорта Стамбула в Бурсу?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до прибытия."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какие способы оплаты вы принимаете для трансферов из аэропорта Стамбула?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасную онлайн-оплату."
+                                }
+                            }
+                        ]
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+                        "@id": "38",
+                        "url": `${env.websiteDomain}/zh/istanbul-airport-to-bursa`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "伊斯坦布尔机场至布尔萨的出租车接送",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/nisantasi.webp`,
+
+                        "description": "通过 APL Transfers 预订从伊斯坦布尔机场到布尔萨的高级出租车接送服务。固定价格，免费接机，24/7 全天候服务。航班延误不收取额外费用。",
+                        "brand": "APL Transfers",
+                        "sku": "IST-BUR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/istanbul-airport-to-bursa`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "艾米丽·卡特",
+                            "reviewBody": "从伊斯坦布尔机场到布尔萨的接送服务非常顺利舒适！司机非常专业，旅程也非常愉快。强烈推荐！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "伊斯坦布尔机场至布尔萨的出租车接送"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "艾米丽·卡特"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "你们会跟踪航班吗？如果我的航班延误，会额外收费吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们会实时跟踪您的航班。如果您的航班延误，我们会相应调整接机时间，不会收取额外费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在伊斯坦布尔机场的哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在伊斯坦布尔机场到达大厅的 APL Transfers 办公室旁等候，并举着写有您名字的牌子，以便您轻松识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从伊斯坦布尔机场到布尔萨的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们的出租车价格是固定的，没有隐藏费用，提供透明和具有竞争力的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "伊斯坦布尔机场到布尔萨的接送服务是否可以免费取消？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，您可以在到达前 24 小时内免费取消您的预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们接受哪些支付方式用于伊斯坦布尔机场接送？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "我们接受欧元、英镑、美元和土耳其里拉的在线安全支付。"
+                                }
+                            }
+                        ]
+                    }
+                },
             },
             "/istanbul-airport-to-eminonu": {
-                en: ``,
-                tr: ``,
-                ar: ``,
-                es: ``,
-                it: ``,
-                ru: ``,
-                zh: ``,
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "@id": "39",
+                        "url": `${env.websiteDomain}/istanbul-airport-to-eminonu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Istanbul Airport to Eminönü Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "description": "Book a premium taxi transfer from Istanbul Airport to Eminönü with APL Transfers. Fixed price, free meet & greet, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-EMI-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/istanbul-airport-to-eminonu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1750,
+                            "reviewCount": 1750
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Jessica Green",
+                            "reviewBody": "Fantastic service! My driver was on time, and the ride to Eminönü was smooth and comfortable. Highly recommended!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Istanbul Airport to Eminönü Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Jessica Green"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Do you track flights, and will I be charged if my flight is delayed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we track your flight in real-time. If your flight is delayed, we adjust your pickup time accordingly, and you will not be charged extra for delays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Istanbul Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you by our APL Transfers office in the Arrival Hall at Istanbul Airport, holding a name board for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Istanbul Airport to Eminönü fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer free cancellations for Istanbul Airport to Eminönü transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What payment methods do you accept for Istanbul Airport transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                                }
+                            }
+                        ]
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "@id": "39",
+                        "url": `${env.websiteDomain}/tr/istanbul-airport-to-eminonu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Istanbul Airport to Eminönü Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "description": "Book a premium taxi transfer from Istanbul Airport to Eminönü with APL Transfers. Fixed price, free meet & greet, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-EMI-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/istanbul-airport-to-eminonu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1750,
+                            "reviewCount": 1750
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Jessica Green",
+                            "reviewBody": "Fantastic service! My driver was on time, and the ride to Eminönü was smooth and comfortable. Highly recommended!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Istanbul Airport to Eminönü Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Jessica Green"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum rötar yaparsa ek ücret alınır mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu gerçek zamanlı olarak takip ediyoruz. Uçuşunuz rötar yaparsa, karşılama saatinizi buna göre ayarlıyoruz ve gecikmeler için ekstra ücret alınmaz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz, İstanbul Havalimanı Geliş Terminali'nde bulunan APL Transfers ofisimizin yanında, isminizin yazılı olduğu bir tabela ile sizi karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'ndan Eminönü'ne taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm taksi ücretlerimiz sabittir ve gizli ücret yoktur, şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'ndan Eminönü'ne transferler için ücretsiz iptal seçeneğiniz var mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, varıştan 24 saat öncesine kadar rezervasyonunuzu ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ödemeleri Euro, GBP, Amerikan Doları ve Türk Lirası olarak güvenli çevrimiçi ödeme sistemiyle kabul ediyoruz."
+                                }
+                            }
+                        ]
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "@id": "39",
+                        "url": `${env.websiteDomain}/ar/istanbul-airport-to-eminonu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التاكسي من مطار إسطنبول إلى إمينونو",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "description": "احجز خدمة النقل الفاخرة من مطار إسطنبول إلى إمينونو مع APL Transfers. سعر ثابت، استقبال مجاني، وخدمة متاحة 24/7. لا رسوم إضافية عند تأخر الرحلة.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-EMI-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/istanbul-airport-to-eminonu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1750,
+                            "reviewCount": 1750
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "جيسيكا جرين",
+                            "reviewBody": "خدمة رائعة! كان السائق في الموعد المحدد، وكانت الرحلة إلى إمينونو سلسة ومريحة. أنصح بها بشدة!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التاكسي من مطار إسطنبول إلى إمينونو"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "جيسيكا جرين"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "هل تتابعون الرحلات الجوية، وهل سيتم فرض رسوم إذا تأخرت رحلتي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نحن نتابع رحلتك الجوية في الوقت الفعلي. إذا تأخرت رحلتك، نقوم بتعديل وقت الاستقبال وفقًا لذلك، ولن يتم فرض أي رسوم إضافية على التأخير."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقيني السائق في مطار إسطنبول؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقيك السائق بجوار مكتب APL Transfers في صالة الوصول بمطار إسطنبول، حاملًا لافتة تحمل اسمك لسهولة التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار إسطنبول إلى إمينونو ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعار التاكسي لدينا ثابتة بدون أي رسوم مخفية، مما يوفر أسعارًا شفافة ومنافسة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تقدمون إلغاءً مجانيًا لعمليات النقل من مطار إسطنبول إلى إمينونو؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل الوصول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي طرق الدفع التي تقبلونها لعمليات النقل من مطار إسطنبول؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نحن نقبل الدفع باليورو، الجنيه الإسترليني، الدولار الأمريكي، والليرة التركية عبر نظام دفع آمن عبر الإنترنت."
+                                }
+                            }
+                        ]
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "@id": "39",
+                        "url": `${env.websiteDomain}/es/istanbul-airport-to-eminonu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Servicio de Taxi desde el Aeropuerto de Estambul a Eminönü",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "description": "Reserva un traslado en taxi premium desde el Aeropuerto de Estambul a Eminönü con APL Transfers. Precio fijo, recepción gratuita y servicio 24/7. Sin cargos adicionales por retrasos en los vuelos.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-EMI-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/istanbul-airport-to-eminonu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1750,
+                            "reviewCount": 1750
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Jessica Green",
+                            "reviewBody": "¡Servicio fantástico! Mi conductor llegó a tiempo y el viaje a Eminönü fue fluido y cómodo. ¡Muy recomendable!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Servicio de Taxi desde el Aeropuerto de Estambul a Eminönü"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Jessica Green"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Supervisan los vuelos y me cobrarán si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, supervisamos tu vuelo en tiempo real. Si tu vuelo se retrasa, ajustamos la hora de recogida en consecuencia y no se aplicará ningún cargo adicional por el retraso."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Estambul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Tu conductor te esperará junto a nuestra oficina de APL Transfers en la sala de llegadas del Aeropuerto de Estambul, con un cartel con tu nombre para facilitar la identificación."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Son fijas las tarifas de taxi desde el Aeropuerto de Estambul a Eminönü?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todas nuestras tarifas de taxi son fijas, sin cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen cancelaciones gratuitas para los traslados del Aeropuerto de Estambul a Eminönü?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva de forma gratuita hasta 24 horas antes de la llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto de Estambul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en Euros, GBP, Dólares Estadounidenses y Liras Turcas a través de un sistema de pago seguro en línea."
+                                }
+                            }
+                        ]
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "@id": "39",
+                        "url": `${env.websiteDomain}/it/istanbul-airport-to-eminonu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Servizio Taxi dall Aeroporto di Istanbul a Eminönü",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "description": "Prenota un trasferimento in taxi premium dall Aeroporto di Istanbul a Eminönü con APL Transfers. Prezzo fisso, accoglienza gratuita e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-EMI-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/istanbul-airport-to-eminonu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1750,
+                            "reviewCount": 1750
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Jessica Green",
+                            "reviewBody": "Servizio fantastico! Il mio autista è arrivato puntuale e il viaggio verso Eminönü è stato fluido e confortevole. Altamente raccomandato!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Servizio Taxi dall Aeroporto di Istanbul a Eminönü"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Jessica Green"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Monitorate i voli e verrà addebitato un costo se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, monitoriamo il tuo volo in tempo reale. Se il tuo volo è in ritardo, adeguiamo l'orario di prelievo di conseguenza e non verrà applicato alcun costo aggiuntivo per i ritardi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all Aeroporto di Istanbul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà accanto all'ufficio di APL Transfers nella sala arrivi dell Aeroporto di Istanbul, con un cartello con il tuo nome per facilitare l'identificazione."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Le tariffe dei taxi dall Aeroporto di Istanbul a Eminönü sono fisse?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutte le nostre tariffe sono fisse senza costi nascosti, garantendo prezzi trasparenti e competitivi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite cancellazioni gratuite per i trasferimenti dall Aeroporto di Istanbul a Eminönü?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall Aeroporto di Istanbul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in Euro, GBP, Dollari USA e Lira Turca tramite pagamento sicuro online."
+                                }
+                            }
+                        ]
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "@id": "39",
+                        "url": `${env.websiteDomain}/ru/istanbul-airport-to-eminonu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Такси трансфер из аэропорта Стамбула в Эминёню",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                        "description": "Забронируйте премиальный трансфер на такси из аэропорта Стамбула в Эминёню с APL Transfers. Фиксированная цена, бесплатная встреча и круглосуточное обслуживание. Без дополнительных сборов за задержку рейса.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-EMI-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/istanbul-airport-to-eminonu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1750,
+                            "reviewCount": 1750
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Джессика Грин",
+                            "reviewBody": "Фантастический сервис! Водитель приехал вовремя, а поездка в Эминёню прошла гладко и комфортно. Настоятельно рекомендую!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Такси трансфер из аэропорта Стамбула в Эминёню"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Джессика Грин"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                        ,
+                        "FAQPage": {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Вы отслеживаете рейсы, и будет ли взиматься плата, если мой рейс задержится?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Да, мы отслеживаем ваш рейс в режиме реального времени. Если ваш рейс задерживается, мы корректируем время подачи такси соответственно, и дополнительная плата за задержку не взимается."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Где меня встретит водитель в аэропорту Стамбула?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ваш водитель встретит вас у нашего офиса APL Transfers в зале прилета аэропорта Стамбула, держа табличку с вашим именем для удобства опознания."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Фиксированы ли цены на такси из аэропорта Стамбула в Эминёню?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Да, все наши тарифы фиксированы, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные цены."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Предлагаете ли вы бесплатную отмену бронирования трансфера из аэропорта Стамбула в Эминёню?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Да, вы можете бесплатно отменить бронирование за 24 часа до прибытия."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Какие способы оплаты вы принимаете для трансферов из аэропорта Стамбула?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасную онлайн-оплату."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    zh: {
+                        "LocalBusiness": {
+                            "@context": "https://schema.org/",
+                            "@type": "LocalBusiness",
+                            "name": "APL Transfers",
+                            "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                            "@id": "39",
+                            "url": `${env.websiteDomain}/zh/istanbul-airport-to-eminonu`,
+                            "telephone": "+90 212 123 4567",
+                            "priceRange": "35",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                                "addressLocality": "Istanbul",
+                                "addressCountry": "TR",
+                                "postalCode": "34710"
+                            },
+                            "geo": {
+                                "@type": "GeoCoordinates",
+                                "latitude": 40.987843,
+                                "longitude": 29.022205
+                            },
+                            "openingHoursSpecification": {
+                                "@type": "OpeningHoursSpecification",
+                                "dayOfWeek": [
+                                    "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                                ],
+                                "opens": "00:00",
+                                "closes": "23:59"
+                            },
+                            "sameAs": [
+                                "https://www.facebook.com/APLTransfers",
+                                "https://twitter.com/APLTransfers",
+                                "https://www.instagram.com/APLTransfers"
+                            ]
+                        }
+                        ,
+                        "Product": {
+                            "@context": "https://schema.org/",
+                            "@type": "Product",
+                            "name": "伊斯坦布尔机场至埃米诺努的出租车接送",
+                            "image": `${env.websiteDomain}/images/popularDestinations/istanbul/eminonu.webp`,
+                            "description": "通过 APL Transfers 预订从伊斯坦布尔机场到埃米诺努的高级出租车接送服务。固定价格，免费接机，24/7 全天候服务。航班延误不收取额外费用。",
+                            "brand": "APL Transfers",
+                            "sku": "IST-EMI-001",
+                            "offers": {
+                                "@type": "Offer",
+                                "url": `${env.websiteDomain}/zh/istanbul-airport-to-eminonu`,
+                                "priceCurrency": "EUR",
+                                "price": "35.00",
+                                "priceValidUntil": "2025-12-31",
+                                "availability": "https://schema.org/InStock",
+                                "itemCondition": "https://schema.org/NewCondition"
+                            },
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "ratingValue": "4.9",
+                                "bestRating": "5",
+                                "worstRating": "1",
+                                "ratingCount": 1750,
+                                "reviewCount": 1750
+                            },
+                            "review": {
+                                "@type": "Review",
+                                "name": "杰西卡·格林",
+                                "reviewBody": "非常棒的服务！我的司机准时到达，前往埃米诺努的旅程顺畅舒适。强烈推荐！",
+                                "itemReviewed": {
+                                    "@type": "Thing",
+                                    "name": "伊斯坦布尔机场至埃米诺努的出租车接送"
+                                },
+                                "reviewRating": {
+                                    "@type": "Rating",
+                                    "ratingValue": "5",
+                                    "bestRating": "5",
+                                    "worstRating": "1"
+                                },
+                                "datePublished": "2025-03-18",
+                                "author": {
+                                    "@type": "Person",
+                                    "name": "杰西卡·格林"
+                                },
+                                "publisher": {
+                                    "@type": "Organization",
+                                    "name": "Trustpilot"
+                                }
+                            }
+                        }
+                        ,
+                        "FAQPage": {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "你们会跟踪航班吗？如果我的航班延误，会收取额外费用吗？",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "是的，我们会实时跟踪您的航班。如果您的航班延误，我们会相应调整接机时间，不会收取额外费用。"
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "我的司机会在哪里接我（伊斯坦布尔机场）？",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "您的司机将在伊斯坦布尔机场到达大厅的 APL Transfers 办公室旁等候，并举着写有您姓名的牌子，方便识别。"
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "伊斯坦布尔机场到埃米诺努的出租车价格是固定的吗？",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，确保透明和有竞争力的价格。"
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "伊斯坦布尔机场到埃米诺努的接送服务是否可以免费取消？",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "是的，您可以在抵达前 24 小时内免费取消您的预订。"
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "你们接受哪些支付方式用于伊斯坦布尔机场接送？",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "我们接受欧元、英镑、美元和土耳其里拉的安全在线支付。"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                },
             },
             "/istanbul-airport-to-uskudar-asian-side": {
-                en: ``,
-                tr: ``,
-                ar: ``,
-                es: ``,
-                it: ``,
-                ru: ``,
-                zh: ``,
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "@id": "40",
+                        "url": `${env.websiteDomain}/istanbul-airport-to-uskudar`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Istanbul Airport to Üsküdar Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "description": "Book a premium taxi transfer from Istanbul Airport to Üsküdar with APL Transfers. Fixed price, free meet & greet, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-USK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/istanbul-airport-to-uskudar`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Carter",
+                            "reviewBody": "Superb service! The driver was professional, and the ride to Üsküdar was comfortable. Highly recommended for Istanbul transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Istanbul Airport to Üsküdar Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Do you track flights, and will I be charged if my flight is delayed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we track your flight in real-time. If your flight is delayed, we adjust your pickup time accordingly, and you will not be charged extra for delays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Istanbul Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you by our APL Transfers office in the Arrival Hall at Istanbul Airport, holding a name board for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Istanbul Airport to Üsküdar fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer free cancellations for Istanbul Airport to Üsküdar transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What payment methods do you accept for Istanbul Airport transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                                }
+                            }
+                        ]
+                    }
+
+
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "@id": "40",
+                        "url": `${env.websiteDomain}/tr/istanbul-airport-to-uskudar`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "İstanbul Havalimanı Üsküdar Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "description": "APL Transfers ile İstanbul Havalimanı'ndan Üsküdar'a premium taksi transferinizi rezerve edin. Sabit fiyat, ücretsiz karşılama ve 7/24 hizmet. Uçuş rötarlarında ek ücret yok.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-USK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/istanbul-airport-to-uskudar`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Carter",
+                            "reviewBody": "Harika hizmet! Şoför profesyoneldi ve Üsküdar’a yolculuk konforluydu. İstanbul transferleri için kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "İstanbul Havalimanı Üsküdar Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum rötar yaparsa ek ücret alınır mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu gerçek zamanlı olarak takip ediyoruz. Uçuşunuz rötar yaparsa, karşılama saatinizi buna göre ayarlıyoruz ve gecikmeler için ekstra ücret alınmaz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz, İstanbul Havalimanı Geliş Terminali'nde bulunan APL Transfers ofisimizin yanında, isminizin yazılı olduğu bir tabela ile sizi karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'ndan Üsküdar'a taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm taksi ücretlerimiz sabittir ve gizli ücret yoktur, şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı'ndan Üsküdar'a transferler için ücretsiz iptal seçeneğiniz var mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, varıştan 24 saat öncesine kadar rezervasyonunuzu ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "İstanbul Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ödemeleri Euro, GBP, Amerikan Doları ve Türk Lirası olarak güvenli çevrimiçi ödeme sistemiyle kabul ediyoruz."
+                                }
+                            }
+                        ]
+                    },
+
+                },
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "@id": "40",
+                        "url": `${env.websiteDomain}/ar/istanbul-airport-to-uskudar`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التاكسي من مطار إسطنبول إلى أوسكودار",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "description": "احجز خدمة النقل الفاخرة من مطار إسطنبول إلى أوسكودار مع APL Transfers. سعر ثابت، استقبال مجاني، وخدمة متاحة 24/7. لا رسوم إضافية عند تأخر الرحلة.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-USK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/istanbul-airport-to-uskudar`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "جيمس كارتر",
+                            "reviewBody": "خدمة رائعة! كان السائق محترفًا وكانت الرحلة إلى أوسكودار مريحة. أنصح بها بشدة لعمليات النقل في إسطنبول!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التاكسي من مطار إسطنبول إلى أوسكودار"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "جيمس كارتر"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "هل تتابعون الرحلات الجوية، وهل سيتم فرض رسوم إذا تأخرت رحلتي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نحن نتابع رحلتك الجوية في الوقت الفعلي. إذا تأخرت رحلتك، نقوم بتعديل وقت الاستقبال وفقًا لذلك، ولن يتم فرض أي رسوم إضافية على التأخير."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقيني السائق في مطار إسطنبول؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقيك السائق بجوار مكتب APL Transfers في صالة الوصول بمطار إسطنبول، حاملًا لافتة تحمل اسمك لسهولة التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار إسطنبول إلى أوسكودار ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعار التاكسي لدينا ثابتة بدون أي رسوم مخفية، مما يوفر أسعارًا شفافة ومنافسة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تقدمون إلغاءً مجانيًا لعمليات النقل من مطار إسطنبول إلى أوسكودار؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل الوصول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي طرق الدفع التي تقبلونها لعمليات النقل من مطار إسطنبول؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نحن نقبل الدفع باليورو، الجنيه الإسترليني، الدولار الأمريكي، والليرة التركية عبر نظام دفع آمن عبر الإنترنت."
+                                }
+                            }
+                        ]
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "@id": "40",
+                        "url": `${env.websiteDomain}/es/istanbul-airport-to-uskudar`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Servicio de Taxi desde el Aeropuerto de Estambul a Üsküdar",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "description": "Reserva un traslado en taxi premium desde el Aeropuerto de Estambul a Üsküdar con APL Transfers. Precio fijo, recepción gratuita y servicio 24/7. Sin cargos adicionales por retrasos en los vuelos.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-USK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/istanbul-airport-to-uskudar`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Carter",
+                            "reviewBody": "¡Servicio excelente! El conductor fue profesional y el viaje a Üsküdar fue cómodo. ¡Muy recomendable para traslados en Estambul!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Servicio de Taxi desde el Aeropuerto de Estambul a Üsküdar"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Supervisan los vuelos y me cobrarán si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, supervisamos tu vuelo en tiempo real. Si tu vuelo se retrasa, ajustamos la hora de recogida en consecuencia y no se aplicará ningún cargo adicional por el retraso."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Estambul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Tu conductor te esperará junto a nuestra oficina de APL Transfers en la sala de llegadas del Aeropuerto de Estambul, con un cartel con tu nombre para facilitar la identificación."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Son fijas las tarifas de taxi desde el Aeropuerto de Estambul a Üsküdar?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todas nuestras tarifas de taxi son fijas, sin cargos ocultos, ofreciendo tarifas transparentes y competitivas."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen cancelaciones gratuitas para los traslados del Aeropuerto de Estambul a Üsküdar?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva de forma gratuita hasta 24 horas antes de la llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto de Estambul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en Euros, GBP, Dólares Estadounidenses y Liras Turcas a través de un sistema de pago seguro en línea."
+                                }
+                            }
+                        ]
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "@id": "40",
+                        "url": `${env.websiteDomain}/it/istanbul-airport-to-uskudar`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Servizio Taxi dall Aeroporto di Istanbul a Üsküdar",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "description": "Prenota un trasferimento in taxi premium dall Aeroporto di Istanbul a Üsküdar con APL Transfers. Prezzo fisso, accoglienza gratuita e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-USK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/istanbul-airport-to-uskudar`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Carter",
+                            "reviewBody": "Servizio eccellente! L'autista era professionale e il viaggio a Üsküdar è stato confortevole. Altamente raccomandato per i trasferimenti a Istanbul!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Servizio Taxi dall Aeroporto di Istanbul a Üsküdar"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Monitorate i voli e verrà addebitato un costo se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, monitoriamo il tuo volo in tempo reale. Se il tuo volo è in ritardo, adeguiamo l'orario di prelievo di conseguenza e non verrà applicato alcun costo aggiuntivo per i ritardi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all Aeroporto di Istanbul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà accanto all'ufficio di APL Transfers nella sala arrivi dell Aeroporto di Istanbul, con un cartello con il tuo nome per facilitare l'identificazione."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Le tariffe dei taxi dall Aeroporto di Istanbul a Üsküdar sono fisse?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutte le nostre tariffe sono fisse senza costi nascosti, garantendo prezzi trasparenti e competitivi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite cancellazioni gratuite per i trasferimenti dall Aeroporto di Istanbul a Üsküdar?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall Aeroporto di Istanbul?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in Euro, GBP, Dollari USA e Lira Turca tramite pagamento sicuro online."
+                                }
+                            }
+                        ]
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "@id": "40",
+                        "url": `${env.websiteDomain}/ru/istanbul-airport-to-uskudar`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Такси трансфер из аэропорта Стамбула в Ускюдар",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "description": "Забронируйте премиальный трансфер на такси из аэропорта Стамбула в Ускюдар с APL Transfers. Фиксированная цена, бесплатная встреча и круглосуточное обслуживание. Без дополнительных сборов за задержку рейса.",
+                        "brand": "APL Transfers",
+                        "sku": "IST-USK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/istanbul-airport-to-uskudar`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Джеймс Картер",
+                            "reviewBody": "Отличный сервис! Водитель был профессионалом, а поездка в Ускюдар — комфортной. Настоятельно рекомендую для трансферов в Стамбуле!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Такси трансфер из аэропорта Стамбула в Ускюдар"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Джеймс Картер"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Вы отслеживаете рейсы, и будет ли взиматься плата, если мой рейс задержится?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы отслеживаем ваш рейс в режиме реального времени. Если ваш рейс задерживается, мы корректируем время подачи такси соответственно, и дополнительная плата за задержку не взимается."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Стамбула?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель встретит вас у нашего офиса APL Transfers в зале прилета аэропорта Стамбула, держа табличку с вашим именем для удобства опознания."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксированы ли цены на такси из аэропорта Стамбула в Ускюдар?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши тарифы фиксированы, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные цены."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Предлагаете ли вы бесплатную отмену бронирования трансфера из аэропорта Стамбула в Ускюдар?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете бесплатно отменить бронирование за 24 часа до прибытия."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какие способы оплаты вы принимаете для трансферов из аэропорта Стамбула?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасную онлайн-оплату."
+                                }
+                            }
+                        ]
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "@id": "40",
+                        "url": `${env.websiteDomain}/zh/istanbul-airport-to-uskudar`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "伊斯坦布尔机场至于斯屈达尔的出租车接送",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
+                        "description": "通过 APL Transfers 预订从伊斯坦布尔机场到于斯屈达尔的高级出租车接送服务。固定价格，免费接机，24/7 全天候服务。航班延误不收取额外费用。",
+                        "brand": "APL Transfers",
+                        "sku": "IST-USK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/istanbul-airport-to-uskudar`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "詹姆斯·卡特",
+                            "reviewBody": "服务非常棒！司机很专业，去于斯屈达尔的旅程十分舒适。强烈推荐伊斯坦布尔的接送服务！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "伊斯坦布尔机场至于斯屈达尔的出租车接送"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "詹姆斯·卡特"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "你们会跟踪航班吗？如果我的航班延误，会收取额外费用吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们会实时跟踪您的航班。如果您的航班延误，我们会相应调整接机时间，不会收取额外费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在哪里接我（伊斯坦布尔机场）？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在伊斯坦布尔机场到达大厅的 APL Transfers 办公室旁等候，并举着写有您姓名的牌子，方便识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "伊斯坦布尔机场到于斯屈达尔的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，确保透明和有竞争力的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "伊斯坦布尔机场到于斯屈达尔的接送服务是否可以免费取消？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，您可以在抵达前 24 小时内免费取消您的预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们接受哪些支付方式用于伊斯坦布尔机场接送？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "我们接受欧元、英镑、美元和土耳其里拉的安全在线支付。"
+                                }
+                            }
+                        ]
+                    }
+                }
             },
+
+
             "/istanbul-airport-to-levent-maslak": {
                 en: ``,
                 tr: ``,
@@ -5937,7 +10707,7 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                 ru: ``,
                 zh: ``,
             },
-            "/istanbul-airport-to-bursa": {
+            "/istanbul-airport-to-nisantasi": {
                 en: ``,
                 tr: ``,
                 ar: ``,
@@ -6000,13 +10770,3955 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                 ru: ``,
                 zh: ``,
             },
-            SAW: {},
-            AYT: {},
-            DLM: {},
-            BJY: {},
-            ADB: {},
-            GZP: {},
-        }
+        },
+        SAW: {
+            "/sabiha-gokcen-airport-to-taksim": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "@id": "41",
+                        "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-taksim`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Airport to Taksim Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "description": "Book a premium taxi transfer from Sabiha Gökçen Airport to Taksim with APL Transfers. Fixed price, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-TAK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-taksim`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1500,
+                            "reviewCount": 1500
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Mark Johnson",
+                            "reviewBody": "Excellent service! My driver was waiting at Column 13 as promised, and the ride to Taksim was smooth and comfortable. Highly recommended!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Airport to Taksim Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Mark Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Sabiha Gökçen Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you at Column 13, located at the end of the pedestrian crossing, holding a passenger name board for easy recognition."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you track flights, and will I be charged if my flight is delayed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we track your flight in real-time. If your flight is delayed, we adjust your pickup time accordingly, and you will not be charged extra for delays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Sabiha Gökçen Airport to Taksim fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer free cancellations for Sabiha Gökçen Airport to Taksim transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What payment methods do you accept for Sabiha Gökçen Airport transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                                }
+                            }
+                        ]
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "@id": "41",
+                        "url": `${env.websiteDomain}/tr/sabiha-gokcen-airport-to-taksim`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Havalimanı'ndan Taksim'e Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "description": "APL Transfers ile Sabiha Gökçen Havalimanı'ndan Taksim'e premium taksi transferinizi rezerve edin. Sabit fiyat, Kolon 13'te ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ekstra ücret yok.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-TAK-001",
+                        "teklif": {
+                            "@type": "Teklif",
+                            "url": `${env.websiteDomain}/tr/sabiha-gokcen-havalimani-taksim`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1500,
+                            "reviewCount": 1500
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Mark Johnson",
+                            "reviewBody": "Mükemmel hizmet! Şoförüm söz verildiği gibi Kolon 13'te bekliyordu ve yolculuk rahat ve konforluydu. Kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Taksim'e Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Mark Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz sizi yaya geçidinin sonunda bulunan 13 numaralı kolonda, yolcu isminizin yazılı olduğu bir tabela ile karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum gecikirse ek ücret öder miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu anlık olarak takip ediyoruz. Uçuşunuz gecikirse, karşılamanızı buna göre ayarlıyoruz ve ek ücret ödemezsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Taksim'e taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm taksi ücretlerimiz sabittir ve gizli ücret yoktur. Şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Taksim'e transfer için ücretsiz iptal seçeneğiniz var mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Euro, GBP, Amerikan Doları ve Türk Lirası cinsinden güvenli online ödeme kabul ediyoruz."
+                                }
+                            }
+                        ]
+                    }
+
+                },
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "@id": "41",
+                        "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-taksim`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "نقل تاكسي من مطار صبيحة كوكجن إلى تقسيم",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "description": "احجز خدمة نقل تاكسي متميزة من مطار صبيحة كوكجن إلى تقسيم مع APL Transfers. سعر ثابت، استقبال مجاني عند العمود 13، وخدمة متوفرة 24/7. لا رسوم إضافية في حالة تأخر الرحلات.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-TAK-001",
+                        "عرض": {
+                            "@type": "عرض",
+                            "url": `${env.websiteDomain}/ar/sabiha-gokcen-havalimani-taksim`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1500,
+                            "reviewCount": 1500
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "مارك جونسون",
+                            "reviewBody": "خدمة ممتازة! كان السائق في انتظاري عند العمود 13 كما وعد، وكانت الرحلة إلى تقسيم مريحة وسلسة. أنصح بها بشدة!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "نقل تاكسي من مطار صبيحة كوكجن إلى تقسيم"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "مارك جونسون"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقي بي السائق في مطار صبيحة كوكجن؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقي بك سائقك عند العمود رقم 13، الواقع في نهاية ممر المشاة، وهو يحمل لوحة باسم الراكب لسهولة التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تتابعون الرحلات الجوية، وهل سيتم تحميلي رسومًا إضافية إذا تأخرت رحلتي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نحن نتابع رحلتك الجوية في الوقت الفعلي. إذا تأخرت رحلتك، فسنقوم بتعديل وقت الاستقبال وفقًا لذلك، ولن يتم فرض أي رسوم إضافية عليك."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار صبيحة كوكجن إلى تقسيم ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعار التاكسي لدينا ثابتة ولا توجد رسوم مخفية، حيث نقدم أسعارًا شفافة وتنافسية."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل توفرون إلغاء مجاني لرحلات النقل من مطار صبيحة كوكجن إلى تقسيم؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الوصول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي طرق الدفع التي تقبلونها لرحلات النقل من مطار صبيحة كوكجن؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نقبل الدفع باليورو، الجنيه الإسترليني، الدولار الأمريكي، والليرة التركية عبر الدفع الإلكتروني الآمن."
+                                }
+                            }
+                        ]
+                    }
+
+                },
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "@id": "41",
+                        "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-taksim`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Transfer in taxi dall Aeroporto Sabiha Gökçen a Taksim",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "description": "Prenota un transfer in taxi premium dall Aeroporto Sabiha Gökçen a Taksim con APL Transfers. Prezzo fisso, accoglienza gratuita alla Colonna 13 e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-TAK-001",
+                        "offerta": {
+                            "@type": "Offerta",
+                            "url": `${env.websiteDomain}/it/sabiha-gokcen-havalimani-taksim`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1500,
+                            "reviewCount": 1500
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Mark Johnson",
+                            "reviewBody": "Servizio eccellente! Il mio autista mi aspettava alla Colonna 13 come promesso e il viaggio fino a Taksim è stato comodo e piacevole. Consigliatissimo!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Transfer in taxi dall Aeroporto Sabiha Gökçen a Taksim"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Mark Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all'Aeroporto di Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà alla Colonna 13, situata alla fine dell'attraversamento pedonale, con un cartello con il tuo nome per un facile riconoscimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Tracciate i voli e dovrò pagare un costo aggiuntivo se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, monitoriamo il tuo volo in tempo reale. In caso di ritardo, adeguiamo l'orario di prelievo di conseguenza e non ti verrà addebitato alcun costo aggiuntivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Le tariffe dei taxi dall'Aeroporto di Sabiha Gökçen a Taksim sono fisse?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutte le nostre tariffe taxi sono fisse, senza costi nascosti, garantendo prezzi trasparenti e competitivi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Sabiha Gökçen a Taksim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall'Aeroporto di Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in Euro, Sterline Britanniche, Dollari Statunitensi e Lire Turche tramite pagamento online sicuro."
+                                }
+                            }
+                        ]
+                    }
+
+                },
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "@id": "41",
+                        "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-taksim`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер на такси из аэропорта Сабиха Гёкчен в Таксим",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "description": "Забронируйте премиальный трансфер на такси из аэропорта Сабиха Гёкчен в Таксим с APL Transfers. Фиксированная цена, бесплатная встреча у Колонны 13, круглосуточное обслуживание. Без дополнительных сборов за задержку рейса.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-TAK-001",
+                        "предложение": {
+                            "@type": "Предложение",
+                            "url": `${env.websiteDomain}/ru/sabiha-gokcen-havalimani-taksim`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1500,
+                            "reviewCount": 1500
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Марк Джонсон",
+                            "reviewBody": "Отличный сервис! Водитель ждал меня у Колонны 13, как и обещано, а поездка до Таксима была комфортной и приятной. Очень рекомендую!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер на такси из аэропорта Сабиха Гёкчен в Таксим"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Марк Джонсон"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Сабиха Гёкчен?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель встретит вас у Колонны 13, расположенной в конце пешеходного перехода, с табличкой с вашим именем для удобного опознания."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы отслеживаете рейсы? Будет ли взиматься дополнительная плата, если мой рейс задержится?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы отслеживаем ваш рейс в режиме реального времени. В случае задержки рейса мы корректируем время встречи, и дополнительная плата не взимается."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксированы ли цены на такси из аэропорта Сабиха Гёкчен в Таксим?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши тарифы фиксированные, без скрытых платежей, обеспечивая прозрачные и конкурентоспособные цены."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Предлагаете ли вы бесплатную отмену бронирования трансфера из аэропорта Сабиха Гёкчен в Таксим?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до прибытия."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какие способы оплаты вы принимаете для трансферов из аэропорта Сабиха Гёкчен?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Мы принимаем оплату в евро, фунтах стерлингов, долларах США и турецких лирах через безопасную онлайн-оплату."
+                                }
+                            }
+                        ]
+                    }
+
+                },
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "@id": "41",
+                        "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-taksim`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en taxi desde el Aeropuerto Sabiha Gökçen a Taksim",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "description": "Reserva un traslado en taxi premium desde el Aeropuerto Sabiha Gökçen a Taksim con APL Transfers. Precio fijo, recepción gratuita en la Columna 13 y servicio 24/7. Sin cargos adicionales por retrasos en los vuelos.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-TAK-001",
+                        "oferta": {
+                            "@type": "Oferta",
+                            "url": `${env.websiteDomain}/es/sabiha-gokcen-havalimani-taksim`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1500,
+                            "reviewCount": 1500
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Mark Johnson",
+                            "reviewBody": "¡Servicio excelente! Mi conductor me esperaba en la Columna 13 como prometido, y el viaje a Taksim fue cómodo y sin problemas. ¡Muy recomendable!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en taxi desde el Aeropuerto Sabiha Gökçen a Taksim"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Mark Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Su conductor lo esperará en la Columna 13, ubicada al final del paso peatonal, con un cartel con su nombre para facilitar su reconocimiento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Monitorean los vuelos y me cobrarán si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, monitoreamos su vuelo en tiempo real. Si su vuelo se retrasa, ajustamos su horario de recogida en consecuencia y no se le cobrará ningún cargo adicional."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Los precios de los taxis desde el Aeropuerto de Sabiha Gökçen a Taksim son fijos?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todas nuestras tarifas de taxi son fijas, sin cargos ocultos, ofreciendo precios transparentes y competitivos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen cancelación gratuita para los traslados del Aeropuerto de Sabiha Gökçen a Taksim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puede cancelar su reserva de forma gratuita hasta 24 horas antes de la llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto de Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas a través de pago seguro en línea."
+                                }
+                            }
+                        ]
+                    }
+
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "@id": "41",
+                        "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-taksim`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "从萨比哈·格克琴机场到塔克西姆的出租车接送",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/taksim.webp`,
+                        "description": "通过APL Transfers预订从萨比哈·格克琴机场到塔克西姆的高端出租车接送服务。固定价格，在13号柱免费迎接，提供24/7服务。航班延误无额外费用。",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-TAK-001",
+                        "优惠": {
+                            "@type": "优惠",
+                            "url": `${env.websiteDomain}/zh/sabiha-gokcen-havalimani-taksim`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1500,
+                            "reviewCount": 1500
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "马克·约翰逊",
+                            "reviewBody": "服务非常棒！司机如约在13号柱等候，前往塔克西姆的旅程顺畅舒适。强烈推荐！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从萨比哈·格克琴机场到塔克西姆的出租车接送"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "马克·约翰逊"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在萨比哈·格克琴机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在人行横道尽头的13号柱子处等候，并举着您的姓名牌以便识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们会跟踪航班吗？如果我的航班延误，我会被收取额外费用吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们会实时跟踪您的航班。如果航班延误，我们会相应调整您的接送时间，并且不会收取额外费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从萨比哈·格克琴机场到塔克西姆的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们所有的出租车价格都是固定的，没有隐藏费用，保证透明和有竞争力的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "萨比哈·格克琴机场至塔克西姆的接送是否提供免费取消？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，您可以在抵达前24小时内免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们接受哪些支付方式用于萨比哈·格克琴机场的接送服务？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "我们接受欧元、英镑、美元和土耳其里拉的在线安全支付。"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+
+            "/sabiha-gokcen-airport-to-sultanahmet": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "@id": "47",
+                        "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Airport to Sultanahmet Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "Book a premium taxi transfer from Sabiha Gökçen Airport to Sultanahmet with APL Transfers. Fixed price, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-SUL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1150,
+                            "reviewCount": 1150
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Carter",
+                            "reviewBody": "Fantastic experience! My driver met me at Column 13 and took me to Sultanahmet quickly and comfortably. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Airport to Sultanahmet Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Sabiha Gökçen Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you at Column 13, located at the end of the pedestrian crossing, holding a passenger name board for easy recognition."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you track flights, and will I be charged if my flight is delayed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we track your flight in real-time. If your flight is delayed, we adjust your pickup time accordingly, and you will not be charged extra for delays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Sabiha Gökçen Airport to Sultanahmet fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer free cancellations for Sabiha Gökçen Airport to Sultanahmet transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What payment methods do you accept for Sabiha Gökçen Airport transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                                }
+                            }
+                        ]
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "@id": "47",
+                        "url": `${env.websiteDomain}/tr/sabiha-gokcen-airport-to-sultanahmet`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Havalimanı - Sultanahmet Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "Sabiha Gökçen Havalimanı'ndan Sultanahmet'e premium taksi transferinizi APL Transfers ile rezerve edin. Sabit fiyat, 13 numaralı kolonda ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmeleri için ek ücret yok.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-SUL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/sabiha-gokcen-havalimani-sultanahmet`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1150,
+                            "reviewCount": 1150
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Carter",
+                            "reviewBody": "Harika bir deneyim! Şoförüm beni 13 numaralı kolonda karşıladı ve hızlı ve konforlu bir şekilde Sultanahmet'e götürdü. APL Transfers'i şiddetle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Havalimanı - Sultanahmet Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz sizi, yaya geçidinin sonunda bulunan Kolon 13'te, adınızın yazılı olduğu bir tabela ile karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum gecikirse ekstra ücret öder miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu gerçek zamanlı olarak takip ediyoruz. Eğer uçuşunuz gecikirse, karşılama saatini buna göre ayarlıyoruz ve gecikmeler için ek ücret talep etmiyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Sultanahmet'e taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm taksi ücretlerimiz sabittir ve gizli ücretler yoktur. Şeffaf ve rekabetçi fiyatlandırma sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Sultanahmet'e transfer için ücretsiz iptal hakkı var mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Euro, GBP, ABD Doları ve Türk Lirası ile güvenli online ödeme kabul ediyoruz."
+                                }
+                            }
+                        ]
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "@id": "47",
+                        "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-sultanahmet`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التاكسي من مطار صبيحة كوكجن إلى السلطان أحمد",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "احجز خدمة التاكسي الفاخرة من مطار صبيحة كوكجن إلى السلطان أحمد مع APL Transfers. سعر ثابت، استقبال مجاني عند العمود 13، وخدمة على مدار 24/7. لا توجد رسوم إضافية على تأخير الرحلات.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-SUL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-sultanahmet`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1150,
+                            "reviewCount": 1150
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "صوفيا كارتر",
+                            "reviewBody": "تجربة رائعة! التقيت بسائقي عند العمود رقم 13 وأخذني إلى السلطان أحمد بسرعة وراحة. أنصح بشدة باستخدام APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التاكسي من مطار صبيحة كوكجن إلى السلطان أحمد"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "صوفيا كارتر"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {}
+                },
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "@id": "47",
+                        "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-sultanahmet`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento in Taxi dall'Aeroporto di Sabiha Gökçen a Sultanahmet",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "Prenota un trasferimento in taxi premium dall'Aeroporto di Sabiha Gökçen a Sultanahmet con APL Transfers. Prezzo fisso, accoglienza gratuita alla Colonna 13 e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-SUL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/sabiha-gokcen-aeroporto-sultanahmet`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1150,
+                            "reviewCount": 1150
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Carter",
+                            "reviewBody": "Esperienza fantastica! Il mio autista mi ha incontrato alla Colonna 13 e mi ha portato a Sultanahmet in modo rapido e confortevole. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento in Taxi dall'Aeroporto di Sabiha Gökçen a Sultanahmet"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all'Aeroporto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà alla Colonna 13, situata alla fine dell'attraversamento pedonale, con un cartello con il tuo nome per un facile riconoscimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Monitorate i voli? Dovrò pagare un supplemento se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, monitoriamo il tuo volo in tempo reale. Se il tuo volo è in ritardo, adegueremo l'orario di prelievo di conseguenza e non ti verrà addebitato alcun costo aggiuntivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Le tariffe dei taxi dall'Aeroporto Sabiha Gökçen a Sultanahmet sono fisse?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutte le nostre tariffe taxi sono fisse, senza costi nascosti, garantendo trasparenza e prezzi competitivi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto Sabiha Gökçen a Sultanahmet?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall'Aeroporto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in euro, sterline britanniche, dollari americani e lire turche tramite pagamento sicuro online."
+                                }
+                            }
+                        ]
+                    }
+
+                },
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "@id": "47",
+                        "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер на такси из аэропорта Сабиха Гёкчен в Султанахмет",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "Забронируйте премиум-трансфер на такси из аэропорта Сабиха Гёкчен в Султанахмет с APL Transfers. Фиксированная цена, бесплатная встреча у колонны 13 и круглосуточное обслуживание. Без дополнительных сборов за задержку рейса.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-SUL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1150,
+                            "reviewCount": 1150
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "София Картер",
+                            "reviewBody": "Отличный опыт! Водитель встретил меня у колонны 13 и быстро и комфортно довез до Султанахмета. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер на такси из аэропорта Сабиха Гёкчен в Султанахмет"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "София Картер"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Сабиха Гёкчен?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель встретит вас у Колонны 13, расположенной в конце пешеходного перехода, с табличкой с вашим именем для удобного опознания."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы отслеживаете рейсы, и будет ли взиматься дополнительная плата в случае задержки?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы отслеживаем ваш рейс в реальном времени. Если ваш рейс задерживается, мы корректируем время встречи, и дополнительная плата за задержку не взимается."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксированы ли цены на такси из аэропорта Сабиха Гёкчен в Султанахмет?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши тарифы фиксированы, без скрытых платежей. Мы предлагаем прозрачные и конкурентоспособные цены."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Можно ли бесплатно отменить трансфер из аэропорта Сабиха Гёкчен в Султанахмет?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до прибытия."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какие способы оплаты вы принимаете для трансферов из аэропорта Сабиха Гёкчен?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасную онлайн-оплату."
+                                }
+                            }
+                        ]
+                    }
+
+                },
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "@id": "47",
+                        "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-sultanahmet`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en Taxi desde el Aeropuerto Sabiha Gökçen a Sultanahmet",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "Reserva un traslado en taxi premium desde el Aeropuerto Sabiha Gökçen a Sultanahmet con APL Transfers. Precio fijo, recepción gratuita en la Columna 13 y servicio 24/7. Sin cargos adicionales por retrasos en los vuelos.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-SUL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/sabiha-gokcen-aeropuerto-sultanahmet`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1150,
+                            "reviewCount": 1150
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Carter",
+                            "reviewBody": "¡Fantástica experiencia! Mi conductor me recibió en la Columna 13 y me llevó a Sultanahmet de manera rápida y cómoda. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en Taxi desde el Aeropuerto Sabiha Gökçen a Sultanahmet"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Su conductor lo esperará en la Columna 13, ubicada al final del paso de peatones, sosteniendo un cartel con su nombre para facilitar su reconocimiento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Hacen seguimiento de los vuelos? ¿Me cobrarán si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, rastreamos su vuelo en tiempo real. Si su vuelo se retrasa, ajustamos la hora de recogida en consecuencia y no se le cobrará extra por el retraso."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Las tarifas de taxi desde el Aeropuerto Sabiha Gökçen a Sultanahmet son fijas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todas nuestras tarifas de taxi son fijas, sin cargos ocultos, ofreciendo precios transparentes y competitivos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen cancelaciones gratuitas para los traslados del Aeropuerto Sabiha Gökçen a Sultanahmet?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puede cancelar su reserva de forma gratuita hasta 24 horas antes de su llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas mediante pago seguro en línea."
+                                }
+                            }
+                        ]
+                    }
+
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "@id": "47",
+                        "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "从萨比哈·格克琴机场到苏丹艾哈迈德的出租车接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "通过 APL Transfers 预订从萨比哈·格克琴机场到苏丹艾哈迈德的高端出租车接送服务。固定价格，免费在 13 号柱迎接，24/7 全天候服务。航班延误不收取额外费用。",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-SUL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1150,
+                            "reviewCount": 1150
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "索菲娅·卡特",
+                            "reviewBody": "非常棒的体验！我的司机在 13 号柱迎接我，并快速舒适地将我送往苏丹艾哈迈德。我强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从萨比哈·格克琴机场到苏丹艾哈迈德的出租车接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "索菲娅·卡特"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在萨比哈·格克琴机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在人行横道尽头的13号柱等候，并举着写有您姓名的接客牌，以便您轻松识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们会跟踪航班吗？如果航班延误，我需要支付额外费用吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们会实时跟踪您的航班。如果航班延误，我们会相应调整您的接机时间，您无需支付额外费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从萨比哈·格克琴机场到苏丹艾哈迈德的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们的出租车价格是固定的，没有隐藏费用，保证透明且具有竞争力的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "萨比哈·格克琴机场到苏丹艾哈迈德的接送服务是否可以免费取消？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，您可以在抵达前24小时内免费取消您的预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "萨比哈·格克琴机场接送服务支持哪些付款方式？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "我们接受欧元、英镑、美元和土耳其里拉的安全在线支付。"
+                                }
+                            }
+                        ]
+                    }
+
+                }
+            },
+            // "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+            // 
+
+            "/sabiha-gokcen-airport-to-kadikoy": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "@id": "46",
+                        "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Airport to Kadıköy Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "description": "Book a premium taxi transfer from Sabiha Gökçen Airport to Kadıköy with APL Transfers. Fixed price, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-KAD-001",
+
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Harris",
+                            "reviewBody": "Fantastic experience! My driver met me at Column 13 and took me to Kadıköy quickly and comfortably. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Airport to Kadıköy Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Harris"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {}
+
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "@id": "46",
+                        "url": `${env.websiteDomain}/tr/sabiha-gokcen-airport-to-kadikoy`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Havalimanı'ndan Kadıköy'e Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "description": "APL Transfers ile Sabiha Gökçen Havalimanı'ndan Kadıköy'e premium taksi transferinizi rezerve edin. Sabit fiyat, Kolon 13'te ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ekstra ücret yok.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-KAD-001",
+                        "teklif": {
+                            "@type": "Teklif",
+                            "url": `${env.websiteDomain}/tr/sabiha-gokcen-airport-to-kadikoy`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Harris",
+                            "reviewBody": "Harika bir deneyimdi! Şoförüm beni Kolon 13'te karşıladı ve Kadıköy'e hızlı ve konforlu bir şekilde götürdü. APL Transfers'i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Kadıköy'e Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Harris"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz sizi, yaya geçidinin sonunda bulunan Kolon 13'te, adınızın yazılı olduğu bir tabela ile karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum gecikirse ekstra ücret öder miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu gerçek zamanlı olarak takip ediyoruz. Eğer uçuşunuz gecikirse, karşılama saatini buna göre ayarlıyoruz ve gecikmeler için ek ücret talep etmiyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Kadıköy'e taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm taksi ücretlerimiz sabittir ve gizli ücret yoktur. Şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Kadıköy'e transfer için ücretsiz iptal hakkı var mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Euro, GBP, ABD Doları ve Türk Lirası ile güvenli online ödeme kabul ediyoruz."
+                                }
+                            }
+                        ]
+                    }
+
+
+                },
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "@id": "46",
+                        "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-kadikoy`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "نقل تاكسي من مطار صبيحة كوكجن إلى كاديكوي",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "description": "احجز خدمة نقل تاكسي متميزة من مطار صبيحة كوكجن إلى كاديكوي مع APL Transfers. سعر ثابت، استقبال مجاني عند العمود 13، وخدمة متوفرة 24/7. لا رسوم إضافية في حالة تأخر الرحلات.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-KAD-001",
+                        "عرض": {
+                            "@type": "عرض",
+                            "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-kadikoy`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "ديفيد هاريس",
+                            "reviewBody": "تجربة رائعة! كان السائق في انتظاري عند العمود 13 ونقلني إلى كاديكوي بسرعة وراحة. أنصح بشدة بخدمة APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "نقل تاكسي من مطار صبيحة كوكجن إلى كاديكوي"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "ديفيد هاريس"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقيني السائق في مطار صبيحة كوكجن؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقيك السائق عند العمود 13، الموجود في نهاية معبر المشاة، حاملًا لوحة باسمك لسهولة التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تتابعون الرحلات الجوية، وهل سأدفع رسومًا إضافية إذا تأخرت رحلتي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نقوم بتتبع رحلتك الجوية في الوقت الفعلي. إذا تأخرت رحلتك، نقوم بتعديل وقت الاستقبال وفقًا لذلك، ولن يتم فرض أي رسوم إضافية بسبب التأخير."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار صبيحة كوكجن إلى كاديكوي ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعار التاكسي لدينا ثابتة بدون أي رسوم مخفية، مما يضمن شفافية الأسعار وتقديم أسعار تنافسية."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء حجز خدمة النقل من مطار صبيحة كوكجن إلى كاديكوي مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الوصول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي طرق الدفع التي تقبلونها لخدمات النقل من مطار صبيحة كوكجن؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نقبل الدفع بعملات اليورو، الجنيه الإسترليني، الدولار الأمريكي، والليرة التركية من خلال الدفع الإلكتروني الآمن."
+                                }
+                            }
+                        ]
+                    }
+
+
+                },
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "@id": "46",
+                        "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Transfer in taxi dall Aeroporto Sabiha Gökçen a Kadıköy",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "description": "Prenota un transfer in taxi premium dall Aeroporto Sabiha Gökçen a Kadıköy con APL Transfers. Prezzo fisso, accoglienza gratuita alla Colonna 13 e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-KAD-001",
+                        "offerta": {
+                            "@type": "Offerta",
+                            "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Harris",
+                            "reviewBody": "Esperienza fantastica! Il mio autista mi ha aspettato alla Colonna 13 e mi ha portato a Kadıköy in modo veloce e confortevole. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Transfer in taxi dall Aeroporto Sabiha Gökçen a Kadıköy"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Harris"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all'Aeroporto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà alla Colonna 13, situata alla fine dell'attraversamento pedonale, con un cartello con il tuo nome per un facile riconoscimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Monitorate i voli? Devo pagare un costo aggiuntivo se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, monitoriamo il tuo volo in tempo reale. Se il tuo volo è in ritardo, adegueremo l'orario di prelievo di conseguenza e non ti verrà addebitato alcun costo aggiuntivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Le tariffe dei taxi dall'Aeroporto Sabiha Gökçen a Kadıköy sono fisse?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutte le nostre tariffe taxi sono fisse, senza costi nascosti, garantendo trasparenza e prezzi competitivi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare gratuitamente il trasferimento dall'Aeroporto Sabiha Gökçen a Kadıköy?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall'Aeroporto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in euro, sterline britanniche, dollari americani e lire turche tramite pagamento sicuro online."
+                                }
+                            }
+                        ]
+                    }
+
+
+                },
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "@id": "46",
+                        "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер на такси из аэропорта Сабиха Гёкчен в Кадыкёй",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "description": "Забронируйте премиальный трансфер на такси из аэропорта Сабиха Гёкчен в Кадыкёй с APL Transfers. Фиксированная цена, бесплатная встреча у Колонны 13, круглосуточное обслуживание. Без дополнительных сборов за задержку рейса.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-KAD-001",
+                        "предложение": {
+                            "@type": "Предложение",
+                            "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Дэвид Харрис",
+                            "reviewBody": "Отличный опыт! Водитель встретил меня у Колонны 13 и быстро и комфортно доставил в Кадыкёй. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер на такси из аэропорта Сабиха Гёкчен в Кадыкёй"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Дэвид Харрис"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {}
+
+                },
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "@id": "46",
+                        "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-kadikoy`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en taxi desde el Aeropuerto Sabiha Gökçen a Kadıköy",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "description": "Reserva un traslado en taxi premium desde el Aeropuerto Sabiha Gökçen a Kadıköy con APL Transfers. Precio fijo, recepción gratuita en la Columna 13 y servicio 24/7. Sin cargos adicionales por retrasos en los vuelos.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-KAD-001",
+                        "oferta": {
+                            "@type": "Oferta",
+                            "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-kadikoy`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Harris",
+                            "reviewBody": "¡Experiencia fantástica! Mi conductor me esperó en la Columna 13 y me llevó a Kadıköy de manera rápida y cómoda. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en taxi desde el Aeropuerto Sabiha Gökçen a Kadıköy"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Harris"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Su conductor lo esperará en la Columna 13, ubicada al final del paso de peatones, sosteniendo un cartel con su nombre para facilitar su reconocimiento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Rastrean los vuelos? ¿Me cobrarán si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, rastreamos su vuelo en tiempo real. Si su vuelo se retrasa, ajustamos la hora de recogida en consecuencia y no se le cobrará extra por el retraso."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Las tarifas de taxi desde el Aeropuerto Sabiha Gökçen a Kadıköy son fijas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todas nuestras tarifas de taxi son fijas, sin cargos ocultos, ofreciendo precios transparentes y competitivos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar gratuitamente el traslado del Aeropuerto Sabiha Gökçen a Kadıköy?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puede cancelar su reserva de forma gratuita hasta 24 horas antes de su llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas mediante pago seguro en línea."
+                                }
+                            }
+                        ]
+                    }
+
+
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "@id": "46",
+                        "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                            "addressLocality": "Istanbul",
+                            "addressCountry": "TR",
+                            "postalCode": "34710"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 40.987843,
+                            "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "从萨比哈·格克琴机场到卡德柯伊的出租车接送",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/kadikoy.webp`,
+                        "description": "通过APL Transfers预订从萨比哈·格克琴机场到卡德柯伊的高端出租车接送服务。固定价格，在13号柱免费迎接，提供24/7服务。航班延误无额外费用。",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-KAD-001",
+                        "优惠": {
+                            "@type": "优惠",
+                            "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "大卫·哈里斯",
+                            "reviewBody": "非常棒的体验！司机在13号柱等候，并快速舒适地将我送往卡德柯伊。强烈推荐APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从萨比哈·格克琴机场到卡德柯伊的出租车接送"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "大卫·哈里斯"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在萨比哈·格克琴机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在13号柱等候，并举着写有您姓名的接客牌，以便您轻松识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们会跟踪航班吗？如果航班延误，我需要支付额外费用吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们会实时跟踪您的航班。如果航班延误，我们会相应调整您的接机时间，您无需支付额外费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从萨比哈·格克琴机场到卡德柯伊的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们的出租车价格是固定的，没有隐藏费用，保证透明且具有竞争力的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消从萨比哈·格克琴机场到卡德柯伊的接送服务吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，您可以在抵达前24小时内免费取消您的预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们接受哪些付款方式用于萨比哈·格克琴机场接送服务？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "我们接受欧元、英镑、美元和土耳其里拉的安全在线支付。"
+                                }
+                            }
+                        ]
+                    }
+
+                }
+            },
+            "/sabiha-gokcen-airport-to-beyoglu": {
+                en: {
+                    "LocalBusiness":     {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
+                        "@id": "43",
+                       "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                          "addressLocality": "Istanbul",
+                          "addressCountry": "TR",
+                          "postalCode": "34710"
+                        },
+                        "geo": {
+                          "@type": "GeoCoordinates",
+                          "latitude": 40.987843,
+                          "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                          "@type": "OpeningHoursSpecification",
+                          "dayOfWeek": [
+                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                          ],
+                          "opens": "00:00",
+                          "closes": "23:59"
+                        },
+                        "sameAs": [
+                          "https://www.facebook.com/APLTransfers",
+                          "https://twitter.com/APLTransfers",
+                          "https://www.instagram.com/APLTransfers"
+                        ]
+                      }
+                  
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Airport to Beyoğlu Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "Book a premium taxi transfer from Sabiha Gökçen Airport to Beyoğlu with APL Transfers. Fixed price, free meet & greet at Column 13, and 24/7 service. No extra charge for flight delays.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BEY-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1300,
+                            "reviewCount": 1300
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Daniel White",
+                            "reviewBody": "Fantastic service! The driver met me at Column 13 as instructed, and the journey to Beyoğlu was smooth and comfortable. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Airport to Beyoğlu Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Daniel White"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Sabiha Gökçen Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you at Column 13, located at the end of the pedestrian crossing, holding a passenger name board for easy recognition."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you track flights, and will I be charged if my flight is delayed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we track your flight in real-time. If your flight is delayed, we adjust your pickup time accordingly, and you will not be charged extra for delays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Sabiha Gökçen Airport to Beyoğlu fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our taxi prices are fixed with no hidden charges, providing transparent and competitive rates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer free cancellations for Sabiha Gökçen Airport to Beyoğlu transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What payment methods do you accept for Sabiha Gökçen Airport transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We accept payments in Euro, GBP, US Dollar, and Turkish Lira via secure online payment."
+                                }
+                            }
+                        ]
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness":     {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
+                        "@id": "43",
+                       "url": `${env.websiteDomain}/tr/sabiha-gokcen-airport-to-beyoglu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                          "addressLocality": "Istanbul",
+                          "addressCountry": "TR",
+                          "postalCode": "34710"
+                        },
+                        "geo": {
+                          "@type": "GeoCoordinates",
+                          "latitude": 40.987843,
+                          "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                          "@type": "OpeningHoursSpecification",
+                          "dayOfWeek": [
+                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                          ],
+                          "opens": "00:00",
+                          "closes": "23:59"
+                        },
+                        "sameAs": [
+                          "https://www.facebook.com/APLTransfers",
+                          "https://twitter.com/APLTransfers",
+                          "https://www.instagram.com/APLTransfers"
+                        ]
+                      }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Sabiha Gökçen Havalimanı'ndan Beyoğlu'na Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "APL Transfers ile Sabiha Gökçen Havalimanı'ndan Beyoğlu'na premium taksi transferinizi rezerve edin. Sabit fiyat, Kolon 13'te ücretsiz karşılama ve 7/24 hizmet. Uçuş gecikmelerinde ekstra ücret yok.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BEY-001",
+                        "teklif": {
+                            "@type": "Teklif",
+                            "url": `${env.websiteDomain}/tr/sabiha-gokcen-havalimani-beyoglu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1300,
+                            "reviewCount": 1300
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Daniel White",
+                            "reviewBody": "Harika bir hizmet! Şoför beni belirtilen şekilde Kolon 13'te karşıladı ve Beyoğlu'na yolculuk çok rahat ve sorunsuz geçti. APL Transfers'i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Beyoğlu'na Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Daniel White"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz sizi, yaya geçidinin sonunda bulunan Kolon 13'te, adınızın yazılı olduğu bir tabela ile karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum gecikirse ekstra ücret öder miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu gerçek zamanlı olarak takip ediyoruz. Eğer uçuşunuz gecikirse, karşılama saatini buna göre ayarlıyoruz ve gecikmeler için ek ücret talep etmiyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Beyoğlu'na taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm taksi ücretlerimiz sabittir ve gizli ücret yoktur. Şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı'ndan Beyoğlu'na transfer için ücretsiz iptal hakkı var mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Sabiha Gökçen Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Euro, GBP, ABD Doları ve Türk Lirası ile güvenli online ödeme kabul ediyoruz."
+                                }
+                            }
+                        ]
+                    }
+
+
+                },
+                ar: {
+                    "LocalBusiness":     {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
+                        "@id": "43",
+                       "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                          "addressLocality": "Istanbul",
+                          "addressCountry": "TR",
+                          "postalCode": "34710"
+                        },
+                        "geo": {
+                          "@type": "GeoCoordinates",
+                          "latitude": 40.987843,
+                          "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                          "@type": "OpeningHoursSpecification",
+                          "dayOfWeek": [
+                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                          ],
+                          "opens": "00:00",
+                          "closes": "23:59"
+                        },
+                        "sameAs": [
+                          "https://www.facebook.com/APLTransfers",
+                          "https://twitter.com/APLTransfers",
+                          "https://www.instagram.com/APLTransfers"
+                        ]
+                      }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التاكسي من مطار صبيحة كوكجن إلى بيوغلو",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "احجز خدمة نقل تاكسي متميزة من مطار صبيحة كوكجن إلى بيوغلو مع APL Transfers. سعر ثابت، استقبال مجاني عند العمود 13، وخدمة متوفرة 24/7. لا رسوم إضافية في حالة تأخر الرحلات.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BEY-001",
+                        "عرض": {
+                            "@type": "عرض",
+                            "url": `${env.websiteDomain}/ar/sabiha-gokcen-airport-to-beyoglu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1300,
+                            "reviewCount": 1300
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "دانيال وايت",
+                            "reviewBody": "خدمة رائعة! التقى بي السائق عند العمود 13 كما هو محدد، وكانت الرحلة إلى بيوغلو مريحة وسلسة. أنصح بشدة بـ APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التاكسي من مطار صبيحة كوكجن إلى بيوغلو"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "دانيال وايت"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقيني السائق في مطار صبيحة كوكجن؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقيك السائق عند العمود 13، الموجود في نهاية معبر المشاة، حاملًا لوحة باسمك لسهولة التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تتابعون الرحلات الجوية، وهل سأدفع رسومًا إضافية إذا تأخرت رحلتي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نقوم بتتبع رحلتك الجوية في الوقت الفعلي. إذا تأخرت رحلتك، نقوم بتعديل وقت الاستقبال وفقًا لذلك، ولن يتم فرض أي رسوم إضافية بسبب التأخير."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار صبيحة كوكجن إلى بيوغلو ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعار التاكسي لدينا ثابتة بدون أي رسوم مخفية، مما يضمن شفافية الأسعار وتقديم أسعار تنافسية."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء حجز خدمة النقل من مطار صبيحة كوكجن إلى بيوغلو مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الوصول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي طرق الدفع التي تقبلونها لخدمات النقل من مطار صبيحة كوكجن؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نقبل الدفع بعملات اليورو، الجنيه الإسترليني، الدولار الأمريكي، والليرة التركية من خلال الدفع الإلكتروني الآمن."
+                                }
+                            }
+                        ]
+                    }
+
+
+                },
+                it: {
+                    "LocalBusiness":     {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
+                        "@id": "43",
+                       "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                          "addressLocality": "Istanbul",
+                          "addressCountry": "TR",
+                          "postalCode": "34710"
+                        },
+                        "geo": {
+                          "@type": "GeoCoordinates",
+                          "latitude": 40.987843,
+                          "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                          "@type": "OpeningHoursSpecification",
+                          "dayOfWeek": [
+                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                          ],
+                          "opens": "00:00",
+                          "closes": "23:59"
+                        },
+                        "sameAs": [
+                          "https://www.facebook.com/APLTransfers",
+                          "https://twitter.com/APLTransfers",
+                          "https://www.instagram.com/APLTransfers"
+                        ]
+                      }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Transfer in taxi dall Aeroporto Sabiha Gökçen a Beyoğlu",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "Prenota un transfer in taxi premium dall Aeroporto Sabiha Gökçen a Beyoğlu con APL Transfers. Prezzo fisso, accoglienza gratuita alla Colonna 13 e servizio 24/7. Nessun costo aggiuntivo per ritardi dei voli.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BEY-001",
+                        "offerta": {
+                            "@type": "Offerta",
+                            "url": `${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1300,
+                            "reviewCount": 1300
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Daniel White",
+                            "reviewBody": "Servizio fantastico! L'autista mi ha aspettato alla Colonna 13 come indicato e il viaggio verso Beyoğlu è stato fluido e confortevole. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Transfer in taxi dall Aeroporto Sabiha Gökçen a Beyoğlu"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Daniel White"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all'Aeroporto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà alla Colonna 13, situata alla fine dell'attraversamento pedonale, con un cartello con il tuo nome per un facile riconoscimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Monitorate i voli? Devo pagare un costo aggiuntivo se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, monitoriamo il tuo volo in tempo reale. Se il tuo volo è in ritardo, adegueremo l'orario di prelievo di conseguenza e non ti verrà addebitato alcun costo aggiuntivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Le tariffe dei taxi dall'Aeroporto Sabiha Gökçen a Beyoğlu sono fisse?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutte le nostre tariffe taxi sono fisse, senza costi nascosti, garantendo trasparenza e prezzi competitivi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare gratuitamente il trasferimento dall'Aeroporto Sabiha Gökçen a Beyoğlu?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall'Aeroporto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in euro, sterline britanniche, dollari americani e lire turche tramite pagamento sicuro online."
+                                }
+                            }
+                        ]
+                    }
+
+
+                },
+                ru: {
+                    "LocalBusiness":     {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
+                        "@id": "43",
+                       "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                          "addressLocality": "Istanbul",
+                          "addressCountry": "TR",
+                          "postalCode": "34710"
+                        },
+                        "geo": {
+                          "@type": "GeoCoordinates",
+                          "latitude": 40.987843,
+                          "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                          "@type": "OpeningHoursSpecification",
+                          "dayOfWeek": [
+                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                          ],
+                          "opens": "00:00",
+                          "closes": "23:59"
+                        },
+                        "sameAs": [
+                          "https://www.facebook.com/APLTransfers",
+                          "https://twitter.com/APLTransfers",
+                          "https://www.instagram.com/APLTransfers"
+                        ]
+                      }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер на такси из аэропорта Сабиха Гёкчен в Бейоглу",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "Забронируйте премиальный трансфер на такси из аэропорта Сабиха Гёкчен в Бейоглу с APL Transfers. Фиксированная цена, бесплатная встреча у Колонны 13, круглосуточное обслуживание. Без дополнительных сборов за задержку рейса.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BEY-001",
+                        "предложение": {
+                            "@type": "Предложение",
+                            "url": `${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1300,
+                            "reviewCount": 1300
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Даниэль Уайт",
+                            "reviewBody": "Отличный сервис! Водитель встретил меня у Колонны 13, как и было указано, и поездка в Бейоглу прошла гладко и комфортно. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер на такси из аэропорта Сабиха Гёкчен в Бейоглу"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Даниэль Уайт"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Сабиха Гёкчен?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель встретит вас у Колонны 13, расположенной в конце пешеходного перехода, с табличкой с вашим именем для удобного опознания."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы отслеживаете рейсы, и будет ли взиматься дополнительная плата в случае задержки?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы отслеживаем ваш рейс в реальном времени. Если ваш рейс задерживается, мы корректируем время встречи, и дополнительная плата за задержку не взимается."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксированы ли цены на такси из аэропорта Сабиха Гёкчен в Бейоглу?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши тарифы фиксированы, без скрытых платежей. Мы предлагаем прозрачные и конкурентоспособные цены."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Можно ли бесплатно отменить трансфер из аэропорта Сабиха Гёкчен в Бейоглу?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до прибытия."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какие способы оплаты вы принимаете для трансферов из аэропорта Сабиха Гёкчен?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Мы принимаем платежи в евро, фунтах стерлингов, долларах США и турецких лирах через безопасную онлайн-оплату."
+                                }
+                            }
+                        ]
+                    }
+
+
+                },
+                es: {
+                    "LocalBusiness":     {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
+                        "@id": "43",
+                       "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                          "addressLocality": "Istanbul",
+                          "addressCountry": "TR",
+                          "postalCode": "34710"
+                        },
+                        "geo": {
+                          "@type": "GeoCoordinates",
+                          "latitude": 40.987843,
+                          "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                          "@type": "OpeningHoursSpecification",
+                          "dayOfWeek": [
+                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                          ],
+                          "opens": "00:00",
+                          "closes": "23:59"
+                        },
+                        "sameAs": [
+                          "https://www.facebook.com/APLTransfers",
+                          "https://twitter.com/APLTransfers",
+                          "https://www.instagram.com/APLTransfers"
+                        ]
+                      }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en taxi desde el Aeropuerto Sabiha Gökçen a Beyoğlu",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "Reserva un traslado en taxi premium desde el Aeropuerto Sabiha Gökçen a Beyoğlu con APL Transfers. Precio fijo, recepción gratuita en la Columna 13 y servicio 24/7. Sin cargos adicionales por retrasos en los vuelos.",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BEY-001",
+                        "oferta": {
+                            "@type": "Oferta",
+                            "url": `${env.websiteDomain}/es/sabiha-gokcen-airport-to-beyoglu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1300,
+                            "reviewCount": 1300
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Daniel White",
+                            "reviewBody": "¡Servicio fantástico! El conductor me esperó en la Columna 13 como se indicó y el viaje a Beyoğlu fue fluido y cómodo. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en taxi desde el Aeropuerto Sabiha Gökçen a Beyoğlu"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Daniel White"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Su conductor lo esperará en la Columna 13, ubicada al final del paso de peatones, sosteniendo un cartel con su nombre para facilitar su reconocimiento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Rastrean los vuelos? ¿Me cobrarán si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, rastreamos su vuelo en tiempo real. Si su vuelo se retrasa, ajustamos la hora de recogida en consecuencia y no se le cobrará extra por el retraso."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Las tarifas de taxi desde el Aeropuerto Sabiha Gökçen a Beyoğlu son fijas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todas nuestras tarifas de taxi son fijas, sin cargos ocultos, ofreciendo precios transparentes y competitivos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar gratuitamente el traslado del Aeropuerto Sabiha Gökçen a Beyoğlu?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puede cancelar su reserva de forma gratuita hasta 24 horas antes de su llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto Sabiha Gökçen?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en euros, libras esterlinas, dólares estadounidenses y liras turcas mediante pago seguro en línea."
+                                }
+                            }
+                        ]
+                    }
+
+
+                }
+                ,
+                zh: {
+                    "LocalBusiness":     {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/beyoglu.webp`,
+                        "@id": "43",
+                       "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "Mühürdar Caddesi, No 14 D3, Kadıköy",
+                          "addressLocality": "Istanbul",
+                          "addressCountry": "TR",
+                          "postalCode": "34710"
+                        },
+                        "geo": {
+                          "@type": "GeoCoordinates",
+                          "latitude": 40.987843,
+                          "longitude": 29.022205
+                        },
+                        "openingHoursSpecification": {
+                          "@type": "OpeningHoursSpecification",
+                          "dayOfWeek": [
+                            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                          ],
+                          "opens": "00:00",
+                          "closes": "23:59"
+                        },
+                        "sameAs": [
+                          "https://www.facebook.com/APLTransfers",
+                          "https://twitter.com/APLTransfers",
+                          "https://www.instagram.com/APLTransfers"
+                        ]
+                      }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "从萨比哈·格克琴机场到贝伊奥卢的出租车接送",
+                        "image": `${env.websiteDomain}/images/popularDestinations/istanbul/sultanahmet.webp`,
+                        "description": "通过APL Transfers预订从萨比哈·格克琴机场到贝伊奥卢的高端出租车接送服务。固定价格，在13号柱免费迎接，提供24/7服务。航班延误无额外费用。",
+                        "brand": "APL Transfers",
+                        "sku": "SAW-BEY-001",
+                        "优惠": {
+                            "@type": "优惠",
+                            "url": `${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1300,
+                            "reviewCount": 1300
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "丹尼尔·怀特",
+                            "reviewBody": "非常棒的服务！司机按照指示在13号柱等候，前往贝伊奥卢的旅程非常顺畅和舒适。强烈推荐APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从萨比哈·格克琴机场到贝伊奥卢的出租车接送"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "丹尼尔·怀特"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在萨比哈·格克琴机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在13号柱等候，并举着写有您姓名的接客牌，以便您轻松识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们会跟踪航班吗？如果航班延误，我需要支付额外费用吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们会实时跟踪您的航班。如果航班延误，我们会相应调整您的接机时间，您无需支付额外费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从萨比哈·格克琴机场到贝伊奥卢的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们的出租车价格是固定的，没有隐藏费用，保证透明且具有竞争力的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消从萨比哈·格克琴机场到贝伊奥卢的接送服务吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，您可以在抵达前24小时内免费取消您的预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们接受哪些付款方式用于萨比哈·格克琴机场接送服务？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "我们接受欧元、英镑、美元和土耳其里拉的安全在线支付。"
+                                }
+                            }
+                        ]
+                    }
+
+                }
+            },
+            "/sabiha-gokcen-airport-to-besiktas": {
+                en: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                tr: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                ar: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                it: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                ru: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                es: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+                }
+            },
+            "/sabiha-gokcen-airport-to-uskudar": {
+                en: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                tr: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                ar: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                it: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                ru: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                es: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+                }
+            },
+            "/sabiha-gokcen-airport-to-eminonu": {
+                en: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                tr: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                ar: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                it: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                ru: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                es: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+                }
+            },
+            "/sabiha-gokcen-airport-to-bursa": {
+                en: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                tr: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                ar: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                it: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                ru: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                },
+                es: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {}
+                    ,
+                    "Product": {}
+                    ,
+                    "FAQPage": {}
+                }
+            },
+        },
+        AYT: {},
+        DLM: {},
+        BJY: {},
+        ADB: {},
+        GZP: {},
     }
     return popularDestinationSchema[hasTaxiDeals][pathname][language] || null;
 }
@@ -7416,35 +16128,891 @@ const popularDestinationsPageContents = {
 
             `,
         },
+        "/istanbul-airport-to-bursa": {
+            en: `
+             <h1>Istanbul Airport to Bursa Taxi Transfer</h1>
+  <p>
+    Travel conveniently from <strong>Istanbul Airport to Bursa</strong> with APL Transfers. Whether you're heading to
+    Bursa for business, leisure, or a visit to the famous <strong>Uludağ Ski Resort</strong>, our private taxi service ensures
+    a smooth, comfortable journey with <strong>fixed prices</strong> and <strong>no hidden costs</strong>.
+  </p>
 
+  <h2>Why Choose APL Transfers?</h2>
+  <ul>
+    <li><strong>Free Meet & Greet</strong> – Your driver will be waiting at arrivals with a name board.</li>
+    <li><strong>Flight Tracking & No Extra Charge for Delays</strong> – We monitor flights and adjust pickups at no extra cost.</li>
+    <li><strong>Fixed Prices – No Hidden Fees</strong> – Transparent and competitive pricing.</li>
+    <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Flexible booking options.</li>
+    <li><strong>24/7 Customer Support</strong> – Always available to assist you.</li>
+    <li>
+      <strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Choose from a variety of modern vehicles.
+    </li>
+    <li>
+      <strong>Transfers to All Bursa Hotels & Locations</strong> – We cover all areas, including 
+      <strong>Uludağ, Mudanya, and Termal Resorts</strong>.
+    </li>
+  </ul>
 
-        "/istanbul-airport-to-nisantasi": {
-            en: ``,
-            tr: ``,
+  <h2>Reliable & Hassle-Free Airport Transfer</h2>
+
+  <p>
+    Avoid the hassle of multiple transport connections and long public transport journeys. With
+    <strong>APL Transfers</strong>, you get a direct, private transfer from <strong>Istanbul Airport to Bursa</strong>,
+    ensuring a <strong>fast and comfortable</strong> journey.
+  </p>
+
+  <h2>Journey Details</h2>
+  <ul>
+    <li><strong>Distance:</strong> Approximately 155 km</li>
+    <li><strong>Duration:</strong> Around <strong>2-2.5 hours</strong> (depending on traffic and ferry schedule)</li>
+    <li><strong>Route Options:</strong> Via O-5 Highway or Istanbul-Bursa ferry</li>
+  </ul>
+
+  <h2>Book Your Taxi in Minutes</h2>
+  <p>
+    Secure your <strong>private taxi from Istanbul Airport to Bursa</strong> easily via our online booking system. 
+    Enjoy a <strong>comfortable, stress-free transfer</strong> with APL Transfers. <strong>Book now!</strong>
+  </p>
+            `,
+            tr: `
+            <h1>İstanbul Havalimanı Bursa Taksi Transferi</h1>
+  <p>
+    <strong>İstanbul Havalimanı'ndan Bursa'ya</strong> APL Transfers ile konforlu bir şekilde seyahat edin. 
+    İster iş, ister tatil, ister ünlü <strong>Uludağ Kayak Merkezi</strong>'ni ziyaret etmek için gidiyor olun, 
+    özel taksi hizmetimiz <strong>sabit fiyatlar</strong> ve <strong>gizli ücretler olmadan</strong> 
+    rahat ve konforlu bir yolculuk sunar.
+  </p>
+
+  <h2>Neden APL Transfers'i Seçmelisiniz?</h2>
+  <ul>
+    <li><strong>Ücretsiz Karşılama Hizmeti</strong> – Şoförünüz, geliş terminalinde isminizin yazılı olduğu bir tabela ile sizi bekleyecek.</li>
+    <li><strong>Uçuş Takibi & Rötar Ücreti Yok</strong> – Uçuşlarınızı takip ediyor ve gecikmelerde karşılama saatini ücretsiz olarak ayarlıyoruz.</li>
+    <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Şeffaf ve rekabetçi fiyatlandırma sunuyoruz.</li>
+    <li><strong>Varıştan 24 Saat Öncesine Kadar Ücretsiz İptal</strong> – Esnek rezervasyon seçenekleri.</li>
+    <li><strong>7/24 Müşteri Desteği</strong> – Her zaman size yardımcı olmaya hazırız.</li>
+    <li>
+      <strong>Lüks, Temiz ve Bakımlı Araçlar</strong> – Modern araç seçeneklerinden dilediğinizi seçebilirsiniz.
+    </li>
+    <li>
+      <strong>Bursa'daki Tüm Otel ve Lokasyonlara Transfer</strong> – 
+      <strong>Uludağ, Mudanya ve Termal Tatil Köyleri</strong> dahil tüm bölgelere hizmet veriyoruz.
+    </li>
+  </ul>
+
+  <h2>Güvenilir & Sorunsuz Havalimanı Transferi</h2>
+
+  <p>
+    Birden fazla ulaşım bağlantısının yarattığı karmaşadan ve uzun toplu taşıma yolculuklarından kaçının. 
+    <strong>APL Transfers</strong> ile <strong>İstanbul Havalimanı'ndan Bursa'ya</strong> 
+    doğrudan, özel transfer hizmeti alarak <strong>hızlı ve konforlu</strong> bir yolculuğun keyfini çıkarın.
+  </p>
+
+  <h2>Yolculuk Detayları</h2>
+  <ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 155 km</li>
+    <li><strong>Süre:</strong> Yaklaşık <strong>2-2.5 saat</strong> (trafik ve feribot saatine bağlı olarak)</li>
+    <li><strong>Güzergah Seçenekleri:</strong> O-5 Otoyolu veya İstanbul-Bursa Feribotu</li>
+  </ul>
+
+  <h2>Dakikalar İçinde Taksi Rezervasyonu Yapın</h2>
+  <p>
+    <strong>İstanbul Havalimanı'ndan Bursa'ya özel taksinizi</strong> online rezervasyon sistemimiz ile kolayca ayırtın.
+    <strong>Konforlu ve stressiz bir transfer</strong> deneyimi yaşayın. <strong>Hemen rezervasyon yapın!</strong>
+  </p>
+            `,
             ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            es: `
+            <h1>Traslado en Taxi del Aeropuerto de Estambul a Bursa</h1>
+<p>
+  Viaja cómodamente desde <strong>el Aeropuerto de Estambul a Bursa</strong> con APL Transfers. 
+  Ya sea que viajes por negocios, placer o para visitar el famoso <strong>Centro de Esquí de Uludağ</strong>, 
+  nuestro servicio de taxi privado garantiza un viaje <strong>suave y cómodo</strong> con 
+  <strong>precios fijos</strong> y <strong>sin costos ocultos</strong>.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+  <li><strong>Encuentro y bienvenida gratuita</strong> – Tu conductor te esperará en la terminal de llegadas con un cartel con tu nombre.</li>
+  <li><strong>Seguimiento de vuelos y sin cargos por retrasos</strong> – Monitoreamos los vuelos y ajustamos la recogida sin costo adicional.</li>
+  <li><strong>Precios fijos – Sin tarifas ocultas</strong> – Tarifas transparentes y competitivas.</li>
+  <li><strong>Cancelación gratuita hasta 24 horas antes de la llegada</strong> – Opciones de reserva flexibles.</li>
+  <li><strong>Atención al cliente 24/7</strong> – Siempre disponibles para ayudarte.</li>
+  <li>
+    <strong>Vehículos lujosos, limpios y bien mantenidos</strong> – Elige entre una variedad de vehículos modernos.
+  </li>
+  <li>
+    <strong>Traslados a todos los hoteles y ubicaciones en Bursa</strong> – 
+    Cubrimos todas las áreas, incluyendo <strong>Uludağ, Mudanya y los resorts termales</strong>.
+  </li>
+</ul>
+
+<h2>Traslado confiable y sin complicaciones</h2>
+
+<p>
+  Evita la molestia de múltiples conexiones de transporte y los largos viajes en transporte público. 
+  Con <strong>APL Transfers</strong>, obtienes un traslado privado y directo desde 
+  <strong>el Aeropuerto de Estambul a Bursa</strong>, asegurando un viaje <strong>rápido y cómodo</strong>.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+  <li><strong>Distancia:</strong> Aproximadamente 155 km</li>
+  <li><strong>Duración:</strong> Alrededor de <strong>2-2.5 horas</strong> (dependiendo del tráfico y el horario del ferry)</li>
+  <li><strong>Opciones de ruta:</strong> A través de la autopista O-5 o el ferry Estambul-Bursa</li>
+</ul>
+
+<h2>Reserva tu taxi en minutos</h2>
+<p>
+  Reserva fácilmente tu <strong>taxi privado del Aeropuerto de Estambul a Bursa</strong> a través de nuestro sistema de reservas en línea. 
+  Disfruta de un <strong>traslado cómodo y sin estrés</strong> con APL Transfers. <strong>¡Reserva ahora!</strong>
+</p>
+
+            `,
+            it: `
+            <h1>خدمة التاكسي من مطار إسطنبول إلى بورصة</h1>
+<p>
+  سافر بسهولة من <strong>مطار إسطنبول إلى بورصة</strong> مع APL Transfers.  
+  سواء كنت مسافرًا للعمل أو السياحة أو لزيارة <strong>منتجع أولوداغ للتزلج</strong> الشهير،  
+  فإن خدمة التاكسي الخاصة بنا تضمن لك رحلة <strong>مريحة وسلسة</strong> مع  
+  <strong>أسعار ثابتة</strong> و<strong>بدون تكاليف مخفية</strong>.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+  <li><strong>استقبال مجاني عند الوصول</strong> – سيكون السائق في انتظارك عند صالة الوصول مع لافتة تحمل اسمك.</li>
+  <li><strong>تتبع الرحلات الجوية وعدم فرض رسوم على التأخير</strong> – نقوم بتتبع رحلتك الجوية وتعديل وقت الاستقبال دون أي تكلفة إضافية.</li>
+  <li><strong>أسعار ثابتة – بدون رسوم مخفية</strong> – نوفر أسعارًا شفافة وتنافسية.</li>
+  <li><strong>إلغاء مجاني حتى 24 ساعة قبل الوصول</strong> – خيارات حجز مرنة.</li>
+  <li><strong>دعم العملاء على مدار 24/7</strong> – متاح دائمًا لمساعدتك.</li>
+  <li>
+    <strong>سيارات فاخرة ونظيفة ومُعتنى بها جيدًا</strong> – اختر من بين مجموعة من السيارات الحديثة.
+  </li>
+  <li>
+    <strong>نقل إلى جميع فنادق ومواقع بورصة</strong> –  
+    نقدم خدمات النقل إلى جميع المناطق، بما في ذلك <strong>أولوداغ، مودانيا، والمنتجعات الحرارية</strong>.
+  </li>
+</ul>
+
+<h2>نقل موثوق وخالي من المتاعب</h2>
+
+<p>
+  تجنب عناء التنقلات المتعددة والرحلات الطويلة بوسائل النقل العام.  
+  مع <strong>APL Transfers</strong>، ستحصل على نقل خاص مباشر من  
+  <strong>مطار إسطنبول إلى بورصة</strong>، مما يضمن لك رحلة <strong>سريعة ومريحة</strong>.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+  <li><strong>المسافة:</strong> حوالي 155 كم</li>
+  <li><strong>المدة:</strong> حوالي <strong>2-2.5 ساعة</strong> (تعتمد على حركة المرور وجدول العبارات)</li>
+  <li><strong>خيارات الطريق:</strong> عبر طريق O-5 السريع أو العبّارة بين إسطنبول وبورصة</li>
+</ul>
+
+<h2>احجز التاكسي الخاص بك في دقائق</h2>
+<p>
+  احجز <strong>تاكسي خاص من مطار إسطنبول إلى بورصة</strong> بسهولة من خلال نظام الحجز عبر الإنترنت.  
+  استمتع بتجربة <strong>نقل مريحة وخالية من التوتر</strong> مع APL Transfers. <strong>احجز الآن!</strong>
+</p>
+
+            `,
+            ru: `
+            <h1>Такси трансфер из аэропорта Стамбула в Бурсу</h1>
+<p>
+  Путешествуйте с комфортом из <strong>аэропорта Стамбула в Бурсу</strong> с APL Transfers.  
+  Будь то деловая поездка, отдых или посещение знаменитого <strong>горнолыжного курорта Улудаг</strong>,  
+  наша услуга частного такси гарантирует <strong>плавное и комфортное</strong> путешествие с  
+  <strong>фиксированными ценами</strong> и <strong>без скрытых платежей</strong>.
+</p>
+
+<h2>Почему стоит выбрать APL Transfers?</h2>
+<ul>
+  <li><strong>Бесплатная встреча</strong> – Ваш водитель будет ждать вас в зале прилета с табличкой с вашим именем.</li>
+  <li><strong>Отслеживание рейсов и отсутствие доплат за задержки</strong> – Мы отслеживаем ваш рейс и корректируем время встречи без дополнительной платы.</li>
+  <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Прозрачные и конкурентоспособные тарифы.</li>
+  <li><strong>Бесплатная отмена за 24 часа до прибытия</strong> – Гибкие условия бронирования.</li>
+  <li><strong>Круглосуточная поддержка клиентов</strong> – Мы всегда готовы вам помочь.</li>
+  <li>
+    <strong>Роскошные, чистые и ухоженные автомобили</strong> – Выбирайте из множества современных автомобилей.
+  </li>
+  <li>
+    <strong>Трансферы во все отели и районы Бурсы</strong> –  
+    Мы обслуживаем все районы, включая <strong>Улудаг, Муданья и термальные курорты</strong>.
+  </li>
+</ul>
+
+<h2>Надежный и удобный трансфер из аэропорта</h2>
+
+<p>
+  Избегайте сложных пересадок и долгих поездок на общественном транспорте.  
+  С <strong>APL Transfers</strong> вы получите прямой частный трансфер из  
+  <strong>аэропорта Стамбула в Бурсу</strong>, обеспечивая <strong>быстрое и комфортное</strong> путешествие.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+  <li><strong>Расстояние:</strong> Около 155 км</li>
+  <li><strong>Продолжительность:</strong> Примерно <strong>2-2.5 часа</strong> (в зависимости от трафика и расписания паромов)</li>
+  <li><strong>Маршруты:</strong> Через автомагистраль O-5 или паром Стамбул-Бурса</li>
+</ul>
+
+<h2>Забронируйте такси за несколько минут</h2>
+<p>
+  Забронируйте <strong>частное такси из аэропорта Стамбула в Бурсу</strong> легко через нашу систему онлайн-бронирования.  
+  Наслаждайтесь <strong>комфортным и беззаботным трансфером</strong> с APL Transfers. <strong>Бронируйте сейчас!</strong>
+</p>
+
+            `,
+            zh: `
+            <h1>伊斯坦布尔机场至布尔萨的出租车接送</h1>
+<p>
+  通过 APL Transfers 从 <strong>伊斯坦布尔机场到布尔萨</strong> 享受舒适便捷的出行方式。  
+  无论您是商务出行、休闲旅行，还是前往著名的 <strong>乌鲁达滑雪度假村</strong>，  
+  我们的私人出租车服务都能确保 <strong>顺畅舒适</strong> 的旅程，  
+  并提供 <strong>固定价格</strong> 和 <strong>无隐藏费用</strong>。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+  <li><strong>免费接机服务</strong> – 司机将在到达大厅等待，并举着写有您姓名的牌子。</li>
+  <li><strong>航班追踪 & 无额外延误费用</strong> – 我们实时监控航班，并根据情况调整接机时间，无需额外收费。</li>
+  <li><strong>固定价格 – 无隐藏费用</strong> – 透明合理的定价，竞争力强。</li>
+  <li><strong>支持抵达前 24 小时免费取消</strong> – 预订灵活，无忧退改。</li>
+  <li><strong>全天候 24/7 客户支持</strong> – 我们随时为您提供帮助。</li>
+  <li>
+    <strong>豪华、干净且维护良好的车辆</strong> – 可选择多种现代化车型。
+  </li>
+  <li>
+    <strong>布尔萨所有酒店及地区接送</strong> –  
+    我们提供全区域覆盖，包括 <strong>乌鲁达、穆达尼亚和温泉度假村</strong>。
+  </li>
+</ul>
+
+<h2>可靠 & 无忧的机场接送</h2>
+
+<p>
+  避免多次换乘和繁琐的公共交通出行。  
+  通过 <strong>APL Transfers</strong>，您可以享受从 <strong>伊斯坦布尔机场到布尔萨</strong>  
+  的私人直达接送，确保 <strong>快速舒适</strong> 的旅程。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+  <li><strong>距离：</strong> 约 155 公里</li>
+  <li><strong>时长：</strong> 约 <strong>2-2.5 小时</strong>（取决于交通状况和轮渡时间）</li>
+  <li><strong>路线选项：</strong> 通过 O-5 高速公路或伊斯坦布尔-布尔萨轮渡</li>
+</ul>
+
+<h2>几分钟内预订您的出租车</h2>
+<p>
+  通过我们的在线预订系统，轻松预订 <strong>伊斯坦布尔机场至布尔萨的私人出租车</strong>。  
+  享受 <strong>舒适无忧的接送体验</strong>，选择 APL Transfers。<strong>立即预订！</strong>
+</p>
+
+            `,
         },
         "/istanbul-airport-to-eminonu": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Istanbul Airport to Eminönü Taxi Transfer</h1>
+<p>
+  Book a <strong>private taxi from Istanbul Airport to Eminönü</strong> and enjoy a smooth, stress-free transfer with 
+  <strong>APL Transfers</strong>. Whether you're visiting for business or sightseeing, our 
+  <strong>fixed-price service</strong> ensures a comfortable and reliable ride to one of Istanbul’s most historic districts.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+  <li><strong>Free Meet & Greet</strong> – Your driver will be waiting at arrivals with a name board.</li>
+  <li><strong>Flight Tracking & No Extra Charge for Delays</strong> – We monitor your flight and adjust your pickup 
+      time at no extra cost.</li>
+  <li><strong>Fixed Prices – No Hidden Fees</strong> – Transparent and competitive pricing.</li>
+  <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Flexible booking options.</li>
+</ul>
+
+<ul>
+  <li><strong>24/7 Customer Support</strong> – Always available to assist you.</li>
+  <li><strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Travel in comfort and style.</li>
+  <li><strong>Transfers to All Eminönü Hotels & Locations</strong> – We cover all hotels, ferry terminals, and landmarks.</li>
+</ul>
+
+<h2>Reliable & Hassle-Free Airport Transfer</h2>
+<p>
+  Skip the long taxi queues and crowded public transport. With <strong>APL Transfers</strong>, you’ll have a dedicated 
+  private driver waiting to take you directly from <strong>Istanbul Airport (IST) to Eminönü</strong>, ensuring a 
+  <strong>fast and seamless</strong> journey.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+  <li><strong>Distance:</strong> Approximately 45 km</li>
+  <li><strong>Duration:</strong> Around <strong>40-55 minutes</strong> (depending on traffic)</li>
+  <li><strong>Route Options:</strong> Via <strong>O-7 Highway</strong> or <strong>D020</strong> through Istanbul’s scenic roads</li>
+</ul>
+
+<h2>Book Your Taxi in Minutes</h2>
+<p>
+  Secure your <strong>private taxi from Istanbul Airport to Eminönü</strong> today with <strong>APL Transfers</strong>. 
+  Enjoy a <strong>comfortable, affordable, and stress-free ride</strong>. <strong>Book now!</strong>
+</p>
+
+            `,
+            tr: `
+            <h1>İstanbul Havalimanı Eminönü Taksi Transferi</h1>
+<p>
+  <strong>İstanbul Havalimanı'ndan Eminönü'ne özel taksi</strong> rezervasyonu yapın ve 
+  <strong>APL Transfers</strong> ile sorunsuz ve stressiz bir transfer deneyimi yaşayın. 
+  İster iş seyahati ister turistik bir ziyaret için gelin, 
+  <strong>sabit fiyatlı hizmetimiz</strong> İstanbul'un en tarihi bölgelerinden birine konforlu ve güvenilir bir ulaşım sağlar.
+</p>
+
+<h2>Neden APL Transfers'i Seçmelisiniz?</h2>
+<ul>
+  <li><strong>Ücretsiz Karşılama Hizmeti</strong> – Şoförünüz, geliş terminalinde isminizin yazılı olduğu bir tabela ile sizi bekliyor olacak.</li>
+  <li><strong>Uçuş Takibi & Rötar Ücreti Yok</strong> – Uçuşlarınızı takip ediyor ve gecikmelerde ücretsiz olarak karşılama saatini ayarlıyoruz.</li>
+  <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Şeffaf ve rekabetçi fiyatlandırma.</li>
+  <li><strong>Varıştan 24 Saat Öncesine Kadar Ücretsiz İptal</strong> – Esnek rezervasyon seçenekleri.</li>
+</ul>
+
+<ul>
+  <li><strong>7/24 Müşteri Desteği</strong> – Her zaman size yardımcı olmaya hazırız.</li>
+  <li><strong>Lüks, Temiz ve Bakımlı Araçlar</strong> – Konfor ve şıklık içinde seyahat edin.</li>
+  <li><strong>Eminönü'ndeki Tüm Otellere ve Lokasyonlara Transfer</strong> – Tüm oteller, feribot terminalleri ve turistik noktaları kapsıyoruz.</li>
+</ul>
+
+<h2>Güvenilir & Sorunsuz Havalimanı Transferi</h2>
+<p>
+  Uzun taksi kuyruklarından ve kalabalık toplu taşıma araçlarından kaçının. 
+  <strong>APL Transfers</strong> ile özel şoförünüz sizi <strong>İstanbul Havalimanı (IST) - Eminönü</strong> 
+  arasında hızlı ve <strong>sorunsuz</strong> bir yolculuğa çıkaracaktır.
+</p>
+
+<h2>Yol
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار إسطنبول إلى إمينونو</h1>
+<p>
+  احجز <strong>تاكسي خاص من مطار إسطنبول إلى إمينونو</strong> واستمتع برحلة سلسة وخالية من التوتر مع 
+  <strong>APL Transfers</strong>. سواء كنت تزور المدينة للعمل أو للسياحة، فإن 
+  <strong>خدمتنا ذات الأسعار الثابتة</strong> تضمن لك رحلة مريحة وموثوقة إلى واحدة من أقدم المناطق التاريخية في إسطنبول.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+  <li><strong>استقبال مجاني عند الوصول</strong> – سيكون السائق في انتظارك عند صالة الوصول مع لافتة تحمل اسمك.</li>
+  <li><strong>تتبع الرحلات الجوية وعدم فرض رسوم على التأخير</strong> – نقوم بتتبع رحلتك الجوية وتعديل وقت الاستقبال دون أي تكلفة إضافية.</li>
+  <li><strong>أسعار ثابتة – بدون رسوم مخفية</strong> – نقدم أسعارًا شفافة ومنافسة.</li>
+  <li><strong>إلغاء مجاني حتى 24 ساعة قبل الوصول</strong> – خيارات حجز مرنة.</li>
+</ul>
+
+<ul>
+  <li><strong>دعم العملاء على مدار 24/7</strong> – نحن دائمًا مستعدون لمساعدتك.</li>
+  <li><strong>سيارات فاخرة، نظيفة ومُعتنى بها جيدًا</strong> – استمتع برحلة مريحة وأنيقة.</li>
+  <li><strong>نقل إلى جميع فنادق وأماكن إمينونو</strong> – نوفر خدمة النقل إلى جميع الفنادق والموانئ والمعالم السياحية.</li>
+</ul>
+
+<h2>نقل موثوق وخالي من المتاعب</h2>
+<p>
+  تجنب الانتظار الطويل في طوابير سيارات الأجرة واستخدام وسائل النقل العام المزدحمة. 
+  مع <strong>APL Transfers</strong>، سيكون لديك سائق خاص يأخذك مباشرة من <strong>مطار إسطنبول (IST) إلى إمينونو</strong> 
+  لضمان رحلة <strong>سريعة وسلسة</strong>.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+  <li><strong>المسافة:</strong> حوالي 45 كم</li>
+  <li><strong>المدة:</strong> حوالي <strong>40-55 دقيقة</strong> (حسب حالة المرور)</li>
+  <li><strong>خيارات الطريق:</strong> عبر <strong>طريق O-7 السريع</strong> أو <strong>D020</strong> عبر الطرق الجميلة في إسطنبول</li>
+</ul>
+
+<h2>احجز تاكسيك في دقائق</h2>
+<p>
+  احجز <strong>تاكسي خاص من مطار إسطنبول إلى إمينونو</strong> اليوم مع <strong>APL Transfers</strong>.  
+  استمتع برحلة <strong>مريحة، وبأسعار مناسبة، وبدون توتر</strong>. <strong>احجز الآن!</strong>
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en Taxi del Aeropuerto de Estambul a Eminönü</h1>
+<p>
+  Reserva un <strong>taxi privado desde el Aeropuerto de Estambul a Eminönü</strong> y disfruta de un traslado cómodo y sin estrés con 
+  <strong>APL Transfers</strong>. Ya sea que viajes por negocios o turismo, nuestro 
+  <strong>servicio de tarifa fija</strong> garantiza un viaje confiable y confortable a uno de los distritos más históricos de Estambul.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+  <li><strong>Recepción gratuita</strong> – Tu conductor te esperará en la terminal de llegadas con un cartel con tu nombre.</li>
+  <li><strong>Seguimiento de vuelos y sin cargos por retrasos</strong> – Supervisamos tu vuelo y ajustamos la recogida sin costo adicional.</li>
+  <li><strong>Tarifas fijas – Sin costos ocultos</strong> – Precios transparentes y competitivos.</li>
+  <li><strong>Cancelación gratuita hasta 24 horas antes de la llegada</strong> – Opciones de reserva flexibles.</li>
+</ul>
+
+<ul>
+  <li><strong>Atención al cliente 24/7</strong> – Siempre disponibles para ayudarte.</li>
+  <li><strong>Vehículos lujosos, limpios y bien mantenidos</strong> – Viaja con comodidad y estilo.</li>
+  <li><strong>Traslados a todos los hoteles y lugares en Eminönü</strong> – Cubrimos todos los hoteles, terminales de ferry y puntos turísticos.</li>
+</ul>
+
+<h2>Traslado confiable y sin complicaciones</h2>
+<p>
+  Evita las largas filas de taxis y el transporte público abarrotado.  
+  Con <strong>APL Transfers</strong>, tendrás un conductor privado esperándote para llevarte directamente desde 
+  <strong>el Aeropuerto de Estambul (IST) a Eminönü</strong>, garantizando un viaje <strong>rápido y sin interrupciones</strong>.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+  <li><strong>Distancia:</strong> Aproximadamente 45 km</li>
+  <li><strong>Duración:</strong> Alrededor de <strong>40-55 minutos</strong> (dependiendo del tráfico)</li>
+  <li><strong>Opciones de ruta:</strong> A través de la <strong>autopista O-7</strong> o <strong>D020</strong> por las carreteras panorámicas de Estambul</li>
+</ul>
+
+<h2>Reserva tu taxi en minutos</h2>
+<p>
+  Reserva hoy tu <strong>taxi privado desde el Aeropuerto de Estambul a Eminönü</strong> con <strong>APL Transfers</strong>.  
+  Disfruta de un <strong>viaje cómodo, asequible y sin estrés</strong>. <strong>¡Reserva ahora!</strong>
+</p>
+
+            `,
+            it: `
+            <h1>Trasferimento in Taxi dall Aeroporto di Istanbul a Eminönü</h1>
+<p>
+  Prenota un <strong>taxi privato dall Aeroporto di Istanbul a Eminönü</strong> e goditi un trasferimento fluido e senza stress con 
+  <strong>APL Transfers</strong>. Che tu sia in viaggio per affari o per turismo, il nostro 
+  <strong>servizio a tariffa fissa</strong> garantisce un viaggio confortevole e affidabile verso uno dei quartieri più storici di Istanbul.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+  <li><strong>Accoglienza gratuita</strong> – Il tuo autista ti aspetterà nella hall degli arrivi con un cartello con il tuo nome.</li>
+  <li><strong>Monitoraggio del volo e nessun costo per ritardi</strong> – Monitoriamo il tuo volo e regoliamo l'orario di ritiro senza costi aggiuntivi.</li>
+  <li><strong>Tariffe fisse – Nessun costo nascosto</strong> – Prezzi trasparenti e competitivi.</li>
+  <li><strong>Cancellazione gratuita fino a 24 ore prima dell'arrivo</strong> – Opzioni di prenotazione flessibili.</li>
+</ul>
+
+<ul>
+  <li><strong>Assistenza clienti 24/7</strong> – Sempre disponibili per aiutarti.</li>
+  <li><strong>Veicoli di lusso, puliti e ben mantenuti</strong> – Viaggia in comfort e stile.</li>
+  <li><strong>Trasferimenti per tutti gli hotel e le località di Eminönü</strong> – Copriamo tutti gli hotel, terminal dei traghetti e punti di riferimento.</li>
+</ul>
+
+<h2>Trasferimento affidabile e senza problemi</h2>
+<p>
+  Evita le lunghe code per i taxi e i mezzi pubblici affollati.  
+  Con <strong>APL Transfers</strong>, avrai un autista privato dedicato che ti porterà direttamente da 
+  <strong>l Aeroporto di Istanbul (IST) a Eminönü</strong>, garantendo un viaggio <strong>veloce e senza interruzioni</strong>.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+  <li><strong>Distanza:</strong> Circa 45 km</li>
+  <li><strong>Durata:</strong> Circa <strong>40-55 minuti</strong> (a seconda del traffico)</li>
+  <li><strong>Opzioni di percorso:</strong> Attraverso l <strong>autostrada O-7</strong> o <strong>D020</strong> lungo le strade panoramiche di Istanbul</li>
+</ul>
+
+<h2>Prenota il tuo taxi in pochi minuti</h2>
+<p>
+  Prenota oggi il tuo <strong>taxi privato dall Aeroporto di Istanbul a Eminönü</strong> con <strong>APL Transfers</strong>.  
+  Goditi un <strong>viaggio comodo, conveniente e senza stress</strong>. <strong>Prenota ora!</strong>
+</p>
+
+            `,
+            ru: `
+            <h1>Трансфер на такси из аэропорта Стамбула в Эминёню</h1>
+<p>
+  Забронируйте <strong>частное такси из аэропорта Стамбула в Эминёню</strong> и наслаждайтесь комфортной и беззаботной поездкой с 
+  <strong>APL Transfers</strong>. Будь то деловая поездка или туризм, наш 
+  <strong>фиксированный тариф</strong> гарантирует удобное и надежное путешествие в один из самых исторических районов Стамбула.
+</p>
+
+<h2>Почему стоит выбрать APL Transfers?</h2>
+<ul>
+  <li><strong>Бесплатная встреча</strong> – Ваш водитель будет ждать вас в зале прилета с табличкой с вашим именем.</li>
+  <li><strong>Отслеживание рейса и отсутствие доплат за задержки</strong> – Мы следим за вашим рейсом и корректируем время встречи без дополнительной платы.</li>
+  <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Прозрачные и конкурентоспособные тарифы.</li>
+  <li><strong>Бесплатная отмена за 24 часа до прибытия</strong> – Гибкие условия бронирования.</li>
+</ul>
+
+<ul>
+  <li><strong>Круглосуточная поддержка клиентов</strong> – Мы всегда готовы помочь вам.</li>
+  <li><strong>Роскошные, чистые и ухоженные автомобили</strong> – Путешествуйте с комфортом и стилем.</li>
+  <li><strong>Трансфер во все отели и районы Эминёню</strong> – Мы обслуживаем все отели, паромные терминалы и достопримечательности.</li>
+</ul>
+
+<h2>Надежный и удобный трансфер</h2>
+<p>
+  Избегайте длинных очередей на такси и переполненного общественного транспорта.  
+  С <strong>APL Transfers</strong> у вас будет личный водитель, который доставит вас прямо из 
+  <strong>аэропорта Стамбула (IST) в Эминёню</strong>, обеспечивая <strong>быстрое и бесперебойное</strong> путешествие.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+  <li><strong>Расстояние:</strong> Около 45 км</li>
+  <li><strong>Продолжительность:</strong> Примерно <strong>40-55 минут</strong> (в зависимости от трафика)</li>
+  <li><strong>Варианты маршрута:</strong> Через <strong>автомагистраль O-7</strong> или <strong>D020</strong> по живописным дорогам Стамбула</li>
+</ul>
+
+<h2>Забронируйте такси за несколько минут</h2>
+<p>
+  Забронируйте <strong>частное такси из аэропорта Стамбула в Эминёню</strong
+
+            `,
+            zh: `
+            <h1>伊斯坦布尔机场至埃米诺努的出租车接送</h1>
+<p>
+  预订 <strong>从伊斯坦布尔机场到埃米诺努的私人出租车</strong>，享受 <strong>APL Transfers</strong> 提供的顺畅、无忧接送服务。  
+  无论您是商务旅行还是观光旅游，我们的 <strong>固定价格服务</strong> 可确保您享受舒适、可靠的旅程，  
+  直达伊斯坦布尔最具历史魅力的地区之一。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+  <li><strong>免费接机服务</strong> – 司机将在到达大厅等待，并举着写有您姓名的牌子。</li>
+  <li><strong>航班追踪 & 无额外延误费用</strong> – 我们实时监控航班，并根据情况调整接机时间，无需额外收费。</li>
+  <li><strong>固定价格 – 无隐藏费用</strong> – 透明合理的定价，竞争力强。</li>
+  <li><strong>支持抵达前 24 小时免费取消</strong> – 预订灵活，无忧退改。</li>
+</ul>
+
+<ul>
+  <li><strong>全天候 24/7 客户支持</strong> – 我们随时为您提供帮助。</li>
+  <li><strong>豪华、干净且维护良好的车辆</strong> – 可选择多种现代化车型，确保您的舒适和安全。</li>
+  <li><strong>覆盖埃米诺努所有酒店及地点</strong> – 我们提供前往所有酒店、轮渡码头及地标的接送服务。</li>
+</ul>
+
+<h2>可靠 & 无忧的机场接送</h2>
+<p>
+  避免长时间排队等待出租车或使用拥挤的公共交通工具。  
+  通过 <strong>APL Transfers</strong>，您可以享受从 <strong>伊斯坦布尔机场 (IST) 到埃米诺努</strong>  
+  的专属司机接送，确保 <strong>快速、顺畅</strong> 的旅程。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+  <li><strong>距离：</strong> 约 45 公里</li>
+  <li><strong>时长：</strong> 约 <strong>40-55 分钟</strong>（具体时长取决于交通状况）</li>
+  <li><strong>路线选项：</strong> 通过 <strong>O-7 高速公路</strong> 或 <strong>D020</strong> 穿越伊斯坦布尔风景优美的道路</li>
+</ul>
+
+<h2>几分钟内预订您的出租车</h2>
+<p>
+  通过 <strong>APL Transfers</strong> 预订 <strong>从伊斯坦布尔机场到埃米诺努的私人出租车</strong>。  
+  享受 <strong>舒适、实惠、无压力的接送体验</strong>。<strong>立即预订！</strong>
+</p>
+
+            `,
         },
         "/istanbul-airport-to-uskudar-asian-side": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Istanbul Airport to Üsküdar Taxi Transfer</h1>
+<p>
+  Enjoy a hassle-free <strong>Istanbul Airport to Üsküdar taxi transfer</strong> with APL Transfers.  
+  Whether you're heading to <strong>Maiden’s Tower, Çamlıca Hill, or the historic mosques of Üsküdar</strong>,  
+  our <strong>private transfer service</strong> ensures a smooth, comfortable ride.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+  <li><strong>Free Meet & Greet</strong> – Your driver will be waiting at the arrivals hall with a name board.</li>
+  <li><strong>Flight Tracking & No Extra Charge for Delays</strong> – We adjust pickup times based on flight delays at no extra cost.</li>
+  <li><strong>Fixed Prices – No Hidden Fees</strong> – Transparent pricing for peace of mind.</li>
+  <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Book with confidence.</li>
+</ul>
+
+<ul>
+  <li><strong>24/7 Customer Support</strong> – We are always available to assist you.</li>
+  <li><strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Travel in comfort and style.</li>
+  <li><strong>Transfers to All Üsküdar Hotels & Locations</strong> –  
+      We cover <strong>Maiden’s Tower, Çamlıca Hill, and all major landmarks</strong>.</li>
+</ul>
+
+<h2>Reliable & Hassle-Free Airport Transfer</h2>
+<p>
+  Avoid the stress of taxis and public transport. Our <strong>private transfer from Istanbul Airport to Üsküdar</strong>  
+  guarantees a <strong>safe and direct journey</strong> with a <strong>professional driver and premium vehicle</strong>.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+  <li><strong>Distance:</strong> Approximately 50 km</li>
+  <li><strong>Duration:</strong> Around <strong>50-65 minutes</strong> (depending on traffic)</li>
+  <li><strong>Route Options:</strong> Via <strong>O-7 Highway</strong> or <strong>15 July Martyrs Bridge</strong></li>
+</ul>
+
+<h2>Book Your Taxi in Minutes</h2>
+<p>
+  Secure your <strong>Istanbul Airport to Üsküdar taxi</strong> with <strong>APL Transfers</strong> today.  
+  Enjoy a <strong>comfortable, stress-free ride</strong> with a <strong>fixed price and premium service</strong>. <strong>Book now!</strong>
+</p>
+
+            `,
+            tr: `
+            <h1>İstanbul Havalimanı Üsküdar Taksi Transferi</h1>
+<p>
+  <strong>İstanbul Havalimanı'ndan Üsküdar'a taksi transferi</strong> ile konforlu ve sorunsuz bir yolculuk yapın.  
+  İster <strong>Kız Kulesi, Çamlıca Tepesi</strong> veya <strong>Üsküdar’ın tarihi camileri</strong> gibi noktalara gidiyor olun,  
+  <strong>özel transfer hizmetimiz</strong> size rahat ve konforlu bir ulaşım sağlar.
+</p>
+
+<h2>Neden APL Transfers'i Seçmelisiniz?</h2>
+<ul>
+  <li><strong>Ücretsiz Karşılama Hizmeti</strong> – Şoförünüz, geliş terminalinde isminizin yazılı olduğu bir tabela ile sizi bekliyor olacak.</li>
+  <li><strong>Uçuş Takibi & Rötar Ücreti Yok</strong> – Uçuşlarınızı takip ediyor ve gecikmelerde ücretsiz olarak karşılama saatini ayarlıyoruz.</li>
+  <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Şeffaf fiyatlandırma ile huzurlu bir yolculuk.</li>
+  <li><strong>Varıştan 24 Saat Öncesine Kadar Ücretsiz İptal</strong> – Güvenle rezervasyon yapabilirsiniz.</li>
+</ul>
+
+<ul>
+  <li><strong>7/24 Müşteri Desteği</strong> – Her zaman size yardımcı olmaya hazırız.</li>
+  <li><strong>Lüks, Temiz ve Bakımlı Araçlar</strong> – Konfor ve şıklık içinde seyahat edin.</li>
+  <li><strong>Üsküdar’daki Tüm Otel ve Lokasyonlara Transfer</strong> –  
+      <strong>Kız Kulesi, Çamlıca Tepesi</strong> ve <strong>tüm önemli noktalara</strong> hizmet veriyoruz.</li>
+</ul>
+
+<h2>Güvenilir & Sorunsuz Havalimanı Transferi</h2>
+<p>
+  Taksi sıralarındaki beklemelerden ve toplu taşımanın zorluklarından kurtulun.  
+  <strong>İstanbul Havalimanı'ndan Üsküdar'a özel transfer hizmetimiz</strong>,  
+  <strong>profesyonel bir şoför</strong> ve <strong>lüks bir araç</strong> ile <strong>güvenli ve doğrudan bir yolculuk</strong> sağlar.
+</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+  <li><strong>Mesafe:</strong> Yaklaşık 50 km</li>
+  <li><strong>Süre:</strong> Yaklaşık <strong>50-65 dakika</strong> (trafik durumuna bağlı olarak)</li>
+  <li><strong>Güzergah Seçenekleri:</strong> <strong>O-7 Otoyolu</strong> veya <strong>15 Temmuz Şehitler Köprüsü</strong></li>
+</ul>
+
+<h2>Dakikalar İçinde Taksi Rezervasyonu Yapın</h2>
+<p>
+  <strong>İstanbul Havalimanı'ndan Üsküdar'a taksinizi</strong> bugün <strong>APL Transfers</strong> ile güvence altına alın.  
+  <strong>Konforlu, stressiz bir yolculuğun</strong> keyfini çıkarın ve <strong>sabit fiyat avantajıyla lüks hizmet</strong> alın. <strong>Hemen rezervasyon yapın!</strong>
+</p>
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار إسطنبول إلى أوسكودار</h1>
+<p>
+  استمتع برحلة مريحة <strong>من مطار إسطنبول إلى أوسكودار عبر خدمة التاكسي</strong> مع <strong>APL Transfers</strong>.  
+  سواء كنت متجهًا إلى <strong>برج الفتاة، تل تشاملجا، أو المساجد التاريخية في أوسكودار</strong>،  
+  فإن <strong>خدمتنا الخاصة للنقل</strong> تضمن لك رحلة سلسة ومريحة.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+  <li><strong>استقبال مجاني عند الوصول</strong> – سيكون السائق في انتظارك في صالة الوصول مع لافتة تحمل اسمك.</li>
+  <li><strong>تتبع الرحلات الجوية وعدم فرض رسوم على التأخير</strong> – نقوم بتعديل وقت الاستقبال بناءً على تأخير الرحلة دون أي تكلفة إضافية.</li>
+  <li><strong>أسعار ثابتة – بدون رسوم مخفية</strong> – تسعير شفاف لراحة البال.</li>
+  <li><strong>إلغاء مجاني حتى 24 ساعة قبل الوصول</strong> – احجز بثقة.</li>
+</ul>
+
+<ul>
+  <li><strong>دعم العملاء على مدار 24/7</strong> – نحن دائمًا متاحون لمساعدتك.</li>
+  <li><strong>سيارات فاخرة، نظيفة ومُعتنى بها جيدًا</strong> – استمتع برحلة مريحة وأنيقة.</li>
+  <li><strong>نقل إلى جميع الفنادق والمواقع في أوسكودار</strong> –  
+      نقدم خدمات النقل إلى <strong>برج الفتاة، تل تشاملجا، وجميع المعالم الرئيسية</strong>.</li>
+</ul>
+
+<h2>نقل موثوق وخالي من المتاعب</h2>
+<p>
+  تجنب متاعب سيارات الأجرة ووسائل النقل العامة المزدحمة.  
+  تضمن <strong>خدمة النقل الخاصة من مطار إسطنبول إلى أوسكودار</strong>  
+  <strong>رحلة آمنة ومباشرة</strong> مع <strong>سائق محترف ومركبة فاخرة</strong>.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+  <li><strong>المسافة:</strong> حوالي 50 كم</li>
+  <li><strong>المدة:</strong> حوالي <strong>50-65 دقيقة</strong> (حسب حالة المرور)</li>
+  <li><strong>خيارات الطريق:</strong> عبر <strong>طريق O-7 السريع</strong> أو <strong>جسر شهداء 15 يوليو</strong></li>
+</ul>
+
+<h2>احجز تاكسيك في دقائق</h2>
+<p>
+  احجز <strong>سيارتك الخاصة من مطار إسطنبول إلى أوسكودار</strong> اليوم مع <strong>APL Transfers</strong>.  
+  استمتع برحلة <strong>مريحة وخالية من التوتر</strong> مع <strong>سعر ثابت وخدمة متميزة</strong>. <strong>احجز الآن!</strong>
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en Taxi del Aeropuerto de Estambul a Üsküdar</h1>
+<p>
+  Disfruta de un traslado sin complicaciones <strong>desde el Aeropuerto de Estambul a Üsküdar en taxi</strong> con <strong>APL Transfers</strong>.  
+  Ya sea que te dirijas a <strong>la Torre de la Doncella, la Colina Çamlıca o las históricas mezquitas de Üsküdar</strong>,  
+  nuestro <strong>servicio de traslado privado</strong> garantiza un viaje cómodo y fluido.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+  <li><strong>Recepción gratuita</strong> – Tu conductor te esperará en la sala de llegadas con un cartel con tu nombre.</li>
+  <li><strong>Seguimiento de vuelos y sin cargos por retrasos</strong> – Ajustamos la recogida según el retraso del vuelo sin coste adicional.</li>
+  <li><strong>Tarifas fijas – Sin costos ocultos</strong> – Precios transparentes para tu tranquilidad.</li>
+  <li><strong>Cancelación gratuita hasta 24 horas antes de la llegada</strong> – Reserva con confianza.</li>
+</ul>
+
+<ul>
+  <li><strong>Atención al cliente 24/7</strong> – Siempre disponibles para ayudarte.</li>
+  <li><strong>Vehículos lujosos, limpios y bien mantenidos</strong> – Viaja con comodidad y estilo.</li>
+  <li><strong>Traslados a todos los hoteles y ubicaciones en Üsküdar</strong> –  
+      Cubrimos <strong>la Torre de la Doncella, la Colina Çamlıca y todos los principales puntos turísticos</strong>.</li>
+</ul>
+
+<h2>Traslado confiable y sin complicaciones</h2>
+<p>
+  Evita el estrés de los taxis y el transporte público.  
+  Nuestro <strong>traslado privado desde el Aeropuerto de Estambul a Üsküdar</strong>  
+  garantiza un <strong>viaje seguro y directo</strong> con un <strong>conductor profesional y un vehículo premium</strong>.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+  <li><strong>Distancia:</strong> Aproximadamente 50 km</li>
+  <li><strong>Duración:</strong> Alrededor de <strong>50-65 minutos</strong> (dependiendo del tráfico)</li>
+  <li><strong>Opciones de ruta:</strong> A través de <strong>la autopista O-7</strong> o <strong>el Puente de los Mártires del 15 de Julio</strong></li>
+</ul>
+
+<h2>Reserva tu taxi en minutos</h2>
+<p>
+  Reserva hoy tu <strong>taxi desde el Aeropuerto de Estambul a Üsküdar</strong> con <strong>APL Transfers</strong>.  
+  Disfruta de un <strong>viaje cómodo, sin estrés</strong> con una <strong>tarifa fija y servicio premium</strong>. <strong>¡Reserva ahora!</strong>
+</p>
+
+            `,
+            it: `
+            <h1>Trasferimento in Taxi dall Aeroporto di Istanbul a Üsküdar</h1>
+<p>
+  Goditi un trasferimento senza stress <strong>dall Aeroporto di Istanbul a Üsküdar in taxi</strong> con <strong>APL Transfers</strong>.  
+  Che tu stia andando alla <strong>Torre della Fanciulla, alla Collina di Çamlıca o alle storiche moschee di Üsküdar</strong>,  
+  il nostro <strong>servizio di trasferimento privato</strong> garantisce un viaggio confortevole e sicuro.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+  <li><strong>Accoglienza gratuita</strong> – Il tuo autista ti aspetterà nella hall degli arrivi con un cartello con il tuo nome.</li>
+  <li><strong>Monitoraggio del volo e nessun costo per ritardi</strong> – Regoliamo l'orario di ritiro in base ai ritardi del volo senza costi aggiuntivi.</li>
+  <li><strong>Tariffe fisse – Nessun costo nascosto</strong> – Prezzi trasparenti per viaggiare con tranquillità.</li>
+  <li><strong>Cancellazione gratuita fino a 24 ore prima dell'arrivo</strong> – Prenota in sicurezza.</li>
+</ul>
+
+<ul>
+  <li><strong>Assistenza clienti 24/7</strong> – Sempre disponibili per aiutarti.</li>
+  <li><strong>Veicoli di lusso, puliti e ben mantenuti</strong> – Viaggia con comfort e stile.</li>
+  <li><strong>Trasferimenti per tutti gli hotel e le località di Üsküdar</strong> –  
+      Copriamo <strong>la Torre della Fanciulla, la Collina di Çamlıca e tutti i principali punti di riferimento</strong>.</li>
+</ul>
+
+<h2>Trasferimento affidabile e senza problemi</h2>
+<p>
+  Evita lo stress dei taxi e dei trasporti pubblici.  
+  Il nostro <strong>trasferimento privato dall Aeroporto di Istanbul a Üsküdar</strong>  
+  garantisce un <strong>viaggio sicuro e diretto</strong> con un <strong>autista professionista e un veicolo premium</strong>.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+  <li><strong>Distanza:</strong> Circa 50 km</li>
+  <li><strong>Durata:</strong> Circa <strong>50-65 minuti</strong> (a seconda del traffico)</li>
+  <li><strong>Opzioni di percorso:</strong> Attraverso <strong>l autostrada O-7</strong> o <strong>il Ponte dei Martiri del 15 Luglio</strong></li>
+</ul>
+
+<h2>Prenota il tuo taxi in pochi minuti</h2>
+<p>
+  Prenota oggi il tuo <strong>taxi dall Aeroporto di Istanbul a Üsküdar</strong> con <strong>APL Transfers</strong>.  
+  Goditi un <strong>viaggio comodo e senza stress</strong> con una <strong>tariffa fissa e un servizio premium</strong>. <strong>Prenota ora!</strong>
+</p>
+
+            `,
+            ru: `
+            <h1>Такси трансфер из аэропорта Стамбула в Ускюдар</h1>
+<p>
+  Наслаждайтесь удобным <strong>трансфером на такси из аэропорта Стамбула в Ускюдар</strong> с <strong>APL Transfers</strong>.  
+  Независимо от того, направляетесь ли вы к <strong>Девичьей башне, холму Чамлыджа или историческим мечетям Ускюдара</strong>,  
+  наш <strong>частный трансфер</strong> обеспечит комфортное и безопасное путешествие.
+</p>
+
+<h2>Почему стоит выбрать APL Transfers?</h2>
+<ul>
+  <li><strong>Бесплатная встреча</strong> – Ваш водитель будет ждать вас в зале прилета с табличкой с вашим именем.</li>
+  <li><strong>Отслеживание рейсов и отсутствие доплат за задержки</strong> – Мы корректируем время встречи в случае задержки рейса без дополнительных платежей.</li>
+  <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Прозрачные тарифы для вашего спокойствия.</li>
+  <li><strong>Бесплатная отмена за 24 часа до прибытия</strong> – Бронируйте с уверенностью.</li>
+</ul>
+
+<ul>
+  <li><strong>Круглосуточная поддержка клиентов</strong> – Мы всегда готовы вам помочь.</li>
+  <li><strong>Роскошные, чистые и ухоженные автомобили</strong> – Путешествуйте с комфортом и в стиле.</li>
+  <li><strong>Трансфер во все отели и районы Ускюдара</strong> –  
+      Мы охватываем <strong>Девичью башню, холм Чамлыджа и все основные достопримечательности</strong>.</li>
+</ul>
+
+<h2>Надежный и удобный трансфер</h2>
+<p>
+  Избегайте стресса, связанного с поиском такси и использованием общественного транспорта.  
+  Наш <strong>частный трансфер из аэропорта Стамбула в Ускюдар</strong>  
+  гарантирует <strong>безопасную и прямую поездку</strong> с <strong>профессиональным водителем и премиум-автомобилем</strong>.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+  <li><strong>Расстояние:</strong> Около 50 км</li>
+  <li><strong>Продолжительность:</strong> Примерно <strong>50-65 минут</strong> (в зависимости от трафика)</li>
+  <li><strong>Варианты маршрута:</strong> Через <strong>автомагистраль O-7</strong> или <strong>Мост 15 июля</strong></li>
+</ul>
+
+<h2>Забронируйте такси за несколько минут</h2>
+<p>
+  Забронируйте <strong>частное такси из аэропорта Стамбула в Ускюдар</strong> уже сегодня с <strong>APL Transfers</strong>.  
+  Наслаждайтесь <strong>комфортной, удобной поездкой</strong> с <strong>фиксированной ценой и премиальным обслуживанием</strong>. <strong>Бронируйте сейчас!</strong>
+</p>
+
+            `,
+            zh: `
+            <h1>伊斯坦布尔机场至于斯屈达尔的出租车接送</h1>
+<p>
+  享受 <strong>伊斯坦布尔机场至于斯屈达尔的无忧出租车接送</strong>，选择 <strong>APL Transfers</strong>。  
+  无论您是前往 <strong>少女塔、恰姆勒贾山或于斯屈达尔的历史清真寺</strong>，  
+  我们的 <strong>私人接送服务</strong> 都能确保您拥有平稳、舒适的旅程。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+  <li><strong>免费接机服务</strong> – 司机将在到达大厅等待，并举着写有您姓名的牌子。</li>
+  <li><strong>航班追踪 & 无额外延误费用</strong> – 根据航班延误调整接送时间，无需额外费用。</li>
+  <li><strong>固定价格 – 无隐藏费用</strong> – 透明定价，让您安心出行。</li>
+  <li><strong>支持抵达前 24 小时免费取消</strong> – 轻松预订，无忧退改。</li>
+</ul>
+
+<ul>
+  <li><strong>全天候 24/7 客户支持</strong> – 我们随时为您提供帮助。</li>
+  <li><strong>豪华、干净且维护良好的车辆</strong> – 可选择多种现代化车型，确保您的舒适和安全。</li>
+  <li><strong>覆盖于斯屈达尔所有酒店及地点</strong> –  
+      我们提供前往 <strong>少女塔、恰姆勒贾山及所有主要地标</strong> 的接送服务。</li>
+</ul>
+
+<h2>可靠 & 无忧的机场接送</h2>
+<p>
+  避免寻找出租车的麻烦以及拥挤的公共交通出行。  
+  我们的 <strong>伊斯坦布尔机场至于斯屈达尔的私人接送服务</strong>  
+  提供 <strong>安全直达的旅程</strong>，由 <strong>专业司机和豪华车辆</strong> 为您服务。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+  <li><strong>距离：</strong> 约 50 公里</li>
+  <li><strong>时长：</strong> 约 <strong>50-65 分钟</strong>（具体时长取决于交通状况）</li>
+  <li><strong>路线选项：</strong> 通过 <strong>O-7 高速公路</strong> 或 <strong>7月15日烈士大桥</strong></li>
+</ul>
+
+<h2>几分钟内预订您的出租车</h2>
+<p>
+  通过 <strong>APL Transfers</strong> 预订 <strong>从伊斯坦布尔机场到于斯屈达尔的私人出租车</strong>。  
+  享受 <strong>舒适、无压力的接送体验</strong>，并享有 <strong>固定价格和优质服务</strong>。<strong>立即预订！</strong>
+</p>
+
+            `,
         },
+
+
         "/istanbul-airport-to-levent-maslak": {
             en: ``,
             tr: ``,
@@ -7472,7 +17040,7 @@ const popularDestinationsPageContents = {
             ru: ``,
             zh: ``,
         },
-        "/istanbul-airport-to-bursa": {
+        "/istanbul-airport-to-nisantasi": {
             en: ``,
             tr: ``,
             ar: ``,
