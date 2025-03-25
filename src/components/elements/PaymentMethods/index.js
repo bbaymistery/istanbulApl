@@ -101,8 +101,33 @@ const PaymentMethods = (props) => {
     const config = { method, headers, body };
   
     try {
-      if (!popUpWindow) { 
-        // **ÖNCE fetch çalışsın, sonra pop-up açılsın!**
+      if (!popUpWindow) {
+        // 1️⃣ Açılır pencereyi hemen oluştur, ancak içeriği yükleme!
+        let tempPopup = window.open(
+          "about:blank", // Boş sayfa yerine bilgilendirici bir sayfa yükleyelim
+          "_blank",
+          "width=550,height=800"
+        );
+  
+        // Eğer popup açılamadıysa hata mesajı ver
+        if (!tempPopup) {
+          alert("Popup engellendi! Lütfen tarayıcı ayarlarını kontrol edin.");
+          return;
+        }
+  
+        // 2️⃣ Popup içine bilgilendirici bir mesaj yaz
+        tempPopup.document.write(`
+          <html>
+            <head><title>PayPal</title></head>
+            <body style="text-align:center; padding:50px;">
+              <h3>"Loading the payment page...</h3>
+              <p>Please wait a few seconds.</p>
+            </body>
+          </html>
+        `);
+        tempPopup.document.close();
+  
+        // 3️⃣ Fetch işlemini başlat
         fetch(url, config)
           .then((res) => res.json())
           .then((data) => {
@@ -110,16 +135,12 @@ const PaymentMethods = (props) => {
             setDataTokenForWebSocket(data); // Ödeme işlemi için token kaydet
             setStatusToken(data.webSocketToken); // Interval çalıştırmak için
   
-            // **Fetch tamamlandıktan sonra popup aç**
-            let newPopUp = window.open(data.href, "_blank", "width=550,height=800");
-  
-            if (newPopUp) {
-              setPopUpWindow(newPopUp);
-            } else {
-              console.error("Popup engellendi veya açılamadı.");
-            }
+            // 4️⃣ Fetch tamamlandığında, popup'ı asıl URL'ye yönlendir
+            tempPopup.location.href = data.href;
+            setPopUpWindow(tempPopup);
           })
           .catch((error) => {
+            tempPopup.close(); // Hata olursa popup'ı kapat
             window.handelErrorLogs(error, "PaypalMethod Fetch Catch", { config, url });
           });
       }
@@ -127,6 +148,7 @@ const PaymentMethods = (props) => {
       window.handelErrorLogs(error, "PaypalMethod Try Catch", { id, quotations, passengerEmail, url });
     }
   };
+  
   
 
   //this function includes all the methods of payments
