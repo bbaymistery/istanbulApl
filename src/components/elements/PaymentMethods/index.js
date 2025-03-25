@@ -87,11 +87,9 @@ const PaymentMethods = (props) => {
     }
   };
   const paypalMethod = (params = {}) => {
-
-    let { id, quotations, passengerEmail, url } = params
-    // if it is card payment you have set payment type first of all then send archive then
-    const method = "POST"
-    const headers = { "Content-Type": "application/json" }
+    let { id, quotations, passengerEmail, url } = params;
+    const method = "POST";
+    const headers = { "Content-Type": "application/json" };
     const body = JSON.stringify({
       quotations,
       type: id,
@@ -99,38 +97,37 @@ const PaymentMethods = (props) => {
       passengerEmail,
       "session-id": sessionToken,
       mode: "sandbox",
-    })
-    const config = { method, headers, body, };
-
+    });
+    const config = { method, headers, body };
+  
     try {
-      if (!popUpWindow) {
-        // Open a temporary blank popup first (prevents iOS from blocking it)
-        let tempPopup = window.open("", "_blank", "width=550,height=800");
-
+      if (!popUpWindow) { 
+        // **ÖNCE fetch çalışsın, sonra pop-up açılsın!**
         fetch(url, config)
           .then((res) => res.json())
           .then((data) => {
-            setIframeStripe(""); // CLOSE IFRAME (if open)
-            setDataTokenForWebSocket(data); // Detect payment type
-            setStatusToken(data.webSocketToken); // Triggers interval for status check
-
-            if (tempPopup) {
-              tempPopup.location.href = data.href; // Set URL inside already opened popup
-              setPopUpWindow(tempPopup); // Track the popup
+            setIframeStripe(""); // Eğer başka bir şey açıksa kapat
+            setDataTokenForWebSocket(data); // Ödeme işlemi için token kaydet
+            setStatusToken(data.webSocketToken); // Interval çalıştırmak için
+  
+            // **Fetch tamamlandıktan sonra popup aç**
+            let newPopUp = window.open(data.href, "_blank", "width=550,height=800");
+  
+            if (newPopUp) {
+              setPopUpWindow(newPopUp);
             } else {
-              // If popup didn't open, try opening again
-              openPopUpWindow({ statusOfWindowCloseOrOpen: "open", url: data?.href });
+              console.error("Popup engellendi veya açılamadı.");
             }
           })
           .catch((error) => {
-            if (tempPopup) tempPopup.close(); // Close blank popup if there's an error
-            window.handelErrorLogs(error, 'Istanbul PaymentMethods Component - paypalMethod function fetching catch blog', { config, url });
+            window.handelErrorLogs(error, "PaypalMethod Fetch Catch", { config, url });
           });
       }
     } catch (error) {
-      window.handelErrorLogs(error, ' Istanbul  PaymentMethods Component - paypalMethod function try catch blog ', { id, quotations, passengerEmail, url })
+      window.handelErrorLogs(error, "PaypalMethod Try Catch", { id, quotations, passengerEmail, url });
     }
   };
+  
 
   //this function includes all the methods of payments
   const startPayment = (id) => {
