@@ -43,7 +43,6 @@ const NavbarLinkName = (props) => {
         }
     }, [linkname, dispatch]);
 
-    console.log(schemas);
 
 
     // Render the main layout and components if validation passes

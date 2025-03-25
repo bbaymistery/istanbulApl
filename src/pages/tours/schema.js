@@ -190,7 +190,7 @@ const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourD
         "image": `${env.websiteDomain}/logos/logo.webp`,
         "@id": "1",
         "url": `${env.websiteDomain}${tourPathAddress}`,
-        "telephone": "+90 216 550 3313",
+        "telephone": "+90 212 708 5540",
         "priceRange": "35",
         "address": {
             "@type": "PostalAddress",

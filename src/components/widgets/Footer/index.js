@@ -46,7 +46,7 @@ const Footer = () => {
 
                                         {appData?.words["appContactUsHotLine"] ? appData?.words["appContactUsHotLine"] : "Hotline 24/7"}:
                                     </span>
-                                    <a href="tel:+902165503313">+90 216 550 3313</a>
+                                    <a href="tel:+902127085540">+90 212 708 5540</a>
                                 </li>
                                 <li className={styles.ep}>
                                     <span>

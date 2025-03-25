@@ -366,7 +366,6 @@ const airportPoints = {
             imageUrl: "/images/popularDestinations/istanbul/eminonu.webp"
 
         },
-        //!here 1
         {
             en: "Sabiha Gökçen Airport To Bursa",
             tr: "Sabiha Gökçen Havalimanı Bursa'ya",
@@ -791,6 +790,7 @@ const airportPoints = {
             imageUrl: "/images/popularDestinations/fethiye/oludeniz.webp"
 
         },
+
         {
             en: "Dalaman Airport To Fethiye Town Center",
             tr: "Dalaman Havalimanı Fethiye Şehir Merkezi'ne",
@@ -806,6 +806,8 @@ const airportPoints = {
             imageUrl: "/images/popularDestinations/fethiye/fethiye.webp"
 
         },
+
+
         {
             en: "Dalaman Airport To Faralya (Butterfly Valley)",
             tr: "Dalaman Havalimanı Faralya (Kelebekler Vadisi)'ne",
@@ -821,6 +823,8 @@ const airportPoints = {
             imageUrl: "/images/popularDestinations/fethiye/marmaris.webp"
 
         },
+
+
         {
             en: "Dalaman Airport To Gocek",
             tr: "Dalaman Havalimanı Göcek'e",
@@ -836,6 +840,8 @@ const airportPoints = {
             imageUrl: "/images/popularDestinations/fethiye/gocek.webp"
 
         },
+
+
         {
             en: "Dalaman Airport To Hisaronu",
             tr: "Dalaman Havalimanı Hisarönü'ne",
@@ -851,6 +857,8 @@ const airportPoints = {
             imageUrl: "/images/popularDestinations/fethiye/hisaronu.webp"
 
         },
+
+
         {
             en: "Dalaman Airport To Calis Beach",
             tr: "Dalaman Havalimanı Çalış Plajı'na",
@@ -866,119 +874,147 @@ const airportPoints = {
             imageUrl: "/images/popularDestinations/fethiye/dalaman.webp"
 
         },
-
+    
         {
-            en: "Dalaman Airport To Kayakoy",
-            tr: "Dalaman Havalimanı Kayaköy'e",
-            es: "Aeropuerto de Dalaman a Kayakoy",
-            it: "Aeroporto di Dalaman a Kayakoy",
-            ru: "Аэропорт Даламан до Каякёй",
-            zh: "达拉曼机场到卡亚克伊",
-            ar: "مطار دالامان إلى كاياكوي",
-            linkUrl: "dalaman-airport-to-kayakoy",
-            location: "Dalaman",
-            key: "DLM",
-            price: 100,
-            imageUrl: "/images/popularDestinations/fethiye/fethiye2.webp"
-
+            "en": "Dalaman Airport To Akyaka",
+            "tr": "Dalaman Havalimanı Akyaka'ya",
+            "es": "Aeropuerto de Dalaman a Akyaka",
+            "it": "Aeroporto di Dalaman ad Akyaka",
+            "ru": "Аэропорт Даламан до Акьяки",
+            "zh": "达拉曼机场到阿克亚卡",
+            "ar": "مطار دالامان إلى أكياكا",
+            "linkUrl": "dalaman-airport-to-akyaka",
+            "location": "Dalaman",
+            "key": "DLM",
+            "price": 120,
+            "imageUrl": "/images/popularDestinations/fethiye/fethiye4.webp"
         },
 
+        {
+            "en": "Dalaman Airport To Datca",
+            "tr": "Dalaman Havalimanı Datça'ya",
+            "es": "Aeropuerto de Dalaman a Datca",
+            "it": "Aeroporto di Dalaman a Datca",
+            "ru": "Аэропорт Даламан до Датчи",
+            "zh": "达拉曼机场到达特恰",
+            "ar": "مطار دالامان إلى داتشا",
+            "linkUrl": "dalaman-airport-to-datca",
+            "location": "Dalaman",
+            "key": "DLM",
+            "price": 150,
+            "imageUrl": "/images/popularDestinations/fethiye/fethiye3.webp"
+        }
 
-        {
-            en: "Dalaman Airport To Kabak",
-            tr: "Dalaman Havalimanı Kabak'a",
-            es: "Aeropuerto de Dalaman a Kabak",
-            it: "Aeroporto di Dalaman a Kabak",
-            ru: "Аэропорт Даламан до Кабака",
-            zh: "达拉曼机场到卡巴克",
-            ar: "مطار دالامان إلى كباك",
-            linkUrl: "dalaman-airport-to-kabak",
-            location: "Dalaman",
-            key: "DLM",
-            price: 100,
-            imageUrl: "/images/popularDestinations/fethiye/fethiye3.webp"
+        // {
+        //     en: "Dalaman Airport To Kayakoy",
+        //     tr: "Dalaman Havalimanı Kayaköy'e",
+        //     es: "Aeropuerto de Dalaman a Kayakoy",
+        //     it: "Aeroporto di Dalaman a Kayakoy",
+        //     ru: "Аэропорт Даламан до Каякёй",
+        //     zh: "达拉曼机场到卡亚克伊",
+        //     ar: "مطار دالامان إلى كاياكوي",
+        //     linkUrl: "dalaman-airport-to-kayakoy",
+        //     location: "Dalaman",
+        //     key: "DLM",
+        //     price: 100,
+        //     imageUrl: "/images/popularDestinations/fethiye/fethiye2.webp"
 
-        },
-        {
-            en: "Dalaman Airport To Yanıklar",
-            tr: "Dalaman Havalimanı Yanıklar'a",
-            es: "Aeropuerto de Dalaman a Yanıklar",
-            it: "Aeroporto di Dalaman a Yanıklar",
-            ru: "Аэропорт Даламан до Яныклар",
-            zh: "达拉曼机场到亚尼克拉尔",
-            ar: "مطار دالامان إلى يانيكلار",
-            location: "Dalaman",
-            linkUrl: "dalaman-airport-to-yaniklar",
-            key: "DLM",
-            price: 100,
-            imageUrl: "/images/popularDestinations/fethiye/fethiye4.webp"
+        // },
+        // {
+        //     en: "Dalaman Airport To Kabak",
+        //     tr: "Dalaman Havalimanı Kabak'a",
+        //     es: "Aeropuerto de Dalaman a Kabak",
+        //     it: "Aeroporto di Dalaman a Kabak",
+        //     ru: "Аэропорт Даламан до Кабака",
+        //     zh: "达拉曼机场到卡巴克",
+        //     ar: "مطار دالامان إلى كباك",
+        //     linkUrl: "dalaman-airport-to-kabak",
+        //     location: "Dalaman",
+        //     key: "DLM",
+        //     price: 100,
+        //     imageUrl: "/images/popularDestinations/fethiye/fethiye3.webp"
 
-        },
-        {
-            en: "Dalaman Airport To Sarigerme",
-            tr: "Dalaman Havalimanı Sarıgerme'ye",
-            es: "Aeropuerto de Dalaman a Sarigerme",
-            it: "Aeroporto di Dalaman a Sarigerme",
-            ru: "Аэропорт Даламан до Сарыгерме",
-            zh: "达拉曼机场到萨里格尔梅",
-            ar: "مطار دالامان إلى ساريجيرم",
-            location: "Dalaman",
-            linkUrl: "dalaman-airport-to-sarigerme",
-            key: "DLM",
-            price: 100,
-        },
-        {
-            en: "Dalaman Airport To Uzumlu",
-            tr: "Dalaman Havalimanı Üzümlü'ye",
-            es: "Aeropuerto de Dalaman a Uzumlu",
-            it: "Aeroporto di Dalaman a Uzumlu",
-            ru: "Аэропорт Даламан до Узюмлю",
-            zh: "达拉曼机场到于祖姆鲁",
-            location: "Dalaman",
-            ar: "مطار دالامان إلى أوزوملو",
-            linkUrl: "dalaman-airport-to-uzumlu",
-            key: "DLM",
-            price: 100,
-        },
-        {
-            en: "Dalaman Airport To Kalkan",
-            tr: "Dalaman Havalimanı Kalkan'a",
-            es: "Aeropuerto de Dalaman a Kalkan",
-            it: "Aeroporto di Dalaman a Kalkan",
-            ru: "Аэропорт Даламан до Калкана",
-            zh: "达拉曼机场到卡尔坎",
-            ar: "مطار دالامان إلى كالكان",
-            location: "Dalaman",
-            linkUrl: "dalaman-airport-to-kalkan",
-            key: "DLM",
-            price: 100,
-        },
-        {
-            en: "Dalaman Airport To Patara",
-            tr: "Dalaman Havalimanı Patara'ya",
-            es: "Aeropuerto de Dalaman a Patara",
-            it: "Aeroporto di Dalaman a Patara",
-            ru: "Аэропорт Даламан до Патары",
-            zh: "达拉曼机场到帕塔拉",
-            ar: "مطار دالامان إلى باتارا",
-            location: "Dalaman",
-            linkUrl: "dalaman-airport-to-patara",
-            key: "DLM",
-            price: 100,
-        },
-        {
-            en: "Dalaman Airport To Dalyan",
-            tr: "Dalaman Havalimanı Dalyan'a",
-            es: "Aeropuerto de Dalaman a Dalyan",
-            it: "Aeroporto di Dalaman a Dalyan",
-            ru: "Аэропорт Даламан до Дальяна",
-            zh: "达拉曼机场到达利安",
-            ar: "مطار دالامان إلى داليان",
-            location: "Dalaman",
-            linkUrl: "dalaman-airport-to-dalyan",
-            key: "DLM",
-            price: 100,
-        },
+        // },
+        // {
+        //     en: "Dalaman Airport To Yanıklar",
+        //     tr: "Dalaman Havalimanı Yanıklar'a",
+        //     es: "Aeropuerto de Dalaman a Yanıklar",
+        //     it: "Aeroporto di Dalaman a Yanıklar",
+        //     ru: "Аэропорт Даламан до Яныклар",
+        //     zh: "达拉曼机场到亚尼克拉尔",
+        //     ar: "مطار دالامان إلى يانيكلار",
+        //     location: "Dalaman",
+        //     linkUrl: "dalaman-airport-to-yaniklar",
+        //     key: "DLM",
+        //     price: 100,
+        //     imageUrl: "/images/popularDestinations/fethiye/fethiye4.webp"
+
+        // },
+        // {
+        //     en: "Dalaman Airport To Sarigerme",
+        //     tr: "Dalaman Havalimanı Sarıgerme'ye",
+        //     es: "Aeropuerto de Dalaman a Sarigerme",
+        //     it: "Aeroporto di Dalaman a Sarigerme",
+        //     ru: "Аэропорт Даламан до Сарыгерме",
+        //     zh: "达拉曼机场到萨里格尔梅",
+        //     ar: "مطار دالامان إلى ساريجيرم",
+        //     location: "Dalaman",
+        //     linkUrl: "dalaman-airport-to-sarigerme",
+        //     key: "DLM",
+        //     price: 100,
+        // },
+        // {
+        //     en: "Dalaman Airport To Uzumlu",
+        //     tr: "Dalaman Havalimanı Üzümlü'ye",
+        //     es: "Aeropuerto de Dalaman a Uzumlu",
+        //     it: "Aeroporto di Dalaman a Uzumlu",
+        //     ru: "Аэропорт Даламан до Узюмлю",
+        //     zh: "达拉曼机场到于祖姆鲁",
+        //     location: "Dalaman",
+        //     ar: "مطار دالامان إلى أوزوملو",
+        //     linkUrl: "dalaman-airport-to-uzumlu",
+        //     key: "DLM",
+        //     price: 100,
+        // },
+        // {
+        //     en: "Dalaman Airport To Kalkan",
+        //     tr: "Dalaman Havalimanı Kalkan'a",
+        //     es: "Aeropuerto de Dalaman a Kalkan",
+        //     it: "Aeroporto di Dalaman a Kalkan",
+        //     ru: "Аэропорт Даламан до Калкана",
+        //     zh: "达拉曼机场到卡尔坎",
+        //     ar: "مطار دالامان إلى كالكان",
+        //     location: "Dalaman",
+        //     linkUrl: "dalaman-airport-to-kalkan",
+        //     key: "DLM",
+        //     price: 100,
+        // },
+        // {
+        //     en: "Dalaman Airport To Patara",
+        //     tr: "Dalaman Havalimanı Patara'ya",
+        //     es: "Aeropuerto de Dalaman a Patara",
+        //     it: "Aeroporto di Dalaman a Patara",
+        //     ru: "Аэропорт Даламан до Патары",
+        //     zh: "达拉曼机场到帕塔拉",
+        //     ar: "مطار دالامان إلى باتارا",
+        //     location: "Dalaman",
+        //     linkUrl: "dalaman-airport-to-patara",
+        //     key: "DLM",
+        //     price: 100,
+        // },
+        // {
+        //     en: "Dalaman Airport To Dalyan",
+        //     tr: "Dalaman Havalimanı Dalyan'a",
+        //     es: "Aeropuerto de Dalaman a Dalyan",
+        //     it: "Aeroporto di Dalaman a Dalyan",
+        //     ru: "Аэропорт Даламан до Дальяна",
+        //     zh: "达拉曼机场到达利安",
+        //     ar: "مطار دالامان إلى داليان",
+        //     location: "Dalaman",
+        //     linkUrl: "dalaman-airport-to-dalyan",
+        //     key: "DLM",
+        //     price: 100,
+        // },
     ],
     BJV: [
         {

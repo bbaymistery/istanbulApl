@@ -16,7 +16,7 @@
 //Open archieve token
 
 
-
+//!Qutatoin results daki transfer detailsdeki gback font size degis vunki monilede cox pis gorsenir 
 //toursKeywordsContentSchemas
 /*
 !Bu bilgiler elenilmelimidir ? 

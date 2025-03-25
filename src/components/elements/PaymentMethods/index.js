@@ -7,7 +7,7 @@ import { BUTTON_TYPES } from "../Button/ButtonTypes";
 import Button from "../Button/Button";
 import OutsideClickAlert from "../OutsideClickAlert";
 const PaymentMethods = (props) => {
-  let {env, seatListPrice = 0 } = props
+  let { env, seatListPrice = 0 } = props
   const router = useRouter()
   const dispatch = useDispatch()
   let state = useSelector((state) => state.pickUpDropOffActions)
@@ -21,43 +21,7 @@ const PaymentMethods = (props) => {
   const [popUpWindow, setPopUpWindow] = useState("")//for paypal
 
   const [cashPaymentModal, setCashPaymentModal] = useState(false)
-  const fetchArchieveToken = async (params = {}) => {
-    let { token, paymentType, stage } = params
 
-    let reservationObj = reservations
-
-    if (parseInt(journeyType) === 1) {
-      reservationObj = [
-        {
-          ...reservationObj[0],
-          paymentDetails:
-          {
-            ...reservationObj[0].paymentDetails,
-            token: token,
-            paymentType: paymentType,
-          },
-        },
-        {
-          ...reservationObj[1],
-          paymentDetails:
-          {
-            ...reservationObj[1].paymentDetails,
-            token: token, paymentType: paymentType,
-          },
-        }
-      ]
-    } else {
-      reservationObj = [{ ...reservationObj[0], paymentDetails: { ...reservationObj[0].paymentDetails, token: token, paymentType: paymentType, }, },]
-    }
-    const method = "POST"
-    const url = `${env.apiDomain}/api/v1/sessions/add`;
-    const body = JSON.stringify({ token: tokenForArchieve, details: reservationObj, stage })
-    const headers = { "Content-Type": "application/json" }
-    const response = await fetch(url, { method, body, headers });
-    const data = await response.json();
-
-
-  };
   //sadece paypal icin bunu saxladim
   const openPopUpWindow = (params = {}) => {
     let { statusOfWindowCloseOrOpen, url } = params
@@ -79,7 +43,6 @@ const PaymentMethods = (props) => {
   const cashMethod = (params = {}) => {
     let { token, paymentType } = params
     // if it is cash payment you have set payment type first of all then send archive
-    // fetchArchieveToken({ token: "", paymentType: "", stage: "CLICK_OVER_CASH_BUTTON" })
     dispatch({ type: "SET_PAYMENT_TYPE_AND_TOKEN", data: { token, paymentType } })
     setIframeStripe("")//CLOSE OFRAME INSIDE OF Page (in case of if it was opened )
     setStatusToken("");//it will trigger interval and will make request
@@ -127,7 +90,6 @@ const PaymentMethods = (props) => {
 
     let { id, quotations, passengerEmail, url } = params
     // if it is card payment you have set payment type first of all then send archive then
-    // fetchArchieveToken({ token: "", paymentType: 5, stage: "CLICK_OVER_CARD_BUTTON" })
     const method = "POST"
     const headers = { "Content-Type": "application/json" }
     const body = JSON.stringify({
@@ -142,17 +104,27 @@ const PaymentMethods = (props) => {
 
     try {
       if (!popUpWindow) {
+        // Open a temporary blank popup first (prevents iOS from blocking it)
+        let tempPopup = window.open("", "_blank", "width=550,height=800");
+
         fetch(url, config)
           .then((res) => res.json())
           .then((data) => {
+            setIframeStripe(""); // CLOSE IFRAME (if open)
+            setDataTokenForWebSocket(data); // Detect payment type
+            setStatusToken(data.webSocketToken); // Triggers interval for status check
 
-            setIframeStripe("")//CLOSE OFRAME INSIDE OF Page (in case of if it was opened )
-            setDataTokenForWebSocket(data);//we use inside interval in order to detect it is which payment
-            setStatusToken(data.webSocketToken);//it will trigger interval and will make request
-            openPopUpWindow({ statusOfWindowCloseOrOpen: "open", url: data?.href });
+            if (tempPopup) {
+              tempPopup.location.href = data.href; // Set URL inside already opened popup
+              setPopUpWindow(tempPopup); // Track the popup
+            } else {
+              // If popup didn't open, try opening again
+              openPopUpWindow({ statusOfWindowCloseOrOpen: "open", url: data?.href });
+            }
           })
           .catch((error) => {
-            window.handelErrorLogs(error, 'Istanbul  PaymentMethods Component - paypalMethod function fetching catch blog  ', { config, url })
+            if (tempPopup) tempPopup.close(); // Close blank popup if there's an error
+            window.handelErrorLogs(error, 'Istanbul PaymentMethods Component - paypalMethod function fetching catch blog', { config, url });
           });
       }
     } catch (error) {
