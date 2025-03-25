@@ -111,7 +111,7 @@ const PaymentMethods = (props) => {
   
         // Eğer popup açılamadıysa hata mesajı ver
         if (!tempPopup) {
-          alert("Popup engellendi! Lütfen tarayıcı ayarlarını kontrol edin.");
+          alert("Popup blocked! Please check your browser settings.");
           return;
         }
   
