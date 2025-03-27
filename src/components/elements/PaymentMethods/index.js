@@ -21,7 +21,43 @@ const PaymentMethods = (props) => {
   const [popUpWindow, setPopUpWindow] = useState("")//for paypal
 
   const [cashPaymentModal, setCashPaymentModal] = useState(false)
+  const fetchArchieveToken = async (params = {}) => {
+    let { token, paymentType, stage } = params
 
+    let reservationObj = reservations
+
+    if (parseInt(journeyType) === 1) {
+      reservationObj = [
+        {
+          ...reservationObj[0],
+          paymentDetails:
+          {
+            ...reservationObj[0].paymentDetails,
+            token: token,
+            paymentType: paymentType,
+          },
+        },
+        {
+          ...reservationObj[1],
+          paymentDetails:
+          {
+            ...reservationObj[1].paymentDetails,
+            token: token, paymentType: paymentType,
+          },
+        }
+      ]
+    } else {
+      reservationObj = [{ ...reservationObj[0], paymentDetails: { ...reservationObj[0].paymentDetails, token: token, paymentType: paymentType, }, },]
+    }
+    const method = "POST"
+    const url = `${env.apiDomain}/api/v1/sessions/add`;
+    const body = JSON.stringify({ token: tokenForArchieve, details: reservationObj, stage })
+    const headers = { "Content-Type": "application/json" }
+    const response = await fetch(url, { method, body, headers });
+    const data = await response.json();
+
+
+  };
   //sadece paypal icin bunu saxladim
   const openPopUpWindow = (params = {}) => {
     let { statusOfWindowCloseOrOpen, url } = params
@@ -42,6 +78,7 @@ const PaymentMethods = (props) => {
   //*payment methods
   const cashMethod = (params = {}) => {
     let { token, paymentType } = params
+    // fetchArchieveToken({ token: "", paymentType: "", stage: "CLICK_OVER_CASH_BUTTON" })
     // if it is cash payment you have set payment type first of all then send archive
     dispatch({ type: "SET_PAYMENT_TYPE_AND_TOKEN", data: { token, paymentType } })
     setIframeStripe("")//CLOSE OFRAME INSIDE OF Page (in case of if it was opened )
@@ -88,6 +125,7 @@ const PaymentMethods = (props) => {
   };
   const paypalMethod = (params = {}) => {
     let { id, quotations, passengerEmail, url } = params;
+    // fetchArchieveToken({ token: "", paymentType: 5, stage: "CLICK_OVER_CARD_BUTTON" })
     const method = "POST";
     const headers = { "Content-Type": "application/json" };
     const body = JSON.stringify({
@@ -99,7 +137,7 @@ const PaymentMethods = (props) => {
       mode: "sandbox",
     });
     const config = { method, headers, body };
-  
+
     try {
       if (!popUpWindow) {
         // 1️⃣ Açılır pencereyi hemen oluştur, ancak içeriği yükleme!
@@ -108,13 +146,13 @@ const PaymentMethods = (props) => {
           "_blank",
           "width=550,height=800"
         );
-  
+
         // Eğer popup açılamadıysa hata mesajı ver
         if (!tempPopup) {
           alert("Popup blocked! Please check your browser settings.");
           return;
         }
-  
+
         // 2️⃣ Popup içine bilgilendirici bir mesaj yaz
         tempPopup.document.write(`
           <html>
@@ -126,7 +164,7 @@ const PaymentMethods = (props) => {
           </html>
         `);
         tempPopup.document.close();
-  
+
         // 3️⃣ Fetch işlemini başlat
         fetch(url, config)
           .then((res) => res.json())
@@ -134,22 +172,22 @@ const PaymentMethods = (props) => {
             setIframeStripe(""); // Eğer başka bir şey açıksa kapat
             setDataTokenForWebSocket(data); // Ödeme işlemi için token kaydet
             setStatusToken(data.webSocketToken); // Interval çalıştırmak için
-  
+
             // 4️⃣ Fetch tamamlandığında, popup'ı asıl URL'ye yönlendir
             tempPopup.location.href = data.href;
             setPopUpWindow(tempPopup);
           })
           .catch((error) => {
             tempPopup.close(); // Hata olursa popup'ı kapat
-            window.handelErrorLogs(error, "PaypalMethod Fetch Catch", { config, url });
+            window.handelErrorLogs(error, "ISTANBUL APL PaypalMethod Fetch Catch", { config, url });
           });
       }
     } catch (error) {
-      window.handelErrorLogs(error, "PaypalMethod Try Catch", { id, quotations, passengerEmail, url });
+      window.handelErrorLogs(error, "ISTANBUL APL  PaypalMethod Try Catch", { id, quotations, passengerEmail, url });
     }
   };
-  
-  
+
+
 
   //this function includes all the methods of payments
   const startPayment = (id) => {

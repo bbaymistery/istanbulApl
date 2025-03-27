@@ -18335,8 +18335,1060 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
         },
         // "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
         // "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar`,
+        DLM: {
+            "/dalaman-airport-to-oludeniz": {
+                en: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                }
+            },
+            "/dalaman-airport-to-fethiye-town-center": {
+                en: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                }
+            },
+            "/dalaman-airport-to-faralya-butterfly-valley": {
+                en: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                }
+            },
+            "/dalaman-airport-to-gocek": {
+                en: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                }
+            },
+            "/dalaman-airport-to-hisaronu": {
+                en: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                }
+            },
+            "/dalaman-airport-to-calis-beach": {
+                en: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                }
+            },
+            "/dalaman-airport-to-akyaka": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "55",
+                        "url": `${env.websiteDomain}/dalaman-airport-to-akyaka`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {},
+                    "FAQPage": {
+
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "55",
+                        "url": `${env.websiteDomain}/tr/dalaman-airport-to-akyaka`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {},
+                    "Product": {},
+                    "FAQPage": {
+                    }
+                }
+
+            },
+            "/dalaman-airport-to-datca": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "56",
+                        "url": `${env.websiteDomain}/dalaman-airport-to-datca`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€59 / £55",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "name": "Dalaman Airport to Datça Transfer",
+                        "description": "Book a comfortable private transfer from Dalaman Airport (DLM) to Datça. Meet & greet service, fixed pricing, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-DTC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/dalaman-airport-to-datca`,
+                            "priceCurrency": "EUR",
+                            "price": "59.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "55.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Excellent service! The driver was waiting at arrivals and got me to Datça smoothly. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Airport to Datça Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+
+                    }
+
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "56",
+                        "url": `${env.websiteDomain}/tr/dalaman-airport-to-datca`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€59 / £55",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "name": "Dalaman Havalimanı'ndan Datça'ya Transfer",
+                        "description": "Dalaman Havalimanı (DLM) ile Datça arasında konforlu bir özel transfer rezervasyonu yapın. Karşılama hizmeti, sabit fiyat ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-DTC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/dalaman-airport-to-datca`,
+                            "priceCurrency": "EUR",
+                            "price": "59.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "55.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Harika bir hizmet! Şoför varışta beni bekliyordu ve beni Datça’ya sorunsuz bir şekilde ulaştırdı. APL Transfers’i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Havalimanı'ndan Datça'ya Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "56",
+                        "url": `${env.websiteDomain}/ar/dalaman-airport-to-datca`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€59 / £55",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "name": "خدمة التوصيل من مطار دالامان إلى داتشا",
+                        "description": "احجز خدمة توصيل خاصة ومريحة من مطار دالامان (DLM) إلى داتشا. خدمة الاستقبال، أسعار ثابتة، ودعم متوفر على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-DTC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/dalaman-airport-to-datca`,
+                            "priceCurrency": "EUR",
+                            "price": "59.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "55.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "خدمة ممتازة! كان السائق بانتظاري عند الوصول وأوصلني إلى داتشا بكل راحة وسلاسة. أنصح بشدة بخدمة APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التوصيل من مطار دالامان إلى داتشا"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "56",
+                        "url": `${env.websiteDomain}/es/dalaman-airport-to-datca`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€59 / £55",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "name": "Traslado desde el Aeropuerto de Dalaman a Datça",
+                        "description": "Reserva un traslado privado y cómodo desde el Aeropuerto de Dalaman (DLM) a Datça. Servicio de bienvenida, precio fijo y asistencia 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-DTC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/dalaman-airport-to-datca`,
+                            "priceCurrency": "EUR",
+                            "price": "59.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "55.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "¡Servicio excelente! El conductor me esperaba a la llegada y me llevó a Datça sin problemas. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado desde el Aeropuerto de Dalaman a Datça"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "56",
+                        "url": `${env.websiteDomain}/it/dalaman-airport-to-datca`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€59 / £55",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "name": "Trasferimento dall Aeroporto di Dalaman a Datça",
+                        "description": "Prenota un trasferimento privato e confortevole dall Aeroporto di Dalaman (DLM) a Datça. Servizio di accoglienza, prezzo fisso e supporto 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-DTC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/dalaman-airport-to-datca`,
+                            "priceCurrency": "EUR",
+                            "price": "59.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "55.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Servizio eccellente! L’autista mi stava aspettando all’arrivo e mi ha accompagnata a Datça senza problemi. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento dall Aeroporto di Dalaman a Datça"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "56",
+                        "url": `${env.websiteDomain}/ru/dalaman-airport-to-datca`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€59 / £55",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "name": "Трансфер из аэропорта Даламан в Датчу",
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Даламан (DLM) в Датчу. Встреча с табличкой, фиксированная цена и круглосуточная поддержка.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-DTC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/dalaman-airport-to-datca`,
+                            "priceCurrency": "EUR",
+                            "price": "59.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "55.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Отличный сервис! Водитель ждал меня в зоне прибытия и комфортно доставил до Датчи. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер из аэропорта Даламан в Датчу"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "56",
+                        "url": `${env.websiteDomain}/zg/dalaman-airport-to-datca`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€59 / £55",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "name": "从达拉曼机场到达特恰的接送服务",
+                        "description": "预订从达拉曼机场 (DLM) 到达特恰的舒适私人接送服务。包含接机服务、固定价格和全天候 24/7 客服支持。",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-DTC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/dalaman-airport-to-datca`,
+                            "priceCurrency": "EUR",
+                            "price": "59.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "55.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "非常棒的服务！司机在到达区等候我，并顺利地将我送到达特恰。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从达拉曼机场到达特恰的接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                    }
+                }
+            },
+        },
         AYT: {},
-        DLM: {},
         BJY: {},
         ADB: {},
         GZP: {},
@@ -22902,75 +23954,5263 @@ Whether you want to relax at <strong>Belcekiz Beach</strong>, take a <strong>boa
 
 <p>Book your <strong>Dalaman Airport to Ölüdeniz</strong> transfer today and enjoy a smooth, stress-free start to your trip!</p>
   `,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``
+            tr: `
+  <h1>Dalaman Havalimanı - Ölüdeniz Transferleri</h1>
+  
+  <h2>Dalaman Havalimanı'ndan Ölüdeniz'e Güvenli ve Konforlu Transfer</h2>
+  
+  <p>Ölüdeniz’in nefes kesen <strong>Mavi Lagünü</strong>'ne bir seyahat mi planlıyorsunuz? 
+  <strong>Dalaman Havalimanı (DLM)</strong>'ndan Ölüdeniz’e <strong>özel transfer hizmetimiz</strong>, Türkiye’nin en güzel destinasyonlarından birine sorunsuz ve rahat bir yolculuk sunar. 
+  İster meşhur <strong>yamaç paraşütü deneyimi</strong>, ister tertemiz plajlar, ister huzurlu bir tatil için geliyor olun, size 
+  <strong>güvenli, zamanında ve konforlu</strong> bir ulaşım sağlıyoruz.</p>
+  
+  <h2>Mesafe ve Yolculuk Süresi</h2>
+  <ul>
+      <li><strong>Mesafe:</strong> Yaklaşık 60 km</li>
+      <li><strong>Yolculuk Süresi:</strong> Trafik ve yol durumuna bağlı olarak 50-70 dakika arası.</li>
+  </ul>
+  
+  <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+  
+  <ul>
+      <li><strong>Dalaman Havalimanı’nda Karşılama</strong> – Şoförümüz, gümrük sonrası varış alanında <strong>isim tabelası</strong> ile sizi bekliyor olacak.</li>
+      <li><strong>Sabit ve Şeffaf Fiyatlandırma</strong> – Gizli ücretler yok, ne ödeyeceğinizi en baştan bilirsiniz.</li>
+      <li><strong>Lüks ve Standart Araç Seçenekleri</strong> – Standart sedan, MPV ya da kalabalık gruplar için minibüs seçenekleri.</li>
+      <li><strong>Güvenli ve Profesyonel Şoförler</strong> – Lisanslı, deneyimli ve İngilizce bilen sürücüler.</li>
+      <li><strong>7/24 Müşteri Desteği</strong> – Her an yanınızda olan destek hattı ile huzurlu bir yolculuk.</li>
+      <li><strong>Ücretsiz Uçuş Takibi</strong> – Uçuşunuzu takip ediyor, gecikmelere göre alınış saatini ayarlıyoruz.</li>
+      <li><strong>Güvenli Ödeme</strong> – Euro, GBP, Amerikan Doları ve Türk Lirası ile ödeme imkânı.</li>
+      <li><strong>Ücretsiz İptal</strong> – Transferden 24 saat öncesine kadar ücretsiz iptal hakkı.</li>
+  </ul>
+  
+  <h2>Transfer Seçenekleri</h2>
+  <div>
+  <table border="1">
+      <thead>
+          <tr>
+              <th>Araç Türü</th>
+              <th>Yolcu Kapasitesi</th>
+              <th>Bagaj Hakkı</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Standart Sedan</td>
+              <td>En fazla 3 yolcu</td>
+              <td>Maksimum 3 valiz</td>
+          </tr>
+          <tr>
+              <td>MPV</td>
+              <td>En fazla 5 yolcu</td>
+              <td>Maksimum 5 valiz</td>
+          </tr>
+          <tr>
+              <td>Minibüs</td>
+              <td>En fazla 8 yolcu</td>
+              <td>Maksimum 8 valiz</td>
+          </tr>
+      </tbody>
+  </table>
+  </div>
+  
+  <p><em>(Fiyatlar sezona ve rezervasyon zamanına göre değişiklik gösterebilir. Güncel fiyatlar için online rezervasyon sistemimizi kontrol edin.)</em></p>
+  
+  <h2>Nasıl Rezervasyon Yapılır?</h2>
+  <ol>
+      <li><strong>Web sitemizi ziyaret edin</strong> ve seyahat bilgilerinizi girin.</li>
+      <li><strong>Tercih ettiğiniz aracı seçin</strong> ve fiyatı onaylayın.</li>
+      <li><strong>Güvenli online ödeme</strong> ile rezervasyonunuzu tamamlayın.</li>
+      <li><strong>Alınış detaylarını içeren onay maili</strong> anında size gönderilecektir.</li>
+      <li><strong>7/24 bizi arayın</strong>, rezervasyon konusunda yardım alın.</li>
+      <li><strong>Rezervasyon bilgilerinizi bize e-posta ile gönderin</strong>, ekibimiz transferi onaylayacaktır.</li>
+  </ol>
+  
+  <h2>Ek Hizmetler</h2>
+  <ul>
+      <li><strong>Çocuk Koltuğu Seçeneği</strong> – Talep üzerine bebek ve çocuklar için güvenli koltuklar sağlanır.</li>
+      <li><strong>Yol Üzerinde Durma Opsiyonu</strong> – Yol üzerinde durmanız gerekiyorsa, önceden bize bildirin.</li>
+      <li><strong>Tek Yön & Gidiş-Dönüş Transfer</strong> – Gidiş-dönüş rezervasyon yaparak ekstra rahatlık elde edin.</li>
+  </ul>
+  
+  <h2>Ölüdeniz Turlarımız ile Bölgeyi Keşfedin</h2>
+  <p>Ziyaretinizi özel turlarımızla renklendirin, güvenle rezervasyon yapın:</p>
+  <ul>
+      <li><strong>Ölüdeniz’de Yamaç Paraşütü Macerası</strong> – Mavi Lagün üzerinde dünyaca ünlü bir uçuş deneyimi.</li>
+      <li><strong>Ölüdeniz Tekne Turu</strong> – Gizli koylar, Kelebekler Vadisi ve Aziz Nikola Adası’na yolculuk.</li>
+      <li><strong>Saklıkent Kanyonu'na Jeep Safari</strong> – Meşhur kanyon, çamur banyoları ve Tlos harabelerini keşfedin.</li>
+      <li><strong>Fethiye & Ölüdeniz’de Dalış</strong> – Berrak sular ve canlı deniz yaşamını keşfedin.</li>
+  </ul>
+  
+  <p><em>(Tüm turlar güvenilir iş ortaklarıyla gerçekleştirilir ve en yüksek güvenlik standartlarına uygundur. Güvenle rezervasyon yapabilirsiniz!)</em></p>
+  
+  <h2>Ölüdeniz Hakkında</h2>
+  <p>Ölüdeniz, <strong>Türkiye’nin en ünlü Mavi Lagünü</strong> ile <strong>turkuaz suları, yemyeşil dağları ve adrenalin dolu aktiviteleri</strong> ile bilinir. 
+  İster <strong>Belcekız Plajı’nda</strong> dinlenin, ister <strong>tekne turuna çıkın</strong>, ister <strong>Babadağ’dan yamaç paraşütü</strong> ile uçun – bu eşsiz destinasyonda herkese uygun bir şey var.</p>
+  
+  <p><strong>Dalaman Havalimanı - Ölüdeniz</strong> transferinizi bugün rezerve edin, tatilinize sorunsuz ve stressiz bir başlangıç yapın!</p>
+  `,
+            ar: `
+  <h1>خدمات النقل من مطار دالامان إلى أولودينيز</h1>
+  
+  <h2>نقل موثوق ومريح من مطار دالامان إلى أولودينيز</h2>
+  
+  <p>هل تخطط لرحلة إلى <strong>البحيرة الزرقاء</strong> الساحرة في أولودينيز؟ 
+  خدمة النقل <strong>الخاصة</strong> من <strong>مطار دالامان (DLM)</strong> إلى أولودينيز تضمن لك رحلة سلسة وخالية من المتاعب إلى واحدة من أجمل الوجهات في تركيا.
+  سواء كنت قادمًا من أجل تجربة <strong>الطيران الشراعي</strong> الشهيرة، أو الشواطئ الصافية، أو لقضاء عطلة هادئة، نحن نوفر لك 
+  <strong>وسيلة نقل آمنة، دقيقة ومريحة</strong>.</p>
+  
+  <h2>المسافة ومدة الرحلة</h2>
+  <ul>
+      <li><strong>المسافة:</strong> حوالي 60 كم</li>
+      <li><strong>مدة الرحلة:</strong> بين 50-70 دقيقة حسب حركة المرور وظروف الطريق.</li>
+  </ul>
+  
+  <h2>لماذا تختار خدمتنا؟</h2>
+  
+  <ul>
+      <li><strong>الاستقبال في مطار دالامان</strong> – سائقنا سيكون بانتظارك عند منطقة الوصول بعد الجمارك ويحمل <strong>لوحة باسمك</strong>.</li>
+      <li><strong>أسعار ثابتة وشفافة</strong> – لا رسوم خفية، تعرف على التكلفة مسبقًا.</li>
+      <li><strong>خيارات مركبات فاخرة وعادية</strong> – اختر من سيارات سيدان عادية، أو MPV، أو حافلات صغيرة للمجموعات.</li>
+      <li><strong>سائقون محترفون وآمنون</strong> – مرخصون، ذوو خبرة ويتحدثون الإنجليزية.</li>
+      <li><strong>دعم العملاء 24/7</strong> – دعم على مدار الساعة لجعل رحلتك خالية من التوتر.</li>
+      <li><strong>مراقبة الرحلات مجانًا</strong> – نتابع رحلتك الجوية ونضبط وقت الاستقبال حسب التأخير.</li>
+      <li><strong>دفع آمن</strong> – نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية.</li>
+      <li><strong>إلغاء مجاني</strong> – يمكنك الإلغاء حتى 24 ساعة قبل موعد النقل واسترداد كامل المبلغ.</li>
+  </ul>
+  
+  <h2>خيارات النقل</h2>
+  <div>
+  <table border="1">
+      <thead>
+          <tr>
+              <th>نوع المركبة</th>
+              <th>سعة الركاب</th>
+              <th>الحقائب المسموح بها</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>سيدان عادية</td>
+              <td>حتى 3 ركاب</td>
+              <td>حد أقصى 3 حقائب</td>
+          </tr>
+          <tr>
+              <td>MPV</td>
+              <td>حتى 5 ركاب</td>
+              <td>حد أقصى 5 حقائب</td>
+          </tr>
+          <tr>
+              <td>حافلة صغيرة</td>
+              <td>حتى 8 ركاب</td>
+              <td>حد أقصى 8 حقائب</td>
+          </tr>
+      </tbody>
+  </table>
+  </div>
+  
+  <p><em>(الأسعار متغيرة وتعتمد على الموسم وتوقيت الحجز. يرجى التحقق من نظام الحجز الإلكتروني لأحدث الأسعار.)</em></p>
+  
+  <h2>كيفية الحجز؟</h2>
+  <ol>
+      <li><strong>قم بزيارة موقعنا الإلكتروني</strong> وأدخل تفاصيل رحلتك.</li>
+      <li><strong>اختر المركبة المفضلة</strong> وتحقق من السعر.</li>
+      <li><strong>أكمل الحجز</strong> من خلال الدفع الآمن عبر الإنترنت.</li>
+      <li><strong>استلم تأكيدًا فوريًا عبر البريد الإلكتروني</strong> يحتوي على تفاصيل الاستلام.</li>
+      <li><strong>اتصل بنا 24/7</strong> للحصول على المساعدة في الحجز.</li>
+      <li><strong>أرسل لنا تفاصيل الحجز عبر البريد الإلكتروني</strong> وسنقوم بتأكيد النقل.</li>
+  </ol>
+  
+  <h2>خدمات إضافية</h2>
+  <ul>
+      <li><strong>مقاعد أطفال متوفرة</strong> – مقاعد أمان للأطفال والرضّع عند الطلب.</li>
+      <li><strong>خيارات التوقف في الطريق</strong> – إذا كنت بحاجة إلى التوقف أثناء الطريق، أخبرنا مسبقًا.</li>
+      <li><strong>نقل باتجاه واحد أو ذهاب وعودة</strong> – احجز رحلة العودة لراحة أكبر.</li>
+  </ul>
+  
+  <h2>استكشف أولودينيز مع جولاتنا الحصرية</h2>
+  <p>عزّز زيارتك من خلال حجز إحدى جولاتنا في أولودينيز بكل ثقة:</p>
+  <ul>
+      <li><strong>مغامرة الطيران الشراعي في أولودينيز</strong> – تجربة الطيران الشهيرة فوق البحيرة الزرقاء.</li>
+      <li><strong>جولة بالقارب في أولودينيز</strong> – الإبحار في الخلجان الخفية، وادي الفراشات وجزيرة سانت نيكولاس.</li>
+      <li><strong>سفاري بسيارة الجيب إلى وادي ساكليكنت</strong> – استكشف الوادي الشهير، حمامات الطين وآثار تيلوس.</li>
+      <li><strong>الغوص في فتحية وأولودينيز</strong> – استمتع بالمياه الصافية والحياة البحرية النابضة بالحياة.</li>
+  </ul>
+  
+  <p><em>(جميع الجولات تنظم من قبل شركاء موثوقين وتلتزم بأعلى معايير السلامة. احجز بثقة!)</em></p>
+  
+  <h2>حول أولودينيز</h2>
+  <p>تُعرف أولودينيز بأنها موطن <strong>أشهر بحيرة زرقاء في تركيا</strong>، وتتميز بـ<strong>مياهها الفيروزية، وجبالها الخضراء، وأنشطتها المليئة بالمغامرة</strong>. 
+  سواء كنت ترغب في الاسترخاء على <strong>شاطئ بيلجيكيز</strong>، أو القيام <strong>برحلة بالقارب</strong>، أو <strong>الطيران من جبل باباداغ</strong>، فستجد في هذه الوجهة المذهلة ما يناسب الجميع.</p>
+  
+  <p>احجز نقلتك من <strong>مطار دالامان إلى أولودينيز</strong> اليوم وتمتع ببداية مريحة وخالية من التوتر لرحلتك!</p>
+  `,
+            es: `
+  <h1>Traslados desde el Aeropuerto de Dalaman a Ölüdeniz</h1>
+  
+  <h2>Traslados Confiables y Cómodos desde el Aeropuerto de Dalaman a Ölüdeniz</h2>
+  
+  <p>¿Estás planeando un viaje a la impresionante <strong>Laguna Azul</strong> en Ölüdeniz? Nuestro <strong>servicio de traslado privado</strong> desde el 
+  <strong>Aeropuerto de Dalaman (DLM)</strong> a Ölüdeniz garantiza un viaje fluido y sin complicaciones a uno de los destinos más pintorescos de Turquía. 
+  Ya sea que vengas por la famosa <strong>experiencia de parapente</strong>, las playas cristalinas o unas vacaciones relajantes, te ofrecemos un transporte 
+  <strong>seguro, puntual y cómodo</strong>.</p>
+  
+  <h2>Distancia y Duración del Viaje</h2>
+  <ul>
+      <li><strong>Distancia:</strong> Aproximadamente 60 km</li>
+      <li><strong>Duración del viaje:</strong> Entre 50 y 70 minutos, dependiendo del tráfico y las condiciones del camino.</li>
+  </ul>
+  
+  <h2>¿Por Qué Elegir Nuestro Servicio de Traslado?</h2>
+  
+  <ul>
+      <li><strong>Recibimiento en el Aeropuerto de Dalaman</strong> – Nuestro conductor te esperará en la zona de llegadas, justo después de aduanas, con un <strong>cartel con tu nombre</strong>.</li>
+      <li><strong>Precios Fijos y Transparentes</strong> – Sin cargos ocultos; sabrás el costo desde el principio.</li>
+      <li><strong>Opciones de Vehículos Estándar y de Lujo</strong> – Elige entre sedanes, MPVs o minibuses para grupos grandes.</li>
+      <li><strong>Conductores Profesionales y Seguros</strong> – Conductores con licencia, experimentados y que hablan inglés.</li>
+      <li><strong>Atención al Cliente 24/7</strong> – Asistencia disponible en todo momento para tu tranquilidad.</li>
+      <li><strong>Monitoreo de Vuelos Gratuito</strong> – Seguimos tu vuelo y ajustamos el horario de recogida según los retrasos.</li>
+      <li><strong>Pago Seguro</strong> – Aceptamos Euro, GBP, Dólar estadounidense y Lira turca.</li>
+      <li><strong>Cancelación Gratuita</strong> – Cancela hasta 24 horas antes del traslado y obtén un reembolso completo.</li>
+  </ul>
+  
+  <h2>Opciones de Traslado</h2>
+  <div>
+  <table border="1">
+      <thead>
+          <tr>
+              <th>Tipo de Vehículo</th>
+              <th>Capacidad de Pasajeros</th>
+              <th>Capacidad de Equipaje</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Sedán Estándar</td>
+              <td>Hasta 3 pasajeros</td>
+              <td>Máximo 3 maletas</td>
+          </tr>
+          <tr>
+              <td>MPV</td>
+              <td>Hasta 5 pasajeros</td>
+              <td>Máximo 5 maletas</td>
+          </tr>
+          <tr>
+              <td>Minibús</td>
+              <td>Hasta 8 pasajeros</td>
+              <td>Máximo 8 maletas</td>
+          </tr>
+      </tbody>
+  </table>
+  </div>
+  
+  <p><em>(Los precios son dinámicos y pueden variar según la temporada y la fecha de reserva. Consulta nuestro sistema de reservas online para conocer las tarifas actualizadas.)</em></p>
+  
+  <h2>¿Cómo Reservar?</h2>
+  <ol>
+      <li><strong>Visita nuestro sitio web</strong> e introduce los datos de tu viaje.</li>
+      <li><strong>Elige tu vehículo preferido</strong> y confirma el precio.</li>
+      <li><strong>Completa tu reserva</strong> con pago seguro en línea.</li>
+      <li><strong>Recibe una confirmación instantánea</strong> por correo electrónico con los detalles de recogida.</li>
+      <li><strong>Llámanos 24/7</strong> para asistencia con la reserva.</li>
+      <li><strong>Envíanos un correo electrónico</strong> con los detalles de tu reserva y nuestro equipo la confirmará.</li>
+  </ol>
+  
+  <h2>Servicios Adicionales</h2>
+  <ul>
+      <li><strong>Asientos para Niños Disponibles</strong> – Sillas de seguridad para bebés y niños pequeños bajo solicitud.</li>
+      <li><strong>Paradas Durante el Camino</strong> – ¿Necesitas hacer una parada? Avísanos con antelación.</li>
+      <li><strong>Traslados Solo Ida y Ida y Vuelta</strong> – Reserva también el viaje de regreso para mayor comodidad.</li>
+  </ul>
+  
+  <h2>Explora Ölüdeniz con Nuestros Tours Exclusivos</h2>
+  <p>Mejora tu visita reservando con confianza uno de nuestros tours en Ölüdeniz:</p>
+  <ul>
+      <li><strong>Aventura de Parapente en Ölüdeniz</strong> – Vive la experiencia del parapente sobre la espectacular Laguna Azul.</li>
+      <li><strong>Tour en Barco por Ölüdeniz</strong> – Navega por bahías ocultas, el Valle de las Mariposas y la Isla de San Nicolás.</li>
+      <li><strong>Safari en Jeep al Cañón de Saklıkent</strong> – Descubre el famoso cañón, baños de barro y las ruinas de Tlos.</li>
+      <li><strong>Buceo en Fethiye y Ölüdeniz</strong> – Explora aguas cristalinas y vida marina vibrante.</li>
+  </ul>
+  
+  <p><em>(Todos los tours son operados con socios de confianza y cumplen con los más altos estándares de seguridad. ¡Reserva con tranquilidad!)</em></p>
+  
+  <h2>Sobre Ölüdeniz</h2>
+  <p>Ölüdeniz alberga la <strong>Laguna Azul más famosa de Turquía</strong>, conocida por sus <strong>aguas turquesas, montañas verdes y actividades llenas de aventura</strong>. 
+  Ya sea que quieras relajarte en la <strong>Playa Belcekız</strong>, hacer un <strong>tour en barco</strong> o <strong>volar en parapente desde el Monte Babadağ</strong>, este destino tiene algo para todos.</p>
+  
+  <p>¡Reserva hoy tu traslado desde el <strong>Aeropuerto de Dalaman a Ölüdeniz</strong> y comienza tus vacaciones sin estrés!</p>
+  `,
+            it: `
+  <h1>Transfer dall Aeroporto di Dalaman a Ölüdeniz</h1>
+  
+  <h2>Transfer Affidabili e Confortevoli dall Aeroporto di Dalaman a Ölüdeniz</h2>
+  
+  <p>Stai pianificando un viaggio verso la splendida <strong>Laguna Blu</strong> di Ölüdeniz? Il nostro <strong>servizio di transfer privato</strong> 
+  dall <strong>Aeroporto di Dalaman (DLM)</strong> a Ölüdeniz garantisce un viaggio comodo e senza stress verso una delle destinazioni più pittoresche della Turchia. 
+  Che tu venga per l <strong>esperienza di parapendio</strong>, per le spiagge cristalline o per una vacanza rilassante, offriamo un trasporto 
+  <strong>sicuro, puntuale e confortevole</strong>.</p>
+  
+  <h2>Distanza e Durata del Viaggio</h2>
+  <ul>
+      <li><strong>Distanza:</strong> Circa 60 km</li>
+      <li><strong>Durata del Viaggio:</strong> Tra 50 e 70 minuti, a seconda del traffico e delle condizioni stradali.</li>
+  </ul>
+  
+  <h2>Perché Scegliere il Nostro Servizio?</h2>
+  
+  <ul>
+      <li><strong>Accoglienza all Aeroporto di Dalaman</strong> – Il nostro autista ti attenderà nell area arrivi, subito dopo la dogana, con un <strong>cartello con il tuo nome</strong>.</li>
+      <li><strong>Prezzi Fissi e Trasparenti</strong> – Nessun costo nascosto, conosci il prezzo in anticipo.</li>
+      <li><strong>Veicoli Standard e di Lusso</strong> – Scegli tra auto sedan, MPV o minibus per gruppi più numerosi.</li>
+      <li><strong>Autisti Professionali e Sicuri</strong> – Autisti con licenza, esperienza e che parlano inglese.</li>
+      <li><strong>Assistenza Clienti 24/7</strong> – Supporto disponibile in qualsiasi momento per un viaggio senza stress.</li>
+      <li><strong>Monitoraggio Voli Gratuito</strong> – Monitoriamo il tuo volo e adeguiamo l’orario di prelievo in caso di ritardi.</li>
+      <li><strong>Pagamento Sicuro</strong> – Accettiamo Euro, GBP, Dollari USA e Lire Turche.</li>
+      <li><strong>Cancellazione Gratuita</strong> – Cancella fino a 24 ore prima del transfer per un rimborso completo.</li>
+  </ul>
+  
+  <h2>Opzioni di Transfer</h2>
+  <div>
+  <table border="1">
+      <thead>
+          <tr>
+              <th>Tipo di Veicolo</th>
+              <th>Capacità Passeggeri</th>
+              <th>Bagagli Consentiti</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Auto Sedan Standard</td>
+              <td>Fino a 3 passeggeri</td>
+              <td>Max 3 valigie</td>
+          </tr>
+          <tr>
+              <td>MPV</td>
+              <td>Fino a 5 passeggeri</td>
+              <td>Max 5 valigie</td>
+          </tr>
+          <tr>
+              <td>Minibus</td>
+              <td>Fino a 8 passeggeri</td>
+              <td>Max 8 valigie</td>
+          </tr>
+      </tbody>
+  </table>
+  </div>
+  
+  <p><em>(I prezzi sono dinamici e possono variare a seconda della stagione e del momento della prenotazione. Controlla il nostro sistema di prenotazione online per conoscere le tariffe aggiornate.)</em></p>
+  
+  <h2>Come Prenotare?</h2>
+  <ol>
+      <li><strong>Visita il nostro sito web</strong> e inserisci i dettagli del tuo viaggio.</li>
+      <li><strong>Scegli il tuo veicolo preferito</strong> e conferma il prezzo.</li>
+      <li><strong>Completa la prenotazione</strong> con un pagamento online sicuro.</li>
+      <li><strong>Ricevi conferma immediata</strong> via e-mail con i dettagli del prelievo.</li>
+      <li><strong>Chiamaci 24/7</strong> per assistenza nella prenotazione.</li>
+      <li><strong>Inviaci i dettagli via e-mail</strong> e il nostro team confermerà il tuo transfer.</li>
+  </ol>
+  
+  <h2>Servizi Aggiuntivi</h2>
+  <ul>
+      <li><strong>Seggiolini per Bambini Disponibili</strong> – Su richiesta, offriamo seggiolini per neonati e bambini piccoli.</li>
+      <li><strong>Possibilità di Soste Lungo il Percorso</strong> – Hai bisogno di fermarti durante il tragitto? Informaci in anticipo.</li>
+      <li><strong>Transfer Solo Andata o Andata e Ritorno</strong> – Prenota anche il ritorno per una maggiore comodità.</li>
+  </ul>
+  
+  <h2>Esplora Ölüdeniz con i Nostri Tour Esclusivi</h2>
+  <p>Rendi speciale la tua visita prenotando con fiducia uno dei nostri tour a Ölüdeniz:</p>
+  <ul>
+      <li><strong>Avventura in Parapendio a Ölüdeniz</strong> – Prova il parapendio sopra la spettacolare Laguna Blu.</li>
+      <li><strong>Tour in Barca a Ölüdeniz</strong> – Naviga tra baie nascoste, la Valle delle Farfalle e l’Isola di San Nicola.</li>
+      <li><strong>Jeep Safari al Canyon di Saklıkent</strong> – Scopri il famoso canyon, i bagni di fango e le rovine di Tlos.</li>
+      <li><strong>Immersioni a Fethiye e Ölüdeniz</strong> – Esplora acque cristalline e una ricca vita marina.</li>
+  </ul>
+  
+  <p><em>(Tutti i tour sono organizzati con partner fidati e rispettano i più alti standard di sicurezza. Prenota con fiducia!)</em></p>
+  
+  <h2>Informazioni su Ölüdeniz</h2>
+  <p>Ölüdeniz ospita la <strong>Laguna Blu più famosa della Turchia</strong>, nota per le sue <strong>acque turchesi, montagne verdi e attività avventurose</strong>. 
+  Che tu voglia rilassarti sulla <strong>Spiaggia di Belcekız</strong>, fare un <strong>tour in barca</strong> o <strong>volare in parapendio dal Monte Babadağ</strong>, questa destinazione offre qualcosa per tutti.</p>
+  
+  <p>Prenota oggi stesso il tuo transfer da <strong>Aeroporto di Dalaman a Ölüdeniz</strong> e inizia la tua vacanza in totale relax!</p>
+  `,
+            ru: `
+  <h1>Трансфер из аэропорта Даламан в Олюдениз</h1>
+  
+  <h2>Надежный и Комфортный Трансфер из аэропорта Даламан в Олюдениз</h2>
+  
+  <p>Планируете поездку к великолепной <strong>Голубой лагуне</strong> в Олюденизе? Наш <strong>приватный трансфер</strong> из 
+  <strong>аэропорта Даламан (DLM)</strong> в Олюдениз обеспечит вам спокойное и комфортное путешествие к одному из самых живописных мест Турции. 
+  Будь то <strong>полет на параплане</strong>, чистейшие пляжи или расслабляющий отдых — мы обеспечим 
+  <strong>безопасную, пунктуальную и удобную</strong> поездку.</p>
+  
+  <h2>Расстояние и Время в Пути</h2>
+  <ul>
+      <li><strong>Расстояние:</strong> Примерно 60 км</li>
+      <li><strong>Время в пути:</strong> От 50 до 70 минут в зависимости от трафика и дорожных условий.</li>
+  </ul>
+  
+  <h2>Почему стоит выбрать наш трансфер?</h2>
+  
+  <ul>
+      <li><strong>Встреча в аэропорту Даламан</strong> – Наш водитель будет ждать вас в зоне прибытия сразу после таможни с <strong>табличкой с вашим именем</strong>.</li>
+      <li><strong>Фиксированная и прозрачная цена</strong> – Никаких скрытых платежей, вы знаете стоимость заранее.</li>
+      <li><strong>Автомобили стандарт и люкс</strong> – Выбор из седанов, MPV или микроавтобусов для больших групп.</li>
+      <li><strong>Профессиональные и надежные водители</strong> – Лицензированные, опытные и говорящие на английском языке.</li>
+      <li><strong>Круглосуточная поддержка клиентов</strong> – Поддержка 24/7 для спокойствия и уверенности.</li>
+      <li><strong>Бесплатный мониторинг рейса</strong> – Мы отслеживаем ваш рейс и корректируем время встречи при задержках.</li>
+      <li><strong>Безопасная оплата</strong> – Принимаем EUR, GBP, USD и турецкие лиры.</li>
+      <li><strong>Бесплатная отмена</strong> – Бесплатная отмена за 24 часа до трансфера с полным возвратом.</li>
+  </ul>
+  
+  <h2>Варианты трансфера</h2>
+  <div>
+  <table border="1">
+      <thead>
+          <tr>
+              <th>Тип автомобиля</th>
+              <th>Вместимость</th>
+              <th>Багаж</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Стандартный седан</td>
+              <td>До 3 пассажиров</td>
+              <td>Максимум 3 чемодана</td>
+          </tr>
+          <tr>
+              <td>MPV</td>
+              <td>До 5 пассажиров</td>
+              <td>Максимум 5 чемоданов</td>
+          </tr>
+          <tr>
+              <td>Микроавтобус</td>
+              <td>До 8 пассажиров</td>
+              <td>Максимум 8 чемоданов</td>
+          </tr>
+      </tbody>
+  </table>
+  </div>
+  
+  <p><em>(Цены динамичны и могут меняться в зависимости от сезона и времени бронирования. Проверьте наш онлайн-сервис бронирования для актуальных тарифов.)</em></p>
+  
+  <h2>Как забронировать?</h2>
+  <ol>
+      <li><strong>Посетите наш сайт</strong> и введите данные поездки.</li>
+      <li><strong>Выберите предпочитаемый автомобиль</strong> и подтвердите цену.</li>
+      <li><strong>Завершите бронирование</strong> с помощью безопасной онлайн-оплаты.</li>
+      <li><strong>Получите мгновенное подтверждение</strong> по электронной почте с деталями встречи.</li>
+      <li><strong>Позвоните нам 24/7</strong> для помощи с бронированием.</li>
+      <li><strong>Отправьте данные по электронной почте</strong>, и наша команда подтвердит ваш трансфер.</li>
+  </ol>
+  
+  <h2>Дополнительные услуги</h2>
+  <ul>
+      <li><strong>Детские кресла</strong> – По запросу предоставляем кресла для младенцев и детей.</li>
+      <li><strong>Остановки по пути</strong> – Если нужно остановиться по дороге — сообщите заранее.</li>
+      <li><strong>Трансфер в одну сторону и туда-обратно</strong> – Забронируйте обратную поездку для удобства.</li>
+  </ul>
+  
+  <h2>Исследуйте Олюдениз с нашими эксклюзивными турами</h2>
+  <p>Сделайте поездку незабываемой — бронируйте с уверенностью один из наших туров в Олюдениз:</p>
+  <ul>
+      <li><strong>Полет на параплане в Олюденизе</strong> – Наслаждайтесь видом на Голубую лагуну с высоты.</li>
+      <li><strong>Прогулка на лодке по Олюденизу</strong> – Плавание по скрытым бухтам, Долине бабочек и острову Святого Николая.</li>
+      <li><strong>Джип-сафари в каньон Саклыкент</strong> – Исследуйте каньон, грязевые ванны и руины Тлоса.</li>
+      <li><strong>Дайвинг в Фетхие и Олюденизе</strong> – Погружение в кристально чистые воды и изучение морской жизни.</li>
+  </ul>
+  
+  <p><em>(Все туры проводятся надежными партнерами и соответствуют самым высоким стандартам безопасности. Бронируйте с уверенностью!)</em></p>
+  
+  <h2>О Олюденизе</h2>
+  <p>Олюдениз славится <strong>самой известной Голубой лагуной Турции</strong>, её <strong>бирюзовой водой, зелеными горами и захватывающими приключениями</strong>. 
+  Вы можете <strong>отдохнуть на пляже Бельджекыз</strong>, отправиться в <strong>лодочный тур</strong> или <strong>выполнить полет на параплане с горы Бабадаг</strong> — здесь найдется что-то для каждого.</p>
+  
+  <p>Забронируйте <strong>трансфер из аэропорта Даламан в Олюдениз</strong> уже сегодня и начните свой отпуск без стресса!</p>
+  `,
+
+            zh: `
+  <h1>从达拉曼机场到厄吕代尼兹的接送服务</h1>
+  
+  <h2>从达拉曼机场到厄吕代尼兹的可靠舒适接送服务</h2>
+  
+  <p>计划前往美丽的<strong>蓝色泻湖</strong>（Lagoon）厄吕代尼兹旅游吗？我们的<strong>私人接送服务</strong>将从
+  <strong>达拉曼机场（DLM）</strong>直达厄吕代尼兹，确保您顺利、无忧地抵达土耳其最迷人的目的地之一。
+  无论您是为了著名的<strong>滑翔伞体验</strong>、清澈海滩，还是轻松度假，我们都为您提供
+  <strong>安全、准时、舒适</strong>的交通服务。</p>
+  
+  <h2>距离与行程时间</h2>
+  <ul>
+      <li><strong>距离：</strong> 约60公里</li>
+      <li><strong>行程时间：</strong> 约50-70分钟，视交通和道路情况而定。</li>
+  </ul>
+  
+  <h2>为何选择我们的接送服务？</h2>
+  
+  <ul>
+      <li><strong>达拉曼机场接机服务</strong> – 我们的司机将在海关出口的到达区举着<strong>您的名字牌</strong>等待您。</li>
+      <li><strong>价格透明、固定</strong> – 无隐藏费用，提前知晓您的费用。</li>
+      <li><strong>豪华与标准车辆可选</strong> – 提供标准轿车、MPV或适合团体的迷你巴士。</li>
+      <li><strong>安全专业司机</strong> – 具备执照、有经验、会说英语的司机。</li>
+      <li><strong>全天候客户支持</strong> – 24/7全天候为您服务，确保旅程无忧。</li>
+      <li><strong>免费航班监控</strong> – 我们追踪您的航班，根据延误自动调整接机时间。</li>
+      <li><strong>安全支付</strong> – 可接受欧元、英镑、美元和土耳其里拉。</li>
+      <li><strong>免费取消</strong> – 在出发前24小时内取消，可获得全额退款。</li>
+  </ul>
+  
+  <h2>接送选项</h2>
+  <div>
+  <table border="1">
+      <thead>
+          <tr>
+              <th>车辆类型</th>
+              <th>乘客容量</th>
+              <th>行李限额</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>标准轿车</td>
+              <td>最多3人</td>
+              <td>最多3个行李箱</td>
+          </tr>
+          <tr>
+              <td>MPV</td>
+              <td>最多5人</td>
+              <td>最多5个行李箱</td>
+          </tr>
+          <tr>
+              <td>迷你巴士</td>
+              <td>最多8人</td>
+              <td>最多8个行李箱</td>
+          </tr>
+      </tbody>
+  </table>
+  </div>
+  
+  <p><em>（价格为动态，可能因季节和预订时间而异。请通过我们的在线预订系统查看最新价格。）</em></p>
+  
+  <h2>如何预订？</h2>
+  <ol>
+      <li><strong>访问我们的网站</strong>，填写您的出行信息。</li>
+      <li><strong>选择您偏好的车辆类型</strong>并确认价格。</li>
+      <li><strong>通过安全的在线支付完成预订</strong>。</li>
+      <li><strong>您将立即收到一封包含接送信息的确认邮件</strong>。</li>
+      <li><strong>全天候电话支持</strong>，为您提供预订帮助。</li>
+      <li><strong>您也可以将订单信息通过电子邮件发送给我们</strong>，我们将为您确认接送服务。</li>
+  </ol>
+  
+  <h2>附加服务</h2>
+  <ul>
+      <li><strong>提供儿童安全座椅</strong> – 根据要求为婴儿和儿童准备。</li>
+      <li><strong>沿途可停靠</strong> – 需要途中停车？请提前告知。</li>
+      <li><strong>单程与往返接送</strong> – 同时预订返程接送更方便。</li>
+  </ul>
+  
+  <h2>通过我们的专属旅游探索厄吕代尼兹</h2>
+  <p>提升您的旅程体验，自信预订我们的特色旅游项目：</p>
+  <ul>
+      <li><strong>厄吕代尼兹滑翔伞体验</strong> – 在壮丽的蓝色泻湖上空飞翔。</li>
+      <li><strong>厄吕代尼兹游船之旅</strong> – 航行至隐秘海湾、蝴蝶谷和圣尼古拉岛。</li>
+      <li><strong>Saklıkent峡谷吉普车探险</strong> – 探索峡谷、泥浴与Tlos古迹。</li>
+      <li><strong>在费特希耶和厄吕代尼兹潜水</strong> – 探索清澈海水和丰富海洋生态。</li>
+  </ul>
+  
+  <p><em>（所有旅游活动由可信赖的合作伙伴运营，并符合最高安全标准。请放心预订！）</em></p>
+  
+  <h2>关于厄吕代尼兹</h2>
+  <p>厄吕代尼兹拥有<strong>土耳其最著名的蓝色泻湖</strong>，以其<strong>碧蓝海水、郁郁葱葱的群山和惊险刺激的活动</strong>闻名。 
+  无论是想在<strong>Belcekız海滩</strong>放松，还是参加<strong>游船之旅</strong>，或是从<strong>Babadag山上滑翔</strong>，这里总有适合您的一项体验。</p>
+  
+  <p>立即预订从<strong>达拉曼机场到厄吕代尼兹</strong>的接送服务，开启您的轻松假期之旅！</p>
+  `,
+
         },
         "/dalaman-airport-to-fethiye-town-center": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``
+            en: `
+            <h1>Dalaman Airport to Fethiye Town Center Transfers</h1>
+
+<h2>Reliable & Comfortable Transfers from Dalaman Airport to Fethiye Town Center</h2>
+
+<p>Looking for a hassle-free transfer from Dalaman Airport (DLM) to Fethiye Town Center? Our professional airport transfer service ensures a smooth and comfortable journey from the airport to your destination. Whether you're visiting for leisure or business, we provide reliable, punctual, and high-quality transportation.</p>
+
+<h2>Distance & Travel Time</h2>
+<ul>
+<li><strong>Distance:</strong> Approximately 50 km</li>
+<li><strong>Travel Time:</strong> Around 45–60 minutes, depending on traffic and road conditions.</li>
+</ul>
+
+<h2>Why Choose Our Transfer Service?</h2>
+<ul>
+<li><strong>Meet & Greet at Dalaman Airport</strong> – Our driver will be waiting at the arrivals area, just after customs, holding a passenger name board for easy identification.</li>
+<li><strong>Fixed & Transparent Pricing</strong> – No hidden fees, ensuring you know your cost upfront.</li>
+<li><strong>Luxury & Standard Vehicle Options</strong> – Choose from standard sedans, MPVs, or minibuses for larger groups.</li>
+<li><strong>Safe & Professional Drivers</strong> – Licensed, experienced, and English-speaking drivers.</li>
+<li><strong>24/7 Customer Support</strong> – Assistance available at any time to make your journey stress-free.</li>
+<li><strong>Free Flight Monitoring</strong> – We track your flight and adjust pickup times accordingly to accommodate any delays.</li>
+<li><strong>Secure Payment</strong> – Euro, GBP, US Dollar & Turkish Lira Accepted.</li>
+<li><strong>Free Cancellation</strong> – Cancel up to 24 hours before your transfer for a full refund.</li>
+</ul>
+
+<h2>Transfer Options</h2>
+
+<p>We offer various vehicle options to suit different travel needs:</p>
+
+<div>
+<table border="1">
+<thead>
+  <tr>
+    <th>Vehicle Type</th>
+    <th>Passenger Capacity</th>
+    <th>Luggage Allowance</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Standard Sedan</td>
+    <td>Up to 3 passengers</td>
+    <td>Max 3 suitcases</td>
+  </tr>
+  <tr>
+    <td>MPV</td>
+    <td>Up to 5 passengers</td>
+    <td>Max 5 suitcases</td>
+  </tr>
+  <tr>
+    <td>Minibus</td>
+    <td>Up to 8 passengers</td>
+    <td>Max 8 suitcases</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p><em>(Prices are dynamic and may vary depending on season and booking time. Please check our online booking system for the latest rates.)</em></p>
+
+<h2>How to Book?</h2>
+<ol>
+<li><strong>Visit our website</strong> and enter your travel details.</li>
+<li><strong>Choose your preferred vehicle</strong> and confirm pricing.</li>
+<li><strong>Complete your booking</strong> with secure online payment.</li>
+<li><strong>Receive instant confirmation</strong> via email with pickup details.</li>
+<li><strong>Call us 24/7</strong> for booking assistance.</li>
+<li><strong>Email us</strong> your booking details, and our team will confirm your transfer.</li>
+</ol>
+
+<h2>Additional Services</h2>
+<ul>
+<li><strong>Child Seats Available</strong> – Safety seats for infants and toddlers upon request.</li>
+<li><strong>Stopover Options</strong> – Need to stop along the way? Let us know in advance.</li>
+<li><strong>One-Way & Return Transfers</strong> – Book a return journey for added convenience.</li>
+</ul>
+
+<h2>Explore Fethiye with Our Exclusive Tours</h2>
+
+<p>Enhance your visit by booking one of our popular Fethiye tours with confidence:</p>
+<ul>
+<li><strong>Fethiye 12 Islands Boat Tour</strong> – A scenic day trip exploring breathtaking islands.</li>
+<li><strong>Fethiye Oludeniz Boat Tour</strong> – Sail along the famous Blue Lagoon and beyond.</li>
+<li><strong>Fethiye Quad Bike Safari Tour</strong> – Adventure through rugged terrains and beautiful landscapes.</li>
+<li><strong>Paragliding Adventure in Fethiye Oludeniz</strong> – Experience breathtaking aerial views over the lagoon.</li>
+</ul>
+
+<p><em>(All tours are operated with trusted partners and offer the highest safety standards. Book with confidence!)</em></p>
+
+<h2>About Fethiye Town Center</h2>
+
+<p>Fethiye is a vibrant coastal town offering breathtaking sea views, a lively marina, and a perfect blend of history and modern amenities. Explore <strong>Fethiye Old Town (Paspatur)</strong>, <strong>Amyntas Rock Tombs</strong>, <strong>Fethiye Marina</strong>, and the famous <strong>Çalış Beach</strong>.</p>
+
+<p>Book your <strong>Dalaman Airport to Fethiye</strong> transfer today and enjoy a smooth, stress-free start to your trip!</p>
+
+
+          `,
+            tr: `
+          <h1>Dalaman Havalimanı - Fethiye Merkez Transferleri</h1>
+          
+          <h2>Dalaman Havalimanı'ndan Fethiye Merkezine Güvenli ve Konforlu Transfer</h2>
+          
+          <p>Dalaman Havalimanı (DLM)’ndan Fethiye Merkez’e sorunsuz bir transfer mi arıyorsunuz? 
+          Profesyonel transfer hizmetimiz, havalimanından konaklama noktanıza kadar rahat ve konforlu bir yolculuk sunar. 
+          İster tatil ister iş amaçlı seyahat ediyor olun, size güvenilir, zamanında ve yüksek kaliteli ulaşım sağlıyoruz.</p>
+          
+          <h2>Mesafe ve Yolculuk Süresi</h2>
+          <ul>
+            <li><strong>Mesafe:</strong> Yaklaşık 50 km</li>
+            <li><strong>Yolculuk Süresi:</strong> Trafik ve yol durumuna bağlı olarak 45–60 dakika arası.</li>
+          </ul>
+          
+          <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+          <ul>
+            <li><strong>Dalaman Havalimanı'nda Karşılama</strong> – Şoförümüz gümrük sonrası geliş alanında, elinde <strong>isim tabelası</strong> ile sizi bekliyor olacak.</li>
+            <li><strong>Sabit ve Şeffaf Fiyatlandırma</strong> – Gizli ücretler yok, ne ödeyeceğinizi en baştan bilirsiniz.</li>
+            <li><strong>Lüks ve Standart Araç Seçenekleri</strong> – Standart sedan, MPV veya kalabalık gruplar için minibüsler arasından seçim yapabilirsiniz.</li>
+            <li><strong>Güvenli ve Profesyonel Sürücüler</strong> – Lisanslı, deneyimli ve İngilizce konuşan sürücüler.</li>
+            <li><strong>7/24 Müşteri Desteği</strong> – Her an destek alarak seyahatinizi stressiz hale getirin.</li>
+            <li><strong>Ücretsiz Uçuş Takibi</strong> – Uçuşunuzu takip ediyor, gecikmelere göre alınış saatini ayarlıyoruz.</li>
+            <li><strong>Güvenli Ödeme</strong> – Euro, GBP, Amerikan Doları ve Türk Lirası kabul edilmektedir.</li>
+            <li><strong>Ücretsiz İptal</strong> – Transferden 24 saat öncesine kadar iptal edebilir ve tam geri ödeme alabilirsiniz.</li>
+          </ul>
+          
+          <h2>Transfer Seçenekleri</h2>
+          
+          <p>Farklı seyahat ihtiyaçlarına uygun çeşitli araç seçenekleri sunuyoruz:</p>
+          
+          <div>
+          <table border="1">
+          <thead>
+            <tr>
+              <th>Araç Tipi</th>
+              <th>Yolcu Kapasitesi</th>
+              <th>Bagaj Hakkı</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Standart Sedan</td>
+              <td>En fazla 3 yolcu</td>
+              <td>Maksimum 3 bavul</td>
+            </tr>
+            <tr>
+              <td>MPV</td>
+              <td>En fazla 5 yolcu</td>
+              <td>Maksimum 5 bavul</td>
+            </tr>
+            <tr>
+              <td>Minibüs</td>
+              <td>En fazla 8 yolcu</td>
+              <td>Maksimum 8 bavul</td>
+            </tr>
+          </tbody>
+          </table>
+          </div>
+          
+          <p><em>(Fiyatlar sezona ve rezervasyon zamanına göre değişiklik gösterebilir. Güncel fiyatlar için online rezervasyon sistemimizi kontrol edin.)</em></p>
+          
+          <h2>Nasıl Rezervasyon Yapılır?</h2>
+          <ol>
+            <li><strong>Web sitemizi ziyaret edin</strong> ve seyahat bilgilerinizi girin.</li>
+            <li><strong>Tercih ettiğiniz aracı seçin</strong> ve fiyatı onaylayın.</li>
+            <li><strong>Güvenli online ödeme</strong> ile rezervasyonu tamamlayın.</li>
+            <li><strong>Pickup (karşılama) detaylarını içeren</strong> onay maili anında size gönderilecektir.</li>
+            <li><strong>7/24 bizi arayın</strong> ve rezervasyon konusunda destek alın.</li>
+            <li><strong>Rezervasyon bilgilerinizi bize e-posta ile gönderin</strong>, ekibimiz transferinizi onaylayacaktır.</li>
+          </ol>
+          
+          <h2>Ek Hizmetler</h2>
+          <ul>
+            <li><strong>Çocuk Koltuğu Mevcuttur</strong> – Talep üzerine bebek ve küçük çocuklar için güvenli koltuk sağlanır.</li>
+            <li><strong>Yol Üzerinde Durma Seçeneği</strong> – Yol üzerinde durmak isterseniz, lütfen önceden bize bildirin.</li>
+            <li><strong>Tek Yön ve Gidiş-Dönüş Transfer</strong> – Gidiş-dönüş rezervasyon ile ekstra kolaylık sağlayın.</li>
+          </ul>
+          
+          <h2>Fethiye’yi Özel Turlarımızla Keşfedin</h2>
+          
+          <p>Fethiye’deki popüler turlarımızdan birini güvenle rezerve ederek ziyaretinizi daha da unutulmaz hale getirin:</p>
+          <ul>
+            <li><strong>Fethiye 12 Adalar Tekne Turu</strong> – Nefes kesici adaları keşfedeceğiniz manzaralı bir günlük gezi.</li>
+            <li><strong>Fethiye Ölüdeniz Tekne Turu</strong> – Ünlü Mavi Lagün ve çevresinde huzurlu bir yolculuk.</li>
+            <li><strong>Fethiye ATV Safari Turu</strong> – Engebeli araziler ve doğa manzaraları eşliğinde macera dolu bir deneyim.</li>
+            <li><strong>Fethiye Ölüdeniz Yamaç Paraşütü</strong> – Lagün üzerinde nefes kesici manzaraları kuşbakışı izleyin.</li>
+          </ul>
+          
+          <p><em>(Tüm turlar güvenilir iş ortakları ile gerçekleştirilir ve en yüksek güvenlik standartlarına uygundur. Güvenle rezervasyon yapabilirsiniz!)</em></p>
+          
+          <h2>Fethiye Merkez Hakkında</h2>
+          
+          <p>Fethiye, etkileyici deniz manzaraları, canlı bir marina ve tarihi ile modern imkanların mükemmel bir birleşimini sunan hareketli bir sahil kasabasıdır. 
+          <strong>Fethiye Eski Şehir (Paspatur)</strong>, <strong>Amintas Kaya Mezarları</strong>, <strong>Fethiye Marinası</strong> ve ünlü <strong>Çalış Plajı</strong>’nı keşfedin.</p>
+          
+          <p><strong>Dalaman Havalimanı - Fethiye</strong> transferinizi bugün rezerve edin ve tatilinize stressiz, keyifli bir başlangıç yapın!</p>
+          `,
+            ar: `
+          <h1>خدمات النقل من مطار دالامان إلى مركز مدينة فتحية</h1>
+          
+          <h2>نقل موثوق ومريح من مطار دالامان إلى مركز مدينة فتحية</h2>
+          
+          <p>هل تبحث عن خدمة نقل سهلة وخالية من المتاعب من مطار دالامان (DLM) إلى مركز مدينة فتحية؟ 
+          توفر لك خدمتنا الاحترافية رحلة مريحة وسلسة من المطار إلى وجهتك. سواء كنت مسافرًا للترفيه أو للعمل، فنحن نقدم وسيلة نقل موثوقة، دقيقة وعالية الجودة.</p>
+          
+          <h2>المسافة ومدة الرحلة</h2>
+          <ul>
+            <li><strong>المسافة:</strong> حوالي 50 كم</li>
+            <li><strong>مدة الرحلة:</strong> بين 45 و60 دقيقة حسب حالة المرور والطريق.</li>
+          </ul>
+          
+          <h2>لماذا تختار خدمتنا؟</h2>
+          <ul>
+            <li><strong>الاستقبال في مطار دالامان</strong> – سيكون السائق في انتظارك في منطقة الوصول بعد الجمارك، حاملًا لوحة باسمك.</li>
+            <li><strong>أسعار ثابتة وشفافة</strong> – لا توجد رسوم خفية، تعرف التكلفة مسبقًا.</li>
+            <li><strong>خيارات مركبات فاخرة وعادية</strong> – اختر من سيارات السيدان، MPV أو الحافلات الصغيرة للمجموعات.</li>
+            <li><strong>سائقون محترفون وآمنون</strong> – مرخصون، ذوو خبرة ويتحدثون الإنجليزية.</li>
+            <li><strong>دعم العملاء 24/7</strong> – دعم متوفر في أي وقت لجعل رحلتك خالية من التوتر.</li>
+            <li><strong>متابعة الرحلات مجانًا</strong> – نتابع رحلتك ونضبط وقت الاستقبال في حال حدوث تأخير.</li>
+            <li><strong>دفع آمن</strong> – نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية.</li>
+            <li><strong>إلغاء مجاني</strong> – يمكنك الإلغاء حتى 24 ساعة قبل موعد النقل واسترداد المبلغ بالكامل.</li>
+          </ul>
+          
+          <h2>خيارات النقل</h2>
+          
+          <p>نقدم خيارات متنوعة من المركبات لتناسب احتياجات السفر المختلفة:</p>
+          
+          <div>
+          <table border="1">
+          <thead>
+            <tr>
+              <th>نوع المركبة</th>
+              <th>سعة الركاب</th>
+              <th>الحد الأقصى للأمتعة</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>سيدان عادية</td>
+              <td>حتى 3 ركاب</td>
+              <td>حد أقصى 3 حقائب</td>
+            </tr>
+            <tr>
+              <td>MPV</td>
+              <td>حتى 5 ركاب</td>
+              <td>حد أقصى 5 حقائب</td>
+            </tr>
+            <tr>
+              <td>حافلة صغيرة</td>
+              <td>حتى 8 ركاب</td>
+              <td>حد أقصى 8 حقائب</td>
+            </tr>
+          </tbody>
+          </table>
+          </div>
+          
+          <p><em>(الأسعار متغيرة وتعتمد على الموسم وتاريخ الحجز. يُرجى مراجعة نظام الحجز الإلكتروني للحصول على الأسعار الحالية.)</em></p>
+          
+          <h2>كيفية الحجز؟</h2>
+          <ol>
+            <li><strong>قم بزيارة موقعنا الإلكتروني</strong> وأدخل تفاصيل رحلتك.</li>
+            <li><strong>اختر المركبة المفضلة</strong> وتحقق من السعر.</li>
+            <li><strong>أكمل الحجز</strong> بالدفع الآمن عبر الإنترنت.</li>
+            <li><strong>استلم تأكيدًا فوريًا</strong> عبر البريد الإلكتروني مع تفاصيل الاستقبال.</li>
+            <li><strong>اتصل بنا 24/7</strong> للحصول على مساعدة في الحجز.</li>
+            <li><strong>أرسل تفاصيل الحجز عبر البريد الإلكتروني</strong>، وسنقوم بتأكيد النقل لك.</li>
+          </ol>
+          
+          <h2>خدمات إضافية</h2>
+          <ul>
+            <li><strong>مقاعد أطفال متوفرة</strong> – مقاعد أمان للرضع والأطفال الصغار عند الطلب.</li>
+            <li><strong>خيارات التوقف أثناء الرحلة</strong> – هل تحتاج للتوقف في الطريق؟ أخبرنا مسبقًا.</li>
+            <li><strong>نقل ذهاب فقط أو ذهاب وعودة</strong> – احجز رحلة العودة لمزيد من الراحة.</li>
+          </ul>
+          
+          <h2>استكشف فتحية من خلال جولاتنا الحصرية</h2>
+          
+          <p>عزز زيارتك من خلال حجز إحدى جولاتنا المميزة في فتحية بثقة:</p>
+          <ul>
+            <li><strong>جولة القوارب إلى 12 جزيرة في فتحية</strong> – رحلة يومية خلابة لاستكشاف الجزر الرائعة.</li>
+            <li><strong>جولة القارب في أولودينيز فتحية</strong> – أبحر في مياه البحيرة الزرقاء الشهيرة وما بعدها.</li>
+            <li><strong>جولة سفاري بدراجة رباعية في فتحية</strong> – مغامرة في التضاريس الوعرة والمناظر الطبيعية الجميلة.</li>
+            <li><strong>مغامرة الطيران الشراعي في أولودينيز فتحية</strong> – تجربة إطلالات جوية خلابة على البحيرة.</li>
+          </ul>
+          
+          <p><em>(جميع الجولات تُدار بالشراكة مع شركاء موثوقين وتفي بأعلى معايير السلامة. احجز بثقة!)</em></p>
+          
+          <h2>حول مركز مدينة فتحية</h2>
+          
+          <p>فتحية مدينة ساحلية نابضة بالحياة، تقدم مناظر بحرية خلابة، ومارينا نشطة، ومزيجًا مثاليًا من التاريخ والحداثة. 
+          استكشف <strong>البلدة القديمة في فتحية (باسباتور)</strong>، <strong>مقابر أمنيتاس الصخرية</strong>، <strong>مارينا فتحية</strong> والشاطئ الشهير <strong>تشاليس بيتش</strong>.</p>
+          
+          <p>احجز الآن خدمة النقل من <strong>مطار دالامان إلى مركز فتحية</strong> واستمتع ببداية مريحة وخالية من التوتر لرحلتك!</p>
+          `,
+            es: `
+          <h1>Traslados desde el Aeropuerto de Dalaman al Centro de Fethiye</h1>
+          
+          <h2>Traslados Confiables y Cómodos desde el Aeropuerto de Dalaman al Centro de Fethiye</h2>
+          
+          <p>¿Buscas un traslado sin complicaciones desde el Aeropuerto de Dalaman (DLM) al centro de Fethiye? Nuestro servicio profesional de traslado garantiza un viaje cómodo y fluido desde el aeropuerto hasta tu destino. Ya sea que viajes por placer o por negocios, te ofrecemos transporte confiable, puntual y de alta calidad.</p>
+          
+          <h2>Distancia y Tiempo de Viaje</h2>
+          <ul>
+            <li><strong>Distancia:</strong> Aproximadamente 50 km</li>
+            <li><strong>Duración del viaje:</strong> Entre 45 y 60 minutos, dependiendo del tráfico y las condiciones de la carretera.</li>
+          </ul>
+          
+          <h2>¿Por Qué Elegir Nuestro Servicio de Traslado?</h2>
+          <ul>
+            <li><strong>Recibimiento en el Aeropuerto de Dalaman</strong> – Nuestro conductor te esperará en el área de llegadas, justo después de aduanas, con un cartel con tu nombre.</li>
+            <li><strong>Precios Fijos y Transparentes</strong> – Sin cargos ocultos; conoces el costo desde el inicio.</li>
+            <li><strong>Opciones de Vehículos Estándar y de Lujo</strong> – Elige entre sedanes, MPV o minibuses para grupos grandes.</li>
+            <li><strong>Conductores Profesionales y Seguros</strong> – Conductores con licencia, experiencia y que hablan inglés.</li>
+            <li><strong>Atención al Cliente 24/7</strong> – Asistencia disponible en cualquier momento para hacer tu viaje más tranquilo.</li>
+            <li><strong>Monitoreo de Vuelos Gratuito</strong> – Seguimos tu vuelo y ajustamos el horario de recogida si hay retrasos.</li>
+            <li><strong>Pago Seguro</strong> – Aceptamos Euro, GBP, Dólar estadounidense y Lira turca.</li>
+            <li><strong>Cancelación Gratuita</strong> – Cancela hasta 24 horas antes del traslado y recibe un reembolso completo.</li>
+          </ul>
+          
+          <h2>Opciones de Traslado</h2>
+          
+          <p>Ofrecemos diferentes tipos de vehículos para adaptarnos a tus necesidades de viaje:</p>
+          
+          <div>
+          <table border="1">
+          <thead>
+            <tr>
+              <th>Tipo de Vehículo</th>
+              <th>Capacidad de Pasajeros</th>
+              <th>Capacidad de Equipaje</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sedán Estándar</td>
+              <td>Hasta 3 pasajeros</td>
+              <td>Máximo 3 maletas</td>
+            </tr>
+            <tr>
+              <td>MPV</td>
+              <td>Hasta 5 pasajeros</td>
+              <td>Máximo 5 maletas</td>
+            </tr>
+            <tr>
+              <td>Minibús</td>
+              <td>Hasta 8 pasajeros</td>
+              <td>Máximo 8 maletas</td>
+            </tr>
+          </tbody>
+          </table>
+          </div>
+          
+          <p><em>(Los precios son dinámicos y pueden variar según la temporada y la fecha de reserva. Consulta nuestro sistema de reservas en línea para ver las tarifas más recientes.)</em></p>
+          
+          <h2>¿Cómo Reservar?</h2>
+          <ol>
+            <li><strong>Visita nuestro sitio web</strong> e ingresa los detalles de tu viaje.</li>
+            <li><strong>Elige tu vehículo preferido</strong> y confirma el precio.</li>
+            <li><strong>Completa tu reserva</strong> con pago seguro en línea.</li>
+            <li><strong>Recibe confirmación instantánea</strong> por correo electrónico con los detalles de recogida.</li>
+            <li><strong>Llámanos 24/7</strong> para asistencia con la reserva.</li>
+            <li><strong>Envíanos un correo electrónico</strong> con los detalles de la reserva y nuestro equipo la confirmará.</li>
+          </ol>
+          
+          <h2>Servicios Adicionales</h2>
+          <ul>
+            <li><strong>Asientos para Niños Disponibles</strong> – Sillas de seguridad para bebés y niños pequeños bajo petición.</li>
+            <li><strong>Paradas Durante el Camino</strong> – ¿Necesitas hacer una parada? Avísanos con anticipación.</li>
+            <li><strong>Traslados de Ida y Ida y Vuelta</strong> – Reserva también el regreso para mayor comodidad.</li>
+          </ul>
+          
+          <h2>Explora Fethiye con Nuestros Tours Exclusivos</h2>
+          
+          <p>Mejora tu visita reservando uno de nuestros tours populares en Fethiye con total confianza:</p>
+          <ul>
+            <li><strong>Tour en Barco por las 12 Islas de Fethiye</strong> – Un viaje panorámico de un día explorando islas impresionantes.</li>
+            <li><strong>Tour en Barco por Ölüdeniz</strong> – Navega por la famosa Laguna Azul y más allá.</li>
+            <li><strong>Safari en Cuatrimoto en Fethiye</strong> – Aventura por terrenos accidentados y paisajes hermosos.</li>
+            <li><strong>Aventura en Parapente en Ölüdeniz</strong> – Vive vistas aéreas impresionantes sobre la laguna.</li>
+          </ul>
+          
+          <p><em>(Todos los tours se operan con socios de confianza y cumplen con los más altos estándares de seguridad. ¡Reserva con confianza!)</em></p>
+          
+          <h2>Sobre el Centro de Fethiye</h2>
+          
+          <p>Fethiye es una ciudad costera vibrante que ofrece vistas al mar impresionantes, un puerto deportivo animado y una combinación perfecta de historia y comodidades modernas. 
+          Explora el <strong>Casco Antiguo de Fethiye (Paspatur)</strong>, las <strong>Tumbas Rupestres de Amyntas</strong>, la <strong>Marina de Fethiye</strong> y la famosa <strong>Playa Çalış</strong>.</p>
+          
+          <p>¡Reserva hoy mismo tu traslado desde el <strong>Aeropuerto de Dalaman al Centro de Fethiye</strong> y comienza tu viaje sin estrés!</p>
+          `,
+            it: `
+<h1>Transfer dall Aeroporto di Dalaman al Centro di Fethiye</h1>
+
+<h2>Trasferimenti Affidabili e Confortevoli dall Aeroporto di Dalaman al Centro di Fethiye</h2>
+
+<p>Stai cercando un trasferimento senza stress dall Aeroporto di Dalaman (DLM) al centro di Fethiye? 
+Il nostro servizio professionale di transfer garantisce un viaggio comodo e fluido dall aeroporto alla tua destinazione. 
+Che tu stia viaggiando per piacere o per lavoro, ti offriamo un trasporto affidabile, puntuale e di alta qualità.</p>
+
+<h2>Distanza e Durata del Viaggio</h2>
+<ul>
+  <li><strong>Distanza:</strong> Circa 50 km</li>
+  <li><strong>Durata del Viaggio:</strong> Tra 45 e 60 minuti, a seconda del traffico e delle condizioni stradali.</li>
+</ul>
+
+<h2>Perché Scegliere il Nostro Servizio?</h2>
+<ul>
+  <li><strong>Accoglienza all Aeroporto di Dalaman</strong> – Il nostro autista ti aspetterà nell area arrivi, subito dopo la dogana, con un cartello con il tuo nome.</li>
+  <li><strong>Prezzi Fissi e Trasparenti</strong> – Nessun costo nascosto; conoscerai il prezzo in anticipo.</li>
+  <li><strong>Opzioni di Veicoli Standard e di Lusso</strong> – Scegli tra auto berlina, MPV o minibus per gruppi più numerosi.</li>
+  <li><strong>Autisti Professionali e Sicuri</strong> – Autisti con licenza, esperti e parlanti inglese.</li>
+  <li><strong>Assistenza Clienti 24/7</strong> – Supporto disponibile in qualsiasi momento per garantirti un viaggio senza stress.</li>
+  <li><strong>Monitoraggio Volo Gratuito</strong> – Monitoriamo il tuo volo e adeguiamo l’orario di ritiro in caso di ritardi.</li>
+  <li><strong>Pagamento Sicuro</strong> – Accettiamo Euro, Sterlina, Dollaro USA e Lira Turca.</li>
+  <li><strong>Cancellazione Gratuita</strong> – Cancella fino a 24 ore prima del trasferimento per ottenere un rimborso completo.</li>
+</ul>
+
+<h2>Opzioni di Trasferimento</h2>
+
+<p>Offriamo diverse opzioni di veicoli per soddisfare le varie esigenze di viaggio:</p>
+
+<div>
+<table border="1">
+<thead>
+  <tr>
+    <th>Tipo di Veicolo</th>
+    <th>Capacità Passeggeri</th>
+    <th>Capacità Bagagli</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Berlina Standard</td>
+    <td>Fino a 3 passeggeri</td>
+    <td>Max 3 valigie</td>
+  </tr>
+  <tr>
+    <td>MPV</td>
+    <td>Fino a 5 passeggeri</td>
+    <td>Max 5 valigie</td>
+  </tr>
+  <tr>
+    <td>Minibus</td>
+    <td>Fino a 8 passeggeri</td>
+    <td>Max 8 valigie</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p><em>(I prezzi sono dinamici e possono variare in base alla stagione e al momento della prenotazione. Controlla il nostro sistema di prenotazione online per le tariffe aggiornate.)</em></p>
+
+<h2>Come Prenotare?</h2>
+<ol>
+  <li><strong>Visita il nostro sito web</strong> e inserisci i dettagli del tuo viaggio.</li>
+  <li><strong>Scegli il tuo veicolo preferito</strong> e conferma il prezzo.</li>
+  <li><strong>Completa la prenotazione</strong> con pagamento online sicuro.</li>
+  <li><strong>Ricevi conferma immediata</strong> via email con i dettagli del pickup.</li>
+  <li><strong>Chiamaci 24/7</strong> per assistenza con la prenotazione.</li>
+  <li><strong>Inviaci un'email</strong> con i dettagli della prenotazione e il nostro team la confermerà.</li>
+</ol>
+
+<h2>Servizi Aggiuntivi</h2>
+<ul>
+  <li><strong>Seggiolini per Bambini Disponibili</strong> – Su richiesta, offriamo seggiolini di sicurezza per neonati e bambini piccoli.</li>
+  <li><strong>Possibilità di Fermate Intermedie</strong> – Hai bisogno di fermarti lungo il percorso? Facci sapere in anticipo.</li>
+  <li><strong>Trasferimenti Solo Andata o Andata e Ritorno</strong> – Prenota anche il ritorno per maggiore comodità.</li>
+</ul>
+
+<h2>Esplora Fethiye con i Nostri Tour Esclusivi</h2>
+
+<p>Rendi la tua visita ancora più speciale prenotando uno dei nostri tour popolari a Fethiye:</p>
+<ul>
+  <li><strong>Tour in Barca alle 12 Isole di Fethiye</strong> – Una gita panoramica alla scoperta di isole mozzafiato.</li>
+  <li><strong>Tour in Barca a Ölüdeniz</strong> – Naviga nella famosa Laguna Blu e oltre.</li>
+  <li><strong>Safari in Quad a Fethiye</strong> – Avventura tra paesaggi naturali e terreni accidentati.</li>
+  <li><strong>Parapendio a Ölüdeniz</strong> – Ammira viste aeree mozzafiato sulla laguna.</li>
+</ul>
+
+<p><em>(Tutti i tour sono organizzati con partner fidati e rispettano i più alti standard di sicurezza. Prenota con fiducia!)</em></p>
+
+<h2>Informazioni su Fethiye Centro</h2>
+
+<p>Fethiye è una vivace città costiera che offre viste spettacolari sul mare, un porto turistico animato e il perfetto equilibrio tra storia e modernità.
+Esplora il <strong>Centro Storico di Fethiye (Paspatur)</strong>, le <strong>Tombe Rupestri di Amyntas</strong>, il <strong>Porto di Fethiye</strong> e la famosa <strong>Spiaggia di Çalış</strong>.</p>
+
+<p>Prenota oggi stesso il tuo <strong>trasferimento dall Aeroporto di Dalaman al centro di Fethiye</strong> e goditi un inizio di viaggio tranquillo e senza stress!</p>
+`,
+            ru: `
+<h1>Трансфер из аэропорта Даламан в центр города Фетхие</h1>
+
+<h2>Надёжный и комфортный трансфер из аэропорта Даламан в центр Фетхие</h2>
+
+<p>Ищете удобный трансфер из аэропорта Даламан (DLM) в центр города Фетхие без лишних хлопот? 
+Наш профессиональный трансфер-сервис обеспечивает плавную и комфортную поездку из аэропорта до места назначения. 
+Независимо от того, путешествуете ли вы для отдыха или по делам, мы предоставляем надёжный, пунктуальный и качественный транспорт.</p>
+
+<h2>Расстояние и время в пути</h2>
+<ul>
+  <li><strong>Расстояние:</strong> около 50 км</li>
+  <li><strong>Время в пути:</strong> от 45 до 60 минут, в зависимости от трафика и дорожных условий.</li>
+</ul>
+
+<h2>Почему выбирают наш трансфер?</h2>
+<ul>
+  <li><strong>Встреча в аэропорту Даламан</strong> – Наш водитель будет ждать вас в зоне прибытия сразу после таможни с табличкой с вашим именем.</li>
+  <li><strong>Фиксированная и прозрачная стоимость</strong> – Без скрытых платежей. Вы заранее знаете цену.</li>
+  <li><strong>Выбор стандартных и люксовых автомобилей</strong> – Доступны седаны, минивэны (MPV) и микроавтобусы для групп.</li>
+  <li><strong>Профессиональные и надёжные водители</strong> – Лицензированные, опытные, говорящие по-английски.</li>
+  <li><strong>Круглосуточная поддержка клиентов</strong> – Мы всегда на связи, чтобы сделать поездку максимально комфортной.</li>
+  <li><strong>Бесплатный мониторинг рейсов</strong> – Мы отслеживаем ваш рейс и при необходимости корректируем время встречи.</li>
+  <li><strong>Безопасная оплата</strong> – Принимаем евро, фунты стерлингов, доллары США и турецкие лиры.</li>
+  <li><strong>Бесплатная отмена</strong> – Отмена за 24 часа до поездки без штрафа и с полным возвратом.</li>
+</ul>
+
+<h2>Варианты трансфера</h2>
+
+<p>Мы предлагаем различные типы автомобилей на выбор в зависимости от ваших потребностей:</p>
+
+<div>
+<table border="1">
+<thead>
+  <tr>
+    <th>Тип автомобиля</th>
+    <th>Пассажировместимость</th>
+    <th>Багаж</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Стандартный седан</td>
+    <td>До 3 пассажиров</td>
+    <td>Максимум 3 чемодана</td>
+  </tr>
+  <tr>
+    <td>MPV</td>
+    <td>До 5 пассажиров</td>
+    <td>Максимум 5 чемоданов</td>
+  </tr>
+  <tr>
+    <td>Микроавтобус</td>
+    <td>До 8 пассажиров</td>
+    <td>Максимум 8 чемоданов</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p><em>(Цены динамичные и могут меняться в зависимости от сезона и времени бронирования. Актуальные тарифы доступны в нашей системе онлайн-бронирования.)</em></p>
+
+<h2>Как забронировать?</h2>
+<ol>
+  <li><strong>Посетите наш сайт</strong> и введите данные вашей поездки.</li>
+  <li><strong>Выберите желаемый автомобиль</strong> и подтвердите стоимость.</li>
+  <li><strong>Завершите бронирование</strong>, оплатив через безопасную онлайн-систему.</li>
+  <li><strong>Получите мгновенное подтверждение</strong> на email с деталями поездки.</li>
+  <li><strong>Позвоните нам 24/7</strong> для помощи с бронированием.</li>
+  <li><strong>Отправьте нам письмо</strong> с деталями поездки — мы подтвердим трансфер.</li>
+</ol>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+  <li><strong>Детские кресла</strong> – Предоставляются по запросу для младенцев и маленьких детей.</li>
+  <li><strong>Остановки по маршруту</strong> – Сообщите заранее, если нужно сделать остановку в пути.</li>
+  <li><strong>Трансфер в одну сторону и туда-обратно</strong> – Бронируйте также обратную поездку для удобства.</li>
+</ul>
+
+<h2>Исследуйте Фетхие с нашими эксклюзивными турами</h2>
+
+<p>Сделайте своё пребывание в Фетхие особенным, забронировав один из наших популярных туров:</p>
+<ul>
+  <li><strong>Тур по 12 островам Фетхие</strong> – Живописная морская прогулка по красивейшим островам.</li>
+  <li><strong>Тур на лодке в Олюдениз</strong> – Прогулка по знаменитой Голубой Лагуне и дальше.</li>
+  <li><strong>Сафари на квадроциклах по Фетхие</strong> – Приключение по пересечённой местности и живописным пейзажам.</li>
+  <li><strong>Полет на параплане в Олюдениз</strong> – Захватывающие виды на лагуну с высоты птичьего полета.</li>
+</ul>
+
+<p><em>(Все туры проводятся надёжными партнерами и соответствуют самым высоким стандартам безопасности. Бронируйте с уверенностью!)</em></p>
+
+<h2>О центре города Фетхие</h2>
+
+<p>Фетхие — это оживлённый прибрежный город с захватывающими морскими пейзажами, современной инфраструктурой и богатой историей. 
+Посетите <strong>старый город Фетхие (Паспатур)</strong>, <strong>Скальные гробницы Аминтаса</strong>, <strong>марину Фетхие</strong> и знаменитый <strong>пляж Чалыш</strong>.</p>
+
+<p>Забронируйте <strong>трансфер из аэропорта Даламан в центр Фетхие</strong> уже сегодня и начните своё путешествие легко и без стресса!</p>
+`,
+            zh: `
+<h1>从达拉曼机场到费特希耶市中心的接送服务</h1>
+
+<h2>从达拉曼机场到费特希耶市中心的可靠舒适接送</h2>
+
+<p>正在寻找从达拉曼机场 (DLM) 到费特希耶市中心的无忧接送服务吗？我们的专业接送服务可确保您从机场顺利、舒适地前往目的地。无论您是出于休闲还是商务旅行，我们都提供可靠、准时且高质量的交通服务。</p>
+
+<h2>距离与行程时间</h2>
+<ul>
+  <li><strong>距离：</strong>约 50 公里</li>
+  <li><strong>行程时间：</strong>大约 45 至 60 分钟，具体取决于交通和路况。</li>
+</ul>
+
+<h2>为什么选择我们的接送服务？</h2>
+<ul>
+  <li><strong>达拉曼机场接机</strong> – 我们的司机将在海关出口的到达区举着<strong>带有您名字的接机牌</strong>迎接您。</li>
+  <li><strong>价格透明且固定</strong> – 无隐藏费用，提前知道您的支付金额。</li>
+  <li><strong>多种车型可选</strong> – 提供标准轿车、MPV 多人车和适合团体的迷你巴士。</li>
+  <li><strong>安全可靠的专业司机</strong> – 司机持证上岗、经验丰富且会说英语。</li>
+  <li><strong>24/7 客户服务</strong> – 随时提供帮助，让您的旅程更安心。</li>
+  <li><strong>免费航班监控</strong> – 我们会追踪您的航班，并根据延误情况调整接送时间。</li>
+  <li><strong>安全支付</strong> – 可接受欧元、英镑、美元和土耳其里拉。</li>
+  <li><strong>免费取消</strong> – 可在接送前 24 小时免费取消并获得全额退款。</li>
+</ul>
+
+<h2>接送车辆选项</h2>
+
+<p>我们提供多种车型以满足不同的出行需求：</p>
+
+<div>
+<table border="1">
+<thead>
+  <tr>
+    <th>车辆类型</th>
+    <th>可乘人数</th>
+    <th>行李限额</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>标准轿车</td>
+    <td>最多 3 位乘客</td>
+    <td>最多 3 件行李</td>
+  </tr>
+  <tr>
+    <td>MPV</td>
+    <td>最多 5 位乘客</td>
+    <td>最多 5 件行李</td>
+  </tr>
+  <tr>
+    <td>迷你巴士</td>
+    <td>最多 8 位乘客</td>
+    <td>最多 8 件行李</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p><em>（价格为动态调整，可能会因季节或预订时间而有所变化。请查看我们的在线预订系统获取最新价格。）</em></p>
+
+<h2>如何预订？</h2>
+<ol>
+  <li><strong>访问我们的网站</strong>并填写您的出行信息。</li>
+  <li><strong>选择您偏好的车型</strong>并确认价格。</li>
+  <li><strong>通过安全的在线支付完成预订</strong>。</li>
+  <li><strong>立即通过电子邮件收到确认信息</strong>，包含接送详情。</li>
+  <li><strong>全天候拨打我们的电话</strong>获取预订帮助。</li>
+  <li><strong>通过电子邮件发送您的预订信息</strong>，我们的团队将为您确认。</li>
+</ol>
+
+<h2>附加服务</h2>
+<ul>
+  <li><strong>儿童座椅可选</strong> – 可根据请求提供婴儿和幼童专用安全座椅。</li>
+  <li><strong>途中停靠</strong> – 如果您需要途中停车，请提前告知我们。</li>
+  <li><strong>单程和往返接送</strong> – 也可预订返程接送服务，方便省心。</li>
+</ul>
+
+<h2>通过我们的专属旅游探索费特希耶</h2>
+
+<p>预订我们受欢迎的费特希耶特色游，让您的行程更加丰富多彩：</p>
+<ul>
+  <li><strong>费特希耶12岛游船之旅</strong> – 一日游欣赏迷人海岛美景。</li>
+  <li><strong>费特希耶Ölüdeniz 蓝色泻湖游船之旅</strong> – 航行在著名的蓝色泻湖及其周边。</li>
+  <li><strong>费特希耶四轮摩托越野探险</strong> – 穿越崎岖山地与壮丽自然风光。</li>
+  <li><strong>Ölüdeniz滑翔伞之旅</strong> – 在空中俯瞰令人惊叹的泻湖景色。</li>
+</ul>
+
+<p><em>（所有行程均由值得信赖的合作伙伴运营，并符合最高安全标准。请放心预订！）</em></p>
+
+<h2>关于费特希耶市中心</h2>
+
+<p>费特希耶是一个充满活力的海滨城市，拥有迷人的海景、热闹的码头，以及历史与现代设施的完美融合。探索<strong>费特希耶老城区（Paspatur）</strong>、<strong>阿明塔斯岩墓</strong>、<strong>费特希耶码头</strong>和著名的<strong>Çalış海滩</strong>。</p>
+
+<p>立即预订从<strong>达拉曼机场到费特希耶</strong>的接送服务，享受一个顺利、无忧的旅程开始！</p>
+`,
         },
         "/dalaman-airport-to-faralya-butterfly-valley": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``
+            en: `
+            <h1>Dalaman Airport to Marmaris Transfers</h1>
+
+<h2>Reliable & Comfortable Transfers from Dalaman Airport to Marmaris</h2>
+
+<p>Looking for a stress-free transfer from <strong>Dalaman Airport (DLM)</strong> to Marmaris? Our professional airport transfer service guarantees a comfortable and smooth journey to one of Turkey’s most popular coastal destinations. Whether you're visiting for a relaxing holiday, a business trip, or an adventure, we provide safe, punctual, and high-quality transportation.</p>
+
+<h2>Distance & Travel Time</h2>
+<ul>
+  <li><strong>Distance:</strong> Approximately 95 km</li>
+  <li><strong>Travel Time:</strong> Around 75–90 minutes, depending on traffic and road conditions.</li>
+</ul>
+
+<h2>Why Choose Our Transfer Service?</h2>
+<ul>
+  <li><strong>Meet & Greet at Dalaman Airport</strong> – Our driver will be waiting at the arrivals area, just after customs, holding a passenger name board for easy identification.</li>
+  <li><strong>Fixed & Transparent Pricing</strong> – No hidden fees, ensuring you know your cost upfront.</li>
+  <li><strong>Luxury & Standard Vehicle Options</strong> – Choose from standard sedans, MPVs, or minibuses for larger groups.</li>
+  <li><strong>Safe & Professional Drivers</strong> – Licensed, experienced, and English-speaking drivers.</li>
+  <li><strong>24/7 Customer Support</strong> – Assistance available at any time to make your journey stress-free.</li>
+  <li><strong>Free Flight Monitoring</strong> – We track your flight and adjust pickup times accordingly to accommodate any delays.</li>
+  <li><strong>Secure Payment</strong> – Euro, GBP, US Dollar & Turkish Lira Accepted.</li>
+  <li><strong>Free Cancellation</strong> – Cancel up to 24 hours before your transfer for a full refund.</li>
+</ul>
+
+<h2>Transfer Options</h2>
+
+<p>We offer various vehicle options to suit different travel needs:</p>
+
+<div> 
+<table border="1">
+<thead>
+  <tr>
+    <th>Vehicle Type</th>
+    <th>Passenger Capacity</th>
+    <th>Luggage Allowance</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Standard Sedan</td>
+    <td>Up to 3 passengers</td>
+    <td>Max 3 suitcases</td>
+  </tr>
+  <tr>
+    <td>MPV</td>
+    <td>Up to 5 passengers</td>
+    <td>Max 5 suitcases</td>
+  </tr>
+  <tr>
+    <td>Minibus</td>
+    <td>Up to 8 passengers</td>
+    <td>Max 8 suitcases</td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+<p><em>(Prices are dynamic and vary depending on season and booking time. Please check our online booking system for the latest rates.)</em></p>
+
+<h2>How to Book?</h2>
+<ol>
+  <li><strong>Visit our website</strong> and enter your travel details.</li>
+  <li><strong>Choose your preferred vehicle</strong> and confirm pricing.</li>
+  <li><strong>Complete your booking</strong> with secure online payment.</li>
+  <li><strong>Receive instant confirmation</strong> via email with pickup details.</li>
+  <li><strong>Call us 24/7</strong> for booking assistance.</li>
+  <li><strong>Email us</strong> your booking details, and our team will confirm your transfer.</li>
+</ol>
+
+<h2>Additional Services</h2>
+<ul>
+  <li><strong>Child Seats Available</strong> – Safety seats for infants and toddlers upon request.</li>
+  <li><strong>Stopover Options</strong> – Need to stop along the way? Let us know in advance.</li>
+  <li><strong>One-Way & Return Transfers</strong> – Book a return journey for added convenience.</li>
+</ul>
+
+<h2>Discover Marmaris with Our Exclusive Tours</h2>
+
+<p>Make the most of your visit by booking one of our <strong>Marmaris tours</strong> with confidence:</p>
+<ul>
+  <li><strong>Marmaris Boat Tour</strong> – Enjoy a relaxing cruise along the turquoise coast.</li>
+  <li><strong>Marmaris Jeep Safari</strong> – Experience an off-road adventure through scenic landscapes.</li>
+  <li><strong>Dalyan & Turtle Beach Tour</strong> – Visit the famous Iztuzu Beach and Lycian rock tombs.</li>
+  <li><strong>Marmaris Quad Bike Safari</strong> – Explore thrilling terrains and nature trails.</li>
+</ul>
+
+<p><em>(All tours are operated with trusted partners and ensure the highest safety standards. Book with confidence!)</em></p>
+
+<h2>About Marmaris</h2>
+
+<p>Marmaris is a stunning seaside resort town known for its <strong>vibrant nightlife</strong>, <strong>picturesque marina</strong>, <strong>sandy beaches</strong>, and <strong>rich history</strong>. 
+Visit the <strong>Grand Bazaar</strong>, <strong>Marmaris Castle</strong>, and the <strong>famous Bar Street</strong>, or simply relax by the beautiful Aegean coastline.</p>
+
+<p>Book your <strong>Dalaman Airport to Marmaris</strong> transfer today and enjoy a smooth, stress-free start to your trip!</p>
+
+            `,
+            tr: `
+            <h1>Dalaman Havalimanı - Marmaris Transferleri</h1>
+            
+            <h2>Dalaman Havalimanı'ndan Marmaris'e Güvenli ve Konforlu Transfer</h2>
+            
+            <p><strong>Dalaman Havalimanı (DLM)</strong>'nden Marmaris'e sorunsuz bir transfer mi arıyorsunuz? Profesyonel havalimanı transfer hizmetimiz, Türkiye'nin en popüler sahil destinasyonlarından birine konforlu ve sorunsuz bir yolculuk garantisi sunar. İster dinlenme amaçlı bir tatil, ister iş gezisi ya da macera için geliyor olun, biz size güvenli, dakik ve kaliteli ulaşım sağlıyoruz.</p>
+            
+            <h2>Mesafe ve Yolculuk Süresi</h2>
+            <ul>
+              <li><strong>Mesafe:</strong> Yaklaşık 95 km</li>
+              <li><strong>Yolculuk Süresi:</strong> Trafik ve yol durumuna bağlı olarak yaklaşık 75–90 dakika.</li>
+            </ul>
+            
+            <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+            <ul>
+              <li><strong>Dalaman Havalimanı'nda Karşılama</strong> – Şoförümüz, gümrük sonrası geliş alanında, kolay tanınmanız için isminizin yazılı olduğu tabela ile sizi karşılayacaktır.</li>
+              <li><strong>Sabit ve Şeffaf Fiyatlandırma</strong> – Gizli ücret yok; maliyeti baştan öğrenirsiniz.</li>
+              <li><strong>Standart ve Lüks Araç Seçenekleri</strong> – Standart sedan, MPV ya da kalabalık gruplar için minibüs seçenekleri sunuyoruz.</li>
+              <li><strong>Güvenli ve Profesyonel Sürücüler</strong> – Lisanslı, deneyimli ve İngilizce konuşan sürücüler.</li>
+              <li><strong>7/24 Müşteri Desteği</strong> – Yolculuğunuzu stressiz hale getirmek için her an destek sunuyoruz.</li>
+              <li><strong>Ücretsiz Uçuş Takibi</strong> – Uçuşunuzu takip eder, olası gecikmelere göre karşılamayı ayarlarız.</li>
+              <li><strong>Güvenli Ödeme</strong> – Euro, GBP, Amerikan Doları ve Türk Lirası kabul edilir.</li>
+              <li><strong>Ücretsiz İptal</strong> – Transferden 24 saat öncesine kadar iptal edin, tam para iadesi alın.</li>
+            </ul>
+            
+            <h2>Transfer Seçenekleri</h2>
+            
+            <p>Farklı seyahat ihtiyaçlarına uygun çeşitli araç seçenekleri sunuyoruz:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>Araç Tipi</th>
+                <th>Yolcu Kapasitesi</th>
+                <th>Bagaj Hakkı</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Standart Sedan</td>
+                <td>En fazla 3 yolcu</td>
+                <td>Maksimum 3 valiz</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>En fazla 5 yolcu</td>
+                <td>Maksimum 5 valiz</td>
+              </tr>
+              <tr>
+                <td>Minibüs</td>
+                <td>En fazla 8 yolcu</td>
+                <td>Maksimum 8 valiz</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Fiyatlar dinamiktir ve sezona veya rezervasyon zamanına göre değişiklik gösterebilir. Güncel fiyatlar için online rezervasyon sistemimizi kontrol ediniz.)</em></p>
+            
+            <h2>Nasıl Rezervasyon Yapılır?</h2>
+            <ol>
+              <li><strong>Web sitemizi ziyaret edin</strong> ve seyahat bilgilerinizi girin.</li>
+              <li><strong>Tercih ettiğiniz aracı seçin</strong> ve fiyatı onaylayın.</li>
+              <li><strong>Güvenli çevrimiçi ödeme</strong> ile rezervasyonu tamamlayın.</li>
+              <li><strong>Anında onay e-postası alın</strong> ve karşılama detaylarını öğrenin.</li>
+              <li><strong>Bizi 7/24 arayın</strong> – Rezervasyon desteği için her zaman buradayız.</li>
+              <li><strong>Bize e-posta gönderin</strong> – Rezervasyon bilgilerinizi paylaşın, biz onaylayalım.</li>
+            </ol>
+            
+            <h2>Ek Hizmetler</h2>
+            <ul>
+              <li><strong>Çocuk Koltuğu Mevcuttur</strong> – Bebek ve küçük çocuklar için güvenlik koltukları isteğe bağlıdır.</li>
+              <li><strong>Yol Üzerinde Durma Seçeneği</strong> – Güzergâh üzerinde durmak ister misiniz? Lütfen önceden bildiriniz.</li>
+              <li><strong>Tek Yön & Gidiş-Dönüş Transfer</strong> – Dönüş transferinizi de kolayca ayırtabilirsiniz.</li>
+            </ul>
+            
+            <h2>Özel Turlarımızla Marmaris'i Keşfedin</h2>
+            
+            <p><strong>Marmaris turlarımızdan</strong> birini güvenle rezerve ederek ziyaretinizden en iyi şekilde faydalanın:</p>
+            <ul>
+              <li><strong>Marmaris Tekne Turu</strong> – Turkuaz sahil boyunca rahatlatıcı bir tekne gezisinin keyfini çıkarın.</li>
+              <li><strong>Marmaris Jeep Safari</strong> – Doğal manzaralar eşliğinde off-road macerası yaşayın.</li>
+              <li><strong>Dalyan & Kaplumbağa Plajı Turu</strong> – Ünlü İztuzu Plajı ve Likya kaya mezarlarını keşfedin.</li>
+              <li><strong>Marmaris ATV Safari</strong> – Heyecan dolu arazilerde ve doğa yollarında keşfe çıkın.</li>
+            </ul>
+            
+            <p><em>(Tüm turlar güvenilir iş ortaklarıyla düzenlenir ve en yüksek güvenlik standartlarını karşılar. Gönül rahatlığıyla rezervasyon yapabilirsiniz!)</em></p>
+            
+            <h2>Marmaris Hakkında</h2>
+            
+            <p>Marmaris, <strong>canlı gece hayatı</strong>, <strong>kartpostallık marinası</strong>, <strong>kumlu plajları</strong> ve <strong>zengin tarihi</strong> ile tanınan muhteşem bir sahil tatil beldesidir. 
+            <strong>Kapalı Çarşı</strong>, <strong>Marmaris Kalesi</strong> ve <strong>ünlü Barlar Sokağı</strong>‘nı ziyaret edebilir ya da sadece güzel Ege kıyılarında dinlenebilirsiniz.</p>
+            
+            <p><strong>Dalaman Havalimanı - Marmaris</strong> transferinizi bugün rezerve edin ve tatilinize stressiz ve keyifli bir başlangıç yapın!</p>
+            `,
+            ar: `
+            <h1>خدمة النقل من مطار دالامان إلى مرمريس</h1>
+            
+            <h2>نقل مريح وموثوق من مطار دالامان إلى مرمريس</h2>
+            
+            <p>هل تبحث عن خدمة نقل مريحة وخالية من المتاعب من <strong>مطار دالامان (DLM)</strong> إلى مرمريس؟ 
+            خدمتنا الاحترافية تضمن لك رحلة سلسة ومريحة إلى واحدة من أشهر الوجهات الساحلية في تركيا. 
+            سواء كنت قادمًا لقضاء عطلة هادئة، أو رحلة عمل، أو مغامرة، فإننا نوفر لك وسيلة نقل آمنة، دقيقة وعالية الجودة.</p>
+            
+            <h2>المسافة ومدة الرحلة</h2>
+            <ul>
+              <li><strong>المسافة:</strong> حوالي 95 كم</li>
+              <li><strong>مدة الرحلة:</strong> من 75 إلى 90 دقيقة تقريبًا، حسب حالة المرور والطريق.</li>
+            </ul>
+            
+            <h2>لماذا تختار خدمتنا؟</h2>
+            <ul>
+              <li><strong>الاستقبال في مطار دالامان</strong> – سيكون سائقنا في انتظارك في منطقة الوصول، بعد الجمارك، حاملًا لوحة باسمك لسهولة التعرف عليك.</li>
+              <li><strong>أسعار ثابتة وشفافة</strong> – لا توجد رسوم خفية، ستعرف السعر مقدمًا.</li>
+              <li><strong>خيارات مركبات فاخرة وعادية</strong> – اختر بين سيارات سيدان، MPV أو حافلات صغيرة للمجموعات.</li>
+              <li><strong>سائقون محترفون وآمنون</strong> – حاصلون على التراخيص، ذوو خبرة ويتحدثون الإنجليزية.</li>
+              <li><strong>دعم العملاء 24/7</strong> – متاحون في أي وقت لجعل رحلتك خالية من القلق.</li>
+              <li><strong>متابعة الرحلات مجانًا</strong> – نتابع رحلتك الجوية ونقوم بتعديل وقت الاستقبال وفقًا لأي تأخيرات.</li>
+              <li><strong>دفع آمن</strong> – نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية.</li>
+              <li><strong>إلغاء مجاني</strong> – يمكنك الإلغاء حتى 24 ساعة قبل موعد النقل واسترداد كامل المبلغ.</li>
+            </ul>
+            
+            <h2>خيارات النقل</h2>
+            
+            <p>نحن نقدم خيارات متعددة من المركبات لتناسب مختلف احتياجات السفر:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>نوع المركبة</th>
+                <th>سعة الركاب</th>
+                <th>سعة الأمتعة</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>سيدان عادية</td>
+                <td>حتى 3 ركاب</td>
+                <td>حد أقصى 3 حقائب</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>حتى 5 ركاب</td>
+                <td>حد أقصى 5 حقائب</td>
+              </tr>
+              <tr>
+                <td>حافلة صغيرة</td>
+                <td>حتى 8 ركاب</td>
+                <td>حد أقصى 8 حقائب</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(الأسعار ديناميكية وقد تختلف حسب الموسم ووقت الحجز. يرجى مراجعة نظام الحجز الإلكتروني لدينا للحصول على أحدث الأسعار.)</em></p>
+            
+            <h2>كيفية الحجز؟</h2>
+            <ol>
+              <li><strong>قم بزيارة موقعنا الإلكتروني</strong> وأدخل تفاصيل رحلتك.</li>
+              <li><strong>اختر المركبة المفضلة لديك</strong> وتأكد من السعر.</li>
+              <li><strong>أكمل الحجز</strong> من خلال الدفع الآمن عبر الإنترنت.</li>
+              <li><strong>استلم تأكيدًا فوريًا</strong> عبر البريد الإلكتروني مع تفاصيل الاستقبال.</li>
+              <li><strong>اتصل بنا 24/7</strong> للمساعدة في الحجز.</li>
+              <li><strong>أرسل لنا بريدًا إلكترونيًا</strong> بتفاصيل الحجز، وسنقوم بتأكيد النقل.</li>
+            </ol>
+            
+            <h2>خدمات إضافية</h2>
+            <ul>
+              <li><strong>مقاعد أطفال متوفرة</strong> – كراسي أمان للرضع والأطفال الصغار عند الطلب.</li>
+              <li><strong>خيارات التوقف أثناء الطريق</strong> – هل تحتاج إلى التوقف في الطريق؟ أخبرنا مسبقًا.</li>
+              <li><strong>نقل باتجاه واحد أو ذهاب وعودة</strong> – احجز رحلة العودة لمزيد من الراحة.</li>
+            </ul>
+            
+            <h2>اكتشف مرمريس مع جولاتنا الحصرية</h2>
+            
+            <p>استفد من زيارتك عبر حجز واحدة من <strong>جولات مرمريس</strong> الشهيرة بكل ثقة:</p>
+            <ul>
+              <li><strong>جولة القارب في مرمريس</strong> – استمتع برحلة بحرية مريحة على طول الساحل التركوازي.</li>
+              <li><strong>سفاري بسيارات الجيب في مرمريس</strong> – عِش مغامرة في الطرق الوعرة بين مناظر طبيعية خلابة.</li>
+              <li><strong>جولة داليان وشاطئ السلاحف</strong> – زر شاطئ إزتوزو الشهير ومقابر الليسية الصخرية.</li>
+              <li><strong>سفاري بدراجات الدفع الرباعي في مرمريس</strong> – استكشف مسارات الطبيعة والتضاريس المثيرة.</li>
+            </ul>
+            
+            <p><em>(جميع الجولات تُنظم مع شركاء موثوقين وتفي بأعلى معايير السلامة. احجز بثقة!)</em></p>
+            
+            <h2>حول مرمريس</h2>
+            
+            <p>مرمريس هي مدينة منتجع ساحلية رائعة تشتهر بـ<strong>حياتها الليلية النابضة</strong>، <strong>المارينا الخلابة</strong>، <strong>الشواطئ الرملية</strong> و<strong>تاريخها الغني</strong>. 
+            قم بزيارة <strong>البازار الكبير</strong>، <strong>قلعة مرمريس</strong> و<strong>شارع البارات الشهير</strong>، أو فقط استمتع بالاسترخاء على ساحل بحر إيجة الجميل.</p>
+            
+            <p>احجز الآن خدمة <strong>النقل من مطار دالامان إلى مرمريس</strong> وابدأ رحلتك بسلاسة وراحة بال!</p>
+            `,
+            es: `
+            <h1>Traslados desde el Aeropuerto de Dalaman a Marmaris</h1>
+            
+            <h2>Traslados Confiables y Cómodos desde el Aeropuerto de Dalaman a Marmaris</h2>
+            
+            <p>¿Buscas un traslado sin complicaciones desde el <strong>Aeropuerto de Dalaman (DLM)</strong> a Marmaris? Nuestro servicio profesional garantiza un viaje cómodo y tranquilo a uno de los destinos costeros más populares de Turquía. Ya sea que viajes por vacaciones, negocios o aventura, te ofrecemos transporte seguro, puntual y de alta calidad.</p>
+            
+            <h2>Distancia y Tiempo de Viaje</h2>
+            <ul>
+              <li><strong>Distancia:</strong> Aproximadamente 95 km</li>
+              <li><strong>Duración del viaje:</strong> Entre 75 y 90 minutos, dependiendo del tráfico y las condiciones de la carretera.</li>
+            </ul>
+            
+            <h2>¿Por Qué Elegir Nuestro Servicio?</h2>
+            <ul>
+              <li><strong>Recepción en el Aeropuerto de Dalaman</strong> – Nuestro conductor te esperará en la zona de llegadas, después de aduanas, con un cartel con tu nombre.</li>
+              <li><strong>Precios Fijos y Transparentes</strong> – Sin cargos ocultos; conoces el precio por adelantado.</li>
+              <li><strong>Opciones de Vehículos Estándar y de Lujo</strong> – Elige entre sedanes, MPVs o minibuses para grupos grandes.</li>
+              <li><strong>Conductores Profesionales y Seguros</strong> – Con licencia, experiencia y que hablan inglés.</li>
+              <li><strong>Atención al Cliente 24/7</strong> – Asistencia disponible en todo momento para hacer tu viaje más sencillo.</li>
+              <li><strong>Monitoreo de Vuelo Gratuito</strong> – Seguimos tu vuelo y ajustamos el horario de recogida en caso de retrasos.</li>
+              <li><strong>Pago Seguro</strong> – Aceptamos euros, libras esterlinas, dólares estadounidenses y liras turcas.</li>
+              <li><strong>Cancelación Gratuita</strong> – Cancela hasta 24 horas antes del traslado para obtener un reembolso completo.</li>
+            </ul>
+            
+            <h2>Opciones de Traslado</h2>
+            
+            <p>Ofrecemos varias opciones de vehículos según tus necesidades de viaje:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>Tipo de Vehículo</th>
+                <th>Capacidad de Pasajeros</th>
+                <th>Capacidad de Equipaje</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sedán Estándar</td>
+                <td>Hasta 3 pasajeros</td>
+                <td>Máximo 3 maletas</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>Hasta 5 pasajeros</td>
+                <td>Máximo 5 maletas</td>
+              </tr>
+              <tr>
+                <td>Minibús</td>
+                <td>Hasta 8 pasajeros</td>
+                <td>Máximo 8 maletas</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Los precios son dinámicos y pueden variar según la temporada y la fecha de reserva. Consulta nuestro sistema de reservas en línea para obtener las tarifas más actualizadas.)</em></p>
+            
+            <h2>¿Cómo Reservar?</h2>
+            <ol>
+              <li><strong>Visita nuestro sitio web</strong> e ingresa los detalles de tu viaje.</li>
+              <li><strong>Elige tu vehículo preferido</strong> y confirma el precio.</li>
+              <li><strong>Completa la reserva</strong> con un pago seguro en línea.</li>
+              <li><strong>Recibe una confirmación inmediata</strong> por correo electrónico con los detalles de recogida.</li>
+              <li><strong>Llámanos 24/7</strong> para asistencia con tu reserva.</li>
+              <li><strong>Envíanos un correo electrónico</strong> con los detalles y nuestro equipo confirmará tu traslado.</li>
+            </ol>
+            
+            <h2>Servicios Adicionales</h2>
+            <ul>
+              <li><strong>Asientos para Niños Disponibles</strong> – Sillas de seguridad para bebés y niños pequeños a pedido.</li>
+              <li><strong>Paradas Intermedias</strong> – ¿Necesitas detenerte en el camino? Avísanos con anticipación.</li>
+              <li><strong>Traslados Solo Ida y Ida y Vuelta</strong> – Reserva también tu traslado de regreso para mayor comodidad.</li>
+            </ul>
+            
+            <h2>Descubre Marmaris con Nuestros Tours Exclusivos</h2>
+            
+            <p>Aprovecha tu visita al máximo reservando uno de nuestros <strong>tours por Marmaris</strong> con total confianza:</p>
+            <ul>
+              <li><strong>Tour en Barco por Marmaris</strong> – Disfruta de un paseo relajante por la costa turquesa.</li>
+              <li><strong>Safari en Jeep por Marmaris</strong> – Vive una aventura todoterreno entre paisajes naturales.</li>
+              <li><strong>Tour a Dalyan y Playa de las Tortugas</strong> – Visita la famosa playa de Iztuzu y las tumbas licias en roca.</li>
+              <li><strong>Safari en Quad por Marmaris</strong> – Explora rutas naturales y terrenos emocionantes.</li>
+            </ul>
+            
+            <p><em>(Todos los tours son operados con socios confiables y cumplen con los más altos estándares de seguridad. ¡Reserva con confianza!)</em></p>
+            
+            <h2>Sobre Marmaris</h2>
+            
+            <p>Marmaris es una impresionante ciudad costera conocida por su <strong>vibrante vida nocturna</strong>, <strong>marina pintoresca</strong>, <strong>playas de arena</strong> e <strong>historia rica</strong>. 
+            Visita el <strong>Gran Bazar</strong>, el <strong>Castillo de Marmaris</strong> y la famosa <strong>calle Bar Street</strong>, o simplemente relájate junto a la hermosa costa del mar Egeo.</p>
+            
+            <p>¡Reserva hoy tu traslado desde el <strong>Aeropuerto de Dalaman a Marmaris</strong> y comienza tu viaje sin estrés y con total comodidad!</p>
+            `,
+            it: `
+            <h1>Transfer dall Aeroporto di Dalaman a Marmaris</h1>
+            
+            <h2>Trasferimenti Affidabili e Confortevoli dall Aeroporto di Dalaman a Marmaris</h2>
+            
+            <p>Stai cercando un trasferimento senza stress dall <strong>Aeroporto di Dalaman (DLM)</strong> a Marmaris? Il nostro servizio professionale di transfer garantisce un viaggio comodo e tranquillo verso una delle destinazioni costiere più popolari della Turchia. Che tu stia viaggiando per una vacanza rilassante, un viaggio d'affari o un'avventura, ti offriamo un trasporto sicuro, puntuale e di alta qualità.</p>
+            
+            <h2>Distanza e Durata del Viaggio</h2>
+            <ul>
+              <li><strong>Distanza:</strong> Circa 95 km</li>
+              <li><strong>Durata del Viaggio:</strong> Tra 75 e 90 minuti, a seconda delle condizioni del traffico e della strada.</li>
+            </ul>
+            
+            <h2>Perché Scegliere il Nostro Servizio?</h2>
+            <ul>
+              <li><strong>Accoglienza all Aeroporto di Dalaman</strong> – Il nostro autista ti aspetterà nell area arrivi, subito dopo la dogana, con un cartello con il tuo nome per una facile identificazione.</li>
+              <li><strong>Prezzi Fissi e Trasparenti</strong> – Nessun costo nascosto, conosci il prezzo in anticipo.</li>
+              <li><strong>Opzioni di Veicoli Standard e di Lusso</strong> – Scegli tra auto sedan, MPV o minibus per gruppi più numerosi.</li>
+              <li><strong>Autisti Sicuri e Professionali</strong> – Autisti con licenza, esperti e parlanti inglese.</li>
+              <li><strong>Assistenza Clienti 24/7</strong> – Supporto disponibile in qualsiasi momento per rendere il tuo viaggio senza stress.</li>
+              <li><strong>Monitoraggio Volo Gratuito</strong> – Seguiamo il tuo volo e regoliamo gli orari di prelievo in base agli eventuali ritardi.</li>
+              <li><strong>Pagamento Sicuro</strong> – Accettiamo Euro, GBP, Dollaro USA e Lira Turca.</li>
+              <li><strong>Cancellazione Gratuita</strong> – Cancella fino a 24 ore prima del tuo trasferimento e ricevi un rimborso completo.</li>
+            </ul>
+            
+            <h2>Opzioni di Trasferimento</h2>
+            
+            <p>Offriamo varie opzioni di veicoli per soddisfare le diverse esigenze di viaggio:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>Tipo di Veicolo</th>
+                <th>Capacità Passeggeri</th>
+                <th>Capacità Bagagli</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Auto Sedan Standard</td>
+                <td>Fino a 3 passeggeri</td>
+                <td>Massimo 3 valigie</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>Fino a 5 passeggeri</td>
+                <td>Massimo 5 valigie</td>
+              </tr>
+              <tr>
+                <td>Minibus</td>
+                <td>Fino a 8 passeggeri</td>
+                <td>Massimo 8 valigie</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(I prezzi sono dinamici e possono variare in base alla stagione e al momento della prenotazione. Controlla il nostro sistema di prenotazione online per conoscere le tariffe più recenti.)</em></p>
+            
+            <h2>Come Prenotare?</h2>
+            <ol>
+              <li><strong>Visita il nostro sito web</strong> e inserisci i dettagli del tuo viaggio.</li>
+              <li><strong>Scegli il tuo veicolo preferito</strong> e conferma il prezzo.</li>
+              <li><strong>Completa la prenotazione</strong> con pagamento sicuro online.</li>
+              <li><strong>Ricevi conferma immediata</strong> via email con i dettagli del prelievo.</li>
+              <li><strong>Chiamaci 24/7</strong> per assistenza con la prenotazione.</li>
+              <li><strong>Inviaci un'email</strong> con i dettagli della prenotazione, il nostro team confermerà il tuo trasferimento.</li>
+            </ol>
+            
+            <h2>Servizi Aggiuntivi</h2>
+            <ul>
+              <li><strong>Seggiolini per Bambini Disponibili</strong> – Seggiolini di sicurezza per neonati e bambini piccoli su richiesta.</li>
+              <li><strong>Possibilità di Fermate Intermedie</strong> – Se hai bisogno di fermarti lungo il percorso, faccelo sapere in anticipo.</li>
+              <li><strong>Trasferimenti Solo Andata o Andata e Ritorno</strong> – Prenota anche il ritorno per maggiore comodità.</li>
+            </ul>
+            
+            <h2>Scopri Marmaris con i Nostri Tour Esclusivi</h2>
+            
+            <p>Fai il massimo della tua visita prenotando uno dei nostri <strong>tour di Marmaris</strong> con fiducia:</p>
+            <ul>
+              <li><strong>Tour in Barca a Marmaris</strong> – Goditi una crociera rilassante lungo la costa turchese.</li>
+              <li><strong>Safari in Jeep a Marmaris</strong> – Vivi un'avventura off-road attraverso paesaggi mozzafiato.</li>
+              <li><strong>Tour di Dalyan e della Spiaggia delle Tartarughe</strong> – Visita la famosa Spiaggia di Iztuzu e le tombe rupestri Licie.</li>
+              <li><strong>Safari in Quad a Marmaris</strong> – Esplora terreni emozionanti e sentieri naturali.</li>
+            </ul>
+            
+            <p><em>(Tutti i tour sono operati con partner fidati e garantiscono i più alti standard di sicurezza. Prenota con fiducia!)</em></p>
+            
+            <h2>Su Marmaris</h2>
+            
+            <p>Marmaris è una splendida località balneare conosciuta per la sua <strong>vita notturna vibrante</strong>, il suo <strong>porto pittoresco</strong>, le <strong>spiagge sabbiose</strong> e la <strong>ricca storia</strong>. 
+            Visita il <strong>Gran Bazar</strong>, il <strong>Castello di Marmaris</strong> e la famosa <strong>Bar Street</strong>, o semplicemente rilassati lungo la splendida costa dell'Egeo.</p>
+            
+            <p>Prenota oggi stesso il tuo <strong>trasferimento dall Aeroporto di Dalaman a Marmaris</strong> e inizia il tuo viaggio senza stress!</p>
+            `,
+            ru: `
+            <h1>Трансфер из аэропорта Даламан в Мармарис</h1>
+            
+            <h2>Надежный и комфортный трансфер из аэропорта Даламан в Мармарис</h2>
+            
+            <p>Ищете комфортный трансфер из <strong>аэропорта Даламан (DLM)</strong> в Мармарис без стресса? Наш профессиональный трансфер-сервис гарантирует плавную и удобную поездку в один из самых популярных курортов Турции. Независимо от того, отправляетесь ли вы на отдых, в деловую поездку или за приключениями, мы обеспечим безопасную, пунктуальную и качественную транспортировку.</p>
+            
+            <h2>Расстояние и Время в Пути</h2>
+            <ul>
+              <li><strong>Расстояние:</strong> около 95 км</li>
+              <li><strong>Время в пути:</strong> приблизительно от 75 до 90 минут, в зависимости от трафика и дорожных условий.</li>
+            </ul>
+            
+            <h2>Почему выбирают нас?</h2>
+            <ul>
+              <li><strong>Встреча в аэропорту Даламан</strong> – Водитель будет ожидать вас в зоне прилета, сразу после таможни, с табличкой с вашим именем.</li>
+              <li><strong>Фиксированная и прозрачная цена</strong> – Без скрытых платежей. Вы заранее знаете стоимость поездки.</li>
+              <li><strong>Выбор стандартных и люксовых автомобилей</strong> – Седаны, минивэны (MPV) и микроавтобусы для больших групп.</li>
+              <li><strong>Профессиональные и безопасные водители</strong> – Опытные, лицензированные, говорящие на английском языке.</li>
+              <li><strong>Круглосуточная поддержка</strong> – Поддержка 24/7 для вашего полного спокойствия.</li>
+              <li><strong>Бесплатный мониторинг рейсов</strong> – Мы отслеживаем ваш рейс и при необходимости корректируем время встречи.</li>
+              <li><strong>Безопасная оплата</strong> – Принимаем евро, фунты, доллары США и турецкие лиры.</li>
+              <li><strong>Бесплатная отмена</strong> – Отмена за 24 часа до поездки без штрафа и с полным возвратом средств.</li>
+            </ul>
+            
+            <h2>Варианты Трансфера</h2>
+            
+            <p>Мы предлагаем разные типы автомобилей на выбор под ваши потребности:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>Тип автомобиля</th>
+                <th>Пассажировместимость</th>
+                <th>Багаж</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Стандартный седан</td>
+                <td>До 3 пассажиров</td>
+                <td>Максимум 3 чемодана</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>До 5 пассажиров</td>
+                <td>Максимум 5 чемоданов</td>
+              </tr>
+              <tr>
+                <td>Микроавтобус</td>
+                <td>До 8 пассажиров</td>
+                <td>Максимум 8 чемоданов</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Цены являются динамическими и могут меняться в зависимости от сезона и времени бронирования. Актуальные тарифы доступны в нашей онлайн-системе бронирования.)</em></p>
+            
+            <h2>Как забронировать?</h2>
+            <ol>
+              <li><strong>Посетите наш сайт</strong> и введите данные вашей поездки.</li>
+              <li><strong>Выберите желаемый автомобиль</strong> и подтвердите цену.</li>
+              <li><strong>Завершите бронирование</strong> с помощью безопасной онлайн-оплаты.</li>
+              <li><strong>Получите мгновенное подтверждение</strong> на вашу почту с деталями трансфера.</li>
+              <li><strong>Позвоните нам 24/7</strong> — мы всегда готовы помочь.</li>
+              <li><strong>Отправьте нам письмо</strong> с данными бронирования — наша команда подтвердит ваш трансфер.</li>
+            </ol>
+            
+            <h2>Дополнительные Услуги</h2>
+            <ul>
+              <li><strong>Детские кресла</strong> – Предоставляются по запросу для младенцев и маленьких детей.</li>
+              <li><strong>Остановки по пути</strong> – Сообщите нам заранее, если вы хотите остановиться в дороге.</li>
+              <li><strong>Трансфер в одну сторону и туда-обратно</strong> – Бронируйте также обратную поездку для удобства.</li>
+            </ul>
+            
+            <h2>Откройте для себя Мармарис с нашими эксклюзивными турами</h2>
+            
+            <p>Сделайте свою поездку особенной — выберите один из наших <strong>эксклюзивных туров по Мармарису</strong>:</p>
+            <ul>
+              <li><strong>Прогулка на катере по Мармарису</strong> – Наслаждайтесь расслабляющим круизом вдоль бирюзового побережья.</li>
+              <li><strong>Джип-сафари в Мармарисе</strong> – Приключение по живописным природным маршрутам.</li>
+              <li><strong>Тур в Дальян и на Пляж Черепах</strong> – Посетите знаменитый пляж Изтузу и ликийские гробницы.</li>
+              <li><strong>Сафари на квадроциклах в Мармарисе</strong> – Исследуйте захватывающие тропы и природные маршруты.</li>
+            </ul>
+            
+            <p><em>(Все туры организованы с надёжными партнёрами и соответствуют самым высоким стандартам безопасности. Бронируйте с уверенностью!)</em></p>
+            
+            <h2>О Мармарисе</h2>
+            
+            <p>Мармарис — это потрясающий прибрежный курорт, известный своей <strong>бурной ночной жизнью</strong>, <strong>живописной гаванью</strong>, <strong>песчаными пляжами</strong> и <strong>богатой историей</strong>. 
+            Посетите <strong>Большой базар</strong>, <strong>замок Мармариса</strong> и знаменитую <strong>улицу баров</strong>, или просто насладитесь отдыхом на побережье Эгейского моря.</p>
+            
+            <p>Забронируйте свой <strong>трансфер из аэропорта Даламан в Мармарис</strong> уже сегодня и начните своё путешествие с комфорта и без стресса!</p>
+            `,
+            zh: `
+            <h1>达拉曼机场至马尔马里斯接送服务</h1>
+            
+            <h2>可靠舒适的达拉曼机场至马尔马里斯接送</h2>
+            
+            <p>正在寻找从<strong>达拉曼机场 (DLM)</strong>前往马尔马里斯的无忧接送服务吗？我们的专业接送服务可确保您顺畅、舒适地抵达土耳其最受欢迎的海滨度假胜地之一。无论您是来度假、商务出行还是冒险之旅，我们都将为您提供安全、准时、高质量的交通服务。</p>
+            
+            <h2>距离与行程时间</h2>
+            <ul>
+              <li><strong>距离：</strong>约 95 公里</li>
+              <li><strong>行程时间：</strong>约 75 至 90 分钟，视交通与道路情况而定。</li>
+            </ul>
+            
+            <h2>为什么选择我们的服务？</h2>
+            <ul>
+              <li><strong>达拉曼机场接机服务</strong> – 司机将在海关出口的到达区域等候，手持写有您姓名的接机牌，方便识别。</li>
+              <li><strong>价格透明且固定</strong> – 无隐藏费用，提前确认价格。</li>
+              <li><strong>标准与豪华车型任选</strong> – 提供轿车、MPV 或适合多人出行的迷你巴士。</li>
+              <li><strong>安全专业司机</strong> – 持证上岗、经验丰富、英语沟通无障碍。</li>
+              <li><strong>全天候客户支持</strong> – 24 小时客服，随时为您提供帮助。</li>
+              <li><strong>免费航班监控</strong> – 实时追踪航班，若航班延误，将自动调整接送时间。</li>
+              <li><strong>安全支付</strong> – 支持欧元、英镑、美元和土耳其里拉。</li>
+              <li><strong>免费取消</strong> – 最迟可在接送前 24 小时免费取消，获得全额退款。</li>
+            </ul>
+            
+            <h2>接送车型选项</h2>
+            
+            <p>我们提供多种车型以满足不同旅客的需求：</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>车型</th>
+                <th>乘客容量</th>
+                <th>行李限额</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>标准轿车</td>
+                <td>最多 3 位乘客</td>
+                <td>最多 3 件行李</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>最多 5 位乘客</td>
+                <td>最多 5 件行李</td>
+              </tr>
+              <tr>
+                <td>迷你巴士</td>
+                <td>最多 8 位乘客</td>
+                <td>最多 8 件行李</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>（价格为动态变化，可能会根据季节和预订时间有所不同。请访问我们的在线预订系统获取最新价格。）</em></p>
+            
+            <h2>如何预订？</h2>
+            <ol>
+              <li><strong>访问我们的网站</strong>并填写您的出行信息。</li>
+              <li><strong>选择您偏好的车辆</strong>并确认价格。</li>
+              <li><strong>通过安全在线支付完成预订。</strong></li>
+              <li><strong>立即通过邮件收到确认信息</strong>，内含接送详情。</li>
+              <li><strong>全天候拨打我们的客服热线</strong>，获取帮助。</li>
+              <li><strong>通过电子邮件发送预订信息</strong>，我们的团队将为您确认行程。</li>
+            </ol>
+            
+            <h2>附加服务</h2>
+            <ul>
+              <li><strong>提供儿童座椅</strong> – 根据请求为婴幼儿配备安全座椅。</li>
+              <li><strong>可中途停车</strong> – 若需途中停留，请提前通知我们。</li>
+              <li><strong>单程与往返接送</strong> – 同时预订返程更省心。</li>
+            </ul>
+            
+            <h2>专属马尔马里斯旅游推荐</h2>
+            
+            <p>通过预订我们的<strong>马尔马里斯独家旅游线路</strong>，让您的旅程更加精彩：</p>
+            <ul>
+              <li><strong>马尔马里斯游船之旅</strong> – 沿着碧蓝海岸线尽享宁静的海上旅程。</li>
+              <li><strong>马尔马里斯吉普车越野</strong> – 穿越自然美景体验越野探险。</li>
+              <li><strong>达利安 & 海龟滩之旅</strong> – 探访著名的伊兹图祖海滩和古代利西亚岩墓。</li>
+              <li><strong>马尔马里斯四轮摩托越野</strong> – 探索刺激的地形和自然小径。</li>
+            </ul>
+            
+            <p><em>（所有旅游项目由可靠合作伙伴运营，符合最高安全标准。请放心预订！）</em></p>
+            
+            <h2>关于马尔马里斯</h2>
+            
+            <p>马尔马里斯是一个令人惊叹的海滨度假城市，以<strong>热闹的夜生活</strong>、<strong>迷人的游艇码头</strong>、<strong>金色沙滩</strong>和<strong>丰富的历史文化</strong>而闻名。您可以游览<strong>大巴扎</strong>、<strong>马尔马里斯城堡</strong>和著名的<strong>酒吧街</strong>，或者沿着美丽的爱琴海岸线尽情放松。</p>
+            
+            <p>立即预订您的<strong>达拉曼机场至马尔马里斯</strong>接送服务，开启轻松无忧的旅程！</p>
+            `,
         },
         "/dalaman-airport-to-gocek": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``
+            en: `
+            <h1>Dalaman Airport to Göcek Transfers</h1>
+
+<h2>Reliable & Comfortable Transfers from Dalaman Airport to Göcek</h2>
+
+<p>Looking for a premium transfer service from <strong>Dalaman Airport (DLM)</strong> to Göcek? Our private airport transfers ensure a seamless journey to this luxurious yachting destination. Whether you’re heading to a marina, a private villa, or a five-star resort, we provide <strong>safe, punctual, and high-quality</strong> transportation.</p>
+
+<h2>Distance & Travel Time</h2>
+<ul>
+  <li><strong>Distance:</strong> Approximately 25 km</li>
+  <li><strong>Travel Time:</strong> Around 25–35 minutes, depending on traffic and road conditions.</li>
+</ul>
+
+<h2>Why Choose Our Transfer Service?</h2>
+<ul>
+  <li><strong>Meet & Greet at Dalaman Airport</strong> – Our driver will be waiting at the arrivals area, just after customs, holding a passenger name board for easy identification.</li>
+  <li><strong>Fixed & Transparent Pricing</strong> – No hidden fees, ensuring you know your cost upfront.</li>
+  <li><strong>Luxury & Standard Vehicle Options</strong> – Choose from standard sedans, MPVs, or minibuses for larger groups.</li>
+  <li><strong>Safe & Professional Drivers</strong> – Licensed, experienced, and English-speaking drivers.</li>
+  <li><strong>24/7 Customer Support</strong> – Assistance available at any time to make your journey stress-free.</li>
+  <li><strong>Free Flight Monitoring</strong> – We track your flight and adjust pickup times accordingly to accommodate any delays.</li>
+  <li><strong>Secure Payment</strong> – Euro, GBP, US Dollar & Turkish Lira Accepted.</li>
+  <li><strong>Free Cancellation</strong> – Cancel up to 24 hours before your transfer for a full refund.</li>
+</ul>
+
+<h2>Transfer Options</h2>
+
+<p>We offer various vehicle options to suit different travel needs:</p>
+
+<div>
+<table border="1">
+<thead>
+  <tr>
+    <th>Vehicle Type</th>
+    <th>Passenger Capacity</th>
+    <th>Luggage Allowance</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Standard Sedan</td>
+    <td>Up to 3 passengers</td>
+    <td>Max 3 suitcases</td>
+  </tr>
+  <tr>
+    <td>MPV</td>
+    <td>Up to 5 passengers</td>
+    <td>Max 5 suitcases</td>
+  </tr>
+  <tr>
+    <td>Minibus</td>
+    <td>Up to 8 passengers</td>
+    <td>Max 8 suitcases</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<p><em>(Prices are dynamic and vary depending on season and booking time. Please check our online booking system for the latest rates.)</em></p>
+
+<h2>How to Book?</h2>
+<ol>
+  <li><strong>Visit our website</strong> and enter your travel details.</li>
+  <li><strong>Choose your preferred vehicle</strong> and confirm pricing.</li>
+  <li><strong>Complete your booking</strong> with secure online payment.</li>
+  <li><strong>Receive instant confirmation</strong> via email with pickup details.</li>
+  <li><strong>Call us 24/7</strong> for booking assistance.</li>
+  <li><strong>Email us</strong> your booking details, and our team will confirm your transfer.</li>
+</ol>
+
+<h2>Additional Services</h2>
+<ul>
+  <li><strong>Child Seats Available</strong> – Safety seats for infants and toddlers upon request.</li>
+  <li><strong>Stopover Options</strong> – Need to stop along the way? Let us know in advance.</li>
+  <li><strong>One-Way & Return Transfers</strong> – Book a return journey for added convenience.</li>
+</ul>
+
+<h2>Discover Göcek with Our Exclusive Tours</h2>
+
+<p>Enhance your stay by booking one of our <strong>Göcek tours</strong> with confidence:</p>
+<ul>
+  <li><strong>Göcek Private Boat Tour</strong> – Sail through the stunning bays and crystal-clear waters of Göcek.</li>
+  <li><strong>12 Islands Boat Tour</strong> – Explore the beautiful islands of Göcek and Fethiye Bay.</li>
+  <li><strong>Luxury Yacht Charter in Göcek</strong> – Enjoy a high-end private yachting experience.</li>
+  <li><strong>Scuba Diving & Snorkeling Trips</strong> – Discover the underwater wonders of Göcek.</li>
+</ul>
+
+<p><em>(All tours are operated with trusted partners and meet the highest safety standards. Book with confidence!)</em></p>
+
+<h2>About Göcek</h2>
+
+<p>Göcek is a world-renowned <strong>luxury marina town</strong>, offering <strong>crystal-clear waters</strong>, <strong>exclusive yacht clubs</strong>, <strong>upscale resorts</strong>, and <strong>serene beaches</strong>. Whether you’re sailing along the Turquoise Coast, enjoying <strong>fine dining by the marina</strong>, or exploring nearby <strong>hidden coves and islands</strong>, Göcek is a paradise for travelers seeking relaxation and luxury.</p>
+
+<p>Book your <strong>Dalaman Airport to Göcek</strong> transfer today and experience a seamless, first-class travel experience!</p>
+
+            `,
+            tr: `
+            <h1>Dalaman Havalimanı - Göcek Transferleri</h1>
+            
+            <h2>Dalaman Havalimanı'ndan Göcek'e Güvenli ve Konforlu Transfer</h2>
+            
+            <p><strong>Dalaman Havalimanı (DLM)</strong>'nden Göcek'e premium transfer hizmeti mi arıyorsunuz? Özel havalimanı transferlerimiz, bu lüks yat destinasyonuna sorunsuz bir yolculuk sunar. Marina, özel villa ya da beş yıldızlı bir otele gidiyor olun, size <strong>güvenli, dakik ve yüksek kaliteli</strong> bir ulaşım hizmeti sağlıyoruz.</p>
+            
+            <h2>Mesafe ve Yolculuk Süresi</h2>
+            <ul>
+              <li><strong>Mesafe:</strong> Yaklaşık 25 km</li>
+              <li><strong>Yolculuk Süresi:</strong> Trafik ve yol durumuna bağlı olarak yaklaşık 25–35 dakika.</li>
+            </ul>
+            
+            <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+            <ul>
+              <li><strong>Dalaman Havalimanı'nda Karşılama</strong> – Sürücümüz, gümrük sonrası geliş alanında sizi isminizin yazılı olduğu bir tabela ile bekliyor olacak.</li>
+              <li><strong>Sabit ve Şeffaf Fiyatlandırma</strong> – Gizli ücretler yoktur; fiyatı baştan bilirsiniz.</li>
+              <li><strong>Lüks ve Standart Araç Seçenekleri</strong> – Standart sedan, MPV veya minibüs arasından tercih yapabilirsiniz.</li>
+              <li><strong>Güvenli ve Profesyonel Sürücüler</strong> – Lisanslı, deneyimli ve İngilizce konuşan şoförler.</li>
+              <li><strong>7/24 Müşteri Desteği</strong> – Yolculuğunuzun sorunsuz geçmesi için her zaman hizmetinizdeyiz.</li>
+              <li><strong>Ücretsiz Uçuş Takibi</strong> – Uçuşunuzu takip ediyor ve olası gecikmelere göre karşılamayı ayarlıyoruz.</li>
+              <li><strong>Güvenli Ödeme</strong> – Euro, GBP, Amerikan Doları ve Türk Lirası kabul edilir.</li>
+              <li><strong>Ücretsiz İptal</strong> – Transferden 24 saat öncesine kadar iptal edebilir, tam para iadesi alabilirsiniz.</li>
+            </ul>
+            
+            <h2>Transfer Seçenekleri</h2>
+            
+            <p>Farklı seyahat ihtiyaçlarına uygun çeşitli araç seçenekleri sunuyoruz:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>Araç Tipi</th>
+                <th>Yolcu Kapasitesi</th>
+                <th>Bagaj Hakkı</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Standart Sedan</td>
+                <td>En fazla 3 yolcu</td>
+                <td>Maksimum 3 valiz</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>En fazla 5 yolcu</td>
+                <td>Maksimum 5 valiz</td>
+              </tr>
+              <tr>
+                <td>Minibüs</td>
+                <td>En fazla 8 yolcu</td>
+                <td>Maksimum 8 valiz</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Fiyatlar dinamiktir ve sezona veya rezervasyon zamanına göre değişebilir. En güncel fiyatlar için online rezervasyon sistemimizi kontrol ediniz.)</em></p>
+            
+            <h2>Nasıl Rezervasyon Yapılır?</h2>
+            <ol>
+              <li><strong>Web sitemizi ziyaret edin</strong> ve seyahat bilgilerinizi girin.</li>
+              <li><strong>Tercih ettiğiniz aracı seçin</strong> ve fiyatı onaylayın.</li>
+              <li><strong>Güvenli çevrimiçi ödeme ile rezervasyonunuzu tamamlayın.</strong></li>
+              <li><strong>Anında onay e-postası alın</strong> ve karşılama detaylarını öğrenin.</li>
+              <li><strong>Bizi 7/24 arayın</strong> – Rezervasyon desteği için her zaman ulaşabilirsiniz.</li>
+              <li><strong>Bize e-posta gönderin</strong> – Rezervasyon bilgilerinizi paylaşın, biz onaylayalım.</li>
+            </ol>
+            
+            <h2>Ek Hizmetler</h2>
+            <ul>
+              <li><strong>Çocuk Koltuğu Mevcuttur</strong> – Talep üzerine bebek ve küçük çocuklar için güvenlik koltukları sağlanır.</li>
+              <li><strong>Yolda Duraklama Seçeneği</strong> – Yol üzerinde durmanız gerekiyorsa lütfen önceden bize bildirin.</li>
+              <li><strong>Tek Yön & Gidiş-Dönüş Transfer</strong> – Dilerseniz dönüş transferinizi de kolayca rezerve edebilirsiniz.</li>
+            </ul>
+            
+            <h2>Özel Turlarımızla Göcek’i Keşfedin</h2>
+            
+            <p><strong>Göcek turlarımızdan</strong> birini güvenle rezerve ederek konaklamanızı daha da özel hale getirin:</p>
+            <ul>
+              <li><strong>Özel Göcek Tekne Turu</strong> – Göcek’in muhteşem koyları ve berrak sularında yelken açın.</li>
+              <li><strong>12 Adalar Tekne Turu</strong> – Göcek ve Fethiye Körfezi’ndeki güzel adaları keşfedin.</li>
+              <li><strong>Göcek’te Lüks Yat Kiralama</strong> – Üst düzey özel yat deneyiminin keyfini çıkarın.</li>
+              <li><strong>Dalış ve Şnorkel Turları</strong> – Göcek’in su altı güzelliklerini keşfedin.</li>
+            </ul>
+            
+            <p><em>(Tüm turlar güvenilir iş ortaklarımız tarafından düzenlenmektedir ve en yüksek güvenlik standartlarını karşılamaktadır. Gönül rahatlığıyla rezervasyon yapabilirsiniz!)</em></p>
+            
+            <h2>Göcek Hakkında</h2>
+            
+            <p>Göcek, <strong>lüks bir marina kasabası</strong> olarak dünya çapında ün kazanmıştır. <strong>Berrak sular</strong>, <strong>özel yat kulüpleri</strong>, <strong>lüks tatil köyleri</strong> ve <strong>sessiz plajlar</strong> sunar. Turkuaz Kıyılar boyunca yelken açın, <strong>marina kenarında fine dining</strong> deneyimi yaşayın veya yakınlardaki <strong>saklı koyları ve adaları</strong> keşfedin. Göcek, huzur ve lüks arayan gezginler için adeta bir cennettir.</p>
+            
+            <p><strong>Dalaman Havalimanı - Göcek</strong> transferinizi hemen rezerve edin ve kusursuz, birinci sınıf bir seyahat deneyimiyle yolculuğunuza başlayın!</p>
+            `,
+            ar: `
+            <h1>خدمة النقل من مطار دالامان إلى غوجيك</h1>
+            
+            <h2>نقل آمن ومريح من مطار دالامان إلى غوجيك</h2>
+            
+            <p>هل تبحث عن خدمة نقل فاخرة من <strong>مطار دالامان (DLM)</strong> إلى غوجيك؟ تضمن لك خدماتنا الخاصة للنقل من المطار رحلة سلسة إلى هذه الوجهة البحرية الفاخرة. سواء كنت متجهاً إلى مرسى، فيلا خاصة، أو منتجع خمس نجوم، نحن نوفر لك وسيلة نقل <strong>آمنة ودقيقة وعالية الجودة</strong>.</p>
+            
+            <h2>المسافة ومدة الرحلة</h2>
+            <ul>
+              <li><strong>المسافة:</strong> حوالي 25 كم</li>
+              <li><strong>مدة الرحلة:</strong> حوالي 25 إلى 35 دقيقة، حسب حالة الطريق وحركة المرور.</li>
+            </ul>
+            
+            <h2>لماذا تختار خدمتنا؟</h2>
+            <ul>
+              <li><strong>الاستقبال في مطار دالامان</strong> – سيكون السائق بانتظارك في صالة الوصول بعد الجمارك حاملاً لافتة باسمك لتسهيل التعرف عليك.</li>
+              <li><strong>أسعار ثابتة وشفافة</strong> – لا توجد رسوم خفية، السعر معروف مسبقاً.</li>
+              <li><strong>خيارات سيارات فاخرة وعادية</strong> – اختر بين سيارات سيدان، MPV أو ميني باص حسب احتياجك.</li>
+              <li><strong>سائقون محترفون وآمنون</strong> – مرخصون، ذوو خبرة، ويتحدثون الإنجليزية.</li>
+              <li><strong>دعم عملاء على مدار الساعة</strong> – المساعدة متوفرة في أي وقت لجعل رحلتك خالية من التوتر.</li>
+              <li><strong>متابعة الرحلات الجوية مجاناً</strong> – نتابع رحلتك ونقوم بتعديل وقت الاستقبال في حال حدوث أي تأخير.</li>
+              <li><strong>دفع آمن</strong> – نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية.</li>
+              <li><strong>إلغاء مجاني</strong> – يمكنك الإلغاء حتى 24 ساعة قبل موعد النقل واسترداد كامل المبلغ.</li>
+            </ul>
+            
+            <h2>خيارات النقل</h2>
+            
+            <p>نقدم مجموعة متنوعة من المركبات لتناسب احتياجات السفر المختلفة:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>نوع المركبة</th>
+                <th>سعة الركاب</th>
+                <th>سعة الأمتعة</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>سيدان عادية</td>
+                <td>حتى 3 ركاب</td>
+                <td>حتى 3 حقائب</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>حتى 5 ركاب</td>
+                <td>حتى 5 حقائب</td>
+              </tr>
+              <tr>
+                <td>ميني باص</td>
+                <td>حتى 8 ركاب</td>
+                <td>حتى 8 حقائب</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(الأسعار متغيرة وقد تختلف حسب الموسم ووقت الحجز. يرجى مراجعة نظام الحجز الإلكتروني لمعرفة أحدث الأسعار.)</em></p>
+            
+            <h2>كيفية الحجز؟</h2>
+            <ol>
+              <li><strong>قم بزيارة موقعنا الإلكتروني</strong> وأدخل بيانات رحلتك.</li>
+              <li><strong>اختر المركبة المناسبة لك</strong> وقم بتأكيد السعر.</li>
+              <li><strong>أكمل الحجز</strong> من خلال الدفع الآمن عبر الإنترنت.</li>
+              <li><strong>استلم تأكيداً فورياً</strong> عبر البريد الإلكتروني يحتوي على تفاصيل الاستقبال.</li>
+              <li><strong>اتصل بنا 24/7</strong> إذا كنت بحاجة للمساعدة في الحجز.</li>
+              <li><strong>أرسل لنا بريدًا إلكترونيًا</strong> بتفاصيل الحجز، وسنقوم بتأكيده.</li>
+            </ol>
+            
+            <h2>خدمات إضافية</h2>
+            <ul>
+              <li><strong>كراسي أطفال متوفرة</strong> – كراسي أمان للرضع والأطفال الصغار عند الطلب.</li>
+              <li><strong>إمكانية التوقف أثناء الرحلة</strong> – أخبرنا مسبقاً إذا كنت بحاجة للتوقف في الطريق.</li>
+              <li><strong>نقل ذهاب فقط أو ذهاب وعودة</strong> – يمكنك أيضاً حجز رحلة العودة بسهولة.</li>
+            </ul>
+            
+            <h2>اكتشف غوجيك مع جولاتنا الحصرية</h2>
+            
+            <p>اجعل إقامتك أكثر تميزاً بحجز واحدة من <strong>جولاتنا في غوجيك</strong> بكل ثقة:</p>
+            <ul>
+              <li><strong>جولة خاصة بالقارب في غوجيك</strong> – أبحر عبر الخلجان المذهلة ومياه غوجيك الصافية.</li>
+              <li><strong>جولة 12 جزيرة بالقارب</strong> – استكشف جزر غوجيك وخليج فتحية الجميلة.</li>
+              <li><strong>تأجير يخت فاخر في غوجيك</strong> – تجربة بحرية خاصة وراقية.</li>
+              <li><strong>رحلات غوص وغطس</strong> – اكتشف عجائب غوجيك تحت الماء.</li>
+            </ul>
+            
+            <p><em>(تُدار جميع الجولات من قبل شركاء موثوقين وتلبي أعلى معايير السلامة. احجز بثقة!)</em></p>
+            
+            <h2>حول غوجيك</h2>
+            
+            <p>تُعد غوجيك <strong>مدينة مرسى فاخرة</strong> مشهورة عالمياً، وتتميز بـ<strong>مياهها النقية</strong>، <strong>نوادي اليخوت الحصرية</strong>، <strong>المنتجعات الراقية</strong>، و<strong>الشواطئ الهادئة</strong>. سواء كنت تُبحر على طول الساحل الفيروزي، أو تستمتع <strong>بتناول الطعام الفاخر على المرسى</strong>، أو تستكشف <strong>الخليجان والجزر المخفية</strong>، فإن غوجيك هي جنة للمسافرين الباحثين عن الراحة والرفاهية.</p>
+            
+            <p>احجز خدمة النقل من <strong>مطار دالامان إلى غوجيك</strong> اليوم، واستمتع بتجربة سفر فاخرة وسلسة من الدرجة الأولى!</p>
+            `,
+            es: `
+            <h1>Traslados desde el Aeropuerto de Dalaman a Göcek</h1>
+            
+            <h2>Traslados Seguros y Confortables desde el Aeropuerto de Dalaman a Göcek</h2>
+            
+            <p>¿Buscas un servicio de traslado premium desde el <strong>Aeropuerto de Dalaman (DLM)</strong> a Göcek? Nuestros traslados privados aseguran un viaje sin complicaciones a este lujoso destino náutico. Ya sea que te dirijas a una marina, una villa privada o un resort de cinco estrellas, te ofrecemos transporte <strong>seguro, puntual y de alta calidad</strong>.</p>
+            
+            <h2>Distancia y Tiempo de Viaje</h2>
+            <ul>
+              <li><strong>Distancia:</strong> Aproximadamente 25 km</li>
+              <li><strong>Duración del viaje:</strong> Entre 25 y 35 minutos, dependiendo del tráfico y las condiciones de la carretera.</li>
+            </ul>
+            
+            <h2>¿Por Qué Elegir Nuestro Servicio?</h2>
+            <ul>
+              <li><strong>Recepción en el Aeropuerto de Dalaman</strong> – Nuestro conductor te esperará en la zona de llegadas, después de aduanas, con un cartel con tu nombre para facilitar la identificación.</li>
+              <li><strong>Precios Fijos y Transparentes</strong> – Sin cargos ocultos; conoces el precio desde el principio.</li>
+              <li><strong>Opciones de Vehículos Estándar y de Lujo</strong> – Puedes elegir entre sedanes, MPVs o minibuses para grupos grandes.</li>
+              <li><strong>Conductores Seguros y Profesionales</strong> – Con licencia, experiencia y dominio del inglés.</li>
+              <li><strong>Atención al Cliente 24/7</strong> – Asistencia disponible en cualquier momento para un viaje sin estrés.</li>
+              <li><strong>Monitoreo de Vuelo Gratuito</strong> – Seguimos tu vuelo y ajustamos el horario de recogida en caso de retrasos.</li>
+              <li><strong>Pago Seguro</strong> – Aceptamos euros, libras esterlinas, dólares estadounidenses y liras turcas.</li>
+              <li><strong>Cancelación Gratuita</strong> – Cancela hasta 24 horas antes del traslado y recibe un reembolso completo.</li>
+            </ul>
+            
+            <h2>Opciones de Vehículos</h2>
+            
+            <p>Ofrecemos diferentes tipos de vehículos para adaptarnos a tus necesidades de viaje:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>Tipo de Vehículo</th>
+                <th>Capacidad de Pasajeros</th>
+                <th>Capacidad de Equipaje</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sedán Estándar</td>
+                <td>Hasta 3 pasajeros</td>
+                <td>Máximo 3 maletas</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>Hasta 5 pasajeros</td>
+                <td>Máximo 5 maletas</td>
+              </tr>
+              <tr>
+                <td>Minibús</td>
+                <td>Hasta 8 pasajeros</td>
+                <td>Máximo 8 maletas</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Los precios son dinámicos y pueden variar según la temporada y el momento de la reserva. Consulta nuestro sistema de reservas en línea para conocer las tarifas más actualizadas.)</em></p>
+            
+            <h2>¿Cómo Reservar?</h2>
+            <ol>
+              <li><strong>Visita nuestro sitio web</strong> e ingresa los datos de tu viaje.</li>
+              <li><strong>Elige el vehículo que prefieras</strong> y confirma el precio.</li>
+              <li><strong>Completa la reserva</strong> con un pago seguro en línea.</li>
+              <li><strong>Recibe confirmación inmediata</strong> por correo electrónico con los detalles de recogida.</li>
+              <li><strong>Llámanos 24/7</strong> para asistencia con la reserva.</li>
+              <li><strong>Envíanos un correo electrónico</strong> con los datos de tu reserva y nuestro equipo la confirmará.</li>
+            </ol>
+            
+            <h2>Servicios Adicionales</h2>
+            <ul>
+              <li><strong>Sillas para Niños Disponibles</strong> – Asientos de seguridad para bebés y niños pequeños bajo solicitud.</li>
+              <li><strong>Paradas en Ruta</strong> – ¿Necesitas detenerte durante el trayecto? Avísanos con antelación.</li>
+              <li><strong>Traslados Solo Ida y Ida y Vuelta</strong> – También puedes reservar el viaje de regreso fácilmente.</li>
+            </ul>
+            
+            <h2>Descubre Göcek con Nuestros Tours Exclusivos</h2>
+            
+            <p>Haz que tu estancia sea aún más especial reservando uno de nuestros <strong>tours en Göcek</strong> con total confianza:</p>
+            <ul>
+              <li><strong>Paseo en Barco Privado por Göcek</strong> – Navega por las impresionantes bahías y aguas cristalinas de Göcek.</li>
+              <li><strong>Tour en Barco por las 12 Islas</strong> – Explora las hermosas islas de Göcek y la Bahía de Fethiye.</li>
+              <li><strong>Alquiler de Yate de Lujo en Göcek</strong> – Disfruta de una experiencia náutica privada de alta gama.</li>
+              <li><strong>Buceo y Snorkel</strong> – Descubre las maravillas submarinas de Göcek.</li>
+            </ul>
+            
+            <p><em>(Todos los tours son operados por socios confiables y cumplen con los más altos estándares de seguridad. ¡Reserva con confianza!)</em></p>
+            
+            <h2>Sobre Göcek</h2>
+            
+            <p>Göcek es una <strong>ciudad portuaria de lujo</strong> de fama mundial, conocida por sus <strong>aguas cristalinas</strong>, <strong>clubs náuticos exclusivos</strong>, <strong>resorts de alta categoría</strong> y <strong>playas tranquilas</strong>. Ya sea que estés navegando por la Costa Turquesa, disfrutando de una <strong>cena de lujo en el puerto</strong> o explorando <strong>calas e islas escondidas</strong>, Göcek es el paraíso perfecto para los viajeros que buscan relajación y lujo.</p>
+            
+            <p>¡Reserva hoy mismo tu traslado desde el <strong>Aeropuerto de Dalaman a Göcek</strong> y comienza tu viaje con una experiencia sin complicaciones y de primera clase!</p>
+            `,
+            it: `
+            <h1>Transfer dall Aeroporto di Dalaman a Göcek</h1>
+            
+            <h2>Trasferimenti Sicuri e Confortevoli dall Aeroporto di Dalaman a Göcek</h2>
+            
+            <p>Stai cercando un servizio di transfer premium dall <strong>Aeroporto di Dalaman (DLM)</strong> a Göcek? I nostri trasferimenti privati garantiscono un viaggio senza intoppi verso questa esclusiva destinazione nautica. Che tu stia andando in marina, in una villa privata o in un resort a cinque stelle, ti offriamo un trasporto <strong>sicuro, puntuale e di alta qualità</strong>.</p>
+            
+            <h2>Distanza e Durata del Viaggio</h2>
+            <ul>
+              <li><strong>Distanza:</strong> Circa 25 km</li>
+              <li><strong>Durata del viaggio:</strong> Circa 25–35 minuti, a seconda del traffico e delle condizioni stradali.</li>
+            </ul>
+            
+            <h2>Perché Scegliere il Nostro Servizio?</h2>
+            <ul>
+              <li><strong>Accoglienza in aeroporto</strong> – Il nostro autista ti aspetterà nell’area arrivi, dopo la dogana, con un cartello con il tuo nome.</li>
+              <li><strong>Prezzi Fissi e Trasparenti</strong> – Nessun costo nascosto; il prezzo è chiaro fin dall'inizio.</li>
+              <li><strong>Opzioni di Veicoli Standard e di Lusso</strong> – Puoi scegliere tra berline, MPV o minibus per gruppi più numerosi.</li>
+              <li><strong>Autisti Sicuri e Professionali</strong> – Con licenza, esperienza e conoscenza della lingua inglese.</li>
+              <li><strong>Assistenza Clienti 24/7</strong> – Siamo sempre disponibili per supportarti durante il viaggio.</li>
+              <li><strong>Monitoraggio Volo Gratuito</strong> – Tracciamo il tuo volo e adeguiamo l’orario di ritiro in caso di ritardi.</li>
+              <li><strong>Pagamento Sicuro</strong> – Accettiamo Euro, GBP, Dollaro USA e Lira Turca.</li>
+              <li><strong>Cancellazione Gratuita</strong> – Puoi cancellare fino a 24 ore prima del transfer per un rimborso completo.</li>
+            </ul>
+            
+            <h2>Opzioni di Trasferimento</h2>
+            
+            <p>Offriamo diverse opzioni di veicoli per soddisfare ogni esigenza di viaggio:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>Tipo di Veicolo</th>
+                <th>Capacità Passeggeri</th>
+                <th>Capacità Bagagli</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Berlina Standard</td>
+                <td>Fino a 3 passeggeri</td>
+                <td>Massimo 3 valigie</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>Fino a 5 passeggeri</td>
+                <td>Massimo 5 valigie</td>
+              </tr>
+              <tr>
+                <td>Minibus</td>
+                <td>Fino a 8 passeggeri</td>
+                <td>Massimo 8 valigie</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(I prezzi sono dinamici e possono variare in base alla stagione e al momento della prenotazione. Controlla il nostro sistema di prenotazione online per le tariffe aggiornate.)</em></p>
+            
+            <h2>Come Prenotare?</h2>
+            <ol>
+              <li><strong>Visita il nostro sito web</strong> e inserisci i dettagli del viaggio.</li>
+              <li><strong>Scegli il veicolo preferito</strong> e conferma il prezzo.</li>
+              <li><strong>Completa la prenotazione</strong> con pagamento sicuro online.</li>
+              <li><strong>Ricevi conferma immediata</strong> via e-mail con i dettagli del trasferimento.</li>
+              <li><strong>Contattaci 24/7</strong> per assistenza con la prenotazione.</li>
+              <li><strong>Inviaci un'e-mail</strong> con i dettagli della prenotazione e il nostro team ti invierà la conferma.</li>
+            </ol>
+            
+            <h2>Servizi Aggiuntivi</h2>
+            <ul>
+              <li><strong>Seggiolini per Bambini Disponibili</strong> – Su richiesta, forniamo seggiolini di sicurezza per neonati e bambini piccoli.</li>
+              <li><strong>Soste su Richiesta</strong> – Hai bisogno di fermarti lungo il tragitto? Informaci in anticipo.</li>
+              <li><strong>Trasferimenti Solo Andata o Andata e Ritorno</strong> – Prenota anche il ritorno per maggiore comodità.</li>
+            </ul>
+            
+            <h2>Scopri Göcek con i Nostri Tour Esclusivi</h2>
+            
+            <p>Rendi il tuo soggiorno ancora più speciale prenotando uno dei nostri <strong>tour a Göcek</strong> con fiducia:</p>
+            <ul>
+              <li><strong>Tour Privato in Barca a Göcek</strong> – Naviga tra splendide baie e acque cristalline.</li>
+              <li><strong>Tour delle 12 Isole</strong> – Esplora le splendide isole di Göcek e della baia di Fethiye.</li>
+              <li><strong>Noleggio Yacht di Lusso a Göcek</strong> – Vivi un’esperienza privata di navigazione esclusiva.</li>
+              <li><strong>Immersioni Subacquee e Snorkeling</strong> – Scopri le meraviglie sottomarine di Göcek.</li>
+            </ul>
+            
+            <p><em>(Tutti i tour sono operati da partner affidabili e rispettano i più alti standard di sicurezza. Prenota in tutta sicurezza!)</em></p>
+            
+            <h2>Informazioni su Göcek</h2>
+            
+            <p>Göcek è una <strong>cittadina marina di lusso</strong> di fama internazionale, famosa per le sue <strong>acque cristalline</strong>, <strong>esclusivi club nautici</strong>, <strong>resort di lusso</strong> e <strong>spiagge tranquille</strong>. Che tu stia navigando lungo la Costa Turchese, gustando <strong>una cena raffinata in riva al porto</strong> o esplorando <strong>calette e isole nascoste</strong>, Göcek è un paradiso per chi cerca relax e lusso.</p>
+            
+            <p>Prenota oggi stesso il tuo <strong>trasferimento dall Aeroporto di Dalaman a Göcek</strong> e vivi un'esperienza di viaggio di prima classe, senza pensieri!</p>
+            `,
+            ru: `
+            <h1>Трансфер из аэропорта Даламан в Гёджек</h1>
+            
+            <h2>Надежный и комфортный трансфер из аэропорта Даламан в Гёджек</h2>
+            
+            <p>Ищете премиум-трансфер из <strong>аэропорта Даламан (DLM)</strong> в Гёджек? Наш частный трансфер гарантирует спокойную и комфортную поездку в этот роскошный яхтенный курорт. Направляетесь ли вы в марину, частную виллу или пятизвездочный отель, мы предоставляем <strong>безопасный, пунктуальный и высококачественный</strong> транспорт.</p>
+            
+            <h2>Расстояние и время в пути</h2>
+            <ul>
+              <li><strong>Расстояние:</strong> около 25 км</li>
+              <li><strong>Время в пути:</strong> примерно 25–35 минут, в зависимости от дорожных условий и трафика.</li>
+            </ul>
+            
+            <h2>Почему выбирают нас?</h2>
+            <ul>
+              <li><strong>Встреча в аэропорту Даламан</strong> – Водитель будет ждать вас в зоне прибытия сразу после таможни с табличкой, на которой указано ваше имя.</li>
+              <li><strong>Фиксированные и прозрачные цены</strong> – Без скрытых платежей. Вы заранее знаете итоговую стоимость.</li>
+              <li><strong>Выбор стандартных и премиум-автомобилей</strong> – Седаны, MPV и микроавтобусы для групп.</li>
+              <li><strong>Опытные и безопасные водители</strong> – Лицензированные, с опытом работы и знанием английского языка.</li>
+              <li><strong>Круглосуточная поддержка</strong> – Мы всегда готовы помочь, чтобы ваша поездка прошла спокойно.</li>
+              <li><strong>Бесплатный мониторинг рейсов</strong> – Мы отслеживаем ваш рейс и при необходимости корректируем время встречи.</li>
+              <li><strong>Безопасная оплата</strong> – Принимаем евро, фунты, доллары США и турецкие лиры.</li>
+              <li><strong>Бесплатная отмена</strong> – Отмена возможна за 24 часа до трансфера с полным возвратом средств.</li>
+            </ul>
+            
+            <h2>Варианты трансфера</h2>
+            
+            <p>Мы предлагаем различные типы автомобилей под любые потребности в поездке:</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>Тип автомобиля</th>
+                <th>Пассажиров</th>
+                <th>Багаж</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Стандартный седан</td>
+                <td>До 3 пассажиров</td>
+                <td>Максимум 3 чемодана</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>До 5 пассажиров</td>
+                <td>Максимум 5 чемоданов</td>
+              </tr>
+              <tr>
+                <td>Микроавтобус</td>
+                <td>До 8 пассажиров</td>
+                <td>Максимум 8 чемоданов</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Цены динамические и могут меняться в зависимости от сезона и времени бронирования. Пожалуйста, проверьте наш онлайн-сервис для актуальных тарифов.)</em></p>
+            
+            <h2>Как забронировать?</h2>
+            <ol>
+              <li><strong>Перейдите на наш сайт</strong> и введите данные поездки.</li>
+              <li><strong>Выберите желаемый автомобиль</strong> и подтвердите цену.</li>
+              <li><strong>Оплатите бронирование</strong> с помощью безопасной онлайн-системы.</li>
+              <li><strong>Получите мгновенное подтверждение</strong> по электронной почте с деталями встречи.</li>
+              <li><strong>Свяжитесь с нами 24/7</strong> для помощи с бронированием.</li>
+              <li><strong>Отправьте нам email</strong> с деталями, и мы подтвердим ваш трансфер.</li>
+            </ol>
+            
+            <h2>Дополнительные услуги</h2>
+            <ul>
+              <li><strong>Детские кресла</strong> – По запросу предоставим кресла для младенцев и детей.</li>
+              <li><strong>Остановки по пути</strong> – Сообщите заранее, если вам нужно сделать остановку по дороге.</li>
+              <li><strong>Односторонний и обратный трансфер</strong> – Вы также можете легко забронировать обратную поездку.</li>
+            </ul>
+            
+            <h2>Откройте для себя Гёджек с нашими эксклюзивными турами</h2>
+            
+            <p>Сделайте ваше пребывание особенным, забронировав один из наших <strong>туров по Гёджек</strong> с уверенностью:</p>
+            <ul>
+              <li><strong>Приватная прогулка на яхте в Гёджек</strong> – Наслаждайтесь круизом по кристально чистым бухтам.</li>
+              <li><strong>Тур по 12 островам</strong> – Исследуйте прекрасные острова Гёджек и залива Фетхие.</li>
+              <li><strong>Аренда роскошной яхты в Гёджек</strong> – Получите уникальный опыт частной яхтенной поездки.</li>
+              <li><strong>Дайвинг и сноркелинг</strong> – Откройте для себя подводные чудеса Гёджек.</li>
+            </ul>
+            
+            <p><em>(Все туры проводятся надежными партнерами и соответствуют самым высоким стандартам безопасности. Бронируйте с уверенностью!)</em></p>
+            
+            <h2>О Гёджек</h2>
+            
+            <p>Гёджек — это всемирно известный <strong>роскошный маринный город</strong>, предлагающий <strong>кристально чистую воду</strong>, <strong>эксклюзивные яхт-клубы</strong>, <strong>элитные курорты</strong> и <strong>тихие пляжи</strong>. Вы можете отправиться в плавание вдоль Лазурного побережья, насладиться <strong>изысканным ужином у марины</strong> или исследовать <strong>укромные бухты и острова</strong>. Гёджек — это рай для тех, кто ищет отдых и роскошь.</p>
+            
+            <p>Забронируйте трансфер из <strong>аэропорта Даламан в Гёджек</strong> уже сегодня и начните свое путешествие с комфорта и без стресса!</p>
+            `,
+            zh: `
+            <h1>达拉曼机场至戈杰克接送服务</h1>
+            
+            <h2>从达拉曼机场到戈杰克的可靠且舒适的接送服务</h2>
+            
+            <p>正在寻找从 <strong>达拉曼机场 (DLM)</strong> 前往戈杰克的高端接送服务吗？我们的私人接送服务将为您提供前往这一豪华游艇目的地的无缝旅程。无论您是前往码头、私人别墅，还是五星级度假村，我们都提供 <strong>安全、准时、高质量</strong> 的交通服务。</p>
+            
+            <h2>距离与行程时间</h2>
+            <ul>
+              <li><strong>距离：</strong>约 25 公里</li>
+              <li><strong>行程时间：</strong>大约 25–35 分钟，取决于交通和道路状况。</li>
+            </ul>
+            
+            <h2>为何选择我们的服务？</h2>
+            <ul>
+              <li><strong>达拉曼机场接机服务</strong> – 司机将在海关出口处等候，手持写有您姓名的接机牌，方便识别。</li>
+              <li><strong>固定且透明的定价</strong> – 无隐藏费用，预订前即可清楚了解价格。</li>
+              <li><strong>豪华与标准车型选择</strong> – 可选择标准轿车、MPV 或适合团体的迷你巴士。</li>
+              <li><strong>安全专业的司机</strong> – 持证上岗，经验丰富，英语流利。</li>
+              <li><strong>全天候客户支持</strong> – 提供 24/7 客服，确保您的旅程无忧。</li>
+              <li><strong>免费航班监控</strong> – 实时监控您的航班，根据航班变动灵活调整接机时间。</li>
+              <li><strong>安全付款</strong> – 支持欧元、英镑、美元和土耳其里拉支付。</li>
+              <li><strong>免费取消</strong> – 最晚可在出发前 24 小时免费取消，获得全额退款。</li>
+            </ul>
+            
+            <h2>接送车型选项</h2>
+            
+            <p>我们为不同的出行需求提供多种车型：</p>
+            
+            <div>
+            <table border="1">
+            <thead>
+              <tr>
+                <th>车型</th>
+                <th>乘客容量</th>
+                <th>行李限额</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>标准轿车</td>
+                <td>最多 3 位乘客</td>
+                <td>最多 3 件行李</td>
+              </tr>
+              <tr>
+                <td>MPV</td>
+                <td>最多 5 位乘客</td>
+                <td>最多 5 件行李</td>
+              </tr>
+              <tr>
+                <td>迷你巴士</td>
+                <td>最多 8 位乘客</td>
+                <td>最多 8 件行李</td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <p><em>（价格为动态变动，可能因季节与预订时间而异。请访问我们的在线预订系统以获取最新价格。）</em></p>
+            
+            <h2>如何预订？</h2>
+            <ol>
+              <li><strong>访问我们的网站</strong>并填写您的出行信息。</li>
+              <li><strong>选择您的理想车型</strong>并确认价格。</li>
+              <li><strong>使用安全的在线支付完成预订。</strong></li>
+              <li><strong>即时通过邮件收到确认信息</strong>，包括接机详情。</li>
+              <li><strong>全天候致电我们</strong>，获取预订帮助。</li>
+              <li><strong>发送邮件给我们</strong>，我们的团队将为您确认订单。</li>
+            </ol>
+            
+            <h2>附加服务</h2>
+            <ul>
+              <li><strong>提供儿童座椅</strong> – 应要求可为婴幼儿提供安全座椅。</li>
+              <li><strong>途中停靠选项</strong> – 若需中途停留，请提前告知我们。</li>
+              <li><strong>单程与往返接送</strong> – 您也可方便地预订回程接送。</li>
+            </ul>
+            
+            <h2>跟随我们专属行程探索戈杰克</h2>
+            
+            <p>通过预订我们的 <strong>戈杰克专属旅行路线</strong>，让您的旅程更精彩：</p>
+            <ul>
+              <li><strong>戈杰克私人游船之旅</strong> – 航行于壮美海湾与清澈海水之间。</li>
+              <li><strong>12 岛屿游船之旅</strong> – 探索戈杰克及费特希耶湾的美丽岛屿。</li>
+              <li><strong>戈杰克豪华游艇包船</strong> – 体验高端私人游艇之旅。</li>
+              <li><strong>潜水与浮潜体验</strong> – 探索戈杰克的水下奇观。</li>
+            </ul>
+            
+            <p><em>（所有行程由值得信赖的合作伙伴运营，符合最高安全标准。请放心预订！）</em></p>
+            
+            <h2>关于戈杰克</h2>
+            
+            <p>戈杰克是一座享誉世界的 <strong>高端滨海小镇</strong>，以其 <strong>清澈海水</strong>、<strong>专属游艇俱乐部</strong>、<strong>高档度假村</strong>和 <strong>宁静海滩</strong>而闻名。无论您是在土耳其蓝色海岸航行、享受 <strong>码头边的精致美食</strong>，还是探索周边的 <strong>隐秘海湾与岛屿</strong>，戈杰克都是追求放松与奢华旅行者的天堂。</p>
+            
+            <p>立即预订从 <strong>达拉曼机场到戈杰克</strong> 的接送服务，开启一段顺畅、高品质的旅程！</p>
+            `,
         },
         "/dalaman-airport-to-hisaronu": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``
+            en: `
+            <h1>Dalaman Airport to Hisarönü Transfers</h1>
+
+<h2>Reliable & Comfortable Transfers from Dalaman Airport to Hisarönü</h2>
+
+<p>Looking for a hassle-free transfer from <strong>Dalaman Airport (DLM)</strong> to Hisarönü? Our private airport transfer service guarantees a smooth and comfortable journey to this lively resort town near Ölüdeniz. Whether you’re visiting for its vibrant nightlife, stunning beaches, or adventure activities, we ensure a <strong>safe, punctual, and high-quality</strong> transportation experience.</p>
+
+<h2>Distance & Travel Time</h2>
+<ul>
+  <li><strong>Distance:</strong> Approximately 60 km</li>
+  <li><strong>Travel Time:</strong> Around 55–70 minutes, depending on traffic and road conditions.</li>
+</ul>
+
+<h2>Why Choose Our Transfer Service?</h2>
+<ul>
+  <li><strong>Meet & Greet at Dalaman Airport</strong> – Our driver will be waiting at the arrivals area, just after customs, holding a passenger name board for easy identification.</li>
+  <li><strong>Fixed & Transparent Pricing</strong> – No hidden fees, ensuring you know your cost upfront.</li>
+  <li><strong>Luxury & Standard Vehicle Options</strong> – Choose from standard sedans, MPVs, or minibuses for larger groups.</li>
+  <li><strong>Safe & Professional Drivers</strong> – Licensed, experienced, and English-speaking drivers.</li>
+  <li><strong>24/7 Customer Support</strong> – Assistance available at any time to make your journey stress-free.</li>
+  <li><strong>Free Flight Monitoring</strong> – We track your flight and adjust pickup times accordingly to accommodate any delays.</li>
+  <li><strong>Secure Payment</strong> – Euro, GBP, US Dollar & Turkish Lira Accepted.</li>
+  <li><strong>Free Cancellation</strong> – Cancel up to 24 hours before your transfer for a full refund.</li>
+</ul>
+
+<h2>Transfer Options</h2>
+
+<p>We offer various vehicle options to suit different travel needs:</p>
+
+<div>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Vehicle Type</th>
+      <th>Passenger Capacity</th>
+      <th>Luggage Allowance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Standard Sedan</td>
+      <td>Up to 3 passengers</td>
+      <td>Max 3 suitcases</td>
+    </tr>
+    <tr>
+      <td>MPV</td>
+      <td>Up to 5 passengers</td>
+      <td>Max 5 suitcases</td>
+    </tr>
+    <tr>
+      <td>Minibus</td>
+      <td>Up to 8 passengers</td>
+      <td>Max 8 suitcases</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p><em>(Prices are dynamic and vary depending on season and booking time. Please check our online booking system for the latest rates.)</em></p>
+
+<h2>How to Book?</h2>
+<ol>
+  <li><strong>Visit our website</strong> and enter your travel details.</li>
+  <li><strong>Choose your preferred vehicle</strong> and confirm pricing.</li>
+  <li><strong>Complete your booking</strong> with secure online payment.</li>
+  <li><strong>Receive instant confirmation</strong> via email with pickup details.</li>
+  <li><strong>Call us 24/7</strong> for booking assistance.</li>
+  <li><strong>Email us</strong> your booking details, and our team will confirm your transfer.</li>
+</ol>
+
+<h2>Additional Services</h2>
+<ul>
+  <li><strong>Child Seats Available</strong> – Safety seats for infants and toddlers upon request.</li>
+  <li><strong>Stopover Options</strong> – Need to stop along the way? Let us know in advance.</li>
+  <li><strong>One-Way & Return Transfers</strong> – Book a return journey for added convenience.</li>
+</ul>
+
+<h2>Explore Hisarönü with Our Exclusive Tours</h2>
+
+<p>Enhance your visit by booking one of our <strong>Hisarönü tours</strong> with confidence:</p>
+<ul>
+  <li><strong>Ölüdeniz Paragliding Experience</strong> – Soar over the Blue Lagoon from Babadağ Mountain.</li>
+  <li><strong>Hisarönü Jeep Safari Adventure</strong> – Explore off-road trails, Saklıkent Canyon, and mud baths.</li>
+  <li><strong>Ölüdeniz Boat Tour</strong> – Discover Butterfly Valley, St. Nicholas Island, and hidden bays.</li>
+  <li><strong>Dalyan & Turtle Beach Tour</strong> – Visit the famous Iztuzu Beach and Lycian rock tombs.</li>
+</ul>
+
+<p><em>(All tours are operated with trusted partners and meet the highest safety standards. Book with confidence!)</em></p>
+
+<h2>About Hisarönü</h2>
+
+<p>Hisarönü is a lively town near <strong>Ölüdeniz</strong>, known for its <strong>bustling nightlife</strong>, <strong>restaurants</strong>, and proximity to the <strong>stunning Blue Lagoon</strong>. Whether you’re looking for <strong>adventure</strong>, <strong>relaxation</strong>, or <strong>entertainment</strong>, this resort town offers something for everyone.</p>
+
+<p>Book your <strong>Dalaman Airport to Hisarönü</strong> transfer today and enjoy a smooth, stress-free start to your trip!</p>
+
+            `,
+            tr: `
+            <h1>Dalaman Havalimanı - Hisarönü Transferleri</h1>
+            
+            <h2>Dalaman Havalimanı'ndan Hisarönü'ne Güvenli ve Konforlu Transfer</h2>
+            
+            <p><strong>Dalaman Havalimanı (DLM)</strong>'nden Hisarönü'ne sorunsuz bir transfer mi arıyorsunuz? Özel havalimanı transfer hizmetimiz, Ölüdeniz yakınlarındaki bu canlı tatil beldesine konforlu ve keyifli bir yolculuk sunar. Canlı gece hayatı, muhteşem plajları veya macera dolu aktiviteleri için gelmiş olun, <strong>güvenli, dakik ve kaliteli</strong> bir ulaşım deneyimi garanti ediyoruz.</p>
+            
+            <h2>Mesafe ve Yolculuk Süresi</h2>
+            <ul>
+              <li><strong>Mesafe:</strong> Yaklaşık 60 km</li>
+              <li><strong>Yolculuk Süresi:</strong> Trafik ve yol durumuna bağlı olarak yaklaşık 55–70 dakika.</li>
+            </ul>
+            
+            <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+            <ul>
+              <li><strong>Dalaman Havalimanı’nda Karşılama</strong> – Sürücümüz, gümrük sonrası geliş alanında isminizin yazılı olduğu bir tabela ile sizi karşılayacaktır.</li>
+              <li><strong>Sabit ve Şeffaf Fiyatlandırma</strong> – Gizli ücretler yok, ödeyeceğiniz tutarı önceden bilirsiniz.</li>
+              <li><strong>Lüks ve Standart Araç Seçenekleri</strong> – Standart sedan, MPV veya minibüs seçenekleri mevcuttur.</li>
+              <li><strong>Güvenli ve Profesyonel Sürücüler</strong> – Lisanslı, deneyimli ve İngilizce konuşan şoförler.</li>
+              <li><strong>7/24 Müşteri Desteği</strong> – Yolculuğunuzun sorunsuz geçmesi için her zaman yanınızdayız.</li>
+              <li><strong>Ücretsiz Uçuş Takibi</strong> – Uçuş bilgilerinizi takip ederek gecikmelere göre karşılama saatini ayarlıyoruz.</li>
+              <li><strong>Güvenli Ödeme</strong> – Euro, GBP, Amerikan Doları ve Türk Lirası kabul edilmektedir.</li>
+              <li><strong>Ücretsiz İptal</strong> – Transferinizden 24 saat öncesine kadar iptal edebilir ve tam geri ödeme alabilirsiniz.</li>
+            </ul>
+            
+            <h2>Transfer Seçenekleri</h2>
+            
+            <p>Farklı seyahat ihtiyaçlarına uygun çeşitli araç seçenekleri sunuyoruz:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Araç Tipi</th>
+                  <th>Yolcu Kapasitesi</th>
+                  <th>Bagaj Hakkı</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Standart Sedan</td>
+                  <td>En fazla 3 yolcu</td>
+                  <td>Maksimum 3 valiz</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>En fazla 5 yolcu</td>
+                  <td>Maksimum 5 valiz</td>
+                </tr>
+                <tr>
+                  <td>Minibüs</td>
+                  <td>En fazla 8 yolcu</td>
+                  <td>Maksimum 8 valiz</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Fiyatlar dinamiktir ve sezona veya rezervasyon zamanına göre değişiklik gösterebilir. Güncel fiyatlar için online rezervasyon sistemimizi kontrol ediniz.)</em></p>
+            
+            <h2>Nasıl Rezervasyon Yapılır?</h2>
+            <ol>
+              <li><strong>Web sitemizi ziyaret edin</strong> ve seyahat bilgilerinizi girin.</li>
+              <li><strong>Tercih ettiğiniz aracı seçin</strong> ve fiyatı onaylayın.</li>
+              <li><strong>Güvenli online ödeme</strong> ile rezervasyonunuzu tamamlayın.</li>
+              <li><strong>Anında onay alın</strong> – Pickup (karşılama) bilgileri e-posta ile size ulaşır.</li>
+              <li><strong>7/24 bizi arayın</strong> – Rezervasyon desteği almak için her zaman ulaşabilirsiniz.</li>
+              <li><strong>Bize e-posta gönderin</strong> – Rezervasyon bilgilerinizi paylaşın, ekibimiz transferinizi onaylasın.</li>
+            </ol>
+            
+            <h2>Ek Hizmetler</h2>
+            <ul>
+              <li><strong>Çocuk Koltuğu Mevcuttur</strong> – Talep üzerine bebek ve küçük çocuklar için güvenlik koltuğu temin edilir.</li>
+              <li><strong>Yolda Duraklama Seçeneği</strong> – Yol üzerinde durmanız gerekiyorsa lütfen önceden bildiriniz.</li>
+              <li><strong>Tek Yön & Gidiş-Dönüş Transfer</strong> – Kolaylık için dönüş transferinizi de rezerve edebilirsiniz.</li>
+            </ul>
+            
+            <h2>Hisarönü’nü Özel Turlarımızla Keşfedin</h2>
+            
+            <p><strong>Hisarönü turlarımızdan</strong> birini güvenle rezerve ederek seyahatinizi daha da unutulmaz kılın:</p>
+            <ul>
+              <li><strong>Ölüdeniz Yamaç Paraşütü Deneyimi</strong> – Babadağ’dan Mavi Lagün üzerinde süzülerek uçun.</li>
+              <li><strong>Hisarönü Jeep Safari Macerası</strong> – Arazi yolları, Saklıkent Kanyonu ve çamur banyolarını keşfedin.</li>
+              <li><strong>Ölüdeniz Tekne Turu</strong> – Kelebekler Vadisi, St. Nicholas Adası ve gizli koyları keşfedin.</li>
+              <li><strong>Dalyan & Kaplumbağa Plajı Turu</strong> – Ünlü İztuzu Plajı’nı ve Likya Kaya Mezarları’nı ziyaret edin.</li>
+            </ul>
+            
+            <p><em>(Tüm turlar güvenilir iş ortaklarımız tarafından gerçekleştirilir ve en yüksek güvenlik standartlarını karşılar. Gönül rahatlığıyla rezervasyon yapabilirsiniz!)</em></p>
+            
+            <h2>Hisarönü Hakkında</h2>
+            
+            <p>Hisarönü, <strong>Ölüdeniz</strong>'e yakın, <strong>canlı gece hayatı</strong>, <strong>restoranları</strong> ve <strong>göz alıcı Mavi Lagün'e yakınlığıyla</strong> bilinen hareketli bir tatil beldesidir. <strong>Macera</strong>, <strong>dinlenme</strong> veya <strong>eğlence</strong> arıyor olun, bu beldede herkese uygun bir şey vardır.</p>
+            
+            <p><strong>Dalaman Havalimanı - Hisarönü</strong> transferinizi bugün rezerve edin, yolculuğunuza sorunsuz ve stressiz başlayın!</p>
+            `,
+
+            ar: `
+            <h1>خدمة النقل من مطار دالامان إلى هيسار أونو</h1>
+            
+            <h2>نقل موثوق ومريح من مطار دالامان إلى هيسار أونو</h2>
+            
+            <p>هل تبحث عن وسيلة نقل مريحة من <strong>مطار دالامان (DLM)</strong> إلى هيسار أونو؟ تضمن لك خدمة النقل الخاصة بنا رحلة سلسة ومريحة إلى هذه البلدة السياحية الحيوية بالقرب من أولودينيز. سواء كنت تزور من أجل <strong>الحياة الليلية النابضة</strong>، أو <strong>الشواطئ الخلابة</strong>، أو <strong>الأنشطة المغامرة</strong>، فإننا نضمن لك تجربة نقل <strong>آمنة ودقيقة وعالية الجودة</strong>.</p>
+            
+            <h2>المسافة ومدة الرحلة</h2>
+            <ul>
+              <li><strong>المسافة:</strong> حوالي 60 كم</li>
+              <li><strong>مدة الرحلة:</strong> حوالي 55 إلى 70 دقيقة حسب حالة المرور والطريق.</li>
+            </ul>
+            
+            <h2>لماذا تختار خدمتنا؟</h2>
+            <ul>
+              <li><strong>الاستقبال في مطار دالامان</strong> – سيكون السائق بانتظارك في صالة الوصول بعد الجمارك، حاملاً لافتة باسمك.</li>
+              <li><strong>أسعار ثابتة وشفافة</strong> – لا توجد رسوم خفية؛ السعر معروف مسبقًا.</li>
+              <li><strong>خيارات مركبات فاخرة وعادية</strong> – اختر من بين سيارات سيدان، MPV أو ميني باص للمجموعات الأكبر.</li>
+              <li><strong>سائقون محترفون وآمنون</strong> – مرخصون، ذوو خبرة، ويتحدثون الإنجليزية.</li>
+              <li><strong>دعم العملاء على مدار الساعة</strong> – متاح في أي وقت لتوفير تجربة خالية من التوتر.</li>
+              <li><strong>مراقبة الرحلات الجوية مجانًا</strong> – نتابع رحلتك الجوية ونقوم بتعديل وقت الاستقبال حسب الحاجة.</li>
+              <li><strong>دفع آمن</strong> – نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية.</li>
+              <li><strong>إلغاء مجاني</strong> – يمكنك الإلغاء حتى 24 ساعة قبل موعد النقل واسترداد المبلغ بالكامل.</li>
+            </ul>
+            
+            <h2>خيارات المركبات</h2>
+            
+            <p>نقدم مجموعة متنوعة من المركبات لتناسب احتياجات السفر المختلفة:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>نوع المركبة</th>
+                  <th>سعة الركاب</th>
+                  <th>سعة الأمتعة</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>سيدان عادية</td>
+                  <td>حتى 3 ركاب</td>
+                  <td>3 حقائب كحد أقصى</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>حتى 5 ركاب</td>
+                  <td>5 حقائب كحد أقصى</td>
+                </tr>
+                <tr>
+                  <td>ميني باص</td>
+                  <td>حتى 8 ركاب</td>
+                  <td>8 حقائب كحد أقصى</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(الأسعار ديناميكية وقد تختلف حسب الموسم ووقت الحجز. يرجى مراجعة نظام الحجز الإلكتروني لدينا للحصول على الأسعار المحدثة.)</em></p>
+            
+            <h2>كيفية الحجز؟</h2>
+            <ol>
+              <li><strong>قم بزيارة موقعنا الإلكتروني</strong> وأدخل تفاصيل رحلتك.</li>
+              <li><strong>اختر المركبة المناسبة لك</strong> وقم بتأكيد السعر.</li>
+              <li><strong>أكمل الحجز</strong> من خلال الدفع الآمن عبر الإنترنت.</li>
+              <li><strong>استلم التأكيد الفوري</strong> عبر البريد الإلكتروني مع تفاصيل الاستقبال.</li>
+              <li><strong>اتصل بنا على مدار الساعة</strong> للمساعدة في الحجز.</li>
+              <li><strong>أرسل لنا بريدًا إلكترونيًا</strong> يحتوي على تفاصيل الحجز وسنقوم بتأكيده لك.</li>
+            </ol>
+            
+            <h2>خدمات إضافية</h2>
+            <ul>
+              <li><strong>مقاعد للأطفال متوفرة</strong> – نوفر مقاعد أمان للأطفال والرضع عند الطلب.</li>
+              <li><strong>خيارات التوقف في الطريق</strong> – أخبرنا مسبقًا إذا كنت بحاجة للتوقف خلال الرحلة.</li>
+              <li><strong>نقل باتجاه واحد أو ذهابًا وإيابًا</strong> – احجز رحلتك للعودة بسهولة لمزيد من الراحة.</li>
+            </ul>
+            
+            <h2>استكشف هيسار أونو من خلال جولاتنا الحصرية</h2>
+            
+            <p>اجعل زيارتك أكثر متعة من خلال حجز إحدى <strong>جولات هيسار أونو</strong> معنا بثقة:</p>
+            <ul>
+              <li><strong>تجربة الطيران المظلي في أولودينيز</strong> – حلق فوق البحيرة الزرقاء من جبل باباداغ.</li>
+              <li><strong>مغامرة سفاري الجيب في هيسار أونو</strong> – استكشف الطرق الوعرة، وادي ساكليكنت وحمامات الطين.</li>
+              <li><strong>جولة بالقارب في أولودينيز</strong> – استكشف وادي الفراشات، جزيرة سانت نيكولاس والخليج المخفي.</li>
+              <li><strong>جولة شاطئ السلاحف في داليان</strong> – قم بزيارة شاطئ إزتوزو الشهير ومقابر الصخور الليسية.</li>
+            </ul>
+            
+            <p><em>(جميع الجولات تتم من خلال شركاء موثوقين وتلبي أعلى معايير السلامة. احجز بثقة!)</em></p>
+            
+            <h2>حول هيسار أونو</h2>
+            
+            <p>هيسار أونو هي بلدة سياحية حيوية بالقرب من <strong>أولودينيز</strong>، وتشتهر بـ<strong>حياتها الليلية النشطة</strong>، <strong>مطاعمها</strong>، وقربها من <strong>البحيرة الزرقاء الخلابة</strong>. سواء كنت تبحث عن <strong>المغامرة</strong>، أو <strong>الاسترخاء</strong>، أو <strong>الترفيه</strong>، ستجد ما يناسبك هنا.</p>
+            
+            <p>احجز خدمة النقل الخاصة بك من <strong>مطار دالامان إلى هيسار أونو</strong> اليوم واستمتع ببداية سلسة وخالية من التوتر لرحلتك!</p>
+            `,
+
+            es: `
+            <h1>Traslados desde el Aeropuerto de Dalaman a Hisarönü</h1>
+            
+            <h2>Traslados Confiables y Cómodos desde el Aeropuerto de Dalaman a Hisarönü</h2>
+            
+            <p>¿Buscas un traslado sin complicaciones desde el <strong>Aeropuerto de Dalaman (DLM)</strong> a Hisarönü? Nuestro servicio privado de traslado al aeropuerto garantiza un viaje cómodo y tranquilo a este animado destino turístico cerca de Ölüdeniz. Ya sea que viajes por su <strong>vida nocturna vibrante</strong>, sus <strong>playas impresionantes</strong> o actividades de <strong>aventura</strong>, te ofrecemos una experiencia de transporte <strong>segura, puntual y de alta calidad</strong>.</p>
+            
+            <h2>Distancia y Tiempo de Viaje</h2>
+            <ul>
+              <li><strong>Distancia:</strong> Aproximadamente 60 km</li>
+              <li><strong>Duración del viaje:</strong> Entre 55 y 70 minutos, dependiendo del tráfico y las condiciones del camino.</li>
+            </ul>
+            
+            <h2>¿Por Qué Elegir Nuestro Servicio?</h2>
+            <ul>
+              <li><strong>Recepción en el Aeropuerto de Dalaman</strong> – Nuestro conductor te esperará en la zona de llegadas, después de aduanas, con un cartel con tu nombre para fácil identificación.</li>
+              <li><strong>Precios Fijos y Transparentes</strong> – Sin cargos ocultos; conoces el precio desde el principio.</li>
+              <li><strong>Opciones de Vehículos de Lujo y Estándar</strong> – Elige entre sedanes estándar, MPVs o minibuses para grupos más grandes.</li>
+              <li><strong>Conductores Profesionales y Seguros</strong> – Licenciados, con experiencia y que hablan inglés.</li>
+              <li><strong>Atención al Cliente 24/7</strong> – Asistencia disponible en cualquier momento para que tu viaje sea sin estrés.</li>
+              <li><strong>Monitoreo de Vuelos Gratuito</strong> – Seguimos tu vuelo y ajustamos el horario de recogida en caso de retrasos.</li>
+              <li><strong>Pago Seguro</strong> – Aceptamos Euros, GBP, Dólares Americanos y Liras Turcas.</li>
+              <li><strong>Cancelación Gratuita</strong> – Cancela hasta 24 horas antes del traslado y recibe un reembolso total.</li>
+            </ul>
+            
+            <h2>Opciones de Vehículos</h2>
+            
+            <p>Ofrecemos diferentes tipos de vehículos para adaptarnos a tus necesidades de viaje:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Tipo de Vehículo</th>
+                  <th>Capacidad de Pasajeros</th>
+                  <th>Capacidad de Equipaje</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sedán Estándar</td>
+                  <td>Hasta 3 pasajeros</td>
+                  <td>Máximo 3 maletas</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Hasta 5 pasajeros</td>
+                  <td>Máximo 5 maletas</td>
+                </tr>
+                <tr>
+                  <td>Minibús</td>
+                  <td>Hasta 8 pasajeros</td>
+                  <td>Máximo 8 maletas</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Los precios son dinámicos y pueden variar según la temporada y el momento de la reserva. Consulta nuestro sistema de reservas online para obtener las tarifas más actualizadas.)</em></p>
+            
+            <h2>¿Cómo Reservar?</h2>
+            <ol>
+              <li><strong>Visita nuestro sitio web</strong> e ingresa los detalles de tu viaje.</li>
+              <li><strong>Elige el vehículo que prefieras</strong> y confirma el precio.</li>
+              <li><strong>Completa tu reserva</strong> con pago seguro en línea.</li>
+              <li><strong>Recibe confirmación instantánea</strong> por correo electrónico con los detalles de recogida.</li>
+              <li><strong>Llámanos 24/7</strong> si necesitas ayuda para reservar.</li>
+              <li><strong>Envíanos un correo electrónico</strong> con los detalles de tu reserva y nuestro equipo la confirmará.</li>
+            </ol>
+            
+            <h2>Servicios Adicionales</h2>
+            <ul>
+              <li><strong>Sillas para Niños Disponibles</strong> – Asientos de seguridad para bebés y niños pequeños a solicitud.</li>
+              <li><strong>Paradas en Ruta</strong> – ¿Necesitas hacer una parada durante el trayecto? Avísanos con antelación.</li>
+              <li><strong>Traslados de Ida y de Ida y Vuelta</strong> – También puedes reservar tu traslado de regreso para mayor comodidad.</li>
+            </ul>
+            
+            <h2>Explora Hisarönü con Nuestros Tours Exclusivos</h2>
+            
+            <p>Haz que tu visita sea aún más especial reservando uno de nuestros <strong>tours en Hisarönü</strong> con confianza:</p>
+            <ul>
+              <li><strong>Experiencia de Parapente en Ölüdeniz</strong> – Vuela sobre la Laguna Azul desde el Monte Babadağ.</li>
+              <li><strong>Aventura en Jeep Safari en Hisarönü</strong> – Explora caminos fuera de carretera, el cañón de Saklıkent y baños de barro.</li>
+              <li><strong>Tour en Barco por Ölüdeniz</strong> – Descubre el Valle de las Mariposas, la isla de San Nicolás y bahías escondidas.</li>
+              <li><strong>Tour de Dalyan y Playa de las Tortugas</strong> – Visita la famosa playa de Iztuzu y las tumbas rupestres licias.</li>
+            </ul>
+            
+            <p><em>(Todos los tours son operados por socios confiables y cumplen con los más altos estándares de seguridad. ¡Reserva con confianza!)</em></p>
+            
+            <h2>Sobre Hisarönü</h2>
+            
+            <p>Hisarönü es una ciudad turística animada cerca de <strong>Ölüdeniz</strong>, conocida por su <strong>vida nocturna vibrante</strong>, <strong>restaurantes</strong> y su cercanía a la <strong>impresionante Laguna Azul</strong>. Ya sea que busques <strong>aventura</strong>, <strong>relajación</strong> o <strong>entretenimiento</strong>, este destino ofrece algo para todos.</p>
+            
+            <p>¡Reserva hoy mismo tu traslado desde el <strong>Aeropuerto de Dalaman a Hisarönü</strong> y comienza tu viaje de manera tranquila y sin estrés!</p>
+            `,
+
+            it: `
+            <h1>Transfer dall Aeroporto di Dalaman a Hisarönü</h1>
+            
+            <h2>Transfer Affidabili e Confortevoli dall Aeroporto di Dalaman a Hisarönü</h2>
+            
+            <p>Cerchi un transfer senza stress dall <strong>Aeroporto di Dalaman (DLM)</strong> a Hisarönü? Il nostro servizio privato di transfer garantisce un viaggio tranquillo e confortevole verso questa vivace località turistica vicino a Ölüdeniz. Che tu venga per la sua <strong>vita notturna animata</strong>, le <strong>spiagge mozzafiato</strong> o le <strong>attività avventurose</strong>, ti assicuriamo un'esperienza di trasporto <strong>sicura, puntuale e di alta qualità</strong>.</p>
+            
+            <h2>Distanza e Tempo di Percorrenza</h2>
+            <ul>
+              <li><strong>Distanza:</strong> Circa 60 km</li>
+              <li><strong>Tempo di percorrenza:</strong> Circa 55–70 minuti, a seconda del traffico e delle condizioni stradali.</li>
+            </ul>
+            
+            <h2>Perché Scegliere il Nostro Servizio?</h2>
+            <ul>
+              <li><strong>Accoglienza in aeroporto</strong> – Il nostro autista ti aspetterà all’uscita doganale con un cartello con il tuo nome per un facile riconoscimento.</li>
+              <li><strong>Prezzi fissi e trasparenti</strong> – Nessun costo nascosto; conosci il prezzo in anticipo.</li>
+              <li><strong>Veicoli standard e di lusso</strong> – Scegli tra berline, MPV o minibus per gruppi numerosi.</li>
+              <li><strong>Autisti sicuri e professionali</strong> – Autisti con licenza, esperienza e conoscenza della lingua inglese.</li>
+              <li><strong>Assistenza clienti 24/7</strong> – Supporto disponibile in qualsiasi momento per rendere il tuo viaggio senza stress.</li>
+              <li><strong>Monitoraggio voli gratuito</strong> – Monitoriamo il tuo volo e regoliamo l’orario di ritiro in caso di ritardi.</li>
+              <li><strong>Pagamento sicuro</strong> – Accettiamo Euro, GBP, Dollaro USA e Lira Turca.</li>
+              <li><strong>Cancellazione gratuita</strong> – Cancella fino a 24 ore prima del transfer per un rimborso completo.</li>
+            </ul>
+            
+            <h2>Opzioni di Veicoli</h2>
+            
+            <p>Offriamo diverse opzioni di veicoli per soddisfare le esigenze di ogni tipo di viaggio:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Tipo di Veicolo</th>
+                  <th>Capacità Passeggeri</th>
+                  <th>Capacità Bagagli</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Berlina Standard</td>
+                  <td>Fino a 3 passeggeri</td>
+                  <td>Massimo 3 valigie</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Fino a 5 passeggeri</td>
+                  <td>Massimo 5 valigie</td>
+                </tr>
+                <tr>
+                  <td>Minibus</td>
+                  <td>Fino a 8 passeggeri</td>
+                  <td>Massimo 8 valigie</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(I prezzi sono dinamici e possono variare in base alla stagione e al momento della prenotazione. Controlla il nostro sistema di prenotazione online per le tariffe aggiornate.)</em></p>
+            
+            <h2>Come Prenotare?</h2>
+            <ol>
+              <li><strong>Visita il nostro sito web</strong> e inserisci i dettagli del tuo viaggio.</li>
+              <li><strong>Scegli il veicolo desiderato</strong> e conferma il prezzo.</li>
+              <li><strong>Completa la prenotazione</strong> con pagamento sicuro online.</li>
+              <li><strong>Ricevi conferma immediata</strong> via email con i dettagli del ritiro.</li>
+              <li><strong>Contattaci 24/7</strong> per ricevere assistenza nella prenotazione.</li>
+              <li><strong>Inviaci un'email</strong> con i dettagli della prenotazione e il nostro team la confermerà.</li>
+            </ol>
+            
+            <h2>Servizi Aggiuntivi</h2>
+            <ul>
+              <li><strong>Seggiolini per bambini disponibili</strong> – Forniamo seggiolini di sicurezza per neonati e bambini piccoli su richiesta.</li>
+              <li><strong>Fermate lungo il percorso</strong> – Hai bisogno di fermarti lungo la strada? Facci sapere in anticipo.</li>
+              <li><strong>Trasferimenti solo andata o andata e ritorno</strong> – Puoi facilmente prenotare anche il ritorno.</li>
+            </ul>
+            
+            <h2>Esplora Hisarönü con i Nostri Tour Esclusivi</h2>
+            
+            <p>Rendi la tua visita ancora più speciale prenotando uno dei nostri <strong>tour a Hisarönü</strong> con fiducia:</p>
+            <ul>
+              <li><strong>Esperienza di parapendio a Ölüdeniz</strong> – Sorvola la Laguna Blu partendo dal Monte Babadağ.</li>
+              <li><strong>Avventura in Jeep Safari a Hisarönü</strong> – Esplora percorsi fuoristrada, il canyon di Saklıkent e bagni di fango.</li>
+              <li><strong>Tour in barca a Ölüdeniz</strong> – Scopri la Valle delle Farfalle, l'Isola di San Nicola e baie nascoste.</li>
+              <li><strong>Tour di Dalyan e Spiaggia delle Tartarughe</strong> – Visita la famosa spiaggia di Iztuzu e le tombe rupestri licie.</li>
+            </ul>
+            
+            <p><em>(Tutti i tour sono gestiti da partner affidabili e rispettano i più alti standard di sicurezza. Prenota con fiducia!)</em></p>
+            
+            <h2>Informazioni su Hisarönü</h2>
+            
+            <p>Hisarönü è una località turistica vivace vicino a <strong>Ölüdeniz</strong>, nota per la sua <strong>vita notturna animata</strong>, i <strong>ristoranti</strong> e la vicinanza alla <strong>splendida Laguna Blu</strong>. Che tu stia cercando <strong>avventura</strong>, <strong>relax</strong> o <strong>divertimento</strong>, questa città ha qualcosa da offrire a tutti.</p>
+            
+            <p>Prenota oggi il tuo <strong>transfer dall Aeroporto di Dalaman a Hisarönü</strong> e inizia il tuo viaggio in modo tranquillo e senza stress!</p>
+            `,
+
+            ru: `
+            <h1>Трансфер из аэропорта Даламан в Хисарёню</h1>
+            
+            <h2>Надежный и комфортный трансфер из аэропорта Даламан в Хисарёню</h2>
+            
+            <p>Ищете удобный трансфер из <strong>аэропорта Даламан (DLM)</strong> в Хисарёню? Наша частная трансферная служба гарантирует спокойную и комфортную поездку в этот оживлённый курортный город рядом с Олюденизом. Будь то <strong>яркая ночная жизнь</strong>, <strong>живописные пляжи</strong> или <strong>приключенческие активности</strong> — мы обеспечим <strong>безопасную, пунктуальную и качественную</strong> транспортную услугу.</p>
+            
+            <h2>Расстояние и время в пути</h2>
+            <ul>
+              <li><strong>Расстояние:</strong> примерно 60 км</li>
+              <li><strong>Время в пути:</strong> около 55–70 минут в зависимости от трафика и состояния дорог.</li>
+            </ul>
+            
+            <h2>Почему выбирают нас?</h2>
+            <ul>
+              <li><strong>Встреча в аэропорту Даламан</strong> – Наш водитель будет ждать вас в зоне прибытия сразу после таможни с табличкой с вашим именем.</li>
+              <li><strong>Фиксированные и прозрачные цены</strong> – Без скрытых платежей, вы заранее знаете полную стоимость.</li>
+              <li><strong>Автомобили стандарт и люкс</strong> – Выбор между седанами, MPV и микроавтобусами для групп.</li>
+              <li><strong>Профессиональные и надёжные водители</strong> – Лицензированные, опытные и говорящие по-английски.</li>
+              <li><strong>Поддержка 24/7</strong> – Круглосуточная помощь, чтобы сделать ваше путешествие спокойным.</li>
+              <li><strong>Бесплатный мониторинг рейсов</strong> – Мы отслеживаем ваш рейс и подстраиваем время встречи при задержках.</li>
+              <li><strong>Безопасная оплата</strong> – Принимаем евро, фунты, доллары США и турецкие лиры.</li>
+              <li><strong>Бесплатная отмена</strong> – Отмена возможна за 24 часа до трансфера с полным возвратом средств.</li>
+            </ul>
+            
+            <h2>Варианты трансфера</h2>
+            
+            <p>Мы предлагаем различные варианты автомобилей для любых потребностей в поездке:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Тип автомобиля</th>
+                  <th>Вместимость пассажиров</th>
+                  <th>Допустимый багаж</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Стандартный седан</td>
+                  <td>До 3 пассажиров</td>
+                  <td>До 3 чемоданов</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>До 5 пассажиров</td>
+                  <td>До 5 чемоданов</td>
+                </tr>
+                <tr>
+                  <td>Минивэн</td>
+                  <td>До 8 пассажиров</td>
+                  <td>До 8 чемоданов</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Цены динамичны и могут меняться в зависимости от сезона и времени бронирования. Пожалуйста, проверьте актуальные тарифы в нашей системе онлайн-бронирования.)</em></p>
+            
+            <h2>Как забронировать?</h2>
+            <ol>
+              <li><strong>Посетите наш сайт</strong> и введите данные вашей поездки.</li>
+              <li><strong>Выберите желаемый автомобиль</strong> и подтвердите цену.</li>
+              <li><strong>Завершите бронирование</strong> через безопасную онлайн-оплату.</li>
+              <li><strong>Получите мгновенное подтверждение</strong> по электронной почте с деталями встречи.</li>
+              <li><strong>Позвоните нам 24/7</strong> для помощи с бронированием.</li>
+              <li><strong>Отправьте нам email</strong> с деталями поездки — мы подтвердим ваш трансфер.</li>
+            </ol>
+            
+            <h2>Дополнительные услуги</h2>
+            <ul>
+              <li><strong>Детские кресла</strong> – Предоставляются по запросу для младенцев и маленьких детей.</li>
+              <li><strong>Остановки по пути</strong> – Сообщите нам заранее, если нужно остановиться в дороге.</li>
+              <li><strong>Трансферы в одну сторону и туда-обратно</strong> – Забронируйте обратный трансфер заранее.</li>
+            </ul>
+            
+            <h2>Исследуйте Хисарёню с нашими эксклюзивными турами</h2>
+            
+            <p>Сделайте вашу поездку особенной, забронировав один из наших <strong>туров по Хисарёню</strong> с уверенностью:</p>
+            <ul>
+              <li><strong>Полет на параплане в Олюдениз</strong> – Пролетите над Голубой лагуной с горы Бабадаг.</li>
+              <li><strong>Джип-сафари в Хисарёню</strong> – Исследуйте бездорожье, каньон Саклыкент и грязевые ванны.</li>
+              <li><strong>Прогулка на лодке по Олюдениз</strong> – Посетите Долину Бабочек, остров Святого Николая и скрытые бухты.</li>
+              <li><strong>Тур по Дальяну и пляжу черепах</strong> – Посетите знаменитый пляж Изтузу и ликийские гробницы.</li>
+            </ul>
+            
+            <p><em>(Все туры проводятся надёжными партнёрами и соответствуют самым высоким стандартам безопасности. Бронируйте с уверенностью!)</em></p>
+            
+            <h2>О Хисарёню</h2>
+            
+            <p>Хисарёню — оживлённый курортный город рядом с <strong>Олюденизом</strong>, известный своей <strong>насыщенной ночной жизнью</strong>, <strong>ресторанами</strong> и близостью к <strong>впечатляющей Голубой лагуне</strong>. Хотите ли вы <strong>приключений</strong>, <strong>отдыха</strong> или <strong>развлечений</strong> — здесь найдётся что-то для каждого.</p>
+            
+            <p>Забронируйте трансфер из <strong>аэропорта Даламан в Хисарёню</strong> уже сегодня и начните своё путешествие спокойно и без стресса!</p>
+            `,
+
+            zh: `
+            <h1>从达拉曼机场到希萨勒努的接送服务</h1>
+            
+            <h2>可靠且舒适的达拉曼机场到希萨勒努接送服务</h2>
+            
+            <p>正在寻找从 <strong>达拉曼机场 (DLM)</strong> 到希萨勒努的便捷接送服务吗？我们的私人接送服务为您提供前往这座靠近厄吕代尼兹的热闹度假小镇的顺畅旅程。无论您是因 <strong>丰富的夜生活</strong>、<strong>迷人的海滩</strong> 或 <strong>冒险活动</strong> 而来，我们都将为您带来 <strong>安全、准时、高品质</strong> 的出行体验。</p>
+            
+            <h2>距离与行程时间</h2>
+            <ul>
+              <li><strong>距离：</strong>约 60 公里</li>
+              <li><strong>行程时间：</strong>大约 55–70 分钟，具体取决于交通状况和道路条件。</li>
+            </ul>
+            
+            <h2>为什么选择我们的服务？</h2>
+            <ul>
+              <li><strong>达拉曼机场接机服务</strong> – 我们的司机将在海关出口处等候，并持有写有您姓名的接机牌，方便识别。</li>
+              <li><strong>固定且透明的定价</strong> – 无隐藏费用，您提前即可了解总价。</li>
+              <li><strong>豪华与标准车型选择</strong> – 可选择标准轿车、MPV或适合团体的迷你巴士。</li>
+              <li><strong>安全且专业的司机</strong> – 持证上岗、经验丰富、会说英语的司机。</li>
+              <li><strong>全天候客服支持</strong> – 24/7客户支持，确保您的旅程无忧。</li>
+              <li><strong>免费航班监控</strong> – 我们将实时监控您的航班，并根据延误情况调整接送时间。</li>
+              <li><strong>安全支付</strong> – 支持欧元、英镑、美元及土耳其里拉付款。</li>
+              <li><strong>免费取消</strong> – 至少提前24小时取消可获全额退款。</li>
+            </ul>
+            
+            <h2>接送车型选项</h2>
+            
+            <p>我们为不同的出行需求提供多种车型：</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>车型</th>
+                  <th>乘客容量</th>
+                  <th>行李限额</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>标准轿车</td>
+                  <td>最多3人</td>
+                  <td>最多3件行李</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>最多5人</td>
+                  <td>最多5件行李</td>
+                </tr>
+                <tr>
+                  <td>迷你巴士</td>
+                  <td>最多8人</td>
+                  <td>最多8件行李</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>（价格为动态变动，可能因季节与预订时间而异。请查看我们的在线预订系统获取最新价格。）</em></p>
+            
+            <h2>如何预订？</h2>
+            <ol>
+              <li><strong>访问我们的网站</strong>并填写您的出行信息。</li>
+              <li><strong>选择您偏好的车辆</strong>并确认价格。</li>
+              <li><strong>通过安全的在线系统完成支付</strong>并完成预订。</li>
+              <li><strong>立即收到确认邮件</strong>，包含接送详情。</li>
+              <li><strong>全天候拨打我们的电话</strong>以获得预订帮助。</li>
+              <li><strong>发送邮件给我们</strong>，提供您的预订信息，我们的团队将为您确认。</li>
+            </ol>
+            
+            <h2>附加服务</h2>
+            <ul>
+              <li><strong>提供儿童座椅</strong> – 可按需提供婴幼儿安全座椅。</li>
+              <li><strong>途中停靠选项</strong> – 若途中需要停靠，请提前告知我们。</li>
+              <li><strong>单程与往返接送</strong> – 如需返程服务，也可一并预约。</li>
+            </ul>
+            
+            <h2>通过我们的专属行程探索希萨勒努</h2>
+            
+            <p>通过预订我们的 <strong>希萨勒努专属行程</strong>，让您的旅程更加精彩：</p>
+            <ul>
+              <li><strong>厄吕代尼兹滑翔伞体验</strong> – 从巴巴达山起飞，俯瞰蓝色泻湖。</li>
+              <li><strong>希萨勒努越野吉普探险</strong> – 探索越野路线、萨克利肯特峡谷和泥浆浴。</li>
+              <li><strong>厄吕代尼兹游船之旅</strong> – 探访蝴蝶谷、圣尼古拉斯岛和隐藏海湾。</li>
+              <li><strong>达利扬与海龟海滩一日游</strong> – 参观著名的伊兹图祖海滩和古代岩墓。</li>
+            </ul>
+            
+            <p><em>（所有行程均由可信赖的合作伙伴运营，并符合最高安全标准。请放心预订！）</em></p>
+            
+            <h2>关于希萨勒努</h2>
+            
+            <p>希萨勒努是位于 <strong>厄吕代尼兹</strong> 附近的一座活力四射的度假小镇，以其 <strong>热闹的夜生活</strong>、<strong>美食餐厅</strong> 及其 <strong>靠近绝美蓝色泻湖</strong> 而闻名。不论您想要 <strong>冒险</strong>、<strong>放松</strong> 还是 <strong>娱乐</strong>，这里都能满足您的需求。</p>
+            
+            <p>立即预订从 <strong>达拉曼机场到希萨勒努</strong> 的接送服务，开启轻松无忧的假期之旅！</p>
+            `,
+
         },
         "/dalaman-airport-to-calis-beach": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``
+            en: `
+            <h1>Dalaman Airport to Çalış Beach Transfers</h1>
+
+<h2>Reliable & Comfortable Transfers from Dalaman Airport to Çalış Beach</h2>
+
+<p>Looking for a stress-free transfer from <strong>Dalaman Airport (DLM)</strong> to Çalış Beach? Our private airport transfer service ensures a smooth and comfortable journey to this stunning beach resort near Fethiye. Whether you’re visiting for its <strong>sunsets</strong>, <strong>watersports</strong>, or <strong>relaxed seaside atmosphere</strong>, we provide <strong>safe, punctual, and high-quality</strong> transportation.</p>
+
+<h2>Distance & Travel Time</h2>
+<ul>
+  <li><strong>Distance:</strong> Approximately 45 km</li>
+  <li><strong>Travel Time:</strong> Around 40–55 minutes, depending on traffic and road conditions.</li>
+</ul>
+
+<h2>Why Choose Our Transfer Service?</h2>
+<ul>
+  <li><strong>Meet & Greet at Dalaman Airport</strong> – Our driver will be waiting at the arrivals area, just after customs, holding a passenger name board for easy identification.</li>
+  <li><strong>Fixed & Transparent Pricing</strong> – No hidden fees, ensuring you know your cost upfront.</li>
+  <li><strong>Luxury & Standard Vehicle Options</strong> – Choose from standard sedans, MPVs, or minibuses for larger groups.</li>
+  <li><strong>Safe & Professional Drivers</strong> – Licensed, experienced, and English-speaking drivers.</li>
+  <li><strong>24/7 Customer Support</strong> – Assistance available at any time to make your journey stress-free.</li>
+  <li><strong>Free Flight Monitoring</strong> – We track your flight and adjust pickup times accordingly to accommodate any delays.</li>
+  <li><strong>Secure Payment</strong> – Euro, GBP, US Dollar & Turkish Lira Accepted.</li>
+  <li><strong>Free Cancellation</strong> – Cancel up to 24 hours before your transfer for a full refund.</li>
+</ul>
+
+<h2>Transfer Options</h2>
+
+<p>We offer various vehicle options to suit different travel needs:</p>
+
+<div>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Vehicle Type</th>
+      <th>Passenger Capacity</th>
+      <th>Luggage Allowance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Standard Sedan</td>
+      <td>Up to 3 passengers</td>
+      <td>Max 3 suitcases</td>
+    </tr>
+    <tr>
+      <td>MPV</td>
+      <td>Up to 5 passengers</td>
+      <td>Max 5 suitcases</td>
+    </tr>
+    <tr>
+      <td>Minibus</td>
+      <td>Up to 8 passengers</td>
+      <td>Max 8 suitcases</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p><em>(Prices are dynamic and vary depending on season and booking time. Please check our online booking system for the latest rates.)</em></p>
+
+<h2>How to Book?</h2>
+<ol>
+  <li><strong>Visit our website</strong> and enter your travel details.</li>
+  <li><strong>Choose your preferred vehicle</strong> and confirm pricing.</li>
+  <li><strong>Complete your booking</strong> with secure online payment.</li>
+  <li><strong>Receive instant confirmation</strong> via email with pickup details.</li>
+  <li><strong>Call us 24/7</strong> for booking assistance.</li>
+  <li><strong>Email us</strong> your booking details, and our team will confirm your transfer.</li>
+</ol>
+
+<h2>Additional Services</h2>
+<ul>
+  <li><strong>Child Seats Available</strong> – Safety seats for infants and toddlers upon request.</li>
+  <li><strong>Stopover Options</strong> – Need to stop along the way? Let us know in advance.</li>
+  <li><strong>One-Way & Return Transfers</strong> – Book a return journey for added convenience.</li>
+</ul>
+
+<h2>Explore Çalış Beach with Our Exclusive Tours</h2>
+
+<p>Make the most of your visit by booking one of our <strong>Çalış Beach tours</strong> with confidence:</p>
+<ul>
+  <li><strong>Çalış Sunset Boat Tour</strong> – Experience a breathtaking sunset while cruising along the coast.</li>
+  <li><strong>12 Islands Boat Tour from Fethiye</strong> – Discover the stunning islands surrounding Fethiye Bay.</li>
+  <li><strong>Jeep Safari to Saklıkent Canyon</strong> – Adventure through canyons, mud baths, and ancient ruins.</li>
+  <li><strong>Dalyan & Turtle Beach Tour</strong> – Visit the famous Iztuzu Beach and see the Lycian rock tombs.</li>
+</ul>
+
+<p><em>(All tours are operated with trusted partners and meet the highest safety standards. Book with confidence!)</em></p>
+
+<h2>About Çalış Beach</h2>
+
+<p>Çalış Beach is one of <strong>Fethiye’s most famous coastal areas</strong>, known for its <strong>golden sandy beach</strong>, <strong>stunning sunset views</strong>, <strong>lively promenade</strong>, and <strong>water sports</strong>. Whether you’re looking to relax, enjoy <strong>windsurfing</strong>, <strong>kitesurfing</strong>, or take a scenic walk along the seafront, Çalış Beach has something for everyone.</p>
+
+<p>Book your <strong>Dalaman Airport to Çalış Beach</strong> transfer today and enjoy a smooth, stress-free start to your trip!</p>
+
+            `,
+            tr: `
+            <h1>Dalaman Havalimanı - Çalış Plajı Transferleri</h1>
+            
+            <h2>Dalaman Havalimanı'ndan Çalış Plajı'na Güvenli ve Konforlu Transfer</h2>
+            
+            <p><strong>Dalaman Havalimanı (DLM)</strong>'nden Çalış Plajı'na stressiz bir transfer mi arıyorsunuz? Özel havalimanı transfer hizmetimiz, Fethiye yakınlarındaki bu muhteşem sahil beldesine sorunsuz ve konforlu bir yolculuk sunar. İster <strong>gün batımı</strong>, ister <strong>su sporları</strong> ya da <strong>sakin bir sahil atmosferi</strong> için geliyor olun, <strong>güvenli, dakik ve yüksek kaliteli</strong> ulaşım sağlıyoruz.</p>
+            
+            <h2>Mesafe ve Yolculuk Süresi</h2>
+            <ul>
+              <li><strong>Mesafe:</strong> Yaklaşık 45 km</li>
+              <li><strong>Yolculuk Süresi:</strong> Trafik ve yol durumuna bağlı olarak yaklaşık 40–55 dakika.</li>
+            </ul>
+            
+            <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+            <ul>
+              <li><strong>Dalaman Havalimanı'nda Karşılama</strong> – Sürücümüz, gümrük sonrası geliş alanında, isminizin yazılı olduğu bir karşılama tabelasıyla sizi bekliyor olacak.</li>
+              <li><strong>Sabit ve Şeffaf Fiyatlandırma</strong> – Gizli ücret yoktur; ödeyeceğiniz ücreti en baştan bilirsiniz.</li>
+              <li><strong>Lüks ve Standart Araç Seçenekleri</strong> – Standart sedan, MPV veya minibüs arasından seçim yapabilirsiniz.</li>
+              <li><strong>Güvenli ve Profesyonel Sürücüler</strong> – Lisanslı, deneyimli ve İngilizce konuşan sürücüler.</li>
+              <li><strong>7/24 Müşteri Desteği</strong> – Seyahatinizi sorunsuz hale getirmek için günün her saati hizmetinizdeyiz.</li>
+              <li><strong>Ücretsiz Uçuş Takibi</strong> – Uçuşunuzu takip ediyor ve gecikmelere göre karşılama saatini ayarlıyoruz.</li>
+              <li><strong>Güvenli Ödeme</strong> – Euro, GBP, Amerikan Doları ve Türk Lirası kabul edilir.</li>
+              <li><strong>Ücretsiz İptal</strong> – Transfer saatinden 24 saat öncesine kadar ücretsiz iptal imkanı.</li>
+            </ul>
+            
+            <h2>Transfer Seçenekleri</h2>
+            
+            <p>Farklı seyahat ihtiyaçlarına uygun araç seçenekleri sunuyoruz:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Araç Tipi</th>
+                  <th>Yolcu Kapasitesi</th>
+                  <th>Bagaj Hakkı</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Standart Sedan</td>
+                  <td>En fazla 3 yolcu</td>
+                  <td>Maksimum 3 valiz</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>En fazla 5 yolcu</td>
+                  <td>Maksimum 5 valiz</td>
+                </tr>
+                <tr>
+                  <td>Minibüs</td>
+                  <td>En fazla 8 yolcu</td>
+                  <td>Maksimum 8 valiz</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Fiyatlar dinamiktir ve sezona veya rezervasyon zamanına göre değişiklik gösterebilir. Güncel fiyatlar için online rezervasyon sistemimizi kontrol ediniz.)</em></p>
+            
+            <h2>Nasıl Rezervasyon Yapılır?</h2>
+            <ol>
+              <li><strong>Web sitemizi ziyaret edin</strong> ve seyahat bilgilerinizi girin.</li>
+              <li><strong>Tercih ettiğiniz aracı seçin</strong> ve fiyatı onaylayın.</li>
+              <li><strong>Güvenli online ödeme ile rezervasyonunuzu tamamlayın.</strong></li>
+              <li><strong>Anında onay alın</strong> – Karşılama detayları e-posta ile gönderilir.</li>
+              <li><strong>Bizi 7/24 arayın</strong> – Rezervasyon desteği için her zaman ulaşabilirsiniz.</li>
+              <li><strong>Bize e-posta gönderin</strong> – Rezervasyon bilgilerinizi paylaşın, biz onaylayalım.</li>
+            </ol>
+            
+            <h2>Ek Hizmetler</h2>
+            <ul>
+              <li><strong>Çocuk Koltuğu Mevcuttur</strong> – Talep üzerine bebek ve küçük çocuklar için güvenlik koltukları sağlanır.</li>
+              <li><strong>Yolda Duraklama Seçeneği</strong> – Yol üzerinde durmanız gerekiyorsa lütfen önceden bildirin.</li>
+              <li><strong>Tek Yön ve Gidiş-Dönüş Transfer</strong> – Dilerseniz dönüş transferinizi de kolayca ayırtabilirsiniz.</li>
+            </ul>
+            
+            <h2>Çalış Plajı’nı Özel Turlarımızla Keşfedin</h2>
+            
+            <p>Konaklamanızı daha da özel hale getirmek için <strong>Çalış Plajı turlarımızdan</strong> birini güvenle rezerve edebilirsiniz:</p>
+            <ul>
+              <li><strong>Çalış Gün Batımı Tekne Turu</strong> – Sahil boyunca tekneyle ilerlerken muhteşem gün batımını deneyimleyin.</li>
+              <li><strong>Fethiye’den 12 Adalar Tekne Turu</strong> – Fethiye Körfezi çevresindeki muhteşem adaları keşfedin.</li>
+              <li><strong>Saklıkent Kanyonu'na Jeep Safari</strong> – Kanyonlar, çamur banyoları ve antik kalıntılarla dolu bir maceraya atılın.</li>
+              <li><strong>Dalyan & İztuzu Plajı Turu</strong> – Ünlü İztuzu Plajı'nı ziyaret edin ve Likya kaya mezarlarını görün.</li>
+            </ul>
+            
+            <p><em>(Tüm turlar güvenilir iş ortaklarımız tarafından düzenlenmektedir ve en yüksek güvenlik standartlarını karşılar. Gönül rahatlığıyla rezervasyon yapabilirsiniz!)</em></p>
+            
+            <h2>Çalış Plajı Hakkında</h2>
+            
+            <p><strong>Fethiye’nin en ünlü sahil bölgelerinden biri</strong> olan Çalış Plajı, <strong>altın renkli kumsalı</strong>, <strong>muhteşem gün batımı manzaraları</strong>, <strong>canlı sahil yolu</strong> ve <strong>su sporları</strong> ile tanınır. İster <strong>rahatlamak</strong>, ister <strong>rüzgar sörfü</strong>, <strong>uçurtma sörfü</strong> yapmak, ister deniz kenarında keyifli bir yürüyüşe çıkmak isteyin; Çalış Plajı herkes için bir şeyler sunar.</p>
+            
+            <p><strong>Dalaman Havalimanı - Çalış Plajı</strong> transferinizi bugünden rezerve edin ve seyahatinize konforlu, stressiz bir başlangıç yapın!</p>
+            `,
+
+            ar: `
+            <h1>خدمة النقل من مطار دالامان إلى شاطئ تشاليش</h1>
+            
+            <h2>خدمة نقل موثوقة ومريحة من مطار دالامان إلى شاطئ تشاليش</h2>
+            
+            <p>هل تبحث عن وسيلة نقل مريحة من <strong>مطار دالامان (DLM)</strong> إلى شاطئ تشاليش؟ توفر لك خدمة النقل الخاصة بنا رحلة سلسة ومريحة إلى هذا المنتجع الشاطئي الرائع بالقرب من فتحية. سواء كنت تزور من أجل <strong>مشاهدة الغروب</strong>، أو <strong>الرياضات المائية</strong>، أو <strong>الهدوء على البحر</strong>، نحن نوفر لك وسيلة نقل <strong>آمنة، دقيقة وعالية الجودة</strong>.</p>
+            
+            <h2>المسافة ومدة الرحلة</h2>
+            <ul>
+              <li><strong>المسافة:</strong> حوالي 45 كم</li>
+              <li><strong>مدة الرحلة:</strong> من 40 إلى 55 دقيقة تقريبًا، حسب حركة المرور وظروف الطريق.</li>
+            </ul>
+            
+            <h2>لماذا تختار خدمتنا؟</h2>
+            <ul>
+              <li><strong>الاستقبال في مطار دالامان</strong> – سيقابلك السائق في منطقة الوصول بعد الجمارك ويحمل لافتة باسمك.</li>
+              <li><strong>أسعار ثابتة وشفافة</strong> – بدون رسوم خفية، السعر معروف مسبقًا.</li>
+              <li><strong>خيارات سيارات فاخرة وعادية</strong> – يمكنك اختيار سيارة سيدان عادية، MPV، أو حافلة صغيرة للمجموعات.</li>
+              <li><strong>سائقون محترفون وآمنون</strong> – مرخصون وذو خبرة ويتحدثون الإنجليزية.</li>
+              <li><strong>دعم العملاء على مدار الساعة</strong> – خدمة متوفرة في أي وقت لجعل رحلتك خالية من التوتر.</li>
+              <li><strong>متابعة الرحلات مجانًا</strong> – نتابع رحلتك الجوية ونقوم بتعديل وقت الاستقبال عند وجود تأخيرات.</li>
+              <li><strong>دفع آمن</strong> – نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية.</li>
+              <li><strong>إلغاء مجاني</strong> – يمكنك الإلغاء حتى 24 ساعة قبل موعد النقل واسترداد كامل للمبلغ.</li>
+            </ul>
+            
+            <h2>خيارات المركبات</h2>
+            
+            <p>نقدم مجموعة من المركبات لتلبية احتياجات السفر المختلفة:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>نوع السيارة</th>
+                  <th>عدد الركاب</th>
+                  <th>الحقائب المسموح بها</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>سيدان عادية</td>
+                  <td>حتى 3 ركاب</td>
+                  <td>حد أقصى 3 حقائب</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>حتى 5 ركاب</td>
+                  <td>حد أقصى 5 حقائب</td>
+                </tr>
+                <tr>
+                  <td>حافلة صغيرة</td>
+                  <td>حتى 8 ركاب</td>
+                  <td>حد أقصى 8 حقائب</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(الأسعار متغيرة وتعتمد على الموسم ووقت الحجز. يرجى مراجعة نظام الحجز الإلكتروني لمعرفة الأسعار المحدثة.)</em></p>
+            
+            <h2>كيف تقوم بالحجز؟</h2>
+            <ol>
+              <li><strong>قم بزيارة موقعنا الإلكتروني</strong> وأدخل تفاصيل رحلتك.</li>
+              <li><strong>اختر السيارة المفضلة</strong> لديك وراجع السعر.</li>
+              <li><strong>أكمل الحجز</strong> من خلال الدفع الإلكتروني الآمن.</li>
+              <li><strong>استلم تأكيدًا فوريًا</strong> عبر البريد الإلكتروني مع تفاصيل الاستقبال.</li>
+              <li><strong>اتصل بنا 24/7</strong> إذا كنت بحاجة إلى مساعدة في الحجز.</li>
+              <li><strong>راسلنا عبر البريد الإلكتروني</strong> بمعلومات الحجز وسنقوم بتأكيده.</li>
+            </ol>
+            
+            <h2>خدمات إضافية</h2>
+            <ul>
+              <li><strong>مقاعد أطفال متوفرة</strong> – نوفر كراسي أمان للرضّع والأطفال عند الطلب.</li>
+              <li><strong>إمكانية التوقف على الطريق</strong> – إذا كنت بحاجة للتوقف خلال الرحلة، فقط أخبرنا مسبقًا.</li>
+              <li><strong>نقل ذهاب فقط أو ذهاب وعودة</strong> – احجز رحلتك في الاتجاهين لمزيد من الراحة.</li>
+            </ul>
+            
+            <h2>استكشف شاطئ تشاليش من خلال جولاتنا الحصرية</h2>
+            
+            <p>اجعل زيارتك لا تُنسى من خلال حجز واحدة من <strong>جولات شاطئ تشاليش</strong> المميزة:</p>
+            <ul>
+              <li><strong>جولة قارب غروب الشمس</strong> – استمتع بغروب الشمس المذهل أثناء الإبحار على الساحل.</li>
+              <li><strong>جولة 12 جزيرة من فتحية</strong> – استكشف الجزر الرائعة المحيطة بخليج فتحية.</li>
+              <li><strong>سفاري بسيارات الجيب إلى وادي ساكلكنت</strong> – مغامرة عبر الوديان، والحمامات الطينية والآثار القديمة.</li>
+              <li><strong>جولة داليان وشاطئ السلاحف</strong> – قم بزيارة شاطئ إزتوزو الشهير وشاهد مقابر الليسية الصخرية.</li>
+            </ul>
+            
+            <p><em>(جميع الجولات يتم تنفيذها من قبل شركاء موثوقين وتفي بأعلى معايير السلامة. احجز بثقة!)</em></p>
+            
+            <h2>حول شاطئ تشاليش</h2>
+            
+            <p>يُعد شاطئ تشاليش أحد <strong>أشهر الوجهات الساحلية في فتحية</strong>، ويشتهر بـ <strong>رماله الذهبية</strong>، و<strong>مناظر الغروب الخلابة</strong>، و<strong>ممشاه الحيوي</strong> و<strong>رياضاته المائية</strong>. سواء كنت تبحث عن الاسترخاء، أو الاستمتاع بـ <strong>ركوب الأمواج</strong>، أو <strong>ركوب الطائرات الورقية</strong>، أو المشي على الواجهة البحرية، فإن شاطئ تشاليش يقدم شيئًا للجميع.</p>
+            
+            <p>احجز الآن خدمة النقل من <strong>مطار دالامان إلى شاطئ تشاليش</strong> واستمتع ببداية سلسة وخالية من التوتر لرحلتك!</p>
+            `,
+
+            es: `
+            <h1>Traslados desde el Aeropuerto de Dalaman a la Playa de Çalış</h1>
+            
+            <h2>Traslados confiables y cómodos desde el Aeropuerto de Dalaman a la Playa de Çalış</h2>
+            
+            <p>¿Buscas un traslado sin complicaciones desde el <strong>Aeropuerto de Dalaman (DLM)</strong> hasta la Playa de Çalış? Nuestro servicio de traslado privado garantiza un viaje cómodo y fluido a este impresionante destino costero cerca de Fethiye. Ya sea que vengas por sus <strong>puestas de sol</strong>, <strong>deportes acuáticos</strong> o su <strong>ambiente relajado junto al mar</strong>, ofrecemos transporte <strong>seguro, puntual y de alta calidad</strong>.</p>
+            
+            <h2>Distancia y Tiempo de Viaje</h2>
+            <ul>
+              <li><strong>Distancia:</strong> Aproximadamente 45 km</li>
+              <li><strong>Tiempo de viaje:</strong> Entre 40 y 55 minutos, dependiendo del tráfico y las condiciones del camino.</li>
+            </ul>
+            
+            <h2>¿Por qué elegir nuestro servicio?</h2>
+            <ul>
+              <li><strong>Recepción en el Aeropuerto de Dalaman</strong> – Nuestro conductor te esperará en la zona de llegadas, justo después de aduanas, con un cartel con tu nombre.</li>
+              <li><strong>Precios fijos y transparentes</strong> – Sin tarifas ocultas. Conoces el precio por adelantado.</li>
+              <li><strong>Opciones de vehículos estándar y de lujo</strong> – Elige entre sedán, MPV o minibús según el tamaño de tu grupo.</li>
+              <li><strong>Conductores seguros y profesionales</strong> – Con licencia, experiencia y que hablan inglés.</li>
+              <li><strong>Atención al cliente 24/7</strong> – Soporte disponible en cualquier momento para que tu viaje sea sin estrés.</li>
+              <li><strong>Monitoreo gratuito de vuelos</strong> – Seguimos tu vuelo y ajustamos la recogida si hay demoras.</li>
+              <li><strong>Pago seguro</strong> – Aceptamos euros, libras esterlinas, dólares estadounidenses y lira turca.</li>
+              <li><strong>Cancelación gratuita</strong> – Cancela hasta 24 horas antes del traslado y recibe reembolso completo.</li>
+            </ul>
+            
+            <h2>Opciones de traslado</h2>
+            
+            <p>Ofrecemos diferentes tipos de vehículos para adaptarse a tus necesidades de viaje:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Tipo de vehículo</th>
+                  <th>Capacidad de pasajeros</th>
+                  <th>Capacidad de equipaje</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sedán estándar</td>
+                  <td>Hasta 3 pasajeros</td>
+                  <td>Máximo 3 maletas</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Hasta 5 pasajeros</td>
+                  <td>Máximo 5 maletas</td>
+                </tr>
+                <tr>
+                  <td>Minibús</td>
+                  <td>Hasta 8 pasajeros</td>
+                  <td>Máximo 8 maletas</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Los precios son dinámicos y pueden variar según la temporada y el momento de la reserva. Consulta nuestro sistema de reservas en línea para conocer las tarifas actualizadas.)</em></p>
+            
+            <h2>¿Cómo reservar?</h2>
+            <ol>
+              <li><strong>Visita nuestro sitio web</strong> e ingresa los detalles de tu viaje.</li>
+              <li><strong>Elige el vehículo que prefieras</strong> y confirma el precio.</li>
+              <li><strong>Completa tu reserva</strong> con pago seguro en línea.</li>
+              <li><strong>Recibe confirmación inmediata</strong> por correo electrónico con los detalles de recogida.</li>
+              <li><strong>Llámanos 24/7</strong> para asistencia en la reserva.</li>
+              <li><strong>Envíanos un correo electrónico</strong> con los detalles de tu reserva y nuestro equipo la confirmará.</li>
+            </ol>
+            
+            <h2>Servicios adicionales</h2>
+            <ul>
+              <li><strong>Asientos para niños disponibles</strong> – Proporcionamos asientos de seguridad para bebés y niños bajo solicitud.</li>
+              <li><strong>Paradas intermedias</strong> – ¿Necesitas detenerte durante el trayecto? Avísanos con anticipación.</li>
+              <li><strong>Traslados solo ida o ida y vuelta</strong> – Reserva también tu viaje de regreso para mayor comodidad.</li>
+            </ul>
+            
+            <h2>Explora la Playa de Çalış con nuestros tours exclusivos</h2>
+            
+            <p>Aprovecha tu visita reservando uno de nuestros <strong>tours por la Playa de Çalış</strong> con confianza:</p>
+            <ul>
+              <li><strong>Tour en barco al atardecer</strong> – Disfruta de una puesta de sol inolvidable navegando por la costa.</li>
+              <li><strong>Tour de las 12 islas desde Fethiye</strong> – Explora las hermosas islas del golfo de Fethiye.</li>
+              <li><strong>Safari en jeep al cañón de Saklıkent</strong> – Aventura por cañones, baños de barro y ruinas antiguas.</li>
+              <li><strong>Tour a Dalyan y la Playa de las Tortugas</strong> – Visita la famosa Playa Iztuzu y las tumbas licias en roca.</li>
+            </ul>
+            
+            <p><em>(Todos los tours se realizan con socios de confianza y cumplen con los más altos estándares de seguridad. ¡Reserva con confianza!)</em></p>
+            
+            <h2>Sobre la Playa de Çalış</h2>
+            
+            <p>La Playa de Çalış es una de las <strong>zonas costeras más famosas de Fethiye</strong>, conocida por su <strong>arena dorada</strong>, <strong>impresionantes atardeceres</strong>, <strong>paseo marítimo animado</strong> y <strong>deportes acuáticos</strong>. Ya sea que desees <strong>relajarte</strong>, practicar <strong>windsurf</strong>, <strong>kitesurf</strong> o dar un paseo escénico por el mar, la Playa de Çalış tiene algo para todos.</p>
+            
+            <p>¡Reserva hoy tu traslado desde el <strong>Aeropuerto de Dalaman a la Playa de Çalış</strong> y comienza tu viaje de forma tranquila y sin estrés!</p>
+            `,
+
+            it: `
+            <h1>Trasferimenti dall'Aeroporto di Dalaman alla Spiaggia di Çalış</h1>
+            
+            <h2>Trasferimenti affidabili e confortevoli dall'Aeroporto di Dalaman alla Spiaggia di Çalış</h2>
+            
+            <p>Stai cercando un trasferimento senza stress dall'<strong>Aeroporto di Dalaman (DLM)</strong> alla Spiaggia di Çalış? Il nostro servizio di transfer privato garantisce un viaggio comodo e tranquillo verso questa splendida località balneare vicino a Fethiye. Che tu venga per i suoi <strong>tramonti</strong>, gli <strong>sport acquatici</strong> o l'<strong>atmosfera rilassata sul mare</strong>, offriamo un trasporto <strong>sicuro, puntuale e di alta qualità</strong>.</p>
+            
+            <h2>Distanza e Tempo di Viaggio</h2>
+            <ul>
+              <li><strong>Distanza:</strong> Circa 45 km</li>
+              <li><strong>Tempo di percorrenza:</strong> Tra i 40 e i 55 minuti, a seconda del traffico e delle condizioni stradali.</li>
+            </ul>
+            
+            <h2>Perché scegliere il nostro servizio?</h2>
+            <ul>
+              <li><strong>Accoglienza all'Aeroporto di Dalaman</strong> – Il nostro autista ti aspetterà all’uscita arrivi, subito dopo la dogana, con un cartello con il tuo nome.</li>
+              <li><strong>Prezzi fissi e trasparenti</strong> – Nessun costo nascosto. Saprai il prezzo esatto in anticipo.</li>
+              <li><strong>Veicoli standard e di lusso</strong> – Scegli tra berline, MPV o minibus per gruppi più numerosi.</li>
+              <li><strong>Autisti professionali e sicuri</strong> – Con licenza, esperienza e parlanti inglese.</li>
+              <li><strong>Assistenza clienti 24/7</strong> – Supporto disponibile in qualsiasi momento per rendere il tuo viaggio senza pensieri.</li>
+              <li><strong>Monitoraggio gratuito del volo</strong> – Monitoriamo il tuo volo e adeguiamo l'orario di ritiro in caso di ritardo.</li>
+              <li><strong>Pagamento sicuro</strong> – Accettiamo Euro, Sterline, Dollari USA e Lira Turca.</li>
+              <li><strong>Cancellazione gratuita</strong> – Cancella fino a 24 ore prima del trasferimento e ricevi un rimborso completo.</li>
+            </ul>
+            
+            <h2>Opzioni di Trasferimento</h2>
+            
+            <p>Offriamo diverse tipologie di veicoli per soddisfare ogni esigenza di viaggio:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Tipo di Veicolo</th>
+                  <th>Capacità Passeggeri</th>
+                  <th>Bagagli Ammessi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Berlina Standard</td>
+                  <td>Fino a 3 passeggeri</td>
+                  <td>Massimo 3 valigie</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Fino a 5 passeggeri</td>
+                  <td>Massimo 5 valigie</td>
+                </tr>
+                <tr>
+                  <td>Minibus</td>
+                  <td>Fino a 8 passeggeri</td>
+                  <td>Massimo 8 valigie</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(I prezzi sono dinamici e possono variare in base alla stagione e al momento della prenotazione. Controlla il nostro sistema di prenotazione online per conoscere le tariffe aggiornate.)</em></p>
+            
+            <h2>Come Prenotare?</h2>
+            <ol>
+              <li><strong>Visita il nostro sito web</strong> e inserisci i dettagli del tuo viaggio.</li>
+              <li><strong>Scegli il veicolo preferito</strong> e conferma il prezzo.</li>
+              <li><strong>Completa la prenotazione</strong> con pagamento sicuro online.</li>
+              <li><strong>Ricevi conferma immediata</strong> via email con i dettagli del prelievo.</li>
+              <li><strong>Chiamaci 24/7</strong> per assistenza alla prenotazione.</li>
+              <li><strong>Inviaci un'email</strong> con i dettagli della prenotazione e il nostro team ti confermerà il trasferimento.</li>
+            </ol>
+            
+            <h2>Servizi Aggiuntivi</h2>
+            <ul>
+              <li><strong>Seggiolini per bambini disponibili</strong> – Su richiesta forniamo seggiolini di sicurezza per neonati e bambini piccoli.</li>
+              <li><strong>Fermate intermedie</strong> – Se hai bisogno di fermarti lungo il tragitto, avvisaci in anticipo.</li>
+              <li><strong>Trasferimenti solo andata o andata e ritorno</strong> – Prenota anche il viaggio di ritorno per maggiore comodità.</li>
+            </ul>
+            
+            <h2>Scopri la Spiaggia di Çalış con i nostri tour esclusivi</h2>
+            
+            <p>Approfitta al massimo della tua visita prenotando uno dei nostri <strong>tour a Çalış Beach</strong> con fiducia:</p>
+            <ul>
+              <li><strong>Tour in barca al tramonto</strong> – Vivi un tramonto mozzafiato navigando lungo la costa.</li>
+              <li><strong>Tour delle 12 Isole da Fethiye</strong> – Esplora le splendide isole intorno alla baia di Fethiye.</li>
+              <li><strong>Safari in jeep al canyon di Saklıkent</strong> – Avventura tra canyon, bagni di fango e antiche rovine.</li>
+              <li><strong>Tour a Dalyan e alla Spiaggia delle Tartarughe</strong> – Visita la famosa spiaggia di Iztuzu e le tombe rupestri licie.</li>
+            </ul>
+            
+            <p><em>(Tutti i tour sono organizzati con partner fidati e rispettano i più alti standard di sicurezza. Prenota in tutta tranquillità!)</em></p>
+            
+            <h2>Informazioni su Çalış Beach</h2>
+            
+            <p>Çalış Beach è una delle <strong>zone costiere più famose di Fethiye</strong>, conosciuta per la sua <strong>spiaggia dorata</strong>, i <strong>tramonti spettacolari</strong>, il <strong>lungomare animato</strong> e gli <strong>sport acquatici</strong>. Che tu voglia <strong>rilassarti</strong>, fare <strong>windsurf</strong>, <strong>kitesurf</strong> o una passeggiata panoramica lungo il mare, Çalış ha qualcosa da offrire a tutti.</p>
+            
+            <p>Prenota oggi il tuo trasferimento dall'<strong>Aeroporto di Dalaman alla Spiaggia di Çalış</strong> e inizia il tuo viaggio in totale relax e senza stress!</p>
+            `,
+
+            ru: `
+            <h1>Трансфер из аэропорта Даламан на пляж Чалыш</h1>
+            
+            <h2>Надежный и комфортный трансфер из аэропорта Даламан на пляж Чалыш</h2>
+            
+            <p>Ищете удобный и спокойный трансфер из <strong>аэропорта Даламан (DLM)</strong> на пляж Чалыш? Наш частный трансфер обеспечивает комфортную поездку в этот живописный курорт рядом с Фетхие. Независимо от того, приезжаете ли вы ради <strong>закатов</strong>, <strong>водных видов спорта</strong> или <strong>расслабляющей атмосферы у моря</strong>, мы гарантируем <strong>безопасную, пунктуальную и качественную</strong> перевозку.</p>
+            
+            <h2>Расстояние и время в пути</h2>
+            <ul>
+              <li><strong>Расстояние:</strong> около 45 км</li>
+              <li><strong>Время в пути:</strong> примерно 40–55 минут в зависимости от дорожной ситуации и трафика.</li>
+            </ul>
+            
+            <h2>Почему выбирают наш трансфер?</h2>
+            <ul>
+              <li><strong>Встреча в аэропорту Даламан</strong> – Наш водитель встретит вас в зоне прибытия с табличкой с вашим именем.</li>
+              <li><strong>Фиксированные и прозрачные цены</strong> – Никаких скрытых платежей. Вы заранее знаете стоимость.</li>
+              <li><strong>Стандартные и люксовые автомобили</strong> – Выбор между седанами, MPV и микроавтобусами для групп.</li>
+              <li><strong>Профессиональные водители</strong> – Лицензированные, опытные и говорящие на английском языке.</li>
+              <li><strong>Круглосуточная поддержка</strong> – Мы на связи 24/7 для вашего спокойствия.</li>
+              <li><strong>Бесплатный мониторинг рейса</strong> – Отслеживаем ваш рейс и подстраиваем время встречи при задержках.</li>
+              <li><strong>Безопасная оплата</strong> – Принимаем EUR, GBP, USD и турецкую лиру.</li>
+              <li><strong>Бесплатная отмена</strong> – Бесплатная отмена за 24 часа до поездки с полным возвратом средств.</li>
+            </ul>
+            
+            <h2>Варианты трансфера</h2>
+            
+            <p>Мы предлагаем различные типы автомобилей в зависимости от ваших потребностей:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Тип автомобиля</th>
+                  <th>Вместимость пассажиров</th>
+                  <th>Багаж</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Стандартный седан</td>
+                  <td>До 3 пассажиров</td>
+                  <td>До 3 чемоданов</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>До 5 пассажиров</td>
+                  <td>До 5 чемоданов</td>
+                </tr>
+                <tr>
+                  <td>Минивэн</td>
+                  <td>До 8 пассажиров</td>
+                  <td>До 8 чемоданов</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Цены могут меняться в зависимости от сезона и времени бронирования. Актуальные тарифы смотрите в нашей системе онлайн-бронирования.)</em></p>
+            
+            <h2>Как забронировать?</h2>
+            <ol>
+              <li><strong>Посетите наш сайт</strong> и введите данные поездки.</li>
+              <li><strong>Выберите предпочитаемый автомобиль</strong> и подтвердите цену.</li>
+              <li><strong>Завершите бронирование</strong> через безопасную онлайн-оплату.</li>
+              <li><strong>Получите мгновенное подтверждение</strong> по электронной почте с деталями встречи.</li>
+              <li><strong>Позвоните нам 24/7</strong> для помощи с бронированием.</li>
+              <li><strong>Напишите нам по почте</strong> с деталями поездки — и мы подтвердим трансфер.</li>
+            </ol>
+            
+            <h2>Дополнительные услуги</h2>
+            <ul>
+              <li><strong>Детские кресла по запросу</strong> – Безопасные сиденья для младенцев и детей по запросу.</li>
+              <li><strong>Остановки в пути</strong> – Сообщите заранее, если необходимо сделать остановку.</li>
+              <li><strong>Трансфер в одну сторону или туда-обратно</strong> – Забронируйте обратный путь для большего удобства.</li>
+            </ul>
+            
+            <h2>Исследуйте пляж Чалыш с нашими эксклюзивными турами</h2>
+            
+            <p>Сделайте ваше пребывание незабываемым, забронировав один из наших <strong>туров по пляжу Чалыш</strong>:</p>
+            <ul>
+              <li><strong>Прогулка на лодке на закате</strong> – Насладитесь потрясающим закатом во время морской прогулки вдоль побережья.</li>
+              <li><strong>Тур по 12 островам из Фетхие</strong> – Откройте для себя удивительные острова в заливе Фетхие.</li>
+              <li><strong>Джип-сафари в каньон Саклыкент</strong> – Приключение через каньоны, грязевые ванны и древние руины.</li>
+              <li><strong>Экскурсия в Далян и на пляж черепах</strong> – Посетите знаменитый пляж Изтузу и Ликийские гробницы в скалах.</li>
+            </ul>
+            
+            <p><em>(Все туры проводятся нашими надежными партнерами и соответствуют самым высоким стандартам безопасности. Бронируйте с уверенностью!)</em></p>
+            
+            <h2>О пляже Чалыш</h2>
+            
+            <p>Пляж Чалыш — это одно из самых популярных побережий в Фетхие, известное своей <strong>золотистой песчаной береговой линией</strong>, <strong>захватывающими закатами</strong>, <strong>оживленной набережной</strong> и <strong>водными видами спорта</strong>. Хотите ли вы <strong>расслабиться</strong>, заняться <strong>виндсерфингом</strong>, <strong>кайтсерфингом</strong> или просто прогуляться вдоль берега — здесь найдется занятие для каждого.</p>
+            
+            <p>Забронируйте свой <strong>трансфер из аэропорта Даламан на пляж Чалыш</strong> уже сегодня и начните свое путешествие легко и без стресса!</p>
+            `,
+
+            zh: `
+            <h1>达拉曼机场至恰勒什海滩接送服务</h1>
+            
+            <h2>从达拉曼机场到恰勒什海滩的可靠且舒适的接送服务</h2>
+            
+            <p>正在寻找从<strong>达拉曼机场 (DLM)</strong>前往恰勒什海滩的无忧接送服务吗？我们的私人接送服务可确保您前往这个风景如画的费特希耶海滩度假胜地的旅程顺畅舒适。无论您是为了欣赏<strong>日落</strong>、参与<strong>水上运动</strong>，还是享受<strong>悠闲的海边氛围</strong>，我们都为您提供<strong>安全、准时和高质量</strong>的交通服务。</p>
+            
+            <h2>距离与行程时间</h2>
+            <ul>
+              <li><strong>距离：</strong>约45公里</li>
+              <li><strong>行程时间：</strong>大约40–55分钟，取决于交通和路况。</li>
+            </ul>
+            
+            <h2>为什么选择我们的接送服务？</h2>
+            <ul>
+              <li><strong>达拉曼机场接机服务</strong> – 我们的司机将在海关之后的到达区等候，手持写有您名字的接机牌。</li>
+              <li><strong>固定透明价格</strong> – 无隐藏费用，您提前知道总价。</li>
+              <li><strong>豪华与标准车辆选择</strong> – 提供标准轿车、MPV商务车和小型巴士，适合不同人数的团队。</li>
+              <li><strong>安全专业的司机</strong> – 持牌、有经验并会说英语的司机。</li>
+              <li><strong>全天候客户支持</strong> – 24小时客服，确保您的旅程无忧。</li>
+              <li><strong>免费航班监控</strong> – 我们追踪您的航班动态，并根据延误调整接机时间。</li>
+              <li><strong>安全支付</strong> – 支持欧元、英镑、美元和土耳其里拉付款。</li>
+              <li><strong>免费取消</strong> – 在接送前24小时内取消可全额退款。</li>
+            </ul>
+            
+            <h2>车辆选项</h2>
+            
+            <p>我们提供多种车型以满足不同出行需求：</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>车辆类型</th>
+                  <th>乘客容量</th>
+                  <th>行李限制</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>标准轿车</td>
+                  <td>最多3人</td>
+                  <td>最多3件行李</td>
+                </tr>
+                <tr>
+                  <td>MPV商务车</td>
+                  <td>最多5人</td>
+                  <td>最多5件行李</td>
+                </tr>
+                <tr>
+                  <td>小型巴士</td>
+                  <td>最多8人</td>
+                  <td>最多8件行李</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>（价格为动态浮动，可能因季节与预订时间而有所不同。请通过我们的在线预订系统获取最新价格。）</em></p>
+            
+            <h2>如何预订？</h2>
+            <ol>
+              <li><strong>访问我们的网站</strong>，填写您的行程信息。</li>
+              <li><strong>选择您偏好的车型</strong>并确认价格。</li>
+              <li><strong>通过安全的在线支付完成预订。</strong></li>
+              <li><strong>立即收到确认邮件</strong>，包含接送详细信息。</li>
+              <li><strong>全天24小时电话支持</strong>，协助您完成预订。</li>
+              <li><strong>通过电子邮件联系我们</strong>，提供预订信息，我们的团队将确认您的接送。</li>
+            </ol>
+            
+            <h2>附加服务</h2>
+            <ul>
+              <li><strong>提供儿童座椅</strong> – 可根据需求为婴儿和儿童提供安全座椅。</li>
+              <li><strong>中途停留选项</strong> – 如需途中停靠，请提前告知我们。</li>
+              <li><strong>单程与往返接送</strong> – 如有需要，也可预订返程服务，方便又省心。</li>
+            </ul>
+            
+            <h2>通过我们的专属旅游探索恰勒什海滩</h2>
+            
+            <p>选择我们精选的<strong>恰勒什海滩行程</strong>，提升您的度假体验：</p>
+            <ul>
+              <li><strong>日落游船之旅</strong> – 沿着海岸线航行，欣赏迷人的日落美景。</li>
+              <li><strong>从费特希耶出发的12岛游</strong> – 探索费特希耶湾周边的迷人小岛。</li>
+              <li><strong>萨克勒肯特峡谷越野吉普之旅</strong> – 探险峡谷、泥浴和古代遗迹。</li>
+              <li><strong>达利扬与海龟海滩之旅</strong> – 参观著名的伊兹图祖海滩和古代岩墓。</li>
+            </ul>
+            
+            <p><em>（所有行程均由值得信赖的合作伙伴运营，并遵循最高安全标准。请放心预订！）</em></p>
+            
+            <h2>关于恰勒什海滩</h2>
+            
+            <p>恰勒什海滩是<strong>费特希耶最著名的海滨区域之一</strong>，以其<strong>金色沙滩</strong>、<strong>迷人的日落</strong>、<strong>热闹的海滨步道</strong>和丰富的<strong>水上活动</strong>而闻名。不论您想要<strong>放松</strong>、尝试<strong>风帆冲浪</strong>或<strong>风筝冲浪</strong>，还是在海边悠闲散步，这里都能满足您的一切期待。</p>
+            
+            <p>立即预订您的<strong>达拉曼机场至恰勒什海滩</strong>接送服务，享受轻松愉快的旅程起点！</p>
+            `,
+
         },
         "/dalaman-airport-to-akyaka": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``
+            en: `
+            <h1>Dalaman Airport to Akyaka Transfers</h1>
+            
+            <h2>Reliable & Comfortable Transfers from Dalaman Airport to Akyaka</h2>
+            
+            <p>Looking for a stress-free transfer from <strong>Dalaman Airport (DLM)</strong> to Akyaka? Our private airport transfer service ensures a smooth and comfortable journey to this charming coastal town known for its <strong>slow tourism, natural beauty, and windsurfing culture</strong>. Whether you're visiting for its <strong>crystal-clear Azmak River</strong>, <strong>stunning bay</strong>, or <strong>traditional Ottoman-style houses</strong>, we provide <strong>safe, punctual, and high-quality</strong> transportation.</p>
+            
+            <h2>Distance & Travel Time</h2>
+            <ul>
+              <li><strong>Distance:</strong> Approximately 70 km</li>
+              <li><strong>Travel Time:</strong> Around 75–90 minutes, depending on traffic and road conditions.</li>
+            </ul>
+            
+            <h2>Why Choose Our Transfer Service?</h2>
+            <ul>
+              <li><strong>Meet & Greet at Dalaman Airport</strong> – Our driver will be waiting at the arrivals area, just after customs, holding a passenger name board for easy identification.</li>
+              <li><strong>Fixed & Transparent Pricing</strong> – No hidden fees, ensuring you know your cost upfront.</li>
+              <li><strong>Luxury & Standard Vehicle Options</strong> – Choose from standard sedans, MPVs, or minibuses for larger groups.</li>
+              <li><strong>Safe & Professional Drivers</strong> – Licensed, experienced, and English-speaking drivers.</li>
+              <li><strong>24/7 Customer Support</strong> – Assistance available at any time to make your journey stress-free.</li>
+              <li><strong>Free Flight Monitoring</strong> – We track your flight and adjust pickup times accordingly to accommodate any delays.</li>
+              <li><strong>Secure Payment</strong> – Euro, GBP, US Dollar & Turkish Lira Accepted.</li>
+              <li><strong>Free Cancellation</strong> – Cancel up to 24 hours before your transfer for a full refund.</li>
+            </ul>
+            
+            <h2>Transfer Options</h2>
+            <p>We offer various vehicle options to suit different travel needs:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Vehicle Type</th>
+                  <th>Passenger Capacity</th>
+                  <th>Luggage Allowance</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Standard Sedan</td>
+                  <td>Up to 3 passengers</td>
+                  <td>Max 3 suitcases</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Up to 5 passengers</td>
+                  <td>Max 5 suitcases</td>
+                </tr>
+                <tr>
+                  <td>Minibus</td>
+                  <td>Up to 8 passengers</td>
+                  <td>Max 8 suitcases</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Prices are dynamic and vary depending on season and booking time. Please check our online booking system for the latest rates.)</em></p>
+            
+            <h2>How to Book?</h2>
+            <ol>
+              <li><strong>Visit our website</strong> and enter your travel details.</li>
+              <li><strong>Choose your preferred vehicle</strong> and confirm pricing.</li>
+              <li><strong>Complete your booking</strong> with secure online payment.</li>
+              <li><strong>Receive instant confirmation</strong> via email with pickup details.</li>
+              <li><strong>Call us 24/7</strong> for booking assistance.</li>
+              <li><strong>Email us</strong> your booking details, and our team will confirm your transfer.</li>
+            </ol>
+            
+            <h2>Additional Services</h2>
+            <ul>
+              <li><strong>Child Seats Available</strong> – Safety seats for infants and toddlers upon request.</li>
+              <li><strong>Stopover Options</strong> – Need to stop along the way? Let us know in advance.</li>
+              <li><strong>One-Way & Return Transfers</strong> – Book a return journey for added convenience.</li>
+            </ul>
+            
+            <h2>Explore Akyaka with Our Exclusive Tours</h2>
+            <p>Make the most of your visit by booking one of our <strong>Akyaka tours</strong> with confidence:</p>
+            <ul>
+              <li><strong>Azmak River Boat Tour</strong> – Experience the pristine waters and lush nature of Akyaka’s famous river.</li>
+              <li><strong>Akyaka Windsurfing & Kitesurfing Lessons</strong> – Learn or enjoy world-class windsurfing on Akyaka’s windy coast.</li>
+              <li><strong>Gökova Gulf Boat Tour</strong> – Discover the beautiful bays and turquoise waters of Gökova Bay.</li>
+              <li><strong>Jeep Safari to Marmaris National Park</strong> – Explore the unspoiled nature and wildlife of the surrounding area.</li>
+            </ul>
+            
+            <p><em>(All tours are operated with trusted partners and meet the highest safety standards. Book with confidence!)</em></p>
+            
+            <h2>About Akyaka</h2>
+            <p>Akyaka is a <strong>hidden gem on Turkey’s Aegean coast</strong>, famous for its <strong>slow-paced tourism</strong>, <strong>stunning scenery</strong>, and <strong>rich cultural heritage</strong>. Whether you’re looking to relax by the <strong>Azmak River</strong>, enjoy <strong>fresh seafood</strong> by the waterfront, or explore the <strong>lush landscapes of Gökova</strong>, Akyaka is the perfect retreat for nature lovers and adventure seekers alike.</p>
+            
+            <p>Book your <strong>Dalaman Airport to Akyaka</strong> transfer today and enjoy a smooth, stress-free start to your trip!</p>
+            `,
+            tr: `
+            <h1>Dalaman Havalimanı - Akyaka Transferleri</h1>
+            
+            <h2>Dalaman Havalimanı'ndan Akyaka’ya Güvenli ve Konforlu Transfer</h2>
+            
+            <p><strong>Dalaman Havalimanı (DLM)</strong>'nden Akyaka’ya sorunsuz bir transfer mi arıyorsunuz? Özel havalimanı transfer hizmetimiz, <strong>yavaş turizm</strong>, <strong>doğal güzellik</strong> ve <strong>rüzgar sörfü kültürü</strong> ile tanınan bu şirin sahil kasabasına rahat ve konforlu bir yolculuk sunar. İster <strong>berrak Azmak Nehri</strong>, <strong>göz alıcı koyu</strong>, ister <strong>geleneksel Osmanlı tarzı evleri</strong> görmek için geliyor olun, size <strong>güvenli, dakik ve yüksek kaliteli</strong> bir ulaşım hizmeti sunuyoruz.</p>
+            
+            <h2>Mesafe ve Yolculuk Süresi</h2>
+            <ul>
+              <li><strong>Mesafe:</strong> Yaklaşık 70 km</li>
+              <li><strong>Yolculuk Süresi:</strong> Trafik ve yol durumuna bağlı olarak yaklaşık 75–90 dakika.</li>
+            </ul>
+            
+            <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+            <ul>
+              <li><strong>Dalaman Havalimanı'nda Karşılama</strong> – Sürücümüz, gümrük sonrası geliş alanında isminizin yazılı olduğu tabela ile sizi bekliyor olacak.</li>
+              <li><strong>Sabit ve Şeffaf Fiyatlandırma</strong> – Gizli ücret yok; tüm maliyetleri önceden bilirsiniz.</li>
+              <li><strong>Lüks ve Standart Araç Seçenekleri</strong> – Standart sedan, MPV ya da minibüs seçeneklerinden dilediğinizi seçin.</li>
+              <li><strong>Güvenli ve Profesyonel Sürücüler</strong> – Lisanslı, deneyimli ve İngilizce konuşan sürücüler.</li>
+              <li><strong>7/24 Müşteri Desteği</strong> – Seyahatinizin sorunsuz geçmesi için günün her saati destek sunuyoruz.</li>
+              <li><strong>Ücretsiz Uçuş Takibi</strong> – Uçuşunuzu takip ediyor, gecikme durumunda karşılama saatini ayarlıyoruz.</li>
+              <li><strong>Güvenli Ödeme</strong> – Euro, GBP, Amerikan Doları ve Türk Lirası kabul edilir.</li>
+              <li><strong>Ücretsiz İptal</strong> – Transferinizden 24 saat öncesine kadar iptal edebilir, tam ücret iadesi alabilirsiniz.</li>
+            </ul>
+            
+            <h2>Transfer Seçenekleri</h2>
+            <p>Farklı seyahat ihtiyaçlarına uygun çeşitli araç seçenekleri sunuyoruz:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Araç Tipi</th>
+                  <th>Yolcu Kapasitesi</th>
+                  <th>Bagaj Hakkı</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Standart Sedan</td>
+                  <td>En fazla 3 yolcu</td>
+                  <td>Maksimum 3 valiz</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>En fazla 5 yolcu</td>
+                  <td>Maksimum 5 valiz</td>
+                </tr>
+                <tr>
+                  <td>Minibüs</td>
+                  <td>En fazla 8 yolcu</td>
+                  <td>Maksimum 8 valiz</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Fiyatlar dinamiktir ve sezon ile rezervasyon zamanına göre değişiklik gösterebilir. En güncel fiyatlar için online rezervasyon sistemimizi kontrol ediniz.)</em></p>
+            
+            <h2>Nasıl Rezervasyon Yapılır?</h2>
+            <ol>
+              <li><strong>Web sitemizi ziyaret edin</strong> ve seyahat bilgilerinizi girin.</li>
+              <li><strong>Tercih ettiğiniz aracı seçin</strong> ve fiyatı onaylayın.</li>
+              <li><strong>Güvenli çevrimiçi ödeme ile rezervasyonunuzu tamamlayın.</strong></li>
+              <li><strong>Anında onay e-postası alın</strong> ve karşılama detaylarını öğrenin.</li>
+              <li><strong>Bizi 7/24 arayın</strong> – Rezervasyon desteği için her zaman ulaşabilirsiniz.</li>
+              <li><strong>Bize e-posta gönderin</strong> – Rezervasyon bilgilerinizi paylaşın, biz onaylayalım.</li>
+            </ol>
+            
+            <h2>Ek Hizmetler</h2>
+            <ul>
+              <li><strong>Çocuk Koltuğu Mevcuttur</strong> – Talep üzerine bebek ve küçük çocuklar için güvenli koltuk sağlanır.</li>
+              <li><strong>Yolda Duraklama Seçeneği</strong> – Yol boyunca durmanız gerekiyorsa, lütfen önceden bildirin.</li>
+              <li><strong>Tek Yön & Gidiş-Dönüş Transfer</strong> – Dilerseniz dönüş transferinizi de kolayca rezerve edebilirsiniz.</li>
+            </ul>
+            
+            <h2>Özel Turlarımızla Akyaka’yı Keşfedin</h2>
+            <p><strong>Akyaka turlarımızdan</strong> birini güvenle rezerve ederek ziyaretinizi unutulmaz hale getirin:</p>
+            <ul>
+              <li><strong>Azmak Nehri Tekne Turu</strong> – Azmak Nehri'nin berrak sularında ve yeşillikler içinde huzur dolu bir tur deneyimi yaşayın.</li>
+              <li><strong>Akyaka Rüzgar ve Uçurtma Sörfü Dersleri</strong> – Dünya çapında tanınan bu bölgede sörf yapmayı öğrenin veya yeteneklerinizi geliştirin.</li>
+              <li><strong>Gökova Körfezi Tekne Turu</strong> – Gökova’nın büyüleyici koylarını ve turkuaz sularını keşfedin.</li>
+              <li><strong>Marmaris Milli Parkı'na Jeep Safari</strong> – Doğayla iç içe yaban hayatı ve çevresini keşfedin.</li>
+            </ul>
+            
+            <p><em>(Tüm turlar güvenilir iş ortaklarımız tarafından gerçekleştirilmekte ve en yüksek güvenlik standartlarına uygundur. Gönül rahatlığıyla rezervasyon yapabilirsiniz!)</em></p>
+            
+            <h2>Akyaka Hakkında</h2>
+            <p>Akyaka, <strong>Türkiye’nin Ege kıyısında saklı bir cennet</strong> olarak bilinir. <strong>Yavaş tempolu yaşamı</strong>, <strong>etkileyici doğal güzellikleri</strong> ve <strong>zengin kültürel mirası</strong> ile ünlüdür. <strong>Azmak Nehri kıyısında dinlenmek</strong>, <strong>sahilde taze deniz ürünlerinin tadını çıkarmak</strong> veya <strong>Gökova’nın yemyeşil doğasını keşfetmek</strong> isteyenler için ideal bir destinasyondur.</p>
+            
+            <p><strong>Dalaman Havalimanı - Akyaka</strong> transferinizi bugün rezerve edin ve yolculuğunuza huzurlu, sorunsuz bir başlangıç yapın!</p>
+            `,
+
+            ar: `
+            <h1>خدمة النقل من مطار دالامان إلى أكياكا</h1>
+            
+            <h2>نقل مريح وموثوق من مطار دالامان إلى أكياكا</h2>
+            
+            <p>هل تبحث عن وسيلة نقل خالية من المتاعب من <strong>مطار دالامان (DLM)</strong> إلى أكياكا؟ توفر خدمة النقل الخاصة بنا رحلة سلسة ومريحة إلى هذه المدينة الساحلية الساحرة، والمعروفة بسياحتها البطيئة، وجمالها الطبيعي، وثقافة ركوب الأمواج. سواء كنت تزور <strong>نهر أزماك النقي</strong>، أو <strong>الخليج الخلاب</strong>، أو <strong>المنازل العثمانية التقليدية</strong>، فإننا نقدم لك وسيلة نقل <strong>آمنة ودقيقة وعالية الجودة</strong>.</p>
+            
+            <h2>المسافة ومدة الرحلة</h2>
+            <ul>
+              <li><strong>المسافة:</strong> حوالي 70 كم</li>
+              <li><strong>مدة الرحلة:</strong> من 75 إلى 90 دقيقة تقريباً، حسب حالة الطريق وحركة المرور.</li>
+            </ul>
+            
+            <h2>لماذا تختار خدمة النقل الخاصة بنا؟</h2>
+            <ul>
+              <li><strong>الاستقبال في مطار دالامان</strong> – سيكون السائق في انتظارك بمنطقة الوصول بعد الجمارك، ويحمل لافتة باسمك لسهولة التعرف عليك.</li>
+              <li><strong>أسعار ثابتة وشفافة</strong> – لا توجد رسوم خفية. ستعرف السعر النهائي مقدمًا.</li>
+              <li><strong>خيارات سيارات فاخرة وعادية</strong> – اختر من بين سيارات السيدان، أو MPV، أو الميني باص للمجموعات.</li>
+              <li><strong>سائقون محترفون وآمنون</strong> – سائقون مرخصون وذوو خبرة ويتحدثون الإنجليزية.</li>
+              <li><strong>دعم عملاء على مدار الساعة</strong> – متاحون لمساعدتك في أي وقت لضمان راحة رحلتك.</li>
+              <li><strong>مراقبة الرحلات مجانًا</strong> – نتابع رحلة الطيران الخاصة بك ونضبط وقت الاستقبال حسب الحاجة.</li>
+              <li><strong>دفع آمن</strong> – نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي، والليرة التركية.</li>
+              <li><strong>إلغاء مجاني</strong> – يمكنك الإلغاء قبل 24 ساعة من موعد النقل واسترداد المبلغ بالكامل.</li>
+            </ul>
+            
+            <h2>خيارات النقل</h2>
+            <p>نقدم خيارات سيارات متنوعة لتناسب احتياجات سفرك:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>نوع السيارة</th>
+                  <th>سعة الركاب</th>
+                  <th>عدد الحقائب</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>سيدان عادية</td>
+                  <td>حتى 3 ركاب</td>
+                  <td>3 حقائب كحد أقصى</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>حتى 5 ركاب</td>
+                  <td>5 حقائب كحد أقصى</td>
+                </tr>
+                <tr>
+                  <td>ميني باص</td>
+                  <td>حتى 8 ركاب</td>
+                  <td>8 حقائب كحد أقصى</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(الأسعار متغيرة وتعتمد على الموسم وتاريخ الحجز. يُرجى مراجعة نظام الحجز الإلكتروني لدينا لمعرفة الأسعار الحالية.)</em></p>
+            
+            <h2>كيفية الحجز؟</h2>
+            <ol>
+              <li><strong>قم بزيارة موقعنا الإلكتروني</strong> وأدخل تفاصيل رحلتك.</li>
+              <li><strong>اختر السيارة المفضلة لديك</strong> وراجع السعر.</li>
+              <li><strong>أكمل الحجز</strong> باستخدام الدفع الآمن عبر الإنترنت.</li>
+              <li><strong>استلم تأكيدًا فوريًا</strong> عبر البريد الإلكتروني يحتوي على تفاصيل الاستقبال.</li>
+              <li><strong>اتصل بنا 24/7</strong> للحصول على المساعدة في الحجز.</li>
+              <li><strong>أرسل لنا بريدًا إلكترونيًا</strong> يحتوي على تفاصيل الحجز وسنقوم بتأكيده لك.</li>
+            </ol>
+            
+            <h2>خدمات إضافية</h2>
+            <ul>
+              <li><strong>مقاعد أطفال متوفرة</strong> – يمكن توفير كراسي أمان للأطفال والرضع عند الطلب.</li>
+              <li><strong>خيار التوقف أثناء الرحلة</strong> – أخبرنا مسبقًا إذا كنت بحاجة للتوقف على الطريق.</li>
+              <li><strong>رحلات ذهاب فقط أو ذهاب وعودة</strong> – يمكنك أيضًا حجز رحلة العودة بسهولة.</li>
+            </ul>
+            
+            <h2>استكشف أكياكا من خلال جولاتنا الحصرية</h2>
+            <p>اجعل زيارتك أكثر تميزًا من خلال حجز إحدى <strong>جولات أكياكا</strong> الخاصة بنا بثقة:</p>
+            <ul>
+              <li><strong>جولة بالقارب في نهر أزماك</strong> – استمتع بجمال مياه النهر النقية والطبيعة الخضراء المحيطة به.</li>
+              <li><strong>دروس ركوب الأمواج والكايت سيرف في أكياكا</strong> – تعلم أو مارس رياضة ركوب الأمواج على الساحل العاصف لأكياكا.</li>
+              <li><strong>جولة قارب في خليج جوكوفا</strong> – اكتشف الخلجان الجميلة ومياه جوكوفا الفيروزية.</li>
+              <li><strong>سفاري بالجيب إلى حديقة مارماريس الوطنية</strong> – استكشف الطبيعة البرية النقية والحياة البرية في المنطقة المحيطة.</li>
+            </ul>
+            
+            <p><em>(جميع الجولات تنفذ بواسطة شركاء موثوقين وتلتزم بأعلى معايير السلامة. احجز بثقة!)</em></p>
+            
+            <h2>حول أكياكا</h2>
+            <p>أكياكا هي <strong>جوهرة مخفية على ساحل بحر إيجة في تركيا</strong>، مشهورة بـ<strong>سياحتها الهادئة</strong>، <strong>مناظرها الطبيعية الخلابة</strong>، و<strong>تراثها الثقافي الغني</strong>. سواء كنت تبحث عن الاسترخاء بجانب <strong>نهر أزماك</strong>، أو الاستمتاع <strong>بالمأكولات البحرية الطازجة</strong>، أو استكشاف <strong>الطبيعة الخضراء في جوكوفا</strong>، فإن أكياكا هي الملاذ المثالي لعشاق الطبيعة والمغامرة.</p>
+            
+            <p>احجز الآن <strong>خدمة النقل من مطار دالامان إلى أكياكا</strong> واستمتع ببداية رحلة هادئة وخالية من التوتر!</p>
+            `,
+
+            es: `
+            <h1>Traslados desde el Aeropuerto de Dalaman a Akyaka</h1>
+            
+            <h2>Traslados cómodos y confiables desde el Aeropuerto de Dalaman a Akyaka</h2>
+            
+            <p>¿Buscas un traslado sin complicaciones desde el <strong>Aeropuerto de Dalaman (DLM)</strong> a Akyaka? Nuestro servicio de traslado privado garantiza un viaje cómodo y relajado a este encantador pueblo costero, conocido por su <strong>turismo lento</strong>, su <strong>belleza natural</strong> y su <strong>cultura del windsurf</strong>. Ya sea que vengas a disfrutar del <strong>cristalino Río Azmak</strong>, de una <strong>bahía impresionante</strong> o de <strong>casas tradicionales de estilo otomano</strong>, te ofrecemos transporte <strong>seguro, puntual y de alta calidad</strong>.</p>
+            
+            <h2>Distancia y tiempo de viaje</h2>
+            <ul>
+              <li><strong>Distancia:</strong> Aproximadamente 70 km</li>
+              <li><strong>Duración:</strong> Entre 75 y 90 minutos, dependiendo del tráfico y las condiciones del camino.</li>
+            </ul>
+            
+            <h2>¿Por qué elegir nuestro servicio de traslado?</h2>
+            <ul>
+              <li><strong>Recepción en el aeropuerto</strong> – Nuestro conductor te esperará en la zona de llegadas, justo después de aduanas, con un cartel con tu nombre.</li>
+              <li><strong>Precios fijos y transparentes</strong> – Sin tarifas ocultas. Conoces el precio total desde el principio.</li>
+              <li><strong>Opciones de vehículos estándar y de lujo</strong> – Elige entre sedanes estándar, MPVs o minibuses para grupos grandes.</li>
+              <li><strong>Conductores profesionales y seguros</strong> – Con licencia, experiencia y que hablan inglés.</li>
+              <li><strong>Atención al cliente 24/7</strong> – Soporte disponible en todo momento para tu tranquilidad.</li>
+              <li><strong>Monitoreo de vuelos gratuito</strong> – Seguimos tu vuelo y ajustamos la recogida en caso de retrasos.</li>
+              <li><strong>Pago seguro</strong> – Aceptamos Euro, GBP, Dólar estadounidense y Lira turca.</li>
+              <li><strong>Cancelación gratuita</strong> – Cancela hasta 24 horas antes y recibe un reembolso completo.</li>
+            </ul>
+            
+            <h2>Opciones de traslado</h2>
+            <p>Ofrecemos una variedad de vehículos para adaptarnos a tus necesidades de viaje:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Tipo de Vehículo</th>
+                  <th>Capacidad de Pasajeros</th>
+                  <th>Equipaje Permitido</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sedán Estándar</td>
+                  <td>Hasta 3 pasajeros</td>
+                  <td>Máx. 3 maletas</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Hasta 5 pasajeros</td>
+                  <td>Máx. 5 maletas</td>
+                </tr>
+                <tr>
+                  <td>Minibús</td>
+                  <td>Hasta 8 pasajeros</td>
+                  <td>Máx. 8 maletas</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Los precios son dinámicos y pueden variar según la temporada y el momento de la reserva. Consulta nuestro sistema de reservas en línea para ver las tarifas actualizadas.)</em></p>
+            
+            <h2>¿Cómo reservar?</h2>
+            <ol>
+              <li><strong>Visita nuestro sitio web</strong> e introduce los detalles de tu viaje.</li>
+              <li><strong>Elige tu vehículo preferido</strong> y confirma el precio.</li>
+              <li><strong>Completa tu reserva</strong> con un pago seguro en línea.</li>
+              <li><strong>Recibe una confirmación inmediata</strong> por correo electrónico con los detalles del servicio.</li>
+              <li><strong>Llámanos 24/7</strong> para asistencia en la reserva.</li>
+              <li><strong>Envíanos un correo electrónico</strong> con los detalles de tu reserva y la confirmaremos.</li>
+            </ol>
+            
+            <h2>Servicios adicionales</h2>
+            <ul>
+              <li><strong>Asientos para niños disponibles</strong> – Proporcionamos sillas de seguridad para bebés y niños pequeños bajo petición.</li>
+              <li><strong>Paradas intermedias disponibles</strong> – Si necesitas parar durante el trayecto, avísanos con antelación.</li>
+              <li><strong>Traslados de ida y ida/vuelta</strong> – También puedes reservar el viaje de regreso con facilidad.</li>
+            </ul>
+            
+            <h2>Explora Akyaka con nuestros tours exclusivos</h2>
+            <p>Haz tu viaje aún más especial con uno de nuestros <strong>tours por Akyaka</strong>:</p>
+            <ul>
+              <li><strong>Paseo en barco por el Río Azmak</strong> – Disfruta de las aguas cristalinas y la naturaleza exuberante del famoso río de Akyaka.</li>
+              <li><strong>Clases de windsurf y kitesurf en Akyaka</strong> – Aprende o practica en una de las mejores zonas para el windsurf de Turquía.</li>
+              <li><strong>Tour en barco por la Bahía de Gökova</strong> – Descubre las impresionantes bahías y aguas turquesa de Gökova.</li>
+              <li><strong>Safari en jeep al Parque Nacional de Marmaris</strong> – Explora la naturaleza salvaje y la vida silvestre de la región.</li>
+            </ul>
+            
+            <p><em>(Todos los tours se realizan con socios de confianza y cumplen con los más altos estándares de seguridad. ¡Reserva con tranquilidad!)</em></p>
+            
+            <h2>Sobre Akyaka</h2>
+            <p>Akyaka es una <strong>joya escondida en la costa del Egeo de Turquía</strong>, famosa por su <strong>turismo lento</strong>, sus <strong>paisajes impresionantes</strong> y su <strong>riqueza cultural</strong>. Ya sea que quieras relajarte junto al <strong>Río Azmak</strong>, disfrutar de <strong>mariscos frescos</strong> en el paseo marítimo o explorar <strong>los paisajes verdes de Gökova</strong>, Akyaka es el destino perfecto para los amantes de la naturaleza y los buscadores de aventura.</p>
+            
+            <p>¡Reserva hoy tu <strong>traslado desde el Aeropuerto de Dalaman a Akyaka</strong> y comienza tu viaje de forma tranquila y sin estrés!</p>
+            `,
+
+            it: `
+            <h1>Transfer dall Aeroporto di Dalaman ad Akyaka</h1>
+            
+            <h2>Trasferimenti Affidabili e Confortevoli dall Aeroporto di Dalaman ad Akyaka</h2>
+            
+            <p>Cerchi un <strong>trasferimento senza stress</strong> dall <strong>Aeroporto di Dalaman (DLM)</strong> ad Akyaka? Il nostro servizio privato di transfer garantisce un viaggio comodo e rilassante verso questa affascinante località costiera, famosa per il <strong>turismo lento</strong>, la <strong>bellezza naturale</strong> e la <strong>cultura del windsurf</strong>. Che tu stia andando verso il <strong>cristallino fiume Azmak</strong>, una <strong>baia da sogno</strong> o le <strong>tradizionali case in stile ottomano</strong>, ti offriamo un trasporto <strong>sicuro, puntuale e di alta qualità</strong>.</p>
+            
+            <h2>Distanza e Tempo di Viaggio</h2>
+            <ul>
+              <li><strong>Distanza:</strong> Circa 70 km</li>
+              <li><strong>Durata del viaggio:</strong> Tra 75 e 90 minuti, a seconda del traffico e delle condizioni stradali.</li>
+            </ul>
+            
+            <h2>Perché scegliere il nostro servizio transfer?</h2>
+            <ul>
+              <li><strong>Accoglienza in aeroporto</strong> – Il nostro autista ti aspetterà all uscita degli arrivi con un cartello con il tuo nome.</li>
+              <li><strong>Prezzi fissi e trasparenti</strong> – Nessun costo nascosto. Conosci il prezzo finale in anticipo.</li>
+              <li><strong>Veicoli standard e di lusso</strong> – Scegli tra berline, MPV o minibus per gruppi più numerosi.</li>
+              <li><strong>Autisti professionisti e sicuri</strong> – Autisti con licenza, esperienza e conoscenza della lingua inglese.</li>
+              <li><strong>Assistenza clienti 24/7</strong> – Siamo sempre disponibili per rendere il tuo viaggio più tranquillo.</li>
+              <li><strong>Monitoraggio gratuito del volo</strong> – Tracciamo il tuo volo e regoliamo l orario di prelievo in caso di ritardi.</li>
+              <li><strong>Pagamento sicuro</strong> – Accettiamo Euro, GBP, Dollari USA e Lira Turca.</li>
+              <li><strong>Cancellazione gratuita</strong> – Cancella fino a 24 ore prima per ottenere il rimborso completo.</li>
+            </ul>
+            
+            <h2>Opzioni di Transfer</h2>
+            <p>Offriamo diversi tipi di veicoli per soddisfare ogni esigenza di viaggio:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Tipo di Veicolo</th>
+                  <th>Capacità Passeggeri</th>
+                  <th>Bagagli Consentiti</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Berlina Standard</td>
+                  <td>Fino a 3 passeggeri</td>
+                  <td>Massimo 3 valigie</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Fino a 5 passeggeri</td>
+                  <td>Massimo 5 valigie</td>
+                </tr>
+                <tr>
+                  <td>Minibus</td>
+                  <td>Fino a 8 passeggeri</td>
+                  <td>Massimo 8 valigie</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(I prezzi sono dinamici e possono variare in base alla stagione e al momento della prenotazione. Controlla il nostro sistema di prenotazione online per le tariffe aggiornate.)</em></p>
+            
+            <h2>Come prenotare?</h2>
+            <ol>
+              <li><strong>Visita il nostro sito web</strong> e inserisci i dettagli del viaggio.</li>
+              <li><strong>Scegli il veicolo desiderato</strong> e conferma il prezzo.</li>
+              <li><strong>Completa la prenotazione</strong> con pagamento online sicuro.</li>
+              <li><strong>Ricevi conferma immediata</strong> via email con i dettagli del prelievo.</li>
+              <li><strong>Chiamaci 24/7</strong> per assistenza nella prenotazione.</li>
+              <li><strong>Scrivici via email</strong> con i dettagli della prenotazione e il nostro team la confermerà.</li>
+            </ol>
+            
+            <h2>Servizi Aggiuntivi</h2>
+            <ul>
+              <li><strong>Seggiolini per bambini disponibili</strong> – Su richiesta forniamo seggiolini per neonati e bambini piccoli.</li>
+              <li><strong>Possibilità di soste intermedie</strong> – Se hai bisogno di fermarti lungo il percorso, informaci in anticipo.</li>
+              <li><strong>Transfer solo andata o andata e ritorno</strong> – Puoi prenotare anche il viaggio di ritorno.</li>
+            </ul>
+            
+            <h2>Esplora Akyaka con i nostri Tour Esclusivi</h2>
+            <p>Rendi il tuo soggiorno ancora più speciale prenotando uno dei nostri <strong>tour ad Akyaka</strong>:</p>
+            <ul>
+              <li><strong>Tour in barca sul fiume Azmak</strong> – Scopri le acque cristalline e la natura rigogliosa del fiume più famoso di Akyaka.</li>
+              <li><strong>Lezioni di windsurf e kitesurf ad Akyaka</strong> – Impara o pratica il windsurf su una delle coste più ventose della Turchia.</li>
+              <li><strong>Tour in barca nel Golfo di Gökova</strong> – Esplora le baie meravigliose e le acque turchesi del Golfo di Gökova.</li>
+              <li><strong>Safari in jeep al Parco Nazionale di Marmaris</strong> – Esplora la natura incontaminata e la fauna locale.</li>
+            </ul>
+            
+            <p><em>(Tutti i tour sono organizzati con partner affidabili e rispettano i più alti standard di sicurezza. Prenota in tutta tranquillità!)</em></p>
+            
+            <h2>Informazioni su Akyaka</h2>
+            <p>Akyaka è un <strong>gioiello nascosto della costa egea della Turchia</strong>, famosa per il <strong>turismo lento</strong>, <strong>scenari mozzafiato</strong> e <strong>ricco patrimonio culturale</strong>. Che tu voglia rilassarti sul <strong>fiume Azmak</strong>, gustare <strong>pesce fresco</strong> sul lungomare, o esplorare <strong>i paesaggi lussureggianti di Gökova</strong>, Akyaka è la meta ideale per amanti della natura e viaggiatori in cerca di avventura.</p>
+            
+            <p>Prenota ora il tuo <strong>trasferimento dall Aeroporto di Dalaman ad Akyaka</strong> e goditi l inizio di un viaggio sereno e senza stress!</p>
+            `,
+
+            ru: `
+            <h1>Трансфер из аэропорта Даламан в Акьяку</h1>
+            
+            <h2>Надёжный и комфортный трансфер из аэропорта Даламан в Акьяку</h2>
+            
+            <p>Ищете <strong>удобный трансфер</strong> из <strong>аэропорта Даламан (DLM)</strong> в Акьяку? Наш частный трансфер обеспечивает спокойную и комфортную поездку в этот очаровательный прибрежный городок, известный своей <strong>медленной формой туризма</strong>, <strong>природной красотой</strong> и <strong>виндсерфинг-культурой</strong>. Будь то <strong>кристально чистая река Азмак</strong>, <strong>живописная бухта</strong> или <strong>традиционные дома в османском стиле</strong> — мы предоставляем <strong>безопасный, пунктуальный и качественный</strong> транспорт.</p>
+            
+            <h2>Расстояние и время в пути</h2>
+            <ul>
+              <li><strong>Расстояние:</strong> Примерно 70 км</li>
+              <li><strong>Время в пути:</strong> Около 75–90 минут, в зависимости от дорожных условий и трафика.</li>
+            </ul>
+            
+            <h2>Почему стоит выбрать нас?</h2>
+            <ul>
+              <li><strong>Встреча в аэропорту Даламан</strong> — Наш водитель встретит вас в зоне прибытия с табличкой, на которой будет указано ваше имя.</li>
+              <li><strong>Фиксированная и прозрачная цена</strong> — Без скрытых платежей, вы заранее знаете точную стоимость.</li>
+              <li><strong>Автомобили стандарт и люкс</strong> — Выбор между седанами, MPV и микроавтобусами для больших групп.</li>
+              <li><strong>Профессиональные и опытные водители</strong> — С лицензией, опытом и знанием английского языка.</li>
+              <li><strong>Круглосуточная поддержка клиентов</strong> — Мы на связи в любое время, чтобы помочь вам.</li>
+              <li><strong>Бесплатный мониторинг рейсов</strong> — Мы отслеживаем ваш рейс и при необходимости корректируем время встречи.</li>
+              <li><strong>Безопасная оплата</strong> — Принимаем евро, фунты стерлингов, доллары США и турецкие лиры.</li>
+              <li><strong>Бесплатная отмена</strong> — Отмените за 24 часа до трансфера и получите полный возврат.</li>
+            </ul>
+            
+            <h2>Варианты трансфера</h2>
+            <p>Мы предлагаем разные типы автомобилей под любые нужды:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Тип автомобиля</th>
+                  <th>Пассажировместимость</th>
+                  <th>Допустимый багаж</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Стандартный седан</td>
+                  <td>До 3 пассажиров</td>
+                  <td>Макс. 3 чемодана</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>До 5 пассажиров</td>
+                  <td>Макс. 5 чемоданов</td>
+                </tr>
+                <tr>
+                  <td>Минибус</td>
+                  <td>До 8 пассажиров</td>
+                  <td>Макс. 8 чемоданов</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Цены динамичные и могут меняться в зависимости от сезона и времени бронирования. Актуальные тарифы — в нашей онлайн-системе бронирования.)</em></p>
+            
+            <h2>Как забронировать?</h2>
+            <ol>
+              <li><strong>Посетите наш сайт</strong> и введите информацию о поездке.</li>
+              <li><strong>Выберите желаемый автомобиль</strong> и подтвердите цену.</li>
+              <li><strong>Оплатите бронирование</strong> через безопасную онлайн-систему.</li>
+              <li><strong>Получите мгновенное подтверждение</strong> по электронной почте с деталями встречи.</li>
+              <li><strong>Позвоните нам 24/7</strong> — мы поможем вам с бронированием.</li>
+              <li><strong>Отправьте нам email</strong> с деталями, и наша команда подтвердит ваш трансфер.</li>
+            </ol>
+            
+            <h2>Дополнительные услуги</h2>
+            <ul>
+              <li><strong>Детские кресла</strong> — Предоставляются по запросу для младенцев и малышей.</li>
+              <li><strong>Остановки по маршруту</strong> — Сообщите заранее, если хотите сделать остановку.</li>
+              <li><strong>В одну сторону или туда-обратно</strong> — Вы также можете забронировать обратный трансфер.</li>
+            </ul>
+            
+            <h2>Откройте для себя Акьяку с нашими эксклюзивными турами</h2>
+            <p>Сделайте своё пребывание ещё более особенным, заказав один из наших <strong>туров по Акьяке</strong>:</p>
+            <ul>
+              <li><strong>Прогулка на лодке по реке Азмак</strong> — Наслаждайтесь чистейшей водой и зелёной природой.</li>
+              <li><strong>Уроки виндсерфинга и кайтсерфинга в Акьяке</strong> — Учитесь или практикуйтесь на ветреном побережье.</li>
+              <li><strong>Прогулка на лодке по заливу Гёкова</strong> — Исследуйте красивые бухты и бирюзовые воды.</li>
+              <li><strong>Сафари на джипах в Национальный парк Мармариса</strong> — Откройте нетронутую природу и дикую жизнь.</li>
+            </ul>
+            
+            <p><em>(Все туры проводятся проверенными партнёрами и соответствуют самым высоким стандартам безопасности. Бронируйте с уверенностью!)</em></p>
+            
+            <h2>Об Акьяке</h2>
+            <p>Акьяка — это <strong>скрытая жемчужина Эгейского побережья Турции</strong>, известная своим <strong>размеренным туризмом</strong>, <strong>живописными пейзажами</strong> и <strong>богатым культурным наследием</strong>. Хотите ли вы отдохнуть у <strong>реки Азмак</strong>, попробовать <strong>свежие морепродукты</strong> или исследовать <strong>зелёные просторы Гёковы</strong> — Акьяка станет идеальным выбором для любителей природы и приключений.</p>
+            
+            <p>Забронируйте трансфер из <strong>аэропорта Даламан в Акьяку</strong> уже сегодня и начните поездку спокойно и без стресса!</p>
+            `,
+
+            zh: `
+            <h1>达拉曼机场至阿克亚卡接送服务</h1>
+            
+            <h2>从达拉曼机场到阿克亚卡的可靠舒适接送服务</h2>
+            
+            <p>正在寻找从 <strong>达拉曼机场 (DLM)</strong> 到阿克亚卡的无忧接送服务吗？我们的私人接送服务将为您提供一段舒适顺畅的旅程，前往这个充满魅力的海滨小镇，该地因其 <strong>慢节奏旅游</strong>、<strong>自然美景</strong> 和 <strong>风帆冲浪文化</strong> 而闻名。不论您前往的是 <strong>清澈的阿兹马克河</strong>、<strong>迷人的海湾</strong>，还是 <strong>传统奥斯曼风格的房屋</strong>，我们都将为您提供 <strong>安全、准时、高质量</strong> 的交通服务。</p>
+            
+            <h2>距离与车程</h2>
+            <ul>
+              <li><strong>距离：</strong> 约 70 公里</li>
+              <li><strong>车程时间：</strong> 约 75–90 分钟，视交通与道路状况而定。</li>
+            </ul>
+            
+            <h2>为什么选择我们的接送服务？</h2>
+            <ul>
+              <li><strong>机场接机服务</strong> – 司机将在到达大厅（过海关后）举着写有您名字的牌子等待您。</li>
+              <li><strong>价格透明且固定</strong> – 无隐藏费用，提前确认最终价格。</li>
+              <li><strong>标准与豪华车型可选</strong> – 可选择轿车、MPV 或适合多人出行的小巴。</li>
+              <li><strong>安全专业的司机</strong> – 持牌、经验丰富且会英语的司机为您服务。</li>
+              <li><strong>全天候客户支持</strong> – 24 小时客服支持，旅途更安心。</li>
+              <li><strong>免费航班监控</strong> – 我们会实时跟踪您的航班，并根据航班延误情况灵活调整接机时间。</li>
+              <li><strong>安全支付</strong> – 支持欧元、英镑、美元和土耳其里拉支付。</li>
+              <li><strong>免费取消</strong> – 最迟可在出发前 24 小时免费取消并获得全额退款。</li>
+            </ul>
+            
+            <h2>车型选择</h2>
+            <p>我们提供多种车辆，以满足您的出行需求：</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>车型</th>
+                  <th>乘客容量</th>
+                  <th>行李数量</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>标准轿车</td>
+                  <td>最多 3 人</td>
+                  <td>最多 3 个行李</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>最多 5 人</td>
+                  <td>最多 5 个行李</td>
+                </tr>
+                <tr>
+                  <td>小巴</td>
+                  <td>最多 8 人</td>
+                  <td>最多 8 个行李</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>（价格根据季节和预订时间而有所变动。请通过我们的在线系统查看最新价格。）</em></p>
+            
+            <h2>如何预订？</h2>
+            <ol>
+              <li><strong>访问我们的网站</strong> 并输入您的行程信息。</li>
+              <li><strong>选择您想要的车型</strong> 并确认价格。</li>
+              <li><strong>通过安全支付完成预订</strong>。</li>
+              <li><strong>接收电子邮件确认函</strong>，了解接机详情。</li>
+              <li><strong>全天候电话客服</strong> – 随时欢迎拨打获取帮助。</li>
+              <li><strong>发送电子邮件给我们</strong> – 提供预订信息，我们将为您确认接送服务。</li>
+            </ol>
+            
+            <h2>附加服务</h2>
+            <ul>
+              <li><strong>可提供儿童座椅</strong> – 应要求提供婴幼儿安全座椅。</li>
+              <li><strong>途中停靠选项</strong> – 如果您需要途中短暂停留，请提前告知我们。</li>
+              <li><strong>单程与往返接送</strong> – 同时可预订返程服务。</li>
+            </ul>
+            
+            <h2>参加我们独家阿克亚卡之旅</h2>
+            <p>通过预订我们的 <strong>阿克亚卡精选行程</strong>，让您的旅行更加精彩：</p>
+            <ul>
+              <li><strong>阿兹马克河船游</strong> – 沿着清澈的河流，欣赏绿意盎然的自然风光。</li>
+              <li><strong>阿克亚卡风筝冲浪和风帆冲浪课程</strong> – 在风力良好的海岸学习或体验冲浪运动。</li>
+              <li><strong>戈科瓦湾船游</strong> – 探索戈科瓦湾的蓝绿色海水和宁静海湾。</li>
+              <li><strong>马尔马里斯国家公园越野吉普之旅</strong> – 探索未受破坏的大自然与野生动物。</li>
+            </ul>
+            
+            <p><em>（所有行程均由值得信赖的合作伙伴提供，并符合最高安全标准，请放心预订。）</em></p>
+            
+            <h2>关于阿克亚卡</h2>
+            <p>阿克亚卡是 <strong>土耳其爱琴海沿岸的一颗隐藏宝石</strong>，以其 <strong>慢节奏旅游方式</strong>、<strong>迷人风景</strong> 和 <strong>丰富文化遗产</strong> 而闻名。无论您是想在 <strong>阿兹马克河畔放松</strong>，在 <strong>海边享用新鲜海鲜</strong>，还是 <strong>探索戈科瓦的绿色自然</strong>，阿克亚卡都是亲近自然和冒险爱好者的天堂。</p>
+            
+            <p>立即预订您的 <strong>达拉曼机场至阿克亚卡</strong> 接送服务，开启一段轻松无忧的旅程！</p>
+            `,
+
         },
         "/dalaman-airport-to-datca": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``
+            en: `
+            <h1>Dalaman Airport to Datça Transfers</h1>
+            
+            <h2>Reliable & Comfortable Transfers from Dalaman Airport to Datça</h2>
+            
+            <p>Looking for a stress-free transfer from <strong>Dalaman Airport (DLM)</strong> to Datça? Our private airport transfer service ensures a smooth and comfortable journey to this peaceful seaside town known for its <strong>pristine beaches</strong>, <strong>crystal-clear waters</strong>, and <strong>laid-back atmosphere</strong>. Whether you’re visiting for a relaxing holiday, historical sites, or the stunning coastline, we provide <strong>safe, punctual, and high-quality</strong> transportation.</p>
+            
+            <h2>Distance & Travel Time</h2>
+            <ul>
+              <li><strong>Distance:</strong> Approximately 165 km</li>
+              <li><strong>Travel Time:</strong> Around 3 hours, depending on traffic and road conditions.</li>
+            </ul>
+            
+            <h2>Why Choose Our Transfer Service?</h2>
+            <ul>
+              <li><strong>Meet & Greet at Dalaman Airport</strong> – Our driver will be waiting at the arrivals area, just after customs, holding a passenger name board for easy identification.</li>
+              <li><strong>Fixed & Transparent Pricing</strong> – No hidden fees, ensuring you know your cost upfront.</li>
+              <li><strong>Luxury & Standard Vehicle Options</strong> – Choose from standard sedans, MPVs, or minibuses for larger groups.</li>
+              <li><strong>Safe & Professional Drivers</strong> – Licensed, experienced, and English-speaking drivers.</li>
+              <li><strong>24/7 Customer Support</strong> – Assistance available at any time to make your journey stress-free.</li>
+              <li><strong>Free Flight Monitoring</strong> – We track your flight and adjust pickup times accordingly to accommodate any delays.</li>
+              <li><strong>Secure Payment</strong> – Euro, GBP, US Dollar & Turkish Lira Accepted.</li>
+              <li><strong>Free Cancellation</strong> – Cancel up to 24 hours before your transfer for a full refund.</li>
+            </ul>
+            
+            <h2>Transfer Options</h2>
+            
+            <p>We offer various vehicle options to suit different travel needs:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Vehicle Type</th>
+                  <th>Passenger Capacity</th>
+                  <th>Luggage Allowance</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Standard Sedan</td>
+                  <td>Up to 3 passengers</td>
+                  <td>Max 3 suitcases</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Up to 5 passengers</td>
+                  <td>Max 5 suitcases</td>
+                </tr>
+                <tr>
+                  <td>Minibus</td>
+                  <td>Up to 8 passengers</td>
+                  <td>Max 8 suitcases</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Prices are dynamic and may vary depending on season and booking time. Please check our online booking system for the latest rates.)</em></p>
+            
+            <h2>How to Book?</h2>
+            <ol>
+              <li><strong>Visit our website</strong> and enter your travel details.</li>
+              <li><strong>Choose your preferred vehicle</strong> and confirm pricing.</li>
+              <li><strong>Complete your booking</strong> with secure online payment.</li>
+              <li><strong>Receive instant confirmation</strong> via email with pickup details.</li>
+              <li><strong>Call us 24/7</strong> for booking assistance.</li>
+              <li><strong>Email us</strong> your booking details, and our team will confirm your transfer.</li>
+            </ol>
+            
+            <h2>Additional Services</h2>
+            <ul>
+              <li><strong>Child Seats Available</strong> – Safety seats for infants and toddlers upon request.</li>
+              <li><strong>Stopover Options</strong> – Need to stop along the way? Let us know in advance.</li>
+              <li><strong>One-Way & Return Transfers</strong> – Book a return journey for added convenience.</li>
+            </ul>
+            
+            <h2>Explore Datça with Our Exclusive Tours</h2>
+            <p>Make the most of your visit by booking one of our <strong>Datça tours</strong> with confidence:</p>
+            <ul>
+              <li><strong>Knidos Ancient City Tour</strong> – Discover the ruins of one of the most famous ancient cities in Turkey.</li>
+              <li><strong>Datça Boat Tour</strong> – Explore the stunning hidden bays and crystal-clear waters of the Datça Peninsula.</li>
+              <li><strong>Olive & Almond Farm Tour</strong> – Visit traditional farms and taste locally-produced olive oil and almonds.</li>
+              <li><strong>Jeep Safari to Wild Beaches & Nature Reserves</strong> – Experience the unspoiled beauty of Datça’s remote landscapes.</li>
+            </ul>
+            
+            <p><em>(All tours are operated with trusted partners and meet the highest safety standards. Book with confidence!)</em></p>
+            
+            <h2>About Datça</h2>
+            <p>Datça is a hidden paradise on Turkey’s Aegean coast, known for its <strong>untouched nature</strong>, <strong>charming villages</strong>, and <strong>stunning beaches</strong>. Whether you’re looking to explore historic sites, enjoy <strong>delicious seafood</strong>, or simply relax on the tranquil beaches, Datça is the perfect destination for a peaceful getaway.</p>
+            
+            <p>Book your <strong>Dalaman Airport to Datça</strong> transfer today and enjoy a smooth, stress-free start to your trip!</p>
+            `
+            ,
+            tr: `
+<h1>Dalaman Havalimanı - Datça Transferleri</h1>
+
+<h2>Dalaman Havalimanı'ndan Datça'ya Güvenilir ve Konforlu Transfer</h2>
+
+<p><strong>Dalaman Havalimanı (DLM)</strong>'nden Datça'ya stressiz bir transfer mi arıyorsunuz? Özel havalimanı transfer hizmetimiz, bu <strong>sakin sahil kasabasına</strong> rahat ve konforlu bir yolculuk sunar. <strong>Bakir plajları</strong>, <strong>berrak denizi</strong> ve <strong>rahatlatıcı atmosferi</strong> ile tanınan Datça, ister tatil, ister tarih, ister doğa arayışında olun, size <strong>güvenli, dakik ve yüksek kaliteli</strong> ulaşım sağlıyoruz.</p>
+
+<h2>Mesafe ve Yolculuk Süresi</h2>
+<ul>
+  <li><strong>Mesafe:</strong> Yaklaşık 165 km</li>
+  <li><strong>Yolculuk Süresi:</strong> Trafik ve yol durumuna göre yaklaşık 3 saat</li>
+</ul>
+
+<h2>Neden Bizi Tercih Etmelisiniz?</h2>
+<ul>
+  <li><strong>Dalaman Havalimanı'nda Karşılama</strong> – Şoförümüz, gümrük sonrası gelen yolcu alanında, isminizin yazılı olduğu tabela ile sizi bekliyor olacak.</li>
+  <li><strong>Sabit ve Şeffaf Fiyatlandırma</strong> – Gizli ücret yok; tüm maliyet önceden net.</li>
+  <li><strong>Lüks ve Standart Araç Seçenekleri</strong> – Sedan, MPV veya minibüslerden ihtiyacınıza uygun aracı seçin.</li>
+  <li><strong>Güvenli ve Profesyonel Sürücüler</strong> – Lisanslı, deneyimli ve İngilizce konuşabilen şoförler.</li>
+  <li><strong>7/24 Müşteri Desteği</strong> – Yolculuğunuz boyunca her an destek sağlıyoruz.</li>
+  <li><strong>Ücretsiz Uçuş Takibi</strong> – Uçuşunuzu takip ediyoruz ve varsa gecikmelere göre transfer saatini ayarlıyoruz.</li>
+  <li><strong>Güvenli Ödeme</strong> – Euro, GBP, Amerikan Doları ve Türk Lirası kabul edilir.</li>
+  <li><strong>Ücretsiz İptal</strong> – Transfer saatinden 24 saat öncesine kadar iptal edebilir ve ücretin tamamını geri alabilirsiniz.</li>
+</ul>
+
+<h2>Transfer Seçenekleri</h2>
+
+<p>Farklı seyahat ihtiyaçlarına uygun araç seçenekleri sunuyoruz:</p>
+
+<div>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Araç Tipi</th>
+      <th>Yolcu Kapasitesi</th>
+      <th>Bagaj Hakkı</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Standart Sedan</td>
+      <td>En fazla 3 yolcu</td>
+      <td>Maksimum 3 valiz</td>
+    </tr>
+    <tr>
+      <td>MPV</td>
+      <td>En fazla 5 yolcu</td>
+      <td>Maksimum 5 valiz</td>
+    </tr>
+    <tr>
+      <td>Minibüs</td>
+      <td>En fazla 8 yolcu</td>
+      <td>Maksimum 8 valiz</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p><em>(Fiyatlar dinamiktir ve sezona veya rezervasyon zamanına göre değişiklik gösterebilir. Güncel fiyatlar için online rezervasyon sistemimizi kontrol edin.)</em></p>
+
+<h2>Nasıl Rezervasyon Yapılır?</h2>
+<ol>
+  <li><strong>Web sitemizi ziyaret edin</strong> ve seyahat bilgilerinizi girin.</li>
+  <li><strong>Tercih ettiğiniz aracı seçin</strong> ve fiyatı onaylayın.</li>
+  <li><strong>Güvenli online ödeme</strong> ile rezervasyonu tamamlayın.</li>
+  <li><strong>Hemen e-posta ile onay alın</strong> ve karşılanma detaylarını öğrenin.</li>
+  <li><strong>Bizi 7/24 arayın</strong> – Rezervasyon desteği için her zaman buradayız.</li>
+  <li><strong>Bize e-posta gönderin</strong> – Bilgilerinizi paylaşın, ekibimiz onaylasın.</li>
+</ol>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+  <li><strong>Çocuk Koltuğu Mevcuttur</strong> – Talep halinde bebek ve çocuk koltuğu sağlıyoruz.</li>
+  <li><strong>Yolda Duraklama Seçeneği</strong> – Yol üzerinde mola ihtiyacınızı önceden bildirmeniz yeterlidir.</li>
+  <li><strong>Tek Yön ve Gidiş-Dönüş Transfer</strong> – Dönüş transferinizi de kolayca planlayabilirsiniz.</li>
+</ul>
+
+<h2>Datça'yı Özel Turlarımızla Keşfedin</h2>
+<p><strong>Datça turlarımızdan</strong> birini güvenle rezerve ederek ziyaretinizi daha da özel kılın:</p>
+<ul>
+  <li><strong>Knidos Antik Kenti Turu</strong> – Türkiye'nin en ünlü antik şehirlerinden birinin kalıntılarını keşfedin.</li>
+  <li><strong>Datça Tekne Turu</strong> – Yarımadanın gizli koylarını ve berrak sularını gezerek keşfedin.</li>
+  <li><strong>Zeytin & Badem Çiftliği Turu</strong> – Yerel üreticileri ziyaret edin, zeytin yağı ve badem tadımı yapın.</li>
+  <li><strong>Yaban Koylar ve Doğa Rezerve Safari Turu</strong> – Datça'nın bakir doğasında jeep safari deneyimi yaşayın.</li>
+</ul>
+
+<p><em>(Tüm turlar güvenilir iş ortaklarımızla yürütülmekte olup en yüksek güvenlik standartlarını karşılamaktadır. Gönül rahatlığıyla rezervasyon yapabilirsiniz!)</em></p>
+
+<h2>Datça Hakkında</h2>
+<p>Datça, <strong>Türkiye'nin Ege kıyısında saklı bir cennettir</strong>. <strong>El değmemiş doğası</strong>, <strong>şirin köyleri</strong> ve <strong>göz alıcı plajlarıyla</strong> bilinir. Tarihi yerleri keşfetmek, <strong>taze deniz ürünleriyle ziyafet çekmek</strong> ya da sadece <strong>sakin sahillerde dinlenmek</strong> isteyenler için mükemmel bir kaçış noktasıdır.</p>
+
+<p><strong>Dalaman Havalimanı - Datça</strong> transferinizi hemen rezerve edin ve seyahatinize konforlu, stressiz bir başlangıç yapın!</p>
+`
+            ,
+            ar: `
+<h1>خدمة النقل من مطار دالامان إلى داتشا</h1>
+
+<h2>نقل موثوق ومريح من مطار دالامان إلى داتشا</h2>
+
+<p>هل تبحث عن خدمة نقل مريحة من <strong>مطار دالامان (DLM)</strong> إلى داتشا؟ توفر لك خدمتنا الخاصة للنقل من المطار رحلة سلسة ومريحة إلى هذه <strong>البلدة الساحلية الهادئة</strong>، المشهورة بـ<strong>شواطئها البكر</strong> و<strong>مياهها النقية</strong> و<strong>أجوائها الهادئة</strong>. سواء كنت تزور بغرض الاسترخاء، أو استكشاف المواقع التاريخية، أو الاستمتاع بالطبيعة، فإننا نقدم لك خدمة نقل <strong>آمنة ودقيقة وعالية الجودة</strong>.</p>
+
+<h2>المسافة ومدة الرحلة</h2>
+<ul>
+  <li><strong>المسافة:</strong> حوالي 165 كم</li>
+  <li><strong>مدة الرحلة:</strong> حوالي 3 ساعات، حسب حالة المرور والطرق.</li>
+</ul>
+
+<h2>لماذا تختار خدمتنا؟</h2>
+<ul>
+  <li><strong>الاستقبال في مطار دالامان</strong> – سيقابلك السائق في منطقة الوصول بعد الجمارك حاملاً لافتة باسمك.</li>
+  <li><strong>أسعار ثابتة وشفافة</strong> – لا رسوم مخفية، ستعرف السعر النهائي مسبقاً.</li>
+  <li><strong>خيارات مركبات فاخرة وعادية</strong> – اختر من بين سيارات السيدان أو MPV أو الميني باص حسب حجم مجموعتك.</li>
+  <li><strong>سائقون محترفون وآمنون</strong> – مرخصون وذوو خبرة ويتحدثون الإنجليزية.</li>
+  <li><strong>دعم العملاء على مدار الساعة</strong> – خدمة عملاء متاحة 24/7 لتلبية جميع استفساراتك.</li>
+  <li><strong>مراقبة الرحلات مجاناً</strong> – نتابع رحلتك الجوية ونقوم بتعديل وقت الاستقبال إذا حصل تأخير.</li>
+  <li><strong>دفع آمن</strong> – نقبل اليورو، الجنيه الإسترليني، الدولار الأمريكي والليرة التركية.</li>
+  <li><strong>إلغاء مجاني</strong> – يمكنك الإلغاء مجاناً حتى 24 ساعة قبل موعد النقل واسترداد المبلغ كاملاً.</li>
+</ul>
+
+<h2>خيارات المركبات</h2>
+
+<p>نقدم مجموعة متنوعة من السيارات لتناسب جميع احتياجات السفر:</p>
+
+<div>
+<table border="1">
+  <thead>
+    <tr>
+      <th>نوع السيارة</th>
+      <th>عدد الركاب</th>
+      <th>عدد الحقائب</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>سيدان عادية</td>
+      <td>حتى 3 ركاب</td>
+      <td>بحد أقصى 3 حقائب</td>
+    </tr>
+    <tr>
+      <td>MPV</td>
+      <td>حتى 5 ركاب</td>
+      <td>بحد أقصى 5 حقائب</td>
+    </tr>
+    <tr>
+      <td>ميني باص</td>
+      <td>حتى 8 ركاب</td>
+      <td>بحد أقصى 8 حقائب</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p><em>(الأسعار متغيرة وتعتمد على الموسم ووقت الحجز. يرجى التحقق من نظام الحجز الإلكتروني للحصول على الأسعار المحدثة.)</em></p>
+
+<h2>كيفية الحجز؟</h2>
+<ol>
+  <li><strong>قم بزيارة موقعنا الإلكتروني</strong> واملأ تفاصيل رحلتك.</li>
+  <li><strong>اختر السيارة المفضلة لديك</strong> ووافق على السعر.</li>
+  <li><strong>أكمل الحجز</strong> من خلال الدفع الآمن عبر الإنترنت.</li>
+  <li><strong>استلم تأكيدًا فوريًا</strong> عبر البريد الإلكتروني مع تفاصيل الاستقبال.</li>
+  <li><strong>اتصل بنا 24/7</strong> لمساعدتك في الحجز.</li>
+  <li><strong>أرسل إلينا بريدًا إلكترونيًا</strong> بمعلومات الحجز وسنقوم بتأكيد النقل لك.</li>
+</ol>
+
+<h2>خدمات إضافية</h2>
+<ul>
+  <li><strong>مقاعد أطفال متوفرة</strong> – نوفر كراسي أمان للأطفال والرضّع عند الطلب.</li>
+  <li><strong>خيار التوقف أثناء الرحلة</strong> – فقط أخبرنا مسبقاً إذا كنت بحاجة إلى التوقف على الطريق.</li>
+  <li><strong>رحلات باتجاه واحد أو ذهاب وعودة</strong> – يمكنك أيضاً حجز رحلة العودة بسهولة.</li>
+</ul>
+
+<h2>اكتشف داتشا مع جولاتنا الحصرية</h2>
+<p>اجعل زيارتك إلى داتشا أكثر تميزًا من خلال واحدة من <strong>جولاتنا المميزة</strong>:</p>
+<ul>
+  <li><strong>جولة مدينة كنيدوس الأثرية</strong> – اكتشف بقايا واحدة من أشهر المدن القديمة في تركيا.</li>
+  <li><strong>جولة بالقارب في داتشا</strong> – استمتع بالخليج والمياه النقية والخلجان المخفية.</li>
+  <li><strong>جولة مزرعة الزيتون واللوز</strong> – قم بزيارة المزارع المحلية وتذوق زيت الزيتون واللوز الطبيعي.</li>
+  <li><strong>سفاري جيب إلى الشواطئ البرية والمحميات الطبيعية</strong> – اكتشف جمال داتشا الطبيعي البكر.</li>
+</ul>
+
+<p><em>(جميع الجولات تتم بالشراكة مع مزودين موثوقين وتراعي أعلى معايير السلامة. احجز بثقة!)</em></p>
+
+<h2>عن داتشا</h2>
+<p>تُعد داتشا <strong>جنة مخفية على الساحل الإيجي لتركيا</strong>، وتشتهر بـ<strong>طبيعتها البكر</strong>، و<strong>قراها الساحرة</strong>، و<strong>شواطئها الرائعة</strong>. سواء كنت تريد استكشاف المواقع التاريخية، أو تناول <strong>أطعمة بحرية لذيذة</strong>، أو الاسترخاء على الشواطئ الهادئة، فإن داتشا هي الوجهة المثالية لقضاء عطلة هادئة.</p>
+
+<p>احجز الآن خدمة النقل من <strong>مطار دالامان إلى داتشا</strong> وابدأ رحلتك براحة وبدون توتر!</p>
+`
+            ,
+            es: `
+            <h1>Traslados desde el Aeropuerto de Dalaman a Datça</h1>
+            
+            <h2>Traslados fiables y cómodos desde el Aeropuerto de Dalaman a Datça</h2>
+            
+            <p>¿Buscas un traslado sin complicaciones desde el <strong>Aeropuerto de Dalaman (DLM)</strong> a Datça? Nuestro servicio de traslado privado garantiza un viaje cómodo y fluido a este <strong>tranquilo pueblo costero</strong>, famoso por sus <strong>playas vírgenes</strong>, <strong>aguas cristalinas</strong> y <strong>atmósfera relajada</strong>. Ya sea que viajes por vacaciones, historia o naturaleza, te ofrecemos un transporte <strong>seguro, puntual y de alta calidad</strong>.</p>
+            
+            <h2>Distancia y Tiempo de Viaje</h2>
+            <ul>
+              <li><strong>Distancia:</strong> Aproximadamente 165 km</li>
+              <li><strong>Duración del viaje:</strong> Alrededor de 3 horas, dependiendo del tráfico y las condiciones de la carretera.</li>
+            </ul>
+            
+            <h2>¿Por qué elegir nuestro servicio de traslado?</h2>
+            <ul>
+              <li><strong>Recepción en el aeropuerto</strong> – Nuestro conductor te esperará en la zona de llegadas con un cartel con tu nombre.</li>
+              <li><strong>Precios fijos y transparentes</strong> – Sin tarifas ocultas; sabrás el precio exacto desde el principio.</li>
+              <li><strong>Opciones de vehículos estándar y de lujo</strong> – Elige entre sedanes, vehículos MPV o minibuses para grupos más grandes.</li>
+              <li><strong>Conductores seguros y profesionales</strong> – Con licencia, experiencia y dominio del inglés.</li>
+              <li><strong>Atención al cliente 24/7</strong> – Estamos disponibles en todo momento para ayudarte.</li>
+              <li><strong>Monitoreo gratuito de vuelos</strong> – Seguimos tu vuelo y ajustamos la hora de recogida en caso de retrasos.</li>
+              <li><strong>Pago seguro</strong> – Aceptamos euros, libras esterlinas, dólares estadounidenses y liras turcas.</li>
+              <li><strong>Cancelación gratuita</strong> – Cancela hasta 24 horas antes del traslado y recibe un reembolso completo.</li>
+            </ul>
+            
+            <h2>Opciones de traslado</h2>
+            
+            <p>Ofrecemos varios tipos de vehículos para adaptarnos a tus necesidades de viaje:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Tipo de vehículo</th>
+                  <th>Capacidad de pasajeros</th>
+                  <th>Capacidad de equipaje</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sedán estándar</td>
+                  <td>Hasta 3 pasajeros</td>
+                  <td>Máximo 3 maletas</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Hasta 5 pasajeros</td>
+                  <td>Máximo 5 maletas</td>
+                </tr>
+                <tr>
+                  <td>Minibús</td>
+                  <td>Hasta 8 pasajeros</td>
+                  <td>Máximo 8 maletas</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Los precios son dinámicos y pueden variar según la temporada y el momento de la reserva. Consulta nuestro sistema de reservas en línea para ver las tarifas actualizadas.)</em></p>
+            
+            <h2>¿Cómo reservar?</h2>
+            <ol>
+              <li><strong>Visita nuestro sitio web</strong> e ingresa los detalles de tu viaje.</li>
+              <li><strong>Elige el vehículo que prefieras</strong> y confirma el precio.</li>
+              <li><strong>Completa la reserva</strong> con un pago seguro en línea.</li>
+              <li><strong>Recibe confirmación inmediata</strong> por correo electrónico con los detalles de recogida.</li>
+              <li><strong>Llámanos 24/7</strong> para obtener ayuda con la reserva.</li>
+              <li><strong>Envíanos un correo electrónico</strong> con los detalles de tu reserva y nuestro equipo la confirmará.</li>
+            </ol>
+            
+            <h2>Servicios adicionales</h2>
+            <ul>
+              <li><strong>Asientos infantiles disponibles</strong> – Proporcionamos sillas de seguridad para bebés y niños pequeños previa solicitud.</li>
+              <li><strong>Paradas durante el trayecto</strong> – Infórmanos con anticipación si deseas hacer una parada en el camino.</li>
+              <li><strong>Traslados de ida o ida y vuelta</strong> – Puedes reservar también tu regreso para mayor comodidad.</li>
+            </ul>
+            
+            <h2>Descubre Datça con nuestros tours exclusivos</h2>
+            <p>Haz que tu visita sea aún más especial reservando uno de nuestros <strong>tours en Datça</strong>:</p>
+            <ul>
+              <li><strong>Tour por la antigua ciudad de Knidos</strong> – Explora las ruinas de una de las ciudades antiguas más famosas de Turquía.</li>
+              <li><strong>Tour en barco por Datça</strong> – Descubre bahías ocultas y aguas cristalinas de la península de Datça.</li>
+              <li><strong>Tour por granjas de aceitunas y almendras</strong> – Visita granjas tradicionales y degusta productos locales.</li>
+              <li><strong>Safari en jeep a playas vírgenes y reservas naturales</strong> – Explora la naturaleza intacta y los paisajes remotos de Datça.</li>
+            </ul>
+            
+            <p><em>(Todos los tours son operados por socios de confianza y cumplen con los más altos estándares de seguridad. ¡Reserva con confianza!)</em></p>
+            
+            <h2>Sobre Datça</h2>
+            <p>Datça es un <strong>paraíso escondido en la costa del Egeo de Turquía</strong>, conocida por su <strong>naturaleza intacta</strong>, <strong>pueblos encantadores</strong> y <strong>playas espectaculares</strong>. Ya sea que quieras explorar sitios históricos, probar <strong>deliciosos mariscos</strong> o simplemente <strong>relajarte en playas tranquilas</strong>, Datça es el destino perfecto para una escapada en paz.</p>
+            
+            <p>¡Reserva tu traslado desde el <strong>Aeropuerto de Dalaman a Datça</strong> hoy mismo y comienza tu viaje sin estrés y con total comodidad!</p>
+            `
+            ,
+            it: `
+            <h1>Trasferimenti dall'Aeroporto di Dalaman a Datça</h1>
+            
+            <h2>Trasferimenti affidabili e confortevoli dall'Aeroporto di Dalaman a Datça</h2>
+            
+            <p>Cerchi un trasferimento senza stress dall’<strong>Aeroporto di Dalaman (DLM)</strong> a Datça? Il nostro servizio di transfer privato garantisce un viaggio fluido e confortevole verso questa <strong>tranquilla località balneare</strong>, nota per le sue <strong>spiagge incontaminate</strong>, le <strong>acque cristalline</strong> e la <strong>rilassante atmosfera</strong>. Che tu stia viaggiando per una vacanza, per esplorare siti storici o per goderti la natura, ti offriamo un trasporto <strong>sicuro, puntuale e di alta qualità</strong>.</p>
+            
+            <h2>Distanza e Durata del Viaggio</h2>
+            <ul>
+              <li><strong>Distanza:</strong> Circa 165 km</li>
+              <li><strong>Durata del viaggio:</strong> Circa 3 ore, a seconda del traffico e delle condizioni stradali.</li>
+            </ul>
+            
+            <h2>Perché scegliere il nostro servizio?</h2>
+            <ul>
+              <li><strong>Accoglienza in aeroporto</strong> – Il nostro autista ti aspetterà nell’area arrivi con un cartello con il tuo nome.</li>
+              <li><strong>Prezzi fissi e trasparenti</strong> – Nessun costo nascosto, conosci il prezzo in anticipo.</li>
+              <li><strong>Veicoli standard e di lusso</strong> – Scegli tra berline, MPV o minibus per gruppi più numerosi.</li>
+              <li><strong>Autisti professionali e sicuri</strong> – Con licenza, esperienza e conoscenza dell’inglese.</li>
+              <li><strong>Assistenza clienti 24/7</strong> – Siamo disponibili in qualsiasi momento per aiutarti.</li>
+              <li><strong>Monitoraggio voli gratuito</strong> – Monitoriamo il tuo volo e adeguiamo l’orario di prelievo in caso di ritardo.</li>
+              <li><strong>Pagamento sicuro</strong> – Accettiamo Euro, GBP, Dollari USA e Lire turche.</li>
+              <li><strong>Cancellazione gratuita</strong> – Cancella fino a 24 ore prima del trasferimento per un rimborso completo.</li>
+            </ul>
+            
+            <h2>Opzioni di trasferimento</h2>
+            
+            <p>Offriamo diverse opzioni di veicoli per soddisfare ogni esigenza di viaggio:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Tipo di veicolo</th>
+                  <th>Capacità passeggeri</th>
+                  <th>Bagagli consentiti</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Berlina standard</td>
+                  <td>Fino a 3 passeggeri</td>
+                  <td>Massimo 3 valigie</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>Fino a 5 passeggeri</td>
+                  <td>Massimo 5 valigie</td>
+                </tr>
+                <tr>
+                  <td>Minibus</td>
+                  <td>Fino a 8 passeggeri</td>
+                  <td>Massimo 8 valigie</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(I prezzi sono dinamici e possono variare in base alla stagione e al momento della prenotazione. Consulta il nostro sistema di prenotazione online per le tariffe più aggiornate.)</em></p>
+            
+            <h2>Come prenotare?</h2>
+            <ol>
+              <li><strong>Visita il nostro sito web</strong> e inserisci i dettagli del tuo viaggio.</li>
+              <li><strong>Scegli il tuo veicolo preferito</strong> e conferma il prezzo.</li>
+              <li><strong>Completa la prenotazione</strong> con pagamento sicuro online.</li>
+              <li><strong>Ricevi la conferma immediata</strong> via email con i dettagli del prelievo.</li>
+              <li><strong>Chiamaci 24/7</strong> per assistenza con la prenotazione.</li>
+              <li><strong>Inviaci un’email</strong> con i tuoi dettagli di prenotazione e il nostro team la confermerà.</li>
+            </ol>
+            
+            <h2>Servizi aggiuntivi</h2>
+            <ul>
+              <li><strong>Seggiolini per bambini disponibili</strong> – Su richiesta forniamo seggiolini per neonati e bambini piccoli.</li>
+              <li><strong>Possibilità di sosta lungo il tragitto</strong> – Facci sapere in anticipo se desideri fermarti durante il viaggio.</li>
+              <li><strong>Trasferimenti solo andata o andata e ritorno</strong> – Prenota anche il ritorno per maggiore comodità.</li>
+            </ul>
+            
+            <h2>Esplora Datça con i nostri tour esclusivi</h2>
+            <p>Rendi la tua visita ancora più speciale con uno dei nostri <strong>tour a Datça</strong>:</p>
+            <ul>
+              <li><strong>Tour dell'antica città di Knidos</strong> – Scopri le rovine di una delle città antiche più famose della Turchia.</li>
+              <li><strong>Tour in barca a Datça</strong> – Esplora baie nascoste e acque cristalline della penisola di Datça.</li>
+              <li><strong>Tour delle fattorie di olive e mandorle</strong> – Visita aziende agricole tradizionali e assaggia prodotti locali.</li>
+              <li><strong>Safari in jeep verso spiagge selvagge e riserve naturali</strong> – Scopri la natura incontaminata di Datça.</li>
+            </ul>
+            
+            <p><em>(Tutti i tour sono gestiti da partner fidati e rispettano i più alti standard di sicurezza. Prenota con fiducia!)</em></p>
+            
+            <h2>Informazioni su Datça</h2>
+            <p>Datça è un <strong>paradiso nascosto sulla costa egea della Turchia</strong>, famosa per la sua <strong>natura incontaminata</strong>, i <strong>villaggi pittoreschi</strong> e le <strong>spiagge mozzafiato</strong>. Che tu voglia esplorare siti storici, gustare <strong>ottimo pesce</strong> o semplicemente <strong>rilassarti in spiaggia</strong>, Datça è la destinazione perfetta per una fuga tranquilla.</p>
+            
+            <p>Prenota ora il tuo trasferimento dall’<strong>Aeroporto di Dalaman a Datça</strong> e inizia il tuo viaggio in modo sereno e confortevole!</p>
+            `
+            ,
+            ru: `
+            <h1>Трансфер из аэропорта Даламан в Датчу</h1>
+            
+            <h2>Надёжный и комфортный трансфер из аэропорта Даламан в Датчу</h2>
+            
+            <p>Ищете комфортный трансфер из <strong>аэропорта Даламан (DLM)</strong> в Датчу? Наша частная служба трансфера обеспечит вам удобную и спокойную поездку в этот <strong>тихий прибрежный городок</strong>, известный своими <strong>нетронутыми пляжами</strong>, <strong>чистыми водами</strong> и <strong>расслабляющей атмосферой</strong>. Хотите ли вы отдохнуть, изучить историю или насладиться природой — мы предоставим <strong>безопасный, пунктуальный и качественный</strong> транспорт.</p>
+            
+            <h2>Расстояние и время в пути</h2>
+            <ul>
+              <li><strong>Расстояние:</strong> около 165 км</li>
+              <li><strong>Время в пути:</strong> около 3 часов (в зависимости от дорожных условий и трафика)</li>
+            </ul>
+            
+            <h2>Почему выбирают нас?</h2>
+            <ul>
+              <li><strong>Встреча в аэропорту Даламан</strong> — Наш водитель будет ждать вас в зоне прилёта с табличкой, на которой указано ваше имя.</li>
+              <li><strong>Фиксированные и прозрачные цены</strong> — Никаких скрытых платежей, вы знаете стоимость заранее.</li>
+              <li><strong>Стандартные и люксовые автомобили</strong> — Вы можете выбрать седан, MPV или микроавтобус в зависимости от количества пассажиров.</li>
+              <li><strong>Профессиональные и надёжные водители</strong> — С лицензией, опытом и знанием английского языка.</li>
+              <li><strong>Круглосуточная поддержка</strong> — Мы всегда на связи для вашей уверенности и спокойствия.</li>
+              <li><strong>Бесплатный мониторинг рейсов</strong> — Мы следим за вашим рейсом и при необходимости корректируем время встречи.</li>
+              <li><strong>Безопасная оплата</strong> — Принимаем евро, фунты, доллары и турецкие лиры.</li>
+              <li><strong>Бесплатная отмена</strong> — Отмена за 24 часа до трансфера без штрафов и с полным возвратом средств.</li>
+            </ul>
+            
+            <h2>Варианты трансфера</h2>
+            
+            <p>Предлагаем различные типы автомобилей в зависимости от ваших нужд:</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Тип автомобиля</th>
+                  <th>Вместимость</th>
+                  <th>Багаж</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Стандартный седан</td>
+                  <td>До 3 пассажиров</td>
+                  <td>Макс. 3 чемодана</td>
+                </tr>
+                <tr>
+                  <td>MPV</td>
+                  <td>До 5 пассажиров</td>
+                  <td>Макс. 5 чемоданов</td>
+                </tr>
+                <tr>
+                  <td>Микроавтобус</td>
+                  <td>До 8 пассажиров</td>
+                  <td>Макс. 8 чемоданов</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>(Цены являются динамичными и зависят от сезона и времени бронирования. Актуальные тарифы доступны в нашей онлайн-системе бронирования.)</em></p>
+            
+            <h2>Как забронировать?</h2>
+            <ol>
+              <li><strong>Посетите наш сайт</strong> и введите данные своей поездки.</li>
+              <li><strong>Выберите желаемый автомобиль</strong> и подтвердите цену.</li>
+              <li><strong>Завершите бронирование</strong> с помощью безопасной онлайн-оплаты.</li>
+              <li><strong>Получите мгновенное подтверждение</strong> по электронной почте с деталями встречи.</li>
+              <li><strong>Позвоните нам 24/7</strong> — мы всегда готовы помочь.</li>
+              <li><strong>Напишите нам по электронной почте</strong> — и наша команда подтвердит ваш трансфер.</li>
+            </ol>
+            
+            <h2>Дополнительные услуги</h2>
+            <ul>
+              <li><strong>Детские кресла</strong> — предоставляются по запросу.</li>
+              <li><strong>Остановки по пути</strong> — сообщите нам заранее, если требуется остановка.</li>
+              <li><strong>Трансферы в одну или в обе стороны</strong> — можно сразу забронировать обратный маршрут.</li>
+            </ul>
+            
+            <h2>Откройте для себя Датчу с нашими эксклюзивными турами</h2>
+            <p>Сделайте свою поездку особенной, выбрав один из наших <strong>туров по Датче</strong>:</p>
+            <ul>
+              <li><strong>Экскурсия в древний город Книдос</strong> — Исследуйте руины одного из самых известных античных городов Турции.</li>
+              <li><strong>Морская прогулка по Датче</strong> — Откройте для себя уединённые бухты и кристально чистые воды полуострова.</li>
+              <li><strong>Тур по фермам оливок и миндаля</strong> — Посетите традиционные фермы и попробуйте местную продукцию.</li>
+              <li><strong>Сафари на джипах к диким пляжам и природным заповедникам</strong> — Познакомьтесь с нетронутой природой Датчи.</li>
+            </ul>
+            
+            <p><em>(Все туры организуются проверенными партнёрами и соответствуют самым высоким стандартам безопасности. Бронируйте с уверенностью!)</em></p>
+            
+            <h2>О Датче</h2>
+            <p>Датча — это <strong>скрытый рай на Эгейском побережье Турции</strong>, известный своей <strong>нетронутой природой</strong>, <strong>живописными деревнями</strong> и <strong>восхитительными пляжами</strong>. Здесь можно исследовать древние руины, насладиться <strong>свежими морепродуктами</strong> или просто <strong>отдохнуть на уединённых пляжах</strong> — идеальное место для спокойного отдыха.</p>
+            
+            <p>Забронируйте <strong>трансфер из аэропорта Даламан в Датчу</strong> уже сегодня и начните своё путешествие без стресса и с максимальным комфортом!</p>
+            `
+            ,
+            zh: `
+            <h1>达拉曼机场至达特恰接送服务</h1>
+            
+            <h2>从达拉曼机场前往达特恰的可靠舒适接送服务</h2>
+            
+            <p>正在寻找从 <strong>达拉曼机场 (DLM)</strong> 前往达特恰的轻松接送服务吗？我们的私人接送服务为您前往这个宁静的海滨小镇提供顺畅舒适的旅程。达特恰以其 <strong>原始海滩</strong>、<strong>清澈海水</strong> 和 <strong>悠闲氛围</strong> 而闻名。无论您是度假、探访历史遗迹还是亲近自然，我们都为您提供 <strong>安全、准时且高品质</strong> 的交通服务。</p>
+            
+            <h2>距离与行程时间</h2>
+            <ul>
+              <li><strong>距离：</strong> 约 165 公里</li>
+              <li><strong>行程时间：</strong> 约 3 小时，具体取决于交通状况与道路情况。</li>
+            </ul>
+            
+            <h2>为什么选择我们的接送服务？</h2>
+            <ul>
+              <li><strong>机场迎接服务</strong> – 我们的司机将在入境区举着写有您姓名的接机牌等待。</li>
+              <li><strong>透明固定价格</strong> – 无隐藏费用，您提前就能知道总价。</li>
+              <li><strong>豪华与标准车型可选</strong> – 提供标准轿车、MPV 多功能车或小巴供不同需求选择。</li>
+              <li><strong>专业安全的司机</strong> – 持证、经验丰富并会讲英文的司机为您服务。</li>
+              <li><strong>全天候客户支持</strong> – 我们 24/7 随时为您提供帮助。</li>
+              <li><strong>免费航班监控</strong> – 实时追踪您的航班，确保接机时间与航班动态匹配。</li>
+              <li><strong>安全支付</strong> – 支持欧元、英镑、美元和土耳其里拉付款。</li>
+              <li><strong>免费取消</strong> – 提前 24 小时取消可获得全额退款。</li>
+            </ul>
+            
+            <h2>接送车型选择</h2>
+            
+            <p>我们提供多种车型，满足不同出行需求：</p>
+            
+            <div>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>车型</th>
+                  <th>乘客人数</th>
+                  <th>行李容量</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>标准轿车</td>
+                  <td>最多 3 人</td>
+                  <td>最多 3 个行李箱</td>
+                </tr>
+                <tr>
+                  <td>MPV 多功能车</td>
+                  <td>最多 5 人</td>
+                  <td>最多 5 个行李箱</td>
+                </tr>
+                <tr>
+                  <td>小巴</td>
+                  <td>最多 8 人</td>
+                  <td>最多 8 个行李箱</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <p><em>（价格根据季节和预订时间动态调整，请通过我们的网站查询最新报价。）</em></p>
+            
+            <h2>如何预订？</h2>
+            <ol>
+              <li><strong>访问我们的网站</strong> 并填写您的出行信息。</li>
+              <li><strong>选择您喜欢的车型</strong> 并确认价格。</li>
+              <li><strong>通过安全的在线支付完成预订。</strong></li>
+              <li><strong>立即收到确认邮件</strong>，其中包含接送详情。</li>
+              <li><strong>全天候联系我们</strong> – 我们随时为您提供预订帮助。</li>
+              <li><strong>通过电子邮件发送预订信息</strong> – 我们的团队将确认您的接送服务。</li>
+            </ol>
+            
+            <h2>附加服务</h2>
+            <ul>
+              <li><strong>可提供儿童安全座椅</strong> – 按需为婴幼儿提供安全座椅。</li>
+              <li><strong>中途停靠选项</strong> – 如果途中需要停靠，请提前告知我们。</li>
+              <li><strong>单程或往返接送</strong> – 您可选择预订返回接送，提升便利性。</li>
+            </ul>
+            
+            <h2>探索达特恰的专属旅行体验</h2>
+            <p>通过预订我们的一项 <strong>达特恰专属行程</strong>，让您的旅行更加丰富：</p>
+            <ul>
+              <li><strong>克尼多斯古城游</strong> – 探访土耳其著名古城之一的遗迹。</li>
+              <li><strong>达特恰游船之旅</strong> – 畅游隐秘海湾与清澈海域，尽享宁静美景。</li>
+              <li><strong>橄榄与杏仁农场之旅</strong> – 参观当地农场并品尝手工橄榄油与杏仁。</li>
+              <li><strong>吉普越野至原生态海滩与自然保护区</strong> – 探索达特恰纯净未开发的自然景观。</li>
+            </ul>
+            
+            <p><em>（所有行程由可靠合作伙伴运营，并遵循最高安全标准，请放心预订。）</em></p>
+            
+            <h2>关于达特恰</h2>
+            <p>达特恰是土耳其爱琴海沿岸的 <strong>隐秘天堂</strong>，以其 <strong>未被开发的自然环境</strong>、<strong>迷人村庄</strong> 和 <strong>美丽海滩</strong> 而著称。无论您是想参观历史遗迹、品尝 <strong>新鲜海鲜</strong>，还是在 <strong>宁静海滩</strong> 上放松身心，达特恰都是完美的度假胜地。</p>
+            
+            <p>立即预订从 <strong>达拉曼机场至达特恰</strong> 的接送服务，开启一段顺畅、无忧的旅程！</p>
+            `
+
         },
 
     },
