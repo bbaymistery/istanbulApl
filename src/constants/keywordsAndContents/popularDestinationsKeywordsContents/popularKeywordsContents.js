@@ -582,8 +582,248 @@ const keywordsTitlePopularDestinationPage = {
             }
         }
     },
+    DLM: {
+        "/dalaman-airport-to-oludeniz": {
+            "headTitle": {
+                "en": "Dalaman Airport to Ölüdeniz Transfers | Private & Reliable",
+                "tr": "Dalaman Havalimanı Ölüdeniz Transferleri | Özel ve Güvenilir",
+                "zh": "达拉曼机场至厄吕代尼兹接送服务 | 私人且可靠",
+                "ru": "Трансферы из аэропорта Даламан в Олюдениз | Частные и Надежные",
+                "es": "Traslados del Aeropuerto de Dalaman a Ölüdeniz | Privado y Confiable",
+                "it": "Transfer dall Aeroporto di Dalaman a Ölüdeniz | Privato e Affidabile",
+                "ar": "خدمة النقل من مطار دالامان إلى أولودينيز | خاصة وموثوقة"
+            },
+            "keywords": {
+                "en": "Dalaman Airport to Ölüdeniz taxi, Dalaman Airport to Ölüdeniz transfer, private airport transfer Dalaman, Ölüdeniz airport shuttle, DLM to Ölüdeniz",
+                "tr": "Dalaman Havalimanı Ölüdeniz taksi, Dalaman Ölüdeniz transferi, özel havalimanı transferi Dalaman, Ölüdeniz havalimanı servisi, DLM Ölüdeniz",
+                "zh": "达拉曼机场至厄吕代尼兹出租车, 达拉曼到厄吕代尼兹接送, 私人机场接送达拉曼, 厄吕代尼兹机场班车, DLM至厄吕代尼兹",
+                "ru": "Такси из аэропорта Даламан в Олюдениз, трансфер Даламан-Олюдениз, частный трансфер из аэропорта Даламан, шаттл до Олюдениза, DLM в Олюдениз",
+                "es": "Taxi del Aeropuerto de Dalaman a Ölüdeniz, traslado Dalaman Ölüdeniz, traslado privado aeropuerto Dalaman, transporte aeropuerto Ölüdeniz, DLM a Ölüdeniz",
+                "it": "Taxi aeroporto Dalaman Ölüdeniz, transfer aeroporto Dalaman Ölüdeniz, trasferimento privato Dalaman, navetta aeroporto Ölüdeniz, DLM Ölüdeniz",
+                "ar": "تاكسي من مطار دالامان إلى أولودينيز, نقل من دالامان إلى أولودينيز, نقل خاص من مطار دالامان, حافلة مطار أولودينيز, DLM إلى أولودينيز"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Dalaman Airport (DLM) to Ölüdeniz. Fixed-price, meet & greet service, free cancellation, and 24/7 customer support.",
+                "tr": "Dalaman Havalimanı'ndan (DLM) Ölüdeniz'e özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti, ücretsiz iptal ve 7/24 müşteri desteği.",
+                "zh": "预订从达拉曼机场（DLM）到厄吕代尼兹的私人接送服务。固定价格，接机服务，免费取消，全天候客服支持。",
+                "ru": "Закажите частный трансфер из аэропорта Даламан (DLM) в Олюдениз. Фиксированная цена, встреча в аэропорту, бесплатная отмена и поддержка 24/7.",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Dalaman (DLM) a Ölüdeniz. Precio fijo, servicio de bienvenida, cancelación gratuita y atención 24/7.",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Dalaman (DLM) a Ölüdeniz. Prezzo fisso, accoglienza, cancellazione gratuita e supporto 24/7.",
+                "ar": "احجز خدمة نقل خاصة من مطار دالامان (DLM) إلى أولودينيز. سعر ثابت، خدمة استقبال، إلغاء مجاني، ودعم عملاء 24/7."
+            }
+        }
+        ,
+        "/dalaman-airport-to-fethiye-town-center": {
+            "headTitle": {
+                "en": "Dalaman Airport to Fethiye Town Center Transfers | Private & Reliable",
+                "tr": "Dalaman Havalimanı Fethiye Merkez Transferleri | Özel ve Güvenilir",
+                "zh": "达拉曼机场至费特希耶市中心接送服务 | 私人且可靠",
+                "ru": "Трансферы из аэропорта Даламан в центр Фетхие | Частные и Надежные",
+                "es": "Traslados del Aeropuerto de Dalaman al Centro de Fethiye | Privado y Confiable",
+                "it": "Transfer dall Aeroporto di Dalaman al Centro di Fethiye | Privato e Affidabile",
+                "ar": "خدمة النقل من مطار دالامان إلى وسط مدينة فتحية | خاصة وموثوقة"
+            },
+            "keywords": {
+                "en": "Dalaman Airport to Fethiye taxi, Dalaman Airport to Fethiye transfer, private airport transfer Dalaman, Fethiye airport shuttle, DLM to Fethiye",
+                "tr": "Dalaman Havalimanı Fethiye taksi, Dalaman Fethiye transferi, özel havalimanı transferi Dalaman, Fethiye havalimanı servisi, DLM Fethiye",
+                "zh": "达拉曼机场至费特希耶出租车, 达拉曼到费特希耶接送, 私人机场接送达拉曼, 费特希耶机场班车, DLM至费特希耶",
+                "ru": "Такси из аэропорта Даламан в Фетхие, трансфер Даламан-Фетхие, частный трансфер из аэропорта Даламан, шаттл до Фетхие, DLM в Фетхие",
+                "es": "Taxi del Aeropuerto de Dalaman a Fethiye, traslado Dalaman Fethiye, traslado privado aeropuerto Dalaman, transporte aeropuerto Fethiye, DLM a Fethiye",
+                "it": "Taxi aeroporto Dalaman Fethiye, transfer aeroporto Dalaman Fethiye, trasferimento privato Dalaman, navetta aeroporto Fethiye, DLM Fethiye",
+                "ar": "تاكسي من مطار دالامان إلى فتحية, نقل من دالامان إلى فتحية, نقل خاص من مطار دالامان, حافلة مطار فتحية, DLM إلى فتحية"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Dalaman Airport (DLM) to Fethiye Town Center. Fixed-price, meet & greet service, free cancellation, and 24/7 customer support.",
+                "tr": "Dalaman Havalimanı'ndan (DLM) Fethiye Merkez'e özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti, ücretsiz iptal ve 7/24 müşteri desteği.",
+                "zh": "预订从达拉曼机场（DLM）到费特希耶市中心的私人接送服务。固定价格，接机服务，免费取消，全天候客服支持。",
+                "ru": "Закажите частный трансфер из аэропорта Даламан (DLM) в центр Фетхие. Фиксированная цена, встреча в аэропорту, бесплатная отмена и поддержка 24/7.",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Dalaman (DLM) al centro de Fethiye. Precio fijo, servicio de bienvenida, cancelación gratuita y atención 24/7.",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Dalaman (DLM) al centro di Fethiye. Prezzo fisso, accoglienza, cancellazione gratuita e supporto 24/7.",
+                "ar": "احجز خدمة نقل خاصة من مطار دالامان (DLM) إلى وسط مدينة فتحية. سعر ثابت، خدمة استقبال، إلغاء مجاني، ودعم عملاء 24/7."
+            }
+        }
+        ,
+        "/dalaman-airport-to-faralya-butterfly-valley": {
+            "headTitle": {
+                "en": "Dalaman Airport to Marmaris Transfers | Private & Reliable",
+                "tr": "Dalaman Havalimanı Marmaris Transferleri | Özel ve Güvenilir",
+                "zh": "达拉曼机场至马尔马里斯接送服务 | 私人且可靠",
+                "ru": "Трансферы из аэропорта Даламан в Мармарис | Частные и Надежные",
+                "es": "Traslados del Aeropuerto de Dalaman a Marmaris | Privado y Confiable",
+                "it": "Transfer dall Aeroporto di Dalaman a Marmaris | Privato e Affidabile",
+                "ar": "خدمة النقل من مطار دالامان إلى مارماريس | خاصة وموثوقة"
+            },
+            "keywords": {
+                "en": "Dalaman Airport to Marmaris taxi, Dalaman Airport to Marmaris transfer, private airport transfer Dalaman, Marmaris airport shuttle, DLM to Marmaris",
+                "tr": "Dalaman Havalimanı Marmaris taksi, Dalaman Marmaris transferi, özel havalimanı transferi Dalaman, Marmaris havalimanı servisi, DLM Marmaris",
+                "zh": "达拉曼机场至马尔马里斯出租车, 达拉曼到马尔马里斯接送, 私人机场接送达拉曼, 马尔马里斯机场班车, DLM至马尔马里斯",
+                "ru": "Такси из аэропорта Даламан в Мармарис, трансфер Даламан-Мармарис, частный трансфер из аэропорта Даламан, шаттл до Мармариса, DLM в Мармарис",
+                "es": "Taxi del Aeropuerto de Dalaman a Marmaris, traslado Dalaman Marmaris, traslado privado aeropuerto Dalaman, transporte aeropuerto Marmaris, DLM a Marmaris",
+                "it": "Taxi aeroporto Dalaman Marmaris, transfer aeroporto Dalaman Marmaris, trasferimento privato Dalaman, navetta aeroporto Marmaris, DLM Marmaris",
+                "ar": "تاكسي من مطار دالامان إلى مارماريس, نقل من دالامان إلى مارماريس, نقل خاص من مطار دالامان, حافلة مطار مارماريس, DLM إلى مارماريس"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Dalaman Airport (DLM) to Marmaris. Fixed-price, meet & greet service, free cancellation, and 24/7 customer support.",
+                "tr": "Dalaman Havalimanı'ndan (DLM) Marmaris'e özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti, ücretsiz iptal ve 7/24 müşteri desteği.",
+                "zh": "预订从达拉曼机场（DLM）到马尔马里斯的私人接送服务。固定价格，接机服务，免费取消，全天候客服支持。",
+                "ru": "Закажите частный трансфер из аэропорта Даламан (DLM) в Мармарис. Фиксированная цена, встреча в аэропорту, бесплатная отмена и поддержка 24/7.",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Dalaman (DLM) a Marmaris. Precio fijo, servicio de bienvenida, cancelación gratuita y atención 24/7.",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Dalaman (DLM) a Marmaris. Prezzo fisso, accoglienza, cancellazione gratuita e supporto 24/7.",
+                "ar": "احجز خدمة نقل خاصة من مطار دالامان (DLM) إلى مارماريس. سعر ثابت، خدمة استقبال، إلغاء مجاني، ودعم عملاء 24/7."
+            }
+        },
+
+        "/dalaman-airport-to-gocek": {
+            "headTitle": {
+                "en": "Dalaman Airport to Göcek Transfers | Private & Reliable",
+                "tr": "Dalaman Havalimanı Göcek Transferleri | Özel ve Güvenilir",
+                "zh": "达拉曼机场至戈杰克接送服务 | 私人且可靠",
+                "ru": "Трансферы из аэропорта Даламан в Гёчек | Частные и Надежные",
+                "es": "Traslados del Aeropuerto de Dalaman a Göcek | Privado y Confiable",
+                "it": "Transfer dall Aeroporto di Dalaman a Göcek | Privato e Affidabile",
+                "ar": "خدمة النقل من مطار دالامان إلى غوجيك | خاصة وموثوقة"
+            },
+            "keywords": {
+                "en": "Dalaman Airport to Göcek taxi, Dalaman Airport to Göcek transfer, private airport transfer Dalaman, Göcek airport shuttle, DLM to Göcek",
+                "tr": "Dalaman Havalimanı Göcek taksi, Dalaman Göcek transferi, özel havalimanı transferi Dalaman, Göcek havalimanı servisi, DLM Göcek",
+                "zh": "达拉曼机场至戈杰克出租车, 达拉曼到戈杰克接送, 私人机场接送达拉曼, 戈杰克机场班车, DLM至戈杰克",
+                "ru": "Такси из аэропорта Даламан в Гёчек, трансфер Даламан-Гёчек, частный трансфер из аэропорта Даламан, шаттл до Гёчека, DLM в Гёчек",
+                "es": "Taxi del Aeropuerto de Dalaman a Göcek, traslado Dalaman Göcek, traslado privado aeropuerto Dalaman, transporte aeropuerto Göcek, DLM a Göcek",
+                "it": "Taxi aeroporto Dalaman Göcek, transfer aeroporto Dalaman Göcek, trasferimento privato Dalaman, navetta aeroporto Göcek, DLM Göcek",
+                "ar": "تاكسي من مطار دالامان إلى غوجيك, نقل من دالامان إلى غوجيك, نقل خاص من مطار دالامان, حافلة مطار غوجيك, DLM إلى غوجيك"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Dalaman Airport (DLM) to Göcek. Fixed-price, meet & greet service, free cancellation, and 24/7 customer support.",
+                "tr": "Dalaman Havalimanı'ndan (DLM) Göcek'e özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti, ücretsiz iptal ve 7/24 müşteri desteği.",
+                "zh": "预订从达拉曼机场（DLM）到戈杰克的私人接送服务。固定价格，接机服务，免费取消，全天候客服支持。",
+                "ru": "Закажите частный трансфер из аэропорта Даламан (DLM) в Гёчек. Фиксированная цена, встреча в аэропорту, бесплатная отмена и поддержка 24/7.",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Dalaman (DLM) a Göcek. Precio fijo, servicio de bienvenida, cancelación gratuita y atención 24/7.",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Dalaman (DLM) a Göcek. Prezzo fisso, accoglienza, cancellazione gratuita e supporto 24/7.",
+                "ar": "احجز خدمة نقل خاصة من مطار دالامان (DLM) إلى غوجيك. سعر ثابت، خدمة استقبال، إلغاء مجاني، ودعم عملاء 24/7."
+            }
+        }
+        ,
+        "/dalaman-airport-to-hisaronu": {
+            "headTitle": {
+                "en": "Dalaman Airport to Hisarönü Transfers | Private & Reliable",
+                "tr": "Dalaman Havalimanı Hisarönü Transferleri | Özel ve Güvenilir",
+                "zh": "达拉曼机场至希萨尔奥尼接送服务 | 私人且可靠",
+                "ru": "Трансферы из аэропорта Даламан в Хисарёню | Частные и Надежные",
+                "es": "Traslados del Aeropuerto de Dalaman a Hisarönü | Privado y Confiable",
+                "it": "Transfer dall Aeroporto di Dalaman a Hisarönü | Privato e Affidabile",
+                "ar": "خدمة النقل من مطار دالامان إلى هيسارونو | خاصة وموثوقة"
+            },
+            "keywords": {
+                "en": "Dalaman Airport to Hisarönü taxi, Dalaman Airport to Hisarönü transfer, private airport transfer Dalaman, Hisarönü airport shuttle, DLM to Hisarönü",
+                "tr": "Dalaman Havalimanı Hisarönü taksi, Dalaman Hisarönü transferi, özel havalimanı transferi Dalaman, Hisarönü havalimanı servisi, DLM Hisarönü",
+                "zh": "达拉曼机场至希萨尔奥尼出租车, 达拉曼到希萨尔奥尼接送, 私人机场接送达拉曼, 希萨尔奥尼机场班车, DLM至希萨尔奥尼",
+                "ru": "Такси из аэропорта Даламан в Хисарёню, трансфер Даламан-Хисарёню, частный трансфер из аэропорта Даламан, шаттл до Хисарёню, DLM в Хисарёню",
+                "es": "Taxi del Aeropuerto de Dalaman a Hisarönü, traslado Dalaman Hisarönü, traslado privado aeropuerto Dalaman, transporte aeropuerto Hisarönü, DLM a Hisarönü",
+                "it": "Taxi aeroporto Dalaman Hisarönü, transfer aeroporto Dalaman Hisarönü, trasferimento privato Dalaman, navetta aeroporto Hisarönü, DLM Hisarönü",
+                "ar": "تاكسي من مطار دالامان إلى هيسارونو, نقل من دالامان إلى هيسارونو, نقل خاص من مطار دالامان, حافلة مطار هيسارونو, DLM إلى هيسارونو"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Dalaman Airport (DLM) to Hisarönü. Fixed-price, meet & greet service, free cancellation, and 24/7 customer support.",
+                "tr": "Dalaman Havalimanı'ndan (DLM) Hisarönü'ne özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti, ücretsiz iptal ve 7/24 müşteri desteği.",
+                "zh": "预订从达拉曼机场（DLM）到希萨尔奥尼的私人接送服务。固定价格，接机服务，免费取消，全天候客服支持。",
+                "ru": "Закажите частный трансфер из аэропорта Даламан (DLM) в Хисарёню. Фиксированная цена, встреча в аэропорту, бесплатная отмена и поддержка 24/7.",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Dalaman (DLM) a Hisarönü. Precio fijo, servicio de bienvenida, cancelación gratuita y atención 24/7.",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Dalaman (DLM) a Hisarönü. Prezzo fisso, accoglienza, cancellazione gratuita e supporto 24/7.",
+                "ar": "احجز خدمة نقل خاصة من مطار دالامان (DLM) إلى هيسارونو. سعر ثابت، خدمة استقبال، إلغاء مجاني، ودعم عملاء 24/7."
+            }
+        }
+        ,
+        "/dalaman-airport-to-calis-beach": {
+            "headTitle": {
+                "en": "Dalaman Airport to Çalış Beach Transfers | Private & Reliable",
+                "tr": "Dalaman Havalimanı Çalış Plajı Transferleri | Özel ve Güvenilir",
+                "zh": "达拉曼机场至查勒什海滩接送服务 | 私人且可靠",
+                "ru": "Трансферы из аэропорта Даламан на пляж Чалыш | Частные и Надежные",
+                "es": "Traslados del Aeropuerto de Dalaman a la Playa Çalış | Privado y Confiable",
+                "it": "Transfer dall Aeroporto di Dalaman alla Spiaggia di Çalış | Privato e Affidabile",
+                "ar": "خدمة النقل من مطار دالامان إلى شاطئ تشاليس | خاصة وموثوقة"
+            },
+            "keywords": {
+                "en": "Dalaman Airport to Çalış Beach taxi, Dalaman Airport to Çalış Beach transfer, private airport transfer Dalaman, Çalış Beach airport shuttle, DLM to Çalış Beach",
+                "tr": "Dalaman Havalimanı Çalış Plajı taksi, Dalaman Çalış Plajı transferi, özel havalimanı transferi Dalaman, Çalış Plajı havalimanı servisi, DLM Çalış Plajı",
+                "zh": "达拉曼机场至查勒什海滩出租车, 达拉曼到查勒什海滩接送, 私人机场接送达拉曼, 查勒什海滩机场班车, DLM至查勒什海滩",
+                "ru": "Такси из аэропорта Даламан на пляж Чалыш, трансфер Даламан-Чалыш, частный трансфер из аэропорта Даламан, шаттл до пляжа Чалыш, DLM в Чалыш",
+                "es": "Taxi del Aeropuerto de Dalaman a la Playa Çalış, traslado Dalaman Playa Çalış, traslado privado aeropuerto Dalaman, transporte aeropuerto Playa Çalış, DLM a Playa Çalış",
+                "it": "Taxi aeroporto Dalaman Spiaggia Çalış, transfer aeroporto Dalaman Spiaggia Çalış, trasferimento privato Dalaman, navetta aeroporto Spiaggia Çalış, DLM Spiaggia Çalış",
+                "ar": "تاكسي من مطار دالامان إلى شاطئ تشاليس, نقل من دالامان إلى شاطئ تشاليس, نقل خاص من مطار دالامان, حافلة مطار شاطئ تشاليس, DLM إلى شاطئ تشاليس"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Dalaman Airport (DLM) to Çalış Beach. Fixed-price, meet & greet service, free cancellation, and 24/7 customer support.",
+                "tr": "Dalaman Havalimanı'ndan (DLM) Çalış Plajı'na özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti, ücretsiz iptal ve 7/24 müşteri desteği.",
+                "zh": "预订从达拉曼机场（DLM）到查勒什海滩的私人接送服务。固定价格，接机服务，免费取消，全天候客服支持。",
+                "ru": "Закажите частный трансфер из аэропорта Даламан (DLM) на пляж Чалыш. Фиксированная цена, встреча в аэропорту, бесплатная отмена и поддержка 24/7.",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Dalaman (DLM) a la Playa Çalış. Precio fijo, servicio de bienvenida, cancelación gratuita y atención 24/7.",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Dalaman (DLM) alla Spiaggia di Çalış. Prezzo fisso, accoglienza, cancellazione gratuita e supporto 24/7.",
+                "ar": "احجز خدمة نقل خاصة من مطار دالامان (DLM) إلى شاطئ تشاليس. سعر ثابت، خدمة استقبال، إلغاء مجاني، ودعم عملاء 24/7."
+            }
+        },
+
+        "/dalaman-airport-to-akyaka": {
+            "headTitle": {
+                "en": "Dalaman Airport to Akyaka Transfers | Private & Reliable",
+                "tr": "Dalaman Havalimanı Akyaka Transferleri | Özel ve Güvenilir",
+                "zh": "达拉曼机场至阿克亚卡接送服务 | 私人且可靠",
+                "ru": "Трансферы из аэропорта Даламан в Акьяку | Частные и Надежные",
+                "es": "Traslados del Aeropuerto de Dalaman a Akyaka | Privado y Confiable",
+                "it": "Transfer dall Aeroporto di Dalaman ad Akyaka | Privato e Affidabile",
+                "ar": "خدمة النقل من مطار دالامان إلى أكياكا | خاصة وموثوقة"
+            },
+            "keywords": {
+                "en": "Dalaman Airport to Akyaka taxi, Dalaman Airport to Akyaka transfer, private airport transfer Dalaman, Akyaka airport shuttle, DLM to Akyaka",
+                "tr": "Dalaman Havalimanı Akyaka taksi, Dalaman Akyaka transferi, özel havalimanı transferi Dalaman, Akyaka havalimanı servisi, DLM Akyaka",
+                "zh": "达拉曼机场至阿克亚卡出租车, 达拉曼到阿克亚卡接送, 私人机场接送达拉曼, 阿克亚卡机场班车, DLM至阿克亚卡",
+                "ru": "Такси из аэропорта Даламан в Акьяку, трансфер Даламан-Акьяка, частный трансфер из аэропорта Даламан, шаттл до Акьяки, DLM в Акьяку",
+                "es": "Taxi del Aeropuerto de Dalaman a Akyaka, traslado Dalaman Akyaka, traslado privado aeropuerto Dalaman, transporte aeropuerto Akyaka, DLM a Akyaka",
+                "it": "Taxi aeroporto Dalaman Akyaka, transfer aeroporto Dalaman Akyaka, trasferimento privato Dalaman, navetta aeroporto Akyaka, DLM Akyaka",
+                "ar": "تاكسي من مطار دالامان إلى أكياكا, نقل من دالامان إلى أكياكا, نقل خاص من مطار دالامان, حافلة مطار أكياكا, DLM إلى أكياكا"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Dalaman Airport (DLM) to Akyaka. Fixed-price, meet & greet service, free cancellation, and 24/7 customer support.",
+                "tr": "Dalaman Havalimanı'ndan (DLM) Akyaka'ya özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti, ücretsiz iptal ve 7/24 müşteri desteği.",
+                "zh": "预订从达拉曼机场（DLM）到阿克亚卡的私人接送服务。固定价格，接机服务，免费取消，全天候客服支持。",
+                "ru": "Закажите частный трансфер из аэропорта Даламан (DLM) в Акьяку. Фиксированная цена, встреча в аэропорту, бесплатная отмена и поддержка 24/7.",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Dalaman (DLM) a Akyaka. Precio fijo, servicio de bienvenida, cancelación gratuita y atención 24/7.",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Dalaman (DLM) ad Akyaka. Prezzo fisso, accoglienza, cancellazione gratuita e supporto 24/7.",
+                "ar": "احجز خدمة نقل خاصة من مطار دالامان (DLM) إلى أكياكا. سعر ثابت، خدمة استقبال، إلغاء مجاني، ودعم عملاء 24/7."
+            }
+        }
+        ,
+        "/dalaman-airport-to-datca": {
+            "headTitle": {
+                "en": "Dalaman Airport to Datça Transfers | Private & Reliable",
+                "tr": "Dalaman Havalimanı Datça Transferleri | Özel ve Güvenilir",
+                "zh": "达拉曼机场至达特恰接送服务 | 私人且可靠",
+                "ru": "Трансферы из аэропорта Даламан в Датчу | Частные и Надежные",
+                "es": "Traslados del Aeropuerto de Dalaman a Datça | Privado y Confiable",
+                "it": "Transfer dall Aeroporto di Dalaman a Datça | Privato e Affidabile",
+                "ar": "خدمة النقل من مطار دالامان إلى داتشا | خاصة وموثوقة"
+            },
+            "keywords": {
+                "en": "Dalaman Airport to Datça taxi, Dalaman Airport to Datça transfer, private airport transfer Dalaman, Datça airport shuttle, DLM to Datça",
+                "tr": "Dalaman Havalimanı Datça taksi, Dalaman Datça transferi, özel havalimanı transferi Dalaman, Datça havalimanı servisi, DLM Datça",
+                "zh": "达拉曼机场至达特恰出租车, 达拉曼到达特恰接送, 私人机场接送达拉曼, 达特恰机场班车, DLM至达特恰",
+                "ru": "Такси из аэропорта Даламан в Датчу, трансфер Даламан-Датча, частный трансфер из аэропорта Даламан, шаттл до Датчи, DLM в Датчу",
+                "es": "Taxi del Aeropuerto de Dalaman a Datça, traslado Dalaman Datça, traslado privado aeropuerto Dalaman, transporte aeropuerto Datça, DLM a Datça",
+                "it": "Taxi aeroporto Dalaman Datça, transfer aeroporto Dalaman Datça, trasferimento privato Dalaman, navetta aeroporto Datça, DLM Datça",
+                "ar": "تاكسي من مطار دالامان إلى داتشا, نقل من دالامان إلى داتشا, نقل خاص من مطار دالامان, حافلة مطار داتشا, DLM إلى داتشا"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Dalaman Airport (DLM) to Datça. Fixed-price, meet & greet service, free cancellation, and 24/7 customer support.",
+                "tr": "Dalaman Havalimanı'ndan (DLM) Datça'ya özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti, ücretsiz iptal ve 7/24 müşteri desteği.",
+                "zh": "预订从达拉曼机场（DLM）到达特恰的私人接送服务。固定价格，接机服务，免费取消，全天候客服支持。",
+                "ru": "Закажите частный трансфер из аэропорта Даламан (DLM) в Датчу. Фиксированная цена, встреча в аэропорту, бесплатная отмена и поддержка 24/7.",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Dalaman (DLM) a Datça. Precio fijo, servicio de bienvenida, cancelación gratuita y atención 24/7.",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Dalaman (DLM) a Datça. Prezzo fisso, accoglienza, cancellazione gratuita e supporto 24/7.",
+                "ar": "احجز خدمة نقل خاصة من مطار دالامان (DLM) إلى داتشا. سعر ثابت، خدمة استقبال، إلغاء مجاني، ودعم عملاء 24/7."
+            }
+        }
+    },
     AYT: {},
-    DLM: {},
     BJY: {},
     ADB: {},
     GZP: {}
@@ -1813,7 +2053,7 @@ const metaTagPopularDestatinationPage = (env) => ({
                 `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-taksim\" />`,
                 `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-taksim\" />`,
                 `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-taksim\" />`,
-                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-taksim\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\" />`,
                 "<meta property=\"og:type\" content=\"website\">",
                 "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Taksim Taxi | Fast & Reliable Transfers\">",
                 "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Taksim? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
@@ -1951,7 +2191,7 @@ const metaTagPopularDestatinationPage = (env) => ({
                 `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-sultanahmet\" />`,
                 `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-sultanahmet\" />`,
                 `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-sultanahmet\" />`,
-                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-sultanahmet\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-sultanahmet\" />`,
                 "<meta property=\"og:type\" content=\"website\">",
                 "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Sultanahmet Taxi | Fast & Reliable Transfers\">",
                 "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Sultanahmet? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
@@ -2092,7 +2332,7 @@ const metaTagPopularDestatinationPage = (env) => ({
                 `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-kadikoy\" />`,
                 `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-kadikoy\" />`,
                 `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-kadikoy\" />`,
-                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-kadikoy\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-kadikoy\" />`,
                 "<meta property=\"og:type\" content=\"website\">",
                 "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Kadıköy Taxi | Fast & Reliable Transfers\">",
                 "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Kadıköy? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
@@ -2232,7 +2472,7 @@ const metaTagPopularDestatinationPage = (env) => ({
                 `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-beyoglu\" />`,
                 `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-beyoglu\" />`,
                 `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-beyoglu\" />`,
-                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-beyoglu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-beyoglu\" />`,
                 "<meta property=\"og:type\" content=\"website\">",
                 "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Beyoğlu Taxi | Fast & Reliable Transfers\">",
                 "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Beyoğlu? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
@@ -2373,7 +2613,7 @@ const metaTagPopularDestatinationPage = (env) => ({
                 `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-besiktas\" />`,
                 `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-besiktas\" />`,
                 `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-besiktas\" />`,
-                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-besiktas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-besiktas\" />`,
                 "<meta property=\"og:type\" content=\"website\">",
                 "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Beşiktaş Taxi | Fast & Reliable Transfers\">",
                 "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Beşiktaş? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
@@ -2514,7 +2754,7 @@ const metaTagPopularDestatinationPage = (env) => ({
                 `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-uskudar\" />`,
                 `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-uskudar\" />`,
                 `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-uskudar\" />`,
-                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-uskudar\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar\" />`,
                 "<meta property=\"og:type\" content=\"website\">",
                 "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Üsküdar Taxi | Fast & Reliable Transfers\">",
                 "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Üsküdar? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
@@ -2655,7 +2895,7 @@ const metaTagPopularDestatinationPage = (env) => ({
                 `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-eminonu\" />`,
                 `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-eminonu\" />`,
                 `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-eminonu\" />`,
-                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-eminonu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-eminonu\" />`,
                 "<meta property=\"og:type\" content=\"website\">",
                 "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Eminönü Taxi | Fast & Reliable Transfers\">",
                 "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Eminönü? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
@@ -2796,7 +3036,7 @@ const metaTagPopularDestatinationPage = (env) => ({
                 `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-to-bursa\" />`,
                 `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-to-bursa\" />`,
                 `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-to-bursa\" />`,
-                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}"/sabiha-gokcen-airport-to-bursa\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-to-bursa\" />`,
                 "<meta property=\"og:type\" content=\"website\">",
                 "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport to Bursa Taxi | Fast & Reliable Transfers\">",
                 "<meta property=\"og:description\" content=\"Need a taxi from Sabiha Gökçen Airport to Bursa? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet at Column 13. No extra charge for flight delays. Book now!\">",
@@ -2929,8 +3169,1137 @@ const metaTagPopularDestatinationPage = (env) => ({
 
         },
     },
+    DLM: {
+
+        "/dalaman-airport-to-oludeniz": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Airport to Ölüdeniz Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Need a private transfer from Dalaman Airport to Ölüdeniz? APL Transfers offers a reliable, fixed-price service with meet & greet at arrivals and 24/7 support.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Airport to Ölüdeniz Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Dalaman Airport to Ölüdeniz transfer with APL Transfers. Fixed prices, 24/7 availability, and free flight monitoring\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Havalimanı Ölüdeniz Transferleri | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Dalaman Havalimanı'ndan Ölüdeniz'e özel transfer mi arıyorsunuz? APL Transfers, karşılamalı ve 7/24 destekli sabit fiyatlı güvenilir bir hizmet sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Havalimanı Ölüdeniz Transferleri | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Dalaman Havalimanı'ndan Ölüdeniz'e transferinizi APL Transfers ile ayırtın. Sabit fiyat, 7/24 hizmet ve ücretsiz uçuş takibi.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+            ],
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة نقل من مطار دالامان إلى أولودينيز | خاصة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى خدمة نقل خاصة من مطار دالامان إلى أولودينيز؟ تقدم APL Transfers خدمة موثوقة بسعر ثابت مع استقبال في صالة الوصول ودعم على مدار الساعة.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة نقل من مطار دالامان إلى أولودينيز | خاصة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار دالامان إلى أولودينيز مع APL Transfers. أسعار ثابتة، خدمة متوفرة 24/7، ومتابعة مجانية للرحلات الجوية.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+            ],
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Ölüdeniz | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Dalaman a Ölüdeniz? APL Transfers ofrece un servicio confiable, con precio fijo, bienvenida en llegadas y soporte 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Ölüdeniz | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Dalaman a Ölüdeniz con APL Transfers. Precios fijos, disponibilidad 24/7 y seguimiento gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Ölüdeniz | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un trasferimento privato dall Aeroporto di Dalaman a Ölüdeniz? APL Transfers offre un servizio affidabile a prezzo fisso, con accoglienza all arrivo e supporto 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Ölüdeniz | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Dalaman a Ölüdeniz con APL Transfers. Prezzo fisso, disponibilità 24/7 e monitoraggio gratuito dei voli.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Даламан в Олюдениз | Частный и Надежный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Даламан в Олюдениз? APL Transfers предлагает надежную услугу по фиксированной цене с встречей в зоне прилета и поддержкой 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Даламан в Олюдениз | Частный и Надежный\">",
+                "<meta name=\"twitter:description\" content=\"Закажите трансфер из аэропорта Даламан в Олюдениз с APL Transfers. Фиксированные цены, круглосуточная доступность и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-oludeniz\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"达拉曼机场至厄吕代尼兹接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从达拉曼机场前往厄吕代尼兹的私人接送服务吗？APL Transfers 提供可靠、固定价格的接送服务，机场迎接，全天候支持。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-oludeniz\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"达拉曼机场至厄吕代尼兹接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订达拉曼机场至厄吕代尼兹的接送服务。固定价格、全天候服务以及免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp\">`,
+            ],
+
+        },
+        "/dalaman-airport-to-fethiye-town-center": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-fethiye-town-center\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Airport to Fethiye Town Center Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Need a private transfer from Dalaman Airport to Fethiye? APL Transfers offers a reliable, fixed-price service with meet & greet at arrivals and 24/7 support.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Airport to Fethiye Town Center Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Dalaman Airport to Fethiye transfer with APL Transfers. Fixed prices, 24/7 availability, and free flight monitoring.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-fethiye-town-center\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Havalimanı Fethiye Merkez Transferleri | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Dalaman Havalimanı'ndan Fethiye'ye özel transfer mi arıyorsunuz? APL Transfers, karşılamalı ve sabit fiyatlı güvenilir hizmet sunar. 7/24 destek mevcuttur.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Havalimanı Fethiye Merkez Transferleri | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Dalaman Havalimanı'ndan Fethiye'ye transferinizi APL Transfers ile ayırtın. Sabit fiyatlar, 7/24 hizmet ve ücretsiz uçuş takibi.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-fethiye-town-center\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة نقل من مطار دالامان إلى مركز مدينة فتحية | خاصة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى خدمة نقل خاصة من مطار دالامان إلى فتحية؟ تقدم APL Transfers خدمة موثوقة بأسعار ثابتة، مع استقبال في صالة الوصول ودعم 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة نقل من مطار دالامان إلى مركز مدينة فتحية | خاصة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار دالامان إلى فتحية مع APL Transfers. أسعار ثابتة، دعم 24/7، ومتابعة مجانية للرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-fethiye-town-center\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Dalaman al Centro de Fethiye | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Dalaman a Fethiye? APL Transfers ofrece un servicio confiable a precio fijo, con bienvenida en llegadas y soporte 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Dalaman al Centro de Fethiye | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Dalaman a Fethiye con APL Transfers. Precio fijo, disponibilidad 24/7 y seguimiento de vuelos gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-fethiye-town-center\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Dalaman al centro di Fethiye | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un trasferimento privato dall Aeroporto di Dalaman a Fethiye? APL Transfers offre un servizio affidabile, a prezzo fisso, con accoglienza all'arrivo e supporto 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Dalaman al centro di Fethiye | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Dalaman a Fethiye con APL Transfers. Prezzo fisso, servizio 24/7 e monitoraggio gratuito del volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-fethiye-town-center\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Даламан в центр Фетхие | Частный и Надежный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Даламан в Фетхие? APL Transfers предлагает надежную услугу по фиксированной цене, встречу в зоне прилета и круглосуточную поддержку.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Даламан в центр Фетхие | Частный и Надежный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Даламан в Фетхие с APL Transfers. Фиксированные цены, круглосуточная поддержка и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh"/dalaman-airport-to-fethiye-town-center\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-fethiye-town-center\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"达拉曼机场至费特希耶市中心接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从达拉曼机场到费特希耶的私人接送服务吗？APL Transfers 提供可靠、固定价格的服务，含接机服务与全天候支持。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}"/dalaman-airport-to-fethiye-town-center\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"达拉曼机场至费特希耶市中心接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订达拉曼机场至费特希耶的接送服务。固定价格，全天候服务，以及免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp\">`,
+            ],
+
+        },
+        "/dalaman-airport-to-faralya-butterfly-valley": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Airport to Marmaris Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Need a private transfer from Dalaman Airport to Marmaris? APL Transfers offers a reliable, fixed-price service with meet & greet at arrivals and 24/7 support.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Airport to Marmaris Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Dalaman Airport to Marmaris transfer with APL Transfers. Fixed prices, 24/7 availability, and free flight monitoring.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Havalimanı Faralya Kelebekler Vadisi Transferleri | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Dalaman Havalimanı'ndan Faralya Kelebekler Vadisi'ne özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, karşılama hizmetli ve 7/24 destekli güvenilir bir hizmet sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Havalimanı Faralya Kelebekler Vadisi Transferleri | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Dalaman Havalimanı'ndan Faralya Kelebekler Vadisi'ne transferinizi APL Transfers ile ayırtın. Sabit fiyat, 7/24 hizmet ve ücretsiz uçuş takibi.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة نقل من مطار دالامان إلى فاراليا ووادي الفراشات | خاصة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن خدمة نقل خاصة من مطار دالامان إلى فاراليا ووادي الفراشات؟ تقدم APL Transfers خدمة موثوقة بأسعار ثابتة مع استقبال ودعم على مدار الساعة.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة نقل من مطار دالامان إلى فاراليا ووادي الفراشات | خاصة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار دالامان إلى فاراليا ووادي الفراشات مع APL Transfers. أسعار ثابتة وخدمة 24/7 ومتابعة مجانية للرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Faralya y el Valle de las Mariposas | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Dalaman a Faralya o el Valle de las Mariposas? APL Transfers ofrece un servicio confiable a precio fijo, con bienvenida en llegadas y soporte 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Faralya y el Valle de las Mariposas | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Dalaman a Faralya con APL Transfers. Precio fijo, servicio 24/7 y monitoreo gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Faralya e Butterfly Valley | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un trasferimento privato dall Aeroporto di Dalaman a Faralya o Butterfly Valley? APL Transfers offre un servizio affidabile, a prezzo fisso, con accoglienza all arrivo e supporto 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Faralya e Butterfly Valley | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Dalaman a Faralya con APL Transfers. Prezzo fisso, servizio 24/7 e monitoraggio voli gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Даламан в Фаралью и Долину Бабочек | Частный и Надежный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Даламан в Фаралью или Долину Бабочек? APL Transfers предлагает надежный сервис по фиксированной цене, встречу в зоне прилета и поддержку 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Даламан в Фаралью и Долину Бабочек | Частный и Надежный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Даламан в Фаралью с APL Transfers. Фиксированная цена, поддержка 24/7 и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"达拉曼机场至法拉利亚蝴蝶谷接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从达拉曼机场前往法拉利亚或蝴蝶谷的私人接送服务吗？APL Transfers 提供可靠、固定价格的服务，含接机服务与全天候支持。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"达拉曼机场至法拉利亚蝴蝶谷接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订达拉曼机场至法拉利亚的接送服务。固定价格、全天候服务以及免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp\">`,
+            ],
+
+        },
+        "/dalaman-airport-to-gocek": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Airport to Göcek Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Need a private transfer from Dalaman Airport to Göcek? APL Transfers offers a reliable, fixed-price service with meet & greet at arrivals and 24/7 support.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-gocek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Airport to Göcek Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Dalaman Airport to Göcek transfer with APL Transfers. Fixed prices, 24/7 availability, and free flight monitoring.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Havalimanı Göcek Transferleri | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Dalaman Havalimanı'ndan Göcek'e özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, karşılama hizmetli ve 7/24 destekli güvenilir bir hizmet sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-gocek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Havalimanı Göcek Transferleri | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Dalaman Havalimanı'ndan Göcek'e transferinizi APL Transfers ile ayırtın. Sabit fiyat, 7/24 hizmet ve ücretsiz uçuş takibi.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة نقل من مطار دالامان إلى جوتشيك | خاصة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى خدمة نقل خاصة من مطار دالامان إلى جوتشيك؟ تقدم APL Transfers خدمة موثوقة بسعر ثابت مع استقبال في صالة الوصول ودعم على مدار الساعة.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-gocek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة نقل من مطار دالامان إلى جوتشيك | خاصة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار دالامان إلى جوتشيك مع APL Transfers. أسعار ثابتة، دعم 24/7، ومتابعة مجانية للرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Göcek | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Dalaman a Göcek? APL Transfers ofrece un servicio confiable a precio fijo, con bienvenida en llegadas y soporte 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-gocek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Göcek | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Dalaman a Göcek con APL Transfers. Precio fijo, disponibilidad 24/7 y monitoreo gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Göcek | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un trasferimento privato dall Aeroporto di Dalaman a Göcek? APL Transfers offre un servizio affidabile a prezzo fisso, con accoglienza all'arrivo e supporto 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-gocek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Göcek | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Dalaman a Göcek con APL Transfers. Prezzo fisso, servizio 24/7 e monitoraggio gratuito del volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Даламан в Гёджек | Частный и Надёжный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Даламан в Гёджек? APL Transfers предлагает надёжный сервис по фиксированной цене с встречей в зоне прилёта и круглосуточной поддержкой.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-gocek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Даламан в Гёджек | Частный и Надёжный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Даламан в Гёджек с APL Transfers. Фиксированная цена, поддержка 24/7 и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-gocek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-gocek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"达拉曼机场至戈杰克接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从达拉曼机场前往戈杰克的私人接送服务吗？APL Transfers 提供可靠、固定价格的服务，含接机服务与全天候支持。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-gocek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"达拉曼机场至戈杰克接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订达拉曼机场至戈杰克的接送服务。固定价格，全天候服务，以及免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp\">`,
+            ],
+        },
+        "/dalaman-airport-to-hisaronu": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Airport to Hisarönü Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Need a private transfer from Dalaman Airport to Hisarönü? APL Transfers offers a reliable, fixed-price service with meet & greet at arrivals and 24/7 support\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Airport to Hisarönü Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Dalaman Airport to Hisarönü transfer with APL Transfers. Fixed prices, 24/7 availability, and free flight monitoring\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Havalimanı Hisarönü Transferleri | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Dalaman Havalimanı'ndan Hisarönü'ne özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, karşılama hizmetli ve 7/24 destekli güvenilir bir hizmet sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Havalimanı Hisarönü Transferleri | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Dalaman Havalimanı'ndan Hisarönü'ne transferinizi APL Transfers ile ayırtın. Sabit fiyat, 7/24 hizmet ve ücretsiz uçuş takibi.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة نقل من مطار دالامان إلى هيسارونو | خاصة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى خدمة نقل خاصة من مطار دالامان إلى هيسارونو؟ تقدم APL Transfers خدمة موثوقة بسعر ثابت مع استقبال في صالة الوصول ودعم على مدار الساعة.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة نقل من مطار دالامان إلى هيسارونو | خاصة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار دالامان إلى هيسارونو مع APL Transfers. أسعار ثابتة، دعم 24/7، ومتابعة مجانية للرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Hisarönü | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Dalaman a Hisarönü? APL Transfers ofrece un servicio confiable a precio fijo, con bienvenida en llegadas y soporte 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Hisarönü | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Dalaman a Hisarönü con APL Transfers. Precio fijo, disponibilidad 24/7 y monitoreo gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Hisarönü | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un trasferimento privato dall Aeroporto di Dalaman a Hisarönü? APL Transfers offre un servizio affidabile a prezzo fisso con accoglienza all'arrivo e supporto 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Hisarönü | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Dalaman a Hisarönü con APL Transfers. Prezzo fisso, disponibilità 24/7 e monitoraggio voli gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Даламан в Хисарёню | Частный и Надёжный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Даламан в Хисарёню? APL Transfers предлагает надёжный сервис по фиксированной цене с встречей в зоне прибытия и поддержкой 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Даламан в Хисарёню | Частный и Надёжный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Даламан в Хисарёню с APL Transfers. Фиксированная цена, поддержка 24/7 и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-hisaronu\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"达拉曼机场至希萨勒努接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从达拉曼机场前往希萨勒努的私人接送服务吗？APL Transfers 提供可靠、固定价格的服务，含接机服务与全天候支持。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-hisaronu\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"达拉曼机场至希萨勒努接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订达拉曼机场至希萨勒努的接送服务。固定价格，全天候服务以及免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp\">`,
+            ],
+
+        },
+        "/dalaman-airport-to-calis-beach": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Airport to Çalış Beach Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Need a private transfer from Dalaman Airport to Çalış Beach? APL Transfers offers a reliable, fixed-price service with meet & greet at arrivals and 24/7 support.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Airport to Çalış Beach Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Dalaman Airport to Çalış Beach transfer with APL Transfers. Fixed prices, 24/7 availability, and free flight monitoring.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Havalimanı Çalış Plajı Transferleri | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Dalaman Havalimanı'ndan Çalış Plajı'na özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, karşılama hizmetli ve 7/24 destekli güvenilir bir hizmet sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Havalimanı Çalış Plajı Transferleri | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Dalaman Havalimanı'ndan Çalış Plajı'na transferinizi APL Transfers ile ayırtın. Sabit fiyat, 7/24 hizmet ve ücretsiz uçuş takibi.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة نقل من مطار دالامان إلى شاطئ تشالش | خاصة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى خدمة نقل خاصة من مطار دالامان إلى شاطئ تشالش؟ تقدم APL Transfers خدمة موثوقة بسعر ثابت مع استقبال في صالة الوصول ودعم على مدار الساعة.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة نقل من مطار دالامان إلى شاطئ تشالش | خاصة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار دالامان إلى شاطئ تشالش مع APL Transfers. أسعار ثابتة، دعم 24/7، ومتابعة مجانية للرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Dalaman a la Playa de Çalış | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Dalaman a la Playa de Çalış? APL Transfers ofrece un servicio confiable a precio fijo, con bienvenida en llegadas y soporte 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Dalaman a la Playa de Çalış | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Dalaman a la Playa de Çalış con APL Transfers. Precio fijo, disponibilidad 24/7 y monitoreo gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Dalaman alla Spiaggia di Çalış | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un trasferimento privato dall Aeroporto di Dalaman alla Spiaggia di Çalış? APL Transfers offre un servizio affidabile a prezzo fisso con accoglienza all'arrivo e supporto 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Dalaman alla Spiaggia di Çalış | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Dalaman alla Spiaggia di Çalış con APL Transfers. Prezzo fisso, disponibilità 24/7 e monitoraggio voli gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Даламан на пляж Чалыш | Частный и Надёжный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Даламан на пляж Чалыш? APL Transfers предлагает надёжный сервис по фиксированной цене с встречей в зоне прибытия и поддержкой 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Даламан на пляж Чалыш | Частный и Надёжный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Даламан на пляж Чалыш с APL Transfers. Фиксированная цена, поддержка 24/7 и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-calis-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-calis-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"达拉曼机场至Çalış海滩接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从达拉曼机场前往Çalış海滩的私人接送服务吗？APL Transfers 提供可靠、固定价格的服务，含接机和全天候支持。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/sabiha-gokcen-airport-to-taksim\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"达拉曼机场至Çalış海滩接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从达拉曼机场到Çalış海滩的接送服务。固定价格，全天候服务以及免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp\">`,
+            ],
+
+        },
+        "/dalaman-airport-to-akyaka": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Airport to Akyaka Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Need a private transfer from Dalaman Airport to Akyaka? APL Transfers offers a reliable, fixed-price service with meet & greet at arrivals and 24/7 support\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Airport to Akyaka Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Dalaman Airport to Akyaka transfer with APL Transfers. Fixed prices, 24/7 availability, and free flight monitoring\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Havalimanı Akyaka Transferleri | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Dalaman Havalimanı'ndan Akyaka'ya özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, karşılama hizmetli ve 7/24 destekli güvenilir bir hizmet sunar\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Havalimanı Akyaka Transferleri | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Dalaman Havalimanı'ndan Akyaka'ya transferinizi APL Transfers ile ayırtın. Sabit fiyat, 7/24 hizmet ve ücretsiz uçuş takibi\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة نقل من مطار دالامان إلى أكياكا | خاصة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى خدمة نقل خاصة من مطار دالامان إلى أكياكا؟ تقدم APL Transfers خدمة موثوقة بسعر ثابت مع استقبال في صالة الوصول ودعم على مدار الساعة\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة نقل من مطار دالامان إلى أكياكا | خاصة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار دالامان إلى أكياكا مع APL Transfers. أسعار ثابتة، دعم 24/7، ومتابعة مجانية للرحلات\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Akyaka | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Dalaman a Akyaka? APL Transfers ofrece un servicio confiable a precio fijo, con bienvenida en llegadas y soporte 24/7\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Akyaka | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Dalaman a Akyaka con APL Transfers. Precio fijo, disponibilidad 24/7 y monitoreo gratuito de vuelos\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Dalaman ad Akyaka | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un trasferimento privato dall Aeroporto di Dalaman ad Akyaka? APL Transfers offre un servizio affidabile a prezzo fisso con accoglienza e supporto 24/7\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Dalaman ad Akyaka | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Dalaman ad Akyaka con APL Transfers. Prezzi fissi, disponibilità 24/7 e monitoraggio voli gratuito\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Даламан в Акьяку | Частный и Надёжный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Даламан в Акьяку? APL Transfers предлагает надёжный сервис по фиксированной цене с встречей и поддержкой 24/7\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Даламан в Акьяку | Частный и Надёжный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Даламан в Акьяку с APL Transfers. Фиксированная цена, поддержка 24/7 и бесплатный мониторинг рейсов\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"达拉曼机场至阿克亚卡接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从达拉曼机场前往阿克亚卡的私人接送服务吗？APL Transfers 提供可靠、固定价格的服务，含接机和全天候支持\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"达拉曼机场至阿克亚卡接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从达拉曼机场到阿克亚卡的接送服务。固定价格，全天候服务以及免费航班监控\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp\">`,
+            ],
+
+        },
+        "/dalaman-airport-to-datca": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Airport to Datça Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Need a private transfer from Dalaman Airport to Datça? APL Transfers offers a reliable, fixed-price service with meet & greet at arrivals and 24/7 support.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Airport to Datça Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Dalaman Airport to Datça transfer with APL Transfers. Fixed prices, 24/7 availability, and free flight monitoring\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Dalaman Havalimanı Datça Transferleri | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Dalaman Havalimanı'ndan Datça'ya özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, karşılama hizmetli ve 7/24 destekli güvenilir bir hizmet sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Dalaman Havalimanı Datça Transferleri | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Dalaman Havalimanı'ndan Datça'ya transferinizi APL Transfers ile ayırtın. Sabit fiyat, 7/24 hizmet ve ücretsiz uçuş takibi.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة نقل من مطار دالامان إلى داتشا | خاصة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى خدمة نقل خاصة من مطار دالامان إلى داتشا؟ تقدم APL Transfers خدمة موثوقة بسعر ثابت مع استقبال في صالة الوصول ودعم على مدار الساعة.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة نقل من مطار دالامان إلى داتشا | خاصة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار دالامان إلى داتشا مع APL Transfers. أسعار ثابتة، دعم 24/7، ومتابعة مجانية للرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Datça | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Dalaman a Datça? APL Transfers ofrece un servicio confiable a precio fijo, con bienvenida en llegadas y soporte 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Dalaman a Datça | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Dalaman a Datça con APL Transfers. Precio fijo, disponibilidad 24/7 y monitoreo gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Datça | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un trasferimento privato dall Aeroporto di Dalaman a Datça? APL Transfers offre un servizio affidabile a prezzo fisso con accoglienza all'arrivo e supporto 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Dalaman a Datça | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Dalaman a Datça con APL Transfers. Prezzi fissi, disponibilità 24/7 e monitoraggio voli gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Даламан в Датчу | Частный и Надёжный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Даламан в Датчу? APL Transfers предлагает надёжный сервис по фиксированной цене с встречей и круглосуточной поддержкой.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Даламан в Датчу | Частный и Надёжный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Даламан в Датчу с APL Transfers. Фиксированная цена, круглосуточная доступность и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-to-akyaka\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-to-akyaka\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"达拉曼机场到达特恰接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从达拉曼机场前往达特恰的私人接送服务吗？APL Transfers 提供可靠、固定价格的服务，含接机和全天候支持。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/dalaman-airport-to-akyaka\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"达拉曼机场到达特恰接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从达拉曼机场到达特恰的接送服务。固定价格，全天候服务，以及免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp\">`,
+            ],
+
+        },
+
+
+    },
     AYT: {},
-    DLM: {},
     BJY: {},
     ADB: {},
     GZP: {}
@@ -18333,283 +19702,5780 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                 }
             },
         },
-        // "image": `${env.websiteDomain}/images/popularDestinations/istanbul/uskudar.webp`,
-        // "url": `${env.websiteDomain}/sabiha-gokcen-airport-to-uskudar`,
         DLM: {
             "/dalaman-airport-to-oludeniz": {
                 en: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "@id": "51",
+                        "url": `${env.websiteDomain}/dalaman-airport-to-oludeniz`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Airport to Ölüdeniz Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "description": "Book a comfortable private transfer from Dalaman Airport (DLM) to Ölüdeniz. Meet & greet service, fixed pricing, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-OZN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/dalaman-airport-to-oludeniz`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "Excellent service! The driver met me at arrivals and took me to Ölüdeniz smoothly. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Airport to Ölüdeniz Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
                     "FAQPage": {
-
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How far is Ölüdeniz from Dalaman Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ölüdeniz is approximately 60 km from Dalaman Airport. The journey typically takes around 1 hour and 15 minutes by private transfer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the transfer from Dalaman Airport to Ölüdeniz private?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all transfers with APL Transfers are private. You and your group will have exclusive use of the vehicle."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Will my driver meet me inside the airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, your driver will meet you in the arrivals area holding a sign with your name, ready to assist with your luggage."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my transfer for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your transfer free of charge up to 24 hours before your scheduled pickup time."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you operate transfers to Ölüdeniz 24/7?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our private transfer service from Dalaman Airport to Ölüdeniz operates 24/7, including early morning and late-night arrivals."
+                                }
+                            }
+                        ]
                     }
 
                 },
                 tr: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "@id": "51",
+                        "url": `${env.websiteDomain}/tr/dalaman-airport-to-oludeniz`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Havalimanı'ndan Ölüdeniz'e Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "description": "Dalaman Havalimanı (DLM) ile Ölüdeniz arasında konforlu bir özel transfer rezervasyonu yapın. Karşılama hizmeti, sabit fiyat ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-OZN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/dalaman-airport-to-oludeniz`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "Harika bir hizmet! Şoför beni gelişte karşıladı ve Ölüdeniz'e sorunsuz bir şekilde ulaştırdı. APL Transfers’i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Havalimanı'ndan Ölüdeniz'e Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Ölüdeniz, Dalaman Havalimanı'na ne kadar uzaklıkta?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ölüdeniz, Dalaman Havalimanı'na yaklaşık 60 km uzaklıktadır. Özel transferle yolculuk genellikle yaklaşık 1 saat 15 dakika sürer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dalaman Havalimanı'ndan Ölüdeniz'e transfer özel mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, APL Transfers ile yapılan tüm transferler özeldir. Araç yalnızca size ve grubunuza tahsis edilir."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Şoförüm beni havalimanı içinde mi karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, şoförünüz geliş alanında isminizin yazılı olduğu tabela ile sizi karşılayacak ve bagaj konusunda yardımcı olacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Transferimi ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, planlanan karşılama saatinden 24 saat öncesine kadar ücretsiz iptal yapabilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Ölüdeniz'e 7/24 transfer hizmetiniz var mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, Dalaman Havalimanı'ndan Ölüdeniz'e özel transfer hizmetimiz erken sabah ve gece geç saatler dahil olmak üzere 7/24 hizmet vermektedir."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 ar: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "@id": "51",
+                        "url": `${env.websiteDomain}/ar/dalaman-airport-to-oludeniz`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة النقل من مطار دالامان إلى أولودينيز",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار دالامان (DLM) إلى أولودينيز. خدمة استقبال، تسعير ثابت، ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-OZN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/dalaman-airport-to-oludeniz`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "خدمة ممتازة! كان السائق بانتظاري في صالة الوصول وأوصلني إلى أولودينيز بسلاسة. أوصي بشدة بـ APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة النقل من مطار دالامان إلى أولودينيز"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "كم تبعد أولودينيز عن مطار دالامان؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "تبعد أولودينيز حوالي 60 كم عن مطار دالامان. وتستغرق الرحلة عادة حوالي ساعة و15 دقيقة بسيارة خاصة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل النقل من مطار دالامان إلى أولودينيز خاص؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع خدمات النقل مع APL Transfers خاصة. ستكون السيارة مخصصة لك وللمجموعة المرافقة فقط."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل سيلتقي بي السائق داخل المطار؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، سيلتقي بك السائق في منطقة الوصول وهو يحمل لافتة باسمك وسيساعدك في الأمتعة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء النقل مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء النقل مجانًا حتى 24 ساعة قبل وقت الاستلام المحدد."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تقدمون خدمة النقل إلى أولودينيز على مدار الساعة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نقدم خدمة النقل الخاصة من مطار دالامان إلى أولودينيز على مدار 24 ساعة، بما في ذلك الرحلات الصباحية المبكرة والمتأخرة."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 es: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "@id": "51",
+                        "url": `${env.websiteDomain}/es/dalaman-airport-to-oludeniz`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado desde el Aeropuerto de Dalaman a Ölüdeniz",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "description": "Reserva un traslado privado y cómodo desde el Aeropuerto de Dalaman (DLM) a Ölüdeniz. Servicio de bienvenida, precio fijo y atención 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-OZN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/dalaman-airport-to-oludeniz`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "¡Servicio excelente! El conductor me recibió en llegadas y me llevó a Ölüdeniz sin problemas. ¡Recomiendo APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado desde el Aeropuerto de Dalaman a Ölüdeniz"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿A qué distancia está Ölüdeniz del Aeropuerto de Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ölüdeniz se encuentra aproximadamente a 60 km del Aeropuerto de Dalaman. El viaje en traslado privado suele durar alrededor de 1 hora y 15 minutos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El traslado desde el Aeropuerto de Dalaman a Ölüdeniz es privado?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos los traslados con APL Transfers son privados. El vehículo será exclusivamente para ti y tu grupo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Mi conductor me esperará dentro del aeropuerto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, tu conductor te esperará en la zona de llegadas con un cartel con tu nombre y te ayudará con el equipaje."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi traslado sin coste?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu traslado sin coste hasta 24 horas antes de la hora de recogida programada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Operan traslados a Ölüdeniz las 24 horas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, nuestro servicio de traslado privado desde el Aeropuerto de Dalaman a Ölüdeniz opera las 24 horas, incluidos vuelos nocturnos y temprano por la mañana."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 it: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "@id": "51",
+                        "url": `${env.websiteDomain}/it/dalaman-airport-to-oludeniz`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento dall'Aeroporto di Dalaman a Ölüdeniz",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall'Aeroporto di Dalaman (DLM) a Ölüdeniz. Servizio di accoglienza, prezzo fisso e assistenza 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-OZN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/dalaman-airport-to-oludeniz`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "Servizio eccellente! L'autista mi ha accolto all'arrivo e mi ha accompagnato a Ölüdeniz senza problemi. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento dall'Aeroporto di Dalaman a Ölüdeniz"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dista Ölüdeniz dall'aeroporto di Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ölüdeniz dista circa 60 km dall'aeroporto di Dalaman. Il viaggio in auto privata dura generalmente circa 1 ora e 15 minuti."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il trasferimento dall'aeroporto di Dalaman a Ölüdeniz è privato?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i trasferimenti con APL Transfers sono privati. Il veicolo sarà esclusivamente per te e il tuo gruppo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il mio autista mi aspetterà all'interno dell'aeroporto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, il tuo autista ti incontrerà nell'area arrivi con un cartello con il tuo nome e ti aiuterà con i bagagli."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare il mio trasferimento gratuitamente?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare il tuo trasferimento gratuitamente fino a 24 ore prima dell'orario previsto di ritiro."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il servizio di trasferimento a Ölüdeniz è attivo 24/7?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, il nostro servizio di trasferimento privato da Dalaman a Ölüdeniz è disponibile 24 ore su 24, anche per arrivi notturni o mattutini."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 ru: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "@id": "51",
+                        "url": `${env.websiteDomain}/ru/dalaman-airport-to-oludeniz`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер из аэропорта Даламан в Олюдениз",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Даламан (DLM) в Олюдениз. Встреча с табличкой, фиксированная цена и поддержка 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-OZN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/dalaman-airport-to-oludeniz`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "Отличный сервис! Водитель встретил меня в зоне прибытия и без проблем доставил в Олюдениз. Настоятельно рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер из аэропорта Даламан в Олюдениз"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "На каком расстоянии находится Олюдениз от аэропорта Даламан?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Олюдениз находится примерно в 60 км от аэропорта Даламан. Поездка на частном трансфере занимает около 1 часа 15 минут."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Трансфер из аэропорта Даламан в Олюдениз является частным?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все трансферы от APL Transfers являются частными. Вы и ваша группа будете единственными пассажирами в автомобиле."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Водитель встретит меня внутри аэропорта?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, водитель встретит вас в зоне прибытия с табличкой с вашим именем и поможет с багажом."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я отменить трансфер бесплатно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить трансфер бесплатно за 24 часа до назначенного времени встречи."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Осуществляется ли трансфер в Олюдениз круглосуточно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, наш частный трансфер из аэропорта Даламан в Олюдениз доступен 24/7, включая ранние и ночные рейсы."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 zh: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "@id": "51",
+                        "url": `${env.websiteDomain}/zh/dalaman-airport-to-oludeniz`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "达拉曼机场至厄吕代尼兹接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/oludeniz.webp`,
+                        "description": "预订从达拉曼机场（DLM）到厄吕代尼兹的舒适私人接送服务。接机服务、固定价格、全天候 24/7 支持。",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-OZN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/dalaman-airport-to-oludeniz`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "服务非常好！司机在到达大厅等我，顺利地将我送到了厄吕代尼兹。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "达拉曼机场至厄吕代尼兹接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "厄吕代尼兹距离达拉曼机场有多远？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "厄吕代尼兹距离达拉曼机场大约60公里。通过私人接送服务通常需要约1小时15分钟。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "达拉曼机场到厄吕代尼兹的接送服务是私人的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，APL Transfers 提供的所有接送服务都是私人服务，车辆将专属于您和您的同行人员。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "司机会在机场里面接我吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "会的，您的司机会在到达区域举着写有您名字的牌子迎接您，并协助提取行李。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消接送服务吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可以在预约接送时间前24小时内免费取消服务。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们提供全天候前往厄吕代尼兹的接送服务吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们提供达拉曼机场至厄吕代尼兹的私人接送服务，全天24小时运营，包括清晨和深夜航班。"
+                                }
+                            }
+                        ]
+                    }
+
                 }
             },
             "/dalaman-airport-to-fethiye-town-center": {
                 en: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
-
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "@id": "49",
+                        "url": `${env.websiteDomain}/dalaman-airport-to-fethiye-town-center`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€49 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Airport to Fethiye Town Center Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+
+                        "description": "Book a comfortable private transfer from Dalaman Airport (DLM) to Fethiye Town Center. Meet & greet service, fixed pricing, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-FTH-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/dalaman-airport-to-fethiye-town-center`,
+                            "priceCurrency": "EUR",
+                            "price": "49.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1200,
+                            "reviewCount": 1200
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Walker",
+                            "reviewBody": "Fantastic service! My driver met me at arrivals and took me to Fethiye in a luxury car. Highly recommended APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Airport to Fethiye Town Center Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Walker"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Dalaman Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you at the arrivals area, just after customs, holding a passenger name board for easy recognition."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you track flights, and will I be charged if my flight is delayed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we track your flight in real-time. If your flight is delayed, we adjust your pickup time accordingly, and you will not be charged extra for delays."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Dalaman Airport to Fethiye fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our transfer prices are fixed with no hidden charges, providing transparent and competitive rates."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer free cancellations for Dalaman Airport to Fethiye transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before arrival."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What payment methods do you accept for Dalaman Airport transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "We accept payments in Euro (€49), GBP (£42), US Dollar, and Turkish Lira via secure online payment."
+                                }
+                            }
+                        ]
+                    }
+
 
                 },
                 tr: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "@id": "49",
+                        "url": `${env.websiteDomain}/tr/dalaman-airport-to-fethiye-town-center`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€49 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Havalimanı'ndan Fethiye Merkez'e Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "description": "Dalaman Havalimanı (DLM) ile Fethiye Merkez arasında konforlu bir özel transfer rezervasyonu yapın. Karşılama hizmeti, sabit fiyat ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-FTH-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/dalaman-airport-to-fethiye-town-center`,
+                            "priceCurrency": "EUR",
+                            "price": "49.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1200,
+                            "reviewCount": 1200
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Walker",
+                            "reviewBody": "Harika bir hizmetti! Şoförüm beni gelişte karşıladı ve lüks araçla Fethiye’ye götürdü. APL Transfers’i şiddetle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Havalimanı'ndan Fethiye Merkez'e Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Walker"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Şoförüm beni Dalaman Havalimanı'nda nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz, gümrükten çıktıktan hemen sonra geliş alanında sizi isminizin yazılı olduğu tabela ile karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Uçuşları takip ediyor musunuz ve uçuşum gecikirse ekstra ücret alınır mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, uçuşunuzu gerçek zamanlı olarak takip ediyoruz. Eğer uçuşunuz gecikirse, karşılama saatiniz buna göre ayarlanır ve ek ücret talep edilmez."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dalaman Havalimanı'ndan Fethiye'ye taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm transfer ücretlerimiz sabittir ve gizli ücret yoktur. Şeffaf ve rekabetçi fiyatlar sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dalaman Havalimanı'ndan Fethiye'ye olan transferlerde ücretsiz iptal var mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, rezervasyonunuzu varıştan 24 saat öncesine kadar ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dalaman Havalimanı transferleri için hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ödemeleri Euro (€49), GBP (£42), Amerikan Doları ve Türk Lirası cinsinden güvenli çevrimiçi ödeme yoluyla kabul ediyoruz."
+                                }
+                            }
+                        ]
                     }
                 },
                 ar: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "@id": "49",
+                        "url": `${env.websiteDomain}/ar/dalaman-airport-to-fethiye-town-center`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€49 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة النقل من مطار دالامان إلى مركز مدينة فتحية",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار دالامان (DLM) إلى مركز مدينة فتحية. خدمة استقبال، تسعير ثابت، ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-FTH-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/dalaman-airport-to-fethiye-town-center`,
+                            "priceCurrency": "EUR",
+                            "price": "49.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1200,
+                            "reviewCount": 1200
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Walker",
+                            "reviewBody": "خدمة رائعة! استقبلني السائق في صالة الوصول ونقلني إلى فتحية بسيارة فاخرة. أوصي بشدة بـ APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة النقل من مطار دالامان إلى مركز مدينة فتحية"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Walker"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
                     }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقي بي السائق في مطار دالامان؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقي بك السائق في منطقة الوصول بعد الجمارك مباشرة، حاملاً لوحة باسمك لتسهيل التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تتابعون الرحلات الجوية؟ وهل سيتم فرض رسوم إذا تأخرت رحلتي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نتابع رحلتك في الوقت الفعلي. إذا تأخرت الرحلة، نقوم بتعديل وقت الاستقبال وفقًا لذلك دون أي رسوم إضافية."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار دالامان إلى فتحية ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعار النقل لدينا ثابتة بدون أي رسوم خفية، مع توفير أسعار شفافة وتنافسية."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني الإلغاء مجانًا لرحلات مطار دالامان إلى فتحية؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الوصول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي طرق الدفع المقبولة لخدمات النقل من مطار دالامان؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نقبل الدفع باليورو (€49)، الجنيه الإسترليني (£42)، الدولار الأمريكي، والليرة التركية عبر دفع إلكتروني آمن."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 es: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "@id": "49",
+                        "url": `${env.websiteDomain}/es/dalaman-airport-to-fethiye-town-center`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€49 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado desde el Aeropuerto de Dalaman al Centro de Fethiye",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "description": "Reserva un traslado privado y cómodo desde el Aeropuerto de Dalaman (DLM) al centro de Fethiye. Servicio de bienvenida, precio fijo y atención 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-FTH-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/dalaman-airport-to-fethiye-town-center`,
+                            "priceCurrency": "EUR",
+                            "price": "49.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1200,
+                            "reviewCount": 1200
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Walker",
+                            "reviewBody": "¡Servicio fantástico! Mi conductor me recibió en llegadas y me llevó a Fethiye en un coche de lujo. ¡Recomiendo APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado desde el Aeropuerto de Dalaman al Centro de Fethiye"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Walker"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Tu conductor te esperará en el área de llegadas, justo después de aduanas, con un cartel con tu nombre para que lo reconozcas fácilmente."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Seguís los vuelos y cobraréis si mi vuelo se retrasa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, rastreamos tu vuelo en tiempo real. Si se retrasa, ajustamos la hora de recogida sin ningún cargo adicional."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Los precios del taxi desde el Aeropuerto de Dalaman a Fethiye son fijos?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos nuestros precios de traslado son fijos y sin cargos ocultos. Ofrecemos tarifas transparentes y competitivas."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen cancelaciones gratuitas para traslados del Aeropuerto de Dalaman a Fethiye?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva sin coste hasta 24 horas antes de la llegada."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué métodos de pago aceptan para los traslados desde el Aeropuerto de Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Aceptamos pagos en euros (€49), libras esterlinas (£42), dólares estadounidenses y liras turcas mediante pago en línea seguro."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 it: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "@id": "49",
+                        "url": `${env.websiteDomain}/it/dalaman-airport-to-fethiye-town-center`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€49 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento dall'Aeroporto di Dalaman al Centro di Fethiye",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall'Aeroporto di Dalaman (DLM) al centro di Fethiye. Servizio di accoglienza, prezzo fisso e assistenza 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-FTH-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/dalaman-airport-to-fethiye-town-center`,
+                            "priceCurrency": "EUR",
+                            "price": "49.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1200,
+                            "reviewCount": 1200
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Walker",
+                            "reviewBody": "Servizio fantastico! Il mio autista mi ha accolto all'arrivo e mi ha portato a Fethiye con un'auto di lusso. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento dall'Aeroporto di Dalaman al Centro di Fethiye"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Walker"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all'Aeroporto di Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà nell'area arrivi, subito dopo la dogana, con un cartello con il tuo nome per essere facilmente riconoscibile."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Tracciate i voli? Mi verrà addebitato un costo se il mio volo è in ritardo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, monitoriamo il tuo volo in tempo reale. Se è in ritardo, regoleremo l'orario di prelievo di conseguenza e non verrà addebitato alcun costo aggiuntivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "I prezzi del taxi dall'Aeroporto di Dalaman a Fethiye sono fissi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i nostri prezzi di trasferimento sono fissi, senza costi nascosti, e offriamo tariffe trasparenti e competitive."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite cancellazioni gratuite per i trasferimenti dall'Aeroporto di Dalaman a Fethiye?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare gratuitamente la tua prenotazione fino a 24 ore prima dell'arrivo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quali metodi di pagamento accettate per i trasferimenti dall'Aeroporto di Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Accettiamo pagamenti in Euro (€49), GBP (£42), Dollari USA e Lira Turca tramite pagamento online sicuro."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 ru: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "@id": "49",
+                        "url": `${env.websiteDomain}/ru/dalaman-airport-to-fethiye-town-center`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€49 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер из аэропорта Даламан в центр Фетхие",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "description": "Закажите комфортный частный трансфер из аэропорта Даламан (DLM) в центр Фетхие. Встреча с табличкой, фиксированная цена и поддержка 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-FTH-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/dalaman-airport-to-fethiye-town-center`,
+                            "priceCurrency": "EUR",
+                            "price": "49.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1200,
+                            "reviewCount": 1200
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Walker",
+                            "reviewBody": "Фантастический сервис! Водитель встретил меня в зоне прибытия и отвёз в Фетхие на роскошной машине. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер из аэропорта Даламан в центр Фетхие"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Walker"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Даламан?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель встретит вас в зоне прибытия сразу после прохождения таможни, держа табличку с вашим именем для легкой идентификации."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы отслеживаете рейсы, и будет ли взиматься плата, если мой рейс задерживается?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы отслеживаем ваш рейс в режиме реального времени. Если рейс задерживается, мы скорректируем время встречи, и дополнительная плата не взимается."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксированы ли цены на такси из аэропорта Даламан до Фетхие?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши тарифы фиксированы, без скрытых сборов. Мы предлагаем прозрачные и конкурентоспособные цены."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Можно ли бесплатно отменить трансфер из аэропорта Даламан до Фетхие?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до прибытия."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какие способы оплаты вы принимаете для трансферов из аэропорта Даламан?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Мы принимаем оплату в евро (€49), фунтах стерлингов (£42), долларах США и турецких лирах через безопасную онлайн-систему оплаты."
+                                }
+                            }
+                        ]
                     }
                 },
                 zh: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "@id": "49",
+                        "url": `${env.websiteDomain}/zh/dalaman-airport-to-fethiye-town-center`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€49 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "达拉曼机场至费特希耶市中心接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye.webp`,
+                        "description": "预订从达拉曼机场（DLM）到费特希耶市中心的舒适私人接送服务。接机服务、固定价格、全天候 24/7 客服。",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-FTH-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/dalaman-airport-to-fethiye-town-center`,
+                            "priceCurrency": "EUR",
+                            "price": "49.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1200,
+                            "reviewCount": 1200
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Walker",
+                            "reviewBody": "非常棒的服务！司机在到达大厅接我，并用一辆豪华车顺利送我到费特希耶。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "达拉曼机场至费特希耶市中心接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Walker"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在达拉曼机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在海关之后的到达区等候，手持写有您名字的接机牌，方便识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们会跟踪航班吗？如果航班延误会收取额外费用吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "会的，我们会实时跟踪您的航班。如果航班延误，我们会相应调整接机时间，不会收取任何额外费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "达拉曼机场到费特希耶的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，所有接送价格都是固定的，无隐藏费用，价格透明且具有竞争力。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "达拉曼机场到费特希耶的接送可以免费取消吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可以在接送时间前24小时内免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们接受哪些支付方式？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "我们接受欧元（€49）、英镑（£42）、美元和土耳其里拉的安全在线支付。"
+                                }
+                            }
+                        ]
                     }
+
                 }
             },
             "/dalaman-airport-to-faralya-butterfly-valley": {
                 en: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
-
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "@id": "50",
+                        "url": `${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Airport to Marmaris Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "description": "Book a comfortable private transfer from Dalaman Airport (DLM) to Marmaris. Meet & greet service, fixed pricing, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-MRM-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/dalaman-airport-to-faralya-butterfly-valley`,
 
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sarah Collins",
+                            "reviewBody": "Excellent service! The driver met me at arrivals and took me to Marmaris smoothly. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Airport to Marmaris Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sarah Collins"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How far is Marmaris from Dalaman Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Marmaris is approximately 95 km from Dalaman Airport. The journey by private transfer usually takes around 1 hour and 30 minutes."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the Dalaman to Marmaris transfer a private service?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all APL Transfers are private. You won’t share the vehicle with any other passengers—it's exclusively for you and your group."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Will my driver be waiting for me at the airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our driver will meet you inside the arrivals area holding a name board, ready to assist with your luggage."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking free of charge?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we offer free cancellation up to 24 hours before the scheduled pickup time."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you provide transfers to Marmaris 24/7?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our private transfer service from Dalaman Airport to Marmaris is available 24/7, including early morning and late-night flights."
+                                }
+                            }
+                        ]
+                    }
                 },
                 tr: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "@id": "50",
+                        "url": `${env.websiteDomain}/tr/dalaman-airport-to-faralya-butterfly-valley`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Havalimanı'ndan Marmaris'e Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "description": "Dalaman Havalimanı (DLM) ile Marmaris arasında konforlu bir özel transfer rezervasyonu yapın. Karşılama hizmeti, sabit fiyat ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-MRM-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/dalaman-airport-to-faralya-butterfly-valley`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sarah Collins",
+                            "reviewBody": "Harika bir hizmetti! Şoför beni varışta karşıladı ve Marmaris'e sorunsuz şekilde ulaştırdı. APL Transfers'i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Havalimanı'ndan Marmaris'e Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sarah Collins"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Marmaris, Dalaman Havalimanı'na ne kadar uzaklıkta?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Marmaris, Dalaman Havalimanı'na yaklaşık 95 km uzaklıktadır. Özel transfer ile yolculuk genellikle 1 saat 30 dakika sürer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dalaman'dan Marmaris'e transfer hizmeti özel mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, APL Transfers'in tüm transferleri özeldir. Aracı başkalarıyla paylaşmazsınız—tamamen size ve grubunuza özeldir."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Şoförüm havalimanında beni karşılayacak mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, şoförümüz sizi geliş alanında isminizin yazılı olduğu tabela ile karşılayacak ve bagajlarınıza yardımcı olacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, planlanan alma saatinden 24 saat öncesine kadar ücretsiz iptal hakkı sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Marmaris'e transfer hizmetiniz 7/24 açık mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, Dalaman Havalimanı'ndan Marmaris'e özel transfer hizmetimiz erken sabah ve geç saatli uçuşlar dahil 7/24 hizmet vermektedir."
+                                }
+                            }
+                        ]
                     }
                 },
                 ar: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "@id": "50",
+                        "url": `${env.websiteDomain}/ar/dalaman-airport-to-faralya-butterfly-valley`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة النقل من مطار دالامان إلى مرمريس",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار دالامان (DLM) إلى مرمريس. خدمة استقبال، تسعير ثابت، ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-MRM-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/dalaman-airport-to-faralya-butterfly-valley`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sarah Collins",
+                            "reviewBody": "خدمة ممتازة! استقبلني السائق عند الوصول ونقلني إلى مرمريس بكل سلاسة. أنصح بشدة بـ APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة النقل من مطار دالامان إلى مرمريس"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sarah Collins"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "كم تبعد مرمريس عن مطار دالامان؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "تبعد مرمريس حوالي 95 كم عن مطار دالامان. تستغرق الرحلة بسيارة خاصة حوالي ساعة ونصف."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل خدمة النقل من دالامان إلى مرمريس خاصة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع خدمات APL Transfers خاصة. لن تشارك المركبة مع أي ركاب آخرين—فهي مخصصة لك وللمجموعة المرافقة لك فقط."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل سيكون السائق بانتظاري في المطار؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، سيكون السائق في صالة الوصول حاملاً لافتة باسمك وجاهزًا لمساعدتك في الأمتعة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نوفر إلغاء مجاني حتى 24 ساعة قبل موعد الاستلام المحدد."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تقدمون خدمة النقل إلى مرمريس على مدار الساعة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، خدمتنا الخاصة للنقل من مطار دالامان إلى مرمريس متاحة 24/7، بما في ذلك الرحلات الصباحية والمساء المتأخر."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 es: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "@id": "50",
+                        "url": `${env.websiteDomain}/es/dalaman-airport-to-faralya-butterfly-valley`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado desde el Aeropuerto de Dalaman a Marmaris",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "description": "Reserva un traslado privado y cómodo desde el Aeropuerto de Dalaman (DLM) a Marmaris. Servicio de bienvenida, precio fijo y atención 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-MRM-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/dalaman-airport-to-faralya-butterfly-valley`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sarah Collins",
+                            "reviewBody": "¡Servicio excelente! El conductor me recibió en llegadas y me llevó a Marmaris sin problemas. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado desde el Aeropuerto de Dalaman a Marmaris"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sarah Collins"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿A qué distancia está Marmaris del Aeropuerto de Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Marmaris está aproximadamente a 95 km del Aeropuerto de Dalaman. El trayecto en traslado privado suele durar alrededor de 1 hora y 30 minutos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El traslado de Dalaman a Marmaris es un servicio privado?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos los traslados de APL son privados. No compartirás el vehículo con otros pasajeros—es exclusivamente para ti y tu grupo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El conductor me estará esperando en el aeropuerto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, nuestro conductor te esperará en la zona de llegadas con un cartel con tu nombre y te ayudará con el equipaje."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva de forma gratuita?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, ofrecemos cancelación gratuita hasta 24 horas antes de la hora programada de recogida."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen traslados a Marmaris las 24 horas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, nuestro servicio de traslado privado desde el Aeropuerto de Dalaman a Marmaris está disponible las 24 horas del día, incluidos vuelos de madrugada y noche."
+                                }
+                            }
+                        ]
                     }
                 },
                 it: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "@id": "50",
+                        "url": `${env.websiteDomain}/it/dalaman-airport-to-faralya-butterfly-valley`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento dall'Aeroporto di Dalaman a Marmaris",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall'Aeroporto di Dalaman (DLM) a Marmaris. Servizio di accoglienza, prezzo fisso e supporto 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-MRM-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/dalaman-airport-to-faralya-butterfly-valley`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sarah Collins",
+                            "reviewBody": "Servizio eccellente! L'autista mi ha accolto all'arrivo e mi ha accompagnato a Marmaris senza problemi. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento dall'Aeroporto di Dalaman a Marmaris"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sarah Collins"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dista Marmaris dall'Aeroporto di Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Marmaris dista circa 95 km dall'Aeroporto di Dalaman. Il viaggio con trasferimento privato dura solitamente circa 1 ora e 30 minuti."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il trasferimento da Dalaman a Marmaris è un servizio privato?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i trasferimenti APL sono privati. Non condividerai il veicolo con altri passeggeri—è riservato esclusivamente a te e al tuo gruppo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il mio autista sarà ad aspettarmi in aeroporto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, il nostro autista ti accoglierà nell’area arrivi con un cartello con il tuo nome e ti aiuterà con i bagagli."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare la mia prenotazione gratuitamente?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, offriamo la cancellazione gratuita fino a 24 ore prima dell'orario previsto di prelievo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Fornite trasferimenti a Marmaris 24 ore su 24?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, il nostro servizio di trasferimento privato dall'Aeroporto di Dalaman a Marmaris è disponibile 24/7, anche per voli notturni e mattutini."
+                                }
+                            }
+                        ]
                     }
                 },
                 ru: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "@id": "50",
+                        "url": `${env.websiteDomain}/ru/dalaman-airport-to-faralya-butterfly-valley`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер из аэропорта Даламан в Мармарис",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Даламан (DLM) в Мармарис. Встреча с табличкой, фиксированная цена и круглосуточная поддержка.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-MRM-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/dalaman-airport-to-faralya-butterfly-valley`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sarah Collins",
+                            "reviewBody": "Отличный сервис! Водитель встретил меня в зоне прибытия и без проблем доставил в Мармарис. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер из аэропорта Даламан в Мармарис"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sarah Collins"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Какое расстояние от аэропорта Даламан до Мармариса?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Мармарис находится примерно в 95 км от аэропорта Даламан. Поездка на частном трансфере обычно занимает около 1 часа 30 минут."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Является ли трансфер из Даламана в Мармарис частным?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все трансферы от APL являются частными. Вы не будете делить автомобиль с другими пассажирами — он предназначен только для вас и вашей группы."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Будет ли водитель ждать меня в аэропорту?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, наш водитель встретит вас в зоне прилета с табличкой с вашим именем и поможет с багажом."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я бесплатно отменить бронирование?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы предлагаем бесплатную отмену за 24 часа до запланированного времени встречи."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы работаете круглосуточно по маршруту в Мармарис?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, наша услуга частного трансфера из аэропорта Даламан в Мармарис доступна 24/7, включая утренние и ночные рейсы."
+                                }
+                            }
+                        ]
                     }
                 },
                 zh: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "@id": "50",
+                        "url": `${env.websiteDomain}/zh/dalaman-airport-to-faralya-butterfly-valley`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "达拉曼机场至马尔马里斯接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/marmaris.webp`,
+                        "description": "预订从达拉曼机场（DLM）到马尔马里斯的舒适私人接送服务。包含接机服务、固定价格和 24/7 客户支持。",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-MRM-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/dalaman-airport-to-faralya-butterfly-valley`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1100,
+                            "reviewCount": 1100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sarah Collins",
+                            "reviewBody": "非常棒的服务！司机在到达处迎接我，并顺利地将我送到马尔马里斯。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "达拉曼机场至马尔马里斯接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sarah Collins"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "马尔马里斯距离达拉曼机场有多远？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "马尔马里斯距离达拉曼机场约 95 公里。乘坐私人接送通常需要大约 1 小时 30 分钟。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从达拉曼到马尔马里斯的接送服务是私人的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，APL Transfers 提供的所有接送服务均为私人服务。车辆不会与其他乘客共享—只为您和您的同行人员提供服务。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "司机会在机场等我吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "会的，司机将在到达区域举着写有您名字的牌子迎接您，并协助您搬运行李。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "当然可以。我们提供在预定接送时间前 24 小时内免费取消的服务。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们是否全天候提供前往马尔马里斯的接送服务？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们的从达拉曼机场前往马尔马里斯的私人接送服务全天候 24/7 提供，包括凌晨和深夜的航班。"
+                                }
+                            }
+                        ]
                     }
                 }
             },
             "/dalaman-airport-to-gocek": {
                 en: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "@id": "52",
+                        "url": `${env.websiteDomain}/dalaman-airport-to-gocek`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€35 / £32",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Airport to Göcek Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "description": "Book a comfortable private transfer from Dalaman Airport (DLM) to Göcek. Meet & greet service, fixed pricing, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-GCK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/dalaman-airport-to-gocek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "32.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Great service! My driver was on time, friendly, and got me to Göcek quickly. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Airport to Göcek Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
                     "FAQPage": {
-
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How far is Göcek from Dalaman Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Göcek is approximately 25 km from Dalaman Airport. The journey typically takes around 25–30 minutes by private car."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the Dalaman to Göcek transfer private?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all APL Transfers are private and tailored exclusively to you and your group—no shared rides."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Will the driver meet me at the airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, your driver will greet you at the arrivals hall holding a sign with your name for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Absolutely. Free cancellation is available up to 24 hours before your scheduled pick-up time."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is this service available 24/7?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our Göcek transfer service from Dalaman Airport is available 24/7, including weekends and holidays."
+                                }
+                            }
+                        ]
                     }
 
                 },
                 tr: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "@id": "52",
+                        "url": `${env.websiteDomain}/tr/dalaman-airport-to-gocek`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€35 / £32",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Havalimanı'ndan Göcek'e Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "description": "Dalaman Havalimanı (DLM) ile Göcek arasında konforlu bir özel transfer rezervasyonu yapın. Karşılama hizmeti, sabit fiyat ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-GCK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/dalaman-airport-to-gocek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "32.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Harika bir hizmetti! Şoförüm tam zamanında geldi, güler yüzlüydü ve beni Göcek’e hızlı bir şekilde ulaştırdı. APL Transfers’i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Havalimanı'ndan Göcek'e Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Göcek, Dalaman Havalimanı'na ne kadar uzaklıkta?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Göcek, Dalaman Havalimanı'na yaklaşık 25 km mesafededir. Özel araçla yolculuk genellikle 25–30 dakika sürer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dalaman'dan Göcek'e yapılan transfer özel mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, APL Transfers tarafından sunulan tüm transferler özeldir ve yalnızca size ve grubunuza özeldir—başkalarıyla paylaşılmaz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Şoför beni havalimanında karşılayacak mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, şoförünüz sizi varış salonunda isminizin yazılı olduğu bir tabela ile karşılayacak, böylece kolayca tanıyabileceksiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Elbette. Planlanan alım saatinden 24 saat öncesine kadar ücretsiz iptal mümkündür."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Bu hizmet 7/24 kullanılabilir mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, Dalaman Havalimanı'ndan Göcek'e transfer hizmetimiz haftanın 7 günü, 24 saat boyunca kesintisiz sunulmaktadır."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 ar: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "@id": "52",
+                        "url": `${env.websiteDomain}/ar/dalaman-airport-to-gocek`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€35 / £32",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة النقل من مطار دالامان إلى غوجيك",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار دالامان (DLM) إلى غوجيك. خدمة استقبال، تسعير ثابت، ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-GCK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/dalaman-airport-to-gocek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "32.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "خدمة رائعة! كان السائق في الموعد، ودوداً، وأوصلني إلى غوجيك بسرعة. أنصح بشدة بـ APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة النقل من مطار دالامان إلى غوجيك"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "كم تبعد غوجيك عن مطار دالامان؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "تبعد غوجيك حوالي 25 كم عن مطار دالامان. وتستغرق الرحلة بالسيارة الخاصة عادةً ما بين 25 إلى 30 دقيقة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل النقل من دالامان إلى غوجيك خاص؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع خدمات APL Transfers خاصة ومخصصة لك ولرفقتك فقط—لا توجد مشاركة مع ركاب آخرين."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل سيقابلني السائق في المطار؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، سيقابلك السائق في صالة الوصول ويحمل لافتة باسمك لتسهيل التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجاناً؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "بكل تأكيد. يمكنك إلغاء الحجز مجاناً حتى 24 ساعة قبل موعد الاستلام المحدد."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل هذه الخدمة متوفرة على مدار الساعة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، خدمة النقل من مطار دالامان إلى غوجيك متوفرة على مدار الساعة طوال الأسبوع، بما في ذلك عطلات نهاية الأسبوع والعطل الرسمية."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 es: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "@id": "52",
+                        "url": `${env.websiteDomain}/es/dalaman-airport-to-gocek`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€35 / £32",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado desde el Aeropuerto de Dalaman a Göcek",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "description": "Reserva un traslado privado y cómodo desde el Aeropuerto de Dalaman (DLM) a Göcek. Servicio de bienvenida, precio fijo y atención 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-GCK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/dalaman-airport-to-gocek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "32.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "¡Servicio excelente! Mi conductor fue puntual, amable y me llevó a Göcek rápidamente. ¡Recomiendo APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado desde el Aeropuerto de Dalaman a Göcek"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿A qué distancia está Göcek del Aeropuerto de Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Göcek está a aproximadamente 25 km del Aeropuerto de Dalaman. El trayecto en coche privado suele durar entre 25 y 30 minutos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El traslado de Dalaman a Göcek es privado?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos los traslados de APL Transfers son privados y exclusivos para ti y tu grupo—sin compartir el vehículo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Me recibirá el conductor en el aeropuerto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, tu conductor te esperará en la sala de llegadas con un cartel con tu nombre para facilitar el encuentro."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva de forma gratuita?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Por supuesto. La cancelación es gratuita hasta 24 horas antes de la hora programada de recogida."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Está disponible este servicio las 24 horas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, nuestro servicio de traslado desde el Aeropuerto de Dalaman a Göcek está disponible 24/7, incluidos fines de semana y festivos."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 it: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "@id": "52",
+                        "url": `${env.websiteDomain}/it/dalaman-airport-to-gocek`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€35 / £32",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento dall Aeroporto di Dalaman a Göcek",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall Aeroporto di Dalaman (DLM) a Göcek. Servizio di accoglienza, prezzo fisso e supporto 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-GCK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/dalaman-airport-to-gocek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "32.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Servizio eccellente! Il mio autista è stato puntuale, cordiale e mi ha portato a Göcek rapidamente. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento dall Aeroporto di Dalaman a Göcek"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dista Göcek dall'Aeroporto di Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Göcek si trova a circa 25 km dall'Aeroporto di Dalaman. Il viaggio in auto privata dura solitamente tra i 25 e i 30 minuti."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il trasferimento da Dalaman a Göcek è privato?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i trasferimenti APL sono privati e pensati esclusivamente per te e il tuo gruppo—nessuna condivisione del veicolo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "L'autista mi incontrerà all'aeroporto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, il tuo autista ti accoglierà nella sala arrivi con un cartello riportante il tuo nome per essere facilmente riconoscibile."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare gratuitamente la mia prenotazione?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Assolutamente sì. La cancellazione è gratuita fino a 24 ore prima dell'orario di ritiro programmato."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il servizio è disponibile 24 ore su 24?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, il nostro servizio di trasferimento da Dalaman a Göcek è disponibile 24/7, inclusi weekend e festivi."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 ru: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "@id": "52",
+                        "url": `${env.websiteDomain}/ru/dalaman-airport-to-gocek`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€35 / £32",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер из аэропорта Даламан в Гёчек",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Даламан (DLM) в Гёчек. Встреча с табличкой, фиксированная цена и круглосуточная поддержка.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-GCK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/dalaman-airport-to-gocek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "32.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Отличный сервис! Водитель прибыл вовремя, был дружелюбен и быстро доставил меня в Гёчек. Настоятельно рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер из аэропорта Даламан в Гёчек"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Какое расстояние от аэропорта Даламан до Гёчека?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Гёчек находится примерно в 25 км от аэропорта Даламан. Поездка на частном автомобиле обычно занимает 25–30 минут."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Трансфер из Даламана в Гёчек — частный?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все трансферы от APL Transfers являются частными и предназначены исключительно для вас и вашей группы — без совместных поездок."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Встретит ли меня водитель в аэропорту?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, ваш водитель встретит вас в зале прибытия с табличкой с вашим именем для лёгкой идентификации."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я бесплатно отменить бронирование?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до назначенного времени встречи."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Работает ли эта услуга круглосуточно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, наша услуга трансфера из аэропорта Даламан в Гёчек доступна 24/7, включая выходные и праздники."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 zh: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "@id": "52",
+                        "url": `${env.websiteDomain}/zh/dalaman-airport-to-gocek`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€35 / £32",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "达拉曼机场至戈杰克接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/gocek.webp`,
+                        "description": "预订从达拉曼机场（DLM）到戈杰克的舒适私人接送服务。包含接机服务、固定价格以及全天候 24/7 客户支持。",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-GCK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/dalaman-airport-to-gocek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "32.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "非常棒的服务！我的司机准时、友好，并迅速将我送达戈杰克。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "达拉曼机场至戈杰克接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "戈杰克距离达拉曼机场有多远？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "戈杰克距离达拉曼机场约 25 公里。乘坐专车通常需要 25–30 分钟。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "达拉曼到戈杰克的接送服务是私人的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，APL Transfers 提供的所有接送服务均为私人专属，仅供您和您的同行使用，不与他人共享。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "司机会在机场接我吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "会的，司机将在到达大厅举着写有您姓名的接机牌迎接您，方便识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "当然可以。您可以在预定接送时间前 24 小时内免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "该服务是否全天候提供？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们的戈杰克接送服务全天候 24/7 提供，包括周末和节假日。"
+                                }
+                            }
+                        ]
                     }
+
                 }
             },
             "/dalaman-airport-to-hisaronu": {
                 en: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
-
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "@id": "53",
+                        "url": `${env.websiteDomain}/dalaman-airport-to-hisaronu`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
-
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Airport to Hisarönü Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "description": "Book a comfortable private transfer from Dalaman Airport (DLM) to Hisarönü. Meet & greet service, fixed pricing, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-HSN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/dalaman-airport-to-hisaronu`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Smith",
+                            "reviewBody": "Great transfer service! The driver was on time and the ride to Hisarönü was smooth. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Airport to Hisarönü Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How far is Hisarönü from Dalaman Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Hisarönü is around 60 km from Dalaman Airport. The journey typically takes about 1 hour and 10 minutes by private transfer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is this a private transfer or shared shuttle?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "APL Transfers provides private transfers only, meaning the vehicle is reserved just for you and your travel companions."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Will someone be waiting at the airport for me?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, your driver will be waiting for you at the arrivals area with a name board and assist you with your luggage."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my transfer for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, cancellations are free of charge up to 24 hours before your scheduled pick-up time."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you operate 24/7 for late-night or early-morning flights?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we operate around the clock, 7 days a week. No matter what time your flight arrives, your transfer will be arranged."
+                                }
+                            }
+                        ]
+                    }
                 },
                 tr: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "@id": "53",
+                        "url": `${env.websiteDomain}/tr/dalaman-airport-to-hisaronu`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Havalimanı'ndan Hisarönü'ne Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "description": "Dalaman Havalimanı (DLM) ile Hisarönü arasında konforlu bir özel transfer rezervasyonu yapın. Karşılama hizmeti, sabit fiyat ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-HSN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/dalaman-airport-to-hisaronu`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Smith",
+                            "reviewBody": "Harika bir transfer hizmeti! Şoför tam zamanında geldi ve Hisarönü'ne yolculuk oldukça rahattı. APL Transfers'i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Havalimanı'ndan Hisarönü'ne Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Hisarönü, Dalaman Havalimanı'na ne kadar uzaklıkta?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Hisarönü, Dalaman Havalimanı'na yaklaşık 60 km uzaklıktadır. Özel transfer ile yolculuk genellikle 1 saat 10 dakika sürer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Bu transfer özel mi yoksa paylaşımlı servis mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "APL Transfers yalnızca özel transfer hizmeti sunar, yani araç sadece size ve seyahat arkadaşlarınıza ayrılmıştır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Havalimanında biri beni karşılayacak mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, şoförünüz varış alanında isminizin yazılı olduğu bir tabela ile sizi bekliyor olacak ve bagaj konusunda yardımcı olacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Transferimi ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, planlanan alım saatinden 24 saat öncesine kadar iptaller ücretsizdir."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Gece geç saatte veya sabah erken saatlerde gelen uçuşlar için hizmet veriyor musunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, haftanın 7 günü, günün 24 saati hizmet vermekteyiz. Uçağınız hangi saatte inerse insin transferiniz ayarlanmış olur."
+                                }
+                            }
+                        ]
                     }
                 },
                 ar: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "@id": "53",
+                        "url": `${env.websiteDomain}/ar/dalaman-airport-to-hisaronu`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة النقل من مطار دالامان إلى هيسارونو",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار دالامان (DLM) إلى هيسارونو. خدمة استقبال، تسعير ثابت، ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-HSN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/dalaman-airport-to-hisaronu`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Smith",
+                            "reviewBody": "خدمة نقل رائعة! وصل السائق في الوقت المحدد وكانت الرحلة إلى هيسارونو سلسة ومريحة. أوصي بشدة بخدمة APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة النقل من مطار دالامان إلى هيسارونو"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "كم تبعد هيسارونو عن مطار دالامان؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "تبعد هيسارونو حوالي 60 كم عن مطار دالامان. تستغرق الرحلة في سيارة نقل خاصة عادة حوالي ساعة و10 دقائق."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل هذه خدمة نقل خاصة أم حافلة مشتركة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "تقدم APL Transfers خدمات نقل خاصة فقط، مما يعني أن السيارة مخصصة لك ولرفاقك في السفر فقط."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل سيكون هناك من ينتظرني في المطار؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، سيكون السائق بانتظارك في منطقة الوصول ويحمل لافتة باسمك، وسيساعدك في حمل الأمتعة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجاناً؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، الإلغاء مجاني حتى 24 ساعة قبل وقت الاستلام المحدد."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تعملون على مدار الساعة لرحلات الليل أو الصباح الباكر؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نحن نعمل 24/7 طوال أيام الأسبوع. بغض النظر عن وقت وصول رحلتك، سيتم ترتيب نقلك مسبقاً."
+                                }
+                            }
+                        ]
                     }
                 },
                 es: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "@id": "53",
+                        "url": `${env.websiteDomain}/es/dalaman-airport-to-hisaronu`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado desde el Aeropuerto de Dalaman a Hisarönü",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "description": "Reserva un traslado privado y cómodo desde el Aeropuerto de Dalaman (DLM) a Hisarönü. Servicio de bienvenida, precios fijos y atención al cliente 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-HSN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/dalaman-airport-to-hisaronu`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Smith",
+                            "reviewBody": "¡Gran servicio de traslado! El conductor fue puntual y el viaje a Hisarönü fue muy cómodo. ¡Recomiendo APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado desde el Aeropuerto de Dalaman a Hisarönü"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿A qué distancia está Hisarönü del Aeropuerto de Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Hisarönü está a unos 60 km del Aeropuerto de Dalaman. El trayecto en traslado privado suele durar aproximadamente 1 hora y 10 minutos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Es este un traslado privado o un servicio compartido?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "APL Transfers ofrece únicamente traslados privados, lo que significa que el vehículo está reservado solo para ti y tus acompañantes."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Habrá alguien esperándome en el aeropuerto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, tu conductor te estará esperando en la zona de llegadas con un cartel con tu nombre y te ayudará con el equipaje."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi traslado de forma gratuita?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva sin coste hasta 24 horas antes de la hora de recogida prevista."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Funcionan las 24 horas para vuelos de madrugada o por la noche?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, operamos las 24 horas, los 7 días de la semana. Sin importar a qué hora llegue tu vuelo, tu traslado estará organizado."
+                                }
+                            }
+                        ]
                     }
                 },
                 it: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "@id": "53",
+                        "url": `${env.websiteDomain}/it/dalaman-airport-to-hisaronu`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento dall Aeroporto di Dalaman a Hisarönü",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall Aeroporto di Dalaman (DLM) a Hisarönü. Servizio di accoglienza, prezzo fisso e assistenza 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-HSN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/dalaman-airport-to-hisaronu`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Smith",
+                            "reviewBody": "Servizio di trasferimento eccellente! L’autista è arrivato puntuale e il viaggio fino a Hisarönü è stato fluido. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento dall Aeroporto di Dalaman a Hisarönü"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dista Hisarönü dall Aeroporto di Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Hisarönü si trova a circa 60 km dall Aeroporto di Dalaman. Il viaggio in transfer privato dura solitamente circa 1 ora e 10 minuti."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "È un transfer privato o una navetta condivisa?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "APL Transfers offre solo transfer privati, il che significa che il veicolo sarà riservato esclusivamente a te e ai tuoi accompagnatori."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Ci sarà qualcuno ad aspettarmi in aeroporto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, il tuo autista ti aspetterà nell area arrivi con un cartello con il tuo nome e ti aiuterà con i bagagli."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare gratuitamente il mio transfer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, la cancellazione è gratuita fino a 24 ore prima dell'orario previsto per il prelievo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Operate 24 ore su 24 per voli notturni o mattutini?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, siamo operativi 24 ore su 24, 7 giorni su 7. Qualunque sia l'orario di arrivo del tuo volo, il transfer sarà organizzato."
+                                }
+                            }
+                        ]
                     }
                 },
                 ru: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "@id": "53",
+                        "url": `${env.websiteDomain}/ru/dalaman-airport-to-hisaronu`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер из аэропорта Даламан в Хисарёню",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Даламан (DLM) в Хисарёню. Встреча с табличкой, фиксированная цена и поддержка 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-HSN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/dalaman-airport-to-hisaronu`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Smith",
+                            "reviewBody": "Отличный трансфер! Водитель прибыл вовремя, а поездка до Хисарёню прошла гладко. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер из аэропорта Даламан в Хисарёню"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Какое расстояние от аэропорта Даламан до Хисарёню?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Хисарёню находится примерно в 60 км от аэропорта Даламан. Поездка на частном трансфере обычно занимает около 1 часа 10 минут."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Это частный трансфер или совместный шаттл?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "APL Transfers предоставляет только частные трансферы — транспортное средство предназначено исключительно для вас и ваших попутчиков."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Будет ли кто-то ждать меня в аэропорту?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, ваш водитель будет ждать вас в зоне прибытия с табличкой с вашим именем и поможет вам с багажом."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я бесплатно отменить трансфер?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до запланированного времени трансфера."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы работаете круглосуточно для ночных или утренних рейсов?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы работаем круглосуточно, 7 дней в неделю. Независимо от времени прибытия рейса, трансфер будет организован."
+                                }
+                            }
+                        ]
                     }
                 },
                 zh: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "@id": "53",
+                        "url": `${env.websiteDomain}/zh/dalaman-airport-to-hisaronu`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "达拉曼机场至 Hisarönü 接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/hisaronu.webp`,
+                        "description": "预订从达拉曼机场 (DLM) 到 Hisarönü 的舒适私人接送服务。提供接机服务、固定价格和 24/7 客户支持。",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-HSN-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/dalaman-airport-to-hisaronu`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "David Smith",
+                            "reviewBody": "非常棒的接送服务！司机准时到达，前往 Hisarönü 的旅程非常顺利。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "达拉曼机场至 Hisarönü 接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "David Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Hisarönü 距离达拉曼机场有多远？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Hisarönü 距离达拉曼机场约 60 公里，乘坐私人接送服务通常需时约 1 小时 10 分钟。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "这是私人接送还是拼车？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "APL Transfers 仅提供私人接送服务，车辆专为您和您的同行旅客保留，不与他人共乘。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "会有人在机场接我吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，司机将在到达区举着写有您名字的接机牌等候，并协助您搬运行李。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消接送服务吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可以在预定接送时间前 24 小时内免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们是否提供全天候服务，以应对深夜或清晨航班？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们全天候 24/7 营运，无论航班何时抵达，我们都能为您安排接送服务。"
+                                }
+                            }
+                        ]
                     }
                 }
             },
             "/dalaman-airport-to-calis-beach": {
                 en: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "@id": "54",
+                        "url": `${env.websiteDomain}/dalaman-airport-to-calis-beach`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Airport to Çalış Beach Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "description": "Book a comfortable private transfer from Dalaman Airport (DLM) to Çalış Beach. Meet & greet service, fixed pricing, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-CAL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/dalaman-airport-to-calis-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Excellent service! The driver was waiting at arrivals and got me to Çalış Beach smoothly. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Airport to Çalış Beach Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    }
+                    ,
                     "FAQPage": {
-
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How far is Çalış Beach from Dalaman Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Çalış Beach is approximately 45 km from Dalaman Airport, and the journey typically takes around 40–45 minutes by car."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the transfer service from Dalaman Airport to Çalış Beach private?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all transfers with APL Transfers are private, meaning you won’t share the vehicle with other passengers."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Will someone meet me at the arrivals area?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Absolutely. Our driver will greet you at the arrivals area with a name board, ready to assist you with your luggage."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking free of charge?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking at no cost up to 24 hours before your scheduled pick-up time."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the transfer service available 24/7?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, APL Transfers operates around the clock to match any flight schedule, providing 24/7 customer service."
+                                }
+                            }
+                        ]
                     }
 
                 },
                 tr: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "@id": "54",
+                        "url": `${env.websiteDomain}/tr/dalaman-airport-to-calis-beach`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Havalimanı'ndan Çalış Plajı'na Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "description": "Dalaman Havalimanı (DLM) ile Çalış Plajı arasında konforlu bir özel transfer rezervasyonu yapın. Karşılama hizmeti, sabit fiyat ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-CAL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/dalaman-airport-to-calis-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Mükemmel bir hizmetti! Şoför varışta beni bekliyordu ve beni Çalış Plajı'na sorunsuz bir şekilde ulaştırdı. APL Transfers'i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Havalimanı'ndan Çalış Plajı'na Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Çalış Plajı, Dalaman Havalimanı'na ne kadar uzaklıkta?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Çalış Plajı, Dalaman Havalimanı'na yaklaşık 45 km mesafededir ve yolculuk genellikle arabayla 40–45 dakika sürer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dalaman Havalimanı'ndan Çalış Plajı'na yapılan transfer hizmeti özel midir?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, APL Transfers ile yapılan tüm transferler özeldir; yani aracı başka yolcularla paylaşmazsınız."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Varış alanında biri beni karşılayacak mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Kesinlikle. Şoförümüz sizi varış alanında isminizin yazılı olduğu bir tabela ile karşılayacak ve bagajınıza yardımcı olacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, planlanan alım saatinden 24 saat öncesine kadar rezervasyonunuzu ücretsiz olarak iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Transfer hizmeti 7/24 sunuluyor mu?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, APL Transfers her uçuş programına uyum sağlamak için 7/24 hizmet verir ve günün her saati müşteri desteği sunar."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 ar: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "@id": "54",
+                        "url": `${env.websiteDomain}/ar/dalaman-airport-to-calis-beach`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة النقل من مطار دالامان إلى شاطئ تشالیش",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار دالامان (DLM) إلى شاطئ تشاليش. خدمة استقبال، تسعير ثابت، ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-CAL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/dalaman-airport-to-calis-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "خدمة ممتازة! كان السائق بانتظاري عند الوصول وأوصلني إلى شاطئ تشاليش بكل سلاسة. أنصح بشدة بخدمة APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة النقل من مطار دالامان إلى شاطئ تشاليش"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "ما هي المسافة بين شاطئ تشاليش ومطار دالامان؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "يبعد شاطئ تشاليش حوالي 45 كم عن مطار دالامان، وتستغرق الرحلة بالسيارة عادة ما بين 40 إلى 45 دقيقة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل خدمة النقل من مطار دالامان إلى شاطئ تشاليش خاصة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع خدمات النقل مع APL Transfers خاصة، مما يعني أنك لن تشارك السيارة مع ركاب آخرين."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل سيقابلني السائق في منطقة الوصول؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "بالتأكيد. سيكون السائق بانتظارك في منطقة الوصول ويحمل لافتة باسمك لمساعدتك في التعرف عليه ومساعدتك في حمل الأمتعة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجاناً؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجاناً حتى 24 ساعة قبل وقت الاستلام المحدد."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل خدمة النقل متوفرة على مدار الساعة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، تعمل APL Transfers على مدار الساعة لتلبية جميع جداول الرحلات وتوفر دعماً للعملاء 24/7."
+                                }
+                            }
+                        ]
                     }
                 },
                 es: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "@id": "54",
+                        "url": `${env.websiteDomain}/es/dalaman-airport-to-calis-beach`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado desde el Aeropuerto de Dalaman a la Playa de Çalış",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "description": "Reserva un traslado privado y cómodo desde el Aeropuerto de Dalaman (DLM) a la Playa de Çalış. Servicio de bienvenida, precio fijo y soporte 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-CAL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/dalaman-airport-to-calis-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "¡Servicio excelente! El conductor me esperaba en llegadas y me llevó sin problemas a la Playa de Çalış. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado desde el Aeropuerto de Dalaman a la Playa de Çalış"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿A qué distancia está la Playa de Çalış del Aeropuerto de Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "La Playa de Çalış se encuentra aproximadamente a 45 km del Aeropuerto de Dalaman, y el trayecto en coche suele durar entre 40 y 45 minutos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El servicio de traslado desde el Aeropuerto de Dalaman a la Playa de Çalış es privado?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos los traslados con APL Transfers son privados, lo que significa que no compartirás el vehículo con otros pasajeros."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Alguien me recibirá en la zona de llegadas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Por supuesto. Nuestro conductor te estará esperando en la zona de llegadas con un cartel con tu nombre y te ayudará con tu equipaje."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva sin coste?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva sin ningún coste hasta 24 horas antes de la hora programada de recogida."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El servicio de traslado está disponible las 24 horas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, APL Transfers opera las 24 horas del día para ajustarse a cualquier horario de vuelo y ofrece atención al cliente 24/7."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 it: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "@id": "54",
+                        "url": `${env.websiteDomain}/it/dalaman-airport-to-calis-beach`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento dall Aeroporto di Dalaman alla Spiaggia di Çalış",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall Aeroporto di Dalaman (DLM) alla Spiaggia di Çalış. Servizio di accoglienza, prezzo fisso e assistenza 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-CAL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/dalaman-airport-to-calis-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Servizio eccellente! L’autista mi aspettava all’arrivo e mi ha accompagnata alla Spiaggia di Çalış senza problemi. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento dall Aeroporto di Dalaman alla Spiaggia di Çalış"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dista la Spiaggia di Çalış dall Aeroporto di Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "La Spiaggia di Çalış si trova a circa 45 km dall Aeroporto di Dalaman e il viaggio in auto dura solitamente tra i 40 e i 45 minuti."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il servizio di trasferimento dall Aeroporto di Dalaman alla Spiaggia di Çalış è privato?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i trasferimenti con APL Transfers sono privati, quindi non condividerai il veicolo con altri passeggeri."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Qualcuno mi accoglierà nell area arrivi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Assolutamente sì. Il nostro autista ti accoglierà nell area arrivi con un cartello con il tuo nome e ti aiuterà con i bagagli."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare la prenotazione gratuitamente?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la prenotazione gratuitamente fino a 24 ore prima dell orario previsto di ritiro."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il servizio di trasferimento è disponibile 24 ore su 24?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, APL Transfers è operativo 24 ore su 24 per adattarsi a qualsiasi orario di volo e offre assistenza clienti 24/7."
+                                }
+                            }
+                        ]
                     }
+
+
                 },
                 ru: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "@id": "54",
+                        "url": `${env.websiteDomain}/ru/dalaman-airport-to-calis-beach`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер из аэропорта Даламан на пляж Чалыш",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Даламан (DLM) до пляжа Чалыш. Встреча с табличкой, фиксированная цена и круглосуточная поддержка.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-CAL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/dalaman-airport-to-calis-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "Отличный сервис! Водитель ждал меня в зоне прибытия и быстро и комфортно доставил на пляж Чалыш. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер из аэропорта Даламан на пляж Чалыш"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Как далеко находится пляж Чалыш от аэропорта Даламан?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Пляж Чалыш находится примерно в 45 км от аэропорта Даламан. Поездка на автомобиле обычно занимает около 40–45 минут."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Является ли трансфер из аэропорта Даламан до пляжа Чалыш частным?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все трансферы с APL Transfers являются частными, то есть вы не будете делить автомобиль с другими пассажирами."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Встретят ли меня в зоне прибытия?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Безусловно. Наш водитель встретит вас в зоне прибытия с табличкой с вашим именем и поможет с багажом."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я отменить бронирование бесплатно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до запланированного времени трансфера."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Доступна ли услуга трансфера круглосуточно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, компания APL Transfers работает круглосуточно и предоставляет трансферы в любое время в соответствии с расписанием рейсов."
+                                }
+                            }
+                        ]
                     }
+
                 },
                 zh: {
-                    "LocalBusiness": {},
-                    "Product": {},
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "@id": "54",
+                        "url": `${env.websiteDomain}/zh/dalaman-airport-to-calis-beach`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "达拉曼机场至查勒什海滩接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/dalaman.webp`,
+                        "description": "预订从达拉曼机场（DLM）到查勒什海滩的舒适私人接送服务。包含接机服务、固定价格以及全天候 24/7 客服支持。",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-CAL-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/dalaman-airport-to-calis-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emma Johnson",
+                            "reviewBody": "非常棒的服务！司机在到达区等候，并顺利将我送到查勒什海滩。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "达拉曼机场至查勒什海滩接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emma Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "查勒什海滩距离达拉曼机场有多远？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "查勒什海滩距离达拉曼机场大约 45 公里，车程通常为 40 至 45 分钟。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从达拉曼机场到查勒什海滩的接送服务是私人的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，APL Transfers 的所有接送服务都是私人专车，您无需与其他乘客共乘。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "会有人在到达区接我吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "当然。我们的司机将在到达区举着写有您名字的接机牌迎接您，并协助您搬运行李。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可以在预定接车时间前 24 小时内免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "接送服务是否全天候提供？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，APL Transfers 提供全天候 24/7 接送服务，适配所有航班时间，并提供客户支持。"
+                                }
+                            }
+                        ]
                     }
+
                 }
             },
             "/dalaman-airport-to-akyaka": {
@@ -18651,10 +25517,106 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         ]
                     }
                     ,
-                    "Product": {},
-                    "FAQPage": {
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Airport to Akyaka Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp`,
 
+                        "description": "Book a comfortable private transfer from Dalaman Airport (DLM) to Akyaka. Meet & greet service, fixed pricing, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-AKY-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/dalaman-airport-to-akyaka`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "Great transfer service! The driver met me at arrivals and took me to Akyaka smoothly. Highly recommend APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Airport to Akyaka Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How far is Akyaka from Dalaman Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Akyaka is approximately 70 km (about 1 hour and 15 minutes) from Dalaman Airport by car."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the price fixed for the Dalaman to Akyaka transfer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our prices are fixed and include taxes, parking, and waiting time. There are no hidden charges."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Will the driver meet me at the airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our driver will be waiting for you at the arrivals area holding a name board for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your transfer free of charge up to 24 hours before the pickup time."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the service available 24/7?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we operate 24/7 to accommodate all flight times and schedules."
+                                }
+                            }
+                        ]
                     }
+
 
                 },
                 tr: {
@@ -18695,41 +25657,798 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         ]
                     }
                     ,
-                    "Product": {},
-                    "FAQPage": {
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Dalaman Havalimanı'ndan Akyaka'ya Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp`,
+                        "description": "Dalaman Havalimanı (DLM) ile Akyaka arasında konforlu bir özel transfer rezervasyonu yapın. Karşılama hizmeti, sabit fiyat ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-AKY-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/dalaman-airport-to-akyaka`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "Harika bir transfer hizmeti! Şoför beni varışta karşıladı ve Akyaka’ya sorunsuz şekilde ulaştırdı. APL Transfers’i şiddetle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Dalaman Havalimanı'ndan Akyaka'ya Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
                     }
+                    ,
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Akyaka, Dalaman Havalimanı'na ne kadar uzaklıkta?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Akyaka, Dalaman Havalimanı'na arabayla yaklaşık 70 km (yaklaşık 1 saat 15 dakika) mesafededir."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dalaman - Akyaka transferi için fiyat sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm fiyatlarımız sabittir ve vergi, otopark ile bekleme süresi dahildir. Gizli ücret yoktur."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Şoför beni havalimanında karşılayacak mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, şoförümüz sizi kolay tanınabilmesi için isminizin yazılı olduğu bir tabela ile varış alanında bekliyor olacak."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, transfer saatinden 24 saat öncesine kadar rezervasyonunuzu ücretsiz iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Hizmet 7/24 sunuluyor mu?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm uçuş saatlerine ve programlara uyum sağlamak için 7 gün 24 saat hizmet vermekteyiz."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 ar: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "55",
+                        "url": `${env.websiteDomain}/ar/dalaman-airport-to-akyaka`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التوصيل من مطار دالامان إلى أكياكا",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp`,
+                        "description": "احجز خدمة توصيل خاصة ومريحة من مطار دالامان (DLM) إلى أكياكا. خدمة الاستقبال، تسعير ثابت، ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-AKY-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/dalaman-airport-to-akyaka`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "خدمة نقل ممتازة! كان السائق بانتظاري عند الوصول ونقلني إلى أكياكا بكل سلاسة. أوصي بشدة بـ APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التوصيل من مطار دالامان إلى أكياكا"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "ما هي المسافة بين أكياكا ومطار دالامان؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "تبعد أكياكا حوالي 70 كم عن مطار دالامان، وتستغرق الرحلة حوالي ساعة و15 دقيقة بالسيارة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل السعر ثابت لرحلة النقل من دالامان إلى أكياكا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعارنا ثابتة وتشمل الضرائب ومواقف السيارات ووقت الانتظار. لا توجد أي رسوم خفية."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل سيقابلني السائق في المطار؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، سيكون السائق بانتظارك في منطقة الوصول ويحمل لافتة باسمك لسهولة التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الاستلام."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل الخدمة متوفرة على مدار 24 ساعة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نحن نعمل على مدار الساعة طوال أيام الأسبوع لتلبية جميع مواعيد الرحلات والبرامج الزمنية."
+                                }
+                            }
+                        ]
+                    }
+
+
                 },
                 es: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "55",
+                        "url": `${env.websiteDomain}/es/dalaman-airport-to-akyaka`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado desde el Aeropuerto de Dalaman a Akyaka",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp`,
+                        "description": "Reserva un traslado privado y cómodo desde el Aeropuerto de Dalaman (DLM) a Akyaka. Servicio de bienvenida, precio fijo y soporte 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-AKY-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/dalaman-airport-to-akyaka`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "¡Excelente servicio de traslado! El conductor me recibió en llegadas y me llevó a Akyaka sin problemas. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado desde el Aeropuerto de Dalaman a Akyaka"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Qué distancia hay entre Akyaka y el Aeropuerto de Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Akyaka está a aproximadamente 70 km del Aeropuerto de Dalaman, y el trayecto en coche dura alrededor de 1 hora y 15 minutos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El precio del traslado de Dalaman a Akyaka es fijo?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos nuestros precios son fijos e incluyen impuestos, estacionamiento y tiempo de espera. No hay cargos ocultos."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Me esperará el conductor en el aeropuerto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, nuestro conductor te esperará en la zona de llegadas con un cartel con tu nombre para facilitar el reconocimiento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva sin coste?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu traslado sin coste hasta 24 horas antes de la hora de recogida."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El servicio está disponible las 24 horas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, operamos 24/7 para adaptarnos a todos los horarios y vuelos."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 it: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "55",
+                        "url": `${env.websiteDomain}/it/dalaman-airport-to-akyaka`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento dall Aeroporto di Dalaman ad Akyaka",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall Aeroporto di Dalaman (DLM) ad Akyaka. Servizio di accoglienza, prezzo fisso e assistenza 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-AKY-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/dalaman-airport-to-akyaka`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "Servizio di trasferimento eccellente! L'autista mi ha accolto all'arrivo e mi ha accompagnato ad Akyaka senza problemi. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento dall Aeroporto di Dalaman ad Akyaka"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dista Akyaka dall Aeroporto di Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Akyaka dista circa 70 km dall Aeroporto di Dalaman, con un tempo di percorrenza in auto di circa 1 ora e 15 minuti."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il prezzo del trasferimento da Dalaman ad Akyaka è fisso?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i nostri prezzi sono fissi e includono tasse, parcheggio e tempo di attesa. Nessun costo nascosto."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il conducente mi incontrerà in aeroporto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, il nostro autista ti aspetterà nell’area arrivi con un cartello con il tuo nome per facilitare il riconoscimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare la prenotazione gratuitamente?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare il tuo trasferimento gratuitamente fino a 24 ore prima dell’orario previsto per il ritiro."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il servizio è disponibile 24 ore su 24?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, operiamo 24 ore su 24, 7 giorni su 7, per soddisfare tutte le esigenze di orario e volo."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 ru: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "55",
+                        "url": `${env.websiteDomain}/ru/dalaman-airport-to-akyaka`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер из аэропорта Даламан в Акьяку",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp`,
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Даламан (DLM) в Акьяку. Встреча с табличкой, фиксированная цена и круглосуточная поддержка.",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-AKY-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/dalaman-airport-to-akyaka`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "Отличный трансфер! Водитель встретил меня по прилёту и без проблем доставил в Акьяку. Настоятельно рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер из аэропорта Даламан в Акьяку"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Какое расстояние от Аэропорта Даламан до Акьяки?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Расстояние от Аэропорта Даламан до Акьяки составляет примерно 70 км, поездка на автомобиле занимает около 1 часа 15 минут."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Цена трансфера из Даламана в Акьяку фиксированная?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши цены фиксированы и включают налоги, парковку и время ожидания. Никаких скрытых доплат."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Встретит ли меня водитель в аэропорту?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, наш водитель будет ждать вас в зоне прилета с табличкой, на которой указано ваше имя, для легкой идентификации."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я отменить бронирование бесплатно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить трансфер бесплатно за 24 часа до времени встречи."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Услуга доступна круглосуточно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы работаем 24/7, чтобы соответствовать всем расписаниям и времени прилета."
+                                }
+                            }
+                        ]
+                    }
+
                 },
                 zh: {
-                    "LocalBusiness": {},
-                    "Product": {},
-                    "FAQPage": {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "name": "APL Transfers",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye3.webp`,
+                        "@id": "55",
+                        "url": `${env.websiteDomain}/zh/dalaman-airport-to-akyaka`,
+                        "telephone": "+90 252 123 4567",
+                        "priceRange": "€45 / £42",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Taşyaka Mah. Ölüdeniz Caddesi No:21/A D:1",
+                            "addressLocality": "Fethiye",
+                            "addressRegion": "Mugla",
+                            "addressCountry": "TR",
+                            "postalCode": "48300"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.6225,
+                            "longitude": 29.1329
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
                     }
-                }
+                    ,
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "达拉曼机场至阿克亚卡接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/fethiye/fethiye4.webp`,
+                        "description": "预订从达拉曼机场（DLM）到阿克亚卡的舒适私人接送服务。提供接机服务、固定价格和全天候 24/7 客服支持。",
+                        "brand": "APL Transfers",
+                        "sku": "DLM-AKY-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/dalaman-airport-to-akyaka`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "alternatePriceCurrency": "GBP",
+                            "alternatePrice": "42.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1000,
+                            "reviewCount": 1000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Brown",
+                            "reviewBody": "非常棒的接送服务！司机在到达区等候，并顺利将我送到阿克亚卡。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "达拉曼机场至阿克亚卡接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Brown"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "阿克亚卡距离达拉曼机场有多远？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "阿克亚卡距离达拉曼机场约 70 公里，车程大约为 1 小时 15 分钟。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "达拉曼到阿克亚卡的接送价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们所有的价格都是固定的，包含税费、停车费和等待时间，没有隐藏费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "司机会在机场接我吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "会的，我们的司机将在到达区域举着写有您名字的接机牌等候，方便您识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可以在接车时间前 24 小时内免费取消接送服务。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "服务是否全天候提供？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们 24 小时全年无休运营，以配合所有航班时间和行程安排。"
+                                }
+                            }
+                        ]
+                    }
 
+                }
             },
             "/dalaman-airport-to-datca": {
                 en: {
@@ -18824,9 +26543,51 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                     }
                     ,
                     "FAQPage": {
-
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How far is Datça from Dalaman Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Datça is approximately 170 km from Dalaman Airport. The journey typically takes around 3 hours by car, including a scenic coastal route or a ferry crossing from Marmaris."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the Dalaman to Datça transfer a private service?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, APL Transfers offers 100% private transfers. You and your group will have the vehicle exclusively without sharing it with other passengers."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Does the driver meet me at the airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our driver will meet you at the arrivals area holding a name board, assist with your luggage, and escort you to the vehicle."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my transfer booking for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we offer free cancellation up to 24 hours before your scheduled pick-up time."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you operate transfers to Datça 24/7?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Absolutely. Our Dalaman Airport to Datça transfer service is available 24 hours a day, 7 days a week, including holidays."
+                                }
+                            }
+                        ]
                     }
-
                 },
                 tr: {
                     "LocalBusiness": {
@@ -18919,6 +26680,50 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Datça, Dalaman Havalimanı'na ne kadar uzaklıkta?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Datça, Dalaman Havalimanı'na yaklaşık 170 km uzaklıktadır. Yolculuk genellikle sahil yolunu veya Marmaris’ten feribot geçişini içeren rota ile ortalama 3 saat sürer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Dalaman - Datça transferi özel bir hizmet mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, APL Transfers %100 özel transfer hizmeti sunar. Aracı yalnızca siz ve grubunuz kullanırsınız; başka yolcularla paylaşılmaz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Şoför beni havalimanında karşılayacak mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, şoförümüz varış alanında isminizin yazılı olduğu bir tabela ile sizi karşılayacak, bagajlarınıza yardımcı olacak ve sizi araca kadar eşlik edecektir."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Transfer rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, planlanan alım saatinden 24 saat öncesine kadar ücretsiz iptal imkanı sunuyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Datça transfer hizmetiniz 7/24 açık mı?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Kesinlikle. Dalaman Havalimanı – Datça transfer hizmetimiz haftanın 7 günü, 24 saat boyunca, tatiller dahil olmak üzere hizmet vermektedir."
+                                }
+                            }
+                        ]
                     }
                 },
                 ar: {
@@ -19012,6 +26817,50 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "ما هي المسافة بين داتشا ومطار دالامان؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "تبعد داتشا حوالي 170 كم عن مطار دالامان. تستغرق الرحلة عادة حوالي 3 ساعات بالسيارة، وتشمل طريقًا ساحليًا ذا مناظر خلابة أو عبورًا بالعبّارة من مرمريس."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل النقل من دالامان إلى داتشا خدمة خاصة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، تقدم APL Transfers خدمات نقل خاصة بنسبة 100٪. ستكون السيارة مخصصة لك ولرفقتك فقط، ولن تتم مشاركتها مع ركاب آخرين."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل سيقابلني السائق في المطار؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، سيقابلك السائق في منطقة الوصول حاملاً لوحة باسمك، وسيساعدك في حمل الأمتعة ويرافقك إلى السيارة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجاناً؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نوفر إمكانية الإلغاء المجاني حتى 24 ساعة قبل موعد الاستلام المحدد."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تعملون على مدار الساعة لتوفير النقل إلى داتشا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم بالتأكيد. خدمة النقل من مطار دالامان إلى داتشا متوفرة 24 ساعة يوميًا، 7 أيام في الأسبوع، بما في ذلك العطلات الرسمية."
+                                }
+                            }
+                        ]
                     }
                 },
                 es: {
@@ -19105,6 +26954,50 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿A qué distancia está Datça del Aeropuerto de Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Datça está aproximadamente a 170 km del Aeropuerto de Dalaman. El trayecto suele durar unas 3 horas en coche, incluyendo una ruta costera panorámica o un cruce en ferry desde Marmaris."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El traslado de Dalaman a Datça es un servicio privado?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, APL Transfers ofrece traslados 100% privados. Tú y tu grupo tendrán el vehículo exclusivamente para ustedes, sin compartirlo con otros pasajeros."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿El conductor me recibirá en el aeropuerto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, nuestro conductor te esperará en la zona de llegadas con un cartel con tu nombre, te ayudará con el equipaje y te acompañará hasta el vehículo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva de traslado de forma gratuita?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, ofrecemos cancelación gratuita hasta 24 horas antes de la hora programada de recogida."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen traslados a Datça las 24 horas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Por supuesto. Nuestro servicio de traslado desde el Aeropuerto de Dalaman a Datça está disponible las 24 horas del día, los 7 días de la semana, incluidos los días festivos."
+                                }
+                            }
+                        ]
                     }
                 },
                 it: {
@@ -19198,6 +27091,50 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dista Datça dall'Aeroporto di Dalaman?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Datça dista circa 170 km dall'Aeroporto di Dalaman. Il viaggio dura solitamente circa 3 ore in auto, includendo un panoramico percorso costiero o un traghetto da Marmaris."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il trasferimento da Dalaman a Datça è un servizio privato?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, APL Transfers offre trasferimenti 100% privati. Tu e il tuo gruppo avrete il veicolo in esclusiva, senza condividerlo con altri passeggeri."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Il conducente mi aspetterà in aeroporto?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, il nostro autista ti accoglierà nell'area arrivi con un cartello con il tuo nome, ti aiuterà con i bagagli e ti accompagnerà al veicolo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare gratuitamente la mia prenotazione per il trasferimento?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, offriamo la cancellazione gratuita fino a 24 ore prima dell'orario previsto per il prelievo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite trasferimenti per Datça 24 ore su 24?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Assolutamente sì. Il nostro servizio di trasferimento dall'Aeroporto di Dalaman a Datça è disponibile 24 ore su 24, 7 giorni su 7, anche nei giorni festivi."
+                                }
+                            }
+                        ]
                     }
                 },
                 ru: {
@@ -19291,6 +27228,50 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Какое расстояние от аэропорта Даламан до Датчи?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Расстояние от аэропорта Даламан до Датчи составляет примерно 170 км. Поездка обычно занимает около 3 часов на автомобиле, включая живописный прибрежный маршрут или переправу на пароме из Мармариса."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Является ли трансфер из Даламана в Датчу частным?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, APL Transfers предоставляет 100% частные трансферы. Транспортное средство будет предоставлено только вам и вашей группе, без совместного использования с другими пассажирами."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Встретит ли меня водитель в аэропорту?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, наш водитель встретит вас в зоне прилёта с табличкой с вашим именем, поможет с багажом и сопроводит к автомобилю."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я бесплатно отменить бронирование трансфера?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете бесплатно отменить бронирование за 24 часа до назначенного времени поездки."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Работает ли ваш трансфер из Даламана в Датчу круглосуточно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Абсолютно верно. Наш трансфер из аэропорта Даламан в Датчу доступен 24 часа в сутки, 7 дней в неделю, включая праздничные дни."
+                                }
+                            }
+                        ]
                     }
                 },
                 zh: {
@@ -19384,6 +27365,50 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                         }
                     },
                     "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "达特恰距离达拉曼机场有多远？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "达特恰距离达拉曼机场约170公里。车程大约需要3小时，包括一段风景优美的海岸路线或从马尔马里斯出发的渡轮行程。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "达拉曼到达特恰的接送服务是专车服务吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，APL Transfers 提供100%专属接送服务。您和您的同伴将独享车辆，不与其他乘客拼车。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "司机会在机场接我吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们的司机会在到达大厅举着写有您名字的牌子接您，并协助搬运行李，将您带到车辆所在位置。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消接送预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，我们支持在预定接送时间前24小时内免费取消。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们的达拉曼至达特恰接送服务是24小时运行的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "当然可以。我们的达拉曼机场至达特恰接送服务全天候运行，全年无休，包括节假日。"
+                                }
+                            }
+                        ]
                     }
                 }
             },
