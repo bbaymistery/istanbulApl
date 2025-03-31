@@ -1,4 +1,4 @@
-import React, { useEffect, useState, } from 'react'
+import React, { useEffect, useRef, useState, } from 'react'
 import styles from "./styles.module.scss"
 import GlobalLayout from '../../components/layouts/GlobalLayout'
 import { useDispatch, useSelector } from 'react-redux'
@@ -134,13 +134,13 @@ const collectQuotations = (params = {}, callback = () => { }) => {
             "currencyId": currencyId
         }),
     };
-// console.log(JSON.stringify({
-//     selectedPickupPoints: trSelectedPickPoints,
-//     selectedDropoffPoints: trSelectedDroppPoints,
-//     transferDateTimeString: transferDAteTimeString,
-//     "accountId": 2964,
-//     "currencyId": currencyId
-// }));
+    // console.log(JSON.stringify({
+    //     selectedPickupPoints: trSelectedPickPoints,
+    //     selectedDropoffPoints: trSelectedDroppPoints,
+    //     transferDateTimeString: transferDAteTimeString,
+    //     "accountId": 2964,
+    //     "currencyId": currencyId
+    // }));
 
     //check if tru then get oneway guotations
     if (parseInt(journeyType) === 0) {
@@ -175,6 +175,7 @@ const QuotationResults = (props) => {
     let { isTaxiDeal = false, env } = props
     const router = useRouter()
     const dispatch = useDispatch()
+    const didMountRef = useRef(false);
 
 
     const state = useSelector(state => state.pickUpDropOffActions)
@@ -340,15 +341,24 @@ const QuotationResults = (props) => {
 
     }, [])
 
-    useEffect(() => {
-        if (
-            reservations?.[0]?.transferDetails?.transferDateTimeString ||
-            reservations?.[1]?.transferDetails?.transferDateTimeString
-        ) {
-            getQuotations();
-        }
-    }, [reservations?.[0]?.transferDetails?.transferDateTimeString, reservations?.[1]?.transferDetails?.transferDateTimeString, selectedCurrency.currencyId]);
 
+    useEffect(() => {
+        if (didMountRef.current) {
+            if (
+                reservations?.[0]?.transferDetails?.transferDateTimeString ||
+                reservations?.[1]?.transferDetails?.transferDateTimeString
+            ) {
+                getQuotations();
+            }
+        } else {
+            // İlk render'da çalışmaz ama flag setlenir
+            didMountRef.current = true;
+        }
+    }, [
+        reservations?.[0]?.transferDetails?.transferDateTimeString,
+        reservations?.[1]?.transferDetails?.transferDateTimeString,
+        selectedCurrency.currencyId
+    ]);
 
 
     return (
