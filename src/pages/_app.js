@@ -188,38 +188,19 @@ MyApp.getInitialProps = wrapper.getInitialAppProps((store) => async ({ Component
   let lang = checkLanguageAttributeOntheUrl(ctx?.req?.url)
   let appDataInitial = store.getState().initialReducer?.appData
   let paymentTypesInitial = store.getState().initialReducer?.paymentTypes
-  // Pathname kontrolü
-  // const excludePaths = ['/news', '/blog'];
-  // const isExcluded = excludePaths.some((path) => ctx?.req?.url.toLowerCase().startsWith(path));
 
   // Fetch app data and payment types
   if (ctx?.req?.url) {
-
-
     const appDataUrl = `https://cdn.london-tech.com/app/${lang?.length === 2 ? lang : 'en'}.json`;
     const urls = [appDataUrl];
     let response = await Promise.all(urls.map(async url => {
       let resp = await fetch(url);
       return resp.json();
     }));
-
     appDataInitial = response[0];
     paymentTypesInitial = response[0].paymentTypes;
-
-    // if (isExcluded) {
-    //   // Eğer rota /News veya /blog ile başlıyorsa verileri null yap
-    //   store.dispatch({ type: "GET_APP_DATA", data: { appData: null, paymentTypes: null, } });
-    // } else {
-    //   // Dispatch values to Redux store
-    // }
     store.dispatch({ type: "GET_APP_DATA", data: { appData: appDataInitial, paymentTypes: paymentTypesInitial, } });
-
   }
-
-  // if (isExcluded) {
-  //   pageProps = { hasLanguage: "en", appData: null, paymentTypes: null, }
-  // } else {
-  // }
   pageProps = { appData: appDataInitial, hasLanguage: lang || "en", env, }
   return { pageProps: { ...pageProps, } };
 

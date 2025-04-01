@@ -5,7 +5,7 @@ import fbImage from '../../../../public/images/social/fb.gif';
 import twImage from '../../../../public/images/social/tw.gif';
 import srImage from '../../../../public/images/social/rss.png';
 import instaIamge from '../../../../public/images/social/Instigram.gif';
-import airportTranslations, { allTranslations } from "../../../constants/generalTranslataions";
+import airportTranslations, { generalAllTranslations } from "../../../constants/generalTranslataions";
 import { airportTaxiLinks } from "../../../constants/navigatior";
 const officeLocations = [
     {
@@ -51,7 +51,7 @@ const Footer = () => {
                                 <li className={styles.ep}>
                                     <span>
                                         <Image src={"/images/others/world.webp"} alt="APL transfer  Support" width={25} height={20} />
-                                        {allTranslations.strEurope[language]}:
+                                        {generalAllTranslations.strEurope[language]}:
                                     </span>
                                     <a href="tel:+442033259878">
                                         +44 203 325 9878
@@ -78,7 +78,7 @@ const Footer = () => {
 
                         </div>
                         <div className={`${styles.column} ${styles.office_column}`}>
-                            <p>{allTranslations.strOurOffices[language]}</p>
+                            <p>{generalAllTranslations.strOurOffices[language]}</p>
                             <ul className={styles.officeList}>
                                 {officeLocations.map(({ id, city, address }) => (
                                     <li key={id} className={styles.officeItem}>
@@ -89,7 +89,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className={`${styles.column}`}>
-                            <p>{allTranslations.strQuickLinks[language]}</p>
+                            <p>{generalAllTranslations.strQuickLinks[language]}</p>
                             <div>
                                 <a href={`${language === 'en' ? `/about-us` : `/${language}/about-us`}`} title={(appData || {}).words["strAboutUs"]}>
                                     {(appData || {}).words["strAboutUs"]}

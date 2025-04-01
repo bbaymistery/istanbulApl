@@ -19,7 +19,7 @@ let keywords = ""
 import HandleSearchResults from '../../components/elements/HandleSearchResults';
 import SelectedPointsOnTransferDetails from '../../components/elements/SelectedPointsOnTransferDetails'
 import { reservationSchemeValidator } from '../../helpers/reservationSchemeValidator';
-import { allTranslations } from '../../constants/generalTranslataions';
+import { generalAllTranslations } from '../../constants/generalTranslataions';
 import Button from '../../components/elements/Button/Button';
 import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes';
 import TourJourneySummaryPanel from '../../components/elements/TourJourneySummaryPanel';
@@ -188,7 +188,7 @@ const TourCustomerDetails = (props) => {
                             <div className={`${styles.transferdetails_subcontainer_content} ${direction}`}>
                                 <div className={`${styles.transferdetails_subcontainer_content_points_and_passengerdetails}`}>
                                     <div className={styles.passenger_details_div}>
-                                        <h2> {allTranslations.strLeadPassengerName[language]}</h2>
+                                        <h2> {generalAllTranslations.strLeadPassengerName[language]}</h2>
                                         <div className={styles.passenger_details}>
                                             <div className={styles.input_div}>
                                                 <TextInput label={appData?.words["strFullName"]} type="text" name="firstname" onChange={e => onchangeHandler(e)} value={firstname} errorMessage={reservationError?.passengerDetails?.firstname} />

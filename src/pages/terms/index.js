@@ -3,7 +3,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import GlobalLayout from "../../components/layouts/GlobalLayout";
 import styles from "./styles.module.scss";
-import { allTranslations } from "../../constants/generalTranslataions";
+import { generalAllTranslations } from "../../constants/generalTranslataions";
 import DangerouslyInnerHtml from "../../components/elements/DangerouslyInnerHtml";
 import { checkLanguageAttributeOntheUrl } from "../../helpers/checkLanguageAttributeOntheUrl";
 import { parseCookies } from "../../helpers/cokieesFunc";
@@ -22,9 +22,9 @@ const Terms = (props) => {
                 <div className={`${styles.terms_section} page_section`}>
                     <div className={`${styles.terms_section_container} page_section_container`}>
                         <div className={styles.breadcrumb}>
-                            <span><a href="/">{allTranslations.strHome[language]}</a></span>
+                            <span><a href="/">{generalAllTranslations.strHome[language]}</a></span>
                             <span>{">"}</span>
-                            <span><a href="/terms">{allTranslations.strTerms[language]} </a> </span>
+                            <span><a href="/terms">{generalAllTranslations.strTerms[language]} </a> </span>
                         </div>
                         <div className={styles.terms_container}>
                             <DangerouslyInnerHtml htmContent={htmlContentsTerms[language]}  />

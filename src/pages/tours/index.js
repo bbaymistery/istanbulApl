@@ -23,7 +23,7 @@ const Tours = (props) => {
     // useState to control "View All" state
     const [viewAll, setViewAll] = useState(false);
     const [toursData, setToursData] = useState(tourDatasTranslated)
-    const displayedTours = viewAll ? toursData : toursData.slice(0, 4);
+    const displayedTours = viewAll ? toursData : insideGlobalLayout? toursData:toursData.slice(0, 4);
 
 
     const handleViewAllClick = () => setViewAll(!viewAll);

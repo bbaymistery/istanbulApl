@@ -69,7 +69,7 @@ const airportTranslations = {
 
 export default airportTranslations;
 
-export const allTranslations = {
+export const generalAllTranslations = {
   strPopularTours: {
     en: "Find Popular Tours",
     tr: "Popüler Turları Bul",
@@ -142,7 +142,17 @@ export const allTranslations = {
     zh: "条款和条件",
     ar: "الشروط والأحكام"
   },
-  strPrivacyPolicy : {
+  strTermsNav: {
+    en: "Terms",
+    tr: "Şartlar",
+    ru: "Условия",
+    es: "Términos",
+    it: "Termini",
+    zh: "条款",
+    ar: "الشروط"
+  },
+
+  strPrivacyPolicy: {
     en: "Privacy Policy",
     tr: "Gizlilik Politikası",
     ru: "Политика конфиденциальности",
@@ -150,5 +160,45 @@ export const allTranslations = {
     it: "Politica sulla Privacy",
     zh: "隐私政策",
     ar: "سياسة الخصوصية"
+  },
+  strFleet: {
+    en: "Our Fleet",
+    tr: "Filo",
+    ru: "Автопарк",
+    es: "Flota",
+    it: "Flotta",
+    zh: "车队",
+    ar: "الأسطول"
+  },
+  strAirportTaxi: {
+    en: "Airport Taxi",
+    tr: "Havalimanı Taksi",
+    ru: "Аэропортовое такси",
+    es: "Taxi del aeropuerto",
+    it: "Taxi aeroportuale",
+    zh: "机场出租车",
+    ar: "تاكسي المطار"
+  },
+
+
+  strManageBooking: {
+    en: " Manage My Booking",
+    tr: "Rezervasyonlarım",
+    ru: "Мои бронирования",
+    es: "Gestionar reserva",
+    it: "Gestisci prenotazione",
+    zh: "管理预订",
+    ar: "إدارة الحجز"
+  },
+  strContactUs: {
+    en: "Contact Us",
+    tr: "Bize Ulaşın",
+    ru: "Свяжитесь с нами",
+    es: "Contáctenos",
+    it: "Contattaci",
+    zh: "联系我们",
+    ar: "اتصل بنا"
   }
+
+
 };

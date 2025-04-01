@@ -3,7 +3,9 @@ import { navigator } from '../../../constants/navigatior'
 import { useDispatch } from 'react-redux'
 import styles from "./styles.module.scss";
 import { useRouter } from 'next/router';
-const DesktopMenu = ({ language, journeyType, appData, airportTranslations }) => {
+import { generalAllTranslations } from '../../../constants/generalTranslataions';
+import Link from 'next/link';
+const DesktopMenu = ({ language, journeyType, airportTranslations }) => {
     const dispatch = useDispatch()
     const router = useRouter()
     return (
@@ -16,18 +18,19 @@ const DesktopMenu = ({ language, journeyType, appData, airportTranslations }) =>
                         // as={`${path==='/'?"/":""}`}
                         <li key={innerText} className={`${styles.li_item} ${type === "list" ? styles.has_children : ""}`}>
                             {index === 0 ?
-                                <a href={language === 'en' ? '/' : `/${language}`} title={appData?.words[title]} className={`${path.length ? styles.nocursor : ""} ${router.pathname === path ? styles.active : ""}`} >
-                                    <span>{appData?.words[strInnerText]}</span>
+                                <a href={language === 'en' ? '/' : `/${language}`} title={generalAllTranslations?.[strInnerText]?.[language]} className={`${path.length ? styles.nocursor : ""} ${router.pathname === path ? styles.active : ""}`} >
+                                    <span>{generalAllTranslations?.[strInnerText]?.[language]}</span>
+                                    <br />
                                 </a>
                                 :
-                                <a href={`${language === 'en' ? `${path}` : `/${language}${path}`}`}
-                                    title={appData?.words[title]}
+                                <Link href={`${language === 'en' ? `${path}` : `/${language}${path}`}`}
+                                    title={title}
                                     className={`${path.length ? styles.nocursor : ""}  ${router.pathname === path ? styles.active : ""}`}
                                     target={index === 4 ? "_blank" : ""}
                                 >
-                                    <span>{appData?.words[strInnerText]}</span>
+                                    <span>{generalAllTranslations?.[strInnerText]?.[language]}</span>
                                     {type === "list" ? <i className="fa-solid fa-angle-down"></i> : ""}
-                                </a>
+                                </Link>
                             }
 
                             {type === "list" ?

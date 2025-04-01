@@ -114,7 +114,7 @@ const Header = () => {
               <a href={language === 'en' ? '/' : `/${language}`} className={`${styles.logo_tag}`}  >
                 <Image src={logoImage} alt="APL transfers" width={255} height={70} priority />
               </a>
-              <DesktopMenu airportTranslations={airportTranslations} appData={translatedAppData} journeyType={journeyType} language={language} />
+              <DesktopMenu airportTranslations={airportTranslations} journeyType={journeyType} language={language} />
               {/* mobile  */}
               {openMenu ?
                 <MobileMenu airportTranslations={airportTranslations} openMenu={openMenu} handleClickNavLinkMobileMenuNotList={handleClickNavLinkMobileMenuNotList} language={language} handleClickNavLinkMobileMenuList={handleClickNavLinkMobileMenuList} appData={translatedAppData} />

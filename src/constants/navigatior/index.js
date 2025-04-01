@@ -9,10 +9,10 @@ export const navigator = [
     {
         innerText: "home",
         path: "/",
-        title: "strNavHome",
+        title: "strHome",
         type: "cell",
         hasTaxiDeals: "",
-        strInnerText: "strNavHome",
+        strInnerText: "strHome",
     },
     {
         innerText: "airports",
@@ -84,21 +84,21 @@ export const navigator = [
         path: "/terms",
         type: "cell",
         hasTaxiDeals: "",
-        title: "strTerms",
-        strInnerText: "strTerms"
+        title: "strTermsNav",
+        strInnerText: "strTermsNav"
     },
     {
         innerText: "Our Fleet",
         path: "/fleet",
         type: "cell",
         hasTaxiDeals: "",
-        title: "strOurFleet",
-        strInnerText: "strOurFleet"
+        title: "strFleet",
+        strInnerText: "strFleet"
     },
     {
         innerText: "Manage Booking ",
         path: "/manage-booking.html",
-        title: "appContactUsHeader",
+        title: "strManageBooking",
         type: "cell",
         hasTaxiDeals: "",
         strInnerText: "strManageBooking"
@@ -107,12 +107,13 @@ export const navigator = [
     {
         innerText: "Contact Us ",
         path: "/contact-us",
-        title: "appContactUsHeader",
+        title: "strContactUs",
         type: "cell",
         hasTaxiDeals: "",
-        strInnerText: "appContactUsHeader"
+        strInnerText: "strContactUs"
 
     },
+    
 
 ]
 

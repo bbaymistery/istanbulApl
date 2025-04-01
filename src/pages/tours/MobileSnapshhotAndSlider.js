@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes'
-import Button from '../../components/elements/Button/Button'
-import { allTranslations } from '../../constants/generalTranslataions'
 import ReusableModal from '../../components/elements/ReusableModal'
 import Slider from '../../components/elements/Slider'
 import { Skeleton } from '../../components/elements/Skeleton'
@@ -92,7 +89,7 @@ const MobileSnapshhotAndSlider = (props) => {
                     <Button
                         type={BUTTON_TYPES.PRIMARY_OUTLINE}
                         style={{ padding: '6px 5px' }}
-                         btnText={allTranslations["strPerPerson"][language]}
+                         btnText={generalAllTranslations["strPerPerson"][language]}
                           icon={<i className="fa-solid fa-arrow-down"></i>} 
                           iconPos='RIGHT' />
                 </div> */}
