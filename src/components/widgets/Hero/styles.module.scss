@@ -5,7 +5,7 @@
     padding-top: 90px;
     padding-bottom: 218px;
     z-index: 5;
-    height: 770px;
+    min-height: 770px;
     margin-top: 87px;
     box-shadow: $box-shadow-2;
 
@@ -80,6 +80,10 @@
                     text-align: center;
                     color: white;
                     padding-top: 30px;
+
+                    @media (max-width:990px) {
+                        padding-top: 10px;
+                    }
                 }
 
                 .subtitle {

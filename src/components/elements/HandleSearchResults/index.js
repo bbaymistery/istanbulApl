@@ -152,7 +152,7 @@ const HandleSearchResults = (params = {}) => {
 
         if (width <= 990) {
             let navbarElement = document.querySelector("#navbar_container");
-            navbarElement.style.display = "flex";
+            navbarElement.style.display = "block";
             document.body.style.overflow = "unset";
 
         }

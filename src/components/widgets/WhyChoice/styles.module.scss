@@ -3,8 +3,6 @@
 .whychoice {
     padding-bottom: 0px;
     margin-top: 0px;
-    padding-top: 50px;
-    padding-bottom: 25px;
     box-shadow: $box-shadow-2;
 
     @media(max-width:768px) {
@@ -23,7 +21,7 @@
             }
 
             .featureIcons {
-                padding-top: 40px;
+                padding-top: 50px;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
 
@@ -61,25 +59,7 @@
                     }
                 }
             }
-
-            //!image fixing add normal cozunurlukde image
-
         }
     }
 }
 
-.fade_bottom_to_top {
-    animation: bottom_to_top 1s ease forwards;
-}
-
-@keyframes bottom_to_top {
-    0% {
-        transform: translateY(40px);
-        opacity: 0; // Start from invisible
-    }
-
-    100% {
-        transform: translateY(0px);
-        opacity: 1; // End fully visible
-    }
-}

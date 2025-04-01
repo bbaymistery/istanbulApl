@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from "./styles.module.scss";
 import { useSelector } from 'react-redux';
-import { useVisibility } from '../../../hooks/useVisibility';
 import translations from './translations';
 const icons = [
     {
@@ -26,16 +25,12 @@ const WhyChoice = () => {
     const state = useSelector(state => state.pickUpDropOffActions);
     const { params: { direction, language } } = state;
 
-    const [isVisible, ref] = useVisibility();
     const translation = translations[language] || translations.en;
     return (
         <div className={`${styles.whychoice} ${direction} page`} >
             <div className={`${styles.whychoice_section} page_section`}>
                 <div className={`${styles.whychoice_section_container} page_section_container`}>
-                    {/* <h2 ref={ref} className={`${isVisible ? styles.fade_bottom_to_top : ''}`}>
-                        {translation.title}
-                    </h2> */}
-                    <div ref={ref} className={`${styles.featureIcons} ${isVisible ? styles.fade_bottom_to_top : ''}`}>
+                    <div className={`${styles.featureIcons}`}>
                         {icons.map((icon, idx) => {
                             const content = translation.icons[idx];
                             return (

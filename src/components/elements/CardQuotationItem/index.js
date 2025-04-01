@@ -518,12 +518,12 @@ const CardQuotationItem = (params = {}) => {
           <div className={`${styles.items_buttons}`}>
             <div>
               <div onClick={() => router.back()}>
-                <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 38.5px", }} btnText={`${appData?.words["strGoBack"]}`} />
+                <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 28.5px", }} btnText={`${appData?.words["strGoBack"]}`} />
               </div>
             </div>
             <div>
               <div onClick={gotoTransferDetailsClick}>
-                <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 38.5px", }} btnText={`${appData?.words["strContinue"]}`} />
+                <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 28.5px", }} btnText={`${appData?.words["strContinue"]}`} />
               </div>
             </div>
           </div>
