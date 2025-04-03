@@ -92,8 +92,8 @@ const DropOffPoints = ({ selectedDropoffPoints, direction, language }) => {
 
             {/* OTHERRRRRRR */}
             {point?.pcatId === 10 && point?.["address-description"] && (
-              <div className={styles.details_bottom_description} direction={String(direction === 'rtl')}>
-                <div className={styles.bottom_main_desc}>
+              <div className={pointsStyle.details_bottom_description} direction={String(direction === 'rtl')}>
+                <div className={pointsStyle.bottom_main_desc}>
                   <span>{appData?.words["strAddress"]}:</span>{" "}
                   <span>{point?.["address-description"]}</span>
                 </div>

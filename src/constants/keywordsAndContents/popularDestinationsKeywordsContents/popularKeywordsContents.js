@@ -823,10 +823,483 @@ const keywordsTitlePopularDestinationPage = {
             }
         }
     },
-    AYT: {},
-    BJY: {},
-    ADB: {},
-    GZP: {}
+    AYT: {
+        "/antalya-airport-to-lara-beach": {
+            "headTitle": {
+                "en": "Antalya Airport to Lara Beach Taxi | Private Transfers 24/7",
+                "tr": "Antalya Havalimanı Lara Plajı Taksi | 7/24 Özel Transferler",
+                "zh": "安塔利亚机场至拉拉海滩出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Антальи на пляж Лара | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Antalya a Lara Beach | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Antalya Lara Beach | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار أنطاليا إلى شاطئ لارا | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Antalya Airport to Lara Beach taxi, AYT airport transfer, Lara Beach airport taxi, private airport transfer Antalya, Antalya taxi service",
+                "tr": "Antalya havalimanı Lara Plajı taksi, AYT havalimanı transferi, Lara Plajı havalimanı taksi, özel havalimanı transferi Antalya, Antalya taksi hizmeti",
+                "zh": "安塔利亚机场至拉拉海滩出租车, AYT机场接送, 拉拉海滩机场出租车, 私人机场接送安塔利亚, 安塔利亚出租车服务",
+                "ru": "Такси из аэропорта Антальи на пляж Лара, трансфер из аэропорта AYT, такси до пляжа Лара, частный трансфер в Анталье, такси в Анталье",
+                "es": "Taxi aeropuerto Antalya a Lara Beach, traslado aeropuerto AYT, taxi aeropuerto Lara Beach, traslado privado aeropuerto Antalya, servicio de taxi Antalya",
+                "it": "Taxi aeroporto Antalya Lara Beach, trasferimento aeroporto AYT, taxi aeroporto Lara Beach, trasferimento privato aeroporto Antalya, servizio taxi Antalya",
+                "ar": "تاكسي مطار أنطاليا إلى شاطئ لارا, نقل مطار AYT, تاكسي مطار شاطئ لارا, انتقال خاص من مطار أنطاليا, خدمة تاكسي أنطاليا"
+            },
+            "metaDescription": {
+                "en": "Book a reliable Antalya Airport to Lara Beach taxi transfer. Fixed prices, free meet & greet, & 24/7 service. Reserve your AYT Airport taxi now!",
+                "tr": "Güvenilir bir Antalya Havalimanı Lara Plajı taksi transferi rezerve edin. Sabit fiyatlar, ücretsiz karşılama ve 7/24 hizmet. AYT Havalimanı taksinizi şimdi ayırtın!",
+                "zh": "预订可靠的安塔利亚机场至拉拉海滩出租车接送。固定价格，免费接机，24/7服务。立即预订您的AYT机场出租车！",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Антальи на пляж Лара. Фиксированные цены, бесплатная встреча и обслуживание 24/7. Забронируйте такси из аэропорта AYT прямо сейчас!",
+                "es": "Reserva un traslado en taxi confiable desde el Aeropuerto de Antalya a Lara Beach. Precios fijos, bienvenida gratuita y servicio 24/7. ¡Reserva ahora tu taxi en el Aeropuerto AYT!",
+                "it": "Prenota un trasferimento in taxi affidabile dall Aeroporto di Antalya a Lara Beach. Prezzi fissi, accoglienza gratuita e servizio 24/7. Prenota ora il tuo taxi dall Aeroporto AYT!",
+                "ar": "احجز انتقال تاكسي موثوق من مطار أنطاليا إلى شاطئ لارا. أسعار ثابتة، استقبال مجاني وخدمة 24/7. احجز تاكسي مطار AYT الآن!"
+            }
+        }
+        ,
+        "/antalya-airport-to-antalya-city-center-kaleici": {
+            "headTitle": {
+                "en": "Antalya Airport to City Center & Kaleiçi Taxi | Private Transfers 24/7",
+                "tr": "Antalya Havalimanı Şehir Merkezi & Kaleiçi Taksi | 7/24 Özel Transferler",
+                "zh": "安塔利亚机场至市中心和卡雷伊奇出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Антальи в центр города и Калеичи | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Antalya al Centro y Kaleiçi | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Antalya Centro & Kaleiçi | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار أنطاليا إلى مركز المدينة وكاليتشي | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Antalya Airport to Kaleiçi taxi, AYT airport transfer, Antalya city center taxi, private airport transfer Antalya, Antalya Kaleiçi transfer",
+                "tr": "Antalya havalimanı Kaleiçi taksi, AYT havalimanı transferi, Antalya şehir merkezi taksi, özel havalimanı transferi Antalya, Antalya Kaleiçi transfer",
+                "zh": "安塔利亚机场至卡雷伊奇出租车, AYT机场接送, 安塔利亚市中心出租车, 私人机场接送安塔利亚, 卡雷伊奇接送",
+                "ru": "Такси из аэропорта Антальи в Калеичи, трансфер из аэропорта AYT, такси до центра Антальи, частный трансфер Анталья, трансфер в Калеичи",
+                "es": "Taxi aeropuerto Antalya a Kaleiçi, traslado aeropuerto AYT, taxi centro Antalya, traslado privado Antalya, servicio a Kaleiçi",
+                "it": "Taxi aeroporto Antalya Kaleiçi, trasferimento aeroporto AYT, taxi centro città Antalya, trasferimento privato Antalya, servizio Kaleiçi",
+                "ar": "تاكسي مطار أنطاليا إلى كاليتشي, نقل مطار AYT, تاكسي مركز مدينة أنطاليا, انتقال خاص أنطاليا, خدمة نقل كاليتشي"
+            },
+            "metaDescription": {
+                "en": "Book a reliable Antalya Airport to Kaleiçi and city center taxi transfer. Fixed prices, meet & greet service, and 24/7 support. Reserve your AYT taxi now!",
+                "tr": "Antalya Havalimanı'ndan Kaleiçi ve şehir merkezine güvenilir taksi transferi rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. AYT taksinizi şimdi ayırtın!",
+                "zh": "预订可靠的安塔利亚机场至卡雷伊奇和市中心出租车接送服务。固定价格，接机服务，全天候客服支持。立即预订您的AYT出租车！",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Антальи в центр города и Калеичи. Фиксированные цены, встреча в аэропорту и круглосуточная поддержка. Закажите такси AYT сейчас!",
+                "es": "Reserva un traslado confiable en taxi del Aeropuerto de Antalya al centro y Kaleiçi. Precios fijos, bienvenida gratuita y servicio 24/7. ¡Reserva tu taxi AYT ahora!",
+                "it": "Prenota un trasferimento taxi affidabile dall Aeroporto di Antalya al centro città e Kaleiçi. Prezzo fisso, accoglienza gratuita e supporto 24/7. Prenota ora il tuo taxi AYT!",
+                "ar": "احجز تاكسي موثوق من مطار أنطاليا إلى مركز المدينة وكاليتشي. أسعار ثابتة، استقبال مجاني، وخدمة 24/7. احجز تاكسي مطار AYT الآن!"
+            }
+        },
+        "/antalya-airport-to-belek": {
+            "headTitle": {
+                "en": "Antalya Airport to Belek Taxi | Private Transfers 24/7",
+                "tr": "Antalya Havalimanı Belek Taksi | 7/24 Özel Transferler",
+                "zh": "安塔利亚机场至贝莱克出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Антальи в Белек | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Antalya a Belek | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Antalya Belek | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار أنطاليا إلى بيليك | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Antalya Airport to Belek taxi, AYT airport transfer, Belek airport taxi, private airport transfer Antalya, Antalya taxi service",
+                "tr": "Antalya havalimanı Belek taksi, AYT havalimanı transferi, Belek havalimanı taksi, özel havalimanı transferi Antalya, Antalya taksi hizmeti",
+                "zh": "安塔利亚机场至贝莱克出租车, AYT机场接送, 贝莱克机场出租车, 私人机场接送安塔利亚, 安塔利亚出租车服务",
+                "ru": "Такси из аэропорта Антальи в Белек, трансфер из аэропорта AYT, такси до Белека, частный трансфер в Анталье, такси в Анталье",
+                "es": "Taxi aeropuerto Antalya a Belek, traslado aeropuerto AYT, taxi aeropuerto Belek, traslado privado Antalya, servicio de taxi Antalya",
+                "it": "Taxi aeroporto Antalya Belek, trasferimento aeroporto AYT, taxi aeroporto Belek, trasferimento privato Antalya, servizio taxi Antalya",
+                "ar": "تاكسي مطار أنطاليا إلى بيليك, نقل مطار AYT, تاكسي مطار بيليك, انتقال خاص من مطار أنطاليا, خدمة تاكسي أنطاليا"
+            },
+            "metaDescription": {
+                "en": "Book a reliable Antalya Airport to Belek taxi transfer. Fixed prices, meet & greet service, and 24/7 support. Reserve your AYT taxi now!",
+                "tr": "Antalya Havalimanı'ndan Belek'e güvenilir taksi transferi rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. AYT taksinizi şimdi ayırtın!",
+                "zh": "预订可靠的安塔利亚机场至贝莱克出租车接送服务。固定价格，接机服务，全天候客服支持。立即预订您的AYT出租车！",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Антальи в Белек. Фиксированные цены, встреча в аэропорту и круглосуточная поддержка. Закажите такси AYT сейчас!",
+                "es": "Reserva un traslado confiable en taxi del Aeropuerto de Antalya a Belek. Precios fijos, bienvenida gratuita y servicio 24/7. ¡Reserva tu taxi AYT ahora!",
+                "it": "Prenota un trasferimento taxi affidabile dall Aeroporto di Antalya a Belek. Prezzo fisso, accoglienza gratuita e supporto 24/7. Prenota ora il tuo taxi AYT!",
+                "ar": "احجز تاكسي موثوق من مطار أنطاليا إلى بيليك. أسعار ثابتة، استقبال مجاني، وخدمة 24/7. احجز تاكسي مطار AYT الآن!"
+            }
+        },
+        "/antalya-airport-to-kemer": {
+            "headTitle": {
+                "en": "Antalya Airport to Kemer Taxi | Private Transfers 24/7",
+                "tr": "Antalya Havalimanı Kemer Taksi | 7/24 Özel Transferler",
+                "zh": "安塔利亚机场至凯梅尔出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Антальи в Кемер | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Antalya a Kemer | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Antalya Kemer | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار أنطاليا إلى كيمير | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Antalya Airport to Kemer taxi, AYT airport transfer, Kemer airport taxi, private airport transfer Antalya, Antalya taxi service",
+                "tr": "Antalya havalimanı Kemer taksi, AYT havalimanı transferi, Kemer havalimanı taksi, özel havalimanı transferi Antalya, Antalya taksi hizmeti",
+                "zh": "安塔利亚机场至凯梅尔出租车, AYT机场接送, 凯梅尔机场出租车, 私人机场接送安塔利亚, 安塔利亚出租车服务",
+                "ru": "Такси из аэропорта Антальи в Кемер, трансфер AYT, такси до Кемера, частный трансфер Анталья, такси в Анталье",
+                "es": "Taxi aeropuerto Antalya a Kemer, traslado aeropuerto AYT, taxi aeropuerto Kemer, traslado privado Antalya, servicio de taxi Antalya",
+                "it": "Taxi aeroporto Antalya Kemer, transfer aeroporto AYT, taxi aeroporto Kemer, trasferimento privato Antalya, servizio taxi Antalya",
+                "ar": "تاكسي مطار أنطاليا إلى كيمير, نقل مطار AYT, تاكسي مطار كيمير, انتقال خاص من مطار أنطاليا, خدمة تاكسي أنطاليا"
+            },
+            "metaDescription": {
+                "en": "Book a reliable Antalya Airport to Kemer taxi transfer. Fixed prices, meet & greet service, and 24/7 support. Reserve your AYT taxi now!",
+                "tr": "Antalya Havalimanı'ndan Kemer'e güvenilir taksi transferi rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. AYT taksinizi şimdi ayırtın!",
+                "zh": "预订可靠的安塔利亚机场至凯梅尔出租车服务。固定价格，接机服务，全天候客服。立即预订您的AYT出租车！",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Антальи в Кемер. Фиксированные цены, встреча в аэропорту и поддержка 24/7. Закажите такси AYT сейчас!",
+                "es": "Reserva un traslado confiable en taxi del Aeropuerto de Antalya a Kemer. Precios fijos, bienvenida gratuita y servicio 24/7. ¡Reserva tu taxi AYT ahora!",
+                "it": "Prenota un trasferimento taxi affidabile dall Aeroporto di Antalya a Kemer. Prezzo fisso, accoglienza e supporto 24/7. Prenota ora il tuo taxi AYT!",
+                "ar": "احجز انتقال تاكسي موثوق من مطار أنطاليا إلى كيمير. أسعار ثابتة، استقبال مجاني، وخدمة 24/7. احجز تاكسي مطار AYT الآن!"
+            }
+        },
+        "/antalya-airport-to-side": {
+            "headTitle": {
+                "en": "Antalya Airport to Side Taxi | Private Transfers 24/7",
+                "tr": "Antalya Havalimanı Side Taksi | 7/24 Özel Transferler",
+                "zh": "安塔利亚机场至西代出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Антальи в Сиде | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Antalya a Side | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Antalya Side | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار أنطاليا إلى سايد | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Antalya Airport to Side taxi, AYT airport transfer, Side airport taxi, private airport transfer Antalya, Antalya taxi service",
+                "tr": "Antalya havalimanı Side taksi, AYT havalimanı transferi, Side havalimanı taksi, özel havalimanı transferi Antalya, Antalya taksi hizmeti",
+                "zh": "安塔利亚机场至西代出租车, AYT机场接送, 西代机场出租车, 私人机场接送安塔利亚, 安塔利亚出租车服务",
+                "ru": "Такси из аэропорта Антальи в Сиде, трансфер AYT, такси до Сиде, частный трансфер Анталья, такси в Анталье",
+                "es": "Taxi aeropuerto Antalya a Side, traslado aeropuerto AYT, taxi aeropuerto Side, traslado privado Antalya, servicio de taxi Antalya",
+                "it": "Taxi aeroporto Antalya Side, transfer aeroporto AYT, taxi aeroporto Side, trasferimento privato Antalya, servizio taxi Antalya",
+                "ar": "تاكسي مطار أنطاليا إلى سايد, نقل مطار AYT, تاكسي مطار سايد, انتقال خاص من مطار أنطاليا, خدمة تاكسي أنطاليا"
+            },
+            "metaDescription": {
+                "en": "Book a reliable Antalya Airport to Side taxi transfer. Fixed prices, meet & greet service, and 24/7 support. Reserve your AYT taxi now!",
+                "tr": "Antalya Havalimanı'ndan Side'ye güvenilir taksi transferi rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. AYT taksinizi şimdi ayırtın!",
+                "zh": "预订可靠的安塔利亚机场至西代出租车服务。固定价格，接机服务，全天候客服。立即预订您的AYT出租车！",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Антальи в Сиде. Фиксированные цены, встреча в аэропорту и поддержка 24/7. Закажите такси AYT сейчас!",
+                "es": "Reserva un traslado confiable en taxi del Aeropuerto de Antalya a Side. Precios fijos, bienvenida gratuita y servicio 24/7. ¡Reserva tu taxi AYT ahora!",
+                "it": "Prenota un trasferimento taxi affidabile dall Aeroporto di Antalya a Side. Prezzo fisso, accoglienza e supporto 24/7. Prenota ora il tuo taxi AYT!",
+                "ar": "احجز انتقال تاكسي موثوق من مطار أنطاليا إلى سايد. أسعار ثابتة، استقبال مجاني، وخدمة 24/7. احجز تاكسي مطار AYT الآن!"
+            }
+        },
+        "/antalya-airport-to-manavgat": {
+            "headTitle": {
+                "en": "Antalya Airport to Manavgat Taxi | Private Transfers 24/7",
+                "tr": "Antalya Havalimanı Manavgat Taksi | 7/24 Özel Transferler",
+                "zh": "安塔利亚机场至马纳夫加特出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Антальи в Манавгат | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Antalya a Manavgat | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Antalya Manavgat | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار أنطاليا إلى مانافغات | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Antalya Airport to Manavgat taxi, AYT airport transfer, Manavgat airport taxi, private airport transfer Antalya, Antalya taxi service",
+                "tr": "Antalya havalimanı Manavgat taksi, AYT havalimanı transferi, Manavgat havalimanı taksi, özel havalimanı transferi Antalya, Antalya taksi hizmeti",
+                "zh": "安塔利亚机场至马纳夫加特出租车, AYT机场接送, 马纳夫加特机场出租车, 私人机场接送安塔利亚, 安塔利亚出租车服务",
+                "ru": "Такси из аэропорта Антальи в Манавгат, трансфер AYT, такси до Манавгата, частный трансфер Анталья, такси в Анталье",
+                "es": "Taxi aeropuerto Antalya a Manavgat, traslado aeropuerto AYT, taxi aeropuerto Manavgat, traslado privado Antalya, servicio de taxi Antalya",
+                "it": "Taxi aeroporto Antalya Manavgat, transfer aeroporto AYT, taxi aeroporto Manavgat, trasferimento privato Antalya, servizio taxi Antalya",
+                "ar": "تاكسي مطار أنطاليا إلى مانافغات, نقل مطار AYT, تاكسي مطار مانافغات, انتقال خاص من مطار أنطاليا, خدمة تاكسي أنطاليا"
+            },
+            "metaDescription": {
+                "en": "Book a reliable Antalya Airport to Manavgat taxi transfer. Fixed prices, meet & greet service, and 24/7 support. Reserve your AYT taxi now!",
+                "tr": "Antalya Havalimanı'ndan Manavgat'a güvenilir taksi transferi rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. AYT taksinizi şimdi ayırtın!",
+                "zh": "预订可靠的安塔利亚机场至马纳夫加特出租车服务。固定价格，接机服务，全天候客服。立即预订您的AYT出租车！",
+                "ru": "Забронируйте надежный трансфер такси из аэропорта Антальи в Манавгат. Фиксированные цены, встреча в аэропорту и поддержка 24/7. Закажите такси AYT сейчас!",
+                "es": "Reserva un traslado confiable en taxi del Aeropuerto de Antalya a Manavgat. Precios fijos, bienvenida gratuita y servicio 24/7. ¡Reserva tu taxi AYT ahora!",
+                "it": "Prenota un trasferimento taxi affidabile dall Aeroporto di Antalya a Manavgat. Prezzo fisso, accoglienza e supporto 24/7. Prenota ora il tuo taxi AYT!",
+                "ar": "احجز انتقال تاكسي موثوق من مطار أنطاليا إلى مانافغات. أسعار ثابتة، استقبال مجاني، وخدمة 24/7. احجز تاكسي مطار AYT الآن!"
+            }
+        },
+        "/antalya-airport-to-kas": {
+            "headTitle": {
+                "en": "Antalya Airport to Kaş Taxi | Private Transfers 24/7",
+                "tr": "Antalya Havalimanı Kaş Taksi | 7/24 Özel Transferler",
+                "zh": "安塔利亚机场至卡什出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Антальи в Каш | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Antalya a Kaş | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Antalya Kaş | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار أنطاليا إلى كاش | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Antalya Airport to Kaş taxi, AYT airport transfer, Kaş airport taxi, private airport transfer Antalya, Antalya to Kaş taxi service",
+                "tr": "Antalya havalimanı Kaş taksi, AYT havalimanı transferi, Kaş havalimanı taksi, özel havalimanı transferi Antalya, Antalya Kaş taksi hizmeti",
+                "zh": "安塔利亚机场至卡什出租车, AYT机场接送, 卡什机场出租车, 私人机场接送安塔利亚, 安塔利亚至卡什出租车服务",
+                "ru": "Такси из аэропорта Антальи в Каш, трансфер AYT, частный трансфер в Каш, такси Анталья-Каш, такси в Каш",
+                "es": "Taxi aeropuerto Antalya a Kaş, traslado aeropuerto AYT, taxi aeropuerto Kaş, traslado privado Antalya, servicio de taxi Kaş",
+                "it": "Taxi aeroporto Antalya Kaş, transfer aeroporto AYT, taxi aeroporto Kaş, trasferimento privato Antalya, servizio taxi Kaş",
+                "ar": "تاكسي مطار أنطاليا إلى كاش, نقل مطار AYT, تاكسي مطار كاش, انتقال خاص من أنطاليا إلى كاش, خدمة تاكسي كاش"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Antalya Airport (AYT) to Kaş. Fixed prices, free meet & greet, and 24/7 support. Reserve your Kaş taxi today!",
+                "tr": "Antalya Havalimanı'ndan (AYT) Kaş'a özel transfer rezerve edin. Sabit fiyatlar, ücretsiz karşılama ve 7/24 destek. Kaş taksinizi hemen ayırtın!",
+                "zh": "预订从安塔利亚机场（AYT）到卡什的私人接送服务。固定价格，免费接机，全天候客服支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Антальи (AYT) в Каш. Фиксированные цены, встреча и поддержка 24/7. Забронируйте такси в Каш сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Antalya (AYT) a Kaş. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Antalya (AYT) a Kaş. Prezzo fisso, accoglienza gratuita e supporto 24/7. Prenota subito!",
+                "ar": "احجز خدمة نقل خاصة من مطار أنطاليا (AYT) إلى كاش. سعر ثابت، استقبال مجاني، ودعم 24/7. احجز الآن!"
+            }
+        }
+        ,
+        "/antalya-airport-to-patara": {
+            "headTitle": {
+                "en": "Antalya Airport to Patara Taxi | Private Transfers 24/7",
+                "tr": "Antalya Havalimanı Patara Taksi | 7/24 Özel Transferler",
+                "zh": "安塔利亚机场至帕塔拉出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Антальи в Патара | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Antalya a Patara | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Antalya Patara | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار أنطاليا إلى بتارا | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Antalya Airport to Patara taxi, AYT airport transfer, Patara airport taxi, private airport transfer Antalya, Antalya to Patara taxi service",
+                "tr": "Antalya havalimanı Patara taksi, AYT havalimanı transferi, Patara havalimanı taksi, özel havalimanı transferi Antalya, Antalya Patara taksi hizmeti",
+                "zh": "安塔利亚机场至帕塔拉出租车, AYT机场接送, 帕塔拉机场出租车, 私人机场接送安塔利亚, 安塔利亚至帕塔拉出租车服务",
+                "ru": "Такси из аэропорта Антальи в Патара, трансфер AYT, частный трансфер в Патара, такси Анталья-Патара, такси в Патара",
+                "es": "Taxi aeropuerto Antalya a Patara, traslado aeropuerto AYT, taxi aeropuerto Patara, traslado privado Antalya, servicio de taxi Patara",
+                "it": "Taxi aeroporto Antalya Patara, transfer aeroporto AYT, taxi aeroporto Patara, trasferimento privato Antalya, servizio taxi Patara",
+                "ar": "تاكسي مطار أنطاليا إلى بتارا, نقل مطار AYT, تاكسي مطار بتارا, انتقال خاص من أنطاليا إلى بتارا, خدمة تاكسي بتارا"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Antalya Airport (AYT) to Patara. Fixed prices, free meet & greet, and 24/7 support. Reserve your Patara taxi today!",
+                "tr": "Antalya Havalimanı'ndan (AYT) Patara'ya özel transfer rezerve edin. Sabit fiyatlar, ücretsiz karşılama ve 7/24 destek. Patara taksinizi hemen ayırtın!",
+                "zh": "预订从安塔利亚机场（AYT）到帕塔拉的私人接送服务。固定价格，免费接机，全天候客服支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Антальи (AYT) в Патара. Фиксированные цены, встреча и поддержка 24/7. Забронируйте такси в Патара сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Antalya (AYT) a Patara. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Antalya (AYT) a Patara. Prezzo fisso, accoglienza gratuita e supporto 24/7. Prenota subito!",
+                "ar": "احجز خدمة نقل خاصة من مطار أنطاليا (AYT) إلى بتارا. سعر ثابت، استقبال مجاني، ودعم 24/7. احجز الآن!"
+            }
+        }
+
+    },
+    BJY: {
+        "/bodrum-airport-to-bodrum-town-center": {
+            "headTitle": {
+                "en": "Bodrum Airport to Bodrum Town Center Taxi | Private Transfers 24/7",
+                "tr": "Bodrum Havalimanı Bodrum Merkez Taksi | 7/24 Özel Transferler",
+                "zh": "博德鲁姆机场至市中心出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Бодрума в центр города | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Bodrum al Centro | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Bodrum Centro | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار بودروم إلى مركز المدينة | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Bodrum Airport to town center taxi, BJV airport transfer, Bodrum center taxi, private airport transfer Bodrum, Bodrum taxi service",
+                "tr": "Bodrum havalimanı şehir merkezi taksi, BJV havalimanı transferi, Bodrum merkez taksi, özel havalimanı transferi Bodrum, Bodrum taksi hizmeti",
+                "zh": "博德鲁姆机场至市中心出租车, BJV机场接送, 博德鲁姆市中心出租车, 私人机场接送博德鲁姆, 博德鲁姆出租车服务",
+                "ru": "Такси из аэропорта Бодрума в центр, трансфер из BJV, такси в центр Бодрума, частный трансфер, служба такси Бодрум",
+                "es": "Taxi aeropuerto Bodrum al centro, traslado aeropuerto BJV, taxi centro Bodrum, traslado privado Bodrum, servicio de taxi Bodrum",
+                "it": "Taxi aeroporto Bodrum centro, transfer aeroporto BJV, taxi centro città Bodrum, trasferimento privato, servizio taxi Bodrum",
+                "ar": "تاكسي مطار بودروم إلى وسط المدينة, نقل مطار BJV, تاكسي مركز بودروم, انتقال خاص من المطار, خدمة تاكسي بودروم"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Bodrum Airport (BJV) to Bodrum town center. Fixed prices, meet & greet, and 24/7 support. Reserve now!",
+                "tr": "Bodrum Havalimanı'ndan (BJV) Bodrum Merkez'e özel transfer rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. Şimdi ayırtın!",
+                "zh": "预订从博德鲁姆机场（BJV）到市中心的私人接送服务。固定价格，接机服务，全天候支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Бодрум (BJV) в центр города. Фиксированные цены, встреча и поддержка 24/7. Забронируйте сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Bodrum (BJV) al centro. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Bodrum (BJV) al centro. Prezzo fisso, accoglienza e supporto 24/7. Prenota ora!",
+                "ar": "احجز خدمة نقل خاصة من مطار بودروم (BJV) إلى مركز المدينة. سعر ثابت، استقبال مجاني، ودعم 24/7. احجز الآن!"
+            }
+        }
+        ,
+        "/bodrum-airport-to-gumbet": {
+            "headTitle": {
+                "en": "Bodrum Airport to Gumbet Taxi | Private Transfers 24/7",
+                "tr": "Bodrum Havalimanı Gümbet Taksi | 7/24 Özel Transferler",
+                "zh": "博德鲁姆机场至古姆贝特出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Бодрума в Гюмбет | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Bodrum a Gumbet | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Bodrum Gumbet | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار بودروم إلى غومبيت | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Bodrum Airport to Gumbet taxi, BJV airport transfer, Gumbet transfer service, private airport transfer Bodrum, Bodrum taxi service",
+                "tr": "Bodrum havalimanı Gümbet taksi, BJV havalimanı transferi, Gümbet transfer hizmeti, özel havalimanı transferi Bodrum, Bodrum taksi hizmeti",
+                "zh": "博德鲁姆机场至古姆贝特出租车, BJV机场接送, 古姆贝特接送服务, 博德鲁姆私人机场接送, 博德鲁姆出租车服务",
+                "ru": "Такси из аэропорта Бодрума в Гюмбет, трансфер из BJV, частный трансфер в Гюмбет, служба такси Бодрум",
+                "es": "Taxi aeropuerto Bodrum a Gumbet, traslado BJV, traslado privado Gumbet, servicio de taxi Bodrum",
+                "it": "Taxi aeroporto Bodrum Gumbet, transfer aeroporto BJV, servizio transfer privato Gumbet, taxi Bodrum",
+                "ar": "تاكسي مطار بودروم إلى غومبيت, نقل مطار BJV, خدمة غومبيت الخاصة, تاكسي بودروم"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Bodrum Airport (BJV) to Gumbet. Fixed prices, meet & greet service, and 24/7 support. Reserve now!",
+                "tr": "Bodrum Havalimanı'ndan (BJV) Gümbet'e özel transfer rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. Hemen ayırtın!",
+                "zh": "预订从博德鲁姆机场（BJV）到古姆贝特的私人接送服务。固定价格，接机服务，全天候客服支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Бодрум (BJV) в Гюмбет. Фиксированные цены, встреча и поддержка 24/7. Бронируйте сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Bodrum (BJV) a Gumbet. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Bodrum (BJV) a Gumbet. Prezzo fisso, accoglienza gratuita, supporto 24/7. Prenota ora!",
+                "ar": "احجز خدمة نقل خاصة من مطار بودروم (BJV) إلى غومبيت. سعر ثابت، استقبال مجاني، دعم 24/7. احجز الآن!"
+            }
+        },
+        "/bodrum-airport-to-bitez": {
+            "headTitle": {
+                "en": "Bodrum Airport to Bitez Taxi | Private Transfers 24/7",
+                "tr": "Bodrum Havalimanı Bitez Taksi | 7/24 Özel Transferler",
+                "zh": "博德鲁姆机场至比泰兹出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Бодрума в Битез | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Bodrum a Bitez | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Bodrum Bitez | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار بودروم إلى بيتز | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Bodrum Airport to Bitez taxi, BJV airport transfer, Bitez transfer service, private airport transfer Bodrum, Bodrum taxi service",
+                "tr": "Bodrum havalimanı Bitez taksi, BJV havalimanı transferi, Bitez transfer hizmeti, özel havalimanı transferi Bodrum, Bodrum taksi hizmeti",
+                "zh": "博德鲁姆机场至比泰兹出租车, BJV机场接送, 比泰兹接送服务, 博德鲁姆私人机场接送, 博德鲁姆出租车服务",
+                "ru": "Такси из аэропорта Бодрума в Битез, трансфер из BJV, частный трансфер Битез, служба такси Бодрум",
+                "es": "Taxi aeropuerto Bodrum a Bitez, traslado BJV, traslado privado Bitez, servicio de taxi Bodrum",
+                "it": "Taxi aeroporto Bodrum Bitez, transfer aeroporto BJV, servizio transfer privato Bitez, taxi Bodrum",
+                "ar": "تاكسي مطار بودروم إلى بيتز, نقل مطار BJV, خدمة بيتز الخاصة, تاكسي بودروم"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Bodrum Airport (BJV) to Bitez. Fixed prices, meet & greet service, and 24/7 support. Reserve now!",
+                "tr": "Bodrum Havalimanı'ndan (BJV) Bitez'e özel transfer rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. Hemen ayırtın!",
+                "zh": "预订从博德鲁姆机场（BJV）到比泰兹的私人接送服务。固定价格，接机服务，全天候客服支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Бодрум (BJV) в Битез. Фиксированные цены, встреча и поддержка 24/7. Бронируйте сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Bodrum (BJV) a Bitez. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Bodrum (BJV) a Bitez. Prezzo fisso, accoglienza gratuita, supporto 24/7. Prenota ora!",
+                "ar": "احجز خدمة نقل خاصة من مطار بودروم (BJV) إلى بيتز. سعر ثابت، استقبال مجاني، دعم 24/7. احجز الآن!"
+            }
+        },
+        "/bodrum-airport-to-torba": {
+            "headTitle": {
+                "en": "Bodrum Airport to Torba Taxi | Private Transfers 24/7",
+                "tr": "Bodrum Havalimanı Torba Taksi | 7/24 Özel Transferler",
+                "zh": "博德鲁姆机场至托尔巴出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Бодрума в Торба | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Bodrum a Torba | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Bodrum Torba | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار بودروم إلى توربا | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Bodrum Airport to Torba taxi, BJV airport transfer, Torba transfer service, private airport transfer Bodrum, Bodrum taxi service",
+                "tr": "Bodrum havalimanı Torba taksi, BJV havalimanı transferi, Torba transfer hizmeti, özel havalimanı transferi Bodrum, Bodrum taksi hizmeti",
+                "zh": "博德鲁姆机场至托尔巴出租车, BJV机场接送, 托尔巴接送服务, 博德鲁姆私人机场接送, 博德鲁姆出租车服务",
+                "ru": "Такси из аэропорта Бодрума в Торба, трансфер BJV, частный трансфер Торба, служба такси Бодрум",
+                "es": "Taxi aeropuerto Bodrum a Torba, traslado BJV, traslado privado Torba, servicio de taxi Bodrum",
+                "it": "Taxi aeroporto Bodrum Torba, transfer aeroporto BJV, servizio transfer privato Torba, taxi Bodrum",
+                "ar": "تاكسي مطار بودروم إلى توربا, نقل مطار BJV, خدمة توربا الخاصة, تاكسي بودروم"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Bodrum Airport (BJV) to Torba. Fixed prices, meet & greet service, and 24/7 support. Reserve now!",
+                "tr": "Bodrum Havalimanı'ndan (BJV) Torba'ya özel transfer rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. Hemen ayırtın!",
+                "zh": "预订从博德鲁姆机场（BJV）到托尔巴的私人接送服务。固定价格，接机服务，全天候客服支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Бодрум (BJV) в Торба. Фиксированные цены, встреча и поддержка 24/7. Бронируйте сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Bodrum (BJV) a Torba. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Bodrum (BJV) a Torba. Prezzo fisso, accoglienza gratuita e supporto 24/7. Prenota ora!",
+                "ar": "احجز خدمة نقل خاصة من مطار بودروم (BJV) إلى توربا. سعر ثابت، استقبال مجاني، دعم 24/7. احجز الآن!"
+            }
+        },
+        "/bodrum-airport-to-turgutreis": {
+            "headTitle": {
+                "en": "Bodrum Airport to Turgutreis Taxi | Private Transfers 24/7",
+                "tr": "Bodrum Havalimanı Turgutreis Taksi | 7/24 Özel Transferler",
+                "zh": "博德鲁姆机场至图尔古特雷伊斯出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Бодрума в Тургутреис | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Bodrum a Turgutreis | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Bodrum Turgutreis | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار بودروم إلى تورغوترَيس | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Bodrum Airport to Turgutreis taxi, BJV airport transfer, Turgutreis transfer service, private airport transfer Bodrum, Bodrum taxi service",
+                "tr": "Bodrum havalimanı Turgutreis taksi, BJV havalimanı transferi, Turgutreis transfer hizmeti, özel havalimanı transferi Bodrum, Bodrum taksi hizmeti",
+                "zh": "博德鲁姆机场至图尔古特雷伊斯出租车, BJV机场接送, 图尔古特雷伊斯接送服务, 博德鲁姆私人机场接送, 博德鲁姆出租车服务",
+                "ru": "Такси из аэропорта Бодрума в Тургутреис, трансфер BJV, частный трансфер Тургутреис, служба такси Бодрум",
+                "es": "Taxi aeropuerto Bodrum a Turgutreis, traslado BJV, traslado privado Turgutreis, servicio de taxi Bodrum",
+                "it": "Taxi aeroporto Bodrum Turgutreis, transfer aeroporto BJV, servizio transfer privato Turgutreis, taxi Bodrum",
+                "ar": "تاكسي مطار بودروم إلى تورغوترَيس, نقل مطار BJV, خدمة تورغوترَيس الخاصة, تاكسي بودروم"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Bodrum Airport (BJV) to Turgutreis. Fixed prices, meet & greet service, and 24/7 support. Reserve now!",
+                "tr": "Bodrum Havalimanı'ndan (BJV) Turgutreis'e özel transfer rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. Hemen ayırtın!",
+                "zh": "预订从博德鲁姆机场（BJV）到图尔古特雷伊斯的私人接送服务。固定价格，接机服务，全天候客服支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Бодрум (BJV) в Тургутреис. Фиксированные цены, встреча и поддержка 24/7. Бронируйте сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Bodrum (BJV) a Turgutreis. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Bodrum (BJV) a Turgutreis. Prezzo fisso, accoglienza gratuita e supporto 24/7. Prenota ora!",
+                "ar": "احجز خدمة نقل خاصة من مطار بودروم (BJV) إلى تورغوترَيس. سعر ثابت، استقبال مجاني، دعم 24/7. احجز الآن!"
+            }
+        },
+        "/bodrum-airport-to-yalikavak": {
+            "headTitle": {
+                "en": "Bodrum Airport to Yalıkavak Taxi | Private Transfers 24/7",
+                "tr": "Bodrum Havalimanı Yalıkavak Taksi | 7/24 Özel Transferler",
+                "zh": "博德鲁姆机场至亚勒卡瓦克出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Бодрума в Ялыкавак | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Bodrum a Yalıkavak | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Bodrum Yalıkavak | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار بودروم إلى ياليكافاك | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Bodrum Airport to Yalıkavak taxi, BJV airport transfer, Yalıkavak transfer service, private airport transfer Bodrum, Bodrum taxi service",
+                "tr": "Bodrum havalimanı Yalıkavak taksi, BJV havalimanı transferi, Yalıkavak transfer hizmeti, özel havalimanı transferi Bodrum, Bodrum taksi hizmeti",
+                "zh": "博德鲁姆机场至亚勒卡瓦克出租车, BJV机场接送, 亚勒卡瓦克接送服务, 博德鲁姆私人机场接送, 博德鲁姆出租车服务",
+                "ru": "Такси из аэропорта Бодрума в Ялыкавак, трансфер BJV, частный трансфер Ялыкавак, служба такси Бодрум",
+                "es": "Taxi aeropuerto Bodrum a Yalıkavak, traslado BJV, traslado privado Yalıkavak, servicio de taxi Bodrum",
+                "it": "Taxi aeroporto Bodrum Yalıkavak, transfer aeroporto BJV, servizio transfer privato Yalıkavak, taxi Bodrum",
+                "ar": "تاكسي مطار بودروم إلى ياليكافاك, نقل مطار BJV, خدمة ياليكافاك الخاصة, تاكسي بودروم"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Bodrum Airport (BJV) to Yalıkavak. Fixed prices, meet & greet service, and 24/7 support. Reserve now!",
+                "tr": "Bodrum Havalimanı'ndan (BJV) Yalıkavak'a özel transfer rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. Hemen ayırtın!",
+                "zh": "预订从博德鲁姆机场（BJV）到亚勒卡瓦克的私人接送服务。固定价格，接机服务，全天候客服支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Бодрум (BJV) в Ялыкавак. Фиксированные цены, встреча и поддержка 24/7. Бронируйте сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Bodrum (BJV) a Yalıkavak. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Bodrum (BJV) a Yalıkavak. Prezzo fisso, accoglienza gratuita e supporto 24/7. Prenota ora!",
+                "ar": "احجز خدمة نقل خاصة من مطار بودروم (BJV) إلى ياليكافاك. سعر ثابت، استقبال مجاني، دعم 24/7. احجز الآن!"
+            }
+        }
+        ,
+        "/bodrum-airport-to-golturkbuku": {
+            "headTitle": {
+                "en": "Bodrum Airport to Göltürkbükü Taxi | Private Transfers 24/7",
+                "tr": "Bodrum Havalimanı Göltürkbükü Taksi | 7/24 Özel Transferler",
+                "zh": "博德鲁姆机场至格尔图尔克布库出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Бодрума в Гёльтюркбюкю | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Bodrum a Göltürkbükü | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Bodrum Göltürkbükü | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار بودروم إلى غولتوركبوكوكو | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Bodrum Airport to Göltürkbükü taxi, BJV airport transfer, Göltürkbükü transfer service, private airport transfer Bodrum, Bodrum taxi service",
+                "tr": "Bodrum havalimanı Göltürkbükü taksi, BJV havalimanı transferi, Göltürkbükü transfer hizmeti, özel havalimanı transferi Bodrum, Bodrum taksi hizmeti",
+                "zh": "博德鲁姆机场至格尔图尔克布库出租车, BJV机场接送, 格尔图尔克布库接送服务, 博德鲁姆私人机场接送, 博德鲁姆出租车服务",
+                "ru": "Такси из аэропорта Бодрума в Гёльтюркбюкю, трансфер BJV, частный трансфер, служба такси Бодрум",
+                "es": "Taxi aeropuerto Bodrum a Göltürkbükü, traslado BJV, traslado privado Göltürkbükü, servicio de taxi Bodrum",
+                "it": "Taxi aeroporto Bodrum Göltürkbükü, transfer aeroporto BJV, servizio transfer privato Göltürkbükü, taxi Bodrum",
+                "ar": "تاكسي مطار بودروم إلى غولتوركبوكوكو, نقل مطار BJV, خدمة غولتوركبوكوكو الخاصة, تاكسي بودروم"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Bodrum Airport (BJV) to Göltürkbükü. Fixed prices, meet & greet service, and 24/7 support. Reserve now!",
+                "tr": "Bodrum Havalimanı'ndan (BJV) Göltürkbükü'ne özel transfer rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. Hemen ayırtın!",
+                "zh": "预订从博德鲁姆机场（BJV）到格尔图尔克布库的私人接送服务。固定价格，接机服务，全天候客服支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Бодрум (BJV) в Гёльтюркбюкю. Фиксированные цены, встреча и поддержка 24/7. Бронируйте сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Bodrum (BJV) a Göltürkbükü. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Bodrum (BJV) a Göltürkbükü. Prezzo fisso, accoglienza gratuita e supporto 24/7. Prenota ora!",
+                "ar": "احجز خدمة نقل خاصة من مطار بودروم (BJV) إلى غولتوركبوكوكو. سعر ثابت، استقبال مجاني، دعم 24/7. احجز الآن!"
+            }
+        },
+
+        "/bodrum-airport-to-ortakent": {
+            "headTitle": {
+                "en": "Bodrum Airport to Ortakent Taxi | Private Transfers 24/7",
+                "tr": "Bodrum Havalimanı Ortakent Taksi | 7/24 Özel Transferler",
+                "zh": "博德鲁姆机场至奥尔塔肯特出租车 | 24/7私人接送",
+                "ru": "Такси из аэропорта Бодрума в Ортакент | Частные трансферы 24/7",
+                "es": "Taxi del Aeropuerto de Bodrum a Ortakent | Traslados Privados 24/7",
+                "it": "Taxi Aeroporto Bodrum Ortakent | Trasferimenti Privati 24/7",
+                "ar": "تاكسي من مطار بودروم إلى أورتاكينت | انتقالات خاصة 24/7"
+            },
+            "keywords": {
+                "en": "Bodrum Airport to Ortakent taxi, BJV airport transfer, Ortakent transfer service, private airport transfer Bodrum, Bodrum taxi service",
+                "tr": "Bodrum havalimanı Ortakent taksi, BJV havalimanı transferi, Ortakent transfer hizmeti, özel havalimanı transferi Bodrum, Bodrum taksi hizmeti",
+                "zh": "博德鲁姆机场至奥尔塔肯特出租车, BJV机场接送, 奥尔塔肯特接送服务, 博德鲁姆私人机场接送, 博德鲁姆出租车服务",
+                "ru": "Такси из аэропорта Бодрума в Ортакент, трансфер BJV, частный трансфер Ортакент, служба такси Бодрум",
+                "es": "Taxi aeropuerto Bodrum a Ortakent, traslado BJV, traslado privado Ortakent, servicio de taxi Bodrum",
+                "it": "Taxi aeroporto Bodrum Ortakent, transfer aeroporto BJV, servizio transfer privato Ortakent, taxi Bodrum",
+                "ar": "تاكسي مطار بودروم إلى أورتاكينت, نقل مطار BJV, خدمة أورتاكينت الخاصة, تاكسي بودروم"
+            },
+            "metaDescription": {
+                "en": "Book a private transfer from Bodrum Airport (BJV) to Ortakent. Fixed prices, meet & greet service, and 24/7 support. Reserve now!",
+                "tr": "Bodrum Havalimanı'ndan (BJV) Ortakent'e özel transfer rezerve edin. Sabit fiyatlar, karşılama hizmeti ve 7/24 destek. Hemen ayırtın!",
+                "zh": "预订从博德鲁姆机场（BJV）到奥尔塔肯特的私人接送服务。固定价格，接机服务，全天候客服支持。立即预订！",
+                "ru": "Закажите частный трансфер из аэропорта Бодрум (BJV) в Ортакент. Фиксированные цены, встреча и поддержка 24/7. Бронируйте сейчас!",
+                "es": "Reserva un traslado privado desde el Aeropuerto de Bodrum (BJV) a Ortakent. Precio fijo, bienvenida gratuita y servicio 24/7. ¡Reserva ahora!",
+                "it": "Prenota un trasferimento privato dall Aeroporto di Bodrum (BJV) a Ortakent. Prezzo fisso, accoglienza gratuita e supporto 24/7. Prenota ora!",
+                "ar": "احجز خدمة نقل خاصة من مطار بودروم (BJV) إلى أورتاكينت. سعر ثابت، استقبال مجاني، دعم 24/7. احجز الآن!"
+            }
+        }
+
+    },
+    // ADB: {},
+    // GZP: {}
 }
 
 const phone = "+902127085540"
@@ -4299,10 +4772,1219 @@ const metaTagPopularDestatinationPage = (env) => ({
 
 
     },
-    AYT: {},
-    BJY: {},
-    ADB: {},
-    GZP: {}
+    AYT: {
+        "/antalya-airport-to-lara-beach": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Airport to Lara Beach Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Looking for a private transfer from Antalya Airport to Lara Beach? APL Transfers offers fixed-price, 24/7 private rides with meet & greet and flight monitoring included.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-lara-beach\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Airport to Lara Beach Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Antalya Airport to Lara Beach transfer with APL Transfers. Fixed prices, 24/7 support, and no extra fees for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Havalimanı Lara Plajı Transferi | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Antalya Havalimanı'ndan Lara Plajı'na özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 hizmet veren, karşılama ve uçuş takibi içeren güvenilir bir hizmet sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-lara-beach\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Havalimanı Lara Plajı Transferi | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Antalya Havalimanı'ndan Lara Plajı'na transferinizi APL Transfers ile ayırtın. Sabit fiyatlar, 7/24 destek ve uçuş gecikmelerine ek ücret yok.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+            ]
+            ,
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة النقل من مطار أنطاليا إلى شاطئ لارا | خاصة وموثوقة\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن خدمة نقل خاصة من مطار أنطاليا إلى شاطئ لارا؟ تقدم APL Transfers خدمة موثوقة بسعر ثابت مع استقبال وتتبع الرحلات على مدار الساعة.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-lara-beach\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة النقل من مطار أنطاليا إلى شاطئ لارا | خاصة وموثوقة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمة نقلك من مطار أنطاليا إلى شاطئ لارا مع APL Transfers. أسعار ثابتة، دعم 24/7، ولا رسوم إضافية على تأخير الرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+            ]
+            ,
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Antalya a Playa de Lara | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Antalya a Playa de Lara? APL Transfers ofrece un servicio confiable, con precio fijo, recepción personalizada y monitoreo de vuelos 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-lara-beach\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Antalya a Playa de Lara | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Antalya a Playa de Lara con APL Transfers. Precio fijo, asistencia 24/7 y sin cargos por retrasos de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+            ]
+            ,
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Lara Beach | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Cerchi un trasferimento privato dall Aeroporto di Antalya a Lara Beach? APL Transfers offre un servizio affidabile a prezzo fisso, con accoglienza all arrivo e supporto 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-lara-beach\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Lara Beach | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Antalya a Lara Beach con APL Transfers. Prezzo fisso, disponibilità 24/7 e nessun costo extra per ritardi di volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+            ]
+            ,
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Антальи до пляжа Лара | Частный и Надёжный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Антальи до пляжа Лара? APL Transfers предлагает надёжный сервис по фиксированной цене с встречей и круглосуточной поддержкой.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-lara-beach\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Антальи до пляжа Лара | Частный и Надёжный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Антальи до пляжа Лара с APL Transfers. Фиксированная цена, круглосуточная поддержка и без доплат за задержки рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+            ]
+            ,
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-lara-beach\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-lara-beach\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"安塔利亚机场到拉腊海滩接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从安塔利亚机场前往拉腊海滩的私人接送服务吗？APL Transfers 提供可靠、固定价格的服务，包含接机与全天候支持。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-lara-beach\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"安塔利亚机场到拉腊海滩接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从安塔利亚机场到拉腊海滩的接送服务。固定价格，全天候服务，航班延误无需额外付费。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/lara.webp\">`,
+            ]
+
+        },
+        "/antalya-airport-to-antalya-city-center-kaleici": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Airport to City Center Kaleici Transfers | Private & Reliable\">",
+                "<meta property=\"og:description\" content=\"Looking for a private transfer from Antalya Airport to Kaleici (Old Town)? APL Transfers offers fixed-price, 24/7 rides with meet & greet and free flight monitoring.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Airport to City Center Kaleici Transfers | Private & Reliable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Antalya Airport to Kaleici transfer with APL Transfers. Fixed prices, 24/7 availability, and no extra charge for flight delays.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+            ],
+
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Havalimanı Kaleiçi Şehir Merkezi Transferi | Özel ve Güvenilir\">",
+                "<meta property=\"og:description\" content=\"Antalya Havalimanı'ndan Kaleiçi (Eski Şehir) bölgesine özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 ulaşım, karşılama ve ücretsiz uçuş takibi hizmeti sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Havalimanı Kaleiçi Şehir Merkezi Transferi | Özel ve Güvenilir\">",
+                "<meta name=\"twitter:description\" content=\"Antalya Havalimanı'ndan Kaleiçi'ne transferinizi APL Transfers ile ayırtın. Sabit fiyatlar, 7/24 hizmet ve uçuş gecikmelerine ek ücret yok.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+            ],
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة النقل من مطار أنطاليا إلى مركز المدينة (كاليتشي) | خاص وموثوق\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن خدمة نقل خاصة من مطار أنطاليا إلى منطقة كاليتشي (المدينة القديمة)؟ تقدم APL Transfers خدمة بأسعار ثابتة، مع استقبال وتتبع الرحلات على مدار الساعة.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة النقل من مطار أنطاليا إلى مركز المدينة (كاليتشي) | خاص وموثوق\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار أنطاليا إلى كاليتشي مع APL Transfers. أسعار ثابتة، دعم 24/7، ولا رسوم إضافية على تأخيرات الرحلات.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Antalya al Centro de la Ciudad (Kaleici) | Privado y Confiable\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Antalya a Kaleici (Ciudad Vieja)? APL Transfers ofrece un servicio fiable con precios fijos, recepción personalizada y monitoreo de vuelos 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Antalya al Centro de la Ciudad (Kaleici) | Privado y Confiable\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Antalya a Kaleici con APL Transfers. Precio fijo, servicio 24/7 y sin cargos extra por retrasos en vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Antalya al Centro Città (Kaleici) | Privato e Affidabile\">",
+                "<meta property=\"og:description\" content=\"Cerchi un trasferimento privato dall Aeroporto di Antalya a Kaleici (Città Vecchia)? APL Transfers offre un servizio affidabile con prezzo fisso, accoglienza personalizzata e monitoraggio voli 24/7.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Antalya al Centro Città (Kaleici) | Privato e Affidabile\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Antalya a Kaleici con APL Transfers. Prezzo fisso, disponibilità 24/7 e nessun costo extra per ritardi del volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+            ],
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Антальи в центр города (Калеичи) | Частный и Надёжный\">",
+                "<meta property=\"og:description\" content=\"Нужен частный трансфер из аэропорта Антальи в район Калеичи (Старый город)? APL Transfers предлагает надёжный сервис по фиксированной цене, встречу с табличкой и круглосуточную поддержку.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Антальи в центр города (Калеичи) | Частный и Надёжный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Антальи в Калеичи с APL Transfers. Фиксированная цена, поддержка 24/7 и без доплат за задержки рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"安塔利亚机场到市中心卡雷伊奇接送服务 | 私人且可靠\">",
+                "<meta property=\"og:description\" content=\"需要从安塔利亚机场前往卡雷伊奇（老城区）的私人接送服务吗？APL Transfers 提供可靠、固定价格的服务，包含接机和 24/7 支持。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"安塔利亚机场到市中心卡雷伊奇接送服务 | 私人且可靠\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从安塔利亚机场到卡雷伊奇的接送服务。固定价格，全天候服务，无需为航班延误支付额外费用。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp\">`,
+            ],
+
+        },
+        "/antalya-airport-to-belek": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Airport to Belek Transfers | Private & Comfortable\">",
+                "<meta property=\"og:description\" content=\"Looking for a reliable private transfer from Antalya Airport to Belek? APL Transfers offers fixed-price, 24/7 service with meet & greet at the airport and no extra charge for flight delays.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-belek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Airport to Belek Transfers | Private & Comfortable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Antalya Airport to Belek transfer with APL Transfers. Fixed rates, 24/7 availability, and free flight monitoring included.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+            ],
+
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Havalimanı Belek Transferleri | Özel ve Konforlu\">",
+                "<meta property=\"og:description\" content=\"Antalya Havalimanı'ndan Belek'e güvenilir bir özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 hizmet ve havaalanında karşılama ile ekstra ücret olmadan hizmet sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-belek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Havalimanı Belek Transferleri | Özel ve Konforlu\">",
+                "<meta name=\"twitter:description\" content=\"Antalya Havalimanı'ndan Belek'e transferinizi APL Transfers ile ayırtın. Sabit fiyatlar, 7/24 hizmet ve ücretsiz uçuş takibi.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة النقل من مطار أنطاليا إلى بيليك | خاص ومريح\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى خدمة نقل خاصة من مطار أنطاليا إلى بيليك؟ تقدم APL Transfers خدمة موثوقة بسعر ثابت على مدار الساعة مع استقبال مجاني في المطار وبدون رسوم إضافية على تأخير الرحلات.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-belek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة النقل من مطار أنطاليا إلى بيليك | خاص ومريح\">",
+                "<meta name=\"twitter:description\" content=\"احجز نقلك من مطار أنطاليا إلى بيليك مع APL Transfers. أسعار ثابتة، خدمة على مدار الساعة، ومراقبة الرحلات مجانًا.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Antalya a Belek | Privado y Cómodo\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado desde el Aeropuerto de Antalya a Belek? APL Transfers ofrece un servicio confiable con precio fijo, atención 24/7, recepción en el aeropuerto y sin cargos adicionales por retrasos.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-belek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Antalya a Belek | Privado y Cómodo\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Antalya a Belek con APL Transfers. Precios fijos, servicio 24/7 y monitoreo gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Belek | Privato e Confortevole\">",
+                "<meta property=\"og:description\" content=\"Cerchi un trasferimento privato affidabile dall Aeroporto di Antalya a Belek? APL Transfers offre servizio a prezzo fisso, accoglienza in aeroporto e assistenza 24/7 senza costi aggiuntivi per ritardi aerei.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-belek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Belek | Privato e Confortevole\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Antalya a Belek con APL Transfers. Prezzo fisso, disponibilità 24/7 e monitoraggio voli incluso.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Антальи в Белек | Частный и Комфортный\">",
+                "<meta property=\"og:description\" content=\"Нужен надежный частный трансфер из аэропорта Антальи в Белек? APL Transfers предлагает фиксированные цены, встречу в аэропорту и круглосуточную поддержку без доплат за задержки рейсов.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-belek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Антальи в Белек | Частный и Комфортный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Антальи в Белек с APL Transfers. Фиксированная цена, круглосуточная поддержка и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-belek\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-belek\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"安塔利亚机场到贝莱克接送服务 | 私人且舒适\">",
+                "<meta property=\"og:description\" content=\"需要从安塔利亚机场到贝莱克的私人接送服务吗？APL Transfers 提供可靠的固定价格服务，机场接机、全天候客服和航班延误无额外费用。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-belek\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"安塔利亚机场到贝莱克接送服务 | 私人且舒适\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从安塔利亚机场到贝莱克的接送服务。固定价格，全天候可用，并提供免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/belek.webp\">`,
+            ],
+
+        },
+        "/antalya-airport-to-kemer": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Airport to Kemer Transfers | Private & Comfortable\">",
+                "<meta property=\"og:description\" content=\"Looking for a reliable private transfer from Antalya Airport to Kemer? APL Transfers offers fixed-price, 24/7 service with meet & greet at the airport and no extra charge for flight delays.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kemer\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Airport to Kemer Transfers | Private & Comfortable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Antalya Airport to Kemer transfer with APL Transfers. Fixed rates, 24/7 availability, and free flight monitoring included.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+            ],
+
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Havalimanı Kemer Transferleri | Özel ve Konforlu\">",
+                "<meta property=\"og:description\" content=\"Antalya Havalimanı'ndan Kemer'e güvenilir özel bir transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 hizmet sunar ve uçuş gecikmeleri için ek ücret almaz. Havalimanında karşılama dahildir.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kemer\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Havalimanı Kemer Transferleri | Özel ve Konforlu\">",
+                "<meta name=\"twitter:description\" content=\"Antalya Havalimanı'ndan Kemer'e transferinizi APL Transfers ile ayırtın. Sabit fiyat, 7/24 hizmet ve ücretsiz uçuş takibi sunar.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة النقل من مطار أنطاليا إلى كيمر | خاص ومريح\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن خدمة نقل خاصة وموثوقة من مطار أنطاليا إلى كيمر؟ تقدم APL Transfers خدمة بسعر ثابت على مدار الساعة مع استقبال مجاني في المطار وبدون رسوم إضافية عند تأخر الرحلات الجوية.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kemer\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة النقل من مطار أنطاليا إلى كيمر | خاص ومريح\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار أنطاليا إلى كيمر مع APL Transfers. أسعار ثابتة، توفر على مدار الساعة، ومتابعة مجانية للرحلات الجوية.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Antalya a Kemer | Privado y Cómodo\">",
+                "<meta property=\"og:description\" content=\"¿Buscas un traslado privado y confiable desde el Aeropuerto de Antalya a Kemer? APL Transfers ofrece precios fijos, servicio 24/7, recepción en el aeropuerto y sin cargos extra por retrasos de vuelos.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kemer\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Antalya a Kemer | Privado y Cómodo\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Antalya a Kemer con APL Transfers. Tarifas fijas, atención 24/7 y monitoreo gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Kemer | Privato e Confortevole\">",
+                "<meta property=\"og:description\" content=\"Cerchi un trasferimento privato e affidabile dall Aeroporto di Antalya a Kemer? APL Transfers offre prezzi fissi, servizio 24/7, accoglienza in aeroporto e nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kemer\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Kemer | Privato e Confortevole\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Antalya a Kemer con APL Transfers. Prezzi fissi, disponibilità 24/7 e monitoraggio voli gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Антальи в Кемер | Частный и Комфортный\">",
+                "<meta property=\"og:description\" content=\"Ищете надёжный частный трансфер из аэропорта Антальи в Кемер? APL Transfers предлагает фиксированные цены, встречу в аэропорту, круглосуточную поддержку и без доплат за задержки рейсов.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kemer\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Антальи в Кемер | Частный и Комфортный\">",
+                "<meta name=\"twitter:description\" content=\"Закажите трансфер из аэропорта Антальи в Кемер с APL Transfers. Фиксированная стоимость, круглосуточная доступность и бесплатный мониторинг рейса.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kemer\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kemer\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"安塔利亚机场到凯梅尔接送服务 | 私人且舒适\">",
+                "<meta property=\"og:description\" content=\"需要从安塔利亚机场到凯梅尔的可靠私人接送服务吗？APL Transfers 提供固定价格、24/7 全天候服务、机场接机以及航班延误不收取额外费用。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kemer\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"安塔利亚机场到凯梅尔接送服务 | 私人且舒适\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从安塔利亚机场到凯梅尔的接送服务。固定价格，全天候可用，提供免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp\">`,
+            ],
+
+        },
+        "/antalya-airport-to-side": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Airport to Side Transfers | Private & Comfortable\">",
+                "<meta property=\"og:description\" content=\"Looking for a reliable private transfer from Antalya Airport to Side? APL Transfers offers fixed-price, 24/7 service with meet & greet at the airport and no extra charge for flight delays.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-side\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Airport to Side Transfers | Private & Comfortable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Antalya Airport to Side transfer with APL Transfers. Fixed rates, 24/7 availability, and free flight monitoring included.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+            ],
+
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Havalimanı Side Transferleri | Özel ve Konforlu\">",
+                "<meta property=\"og:description\" content=\"Antalya Havalimanı'ndan Side'a güvenilir özel bir transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 hizmet sunar, havalimanında karşılama ve uçuş gecikmelerine karşı ek ücret almadan hizmet verir.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-side\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Havalimanı Side Transferleri | Özel ve Konforlu\">",
+                "<meta name=\"twitter:description\" content=\"Antalya Havalimanı'ndan Side'a transferinizi APL Transfers ile ayırtın. Sabit ücret, 7/24 hizmet ve ücretsiz uçuş takibi ile güvenilir bir deneyim yaşayın.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة النقل من مطار أنطاليا إلى سايد | خاص ومريح\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن خدمة نقل خاصة وموثوقة من مطار أنطاليا إلى سايد؟ تقدم APL Transfers أسعاراً ثابتة، وخدمة على مدار الساعة، واستقبال في المطار دون أي رسوم إضافية عند تأخير الرحلات.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-side\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة النقل من مطار أنطاليا إلى سايد | خاص ومريح\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك من مطار أنطاليا إلى سايد مع APL Transfers. أسعار ثابتة، خدمة 24/7، ومتابعة مجانية للرحلات الجوية.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Antalya a Side | Privado y Cómodo\">",
+                "<meta property=\"og:description\" content=\"¿Buscas un traslado privado y confiable desde el Aeropuerto de Antalya a Side? APL Transfers ofrece tarifas fijas, servicio 24/7, recepción en el aeropuerto y sin cargos por retrasos de vuelo.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-side\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Antalya a Side | Privado y Cómodo\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Antalya a Side con APL Transfers. Tarifas fijas, disponibilidad 24/7 y monitoreo gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Side | Privato e Confortevole\">",
+                "<meta property=\"og:description\" content=\"Cerchi un trasferimento privato e affidabile dall Aeroporto di Antalya a Side? APL Transfers offre prezzi fissi, servizio 24/7, accoglienza in aeroporto e nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-side\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Side | Privato e Confortevole\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Antalya a Side con APL Transfers. Prezzi fissi, disponibilità 24/7 e monitoraggio voli gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Антальи в Сиде | Частный и Комфортный\">",
+                "<meta property=\"og:description\" content=\"Ищете надёжный частный трансфер из аэропорта Антальи в Сиде? APL Transfers предлагает фиксированные цены, круглосуточное обслуживание, встречу в аэропорту и отсутствие доплат за задержки рейсов.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-side\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Антальи в Сиде | Частный и Комфортный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Антальи в Сиде с APL Transfers. Фиксированная цена, 24/7 доступность и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-side\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-side\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"安塔利亚机场到锡德接送服务 | 私人且舒适\">",
+                "<meta property=\"og:description\" content=\"需要从安塔利亚机场到锡德的可靠私人接送服务吗？APL Transfers 提供固定价格、全天候服务、机场接机以及航班延误不收取额外费用。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-side\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"安塔利亚机场到锡德接送服务 | 私人且舒适\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从安塔利亚机场到锡德的接送服务。固定价格，全天候可用，提供免费航班监控服务。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/side.webp\">`,
+            ],
+
+        },
+        "/antalya-airport-to-manavgat": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Airport to Manavgat Transfers | Private & Comfortable\">",
+                "<meta property=\"og:description\" content=\"Looking for a reliable private transfer from Antalya Airport to Manavgat? APL Transfers offers fixed-price, 24/7 service with meet & greet at the airport and no extra charge for flight delays.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-manavgat\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Airport to Manavgat Transfers | Private & Comfortable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Antalya Airport to Manavgat transfer with APL Transfers. Fixed rates, 24/7 availability, and free flight monitoring included.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+            ],
+
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Havalimanı Manavgat Transferleri | Özel ve Konforlu\">",
+                "<meta property=\"og:description\" content=\"Antalya Havalimanı'ndan Manavgat'a güvenilir özel bir transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 hizmet sunar, havalimanında karşılama ve uçuş gecikmelerine ek ücret yoktur.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-manavgat\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Havalimanı Manavgat Transferleri | Özel ve Konforlu\">",
+                "<meta name=\"twitter:description\" content=\"Antalya Havalimanı'ndan Manavgat'a transferinizi APL Transfers ile ayırtın. Sabit ücretler, 7/24 hizmet ve ücretsiz uçuş takibi dahildir.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"خدمة النقل من مطار أنطاليا إلى مانافغات | خاصة ومريحة\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن خدمة نقل خاصة وموثوقة من مطار أنطاليا إلى مانافغات؟ تقدم APL Transfers أسعاراً ثابتة، وخدمة 24/7، واستقبالاً في المطار دون رسوم إضافية عند تأخر الرحلات الجوية.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-manavgat\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"خدمة النقل من مطار أنطاليا إلى مانافغات | خاصة ومريحة\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمة النقل الخاصة بك من مطار أنطاليا إلى مانافغات مع APL Transfers. أسعار ثابتة، توفر على مدار الساعة، ومتابعة مجانية للرحلات الجوية.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Antalya a Manavgat | Privado y Cómodo\">",
+                "<meta property=\"og:description\" content=\"¿Buscas un traslado privado y confiable desde el Aeropuerto de Antalya a Manavgat? APL Transfers ofrece tarifas fijas, servicio 24/7 y recepción gratuita en el aeropuerto sin cargos por retrasos de vuelo.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-manavgat\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Antalya a Manavgat | Privado y Cómodo\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado desde el Aeropuerto de Antalya a Manavgat con APL Transfers. Tarifas fijas, disponibilidad 24/7 y monitoreo gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Manavgat | Privato e Confortevole\">",
+                "<meta property=\"og:description\" content=\"Cerchi un trasferimento privato e affidabile dall Aeroporto di Antalya a Manavgat? APL Transfers offre prezzi fissi, servizio 24/7, accoglienza in aeroporto e nessun costo aggiuntivo per ritardi di volo.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-manavgat\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Manavgat | Privato e Confortevole\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Antalya a Manavgat con APL Transfers. Prezzi fissi, disponibilità 24/7 e monitoraggio voli gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Антальи в Манавгат | Частный и Комфортный\">",
+                "<meta property=\"og:description\" content=\"Ищете надежный частный трансфер из аэропорта Антальи в Манавгат? APL Transfers предлагает фиксированные цены, круглосуточное обслуживание, встречу в аэропорту и отсутствие доплат за задержки рейсов.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-manavgat\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Антальи в Манавгат | Частный и Комфортный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Антальи в Манавгат с APL Transfers. Фиксированная цена, 24/7 доступность и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-manavgat\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-manavgat\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"安塔利亚机场至马纳夫加特接送 | 私人且舒适\">",
+                "<meta property=\"og:description\" content=\"需要从安塔利亚机场到马纳夫加特的私人接送服务吗？APL Transfers 提供可靠的固定价格服务，全天候接送，并在机场迎接，无航班延误附加费。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-manavgat\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"安塔利亚机场至马纳夫加特接送 | 私人且舒适\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订您的安塔利亚机场到马纳夫加特接送服务。固定价格，全天候服务，免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp\">`,
+            ],
+
+        },
+        "/antalya-airport-to-kas": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Airport to Kaş Transfers | Private & Comfortable\">",
+                "<meta property=\"og:description\" content=\"Looking for a reliable private transfer from Antalya Airport to Kaş? APL Transfers offers fixed-price, 24/7 service with meet & greet at the airport and no extra charge for flight delays.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Airport to Kaş Transfers | Private & Comfortable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Antalya Airport to Kaş transfer with APL Transfers. Fixed rates, 24/7 availability, and free flight monitoring included.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+            ],
+
+
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Havalimanı Kaş Transferi | Özel ve Konforlu\">",
+                "<meta property=\"og:description\" content=\"Antalya Havalimanı'ndan Kaş'a güvenilir özel transfer mi arıyorsunuz? APL Transfers sabit fiyat, 7/24 hizmet ve uçuş gecikmelerinde ek ücret olmadan havalimanında karşılama sunar.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Havalimanı Kaş Transferi | Özel ve Konforlu\">",
+                "<meta name=\"twitter:description\" content=\"Antalya Havalimanı'ndan Kaş'a transferinizi APL Transfers ile ayırtın. Sabit fiyatlar, 7/24 hizmet ve ücretsiz uçuş takibi ile güvenli yolculuk.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"الانتقال من مطار أنطاليا إلى كاش | خاص ومريح\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن وسيلة نقل خاصة وموثوقة من مطار أنطاليا إلى كاش؟ تقدم APL Transfers خدمة بسعر ثابت، واستقبال في المطار، ودعم على مدار الساعة، دون رسوم إضافية لتأخير الرحلات.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"الانتقال من مطار أنطاليا إلى كاش | خاص ومريح\">",
+                "<meta name=\"twitter:description\" content=\"احجز وسيلة نقلك من مطار أنطاليا إلى كاش مع APL Transfers. أسعار ثابتة، خدمة 24/7، ومراقبة مجانية للرحلات الجوية.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Antalya a Kaş | Privado y Cómodo\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un traslado privado y confiable desde el Aeropuerto de Antalya a Kaş? APL Transfers ofrece servicio con precio fijo, atención 24/7 y bienvenida en el aeropuerto sin cargos por retrasos de vuelo.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Antalya a Kaş | Privado y Cómodo\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado del Aeropuerto de Antalya a Kaş con APL Transfers. Tarifas fijas, disponibilidad 24/7 y monitoreo de vuelos incluido.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Kaş | Privato e Confortevole\">",
+                "<meta property=\"og:description\" content=\"Cerchi un trasferimento privato affidabile dall Aeroporto di Antalya a Kaş? APL Transfers offre prezzi fissi, accoglienza in aeroporto, servizio 24/7 e nessun costo per ritardi di volo.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Kaş | Privato e Confortevole\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Antalya a Kaş con APL Transfers. Prezzo fisso, disponibilità 24/7 e monitoraggio voli gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Анталии в Каш | Приватно и комфортно\">",
+                "<meta property=\"og:description\" content=\"Ищете надежный частный трансфер из аэропорта Анталии в Каш? APL Transfers предлагает фиксированную цену, встречу в аэропорту и круглосуточное обслуживание без доплат за задержки рейсов.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Анталии в Каш | Приватно и комфортно\">",
+                "<meta name=\"twitter:description\" content=\"Закажите трансфер из аэропорта Анталии в Каш с APL Transfers. Фиксированные цены, 24/7 поддержка и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-kas\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-kas\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"安塔利亚机场到卡什接送 | 私人且舒适\">",
+                "<meta property=\"og:description\" content=\"需要从安塔利亚机场到卡什的私人接送服务吗？APL Transfers 提供可靠的固定价格服务，机场接送，全天候支持，无航班延误附加费。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-kas\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"安塔利亚机场到卡什接送 | 私人且舒适\">",
+                "<meta name=\"twitter:description\" content=\"立即通过 APL Transfers 预订从安塔利亚机场到卡什的接送服务。固定价格、全天候服务、免费航班监控。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/kas.webp\">`,
+            ],
+
+        },
+        "/antalya-airport-to-patara": {
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Airport to Patara Transfers | Private & Comfortable\">",
+                "<meta property=\"og:description\" content=\"Looking for a reliable private transfer from Antalya Airport to Patara? APL Transfers offers fixed-price, 24/7 service with meet & greet at the airport and no extra charge for flight delays.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-patara\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Airport to Patara Transfers | Private & Comfortable\">",
+                "<meta name=\"twitter:description\" content=\"Book your Antalya Airport to Patara transfer with APL Transfers. Fixed rates, 24/7 availability, and free flight monitoring included.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+            ],
+
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Antalya Havalimanı Patara Transferi | Özel ve Konforlu\">",
+                "<meta property=\"og:description\" content=\"Antalya Havalimanı'ndan Patara'ya güvenilir özel transfer mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 hizmet sunar ve havalimanında karşılama sağlar. Uçuş gecikmeleri için ek ücret alınmaz.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-patara\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Antalya Havalimanı Patara Transferi | Özel ve Konforlu\">",
+                "<meta name=\"twitter:description\" content=\"Antalya Havalimanı'ndan Patara'ya transferinizi APL Transfers ile ayırtın. Sabit fiyatlar, 7/24 hizmet ve ücretsiz uçuş takibi ile güvenilir ulaşım.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"نقل من مطار أنطاليا إلى باتارا | خاص ومريح\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن خدمة نقل خاصة وموثوقة من مطار أنطاليا إلى باتارا؟ تقدم APL Transfers خدمة بسعر ثابت مع استقبال في المطار ودعم على مدار الساعة دون رسوم إضافية لتأخير الرحلات الجوية.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-patara\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"نقل من مطار أنطاليا إلى باتارا | خاص ومريح\">",
+                "<meta name=\"twitter:description\" content=\"احجز خدمتك للنقل من مطار أنطاليا إلى باتارا مع APL Transfers. أسعار ثابتة، توفر 24/7، ومتابعة الرحلات الجوية مجانًا.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Traslados desde el Aeropuerto de Antalya a Patara | Privado y Cómodo\">",
+                "<meta property=\"og:description\" content=\"¿Busca un traslado privado y confiable desde el Aeropuerto de Antalya a Patara? APL Transfers ofrece un servicio con precio fijo, recepción en el aeropuerto y soporte 24/7 sin cargos por retrasos de vuelo.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-patara\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Traslados desde el Aeropuerto de Antalya a Patara | Privado y Cómodo\">",
+                "<meta name=\"twitter:description\" content=\"Reserve su traslado desde el Aeropuerto de Antalya a Patara con APL Transfers. Tarifas fijas, disponibilidad 24/7 y seguimiento gratuito de vuelos.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Patara | Privati e Confortevoli\">",
+                "<meta property=\"og:description\" content=\"Cerchi un transfer privato e affidabile dall Aeroporto di Antalya a Patara? APL Transfers offre un servizio a prezzo fisso, accoglienza in aeroporto e supporto 24/7 senza costi aggiuntivi per ritardi di volo.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-patara\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Trasferimenti dall Aeroporto di Antalya a Patara | Privati e Confortevoli\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo transfer dall Aeroporto di Antalya a Patara con APL Transfers. Prezzi fissi, disponibilità 24/7 e monitoraggio gratuito del volo.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Трансфер из аэропорта Антальи в Патара | Частный и Комфортный\">",
+                "<meta property=\"og:description\" content=\"Ищете надежный частный трансфер из аэропорта Антальи в Патара? APL Transfers предлагает фиксированную цену, встречу в аэропорту и поддержку 24/7 без дополнительной платы за задержки рейса.\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-patara\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Трансфер из аэропорта Антальи в Патара | Частный и Комфортный\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Антальи в Патара с APL Transfers. Фиксированная цена, круглосуточная доступность и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-to-patara\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-to-patara\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"安塔利亚机场到帕塔拉接送服务｜专属且舒适\">",
+                "<meta property=\"og:description\" content=\"需要从安塔利亚机场到帕塔拉的可靠私人接送服务吗？APL Transfers 提供固定价格、24/7全天候服务，并在机场接机，航班延误不收取额外费用。\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/antalya-airport-to-patara\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"安塔利亚机场到帕塔拉接送服务｜专属且舒适\">",
+                "<meta name=\"twitter:description\" content=\"立即通过 APL Transfers 预订您的安塔利亚机场至帕塔拉接送服务。固定价格，全天候服务，航班监控免费。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/antalya/patara-antalya.webp\">`,
+            ],
+
+        },
+    },
+    BJY: {
+        "/bodrum-airport-to-bodrum-town-center": {
+            en: [],
+            tr: [],
+            ar: [],
+            es: [],
+            it: [],
+            ru: [],
+            zh: []
+        },
+        "/bodrum-airport-to-gumbet": {
+            en: [],
+            tr: [],
+            ar: [],
+            es: [],
+            it: [],
+            ru: [],
+            zh: []
+        },
+        "/bodrum-airport-to-bitez": {
+            en: [],
+            tr: [],
+            ar: [],
+            es: [],
+            it: [],
+            ru: [],
+            zh: []
+        },
+        "/bodrum-airport-to-torba": {
+            en: [],
+            tr: [],
+            ar: [],
+            es: [],
+            it: [],
+            ru: [],
+            zh: []
+        },
+        "/bodrum-airport-to-turgutreis": {
+            en: [],
+            tr: [],
+            ar: [],
+            es: [],
+            it: [],
+            ru: [],
+            zh: []
+        },
+        "/bodrum-airport-to-yalikavak": {
+            en: [],
+            tr: [],
+            ar: [],
+            es: [],
+            it: [],
+            ru: [],
+            zh: []
+        },
+        "/bodrum-airport-to-golturkbuku": {
+            en: [],
+            tr: [],
+            ar: [],
+            es: [],
+            it: [],
+            ru: [],
+            zh: []
+        },
+        "/bodrum-airport-to-ortakent": {
+            en: [],
+            tr: [],
+            ar: [],
+            es: [],
+            it: [],
+            ru: [],
+            zh: []
+        },
+    },
+
+    // ADB: {},
+    // GZP: {}
 })
 
 
@@ -27413,10 +29095,6425 @@ export const getSinglePopularDestinationSchemaByPathname = (env, hasTaxiDeals, p
                 }
             },
         },
-        AYT: {},
-        BJY: {},
-        ADB: {},
-        GZP: {},
+        AYT: {
+            "/antalya-airport-to-lara-beach": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "name": "APL Transfers",
+                        "@id": "57",
+                        "url": `${env.websiteDomain}/antalya-airport-to-lara-beach`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07230",
+                            "streetAddress": "Lara Beach, Muratpaşa",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8529,
+                            "longitude": 30.8015
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Airport to Lara Beach Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "description": "Book a comfortable private transfer from Antalya Airport to Lara Beach with APL Transfers. Fixed pricing, meet & greet, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-LRA-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/antalya-airport-to-lara-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1980,
+                            "reviewCount": 1980
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Carter",
+                            "reviewBody": "Very smooth experience! My driver was waiting at the airport and the ride to Lara Beach was excellent. APL Transfers is top-notch!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Airport to Lara Beach Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Antalya Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you in the arrivals hall at Antalya Airport, holding a sign with your name for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Antalya Airport to Lara Beach fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our transfer prices are fixed with no hidden fees. What you see is what you pay."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before pickup."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer child seats for transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we provide free child seats upon request for all private vehicle types."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How long does the journey take from Antalya Airport to Lara Beach?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The transfer from Antalya Airport to Lara Beach usually takes around 20–25 minutes depending on traffic."
+                                }
+                            }
+                        ]
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "name": "APL Transfers",
+                        "@id": "57",
+                        "url": `${env.websiteDomain}/tr/antalya-airport-to-lara-beach`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07230",
+                            "streetAddress": "Lara Plajı, Muratpaşa",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8529,
+                            "longitude": 30.8015
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Havalimanı'ndan Lara Plajı'na Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "description": "APL Transfers ile Antalya Havalimanı'ndan Lara Plajı'na konforlu bir özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti ve 7/24 destek sunuyoruz.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-LRA-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/antalya-airport-to-lara-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1980,
+                            "reviewCount": 1980
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Carter",
+                            "reviewBody": "Oldukça sorunsuz bir deneyimdi! Şoförüm havalimanında beni bekliyordu ve Lara Plajı'na yolculuk mükemmeldi. APL Transfers’i kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Havalimanı'ndan Lara Plajı'na Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz, Antalya Havalimanı geliş salonunda isminizin yazılı olduğu tabela ile sizi karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'ndan Lara Plajı'na taksi fiyatları sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm transfer fiyatlarımız sabittir ve gizli ücret içermez. Ne görüyorsanız onu ödersiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, planlanan karşılama saatinden 24 saat öncesine kadar rezervasyonunuzu ücretsiz iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Transferler için çocuk koltuğu sağlıyor musunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm özel araç tipleri için talep üzerine ücretsiz çocuk koltuğu sağlıyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'ndan Lara Plajı'na yolculuk ne kadar sürer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Trafik durumuna bağlı olarak yolculuk genellikle 20–25 dakika sürmektedir."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "name": "APL Transfers",
+                        "@id": "57",
+                        "url": `${env.websiteDomain}/ar/antalya-airport-to-lara-beach`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07230",
+                            "streetAddress": "شاطئ لارا، منطقة مراد باشا",
+                            "addressCountry": "TR",
+                            "addressLocality": "أنطاليا"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8529,
+                            "longitude": 30.8015
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التاكسي من مطار أنطاليا إلى شاطئ لارا",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار أنطاليا إلى شاطئ لارا مع APL Transfers. أسعار ثابتة، استقبال مجاني ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-LRA-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/antalya-airport-to-lara-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1980,
+                            "reviewCount": 1980
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "إميلي كارتر",
+                            "reviewBody": "تجربة سلسة جدًا! كان السائق في انتظاري بالمطار وكانت الرحلة إلى شاطئ لارا ممتازة. أوصي بشدة بـ APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التاكسي من مطار أنطاليا إلى شاطئ لارا"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "إميلي كارتر"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقيني السائق في مطار أنطاليا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقي بك السائق في صالة الوصول في مطار أنطاليا وهو يحمل لافتة باسمك لسهولة التعرف عليك."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار أنطاليا إلى شاطئ لارا ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعارنا ثابتة وبدون أي رسوم خفية."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الاستلام المحدد."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل توفرون مقاعد أطفال في الرحلات؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نوفر مقاعد أطفال مجانًا عند الطلب لجميع أنواع المركبات الخاصة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "كم تستغرق الرحلة من مطار أنطاليا إلى شاطئ لارا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "عادةً ما تستغرق الرحلة حوالي 20–25 دقيقة حسب حالة المرور."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "name": "APL Transfers",
+                        "@id": "57",
+                        "url": `${env.websiteDomain}/es/antalya-airport-to-lara-beach`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07230",
+                            "streetAddress": "Playa de Lara, Muratpaşa",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8529,
+                            "longitude": 30.8015
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en taxi desde el Aeropuerto de Antalya a Playa Lara",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "description": "Reserva un traslado privado cómodo desde el Aeropuerto de Antalya hasta Playa Lara con APL Transfers. Precio fijo, bienvenida con cartel y servicio 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-LRA-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/antalya-airport-to-lara-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1980,
+                            "reviewCount": 1980
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Carter",
+                            "reviewBody": "¡Muy buena experiencia! Mi conductor me estaba esperando en el aeropuerto y el viaje hasta Lara fue excelente. ¡Recomiendo APL Transfers totalmente!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en taxi desde el Aeropuerto de Antalya a Playa Lara"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará mi conductor en el Aeropuerto de Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Su conductor lo esperará en la sala de llegadas del Aeropuerto de Antalya con un cartel con su nombre para que lo reconozca fácilmente."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Los precios del taxi desde el Aeropuerto de Antalya hasta Playa Lara son fijos?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, nuestros precios de traslado son fijos y sin cargos ocultos. Lo que ves es lo que pagas."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva de forma gratuita?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva sin coste hasta 24 horas antes de la recogida."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen sillas para niños en los traslados?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, proporcionamos sillas para niños de forma gratuita bajo petición en todos los vehículos privados."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Cuánto dura el trayecto desde el Aeropuerto de Antalya hasta Playa Lara?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "El traslado desde el Aeropuerto de Antalya hasta Playa Lara suele durar entre 20 y 25 minutos, dependiendo del tráfico."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "name": "APL Transfers",
+                        "@id": "57",
+                        "url": `${env.websiteDomain}/ru/antalya-airport-to-lara-beach`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07230",
+                            "streetAddress": "Пляж Лара, Муратпаша",
+                            "addressCountry": "TR",
+                            "addressLocality": "Анталья"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8529,
+                            "longitude": 30.8015
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Такси трансфер из аэропорта Антальи до пляжа Лара",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Антальи до пляжа Лара с APL Transfers. Фиксированная цена, встреча в аэропорту и круглосуточная поддержка.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-LRA-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/antalya-airport-to-lara-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1980,
+                            "reviewCount": 1980
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Эмили Картер",
+                            "reviewBody": "Очень приятный опыт! Водитель ждал меня в аэропорту, поездка до Лара прошла идеально. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Такси трансфер из аэропорта Антальи до пляжа Лара"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Эмили Картер"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Антальи?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель будет ждать вас в зале прилета аэропорта Антальи с табличкой с вашим именем."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Является ли цена на такси из аэропорта Антальи до пляжа Лара фиксированной?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, цена фиксирована и не содержит скрытых платежей. Вы платите только указанную сумму."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я отменить бронирование бесплатно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до времени трансфера."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Предоставляете ли вы детские кресла?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы предоставляем бесплатные детские кресла по запросу для всех типов частных автомобилей."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Сколько времени занимает поездка из аэропорта Антальи до пляжа Лара?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Обычно поездка занимает около 20–25 минут в зависимости от трафика."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "name": "APL Transfers",
+                        "@id": "57",
+                        "url": `${env.websiteDomain}/it/antalya-airport-to-lara-beach`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07230",
+                            "streetAddress": "Spiaggia di Lara, Muratpaşa",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8529,
+                            "longitude": 30.8015
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Transfer in taxi dall'Aeroporto di Antalya a Lara Beach",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall'aeroporto di Antalya a Lara Beach con APL Transfers. Prezzo fisso, accoglienza in aeroporto e assistenza 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-LRA-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/antalya-airport-to-lara-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1980,
+                            "reviewCount": 1980
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Carter",
+                            "reviewBody": "Esperienza molto fluida! Il mio autista mi aspettava in aeroporto e il viaggio fino a Lara Beach è stato perfetto. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Transfer in taxi dall'Aeroporto di Antalya a Lara Beach"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Carter"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà il mio autista all'aeroporto di Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà nella sala arrivi dell'aeroporto di Antalya con un cartello con il tuo nome."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "I prezzi dei taxi dall'aeroporto di Antalya a Lara Beach sono fissi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, i nostri prezzi sono fissi e non ci sono costi nascosti. Quello che vedi è quello che paghi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare gratuitamente la mia prenotazione?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare gratuitamente fino a 24 ore prima del ritiro previsto."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Offrite seggiolini per bambini nei trasferimenti?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, forniamo seggiolini per bambini gratuitamente su richiesta per tutti i veicoli privati."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dura il tragitto dall'aeroporto di Antalya a Lara Beach?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il trasferimento dura solitamente circa 20–25 minuti, a seconda del traffico."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "name": "APL Transfers",
+                        "@id": "57",
+                        "url": `${env.websiteDomain}/zh/antalya-airport-to-lara-beach`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07230",
+                            "streetAddress": "拉拉海滩，穆拉特帕夏",
+                            "addressCountry": "TR",
+                            "addressLocality": "安塔利亚"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8529,
+                            "longitude": 30.8015
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "从安塔利亚机场到拉拉海滩的出租车接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/lara.webp`,
+                        "description": "通过 APL Transfers 预订从安塔利亚机场前往拉拉海滩的舒适私人接送服务。固定价格，机场迎接，全天候服务。",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-LRA-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/antalya-airport-to-lara-beach`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1980,
+                            "reviewCount": 1980
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "艾米丽·卡特",
+                            "reviewBody": "非常顺利的体验！我的司机在机场等候，前往拉拉海滩的行程也非常顺畅。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从安塔利亚机场到拉拉海滩的出租车接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "艾米丽·卡特"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "我的司机会在安塔利亚机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在安塔利亚机场到达大厅手持写有您姓名的接机牌迎接您。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到拉拉海滩的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们所有的接送价格都是固定的，没有隐藏费用。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可在接送前24小时内免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们是否提供儿童座椅？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们可根据要求为所有私人车辆免费提供儿童座椅。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到拉拉海滩的行程需要多久？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "根据交通情况，行程通常为 20–25 分钟。"
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+            },
+            "/antalya-airport-to-antalya-city-center-kaleici": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "name": "APL Transfers",
+                        "@id": "58",
+                        "url": `${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07100",
+                            "streetAddress": "Kaleiçi, Muratpaşa",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8822,
+                            "longitude": 30.7046
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Airport to Antalya City Center (Kaleiçi) Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "description": "Book a comfortable private transfer from Antalya Airport to the city center (Kaleiçi) with APL Transfers. Fixed pricing, meet & greet, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KLC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/antalya-airport-to-antalya-city-center-kaleici`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1650,
+                            "reviewCount": 1650
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Olivia Green",
+                            "reviewBody": "Seamless service from start to finish! The driver met me at the arrivals and the ride to Kaleiçi was smooth and on time. Highly recommended!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Airport to Antalya City Center (Kaleiçi) Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Olivia Green"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Antalya Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will be waiting for you in the arrivals hall at Antalya Airport, holding a sign with your name for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Antalya Airport to Kaleiçi fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our transfer prices are fixed with no hidden fees. What you see is what you pay."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before pickup."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you provide child seats for the transfer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we provide free child seats upon request for all private vehicle types."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How long does the journey from Antalya Airport to Kaleiçi take?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The transfer from Antalya Airport to Kaleiçi typically takes around 30–35 minutes depending on traffic conditions."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "name": "APL Transfers",
+                        "@id": "58",
+                        "url": `${env.websiteDomain}/tr/antalya-airport-to-antalya-city-center-kaleici`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07100",
+                            "streetAddress": "Kaleiçi, Muratpaşa",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8822,
+                            "longitude": 30.7046
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Havalimanı'ndan Antalya Şehir Merkezi (Kaleiçi) Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "description": "APL Transfers ile Antalya Havalimanı'ndan şehir merkezi (Kaleiçi)'ne konforlu bir özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KLC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/antalya-airport-to-antalya-city-center-kaleici`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1650,
+                            "reviewCount": 1650
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Olivia Green",
+                            "reviewBody": "Başından sonuna kadar sorunsuz hizmet! Şoförüm beni zamanında karşıladı ve Kaleiçi’ne konforlu bir yolculuk sundu. Kesinlikle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Havalimanı'ndan Antalya Şehir Merkezi (Kaleiçi) Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Olivia Green"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz, Antalya Havalimanı gelen yolcu alanında isminizin yazılı olduğu bir tabela ile sizi bekliyor olacak."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'ndan Kaleiçi'ne taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, transfer ücretlerimiz sabittir ve gizli ücret içermez. Ne görüyorsanız onu ödersiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, rezervasyonunuzu planlanan alınma saatinden 24 saat öncesine kadar ücretsiz iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Transfer için çocuk koltuğu sağlıyor musunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm özel araçlar için talep üzerine ücretsiz çocuk koltuğu sağlıyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'ndan Kaleiçi'ne yolculuk ne kadar sürer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Antalya Havalimanı'ndan Kaleiçi'ne transfer trafiğe bağlı olarak genellikle 30–35 dakika sürmektedir."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "name": "APL Transfers",
+                        "@id": "58",
+                        "url": `${env.websiteDomain}/es/antalya-airport-to-antalya-city-center-kaleici`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07100",
+                            "streetAddress": "Kaleiçi, Muratpaşa",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8822,
+                            "longitude": 30.7046
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en taxi desde el Aeropuerto de Antalya al centro de la ciudad (Kaleiçi)",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "description": "Reserva un traslado privado cómodo desde el Aeropuerto de Antalya hasta el centro de la ciudad (Kaleiçi) con APL Transfers. Precio fijo, recepción en el aeropuerto y atención 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KLC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/antalya-airport-to-antalya-city-center-kaleici`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1650,
+                            "reviewCount": 1650
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Olivia Green",
+                            "reviewBody": "¡Servicio impecable de principio a fin! El conductor me esperaba en el aeropuerto y el trayecto a Kaleiçi fue rápido y cómodo. ¡Altamente recomendable!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en taxi desde el Aeropuerto de Antalya al centro de la ciudad (Kaleiçi)"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Olivia Green"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará el conductor en el Aeropuerto de Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Tu conductor te estará esperando en la sala de llegadas del Aeropuerto de Antalya con un cartel con tu nombre."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Son fijos los precios del taxi desde el Aeropuerto de Antalya a Kaleiçi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, nuestros precios de traslado son fijos y no tienen cargos ocultos. Pagas exactamente lo que ves."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva de forma gratuita?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puedes cancelar tu reserva de forma gratuita hasta 24 horas antes del horario programado de recogida."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Proporcionan asientos para niños?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, proporcionamos asientos para niños de forma gratuita bajo solicitud para todos los vehículos privados."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Cuánto dura el trayecto desde el Aeropuerto de Antalya hasta Kaleiçi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "El trayecto desde el Aeropuerto de Antalya hasta Kaleiçi suele durar entre 30 y 35 minutos, dependiendo del tráfico."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "name": "APL Transfers",
+                        "@id": "58",
+                        "url": `${env.websiteDomain}/ar/antalya-airport-to-antalya-city-center-kaleici`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07100",
+                            "streetAddress": "كاليتشي، مراد باشا",
+                            "addressCountry": "TR",
+                            "addressLocality": "أنطاليا"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8822,
+                            "longitude": 30.7046
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التاكسي من مطار أنطاليا إلى مركز المدينة (كاليتشي)",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار أنطاليا إلى مركز المدينة (كاليتشي) مع APL Transfers. تسعير ثابت، استقبال مجاني، ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KLC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/antalya-airport-to-antalya-city-center-kaleici`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1650,
+                            "reviewCount": 1650
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "أوليفيا غرين",
+                            "reviewBody": "خدمة ممتازة من البداية للنهاية! السائق كان في الموعد ورحلتي إلى كاليتشي كانت مريحة جداً. أوصي بها بشدة!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التاكسي من مطار أنطاليا إلى مركز المدينة (كاليتشي)"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "أوليفيا غرين"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقي بي السائق في مطار أنطاليا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سائقك سيكون في صالة الوصول في مطار أنطاليا ويحمل لافتة باسمك لسهولة التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار التاكسي من مطار أنطاليا إلى كاليتشي ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، أسعار النقل لدينا ثابتة ولا تشمل أي رسوم خفية. السعر الظاهر هو ما ستدفعه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجاناً؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجاناً حتى 24 ساعة قبل موعد الاستلام المجدول."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل تقدمون مقاعد للأطفال؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نحن نوفر مقاعد أطفال مجانية عند الطلب لجميع أنواع المركبات الخاصة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "كم تستغرق الرحلة من مطار أنطاليا إلى كاليتشي؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "عادةً ما تستغرق الرحلة حوالي 30–35 دقيقة حسب حركة المرور."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "name": "APL Transfers",
+                        "@id": "58",
+                        "url": `${env.websiteDomain}/ru/antalya-airport-to-antalya-city-center-kaleici`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07100",
+                            "streetAddress": "Калеичи, Муратпаша",
+                            "addressCountry": "TR",
+                            "addressLocality": "Анталья"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8822,
+                            "longitude": 30.7046
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Такси трансфер из аэропорта Антальи в центр города (Калеичи)",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Антальи в центр города (Калеичи) с APL Transfers. Фиксированная цена, встреча в аэропорту и круглосуточная поддержка.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KLC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/antalya-airport-to-antalya-city-center-kaleici`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1650,
+                            "reviewCount": 1650
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Оливия Грин",
+                            "reviewBody": "Отличный сервис от начала до конца! Водитель встретил меня в аэропорту, поездка в Калеичи прошла гладко и комфортно. Очень рекомендую!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Такси трансфер из аэропорта Антальи в центр города (Калеичи)"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Оливия Грин"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Антальи?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель будет ждать вас в зале прилета аэропорта Антальи с табличкой с вашим именем."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксирована ли цена за такси из аэропорта Антальи в Калеичи?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, наши цены фиксированы и не содержат скрытых сборов. Вы платите только указанную сумму."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Можно ли отменить бронирование бесплатно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно не позднее чем за 24 часа до поездки."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы предоставляете детские кресла?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы предоставляем бесплатные детские кресла по запросу для всех типов частных автомобилей."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Сколько времени занимает поездка из аэропорта Антальи в Калеичи?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Поездка обычно занимает от 30 до 35 минут в зависимости от дорожных условий."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "name": "APL Transfers",
+                        "@id": "58",
+                        "url": `${env.websiteDomain}/it/antalya-airport-to-antalya-city-center-kaleici`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07100",
+                            "streetAddress": "Kaleiçi, Muratpaşa",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8822,
+                            "longitude": 30.7046
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento in taxi dall'Aeroporto di Antalya al centro città (Kaleiçi)",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "description": "Prenota un trasferimento privato confortevole dall'Aeroporto di Antalya al centro città (Kaleiçi) con APL Transfers. Prezzo fisso, accoglienza in aeroporto e supporto 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KLC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/antalya-airport-to-antalya-city-center-kaleici`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1650,
+                            "reviewCount": 1650
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Olivia Green",
+                            "reviewBody": "Servizio impeccabile dall'inizio alla fine! Il mio autista mi ha accolto all'aeroporto ed è stato un viaggio piacevole fino a Kaleiçi. Altamente raccomandato!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento in taxi dall'Aeroporto di Antalya al centro città (Kaleiçi)"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Olivia Green"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà l'autista all'Aeroporto di Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà nella sala arrivi dell'Aeroporto di Antalya con un cartello con il tuo nome per un facile riconoscimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "I prezzi dei taxi dall'Aeroporto di Antalya a Kaleiçi sono fissi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, i nostri prezzi di trasferimento sono fissi e non includono costi nascosti. Paghi solo ciò che vedi."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare la mia prenotazione gratuitamente?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare gratuitamente la prenotazione fino a 24 ore prima dell'orario previsto di prelievo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Fornite seggiolini per bambini?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, offriamo seggiolini per bambini gratuiti su richiesta per tutti i veicoli privati."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dura il tragitto dall'Aeroporto di Antalya a Kaleiçi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il trasferimento dura generalmente tra i 30 e i 35 minuti, a seconda del traffico."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "name": "APL Transfers",
+                        "@id": "58",
+                        "url": `${env.websiteDomain}/zh/antalya-airport-to-antalya-city-center-kaleici`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "30",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07100",
+                            "streetAddress": "Kaleiçi, Muratpaşa",
+                            "addressCountry": "TR",
+                            "addressLocality": "安塔利亚"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8822,
+                            "longitude": 30.7046
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "安塔利亚机场至市中心（Kaleiçi）出租车接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kaleici.webp`,
+                        "description": "通过 APL Transfers 预订从安塔利亚机场前往市中心（Kaleiçi）的舒适私人接送服务。固定价格、机场接机、全天候支持。",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KLC-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/antalya-airport-to-antalya-city-center-kaleici`,
+                            "priceCurrency": "EUR",
+                            "price": "30.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1650,
+                            "reviewCount": 1650
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Olivia Green",
+                            "reviewBody": "非常出色的服务！司机在机场准时等候，送我顺利抵达 Kaleiçi。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "安塔利亚机场至市中心（Kaleiçi）出租车接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-18",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Olivia Green"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "司机会在哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在安塔利亚机场到达大厅举着写有您名字的牌子迎接您。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到 Kaleiçi 的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们的价格是固定的，无任何隐藏费用。您只需支付看到的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可以在计划接车时间前 24 小时免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们提供儿童座椅吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们可为所有私人车辆免费提供儿童座椅（需提前请求）。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到 Kaleiçi 的车程需要多长时间？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "根据交通情况不同，通常需要 30 至 35 分钟。"
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+            },
+            "/antalya-airport-to-belek": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": "${env.websiteDomain}/images/popularDestinations/antalya/belek.webp",
+                        "name": "APL Transfers",
+                        "@id": "59",
+                        "url": "${env.websiteDomain}/antalya-airport-to-belek",
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07500",
+                            "streetAddress": "Belek, Serik",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8625,
+                            "longitude": 31.0556
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Airport to Belek Taxi Transfer",
+                        "image": "${env.websiteDomain}/images/popularDestinations/antalya/belek.webp",
+                        "description": "Book a comfortable private transfer from Antalya Airport to Belek with APL Transfers. Fixed pricing, meet & greet, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-BLK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": "${env.websiteDomain}/antalya-airport-to-belek",
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2100,
+                            "reviewCount": 2100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Smith",
+                            "reviewBody": "Excellent service! The driver was punctual and the ride to Belek was smooth and comfortable. Highly recommend APL Transfers.",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Airport to Belek Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Antalya Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you in the arrivals hall at Antalya Airport, holding a sign with your name for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Antalya Airport to Belek fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our transfer prices are fixed with no hidden fees. What you see is what you pay."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before pickup."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you offer child seats for transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we provide free child seats upon request for all private vehicle types."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How long does the journey take from Antalya Airport to Belek?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The transfer from Antalya Airport to Belek typically takes around 27 to 45 minutes, depending on traffic conditions."
+                                }
+                            }
+                        ]
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "name": "APL Transfers",
+                        "@id": "59",
+                        "url": `${env.websiteDomain}/tr/antalya-airport-to-belek`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07500",
+                            "streetAddress": "Belek, Serik",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8625,
+                            "longitude": 31.0556
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Havalimanı'ndan Belek'e Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "description": "APL Transfers ile Antalya Havalimanı'ndan Belek'e konforlu bir özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-BLK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/antalya-airport-to-belek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2100,
+                            "reviewCount": 2100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Smith",
+                            "reviewBody": "Mükemmel hizmet! Şoför zamanında geldi ve Belek’e olan yolculuk çok rahattı. APL Transfers'i kesinlikle tavsiye ederim.",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Havalimanı'ndan Belek'e Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz, Antalya Havalimanı'nın varış salonunda isminizin yazılı olduğu bir tabela ile sizi karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'ndan Belek'e taksi fiyatları sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm transfer fiyatlarımız sabittir ve gizli ücret içermez. Ne görüyorsanız onu ödersiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, transfer saatinizden en az 24 saat önce iptal etmeniz durumunda ücretsiz iptal hakkınız vardır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Transferlerde çocuk koltuğu sunuyor musunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm özel araçlarımızda talep üzerine ücretsiz çocuk koltuğu sağlıyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'ndan Belek'e yolculuk ne kadar sürer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Antalya Havalimanı ile Belek arası yaklaşık 33 km’dir ve trafik durumuna göre genellikle 27 ila 45 dakika sürmektedir."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "name": "APL Transfers",
+                        "@id": "59",
+                        "url": `${env.websiteDomain}/es/antalya-airport-to-belek`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07500",
+                            "streetAddress": "Belek, Serik",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8625,
+                            "longitude": 31.0556
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en taxi desde el Aeropuerto de Antalya a Belek",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "description": "Reserva un traslado privado y cómodo desde el Aeropuerto de Antalya a Belek con APL Transfers. Precio fijo, servicio de bienvenida y atención 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-BLK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/antalya-airport-to-belek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2100,
+                            "reviewCount": 2100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Smith",
+                            "reviewBody": "¡Servicio excelente! El conductor fue puntual y el viaje a Belek fue muy cómodo. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en taxi desde el Aeropuerto de Antalya a Belek"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me recibirá el conductor en el Aeropuerto de Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Su conductor lo recibirá en la sala de llegadas del Aeropuerto de Antalya con un cartel con su nombre."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Los precios del taxi desde el Aeropuerto de Antalya a Belek son fijos?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, nuestros precios son fijos y no incluyen cargos ocultos. Usted paga solo el precio que ve."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva de forma gratuita?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puede cancelar su reserva sin coste hasta 24 horas antes de la hora programada de recogida."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen asientos para niños?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, proporcionamos asientos para niños de forma gratuita previa solicitud en todos los tipos de vehículos privados."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Cuánto dura el trayecto desde el Aeropuerto de Antalya a Belek?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "El trayecto desde el Aeropuerto de Antalya a Belek dura entre 27 y 45 minutos, dependiendo del tráfico."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "name": "APL Transfers",
+                        "@id": "59",
+                        "url": `${env.websiteDomain}/ar/antalya-airport-to-belek`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07500",
+                            "streetAddress": "Belek, Serik",
+                            "addressCountry": "TR",
+                            "addressLocality": "أنطاليا"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8625,
+                            "longitude": 31.0556
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة نقل تاكسي من مطار أنطاليا إلى بيليك",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار أنطاليا إلى بيليك مع APL Transfers. أسعار ثابتة، استقبال مجاني ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-BLK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/antalya-airport-to-belek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2100,
+                            "reviewCount": 2100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Smith",
+                            "reviewBody": "خدمة ممتازة! السائق كان في الوقت المحدد وكانت الرحلة إلى بيليك سلسة ومريحة. أوصي بشدة بـ APL Transfers.",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة نقل تاكسي من مطار أنطاليا إلى بيليك"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقيني السائق في مطار أنطاليا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقي بك السائق في صالة الوصول بمطار أنطاليا وهو يحمل لافتة باسمك لتسهيل التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل الأسعار من مطار أنطاليا إلى بيليك ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، الأسعار لدينا ثابتة ولا توجد رسوم خفية. السعر المعلن هو السعر الذي ستدفعه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل وقت الاستلام المحدد."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل توفرون مقاعد للأطفال؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نوفر مقاعد أطفال مجانية عند الطلب لجميع أنواع السيارات الخاصة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "كم تستغرق الرحلة من مطار أنطاليا إلى بيليك؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "عادةً ما تستغرق الرحلة من مطار أنطاليا إلى بيليك حوالي 27 إلى 45 دقيقة حسب حالة المرور."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "name": "APL Transfers",
+                        "@id": "59",
+                        "url": `${env.websiteDomain}/ru/antalya-airport-to-belek`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07500",
+                            "streetAddress": "Belek, Serik",
+                            "addressCountry": "TR",
+                            "addressLocality": "Анталья"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8625,
+                            "longitude": 31.0556
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер на такси из аэропорта Анталии в Белек",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "description": "Забронируйте комфортный частный трансфер из аэропорта Анталии в Белек с APL Transfers. Фиксированная цена, встреча с табличкой и поддержка 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-BLK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/antalya-airport-to-belek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2100,
+                            "reviewCount": 2100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Джеймс Смит",
+                            "reviewBody": "Отличный сервис! Водитель был вовремя, поездка в Белек прошла гладко. Рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер на такси из аэропорта Анталии в Белек"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Джеймс Смит"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Анталии?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель встретит вас в зоне прилета аэропорта Анталии с табличкой с вашим именем."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксированы ли цены на трансфер из аэропорта Анталии в Белек?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все цены фиксированы и не содержат скрытых платежей. Вы платите только то, что указано."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я отменить бронь бесплатно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно за 24 часа до времени трансфера."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Предоставляете ли вы детские кресла?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы предоставляем бесплатные детские кресла по запросу для всех типов частных автомобилей."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Сколько времени занимает поездка из аэропорта Анталии в Белек?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Поездка из аэропорта Анталии в Белек занимает примерно от 27 до 45 минут в зависимости от дорожной ситуации."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "name": "APL Transfers",
+                        "@id": "59",
+                        "url": `${env.websiteDomain}/it/antalya-airport-to-belek`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07500",
+                            "streetAddress": "Belek, Serik",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8625,
+                            "longitude": 31.0556
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Trasferimento in taxi dall Aeroporto di Antalya a Belek",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall Aeroporto di Antalya a Belek con APL Transfers. Prezzo fisso, accoglienza e supporto 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-BLK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/antalya-airport-to-belek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2100,
+                            "reviewCount": 2100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Smith",
+                            "reviewBody": "Servizio eccellente! L autista era puntuale e il viaggio fino a Belek è stato comodo e veloce. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Trasferimento in taxi dall Aeroporto di Antalya a Belek"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà l autista all Aeroporto di Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà nella sala arrivi dell aeroporto con un cartello con il tuo nome per facilitare il riconoscimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "I prezzi dei taxi dall Aeroporto di Antalya a Belek sono fissi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, i nostri prezzi sono fissi e trasparenti, senza costi nascosti."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare gratuitamente la mia prenotazione?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare gratuitamente fino a 24 ore prima dell orario previsto per il ritiro."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Fornite seggiolini per bambini?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, forniamo seggiolini per bambini gratuitamente su richiesta per tutti i veicoli privati."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dura il tragitto dall Aeroporto di Antalya a Belek?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il trasferimento dall Aeroporto di Antalya a Belek dura solitamente tra 27 e 45 minuti, a seconda del traffico."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "name": "APL Transfers",
+                        "@id": "59",
+                        "url": `${env.websiteDomain}/zh/antalya-airport-to-belek`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "35",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07500",
+                            "streetAddress": "Belek, Serik",
+                            "addressCountry": "TR",
+                            "addressLocality": "安塔利亚"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.8625,
+                            "longitude": 31.0556
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "从安塔利亚机场到贝莱克的出租车接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/belek.webp`,
+                        "description": "通过 APL Transfers 预订从安塔利亚机场到贝莱克的舒适私人接送服务。固定价格、接机服务和全天候客户支持。",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-BLK-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/antalya-airport-to-belek`,
+                            "priceCurrency": "EUR",
+                            "price": "35.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2100,
+                            "reviewCount": 2100
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "James Smith",
+                            "reviewBody": "非常棒的服务！司机准时到达，旅程舒适顺畅。强烈推荐 APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从安塔利亚机场到贝莱克的出租车接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "James Smith"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "司机会在安塔利亚机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "司机将在安塔利亚机场到达大厅举着写有您姓名的牌子迎接您，方便识别。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到贝莱克的出租车价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们所有的价格都是固定的，没有任何隐藏费用。您看到的就是您支付的。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "当然可以，您可以在预定接送时间的 24 小时前免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们是否提供儿童座椅？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们为所有私家车辆提供免费儿童座椅，需提前申请。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到贝莱克需要多长时间？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "根据交通情况，从安塔利亚机场到贝莱克大约需要 27 到 45 分钟。"
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+            },
+            "/antalya-airport-to-kemer": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "name": "APL Transfers",
+                        "@id": "60",
+                        "url": `${env.websiteDomain}/antalya-airport-to-kemer`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "40",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07980",
+                            "streetAddress": "Kemer, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.5972,
+                            "longitude": 30.5650
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Airport to Kemer Taxi Transfer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "description": "Book a comfortable private transfer from Antalya Airport to Kemer with APL Transfers. Fixed pricing, meet & greet service, and 24/7 support.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KMR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/antalya-airport-to-kemer`,
+                            "priceCurrency": "EUR",
+                            "price": "40.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Lewis",
+                            "reviewBody": "Excellent service! My driver was on time and very professional. The ride to Kemer was smooth and relaxing.",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Airport to Kemer Taxi Transfer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-22",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Lewis"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will my driver meet me at Antalya Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will meet you in the arrivals hall at Antalya Airport, holding a name board for easy identification."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the taxi prices from Antalya Airport to Kemer fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all prices are fixed with no hidden charges. What you see is what you pay."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before pickup."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you provide child seats for transfers?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, free child seats are available on request for all private vehicle types."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How long does the journey from Antalya Airport to Kemer take?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The transfer from Antalya Airport to Kemer typically takes 55 to 75 minutes depending on traffic."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "name": "APL Transfers",
+                        "@id": "60",
+                        "url": `${env.websiteDomain}/tr/antalya-airport-to-kemer`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "40",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07980",
+                            "streetAddress": "Kemer, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.5972,
+                            "longitude": 30.5650
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Havalimanı'ndan Kemer'e Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "description": "APL Transfers ile Antalya Havalimanı'ndan Kemer'e konforlu bir özel transfer rezervasyonu yapın. Sabit fiyat, karşılama hizmeti ve 7/24 destek.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KMR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/antalya-airport-to-kemer`,
+                            "priceCurrency": "EUR",
+                            "price": "40.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sophia Lewis",
+                            "reviewBody": "Harika bir hizmetti! Şoförüm tam zamanında geldi ve Kemer'e yolculuk çok rahattı. APL Transfers’i kesinlikle tavsiye ederim.",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Havalimanı'ndan Kemer'e Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-22",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sophia Lewis"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'nda şoförüm beni nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz sizi Antalya Havalimanı'nda gelen yolcu salonunda, isminizin yazılı olduğu tabela ile karşılayacaktır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'ndan Kemer'e taksi ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm fiyatlarımız sabittir ve gizli ücret yoktur. Gördüğünüz fiyatı ödersiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, transfer saatinden 24 saat öncesine kadar ücretsiz iptal yapabilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Transferlerde çocuk koltuğu sağlıyor musunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm özel araç tipleri için isteğe bağlı ücretsiz çocuk koltuğu sağlıyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı'ndan Kemer'e yolculuk ne kadar sürer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Antalya Havalimanı'ndan Kemer'e transfer genellikle trafik durumuna göre 55 ila 75 dakika sürer."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "name": "APL Transfers",
+                        "@id": "60",
+                        "url": `${env.websiteDomain}/es/antalya-airport-to-kemer`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "40",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07980",
+                            "streetAddress": "Kemer, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.5972,
+                            "longitude": 30.5650
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en taxi desde el Aeropuerto de Antalya a Kemer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "description": "Reserve un traslado privado y cómodo desde el Aeropuerto de Antalya a Kemer con APL Transfers. Precio fijo, servicio de bienvenida y atención 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KMR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/antalya-airport-to-kemer`,
+                            "priceCurrency": "EUR",
+                            "price": "40.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sofía Lewis",
+                            "reviewBody": "¡Servicio excelente! El conductor llegó a tiempo y el viaje a Kemer fue muy cómodo. ¡Recomiendo mucho APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en taxi desde el Aeropuerto de Antalya a Kemer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-22",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sofía Lewis"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará el conductor en el Aeropuerto de Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Su conductor lo estará esperando en la sala de llegadas del Aeropuerto de Antalya con un cartel con su nombre."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Son fijos los precios del traslado del Aeropuerto de Antalya a Kemer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos nuestros precios son fijos y no hay cargos ocultos. Lo que ve es lo que paga."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva sin coste?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puede cancelar su reserva sin coste hasta 24 horas antes de la recogida."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen asientos para niños?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, proporcionamos asientos infantiles gratuitos bajo solicitud para todos los vehículos privados."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Cuánto dura el trayecto desde el Aeropuerto de Antalya a Kemer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "El traslado desde el Aeropuerto de Antalya a Kemer suele durar entre 55 y 75 minutos, dependiendo del tráfico."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "name": "APL Transfers",
+                        "@id": "60",
+                        "url": `${env.websiteDomain}/ar/antalya-airport-to-kemer`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "40",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07980",
+                            "streetAddress": "كيمر، أنطاليا",
+                            "addressCountry": "TR",
+                            "addressLocality": "أنطاليا"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.5972,
+                            "longitude": 30.5650
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة النقل بسيارة أجرة من مطار أنطاليا إلى كيمر",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "description": "احجز نقلًا خاصًا ومريحًا من مطار أنطاليا إلى كيمر مع APL Transfers. سعر ثابت، خدمة الاستقبال والمساعدة، ودعم على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KMR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/antalya-airport-to-kemer`,
+                            "priceCurrency": "EUR",
+                            "price": "40.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "صوفيا لويس",
+                            "reviewBody": "خدمة ممتازة! السائق كان في الوقت المحدد والرحلة إلى كيمر كانت مريحة جداً. أوصي بشدة بـ APL Transfers.",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة النقل بسيارة أجرة من مطار أنطاليا إلى كيمر"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-22",
+                            "author": {
+                                "@type": "Person",
+                                "name": "صوفيا لويس"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقي بي السائق في مطار أنطاليا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سيلتقي بك السائق في صالة الوصول في مطار أنطاليا وهو يحمل لافتة باسمك لتسهيل التعرف عليه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار سيارات الأجرة من مطار أنطاليا إلى كيمر ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع الأسعار ثابتة ولا توجد رسوم خفية. ما تراه هو ما تدفعه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الاستلام."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل توفرون مقاعد للأطفال؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نوفر مقاعد أطفال مجانًا عند الطلب لجميع أنواع المركبات الخاصة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "كم تستغرق الرحلة من مطار أنطاليا إلى كيمر؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "عادةً ما تستغرق الرحلة من مطار أنطاليا إلى كيمر بين 55 إلى 75 دقيقة حسب حركة المرور."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "name": "APL Transfers",
+                        "@id": "60",
+                        "url": `${env.websiteDomain}/ru/antalya-airport-to-kemer`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "40",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07980",
+                            "streetAddress": "Кемер, Анталья",
+                            "addressCountry": "TR",
+                            "addressLocality": "Анталья"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.5972,
+                            "longitude": 30.5650
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Такси трансфер из аэропорта Антальи в Кемер",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "description": "Закажите комфортный частный трансфер из аэропорта Антальи в Кемер с APL Transfers. Фиксированная цена, встреча в аэропорту и поддержка 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KMR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/antalya-airport-to-kemer`,
+                            "priceCurrency": "EUR",
+                            "price": "40.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "София Льюис",
+                            "reviewBody": "Отличный сервис! Водитель приехал вовремя, и поездка в Кемер была очень комфортной. Очень рекомендую APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Такси трансфер из аэропорта Антальи в Кемер"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-22",
+                            "author": {
+                                "@type": "Person",
+                                "name": "София Льюис"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Антальи?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель будет ждать вас в зоне прилёта аэропорта Антальи с табличкой, на которой будет указано ваше имя."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Фиксирована ли цена на трансфер из аэропорта Антальи в Кемер?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши цены фиксированы, и никаких скрытых доплат нет. Вы платите ту сумму, которую видите."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я отменить бронирование бесплатно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить своё бронирование бесплатно не позднее чем за 24 часа до времени трансфера."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы предоставляете детские кресла?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы предоставляем бесплатные детские кресла по запросу для всех частных трансферов."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Сколько времени занимает поездка из аэропорта Антальи в Кемер?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Поездка из аэропорта Антальи в Кемер обычно занимает от 55 до 75 минут в зависимости от дорожной ситуации."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "name": "APL Transfers",
+                        "@id": "60",
+                        "url": `${env.websiteDomain}/it/antalya-airport-to-kemer`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "40",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07980",
+                            "streetAddress": "Kemer, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.5972,
+                            "longitude": 30.5650
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Transfer in taxi dall Aeroporto di Antalya a Kemer",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "description": "Prenota un transfer privato e confortevole dall Aeroporto di Antalya a Kemer con APL Transfers. Prezzo fisso, accoglienza personalizzata e assistenza 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KMR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/antalya-airport-to-kemer`,
+                            "priceCurrency": "EUR",
+                            "price": "40.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Sofia Lewis",
+                            "reviewBody": "Servizio eccellente! L autista è arrivato puntuale e il viaggio fino a Kemer è stato molto confortevole. Consiglio vivamente APL Transfers!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Transfer in taxi dall Aeroporto di Antalya a Kemer"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-22",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Sofia Lewis"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà l autista all Aeroporto di Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà nella sala arrivi dell Aeroporto di Antalya con un cartello con il tuo nome."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "I prezzi per il transfer dall Aeroporto di Antalya a Kemer sono fissi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i nostri prezzi sono fissi e non ci sono costi nascosti. Il prezzo visualizzato è quello che pagherai."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare la mia prenotazione gratuitamente?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima del ritiro."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Fornite seggiolini per bambini?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, forniamo gratuitamente seggiolini per bambini su richiesta per tutti i veicoli privati."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dura il viaggio dall Aeroporto di Antalya a Kemer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il transfer dall Aeroporto di Antalya a Kemer dura solitamente tra i 55 e i 75 minuti, a seconda del traffico."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "name": "APL Transfers",
+                        "@id": "60",
+                        "url": `${env.websiteDomain}/zh/antalya-airport-to-kemer`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "40",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07980",
+                            "streetAddress": "凯梅尔，安塔利亚",
+                            "addressCountry": "TR",
+                            "addressLocality": "安塔利亚"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.5972,
+                            "longitude": 30.5650
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "从安塔利亚机场到凯梅尔的出租车接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/kemer.webp`,
+                        "description": "通过APL Transfers预订从安塔利亚机场到凯梅尔的舒适私人接送服务。固定价格，机场迎接，全天候24/7服务支持。",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-KMR-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/antalya-airport-to-kemer`,
+                            "priceCurrency": "EUR",
+                            "price": "40.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 2000,
+                            "reviewCount": 2000
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "索菲娅·刘易斯",
+                            "reviewBody": "服务非常棒！司机准时到达，前往凯梅尔的旅程非常舒适。强烈推荐APL Transfers！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从安塔利亚机场到凯梅尔的出租车接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-22",
+                            "author": {
+                                "@type": "Person",
+                                "name": "索菲娅·刘易斯"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "司机会在安塔利亚机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在安塔利亚机场到达大厅举着写有您名字的牌子等候您。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到凯梅尔的接送价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们的所有价格都是固定的，没有任何隐藏费用。您看到的就是您支付的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可在接车时间前24小时免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们提供儿童座椅吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们可以根据要求免费为所有私人车辆提供儿童座椅。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到凯梅尔的车程需要多长时间？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "从安塔利亚机场到凯梅尔的车程通常在55到75分钟之间，具体取决于交通状况。"
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+            },
+            "/antalya-airport-to-side": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "name": "APL Transfers",
+                        "@id": "61",
+                        "url": `${env.websiteDomain}/antalya-airport-to-side`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "45",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Side, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7642,
+                            "longitude": 31.3906
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Taxi transfer from Antalya Airport to Side",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "description": "Book a private and comfortable taxi transfer from Antalya Airport to Side with APL Transfers. Fixed price, meet & greet service, and 24/7 customer support.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-SIDE-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/en/antalya-airport-to-side`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Johnson",
+                            "reviewBody": "Excellent service from start to finish. The driver was professional and the ride to Side was smooth and quick. Highly recommended!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Taxi transfer from Antalya Airport to Side"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will the driver meet me at Antalya Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will be waiting in the arrivals hall of Antalya Airport with a sign displaying your name."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the transfer prices from Antalya Airport to Side fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our transfer prices are fixed with no hidden fees. The price you see is the price you pay."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before the pickup time."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you provide child seats?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we provide free child seats upon request for all private transfers."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How long does the transfer from Antalya Airport to Side take?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The journey from Antalya Airport to Side usually takes around 60 to 75 minutes depending on traffic."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What is the distance between Antalya Airport and Side?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The distance between Antalya Airport and Side is approximately 65 kilometers."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "name": "APL Transfers",
+                        "@id": "61",
+                        "url": `${env.websiteDomain}/antalya-airport-to-side`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "45",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Side, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7642,
+                            "longitude": 31.3906
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Havalimanından Side'ye Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "description": "Antalya Havalimanından Side'ye özel ve konforlu taksi transferinizi APL Transfers ile rezerve edin. Sabit fiyat, karşılama hizmeti ve 7/24 müşteri desteği.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-SIDE-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/antalya-airport-to-side`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Johnson",
+                            "reviewBody": "Baştan sona harika bir hizmet. Şoför profesyoneldi ve Side'ye yolculuk sorunsuz geçti. Şiddetle tavsiye ederim!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Havalimanından Side'ye Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Şoför beni Antalya Havalimanında nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz, Antalya Havalimanı gelen yolcu salonunda isminizin yazılı olduğu bir tabela ile sizi bekliyor olacak."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanından Side'ye transfer ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm transfer ücretlerimiz sabittir ve gizli ücret içermez. Gördüğünüz fiyat, ödediğiniz fiyattır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, transfer saatinden en az 24 saat öncesine kadar ücretsiz iptal hakkınız vardır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Çocuk koltuğu sağlıyor musunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm özel transferlerde talep üzerine ücretsiz çocuk koltuğu sağlıyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanından Side'ye transfer ne kadar sürer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Antalya Havalimanından Side'ye yolculuk trafik durumuna bağlı olarak genellikle 60 ila 75 dakika sürer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı ile Side arasındaki mesafe nedir?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Antalya Havalimanı ile Side arasındaki mesafe yaklaşık 65 kilometredir."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "name": "APL Transfers",
+                        "@id": "61",
+                        "url": `${env.websiteDomain}/es/antalya-airport-to-side`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "45",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Side, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7642,
+                            "longitude": 31.3906
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en taxi desde el Aeropuerto de Antalya a Side",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "description": "Reserve un traslado privado y cómodo desde el Aeropuerto de Antalya a Side con APL Transfers. Precio fijo, servicio de bienvenida y atención al cliente 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-SIDE-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/antalya-airport-to-side`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Johnson",
+                            "reviewBody": "¡Servicio excelente de principio a fin! El conductor fue profesional y el viaje a Side fue rápido y cómodo. ¡Altamente recomendado!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en taxi desde el Aeropuerto de Antalya a Side"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará el conductor en el Aeropuerto de Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Su conductor lo esperará en la sala de llegadas del Aeropuerto de Antalya con un cartel con su nombre."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Son fijos los precios del traslado desde el Aeropuerto de Antalya a Side?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos nuestros precios son fijos y no hay tarifas ocultas. Lo que ve es lo que paga."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva sin coste?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puede cancelar su reserva sin ningún coste hasta 24 horas antes del servicio."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen asientos para niños?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, proporcionamos asientos infantiles gratuitos bajo solicitud para todos los traslados privados."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Cuánto dura el trayecto desde el Aeropuerto de Antalya a Side?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "El trayecto desde el Aeropuerto de Antalya a Side suele durar entre 60 y 75 minutos, dependiendo del tráfico."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Cuál es la distancia entre el Aeropuerto de Antalya y Side?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "La distancia entre el Aeropuerto de Antalya y Side es de aproximadamente 65 kilómetros."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "name": "APL Transfers",
+                        "@id": "61",
+                        "url": `${env.websiteDomain}/ar/antalya-airport-to-side`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "45",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "سايد، أنطاليا",
+                            "addressCountry": "TR",
+                            "addressLocality": "أنطاليا"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7642,
+                            "longitude": 31.3906
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التاكسي من مطار أنطاليا إلى سايد",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار أنطاليا إلى سايد مع APL Transfers. سعر ثابت، استقبال في المطار، ودعم عملاء على مدار الساعة.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-SIDE-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/antalya-airport-to-side`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "إميلي جونسون",
+                            "reviewBody": "خدمة ممتازة من البداية إلى النهاية. كان السائق محترفًا، وكانت الرحلة إلى سايد سلسة ومريحة. أوصي بها بشدة!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التاكسي من مطار أنطاليا إلى سايد"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "إميلي جونسون"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقي بي السائق في مطار أنطاليا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سينتظرك السائق في صالة الوصول في مطار أنطاليا وهو يحمل لافتة باسمك."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار النقل من مطار أنطاليا إلى سايد ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع أسعارنا ثابتة ولا توجد أي رسوم خفية. السعر المعروض هو ما ستدفعه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الاستلام."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل توفرون مقاعد للأطفال؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نوفر مقاعد أطفال مجانية عند الطلب لجميع خدمات النقل الخاصة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "كم تستغرق مدة الرحلة من مطار أنطاليا إلى سايد؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "عادةً ما تستغرق الرحلة من مطار أنطاليا إلى سايد ما بين 60 إلى 75 دقيقة حسب حركة المرور."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي المسافة بين مطار أنطاليا وسايد؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "المسافة بين مطار أنطاليا وسايد حوالي 65 كيلومترًا."
+                                }
+                            }
+                        ]
+                    }
+                }
+
+                ,
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "name": "APL Transfers",
+                        "@id": "61",
+                        "url": `${env.websiteDomain}/ru/antalya-airport-to-side`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "45",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Сиде, Анталья",
+                            "addressCountry": "TR",
+                            "addressLocality": "Анталья"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7642,
+                            "longitude": 31.3906
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Трансфер на такси из аэропорта Антальи в Сиде",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "description": "Закажите частный и комфортный трансфер на такси из аэропорта Антальи в Сиде с APL Transfers. Фиксированная цена, встреча в аэропорту и круглосуточная поддержка.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-SIDE-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/antalya-airport-to-side`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Эмили Джонсон",
+                            "reviewBody": "Отличный сервис от начала до конца. Водитель был профессионален, поездка в Сиде прошла быстро и комфортно. Очень рекомендую!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Трансфер на такси из аэропорта Антальи в Сиде"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Эмили Джонсон"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где водитель встретит меня в аэропорту Антальи?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель будет ждать вас в зале прилёта аэропорта Антальи с табличкой, на которой указано ваше имя."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Цена на трансфер из аэропорта Антальи в Сиде фиксированная?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши цены фиксированные и без скрытых платежей. Вы платите ту сумму, которую видите."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Могу ли я отменить бронирование бесплатно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно не позднее чем за 24 часа до времени трансфера."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы предоставляете детские кресла?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы предоставляем бесплатные детские кресла по запросу для всех частных трансферов."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Сколько длится поездка из аэропорта Антальи в Сиде?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Поездка из аэропорта Антальи в Сиде обычно занимает от 60 до 75 минут в зависимости от трафика."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какое расстояние между аэропортом Антальи и Сиде?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Расстояние между аэропортом Антальи и Сиде составляет примерно 65 километров."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "name": "APL Transfers",
+                        "@id": "61",
+                        "url": `${env.websiteDomain}/it/antalya-airport-to-side`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "45",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Side, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7642,
+                            "longitude": 31.3906
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Transfer in taxi dall Aeroporto di Antalya a Side",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall Aeroporto di Antalya a Side con APL Transfers. Prezzo fisso, servizio di accoglienza e assistenza clienti 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-SIDE-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/antalya-airport-to-side`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Emily Johnson",
+                            "reviewBody": "Servizio eccellente dall inizio alla fine. L autista è stato professionale e il viaggio verso Side è stato rapido e confortevole. Consigliatissimo!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Transfer in taxi dall Aeroporto di Antalya a Side"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Emily Johnson"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà l autista all Aeroporto di Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà nella sala arrivi dell Aeroporto di Antalya con un cartello con il tuo nome."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "I prezzi del transfer dall Aeroporto di Antalya a Side sono fissi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i nostri prezzi sono fissi e non ci sono costi nascosti. Il prezzo visualizzato è quello che pagherai."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare la mia prenotazione gratuitamente?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare la tua prenotazione gratuitamente fino a 24 ore prima dell orario di prelievo."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Fornite seggiolini per bambini?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, forniamo seggiolini per bambini gratuiti su richiesta per tutti i trasferimenti privati."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dura il trasferimento dall Aeroporto di Antalya a Side?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il viaggio dall Aeroporto di Antalya a Side dura solitamente tra i 60 e i 75 minuti, a seconda del traffico."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Qual è la distanza tra l Aeroporto di Antalya e Side?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "La distanza tra l Aeroporto di Antalya e Side è di circa 65 chilometri."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "name": "APL Transfers",
+                        "@id": "61",
+                        "url": `${env.websiteDomain}/zh/antalya-airport-to-side`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "45",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "安塔利亚 Side",
+                            "addressCountry": "TR",
+                            "addressLocality": "安塔利亚"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7642,
+                            "longitude": 31.3906
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "从安塔利亚机场到Side的出租车接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/side.webp`,
+                        "description": "通过APL Transfers预订从安塔利亚机场到Side的舒适私人出租车接送服务。固定价格、专人接机服务和全天候24/7客户支持。",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-SIDE-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/antalya-airport-to-side`,
+                            "priceCurrency": "EUR",
+                            "price": "45.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1800,
+                            "reviewCount": 1800
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "艾米莉·约翰逊",
+                            "reviewBody": "从头到尾都是非常出色的服务。司机非常专业，前往Side的旅程平稳又舒适。强烈推荐！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从安塔利亚机场到Side的出租车接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-15",
+                            "author": {
+                                "@type": "Person",
+                                "name": "艾米莉·约翰逊"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "司机会在安塔利亚机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在安塔利亚机场的到达大厅举着写有您名字的牌子等候。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到Side的接送价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们所有的价格都是固定的，没有隐藏费用。您看到的就是您支付的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可在接车时间前24小时免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们提供儿童座椅吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们可以根据要求免费为所有私人车辆提供儿童座椅。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到Side的车程需要多长时间？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "从安塔利亚机场到Side的车程通常为60至75分钟，具体取决于交通状况。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "安塔利亚机场与Side之间的距离是多少？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "安塔利亚机场与Side之间的距离大约为65公里。"
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+            },
+            "/antalya-airport-to-manavgat": {
+                en: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "name": "APL Transfers",
+                        "@id": "62",
+                        "url": `${env.websiteDomain}/antalya-airport-to-manavgat`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "50",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Manavgat, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7868,
+                            "longitude": 31.4435
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Taxi transfer from Antalya Airport to Manavgat",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "description": "Book a private and comfortable taxi transfer from Antalya Airport to Manavgat with APL Transfers. Fixed price, meet & greet service, and 24/7 customer support.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-MNVGT-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/antalya-airport-to-manavgat`,
+                            "priceCurrency": "EUR",
+                            "price": "50.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Roberts",
+                            "reviewBody": "The transfer was smooth and timely. The driver was very polite and helpful. Great experience from Antalya Airport to Manavgat!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Taxi transfer from Antalya Airport to Manavgat"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Roberts"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Where will the driver meet me at Antalya Airport?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Your driver will be waiting in the arrivals hall of Antalya Airport with a sign displaying your name."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are the transfer prices from Antalya Airport to Manavgat fixed?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, all our transfer prices are fixed with no hidden fees. The price you see is the price you pay."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I cancel my booking for free?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, you can cancel your booking free of charge up to 24 hours before the pickup time."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do you provide child seats?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we provide free child seats upon request for all private transfers."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How long does the transfer from Antalya Airport to Manavgat take?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The journey from Antalya Airport to Manavgat usually takes around 65 to 80 minutes depending on traffic."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What is the distance between Antalya Airport and Manavgat?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The distance between Antalya Airport and Manavgat is approximately 70 kilometers."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                tr: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "name": "APL Transfers",
+                        "@id": "62",
+                        "url": `${env.websiteDomain}/tr/antalya-airport-to-manavgat`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "50",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Manavgat, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7868,
+                            "longitude": 31.4435
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Antalya Havalimanından Manavgat'a Taksi Transferi",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "description": "Antalya Havalimanından Manavgat'a özel ve konforlu taksi transferinizi APL Transfers ile rezerve edin. Sabit fiyat, karşılama hizmeti ve 7/24 müşteri desteği.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-MNVGT-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/tr/antalya-airport-to-manavgat`,
+                            "priceCurrency": "EUR",
+                            "price": "50.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Roberts",
+                            "reviewBody": "Transfer çok rahattı ve zamanında gerçekleşti. Şoför çok kibar ve yardımseverdi. Antalya Havalimanı'ndan Manavgat'a harika bir deneyimdi!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Antalya Havalimanından Manavgat'a Taksi Transferi"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Roberts"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Şoför beni Antalya Havalimanında nerede karşılayacak?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Şoförünüz, Antalya Havalimanı gelen yolcu salonunda isminizin yazılı olduğu bir tabela ile sizi bekliyor olacak."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanından Manavgat'a transfer ücretleri sabit mi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm transfer ücretlerimiz sabittir ve gizli ücret yoktur. Gördüğünüz fiyat, ödediğiniz fiyattır."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Rezervasyonumu ücretsiz iptal edebilir miyim?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, transfer saatinden en az 24 saat öncesine kadar ücretsiz iptal edebilirsiniz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Çocuk koltuğu sağlıyor musunuz?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Evet, tüm özel transferlerde talep üzerine ücretsiz çocuk koltuğu sağlıyoruz."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanından Manavgat'a transfer ne kadar sürer?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Antalya Havalimanından Manavgat'a yolculuk genellikle trafik durumuna bağlı olarak 65 ila 80 dakika sürer."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Antalya Havalimanı ile Manavgat arasındaki mesafe nedir?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Antalya Havalimanı ile Manavgat arasındaki mesafe yaklaşık 70 kilometredir."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                es: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "name": "APL Transfers",
+                        "@id": "62",
+                        "url": `${env.websiteDomain}/es/antalya-airport-to-manavgat`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "50",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Manavgat, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7868,
+                            "longitude": 31.4435
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Traslado en taxi desde el Aeropuerto de Antalya a Manavgat",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "description": "Reserve un traslado privado y cómodo desde el Aeropuerto de Antalya a Manavgat con APL Transfers. Precio fijo, servicio de bienvenida y atención al cliente 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-MNVGT-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/es/antalya-airport-to-manavgat`,
+                            "priceCurrency": "EUR",
+                            "price": "50.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Roberts",
+                            "reviewBody": "El traslado fue puntual y muy cómodo. El conductor fue amable y profesional. ¡Gran experiencia desde el aeropuerto hasta Manavgat!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Traslado en taxi desde el Aeropuerto de Antalya a Manavgat"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Roberts"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "¿Dónde me encontrará el conductor en el Aeropuerto de Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Su conductor lo esperará en la sala de llegadas del Aeropuerto de Antalya con un cartel con su nombre."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Son fijos los precios del traslado a Manavgat?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, todos nuestros precios son fijos y no hay cargos ocultos. Lo que ve es lo que paga."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Puedo cancelar mi reserva sin coste?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, puede cancelar su reserva sin coste hasta 24 horas antes del traslado."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Ofrecen asientos para niños?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sí, proporcionamos asientos infantiles gratuitos bajo solicitud para todos los traslados privados."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Cuánto dura el trayecto desde el Aeropuerto de Antalya a Manavgat?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "El trayecto desde el Aeropuerto de Antalya a Manavgat suele durar entre 65 y 80 minutos, dependiendo del tráfico."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "¿Cuál es la distancia entre el Aeropuerto de Antalya y Manavgat?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "La distancia entre el Aeropuerto de Antalya y Manavgat es de aproximadamente 70 kilómetros."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                it: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "name": "APL Transfers",
+                        "@id": "62",
+                        "url": `${env.websiteDomain}/it/antalya-airport-to-manavgat`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "50",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Manavgat, Antalya",
+                            "addressCountry": "TR",
+                            "addressLocality": "Antalya"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7868,
+                            "longitude": 31.4435
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Transfer in taxi dall Aeroporto di Antalya a Manavgat",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "description": "Prenota un trasferimento privato e confortevole dall Aeroporto di Antalya a Manavgat con APL Transfers. Prezzo fisso, servizio accoglienza e assistenza clienti 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-MNVGT-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/it/antalya-airport-to-manavgat`,
+                            "priceCurrency": "EUR",
+                            "price": "50.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Michael Roberts",
+                            "reviewBody": "Trasferimento perfetto e puntuale. L autista era molto gentile e disponibile. Ottima esperienza da Antalya a Manavgat!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Transfer in taxi dall Aeroporto di Antalya a Manavgat"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Michael Roberts"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Dove mi incontrerà l autista all Aeroporto di Antalya?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il tuo autista ti aspetterà nella sala arrivi dell Aeroporto di Antalya con un cartello con il tuo nome."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "I prezzi del transfer per Manavgat sono fissi?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, tutti i nostri prezzi sono fissi e non ci sono costi nascosti. Il prezzo visualizzato è quello che pagherai."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Posso cancellare la mia prenotazione gratuitamente?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, puoi cancellare gratuitamente la prenotazione fino a 24 ore prima del trasferimento."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Fornite seggiolini per bambini?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Sì, offriamo seggiolini per bambini gratuiti su richiesta per tutti i trasferimenti privati."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Quanto dura il trasferimento dall Aeroporto di Antalya a Manavgat?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Il viaggio dall Aeroporto di Antalya a Manavgat dura solitamente tra 65 e 80 minuti, a seconda del traffico."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Qual è la distanza tra l Aeroporto di Antalya e Manavgat?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "La distanza tra l Aeroporto di Antalya e Manavgat è di circa 70 chilometri."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ru: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "name": "APL Transfers",
+                        "@id": "62",
+                        "url": `${env.websiteDomain}/ru/antalya-airport-to-manavgat`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "50",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "Манавгат, Анталья",
+                            "addressCountry": "TR",
+                            "addressLocality": "Анталья"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7868,
+                            "longitude": 31.4435
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "Такси трансфер из аэропорта Антальи в Манавгат",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "description": "Закажите комфортный частный трансфер на такси из аэропорта Антальи в Манавгат с APL Transfers. Фиксированная цена, встреча в аэропорту и круглосуточная поддержка клиентов.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-MNVGT-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ru/antalya-airport-to-manavgat`,
+                            "priceCurrency": "EUR",
+                            "price": "50.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "Майкл Робертс",
+                            "reviewBody": "Поездка прошла гладко и вовремя. Водитель был вежливым и очень внимательным. Отличный сервис из аэропорта Антальи в Манавгат!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "Такси трансфер из аэропорта Антальи в Манавгат"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Майкл Робертс"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Где меня встретит водитель в аэропорту Антальи?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ваш водитель будет ожидать вас в зале прилёта аэропорта Антальи с табличкой с вашим именем."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Цена трансфера из аэропорта Антальи в Манавгат фиксированная?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, все наши цены фиксированы, без скрытых платежей. Вы платите ровно ту сумму, которую видите."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Можно ли отменить бронирование бесплатно?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, вы можете отменить бронирование бесплатно минимум за 24 часа до времени трансфера."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Вы предоставляете детские кресла?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Да, мы бесплатно предоставляем детские кресла по запросу для всех частных трансферов."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Сколько длится трансфер из аэропорта Антальи в Манавгат?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Поездка из аэропорта Антальи в Манавгат обычно занимает от 65 до 80 минут в зависимости от дорожной ситуации."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Какое расстояние между аэропортом Антальи и Манавгатом?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Расстояние между аэропортом Антальи и Манавгатом составляет примерно 70 километров."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                ar: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "name": "APL Transfers",
+                        "@id": "62",
+                        "url": `${env.websiteDomain}/ar/antalya-airport-to-manavgat`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "50",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "مانافغات، أنطاليا",
+                            "addressCountry": "TR",
+                            "addressLocality": "أنطاليا"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7868,
+                            "longitude": 31.4435
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "خدمة التاكسي من مطار أنطاليا إلى مانافغات",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "description": "احجز خدمة نقل خاصة ومريحة من مطار أنطاليا إلى مانافغات مع APL Transfers. سعر ثابت، استقبال في المطار، ودعم عملاء 24/7.",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-MNVGT-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/ar/antalya-airport-to-manavgat`,
+                            "priceCurrency": "EUR",
+                            "price": "50.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "مايكل روبرتس",
+                            "reviewBody": "كانت الرحلة مريحة وفي الوقت المحدد. السائق كان مهذبًا ومتعاونًا للغاية. تجربة رائعة من مطار أنطاليا إلى مانافغات!",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "خدمة التاكسي من مطار أنطاليا إلى مانافغات"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "مايكل روبرتس"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "أين سيلتقي بي السائق في مطار أنطاليا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "سينتظرك السائق في صالة الوصول في مطار أنطاليا وهو يحمل لافتة باسمك."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل أسعار النقل إلى مانافغات ثابتة؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، جميع الأسعار لدينا ثابتة ولا توجد أي رسوم خفية. السعر المعروض هو ما ستدفعه."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل يمكنني إلغاء الحجز مجانًا؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، يمكنك إلغاء الحجز مجانًا حتى 24 ساعة قبل موعد الاستلام."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "هل توفرون مقاعد للأطفال؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "نعم، نوفر مقاعد أطفال مجانية عند الطلب لجميع خدمات النقل الخاصة."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "كم تستغرق مدة الرحلة من مطار أنطاليا إلى مانافغات؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "تستغرق الرحلة من مطار أنطاليا إلى مانافغات عادةً بين 65 و80 دقيقة حسب حركة المرور."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "ما هي المسافة بين مطار أنطاليا ومانافغات؟",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "المسافة بين مطار أنطاليا ومانافغات حوالي 70 كيلومترًا."
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+                zh: {
+                    "LocalBusiness": {
+                        "@context": "https://schema.org/",
+                        "@type": "LocalBusiness",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "name": "APL Transfers",
+                        "@id": "62",
+                        "url": `${env.websiteDomain}/zh/antalya-airport-to-manavgat`,
+                        "telephone": "+90 212 123 4567",
+                        "priceRange": "50",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "postalCode": "07600",
+                            "streetAddress": "马纳夫加特，安塔利亚",
+                            "addressCountry": "TR",
+                            "addressLocality": "安塔利亚"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 36.7868,
+                            "longitude": 31.4435
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/APLTransfers",
+                            "https://twitter.com/APLTransfers",
+                            "https://www.instagram.com/APLTransfers"
+                        ]
+                    },
+
+                    "Product": {
+                        "@context": "https://schema.org/",
+                        "@type": "Product",
+                        "name": "从安塔利亚机场到马纳夫加特的出租车接送服务",
+                        "image": `${env.websiteDomain}/images/popularDestinations/antalya/manavgat.webp`,
+                        "description": "通过 APL Transfers 预订从安塔利亚机场到马纳夫加特的舒适私人接送服务。固定价格、机场迎接、全天候 24/7 客户支持。",
+                        "brand": "APL Transfers",
+                        "sku": "AYT-MNVGT-001",
+                        "offers": {
+                            "@type": "Offer",
+                            "url": `${env.websiteDomain}/zh/antalya-airport-to-manavgat`,
+                            "priceCurrency": "EUR",
+                            "price": "50.00",
+                            "priceValidUntil": "2025-12-31",
+                            "availability": "https://schema.org/InStock",
+                            "itemCondition": "https://schema.org/NewCondition"
+                        },
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.9",
+                            "bestRating": "5",
+                            "worstRating": "1",
+                            "ratingCount": 1600,
+                            "reviewCount": 1600
+                        },
+                        "review": {
+                            "@type": "Review",
+                            "name": "迈克尔·罗伯茨",
+                            "reviewBody": "接送非常顺利且准时。司机非常礼貌和乐于助人。从安塔利亚机场到马纳夫加特是一次很棒的体验！",
+                            "itemReviewed": {
+                                "@type": "Thing",
+                                "name": "从安塔利亚机场到马纳夫加特的出租车接送服务"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5",
+                                "bestRating": "5",
+                                "worstRating": "1"
+                            },
+                            "datePublished": "2025-03-20",
+                            "author": {
+                                "@type": "Person",
+                                "name": "迈克尔·罗伯茨"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Trustpilot"
+                            }
+                        }
+                    },
+
+                    "FAQPage": {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "司机会在安塔利亚机场哪里接我？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "您的司机将在安塔利亚机场到达大厅举着写有您名字的牌子等候您。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到马纳夫加特的接送价格是固定的吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们所有的价格都是固定的，没有任何隐藏费用。您看到的就是您支付的价格。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "我可以免费取消预订吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "可以，您可以在接送前24小时免费取消预订。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "你们提供儿童座椅吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，我们可以根据要求为所有私人接送服务免费提供儿童座椅。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "从安塔利亚机场到马纳夫加特的车程需要多长时间？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "从安塔利亚机场到马纳夫加特的旅程通常需要大约 65 到 80 分钟，具体取决于交通状况。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "安塔利亚机场与马纳夫加特之间的距离是多少？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "安塔利亚机场与马纳夫加特之间的距离约为 70 公里。"
+                                }
+                            }
+                        ]
+                    }
+                }
+                ,
+            },
+            "/antalya-airport-to-kas": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+            "/antalya-airport-to-patara": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+        },
+        BJY: {
+            "/bodrum-airport-to-bodrum-town-center": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+            "/bodrum-airport-to-gumbet": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+            "/bodrum-airport-to-bitez": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+            "/bodrum-airport-to-torba": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+            "/bodrum-airport-to-turgutreis": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+            "/bodrum-airport-to-yalikavak": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+            "/bodrum-airport-to-golturkbuku": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+            "/bodrum-airport-to-ortakent": {
+                en: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                tr: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                es: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ar: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                ru: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                it: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+                zh: {
+                    "LocalBusiness": {
+                    },
+                    "Product": {
+                    },
+                    "FAQPage": {
+                    }
+                },
+            },
+        },
+        // ADB: {},
+        // GZP: {},
     }
     return popularDestinationSchema?.[hasTaxiDeals]?.[pathname]?.[language] || null;
 }
@@ -37239,10 +45336,159 @@ Visit the <strong>Grand Bazaar</strong>, <strong>Marmaris Castle</strong>, and t
         },
 
     },
-    AYT: {},
-    BJY: {},
-    ADB: {},
-    GZP: {}
+    AYT: {
+        "/antalya-airport-to-lara-beach": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+
+        },
+        "/antalya-airport-to-antalya-city-center-kaleici": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/antalya-airport-to-belek": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/antalya-airport-to-kemer": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/antalya-airport-to-side": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/antalya-airport-to-manavgat": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/antalya-airport-to-kas": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/antalya-airport-to-patara": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+    },
+    BJY: {
+        "/bodrum-airport-to-bodrum-town-center": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+
+        },
+        "/bodrum-airport-to-gumbet": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/bodrum-airport-to-bitez": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/bodrum-airport-to-torba": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/bodrum-airport-to-turgutreis": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/bodrum-airport-to-yalikavak": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/bodrum-airport-to-golturkbuku": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+        "/bodrum-airport-to-ortakent": {
+            en: ``,
+            tr: ``,
+            ar: ``,
+            es: ``,
+            it: ``,
+            ru: ``,
+            zh: ``,
+        },
+    },
+
+    // ADB: {},
+    // GZP: {}
 }
 
 
