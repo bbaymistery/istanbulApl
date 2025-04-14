@@ -141,7 +141,7 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
     else if (linkname.startsWith("sabiha-")) hasTaxiDeals = "SAW";
     else if (linkname.startsWith("antalya-")) hasTaxiDeals = "AYT";
     else if (linkname.startsWith("dalaman-")) hasTaxiDeals = "DLM";
-    else if (linkname.startsWith("bodrum-")) hasTaxiDeals = "BJV";
+    else if (linkname.startsWith("bodrum-")) hasTaxiDeals = "BJY";
     else if (linkname.startsWith("izmir-adnan-")) hasTaxiDeals = "ADB";
     else if (linkname.startsWith("gazipasa-")) hasTaxiDeals = "GZP";
 

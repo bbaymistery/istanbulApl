@@ -5910,74 +5910,1098 @@ const metaTagPopularDestatinationPage = (env) => ({
     },
     BJY: {
         "/bodrum-airport-to-bodrum-town-center": {
-            en: [],
-            tr: [],
-            ar: [],
-            es: [],
-            it: [],
-            ru: [],
-            zh: []
+            en: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Airport to Bodrum Town Center Taxi Transfer | APL Transfers">`,
+                `<meta property="og:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Bodrum Town Center with APL Transfers. Enjoy reliable, direct, and air-conditioned transportation to your hotel or villa with professional drivers and fixed pricing.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Airport to Bodrum Town Center Taxi Transfer | APL Transfers">`,
+                `<meta name="twitter:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Bodrum Town Center with APL Transfers. Enjoy reliable, direct, and air-conditioned transportation to your hotel or villa with professional drivers and fixed pricing.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+            ],
+
+            ar: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="خدمة التاكسي من مطار بودروم إلى وسط مدينة بودروم | APL Transfers">`,
+                `<meta property="og:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى وسط مدينة بودروم مع APL Transfers. استمتع بالنقل المباشر والمريح والمكّيف مع سائقين محترفين وأسعار ثابتة.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="خدمة التاكسي من مطار بودروم إلى وسط مدينة بودروم | APL Transfers">`,
+                `<meta name="twitter:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى وسط مدينة بودروم مع APL Transfers. استمتع بالنقل المباشر والمريح والمكّيف مع سائقين محترفين وأسعار ثابتة.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+            ],
+
+            tr: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Havalimanı - Bodrum Merkez Taksi Transferi | APL Transfers">`,
+                `<meta property="og:description" content="Bodrum Havalimanı'ndan (BJV) Bodrum Merkez'e özel taksi transferinizi APL Transfers ile rezerve edin. Profesyonel şoförler, sabit fiyat ve konforlu, klimalı araçlarla güvenli ulaşım.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Havalimanı - Bodrum Merkez Taksi Transferi | APL Transfers">`,
+                `<meta name="twitter:description" content="Bodrum Havalimanı'ndan (BJV) Bodrum Merkez'e özel taksi transferinizi APL Transfers ile rezerve edin. Profesyonel şoförler, sabit fiyat ve konforlu, klimalı araçlarla güvenli ulaşım.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+            ],
+
+            es: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Traslado en taxi desde el Aeropuerto de Bodrum al Centro de la Ciudad | APL Transfers">`,
+                `<meta property="og:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) al centro de la ciudad con APL Transfers. Disfruta de un transporte directo, cómodo y con aire acondicionado con conductores profesionales y precios fijos.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Traslado en taxi desde el Aeropuerto de Bodrum al Centro de la Ciudad | APL Transfers">`,
+                `<meta name="twitter:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) al centro de la ciudad con APL Transfers. Disfruta de un transporte directo, cómodo y con aire acondicionado con conductores profesionales y precios fijos.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+            ],
+
+            it: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum al Centro città | APL Transfers">`,
+                `<meta property="og:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) al centro città con APL Transfers. Goditi un viaggio diretto, comodo e climatizzato con autisti professionisti e prezzi fissi.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum al Centro città | APL Transfers">`,
+                `<meta name="twitter:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) al centro città con APL Transfers. Goditi un viaggio diretto, comodo e climatizzato con autisti professionisti e prezzi fissi.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+            ],
+
+            ru: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Трансфер на такси из аэропорта Бодрума в центр города | APL Transfers">`,
+                `<meta property="og:description" content="Забронируйте частный трансфер на такси из аэропорта Бодрума (BJV) в центр города с APL Transfers. Надёжный, комфортный транспорт с кондиционером, фиксированные цены и профессиональные водители.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Трансфер на такси из аэропорта Бодрума в центр города | APL Transfers">`,
+                `<meta name="twitter:description" content="Забронируйте частный трансфер на такси из аэропорта Бодрума (BJV) в центр города с APL Transfers. Надёжный, комфортный транспорт с кондиционером, фиксированные цены и профессиональные водители.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+            ],
+            zh: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-bodrum-town-center\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center\" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="博德鲁姆机场至市中心出租车接送服务 | APL Transfers">`,
+                `<meta property="og:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到市中心的私人出租车接送服务。享受可靠、直达、空调舒适的交通服务，由专业司机提供固定价格接送。">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-bodrum-town-center">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="博德鲁姆机场至市中心出租车接送服务 | APL Transfers">`,
+                `<meta name="twitter:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到市中心的私人出租车接送服务。享受可靠、直达、空调舒适的交通服务，由专业司机提供固定价格接送。">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum2.webp\">`,
+            ],
+
         },
         "/bodrum-airport-to-gumbet": {
-            en: [],
-            tr: [],
-            ar: [],
-            es: [],
-            it: [],
-            ru: [],
-            zh: []
+            en: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet\" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Airport to Gumbet Taxi Transfer | APL Transfers">`,
+                `<meta property="og:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Gumbet with APL Transfers. Enjoy a fast, comfortable, and air-conditioned ride to your hotel or apartment with fixed pricing and professional drivers.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-gumbet\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Airport to Gumbet Taxi Transfer | APL Transfers\">`,
+                `<meta name="twitter:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Gumbet with APL Transfers. Enjoy a fast, comfortable, and air-conditioned ride to your hotel or apartment with fixed pricing and professional drivers.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+            ],
+
+            tr: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-gumbet" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Havalimanı - Gümbet Taksi Transferi | APL Transfers">`,
+                `<meta property="og:description" content="Bodrum Havalimanı'ndan (BJV) Gümbet'e özel taksi transferinizi APL Transfers ile kolayca rezerve edin. Sabit fiyat, profesyonel şoförler ve klimalı araçlarla hızlı ve konforlu ulaşım.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-gumbet\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Havalimanı - Gümbet Taksi Transferi | APL Transfers">`,
+                `<meta name="twitter:description" content="Bodrum Havalimanı'ndan (BJV) Gümbet'e özel taksi transferinizi APL Transfers ile kolayca rezerve edin. Sabit fiyat, profesyonel şoförler ve klimalı araçlarla hızlı ve konforlu ulaşım.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+            ],
+
+            ar: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="خدمة التاكسي من مطار بودروم إلى غمبت | APL Transfers">`,
+                `<meta property="og:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى غمبت مع APL Transfers. استمتع برحلة سريعة ومريحة ومكيفة إلى فندقك أو شقتك مع أسعار ثابتة وسائقين محترفين.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-gumbet\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="خدمة التاكسي من مطار بودروم إلى غمبت | APL Transfers">`,
+                `<meta name="twitter:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى غمبت مع APL Transfers. استمتع برحلة سريعة ومريحة ومكيفة إلى فندقك أو شقتك مع أسعار ثابتة وسائقين محترفين.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+            ],
+
+            es: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Traslado en taxi desde el Aeropuerto de Bodrum a Gumbet | APL Transfers">`,
+                `<meta property="og:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) a Gumbet con APL Transfers. Disfruta de un viaje rápido, cómodo y con aire acondicionado a tu hotel o apartamento con tarifas fijas y conductores profesionales.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-gumbet\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Traslado en taxi desde el Aeropuerto de Bodrum a Gumbet | APL Transfers">`,
+                `<meta name="twitter:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) a Gumbet con APL Transfers. Disfruta de un viaje rápido, cómodo y con aire acondicionado a tu hotel o apartamento con tarifas fijas y conductores profesionales.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+            ],
+
+            it: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum a Gumbet | APL Transfers">`,
+                `<meta property="og:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) a Gumbet con APL Transfers. Goditi un viaggio veloce, comodo e climatizzato fino al tuo hotel o appartamento, con tariffe fisse e autisti professionali.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-gumbet\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum a Gumbet | APL Transfers">`,
+                `<meta name="twitter:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) a Gumbet con APL Transfers. Goditi un viaggio veloce, comodo e climatizzato fino al tuo hotel o appartamento, con tariffe fisse e autisti professionali.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+            ],
+
+            ru: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Такси-трансфер из аэропорта Бодрума в Гюмбет | APL Transfers">`,
+                `<meta property="og:description" content="Закажите частный трансфер на такси из аэропорта Бодрума (BJV) в Гюмбет с APL Transfers. Наслаждайтесь быстрой, комфортной и кондиционируемой поездкой в отель или апартаменты по фиксированной цене с профессиональными водителями.">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-gumbet\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Такси-трансфер из аэропорта Бодрума в Гюмбет | APL Transfers">`,
+                `<meta name="twitter:description" content="Закажите частный трансфер на такси из аэропорта Бодрума (BJV) в Гюмбет с APL Transfers. Наслаждайтесь быстрой, комфортной и кондиционируемой поездкой в отель или апартаменты по фиксированной цене с профессиональными водителями.">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+            ],
+
+            zh: [
+                `<link rel="canonical" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="en" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<link rel="alternate" hrefLang="ar" href=\"${env.websiteDomain}/ar/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="es" href=\"${env.websiteDomain}/es/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="it" href=\"${env.websiteDomain}/it/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="ru" href=\"${env.websiteDomain}/ru/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="zh" href=\"${env.websiteDomain}/zh/bodrum-airport-to-gumbet\" />`,
+                `<link rel="alternate" hrefLang="x-default" href=\"${env.websiteDomain}/bodrum-airport-to-gumbet"\ />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="博德鲁姆机场至古姆贝特的出租车接送服务 | APL Transfers">`,
+                `<meta property="og:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到古姆贝特的专属出租车接送服务。享受快捷、舒适、空调的接送服务，配备专业司机和固定价格，直达酒店或公寓。">`,
+                `<meta property="og:url" content=\"${env.websiteDomain}/bodrum-airport-to-gumbet\">`,
+                `<meta property="og:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="博德鲁姆机场至古姆贝特的出租车接送服务 | APL Transfers">`,
+                `<meta name="twitter:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到古姆贝特的专属出租车接送服务。享受快捷、舒适、空调的接送服务，配备专业司机和固定价格，直达酒店或公寓。">`,
+                `<meta name="twitter:image" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum3.webp\">`,
+            ],
+
         },
         "/bodrum-airport-to-bitez": {
-            en: [],
-            tr: [],
-            ar: [],
-            es: [],
-            it: [],
-            ru: [],
-            zh: []
+            en: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Airport to Bitez Taxi Transfer | APL Transfers">`,
+                `<meta property="og:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Bitez with APL Transfers. Enjoy a peaceful and comfortable ride with air-conditioned vehicles, professional drivers, and fixed pricing.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-bitez">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Airport to Bitez Taxi Transfer | APL Transfers">`,
+                `<meta name="twitter:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Bitez with APL Transfers. Enjoy a peaceful and comfortable ride with air-conditioned vehicles, professional drivers, and fixed pricing.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+
+            tr: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Havalimanı - Bitez Taksi Transferi | APL Transfers">`,
+                `<meta property="og:description" content="Bodrum Havalimanı'ndan (BJV) Bitez'e özel taksi transferinizi APL Transfers ile hemen rezerve edin. Sabit fiyatlarla, konforlu ve klimalı araçlarla huzurlu bir yolculuk sizi bekliyor.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-bitez">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Havalimanı - Bitez Taksi Transferi | APL Transfers">`,
+                `<meta name="twitter:description" content="Bodrum Havalimanı'ndan (BJV) Bitez'e özel taksi transferinizi APL Transfers ile hemen rezerve edin. Sabit fiyatlarla, konforlu ve klimalı araçlarla huzurlu bir yolculuk sizi bekliyor.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            ar: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="خدمة التاكسي من مطار بودروم إلى بيتز | APL Transfers">`,
+                `<meta property="og:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى بيتز مع APL Transfers. استمتع برحلة مريحة وهادئة في سيارات مكيفة بأسعار ثابتة وسائقين محترفين.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-bitez">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="خدمة التاكسي من مطار بودروم إلى بيتز | APL Transfers">`,
+                `<meta name="twitter:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى بيتز مع APL Transfers. استمتع برحلة مريحة وهادئة في سيارات مكيفة بأسعار ثابتة وسائقين محترفين.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            es: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Traslado en taxi desde el Aeropuerto de Bodrum a Bitez | APL Transfers">`,
+                `<meta property="og:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) a Bitez con APL Transfers. Disfruta de un viaje tranquilo y cómodo con vehículos climatizados, conductores profesionales y tarifas fijas.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-bitez">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Traslado en taxi desde el Aeropuerto de Bodrum a Bitez | APL Transfers">`,
+                `<meta name="twitter:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) a Bitez con APL Transfers. Disfruta de un viaje tranquilo y cómodo con vehículos climatizados, conductores profesionales y tarifas fijas.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            it: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum a Bitez | APL Transfers">`,
+                `<meta property="og:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) a Bitez con APL Transfers. Goditi un viaggio tranquillo e confortevole con veicoli climatizzati, autisti professionisti e tariffe fisse.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-bitez">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum a Bitez | APL Transfers">`,
+                `<meta name="twitter:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) a Bitez con APL Transfers. Goditi un viaggio tranquillo e confortevole con veicoli climatizzati, autisti professionisti e tariffe fisse.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            ru: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Такси-трансфер из аэропорта Бодрума в Битез | APL Transfers">`,
+                `<meta property="og:description" content="Забронируйте частный трансфер на такси из аэропорта Бодрума (BJV) в Битез с APL Transfers. Наслаждайтесь спокойной и комфортной поездкой в кондиционированных автомобилях с профессиональными водителями и фиксированной ценой.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-bitez">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Такси-трансфер из аэропорта Бодрума в Битез | APL Transfers">`,
+                `<meta name="twitter:description" content="Забронируйте частный трансфер на такси из аэропорта Бодрума (BJV) в Битез с APL Transfers. Наслаждайтесь спокойной и комфортной поездкой в кондиционированных автомобилях с профессиональными водителями и фиксированной ценой.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            zh: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-bitez" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-bitez" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="博德鲁姆机场至比泰兹的出租车接送服务 | APL Transfers">`,
+                `<meta property="og:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到比泰兹的专属出租车服务。享受舒适宁静、配备空调的接送体验，专业司机，固定价格，直达您的酒店或公寓。">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-bitez">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="博德鲁姆机场至比泰兹的出租车接送服务 | APL Transfers">`,
+                `<meta name="twitter:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到比泰兹的专属出租车服务。享受舒适宁静、配备空调的接送体验，专业司机，固定价格，直达您的酒店或公寓。">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
         },
         "/bodrum-airport-to-torba": {
-            en: [],
-            tr: [],
-            ar: [],
-            es: [],
-            it: [],
-            ru: [],
-            zh: []
+            en: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Airport to Torba Taxi Transfer | APL Transfers">`,
+                `<meta property="og:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Torba with APL Transfers. Enjoy a quick and comfortable ride with fixed pricing, professional drivers, and air-conditioned vehicles to your hotel or villa.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-torba">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Airport to Torba Taxi Transfer | APL Transfers">`,
+                `<meta name="twitter:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Torba with APL Transfers. Enjoy a quick and comfortable ride with fixed pricing, professional drivers, and air-conditioned vehicles to your hotel or villa.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            tr: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Havalimanı - Torba Taksi Transferi | APL Transfers">`,
+                `<meta property="og:description" content="Bodrum Havalimanı'ndan (BJV) Torba'ya özel taksi transferinizi APL Transfers ile hemen rezerve edin. Sabit fiyatlarla, klimalı araçlarla ve profesyonel şoförlerle otelinize ya da villanıza konforlu bir yolculuk yapın.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-torba">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Havalimanı - Torba Taksi Transferi | APL Transfers">`,
+                `<meta name="twitter:description" content="Bodrum Havalimanı'ndan (BJV) Torba'ya özel taksi transferinizi APL Transfers ile hemen rezerve edin. Sabit fiyatlarla, klimalı araçlarla ve profesyonel şoförlerle otelinize ya da villanıza konforlu bir yolculuk yapın.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            ar: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="خدمة التاكسي من مطار بودروم إلى توربا | APL Transfers">`,
+                `<meta property="og:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى توربا مع APL Transfers. استمتع برحلة سريعة ومريحة إلى فندقك أو فيلتك مع سيارات مكيفة وسائقين محترفين وأسعار ثابتة.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-torba">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="خدمة التاكسي من مطار بودروم إلى توربا | APL Transfers">`,
+                `<meta name="twitter:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى توربا مع APL Transfers. استمتع برحلة سريعة ومريحة إلى فندقك أو فيلتك مع سيارات مكيفة وسائقين محترفين وأسعار ثابتة.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            es: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Traslado en taxi desde el Aeropuerto de Bodrum a Torba | APL Transfers">`,
+                `<meta property="og:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) a Torba con APL Transfers. Disfruta de un viaje rápido y cómodo en vehículos con aire acondicionado, con conductores profesionales y tarifas fijas.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-torba">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Traslado en taxi desde el Aeropuerto de Bodrum a Torba | APL Transfers">`,
+                `<meta name="twitter:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) a Torba con APL Transfers. Disfruta de un viaje rápido y cómodo en vehículos con aire acondicionado, con conductores profesionales y tarifas fijas.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            it: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum a Torba | APL Transfers">`,
+                `<meta property="og:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) a Torba con APL Transfers. Goditi un viaggio rapido e confortevole in veicoli climatizzati, con autisti professionisti e prezzi fissi.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-torba">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum a Torba | APL Transfers">`,
+                `<meta name="twitter:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) a Torba con APL Transfers. Goditi un viaggio rapido e confortevole in veicoli climatizzati, con autisti professionisti e prezzi fissi.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            ru: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Такси-трансфер из аэропорта Бодрума в Торба | APL Transfers">`,
+                `<meta property="og:description" content="Закажите частный трансфер на такси из аэропорта Бодрума (BJV) в Торба с APL Transfers. Наслаждайтесь быстрой и комфортной поездкой в кондиционированных автомобилях с профессиональными водителями и фиксированной ценой.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-torba">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Такси-трансфер из аэропорта Бодрума в Торба | APL Transfers">`,
+                `<meta name="twitter:description" content="Закажите частный трансфер на такси из аэропорта Бодрума (BJV) в Торба с APL Transfers. Наслаждайтесь быстрой и комфортной поездкой в кондиционированных автомобилях с профессиональными водителями и фиксированной ценой.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            zh: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-torba" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-torba" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="博德鲁姆机场到托尔巴的出租车接送服务 | APL Transfers">`,
+                `<meta property="og:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到托尔巴的私人出租车服务。享受配有空调的舒适快速接送服务，专业司机和固定价格直达酒店或别墅。">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-torba">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="博德鲁姆机场到托尔巴的出租车接送服务 | APL Transfers">`,
+                `<meta name="twitter:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到托尔巴的私人出租车服务。享受配有空调的舒适快速接送服务，专业司机和固定价格直达酒店或别墅。">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
         },
         "/bodrum-airport-to-turgutreis": {
-            en: [],
-            tr: [],
-            ar: [],
-            es: [],
-            it: [],
-            ru: [],
-            zh: []
+            en: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Airport to Turgutreis Taxi Transfer | APL Transfers">`,
+                `<meta property="og:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Turgutreis with APL Transfers. Enjoy a comfortable, air-conditioned ride with professional drivers and fixed rates to your hotel or villa.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-turgutreis">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Airport to Turgutreis Taxi Transfer | APL Transfers">`,
+                `<meta name="twitter:description" content="Book your private taxi transfer from Bodrum Airport (BJV) to Turgutreis with APL Transfers. Enjoy a comfortable, air-conditioned ride with professional drivers and fixed rates to your hotel or villa.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            tr: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Bodrum Havalimanı - Turgutreis Taksi Transferi | APL Transfers">`,
+                `<meta property="og:description" content="Bodrum Havalimanı'ndan (BJV) Turgutreis'e özel taksi transferinizi APL Transfers ile rezerve edin. Sabit fiyatlar, profesyonel sürücüler ve klimalı araçlarla konforlu bir yolculuk sizi bekliyor.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-turgutreis">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Bodrum Havalimanı - Turgutreis Taksi Transferi | APL Transfers">`,
+                `<meta name="twitter:description" content="Bodrum Havalimanı'ndan (BJV) Turgutreis'e özel taksi transferinizi APL Transfers ile rezerve edin. Sabit fiyatlar, profesyonel sürücüler ve klimalı araçlarla konforlu bir yolculuk sizi bekliyor.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            ar: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="خدمة التاكسي من مطار بودروم إلى تورغوترييس | APL Transfers">`,
+                `<meta property="og:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى تورغوترييس مع APL Transfers. استمتع برحلة مريحة في سيارات مكيفة مع سائقين محترفين وأسعار ثابتة إلى فندقك أو فيلتك.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-turgutreis">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="خدمة التاكسي من مطار بودروم إلى تورغوترييس | APL Transfers">`,
+                `<meta name="twitter:description" content="احجز خدمة التاكسي الخاصة بك من مطار بودروم (BJV) إلى تورغوترييس مع APL Transfers. استمتع برحلة مريحة في سيارات مكيفة مع سائقين محترفين وأسعار ثابتة إلى فندقك أو فيلتك.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            es: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Traslado en taxi desde el Aeropuerto de Bodrum a Turgutreis | APL Transfers">`,
+                `<meta property="og:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) a Turgutreis con APL Transfers. Disfruta de un viaje cómodo en vehículos con aire acondicionado, con conductores profesionales y tarifas fijas hasta tu hotel o villa.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-turgutreis">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Traslado en taxi desde el Aeropuerto de Bodrum a Turgutreis | APL Transfers">`,
+                `<meta name="twitter:description" content="Reserva tu traslado privado en taxi desde el Aeropuerto de Bodrum (BJV) a Turgutreis con APL Transfers. Disfruta de un viaje cómodo en vehículos con aire acondicionado, con conductores profesionales y tarifas fijas hasta tu hotel o villa.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            it: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum a Turgutreis | APL Transfers">`,
+                `<meta property="og:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) a Turgutreis con APL Transfers. Goditi un viaggio confortevole con veicoli climatizzati, autisti professionali e tariffe fisse fino al tuo hotel o villa.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-turgutreis">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Trasferimento in taxi dall'Aeroporto di Bodrum a Turgutreis | APL Transfers">`,
+                `<meta name="twitter:description" content="Prenota il tuo trasferimento privato in taxi dall'Aeroporto di Bodrum (BJV) a Turgutreis con APL Transfers. Goditi un viaggio confortevole con veicoli climatizzati, autisti professionali e tariffe fisse fino al tuo hotel o villa.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            ru: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="Такси-трансфер из аэропорта Бодрума в Тургутреис | APL Transfers">`,
+                `<meta property="og:description" content="Закажите частный трансфер на такси из аэропорта Бодрума (BJV) в Тургутреис с APL Transfers. Наслаждайтесь комфортной поездкой в кондиционированном автомобиле с профессиональными водителями и фиксированной ценой до вашего отеля или виллы.">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-turgutreis">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="Такси-трансфер из аэропорта Бодрума в Тургутреис | APL Transfers">`,
+                `<meta name="twitter:description" content="Закажите частный трансфер на такси из аэропорта Бодрума (BJV) в Тургутреис с APL Transfers. Наслаждайтесь комфортной поездкой в кондиционированном автомобиле с профессиональными водителями и фиксированной ценой до вашего отеля или виллы.">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
+            zh: [
+                `<link rel="canonical" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="en" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ar" href="\${env.websiteDomain}/ar/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="es" href="\${env.websiteDomain}/es/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="it" href="\${env.websiteDomain}/it/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="ru" href="\${env.websiteDomain}/ru/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="zh" href="\${env.websiteDomain}/zh/bodrum-airport-to-turgutreis" />`,
+                `<link rel="alternate" hrefLang="x-default" href="\${env.websiteDomain}/bodrum-airport-to-turgutreis" />`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:title" content="博德鲁姆机场至图尔古特雷伊斯出租车接送服务 | APL Transfers">`,
+                `<meta property="og:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到图尔古特雷伊斯的私人出租车接送服务。享受舒适的空调车辆、专业司机和固定价格，直达您的酒店或别墅。">`,
+                `<meta property="og:url" content="\${env.websiteDomain}/bodrum-airport-to-turgutreis">`,
+                `<meta property="og:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="博德鲁姆机场至图尔古特雷伊斯出租车接送服务 | APL Transfers">`,
+                `<meta name="twitter:description" content="通过 APL Transfers 预订从博德鲁姆机场 (BJV) 到图尔古特雷伊斯的私人出租车接送服务。享受舒适的空调车辆、专业司机和固定价格，直达您的酒店或别墅。">`,
+                `<meta name="twitter:image" content="\${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp">`,
+            ],
+
         },
         "/bodrum-airport-to-yalikavak": {
-            en: [],
-            tr: [],
-            ar: [],
-            es: [],
-            it: [],
-            ru: [],
-            zh: []
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Bodrum Airport to Yalıkavak Taxi | Private Transfers 24/7\">",
+                "<meta property=\"og:description\" content=\"Need a taxi from Bodrum Airport to Yalıkavak? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet service. Book your ride now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Bodrum Airport to Yalıkavak Taxi | Private Transfers 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Book your Bodrum Airport to Yalıkavak transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+            ],
+
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Bodrum Havalimanı Yalıkavak Taksi | 7/24 Özel Transfer\">",
+                "<meta property=\"og:description\" content=\"Bodrum Havalimanı'ndan Yalıkavak'a taksi mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 özel transfer hizmeti ve karşılama hizmeti sunar. Hemen rezervasyon yapın!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Bodrum Havalimanı Yalıkavak Taksi | 7/24 Özel Transfer\">",
+                "<meta name=\"twitter:description\" content=\"Bodrum Havalimanı'ndan Yalıkavak'a transferinizi APL Transfers ile ayırtın. Güvenilir, uygun fiyatlı ve 7/24 hizmet. Ücretsiz iptal avantajıyla!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار بودروم إلى ياليكافاك | خدمات خاصة على مدار الساعة\">",
+                "<meta property=\"og:description\" content=\"هل تحتاج إلى تاكسي من مطار بودروم إلى ياليكافاك؟ تقدم APL Transfers خدمات خاصة بأسعار ثابتة واستقبال مجاني على مدار الساعة. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار بودروم إلى ياليكافاك | خدمات خاصة على مدار الساعة\">",
+                "<meta name=\"twitter:description\" content=\"احجز تحويلك من مطار بودروم إلى ياليكافاك مع APL Transfers. أسعار ثابتة، دعم 24/7، وإلغاء مجاني.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+            ],
+
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto de Bodrum a Yalıkavak | Traslados Privados 24/7\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi desde el Aeropuerto de Bodrum a Yalıkavak? APL Transfers ofrece traslados privados con precio fijo, servicio 24/7 y bienvenida personalizada. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto de Bodrum a Yalıkavak | Traslados Privados 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado del Aeropuerto de Bodrum a Yalıkavak con APL Transfers. Precios fijos, disponibilidad 24/7 y cancelación gratuita\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+            ],
+
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Bodrum Yalıkavak | Trasferimenti Privati 24/7\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto di Bodrum a Yalıkavak? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza all arrivo. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Bodrum Yalıkavak | Trasferimenti Privati 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Bodrum a Yalıkavak con APL Transfers. Prezzo fisso, disponibilità 24/7 e cancellazione gratuita\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+            ],
+
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Бодрум в Ялыкавак | Частные трансферы 24/7\">",
+                "<meta property=\"og:description\" content=\"Нужен такси трансфер из аэропорта Бодрума в Ялыкавак? APL Transfers предлагает фиксированные цены, встречу в аэропорту и круглосуточное обслуживание. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Бодрум в Ялыкавак | Частные трансферы 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Бодрум в Ялыкавак с APL Transfers. Фиксированные тарифы, 24/7 доступность и бесплатная отмена\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+            ],
+
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-yalikavak\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"博德鲁姆机场至亚勒卡瓦克出租车 | 私人接送服务 24/7\">",
+                "<meta property=\"og:description\" content=\"需要从博德鲁姆机场前往亚勒卡瓦克的出租车服务吗？APL Transfers 提供固定价格、全天候私人接送服务及到达大厅接机。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-yalikavak\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"博德鲁姆机场至亚勒卡瓦克出租车 | 私人接送服务 24/7\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订博德鲁姆机场至亚勒卡瓦克的接送服务。固定价格，全天候服务，免费航班监控和取消服务。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum4.webp\">`,
+            ],
+
         },
         "/bodrum-airport-to-golturkbuku": {
-            en: [],
-            tr: [],
-            ar: [],
-            es: [],
-            it: [],
-            ru: [],
-            zh: []
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Bodrum Airport to Göltürkbükü Taxi | Private Transfers 24/7\">",
+                "<meta property=\"og:description\" content=\"Looking for a taxi from Bodrum Airport to Göltürkbükü? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet service. Book your ride now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Bodrum Airport to Göltürkbükü Taxi | Private Transfers 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Book your Bodrum Airport to Göltürkbükü transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Bodrum Havalimanı Göltürkbükü Taksi | 7/24 Özel Transfer\">",
+                "<meta property=\"og:description\" content=\"Bodrum Havalimanı'ndan Göltürkbükü'ne taksi mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 özel transfer ve varışta karşılama hizmeti sunar. Hemen rezervasyon yapın!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Bodrum Havalimanı Göltürkbükü Taksi | 7/24 Özel Transfer\">",
+                "<meta name=\"twitter:description\" content=\"Bodrum Havalimanı'ndan Göltürkbükü transferinizi APL Transfers ile ayırtın. Güvenilir, sabit fiyatlı ve 7/24 hizmet. Ücretsiz iptal imkânı!\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+            ],
+
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار بودروم إلى غولتوركبوكو | نقل خاص على مدار الساعة\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن وسيلة نقل خاصة من مطار بودروم إلى غولتوركبوكو؟ تقدم APL Transfers خدمة نقل خاصة بأسعار ثابتة مع استقبال في المطار ودعم 24/7. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار بودروم إلى غولتوركبوكو | نقل خاص على مدار الساعة\">",
+                "<meta name=\"twitter:description\" content=\"احجز نقل مطار بودروم إلى غولتوركبوكو مع APL Transfers. أسعار ثابتة، خدمة 24/7، ومراقبة الرحلات الجوية مجانًا.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+            ]
+            ,
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto de Bodrum a Göltürkbükü | Traslados Privados 24/7\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi desde el Aeropuerto de Bodrum a Göltürkbükü? APL Transfers ofrece traslados privados con precio fijo, servicio 24/7 y bienvenida en el aeropuerto. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto de Bodrum a Göltürkbükü | Traslados Privados 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado del Aeropuerto de Bodrum a Göltürkbükü con APL Transfers. Tarifas fijas, servicio 24/7 y seguimiento de vuelos gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+            ]
+            ,
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi dall Aeroporto di Bodrum a Göltürkbükü | Trasferimenti Privati 24/7\">",
+                "<meta property=\"og:description\" content=\"Hai bisogno di un taxi dall Aeroporto di Bodrum a Göltürkbükü? APL Transfers offre trasferimenti privati a prezzo fisso, servizio 24/7 e accoglienza in aeroporto. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi dall Aeroporto di Bodrum a Göltürkbükü | Trasferimenti Privati 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall Aeroporto di Bodrum a Göltürkbükü con APL Transfers. Prezzi fissi, servizio 24/7 e monitoraggio voli gratuito.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+            ]
+            ,
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Бодрума в Гельтюркбюкю | Частные трансферы 24/7\">",
+                "<meta property=\"og:description\" content=\"Нужен такси-трансфер из аэропорта Бодрума в Гельтюркбюкю? APL Transfers предлагает фиксированные цены, круглосуточное обслуживание и встречу в аэропорту. Забронируйте сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Бодрума в Гельтюркбюкю | Частные трансферы 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Бодрума в Гельтюркбюкю с APL Transfers. Фиксированные цены, круглосуточное обслуживание и бесплатный мониторинг рейсов.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+            ]
+            ,
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-golturkbuku\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"博德鲁姆机场至Göltürkbükü出租车 | 私人接送服务 24/7\">",
+                "<meta property=\"og:description\" content=\"需要从博德鲁姆机场前往Göltürkbükü的出租车服务吗？APL Transfers 提供固定价格、全天候私人接送服务及到达大厅接机服务。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-golturkbuku\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"博德鲁姆机场至Göltürkbükü出租车 | 私人接送服务 24/7\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订从博德鲁姆机场至Göltürkbükü的接送服务。固定价格，全天候服务，免费航班监控和取消服务。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum5.webp\">`,
+            ]
+
         },
         "/bodrum-airport-to-ortakent": {
-            en: [],
-            tr: [],
-            ar: [],
-            es: [],
-            it: [],
+            en: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Bodrum Airport to Ortakent Taxi | Private Transfers 24/7\">",
+                "<meta property=\"og:description\" content=\"Looking for a taxi from Bodrum Airport to Ortakent? APL Transfers offers fixed-price, 24/7 private transfers with meet & greet service. Book your ride now!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-ortakent\">`,
+                `<meta property=\"og:image\"content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Bodrum Airport to Ortakent Taxi | Private Transfers 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Book your Bodrum Airport to Ortakent transfer with APL Transfers. Reliable, affordable, and available 24/7 with free cancellation.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+            ],
+            tr: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Bodrum Havalimanı Ortakent Taksi | 7/24 Özel Transferler\">",
+                "<meta property=\"og:description\" content=\"Bodrum Havalimanı'ndan Ortakent'e taksi mi arıyorsunuz? APL Transfers sabit fiyatlı, 7/24 özel karşılama hizmeti sunar. Hemen rezervasyon yapın!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-ortakent\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Bodrum Havalimanı Ortakent Taksi | 7/24 Özel Transferler\">",
+                "<meta name=\"twitter:description\" content=\"Bodrum Havalimanı'ndan Ortakent'e transferinizi APL Transfers ile ayırtın. Sabit fiyatlar, 7/24 hizmet ve ücretsiz iptal imkanıyla güvenilir ulaşım.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+            ]
+            ,
+            ar: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"تاكسي من مطار بودروم إلى أورتاكينت | خدمات نقل خاصة على مدار الساعة\">",
+                "<meta property=\"og:description\" content=\"هل تبحث عن تاكسي من مطار بودروم إلى أورتاكينت؟ تقدم APL Transfers خدمات نقل خاصة بأسعار ثابتة مع استقبال في المطار على مدار الساعة. احجز الآن!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-ortakent\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"تاكسي من مطار بودروم إلى أورتاكينت | خدمات نقل خاصة على مدار الساعة\">",
+                "<meta name=\"twitter:description\" content=\"احجز انتقالك من مطار بودروم إلى أورتاكينت مع APL Transfers. أسعار ثابتة، خدمة متوفرة 24/7، ومراقبة الرحلات الجوية مجاناً.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+            ]
+            ,
+            es: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi del Aeropuerto de Bodrum a Ortakent | Traslados Privados 24/7\">",
+                "<meta property=\"og:description\" content=\"¿Necesitas un taxi del Aeropuerto de Bodrum a Ortakent? APL Transfers ofrece traslados privados con precio fijo, recepción en el aeropuerto y servicio 24/7. ¡Reserva ahora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-ortakent\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi del Aeropuerto de Bodrum a Ortakent | Traslados Privados 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Reserva tu traslado del Aeropuerto de Bodrum a Ortakent con APL Transfers. Precio fijo, servicio 24/7 y cancelación gratuita.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+            ]
+            ,
+            it: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Taxi Aeroporto Bodrum Ortakent | Trasferimenti Privati 24/7\">",
+                "<meta property=\"og:description\" content=\"Cerchi un taxi dall'Aeroporto di Bodrum a Ortakent? APL Transfers offre trasferimenti privati a prezzo fisso, accoglienza in aeroporto e servizio disponibile 24/7. Prenota ora!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-ortakent\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Taxi Aeroporto Bodrum Ortakent | Trasferimenti Privati 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Prenota il tuo trasferimento dall'Aeroporto di Bodrum a Ortakent con APL Transfers. Prezzo fisso, servizio 24/7 e cancellazione gratuita.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+            ],
+
             ru: [],
             zh: []
         },
@@ -50043,77 +51067,2913 @@ Visit the <strong>Grand Bazaar</strong>, <strong>Marmaris Castle</strong>, and t
     },
     BJY: {
         "/bodrum-airport-to-bodrum-town-center": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Bodrum Airport to Bodrum Town Center Taxi Transfer</h1>
+
+<p>
+    Arriving at <strong>Bodrum Airport (BJV)</strong> and heading to the heart of Bodrum? Our private taxi transfer service ensures a smooth and comfortable ride directly to <strong>Bodrum Town Center</strong> — one of Turkey’s most vibrant coastal destinations.
+    Whether you’re staying in a boutique hotel, seafront resort, or a private villa, <strong>APL Transfers</strong> provides a hassle-free and professional transfer experience with modern vehicles and friendly, licensed drivers.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li>Meet & Greet at the <a href="#">Arrivals</a> Hall – Your driver will be waiting with a sign bearing your name.</li>
+    <li>Flight Monitoring & Free Waiting – We track your flight and adjust pickup times for delays without extra charge.</li>
+    <li>Free Child Seats – Available on request to ensure safety for your family.</li>
+    <li>Fixed & Transparent Pricing – No hidden fees or surprise costs.</li>
+    <li>24/7 Customer Support – We're always here to assist you, anytime.</li>
+    <li>Clean, Air-Conditioned Vehicles – Travel in comfort from start to finish.</li>
+    <li>Door-to-Door Service – Drop-off directly at your hotel, villa, or Airbnb in Bodrum town.</li>
+</ul>
+
+<h2>Start Your Bodrum Holiday with Comfort</h2>
+<p>
+    Bodrum Town is a lively and historic coastal center, known for its marina, nightlife, restaurants, and castle views.
+    With <strong>APL Transfers</strong>, your holiday begins the moment you land — no waiting, no confusion. Just a direct, scenic ride to the heart of the Aegean.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+    <li><strong>Distance:</strong> Approximately 36 km</li>
+    <li><strong>Duration:</strong> Around 30–40 minutes (depending on traffic)</li>
+    <li><strong>Route:</strong> Direct route via D330 highway — smooth and efficient drive</li>
+</ul>
+
+<h2>How to Book?</h2>
+<p>
+    Booking your <strong>Bodrum Airport to Bodrum Town Center</strong> transfer is fast and easy.
+    Use our secure online reservation system, select your vehicle type, and receive instant confirmation via email. Your driver will be ready and waiting when you arrive.
+</p>
+
+<h2>Additional Services</h2>
+<ul>
+    <li>Minivans for Families & Groups – Spacious and ideal for up to 8 passengers.</li>
+    <li>Business-Class Transfers – Enjoy luxury and extra comfort on arrival.</li>
+    <li>Extra Luggage Options – Available for large suitcases, strollers, or sports equipment.</li>
+</ul>
+
+<p>
+    Book your <strong>taxi transfer from Bodrum Airport to Bodrum Town Center</strong> today with <strong>APL Transfers</strong> – your trusted partner for reliable, private airport transportation along Turkey’s Aegean coast.
+</p>
+
+            `,
+            tr: `
+            <h1>Bodrum Havalimanı - Bodrum Merkez Taksi Transferi</h1>
+
+<p>
+    <strong>Bodrum Havalimanı (BJV)</strong>'na iniş yaptınız ve doğrudan Bodrum'un kalbine mi gitmek istiyorsunuz? Özel taksi transfer hizmetimiz ile <strong>Bodrum Merkez</strong>'e konforlu ve sorunsuz bir şekilde ulaşabilirsiniz.
+    Butik otelde, sahil kenarındaki bir tesiste ya da özel bir villada kalacak olun; <strong>APL Transfers</strong>, modern araçlar ve güler yüzlü, lisanslı şoförlerle profesyonel bir transfer deneyimi sunar.
+</p>
+
+<h2>Neden APL Transfers?</h2>
+<ul>
+    <li><a href="#">Varış</a> salonunda karşılama – Sürücünüz, isminizin yazılı olduğu tabela ile sizi bekliyor olacak.</li>
+    <li>Uçuş takibi & ücretsiz bekleme – Uçuş gecikmelerine göre karşılama saatini ayarlıyoruz, ek ücret yok.</li>
+    <li>Ücretsiz çocuk koltuğu – Aileler için talep üzerine sağlanır.</li>
+    <li>Sabit ve şeffaf fiyatlandırma – Gizli ücret veya sürpriz maliyet yok.</li>
+    <li>7/24 müşteri desteği – İhtiyacınız olduğunda her zaman yanınızdayız.</li>
+    <li>Temiz, klimalı araçlar – Baştan sona konforlu seyahat.</li>
+    <li>Kapıdan kapıya hizmet – Bodrum merkezdeki otel, villa veya konaklama adresinize direkt teslim.</li>
+</ul>
+
+<h2>Tatilinize Konforla Başlayın</h2>
+<p>
+    Bodrum Merkez; marinası, gece hayatı, restoranları ve tarihi kalesiyle ünlü canlı bir kıyı destinasyonudur.
+    <strong>APL Transfers</strong> ile tatiliniz daha havalimanında başlar — beklemeden, stres olmadan doğrudan Ege'nin kalbine.
+</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 36 km</li>
+    <li><strong>Süre:</strong> Trafik durumuna bağlı olarak 30–40 dakika</li>
+    <li><strong>Güzergâh:</strong> D330 karayolu üzerinden direkt, konforlu ulaşım</li>
+</ul>
+
+<h2>Nasıl Rezervasyon Yapılır?</h2>
+<p>
+    <strong>Bodrum Havalimanı - Bodrum Merkez</strong> transferinizi hızlı ve kolayca rezerve edebilirsiniz.
+    Güvenli online rezervasyon sistemimizi kullanın, araç tipini seçin ve anında e-posta onayı alın. Sürücünüz sizi varışta karşılayacaktır.
+</p>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+    <li>Aileler & Gruplar için Minivan – 8 kişiye kadar konforlu ve geniş araçlar.</li>
+    <li>Business Class Transfer – Lüks ve ekstra rahatlık isteyenler için ideal.</li>
+    <li>Ekstra bagaj alanı – Büyük valizler, bebek arabaları veya spor ekipmanları için uygundur.</li>
+</ul>
+
+<p>
+    <strong>Bodrum Havalimanı'ndan Bodrum Merkez’e taksi transferinizi</strong> bugün <strong>APL Transfers</strong> ile rezerve edin – Türkiye’nin Ege kıyısında güvenli ve konforlu özel ulaşım için en doğru tercih.
+</p>
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار بودروم إلى وسط مدينة بودروم</h1>
+
+<p>
+    وصلت إلى <strong>مطار بودروم (BJV)</strong> وتتجه إلى قلب المدينة؟ خدمتنا في النقل بسيارة الأجرة الخاصة تضمن لك رحلة مريحة وخالية من التوتر مباشرة إلى <strong>وسط مدينة بودروم</strong>، إحدى أكثر الوجهات الساحلية حيوية في تركيا.
+    سواء كنت تقيم في فندق بوتيك أو منتجع على البحر أو فيلا خاصة، <strong>APL Transfers</strong> تقدم لك تجربة احترافية ومريحة مع مركبات حديثة وسائقين مرخصين وودودين.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li>الاستقبال في <a href="#">صالة الوصول</a> – سيكون السائق في انتظارك بلافتة باسمك.</li>
+    <li>مراقبة الرحلات والانتظار المجاني – نتابع رحلتك ونعدل وقت الاستقبال في حال التأخير دون أي رسوم إضافية.</li>
+    <li>مقاعد أطفال مجانية – متوفرة عند الطلب للعائلات.</li>
+    <li>أسعار ثابتة وشفافة – لا رسوم خفية أو مفاجآت.</li>
+    <li>دعم عملاء على مدار 24/7 – فريقنا متواجد لمساعدتك في أي وقت.</li>
+    <li>مركبات نظيفة ومكيفة – لرحلة مريحة وآمنة من البداية حتى النهاية.</li>
+    <li>خدمة من الباب إلى الباب – توصيل مباشر إلى فندقك أو الفيلا أو عنوانك الخاص في بودروم.</li>
+</ul>
+
+<h2>ابدأ عطلتك في بودروم براحة تامة</h2>
+<p>
+    بودروم مدينة حيوية وتاريخية على الساحل، معروفة بمرساتها، حياتها الليلية، مطاعمها وإطلالاتها على القلعة.
+    مع <strong>APL Transfers</strong> تبدأ عطلتك من لحظة هبوطك — بدون انتظار أو حيرة، فقط رحلة مباشرة ومريحة إلى قلب بحر إيجة.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+    <li><strong>المسافة:</strong> حوالي 36 كم</li>
+    <li><strong>المدة:</strong> حوالي 30–40 دقيقة (حسب حركة المرور)</li>
+    <li><strong>المسار:</strong> عبر الطريق السريع D330 – طريق سلس ومباشر</li>
+</ul>
+
+<h2>كيفية الحجز؟</h2>
+<p>
+    حجز <strong>خدمة التاكسي من مطار بودروم إلى وسط المدينة</strong> سهل وسريع.
+    استخدم نظام الحجز الآمن عبر الإنترنت، اختر نوع السيارة، واستلم تأكيدك الفوري عبر البريد الإلكتروني. سيكون السائق في انتظارك عند الوصول.
+</p>
+
+<h2>خدمات إضافية</h2>
+<ul>
+    <li>ميني فان للعائلات والمجموعات – مريحة وتتسع لما يصل إلى 8 ركاب.</li>
+    <li>نقل بدرجة رجال الأعمال – راحة وفخامة إضافية عند الوصول.</li>
+    <li>مساحة إضافية للأمتعة – مناسبة للحقائب الكبيرة أو عربات الأطفال أو معدات الرياضة.</li>
+</ul>
+
+<p>
+    احجز <strong>خدمة التاكسي من مطار بودروم إلى وسط المدينة</strong> اليوم مع <strong>APL Transfers</strong> – شريكك الموثوق للنقل الخاص الآمن والمريح على ساحل تركيا الإيجي.
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en taxi desde el Aeropuerto de Bodrum al Centro de la Ciudad</h1>
+
+<p>
+    ¿Llegas al <strong>Aeropuerto de Bodrum (BJV)</strong> y te diriges al centro de la ciudad? Nuestro servicio de traslado privado te ofrece un viaje cómodo y sin estrés directamente al <strong>centro de Bodrum</strong>, uno de los destinos costeros más vibrantes de Turquía.
+    Ya sea que te alojes en un hotel boutique, un resort frente al mar o una villa privada, <strong>APL Transfers</strong> garantiza una experiencia profesional con vehículos modernos y conductores amables y con licencia.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+    <li>Recepción en la <a href="#">sala de llegadas</a> – El conductor te esperará con un cartel con tu nombre.</li>
+    <li>Seguimiento de vuelos y espera gratuita – Ajustamos el horario en caso de retrasos, sin cargo adicional.</li>
+    <li>Asientos para niños gratis – Disponibles a solicitud para mayor seguridad familiar.</li>
+    <li>Precios fijos y transparentes – Sin cargos ocultos ni sorpresas.</li>
+    <li>Atención al cliente 24/7 – Asistencia disponible en cualquier momento.</li>
+    <li>Vehículos limpios y con aire acondicionado – Comodidad durante todo el trayecto.</li>
+    <li>Servicio puerta a puerta – Te dejamos en tu hotel, villa o dirección privada en Bodrum.</li>
+</ul>
+
+<h2>Comienza tus vacaciones en Bodrum con comodidad</h2>
+<p>
+    El centro de Bodrum es un lugar animado y lleno de historia, conocido por su puerto, vida nocturna, restaurantes y vistas al castillo.
+    Con <strong>APL Transfers</strong>, tu experiencia vacacional comienza tan pronto como aterrizas — sin esperas, sin complicaciones.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+    <li><strong>Distancia:</strong> Aproximadamente 36 km</li>
+    <li><strong>Duración:</strong> Entre 30 y 40 minutos (dependiendo del tráfico)</li>
+    <li><strong>Ruta:</strong> Vía la carretera D330 — trayecto directo y escénico</li>
+</ul>
+
+<h2>¿Cómo reservar?</h2>
+<p>
+    Reservar tu <strong>traslado desde el Aeropuerto de Bodrum al Centro de la Ciudad</strong> es rápido y seguro.
+    Utiliza nuestro sistema de reservas online, selecciona tu vehículo y recibe confirmación inmediata por correo electrónico. Tu conductor estará esperando a tu llegada.
+</p>
+
+<h2>Servicios adicionales</h2>
+<ul>
+    <li>Minivans para familias y grupos – Espaciosas y cómodas para hasta 8 personas.</li>
+    <li>Traslados en clase ejecutiva – Lujo y comodidad extra para tu llegada.</li>
+    <li>Espacio adicional para equipaje – Ideal para maletas grandes, cochecitos o equipos deportivos.</li>
+</ul>
+
+<p>
+    Reserva hoy tu <strong>traslado en taxi desde el Aeropuerto de Bodrum al centro</strong> con <strong>APL Transfers</strong> – tu socio de confianza para un transporte privado, seguro y cómodo por la costa del Egeo en Turquía.
+</p>
+
+            `,
+            it: `
+            <h1>Trasferimento in taxi dall’Aeroporto di Bodrum al centro città</h1>
+
+<p>
+    Arrivi all’<strong>Aeroporto di Bodrum (BJV)</strong> e vuoi raggiungere il centro città? Il nostro servizio di trasferimento privato ti garantisce un viaggio comodo e senza stress direttamente nel <strong>centro di Bodrum</strong>, una delle destinazioni costiere più vivaci della Turchia.
+    Che tu stia alloggiando in un hotel boutique, in un resort sul mare o in una villa privata, <strong>APL Transfers</strong> offre un servizio professionale con veicoli moderni e autisti amichevoli e autorizzati.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+    <li>Accoglienza nella <a href="#">sala arrivi</a> – L’autista ti aspetterà con un cartello con il tuo nome.</li>
+    <li>Monitoraggio dei voli e attesa gratuita – Adattiamo l’orario in caso di ritardi, senza costi aggiuntivi.</li>
+    <li>Seggiolini per bambini gratuiti – Disponibili su richiesta per le famiglie.</li>
+    <li>Prezzi fissi e trasparenti – Nessun costo nascosto o sorpresa.</li>
+    <li>Assistenza clienti 24/7 – Sempre disponibili ad aiutarti.</li>
+    <li>Veicoli puliti e climatizzati – Viaggia comodo dall’inizio alla fine.</li>
+    <li>Servizio porta a porta – Consegna diretta al tuo hotel, villa o indirizzo privato a Bodrum.</li>
+</ul>
+
+<h2>Inizia la tua vacanza a Bodrum con comfort</h2>
+<p>
+    Il centro di Bodrum è una zona vivace e storica, famosa per il suo porto turistico, la vita notturna, i ristoranti e la vista sul castello.
+    Con <strong>APL Transfers</strong>, la tua vacanza inizia non appena atterri — senza attese né stress.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+    <li><strong>Distanza:</strong> Circa 36 km</li>
+    <li><strong>Durata:</strong> Tra 30 e 40 minuti (in base al traffico)</li>
+    <li><strong>Percorso:</strong> Strada D330 – diretto e panoramico</li>
+</ul>
+
+<h2>Come prenotare?</h2>
+<p>
+    Prenotare il tuo <strong>trasferimento dall’Aeroporto di Bodrum al centro</strong> è semplice e sicuro.
+    Usa il nostro sistema di prenotazione online, scegli il veicolo e ricevi conferma immediata via email. Il tuo autista ti aspetterà all’arrivo.
+</p>
+
+<h2>Servizi extra</h2>
+<ul>
+    <li>Minivan per famiglie e gruppi – Spaziosi, fino a 8 passeggeri.</li>
+    <li>Trasferimenti Business Class – Comfort e lusso per un’accoglienza speciale.</li>
+    <li>Spazio extra per bagagli – Perfetto per valigie grandi, passeggini o attrezzature sportive.</li>
+</ul>
+
+<p>
+    Prenota oggi il tuo <strong>trasferimento in taxi dall’Aeroporto di Bodrum al centro città</strong> con <strong>APL Transfers</strong> – la tua scelta affidabile per trasferimenti privati, sicuri e comodi lungo la costa dell’Egeo in Turchia.
+</p>
+
+            `,
+            ru: `
+            <h1>Трансфер на такси из аэропорта Бодрума в центр города</h1>
+
+<p>
+    Прилетаете в <strong>аэропорт Бодрума (BJV)</strong> и направляетесь в центр города? Наш частный трансфер гарантирует комфортную и быструю поездку прямо в <strong>центр Бодрума</strong> — один из самых оживлённых прибрежных курортов Турции.
+    Независимо от того, остановились ли вы в бутиковом отеле, курорте у моря или частной вилле, <strong>APL Transfers</strong> предлагает профессиональный сервис с современными автомобилями и вежливыми лицензированными водителями.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li>Встреча в <a href="#">зале прилёта</a> – Водитель будет ждать с табличкой с вашим именем.</li>
+    <li>Отслеживание рейса и бесплатное ожидание – Время подачи машины корректируется при задержках без дополнительной оплаты.</li>
+    <li>Бесплатные детские кресла – По запросу для семей с детьми.</li>
+    <li>Фиксированные и прозрачные цены – Никаких скрытых платежей.</li>
+    <li>Круглосуточная поддержка – Мы всегда на связи, когда вы нас нуждаетесь.</li>
+    <li>Чистые, кондиционируемые автомобили – Комфорт и надёжность на протяжении всей поездки.</li>
+    <li>Услуга от двери до двери – Прямой трансфер к вашему отелю, вилле или адресу в центре Бодрума.</li>
+</ul>
+
+<h2>Начните отпуск в Бодруме с комфорта</h2>
+<p>
+    Центр Бодрума — это оживлённый исторический район, известный своей мариной, ночной жизнью, ресторанами и видом на замок.
+    С <strong>APL Transfers</strong> ваш отдых начинается сразу после приземления — без ожиданий и лишних хлопот.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+    <li><strong>Расстояние:</strong> около 36 км</li>
+    <li><strong>Время в пути:</strong> 30–40 минут (в зависимости от трафика)</li>
+    <li><strong>Маршрут:</strong> по трассе D330 — прямой и живописный путь</li>
+</ul>
+
+<h2>Как забронировать?</h2>
+<p>
+    Забронировать <strong>трансфер из аэропорта Бодрума в центр города</strong> быстро и просто.
+    Используйте нашу безопасную систему онлайн-бронирования, выберите тип автомобиля и получите мгновенное подтверждение по электронной почте. Водитель будет ждать вас по прибытии.
+</p>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+    <li>Минивэны для семей и групп – Просторные, до 8 человек.</li>
+    <li>Трансферы бизнес-класса – Дополнительный комфорт и стиль.</li>
+    <li>Дополнительное место для багажа – Подходит для крупного багажа, детских колясок или спортивного инвентаря.</li>
+</ul>
+
+<p>
+    Забронируйте <strong>такси из аэропорта Бодрума до центра города</strong> уже сегодня с <strong>APL Transfers</strong> — вашим надежным партнёром для комфортных и безопасных поездок по побережью Эгейского моря.
+</p>
+
+            `,
+            zh: `
+            <h1>博德鲁姆机场到市中心的出租车接送服务</h1>
+
+<p>
+    抵达 <strong>博德鲁姆机场 (BJV)</strong>，前往城市中心？我们的私人出租车接送服务将为您提供从机场直达 <strong>博德鲁姆市中心</strong> 的舒适无忧之旅——这是土耳其最热闹的海滨城市之一。
+    无论您是住在精品酒店、海滨度假村还是私人别墅，<strong>APL Transfers</strong> 都将为您提供专业司机和现代化车辆的优质服务。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li>在 <a href="#">到达大厅</a> 接机 – 司机会举着写有您名字的牌子等候。</li>
+    <li>航班追踪与免费等待 – 根据延误调整接送时间，不收取额外费用。</li>
+    <li>免费儿童座椅 – 可按需为家庭旅客提供。</li>
+    <li>固定透明价格 – 无隐藏费用或额外收费。</li>
+    <li>全天候客户支持 – 任何时候都可以联系我们获取帮助。</li>
+    <li>干净、配有空调的车辆 – 确保您旅途舒适顺畅。</li>
+    <li>门到门服务 – 直接送达博德鲁姆市中心的酒店、别墅或私人地址。</li>
+</ul>
+
+<h2>舒适开启您的博德鲁姆假期</h2>
+<p>
+    博德鲁姆市中心是一个充满活力且具有历史气息的地区，以其游艇码头、夜生活、美食和城堡景观而闻名。
+    选择 <strong>APL Transfers</strong>，您的假期从落地那一刻就开始 —— 无需排队、无压力，享受直达海岸的轻松旅程。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+    <li><strong>距离：</strong> 约 36 公里</li>
+    <li><strong>时长：</strong> 约 30–40 分钟（视交通情况而定）</li>
+    <li><strong>路线：</strong> 走 D330 公路 — 直达且风景宜人</li>
+</ul>
+
+<h2>如何预订？</h2>
+<p>
+    预订 <strong>博德鲁姆机场到市中心</strong> 的接送服务快速又安全。
+    通过我们的在线预订系统选择车型并确认，您将通过电子邮件收到确认信息。司机将在机场迎接您。
+</p>
+
+<h2>附加服务</h2>
+<ul>
+    <li>适合家庭和团体的面包车 – 最多可乘坐 8 人，空间宽敞。</li>
+    <li>商务舱接送 – 为高端旅客提供额外舒适。</li>
+    <li>额外行李空间 – 适合大件行李、婴儿车或运动器材。</li>
+</ul>
+
+<p>
+    立即通过 <strong>APL Transfers</strong> 预订您的 <strong>博德鲁姆机场到市中心的出租车接送服务</strong> —— 这是您在土耳其爱琴海沿岸舒适安全出行的可信赖选择。
+</p>
+
+            `,
 
         },
         "/bodrum-airport-to-gumbet": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Bodrum Airport to Gumbet Taxi Transfer</h1>
+
+<p>
+    Arriving at <strong>Bodrum Airport (BJV)</strong> and heading to the lively resort town of <strong>Gumbet</strong>? Our private taxi transfer service offers a fast, comfortable, and hassle-free ride directly to your accommodation in Gumbet — one of the most popular holiday spots on the Bodrum Peninsula.
+    Whether you're staying in a beachfront hotel, an all-inclusive resort, or a private apartment, <strong>APL Transfers</strong> ensures a smooth journey with professional drivers and clean, modern vehicles.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li>Meet & Greet at the <a href="#">Arrivals</a> Hall – Your driver will be waiting with a sign showing your name.</li>
+    <li>Flight Monitoring & Free Waiting – We track your flight and adjust pickup time in case of delays at no extra cost.</li>
+    <li>Free Child Seats – Available upon request for families with children.</li>
+    <li>Fixed & Transparent Pricing – No hidden charges or surprise fees.</li>
+    <li>24/7 Customer Support – Reach us anytime for assistance.</li>
+    <li>Clean, Air-Conditioned Vehicles – Ensuring a comfortable ride every time.</li>
+    <li>Door-to-Door Drop-off – Directly to your hotel, villa, or private address in Gumbet.</li>
+</ul>
+
+<h2>Enjoy a Comfortable Ride to Gumbet</h2>
+<p>
+    Gumbet is well-known for its vibrant nightlife, beach activities, water sports, and close proximity to Bodrum Town. It's a perfect mix of relaxation and fun.
+    With <strong>APL Transfers</strong>, your holiday begins the moment you land — avoid the queues, avoid the stress, and enjoy a private ride to paradise.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+    <li><strong>Distance:</strong> Approximately 39 km</li>
+    <li><strong>Duration:</strong> Around 35–45 minutes (depending on traffic)</li>
+    <li><strong>Route:</strong> Via D330 highway – direct and efficient coastal road</li>
+</ul>
+
+<h2>How to Book?</h2>
+<p>
+    Booking your <strong>taxi transfer from Bodrum Airport to Gumbet</strong> is easy and secure.
+    Use our online booking system, choose your preferred vehicle, and receive instant confirmation via email. Your driver will be waiting at the airport to greet you.
+</p>
+
+<h2>Additional Services</h2>
+<ul>
+    <li>Minivans for Families & Groups – Spacious options for up to 8 passengers.</li>
+    <li>Business-Class Transfers – Premium comfort for executive or luxury travel.</li>
+    <li>Extra Luggage Capacity – Available for sports gear, baby strollers, or multiple suitcases.</li>
+</ul>
+
+<p>
+    Book your <strong>Bodrum Airport to Gumbet</strong> taxi transfer today with <strong>APL Transfers</strong> – the trusted name for reliable, safe, and comfortable transportation on the Aegean coast of Turkey.
+</p>
+
+            `,
+            tr: `
+            <h1>Bodrum Havalimanı - Gümbet Taksi Transferi</h1>
+
+<p>
+    <strong>Bodrum Havalimanı (BJV)</strong>'na iniş yaptınız ve hareketli tatil beldesi <strong>Gümbet</strong>'e mi gidiyorsunuz? Özel taksi transfer hizmetimiz, Bodrum Yarımadası’nın en popüler destinasyonlarından biri olan Gümbet'e hızlı, konforlu ve sorunsuz bir ulaşım sunar.
+    Sahil kenarındaki oteller, her şey dahil tatil köyleri ya da özel dairelerde konaklayanlar için <strong>APL Transfers</strong>, profesyonel şoförler ve modern, temiz araçlarla güvenilir bir yolculuk sağlar.
+</p>
+
+<h2>Neden APL Transfers?</h2>
+<ul>
+    <li><a href="#">Varış</a> salonunda karşılama – Sürücünüz, isminizin yazılı olduğu tabela ile sizi bekliyor olacak.</li>
+    <li>Uçuş takibi & ücretsiz bekleme – Uçuşunuzda gecikme olursa ücret yansıtılmadan karşılama süresi ayarlanır.</li>
+    <li>Ücretsiz çocuk koltuğu – Talep üzerine ailelere sağlanır.</li>
+    <li>Sabit ve şeffaf fiyatlandırma – Gizli ücret ya da sürpriz yok.</li>
+    <li>7/24 müşteri desteği – İstediğiniz an ulaşabilirsiniz.</li>
+    <li>Temiz ve klimalı araçlar – Yolculuğunuzun her dakikası konforlu geçer.</li>
+    <li>Kapıdan kapıya bırakma – Gümbet’teki otelinize, villanıza ya da özel adresinize doğrudan ulaşım.</li>
+</ul>
+
+<h2>Gümbet'e Konforlu Bir Yolculuk Yapın</h2>
+<p>
+    Gümbet; canlı gece hayatı, plaj aktiviteleri, su sporları ve Bodrum merkeze yakınlığıyla tanınır. Hem dinlenmek hem eğlenmek isteyenler için ideal bir yerdir.
+    <strong>APL Transfers</strong> ile tatiliniz daha havalimanında başlar — kuyruk yok, stres yok, sadece keyifli bir yolculuk!
+</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 39 km</li>
+    <li><strong>Süre:</strong> 35–45 dakika (trafik durumuna bağlı olarak)</li>
+    <li><strong>Güzergâh:</strong> D330 sahil yolu üzerinden direkt ve verimli bir rota</li>
+</ul>
+
+<h2>Nasıl Rezervasyon Yapılır?</h2>
+<p>
+    <strong>Bodrum Havalimanı - Gümbet</strong> taksi transferinizi güvenle ve kolayca rezerve edebilirsiniz.
+    Online rezervasyon sistemimizi kullanarak aracınızı seçin ve anında e-posta ile onay alın. Sürücünüz havalimanında sizi karşılayacaktır.
+</p>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+    <li>Aileler ve Gruplar için Minivan – 8 kişiye kadar geniş ve konforlu seçenekler.</li>
+    <li>Business Class Transfer – Lüks ve konforlu yolculuklar için özel hizmet.</li>
+    <li>Ekstra Bagaj Alanı – Spor ekipmanları, bebek arabaları veya büyük bavullar için idealdir.</li>
+</ul>
+
+<p>
+    <strong>Bodrum Havalimanı - Gümbet</strong> taksi transferinizi bugün <strong>APL Transfers</strong> ile rezerve edin – Türkiye’nin Ege kıyısında güvenli, konforlu ve özel ulaşımın güvenilir ismi.
+</p>
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار بودروم إلى غمبت</h1>
+
+<p>
+    وصلت إلى <strong>مطار بودروم (BJV)</strong> وتتجه إلى بلدة <strong>غمبت</strong> السياحية النابضة بالحياة؟ نقدم لك خدمة نقل خاصة ومريحة وسريعة إلى مكان إقامتك في غمبت — إحدى أشهر الوجهات في شبه جزيرة بودروم.
+    سواء كنت تقيم في فندق على الشاطئ أو منتجع شامل أو شقة خاصة، <strong>APL Transfers</strong> توفر لك رحلة مريحة مع سائقين محترفين ومركبات حديثة ونظيفة.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li>الاستقبال في <a href="#">صالة الوصول</a> – السائق في انتظارك بلافتة باسمك.</li>
+    <li>تتبع الرحلات والانتظار المجاني – نضبط وقت الاستقبال في حال التأخير دون رسوم إضافية.</li>
+    <li>مقاعد أطفال مجانية – متوفرة عند الطلب للعائلات.</li>
+    <li>أسعار ثابتة وشفافة – لا رسوم خفية أو مفاجآت.</li>
+    <li>دعم العملاء 24/7 – جاهزون لمساعدتك في أي وقت.</li>
+    <li>مركبات نظيفة ومكيفة – لضمان الراحة الكاملة أثناء الرحلة.</li>
+    <li>خدمة من الباب إلى الباب – توصيل مباشر إلى الفندق أو الفيلا أو العنوان الخاص في غمبت.</li>
+</ul>
+
+<h2>استمتع برحلة مريحة إلى غمبت</h2>
+<p>
+    تُعرف غمبت بالحياة الليلية النشطة والأنشطة الشاطئية والرياضات المائية وقربها من وسط بودروم. إنها مزيج مثالي من الاسترخاء والمرح.
+    مع <strong>APL Transfers</strong> تبدأ عطلتك منذ لحظة وصولك — بدون طوابير، بدون توتر، فقط راحة وخصوصية.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+    <li><strong>المسافة:</strong> حوالي 39 كم</li>
+    <li><strong>المدة:</strong> من 35 إلى 45 دقيقة (حسب حركة المرور)</li>
+    <li><strong>المسار:</strong> عبر الطريق الساحلي D330 – طريق مباشر وفعال</li>
+</ul>
+
+<h2>كيفية الحجز؟</h2>
+<p>
+    حجز <strong>خدمة التاكسي من مطار بودروم إلى غمبت</strong> سهل وآمن.
+    استخدم نظام الحجز الإلكتروني الخاص بنا، واختر نوع السيارة، وستتلقى تأكيدًا فوريًا عبر البريد الإلكتروني. السائق سيكون في انتظارك عند الوصول.
+</p>
+
+<h2>خدمات إضافية</h2>
+<ul>
+    <li>ميني فان للعائلات والمجموعات – تتسع لما يصل إلى 8 ركاب.</li>
+    <li>خدمة درجة رجال الأعمال – راحة وفخامة إضافية للرحلات التنفيذية.</li>
+    <li>مساحة إضافية للأمتعة – مثالية للمعدات الرياضية أو عربات الأطفال أو الحقائب الكبيرة.</li>
+</ul>
+
+<p>
+    احجز <strong>خدمة التاكسي من مطار بودروم إلى غمبت</strong> اليوم مع <strong>APL Transfers</strong> – الخيار الموثوق للنقل الخاص الآمن والمريح على ساحل بحر إيجة في تركيا.
+</p>
+
+            `,
+            it: `
+            <h1>Trasferimento in taxi dall’Aeroporto di Bodrum a Gumbet</h1>
+
+<p>
+    Atterri all’<strong>Aeroporto di Bodrum (BJV)</strong> e vuoi raggiungere la vivace località di <strong>Gumbet</strong>? Il nostro servizio di trasferimento privato offre un viaggio rapido, confortevole e senza stress direttamente al tuo alloggio a Gumbet – una delle destinazioni più popolari della penisola di Bodrum.
+    Che tu soggiorni in un hotel sul mare, in un resort all-inclusive o in un appartamento privato, <strong>APL Transfers</strong> garantisce un trasferimento sicuro con autisti professionali e veicoli moderni e puliti.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+    <li>Accoglienza nella <a href="#">sala arrivi</a> – L'autista ti aspetterà con un cartello con il tuo nome.</li>
+    <li>Monitoraggio del volo e attesa gratuita – In caso di ritardo, il ritiro verrà adeguato senza costi aggiuntivi.</li>
+    <li>Seggiolini per bambini gratuiti – Disponibili su richiesta per le famiglie.</li>
+    <li>Prezzi fissi e trasparenti – Nessun costo nascosto o sorprese.</li>
+    <li>Assistenza clienti 24/7 – Sempre disponibili per qualsiasi esigenza.</li>
+    <li>Veicoli puliti e climatizzati – Comfort garantito per tutta la durata del viaggio.</li>
+    <li>Servizio porta a porta – Trasferimento diretto al tuo hotel, villa o indirizzo privato a Gumbet.</li>
+</ul>
+
+<h2>Goditi un viaggio confortevole verso Gumbet</h2>
+<p>
+    Gumbet è rinomata per la sua vita notturna vivace, le attività sulla spiaggia, gli sport acquatici e la vicinanza al centro di Bodrum. È la combinazione perfetta tra relax e divertimento.
+    Con <strong>APL Transfers</strong> la tua vacanza inizia dal momento in cui atterri – niente code, niente stress, solo comfort.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+    <li><strong>Distanza:</strong> Circa 39 km</li>
+    <li><strong>Durata:</strong> Tra i 35 e i 45 minuti (a seconda del traffico)</li>
+    <li><strong>Percorso:</strong> Strada D330 – diretto e panoramico</li>
+</ul>
+
+<h2>Come prenotare?</h2>
+<p>
+    Prenotare il tuo <strong>trasferimento in taxi dall’Aeroporto di Bodrum a Gumbet</strong> è semplice e sicuro.
+    Usa il nostro sistema di prenotazione online, scegli il veicolo e ricevi conferma immediata via email. Il tuo autista ti accoglierà all’arrivo.
+</p>
+
+<h2>Servizi aggiuntivi</h2>
+<ul>
+    <li>Minivan per famiglie e gruppi – Comodi e spaziosi, fino a 8 passeggeri.</li>
+    <li>Trasferimenti Business Class – Per un viaggio più lussuoso ed esclusivo.</li>
+    <li>Spazio extra per i bagagli – Perfetto per attrezzatura sportiva, passeggini o valigie extra.</li>
+</ul>
+
+<p>
+    Prenota oggi stesso il tuo <strong>trasferimento in taxi da Bodrum a Gumbet</strong> con <strong>APL Transfers</strong> – la scelta affidabile per trasferimenti privati, sicuri e confortevoli sulla costa dell’Egeo.
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en taxi desde el Aeropuerto de Bodrum a Gumbet</h1>
+
+<p>
+    ¿Llegas al <strong>Aeropuerto de Bodrum (BJV)</strong> y te diriges a la animada localidad de <strong>Gumbet</strong>? Nuestro servicio de traslado privado te ofrece un viaje rápido, cómodo y sin complicaciones directamente hasta tu alojamiento en Gumbet — uno de los destinos más populares de la península de Bodrum.
+    Ya sea que te hospedes en un hotel frente al mar, un resort todo incluido o un apartamento privado, <strong>APL Transfers</strong> te garantiza un traslado seguro con conductores profesionales y vehículos modernos y limpios.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+    <li>Recepción en la <a href="#">sala de llegadas</a> – Tu conductor te esperará con un cartel con tu nombre.</li>
+    <li>Seguimiento de vuelos y espera gratuita – Ajustamos la recogida en caso de retrasos, sin coste adicional.</li>
+    <li>Asientos para niños gratuitos – Disponibles a solicitud para familias.</li>
+    <li>Precios fijos y transparentes – Sin cargos ocultos ni sorpresas.</li>
+    <li>Atención al cliente 24/7 – Siempre disponibles para ayudarte.</li>
+    <li>Vehículos limpios y con aire acondicionado – Comodidad garantizada en todo momento.</li>
+    <li>Servicio puerta a puerta – Te dejamos en tu hotel, villa o dirección privada en Gumbet.</li>
+</ul>
+
+<h2>Disfruta de un viaje cómodo hacia Gumbet</h2>
+<p>
+    Gumbet es famosa por su animada vida nocturna, sus playas, deportes acuáticos y su cercanía con el centro de Bodrum. Es el equilibrio perfecto entre relajación y diversión.
+    Con <strong>APL Transfers</strong>, tus vacaciones comienzan desde el momento en que aterrizas — sin filas, sin estrés, solo comodidad.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+    <li><strong>Distancia:</strong> Aproximadamente 39 km</li>
+    <li><strong>Duración:</strong> Entre 35 y 45 minutos (dependiendo del tráfico)</li>
+    <li><strong>Ruta:</strong> Por la carretera D330 – directa y panorámica</li>
+</ul>
+
+<h2>¿Cómo reservar?</h2>
+<p>
+    Reservar tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Gumbet</strong> es rápido y seguro.
+    Utiliza nuestro sistema de reservas online, elige tu vehículo y recibe confirmación inmediata por correo electrónico. Tu conductor estará esperándote a la llegada.
+</p>
+
+<h2>Servicios adicionales</h2>
+<ul>
+    <li>Minivans para familias y grupos – Espaciosas y cómodas para hasta 8 personas.</li>
+    <li>Traslados en clase ejecutiva – Máximo confort para viajeros de lujo o negocios.</li>
+    <li>Espacio extra para equipaje – Ideal para maletas grandes, cochecitos o equipamiento deportivo.</li>
+</ul>
+
+<p>
+    Reserva hoy tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Gumbet</strong> con <strong>APL Transfers</strong> – tu opción confiable para transporte privado, seguro y cómodo en la costa del Egeo en Turquía.
+</p>
+
+            `,
+            ru: `
+            <h1>Трансфер на такси из аэропорта Бодрума в Гюмбет</h1>
+
+<p>
+    Прилетаете в <strong>аэропорт Бодрума (BJV)</strong> и направляетесь в оживлённый курорт <strong>Гюмбет</strong>? Мы предлагаем частный трансфер, который обеспечит вам быструю, комфортную и беззаботную поездку прямо к месту проживания — в один из самых популярных районов Бодрумского полуострова.
+    Независимо от того, остановились ли вы в отеле у моря, в комплексе "всё включено" или в частных апартаментах, <strong>APL Transfers</strong> предоставит вам надёжную поездку с профессиональными водителями и чистыми, современными автомобилями.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li>Встреча в <a href="#">зале прилёта</a> – водитель будет ожидать с табличкой с вашим именем.</li>
+    <li>Отслеживание рейса и бесплатное ожидание – при задержке рейса время подачи машины изменяется без доплаты.</li>
+    <li>Бесплатные детские кресла – по запросу для семей с детьми.</li>
+    <li>Фиксированная и прозрачная стоимость – никаких скрытых платежей.</li>
+    <li>Круглосуточная поддержка – помощь в любое время.</li>
+    <li>Чистые и кондиционируемые автомобили – комфорт на протяжении всей поездки.</li>
+    <li>Доставка "от двери до двери" – прямо к вашему отелю, вилле или адресу в Гюмбете.</li>
+</ul>
+
+<h2>Наслаждайтесь комфортной поездкой в Гюмбет</h2>
+<p>
+    Гюмбет славится активной ночной жизнью, пляжным отдыхом, водными видами спорта и близостью к центру Бодрума. Это идеальное место для сочетания отдыха и развлечений.
+    С <strong>APL Transfers</strong> ваш отпуск начинается с первого шага после посадки — без очередей и стресса.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+    <li><strong>Расстояние:</strong> около 39 км</li>
+    <li><strong>Время в пути:</strong> 35–45 минут (в зависимости от трафика)</li>
+    <li><strong>Маршрут:</strong> по трассе D330 — прямой и живописный путь</li>
+</ul>
+
+<h2>Как забронировать?</h2>
+<p>
+    Забронировать <strong>трансфер из аэропорта Бодрума в Гюмбет</strong> легко и безопасно.
+    Просто воспользуйтесь нашей системой онлайн-бронирования, выберите автомобиль и получите мгновенное подтверждение по электронной почте. Водитель встретит вас по прибытии.
+</p>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+    <li>Минивэны для семей и групп – вместительные варианты до 8 человек.</li>
+    <li>Трансферы бизнес-класса – дополнительный комфорт и стиль.</li>
+    <li>Дополнительное место для багажа – идеально для спортивного снаряжения или больших чемоданов.</li>
+</ul>
+
+<p>
+    Забронируйте свой <strong>трансфер на такси из аэропорта Бодрума в Гюмбет</strong> уже сегодня с <strong>APL Transfers</strong> – вашим надежным партнёром по безопасным и комфортным поездкам на Эгейском побережье Турции.
+</p>
+
+            `,
+            zh: `
+            <h1>博德鲁姆机场到贡贝特的出租车接送服务</h1>
+
+<p>
+    抵达 <strong>博德鲁姆机场 (BJV)</strong>，前往热闹的度假胜地 <strong>贡贝特（Gumbet）</strong>？我们的私人接送服务为您提供快速、舒适且无忧的直达服务，将您送至贡贝特的住宿地点 — 土耳其博德鲁姆半岛最受欢迎的度假区之一。
+    无论您入住的是海滨酒店、全包式度假村或私人公寓，<strong>APL Transfers</strong> 都能为您提供现代、干净的车辆和专业司机。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li>在 <a href="#">到达大厅</a> 迎接 – 司机将举着写有您名字的牌子等候。</li>
+    <li>航班监控与免费等待 – 如有航班延误，我们会自动调整接机时间，不额外收费。</li>
+    <li>免费儿童座椅 – 应要求提供，适合家庭出行。</li>
+    <li>固定价格，透明费用 – 无隐藏费用或意外支出。</li>
+    <li>全天候客户支持 – 任何时间皆可联系客服团队。</li>
+    <li>清洁、空调车辆 – 为您提供舒适顺畅的乘车体验。</li>
+    <li>门到门服务 – 直接送达贡贝特的酒店、别墅或私人住址。</li>
+</ul>
+
+<h2>享受前往贡贝特的舒适旅程</h2>
+<p>
+    贡贝特以其丰富的夜生活、海滩活动、水上运动和靠近博德鲁姆市中心而闻名，是放松与娱乐的完美结合之地。
+    通过 <strong>APL Transfers</strong>，您的假期从落地那一刻就开始了 — 无需排队、无压力、无烦恼。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+    <li><strong>距离：</strong> 约 39 公里</li>
+    <li><strong>时长：</strong> 大约 35–45 分钟（视交通情况而定）</li>
+    <li><strong>路线：</strong> 沿 D330 海岸公路，路线直达且风景优美</li>
+</ul>
+
+<h2>如何预订？</h2>
+<p>
+    预订 <strong>博德鲁姆机场到贡贝特</strong> 的出租车接送服务既简单又安全。
+    使用我们的在线预订系统选择车型并确认订单，您将立即通过电子邮件收到确认信息，司机将在您到达时迎接您。
+</p>
+
+<h2>附加服务</h2>
+<ul>
+    <li>适合家庭和团体的面包车 – 最多可容纳 8 位乘客。</li>
+    <li>商务舱接送 – 为高端旅行者提供额外舒适。</li>
+    <li>额外行李空间 – 适合携带体育器材、婴儿车或多个行李。</li>
+</ul>
+
+<p>
+    立即通过 <strong>APL Transfers</strong> 预订您的 <strong>博德鲁姆机场到贡贝特</strong> 出租车接送服务 – 您在土耳其爱琴海岸线值得信赖的安全舒适出行选择。
+</p>
+
+            `,
         },
         "/bodrum-airport-to-bitez": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Bodrum Airport to Bitez Taxi Transfer</h1>
+
+<p>
+    Flying into <strong>Bodrum Airport (BJV)</strong> and heading to the peaceful beach town of <strong>Bitez</strong>? Our private taxi transfer service provides a smooth, direct, and stress-free journey from the airport to your hotel, villa, or apartment in Bitez — one of the most charming spots on the Bodrum Peninsula.
+</p>
+
+<p>
+    Whether you're visiting for relaxation, windsurfing, or a quiet escape near the sea, <strong>APL Transfers</strong> ensures professional service with clean, modern vehicles and friendly, licensed drivers.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li>Meet & Greet at the <a href="#">Arrivals</a> Hall – Your driver will greet you with a sign bearing your name.</li>
+    <li>Flight Tracking & Free Waiting – We monitor your flight and adjust pickup times for delays with no extra charge.</li>
+    <li>Free Child Seats – Available upon request for families.</li>
+    <li>Fixed Prices – No hidden costs or surprise fees.</li>
+    <li>24/7 Customer Support – We're always here to help.</li>
+    <li>Clean, Air-Conditioned Vehicles – Travel in comfort every time.</li>
+    <li>Door-to-Door Service – Direct drop-off at your accommodation in Bitez.</li>
+</ul>
+
+<h2>Travel Comfortably to Beautiful Bitez</h2>
+<p>
+    Bitez is known for its tranquil beach, lush nature, and crystal-clear waters. It's perfect for families, couples, and anyone seeking calm away from the crowds.
+    With <strong>APL Transfers</strong>, you’ll enjoy a relaxing start to your vacation without the stress of navigating taxis or public transport.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+    <li><strong>Distance:</strong> Approximately 41 km</li>
+    <li><strong>Duration:</strong> Around 35–45 minutes (depending on traffic)</li>
+    <li><strong>Route:</strong> Via D330 highway – a direct and scenic coastal drive</li>
+</ul>
+
+<h2>How to Book?</h2>
+<p>
+    Booking your <strong>taxi transfer from Bodrum Airport to Bitez</strong> is quick and secure.
+    Use our online booking system to select your vehicle, confirm the price, and receive instant confirmation. Your driver will be ready to welcome you upon arrival.
+</p>
+
+<h2>Additional Services</h2>
+<ul>
+    <li>Minivans for Groups – Ideal for up to 8 passengers.</li>
+    <li>Business-Class Transfers – For added comfort and executive travel.</li>
+    <li>Extra Luggage Capacity – Perfect for surfboards, baby strollers, or large suitcases.</li>
+</ul>
+
+<p>
+    Book your <strong>Bodrum Airport to Bitez</strong> taxi transfer today with <strong>APL Transfers</strong> – your trusted partner for private, safe, and reliable airport transport in Turkey.
+</p>
+
+            
+            `,
+            tr: `
+            <h1>Bodrum Havalimanı - Bitez Taksi Transferi</h1>
+
+<p>
+    <strong>Bodrum Havalimanı (BJV)</strong>'na iniş yaptınız ve huzurlu sahil kasabası <strong>Bitez</strong>'e mi gidiyorsunuz? Özel taksi transfer hizmetimiz sayesinde, havalimanından Bitez’teki otelinize, villanıza veya dairenize doğrudan ve stressiz bir yolculuk yapabilirsiniz — Bodrum Yarımadası’nın en huzurlu bölgelerinden biri.
+</p>
+
+<p>
+    Dinlenmek, rüzgar sörfü yapmak ya da deniz kenarında sakin bir kaçamak için Bitez’i ziyaret ediyor olun, <strong>APL Transfers</strong> size temiz, modern araçlarla ve güler yüzlü, lisanslı şoförlerle profesyonel hizmet sunar.
+</p>
+
+<h2>Neden APL Transfers?</h2>
+<ul>
+    <li><a href="#">Varış</a> salonunda karşılama – Sürücünüz, isminizin yazılı olduğu tabela ile sizi karşılayacak.</li>
+    <li>Uçuş takibi & ücretsiz bekleme – Uçuşunuz gecikirse, ek ücret olmadan saat ayarlaması yapılır.</li>
+    <li>Ücretsiz çocuk koltuğu – Talep üzerine aileler için temin edilir.</li>
+    <li>Sabit fiyatlar – Gizli ücret veya sürpriz masraf yoktur.</li>
+    <li>7/24 Müşteri Desteği – Her zaman yardım için buradayız.</li>
+    <li>Temiz, klimalı araçlar – Yol boyunca konforlu bir deneyim sunar.</li>
+    <li>Kapıdan Kapıya Hizmet – Bitez’teki konaklama adresinize doğrudan bırakma.</li>
+</ul>
+
+<h2>Güzel Bitez’e Konforlu Ulaşım</h2>
+<p>
+    Bitez, sakin plajı, yemyeşil doğası ve berrak sularıyla tanınır. Aileler, çiftler ve kalabalıktan uzak huzur arayanlar için mükemmel bir tercihtir.
+    <strong>APL Transfers</strong> ile tatilinize stresten uzak, konforlu bir başlangıç yaparsınız.
+</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 41 km</li>
+    <li><strong>Süre:</strong> 35–45 dakika (trafik durumuna göre değişebilir)</li>
+    <li><strong>Güzergâh:</strong> D330 karayolu üzerinden direkt ve manzaralı bir yol</li>
+</ul>
+
+<h2>Nasıl Rezervasyon Yapılır?</h2>
+<p>
+    <strong>Bodrum Havalimanı - Bitez</strong> taksi transferinizi hızlı ve güvenli bir şekilde rezerve edebilirsiniz.
+    Online rezervasyon sistemimizi kullanarak aracınızı seçin, fiyatı onaylayın ve anında onay alın. Sürücünüz havalimanında sizi karşılamaya hazır olacaktır.
+</p>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+    <li>Gruplar için Minivan – 8 kişiye kadar idealdir.</li>
+    <li>Business Class Transfer – Daha fazla konfor ve kurumsal seyahatler için.</li>
+    <li>Ekstra Bagaj Alanı – Sörf tahtası, bebek arabası veya büyük bavullar için uygundur.</li>
+</ul>
+
+<p>
+    <strong>Bodrum Havalimanı - Bitez</strong> taksi transferinizi bugün <strong>APL Transfers</strong> ile rezerve edin – Türkiye'de özel, güvenli ve güvenilir havalimanı transferinin doğru adresi.
+</p>
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار بودروم إلى بيتز</h1>
+
+<p>
+    وصلت إلى <strong>مطار بودروم (BJV)</strong> وتتجه إلى بلدة <strong>بيتز</strong> الساحلية الهادئة؟ يوفر لك نقلنا الخاص بالتاكسي رحلة سلسة ومباشرة وخالية من المتاعب من المطار إلى فندقك أو فيلتك أو شقتك في بيتز — إحدى أجمل مناطق شبه جزيرة بودروم.
+</p>
+
+<p>
+    سواء كنت تزور بيتز للاسترخاء أو لممارسة ركوب الأمواج أو لقضاء عطلة هادئة على شاطئ البحر، فإن <strong>APL Transfers</strong> يقدم لك خدمة احترافية مع سيارات نظيفة وحديثة وسائقين مرخصين ودودين.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li>الاستقبال في <a href="#">صالة الوصول</a> – سيكون السائق في انتظارك بلافتة باسمك.</li>
+    <li>مراقبة الرحلات والانتظار المجاني – نضبط وقت الاستقبال في حال التأخير دون رسوم إضافية.</li>
+    <li>مقاعد أطفال مجانية – متوفرة عند الطلب للعائلات.</li>
+    <li>أسعار ثابتة وشفافة – لا رسوم خفية أو مفاجآت.</li>
+    <li>دعم عملاء 24/7 – جاهزون دائمًا لمساعدتك.</li>
+    <li>سيارات نظيفة ومكيفة – لضمان الراحة في جميع الأوقات.</li>
+    <li>خدمة من الباب إلى الباب – توصيل مباشر إلى مكان إقامتك في بيتز.</li>
+</ul>
+
+<h2>رحلة مريحة إلى بيتز الجميلة</h2>
+<p>
+    تُعرف بيتز بشاطئها الهادئ وطبيعتها الخضراء ومياهها الصافية، وهي مثالية للعائلات والأزواج وكل من يبحث عن الهدوء بعيدًا عن الزحام.
+    مع <strong>APL Transfers</strong> تبدأ عطلتك بأقصى درجات الراحة ومن دون أي توتر.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+    <li><strong>المسافة:</strong> حوالي 41 كم</li>
+    <li><strong>المدة:</strong> حوالي 35 إلى 45 دقيقة (حسب حركة المرور)</li>
+    <li><strong>المسار:</strong> عبر طريق D330 الساحلي – مباشر وذو مناظر جميلة</li>
+</ul>
+
+<h2>كيفية الحجز؟</h2>
+<p>
+    حجز <strong>خدمة التاكسي من مطار بودروم إلى بيتز</strong> سهل وآمن.
+    استخدم نظام الحجز الإلكتروني الخاص بنا، اختر السيارة المناسبة، واحصل على تأكيد فوري عبر البريد الإلكتروني. سيكون السائق بانتظارك عند الوصول.
+</p>
+
+<h2>خدمات إضافية</h2>
+<ul>
+    <li>ميني فان للمجموعات – مثالية حتى 8 ركاب.</li>
+    <li>خدمة درجة رجال الأعمال – لمزيد من الراحة والرحلات التنفيذية.</li>
+    <li>مساحة إضافية للأمتعة – مناسبة لألواح التزلج أو عربات الأطفال أو الحقائب الكبيرة.</li>
+</ul>
+
+<p>
+    احجز الآن <strong>خدمة التاكسي من مطار بودروم إلى بيتز</strong> مع <strong>APL Transfers</strong> – خيارك الموثوق للنقل الخاص والمريح في تركيا.
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en taxi desde el Aeropuerto de Bodrum a Bitez</h1>
+
+<p>
+    ¿Llegas al <strong>Aeropuerto de Bodrum (BJV)</strong> y te diriges al tranquilo pueblo costero de <strong>Bitez</strong>? Nuestro servicio de traslado privado en taxi ofrece un viaje cómodo, directo y sin complicaciones desde el aeropuerto hasta tu hotel, villa o apartamento en Bitez — uno de los lugares más encantadores de la península de Bodrum.
+</p>
+
+<p>
+    Ya sea que viajes para relajarte, practicar windsurf o simplemente disfrutar del mar en un entorno tranquilo, <strong>APL Transfers</strong> te garantiza un servicio profesional con vehículos modernos, limpios y conductores licenciados y amables.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+    <li>Recepción en la <a href="#">sala de llegadas</a> – Tu conductor te esperará con un cartel con tu nombre.</li>
+    <li>Seguimiento de vuelos y espera gratuita – Ajustamos el horario en caso de retrasos sin coste adicional.</li>
+    <li>Asientos infantiles gratuitos – Disponibles a solicitud para familias.</li>
+    <li>Precios fijos y transparentes – Sin cargos ocultos ni sorpresas.</li>
+    <li>Atención al cliente 24/7 – Siempre disponibles para ayudarte.</li>
+    <li>Vehículos limpios y con aire acondicionado – Para un viaje cómodo en todo momento.</li>
+    <li>Servicio puerta a puerta – Te llevamos directamente a tu alojamiento en Bitez.</li>
+</ul>
+
+<h2>Viaja cómodamente a la hermosa Bitez</h2>
+<p>
+    Bitez es conocida por su playa tranquila, vegetación exuberante y aguas cristalinas. Es perfecta para familias, parejas o quienes buscan escapar del bullicio.
+    Con <strong>APL Transfers</strong>, tus vacaciones comienzan con comodidad desde el primer momento.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+    <li><strong>Distancia:</strong> Aproximadamente 41 km</li>
+    <li><strong>Duración:</strong> Entre 35 y 45 minutos (dependiendo del tráfico)</li>
+    <li><strong>Ruta:</strong> Por la carretera D330 – directa y panorámica</li>
+</ul>
+
+<h2>¿Cómo reservar?</h2>
+<p>
+    Reservar tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Bitez</strong> es rápido y seguro.
+    Utiliza nuestro sistema de reservas online, elige tu vehículo y recibe confirmación inmediata por correo electrónico. Tu conductor estará esperándote al llegar.
+</p>
+
+<h2>Servicios adicionales</h2>
+<ul>
+    <li>Minivans para grupos – Ideales para hasta 8 personas.</li>
+    <li>Traslados en clase ejecutiva – Máxima comodidad para viajes de lujo o negocios.</li>
+    <li>Espacio adicional para equipaje – Perfecto para tablas de surf, cochecitos o maletas grandes.</li>
+</ul>
+
+<p>
+    Reserva hoy tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Bitez</strong> con <strong>APL Transfers</strong> – tu opción confiable para transporte privado, seguro y cómodo en Turquía.
+</p>
+
+            `,
+            it: `
+            <h1>Trasferimento in taxi dall’Aeroporto di Bodrum a Bitez</h1>
+
+<p>
+    Arrivi all’<strong>Aeroporto di Bodrum (BJV)</strong> e ti stai dirigendo verso la tranquilla località balneare di <strong>Bitez</strong>? Il nostro servizio di trasferimento privato in taxi offre un viaggio diretto, comodo e senza stress fino al tuo hotel, villa o appartamento a Bitez — una delle destinazioni più affascinanti della penisola di Bodrum.
+</p>
+
+<p>
+    Che tu venga per rilassarti, fare windsurf o goderti una vacanza tranquilla sul mare, <strong>APL Transfers</strong> ti garantisce un servizio professionale con veicoli moderni, puliti e autisti amichevoli e autorizzati.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+    <li>Accoglienza nella <a href="#">sala arrivi</a> – L’autista ti accoglierà con un cartello con il tuo nome.</li>
+    <li>Monitoraggio del volo e attesa gratuita – Adattiamo l’orario in caso di ritardi, senza costi aggiuntivi.</li>
+    <li>Seggiolini per bambini gratuiti – Disponibili su richiesta per le famiglie.</li>
+    <li>Prezzi fissi e trasparenti – Nessun costo nascosto o sorpresa.</li>
+    <li>Assistenza clienti 24/7 – Siamo sempre disponibili per aiutarti.</li>
+    <li>Veicoli puliti e climatizzati – Viaggia sempre in comodità.</li>
+    <li>Servizio porta a porta – Consegna diretta al tuo alloggio a Bitez.</li>
+</ul>
+
+<h2>Viaggia comodamente verso la splendida Bitez</h2>
+<p>
+    Bitez è famosa per la sua spiaggia tranquilla, la natura rigogliosa e le acque cristalline. È la scelta ideale per famiglie, coppie e per chi desidera allontanarsi dalla folla.
+    Con <strong>APL Transfers</strong>, la tua vacanza inizia nel modo più rilassato possibile, fin dall’atterraggio.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+    <li><strong>Distanza:</strong> Circa 41 km</li>
+    <li><strong>Durata:</strong> 35–45 minuti (a seconda del traffico)</li>
+    <li><strong>Percorso:</strong> Autostrada D330 – percorso diretto e panoramico</li>
+</ul>
+
+<h2>Come prenotare?</h2>
+<p>
+    Prenotare il tuo <strong>trasferimento in taxi dall’Aeroporto di Bodrum a Bitez</strong> è semplice e sicuro.
+    Utilizza il nostro sistema di prenotazione online, scegli il veicolo e ricevi conferma immediata via email. Il tuo autista sarà lì ad accoglierti all’arrivo.
+</p>
+
+<h2>Servizi aggiuntivi</h2>
+<ul>
+    <li>Minivan per gruppi – Ideali fino a 8 passeggeri.</li>
+    <li>Trasferimenti business class – Per viaggiatori che cercano maggiore comfort ed esclusività.</li>
+    <li>Spazio extra per i bagagli – Perfetto per tavole da surf, passeggini o bagagli voluminosi.</li>
+</ul>
+
+<p>
+    Prenota oggi il tuo <strong>trasferimento in taxi da Bodrum a Bitez</strong> con <strong>APL Transfers</strong> – il tuo partner di fiducia per trasferimenti aeroportuali privati, sicuri e affidabili in Turchia.
+</p>
+
+            `,
+            ru: `
+            <h1>Такси-трансфер из аэропорта Бодрума в Битез</h1>
+
+<p>
+    Прилетаете в <strong>аэропорт Бодрума (BJV)</strong> и направляетесь в спокойный курортный посёлок <strong>Битез</strong>? Наша услуга частного трансфера на такси предлагает прямую, комфортную и беспроблемную поездку от аэропорта до вашего отеля, виллы или апартаментов в Битезе — одном из самых живописных уголков Бодрумского полуострова.
+</p>
+
+<p>
+    Хотите расслабиться, покататься на виндсёрфинге или просто насладиться спокойным отдыхом у моря? <strong>APL Transfers</strong> обеспечит профессиональный сервис с чистыми, современными автомобилями и дружелюбными, лицензированными водителями.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li>Встреча в <a href="#">зале прилёта</a> – водитель встретит вас с табличкой с вашим именем.</li>
+    <li>Отслеживание рейса и бесплатное ожидание – в случае задержки время подачи будет изменено без дополнительной оплаты.</li>
+    <li>Бесплатные детские кресла – предоставляются по запросу.</li>
+    <li>Фиксированная и прозрачная стоимость – никаких скрытых платежей.</li>
+    <li>Поддержка 24/7 – мы всегда на связи для вашей помощи.</li>
+    <li>Чистые и кондиционируемые автомобили – комфорт в любую погоду.</li>
+    <li>Сервис "от двери до двери" – доставим прямо к вашему месту проживания в Битезе.</li>
+</ul>
+
+<h2>Наслаждайтесь комфортной поездкой в Битез</h2>
+<p>
+    Битез славится спокойным пляжем, зелёной природой и чистой водой. Идеально подходит для семей, пар и тех, кто ищет уединения вдали от толпы.
+    С <strong>APL Transfers</strong> вы начнёте отпуск спокойно, без суеты и такси-переговоров.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+    <li><strong>Расстояние:</strong> около 41 км</li>
+    <li><strong>Время в пути:</strong> 35–45 минут (в зависимости от трафика)</li>
+    <li><strong>Маршрут:</strong> по шоссе D330 – прямой и живописный путь</li>
+</ul>
+
+<h2>Как забронировать?</h2>
+<p>
+    Забронировать <strong>трансфер на такси из аэропорта Бодрума в Битез</strong> легко и безопасно.
+    Используйте нашу онлайн-систему бронирования, выберите автомобиль и получите мгновенное подтверждение по электронной почте. Ваш водитель будет ждать вас по прибытии.
+</p>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+    <li>Минивэны для групп – подходят до 8 пассажиров.</li>
+    <li>Бизнес-класс – для максимального комфорта и деловых поездок.</li>
+    <li>Дополнительное место для багажа – подходит для сёрф-досок, колясок и больших чемоданов.</li>
+</ul>
+
+<p>
+    Забронируйте <strong>трансфер из аэропорта Бодрума в Битез</strong> уже сегодня с <strong>APL Transfers</strong> – вашим надёжным партнёром для безопасных и удобных поездок по Турции.
+</p>
+
+            `,
+            zh: `
+            <h1>博德鲁姆机场到比泰兹的出租车接送服务</h1>
+
+<p>
+    抵达 <strong>博德鲁姆机场 (BJV)</strong>，前往宁静的海滨小镇 <strong>比泰兹（Bitez）</strong>？我们的私人出租车接送服务为您提供从机场到比泰兹的酒店、别墅或公寓的顺畅、直接、无忧的旅程 —— 比泰兹是博德鲁姆半岛上最迷人的目的地之一。
+</p>
+
+<p>
+    无论您是为了放松、风帆冲浪还是享受海边宁静假期而来，<strong>APL Transfers</strong> 都为您提供专业服务，配备干净现代的车辆和友好、持证的司机。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li>在 <a href="#">到达大厅</a> 接机 – 司机将手持写有您名字的牌子迎接您。</li>
+    <li>航班追踪与免费等待 – 如航班延误，我们将免费调整接送时间。</li>
+    <li>免费儿童座椅 – 可根据要求提供，保障家庭出行安全。</li>
+    <li>固定价格 – 无隐藏费用或额外收费。</li>
+    <li>全天候客服支持 – 随时为您提供帮助。</li>
+    <li>干净、空调车辆 – 确保您的旅程舒适愉快。</li>
+    <li>门到门服务 – 直达您在比泰兹的住处。</li>
+</ul>
+
+<h2>舒适前往美丽的比泰兹</h2>
+<p>
+    比泰兹以其安静的海滩、郁郁葱葱的自然景观和清澈的海水而闻名。这里非常适合家庭、情侣和想远离喧嚣的游客。
+    通过 <strong>APL Transfers</strong>，您的假期从落地那一刻就以轻松开始 —— 无需排队或议价。
+</p>
+
+<h2>行程信息</h2>
+<ul>
+    <li><strong>距离：</strong> 约 41 公里</li>
+    <li><strong>车程时间：</strong> 约 35–45 分钟（视交通情况而定）</li>
+    <li><strong>路线：</strong> 通过 D330 高速公路 —— 一条直达且风景优美的海岸线道路</li>
+</ul>
+
+<h2>如何预订？</h2>
+<p>
+    预订您的 <strong>博德鲁姆机场到比泰兹</strong> 出租车接送服务既快速又安全。
+    使用我们的在线预订系统，选择车辆，确认价格，即可通过电子邮件收到即时确认。您的司机将在机场等候。
+</p>
+
+<h2>附加服务</h2>
+<ul>
+    <li>团体专用面包车 – 最多可容纳 8 位乘客。</li>
+    <li>商务舱接送 – 适合商务人士或追求奢华体验的旅客。</li>
+    <li>额外行李空间 – 适合冲浪板、婴儿车或大件行李。</li>
+</ul>
+
+<p>
+    立即通过 <strong>APL Transfers</strong> 预订您的 <strong>博德鲁姆机场至比泰兹</strong> 出租车服务 —— 您在土耳其享受私人、安全、舒适接送服务的值得信赖的选择。
+</p>
+
+            `,
         },
         "/bodrum-airport-to-torba": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Bodrum Airport to Torba Taxi Transfer</h1>
+
+<p>
+    Landing at <strong>Bodrum Airport (BJV)</strong> and heading to the stylish coastal village of <strong>Torba</strong>? Our private taxi transfer service ensures a fast, comfortable, and stress-free journey from the airport to your hotel, villa, or private accommodation in Torba — a peaceful gem just minutes from Bodrum Town.
+</p>
+
+<p>
+    Whether you’re visiting for a luxury retreat, a family vacation, or a romantic seaside escape, <strong>APL Transfers</strong> provides professional service with modern, air-conditioned vehicles and experienced, licensed drivers.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li>Meet & Greet at the <a href="#">Arrivals</a> Hall – Your driver will be waiting with a name sign.</li>
+    <li>Flight Tracking & Free Waiting – We monitor delays and adjust pickup time at no extra cost.</li>
+    <li>Free Child Seats – Available upon request for families.</li>
+    <li>Fixed, Transparent Pricing – No hidden charges or last-minute surprises.</li>
+    <li>24/7 Customer Support – We're available anytime you need us.</li>
+    <li>Clean, Comfortable Vehicles – Travel in air-conditioned comfort.</li>
+    <li>Door-to-Door Service – Direct drop-off at your accommodation in Torba.</li>
+</ul>
+
+<h2>Enjoy a Smooth Ride to Tranquil Torba</h2>
+<p>
+    Torba is known for its boutique hotels, pine-covered hills, clear blue waters, and tranquil vibes. Located just 10 minutes from Bodrum Town, it’s ideal for travelers who want a quiet base close to all the action.
+    With <strong>APL Transfers</strong>, you skip the hassle and begin your trip in comfort and style.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+    <li><strong>Distance:</strong> Approximately 30 km</li>
+    <li><strong>Duration:</strong> Around 25–35 minutes (depending on traffic)</li>
+    <li><strong>Route:</strong> Via D330 – scenic coastal road</li>
+</ul>
+
+<h2>How to Book?</h2>
+<p>
+    Booking your <strong>taxi transfer from Bodrum Airport to Torba</strong> is quick and secure. Use our online booking system, choose your vehicle, and get instant confirmation via email. Your driver will meet you upon arrival.
+</p>
+
+<h2>Additional Services</h2>
+<ul>
+    <li>Minivans for Families & Groups – Up to 8 passengers.</li>
+    <li>Business-Class Transfers – For added luxury and comfort.</li>
+    <li>Extra Luggage Capacity – Ideal for strollers, large bags, or sports equipment.</li>
+</ul>
+
+<p>
+    Reserve your <strong>Bodrum Airport to Torba</strong> transfer today with <strong>APL Transfers</strong> – your trusted partner for private, safe, and convenient airport transportation in Turkey.
+</p>
+
+            `,
+            tr: `
+            <h1>Bodrum Havalimanı - Torba Taksi Transferi</h1>
+
+<p>
+    <strong>Bodrum Havalimanı (BJV)</strong>'na iniş yaptıktan sonra şık ve sakin sahil beldesi <strong>Torba</strong>'ya mı gidiyorsunuz? Özel taksi transfer hizmetimiz, havalimanından Torba’daki otelinize, villanıza veya özel konaklamanıza hızlı, konforlu ve sorunsuz bir ulaşım sağlar.
+</p>
+
+<p>
+    Lüks bir kaçamak, aile tatili veya romantik bir deniz kenarı tatili için gelmiş olun, <strong>APL Transfers</strong> sizlere modern, klimalı araçlar ve deneyimli, lisanslı şoförlerle profesyonel bir hizmet sunar.
+</p>
+
+<h2>Neden APL Transfers?</h2>
+<ul>
+    <li><a href="#">Varış</a> salonunda karşılama – Sürücünüz isminizin yazılı olduğu tabela ile sizi karşılayacaktır.</li>
+    <li>Uçuş takibi & ücretsiz bekleme – Gecikmeleri takip ederiz, ek ücret olmadan karşılama zamanını ayarlarız.</li>
+    <li>Ücretsiz çocuk koltuğu – Aileler için talep üzerine sağlanır.</li>
+    <li>Sabit ve şeffaf fiyatlar – Gizli ücret veya son dakika sürprizi yok.</li>
+    <li>7/24 Müşteri Desteği – Ne zaman ihtiyaç duyarsanız buradayız.</li>
+    <li>Temiz ve konforlu araçlar – Klimalı, ferah yolculuklar.</li>
+    <li>Kapıdan Kapıya Hizmet – Torba’daki konaklama adresinize doğrudan bırakma.</li>
+</ul>
+
+<h2>Sakin Torba’ya Konforlu Yolculuk</h2>
+<p>
+    Torba; butik otelleri, çam ormanları, berrak denizi ve huzurlu atmosferiyle tanınır. Bodrum merkeze sadece 10 dakika uzaklıktadır ve hem sessizlik hem kolay erişim isteyenler için idealdir.
+    <strong>APL Transfers</strong> ile tatiliniz stresten uzak, şık ve konforlu bir şekilde başlar.
+</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 30 km</li>
+    <li><strong>Süre:</strong> 25–35 dakika (trafik durumuna göre değişebilir)</li>
+    <li><strong>Güzergâh:</strong> D330 sahil yolu üzerinden</li>
+</ul>
+
+<h2>Nasıl Rezervasyon Yapılır?</h2>
+<p>
+    <strong>Bodrum Havalimanı - Torba</strong> taksi transferinizi hızlı ve güvenli şekilde rezerve edebilirsiniz.
+    Online rezervasyon sistemimizi kullanın, aracınızı seçin ve anında e-posta ile onay alın. Sürücünüz sizi havalimanında karşılayacaktır.
+</p>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+    <li>Aileler & Gruplar için Minivan – 8 kişiye kadar kapasite.</li>
+    <li>Business Class Transfer – Ekstra konfor ve lüks için.</li>
+    <li>Ekstra Bagaj Alanı – Bebek arabaları, büyük bavullar veya spor ekipmanları için idealdir.</li>
+</ul>
+
+<p>
+    <strong>APL Transfers</strong> ile <strong>Bodrum Havalimanı - Torba</strong> taksi transferinizi bugün ayırtın – Türkiye'de güvenli, özel ve konforlu havalimanı ulaşımında güvenilir çözüm ortağınız.
+</p>
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار بودروم إلى توربا</h1>
+
+<p>
+    وصلت إلى <strong>مطار بودروم (BJV)</strong> وتوجهك إلى قرية <strong>توربا</strong> الساحلية الأنيقة؟ توفر لك خدمتنا الخاصة لنقل التاكسي رحلة سريعة ومريحة وخالية من التوتر من المطار إلى فندقك أو الفيلا أو مكان الإقامة الخاص بك في توربا — جوهرة هادئة لا تبعد سوى دقائق عن مركز بودروم.
+</p>
+
+<p>
+    سواء كنت قادمًا لقضاء عطلة فاخرة أو إجازة عائلية أو رحلة رومانسية على البحر، تقدم لك <strong>APL Transfers</strong> خدمة احترافية مع سيارات حديثة ومكيفة وسائقين مرخصين ذوي خبرة.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li>الاستقبال في <a href="#">صالة الوصول</a> – سيقابلك السائق بلافتة تحمل اسمك.</li>
+    <li>متابعة الرحلات والانتظار المجاني – نضبط وقت الاستقبال في حال وجود تأخير بدون أي رسوم إضافية.</li>
+    <li>مقاعد أطفال مجانية – متوفرة عند الطلب للعائلات.</li>
+    <li>أسعار ثابتة وشفافة – بدون رسوم خفية أو مفاجآت غير متوقعة.</li>
+    <li>دعم العملاء 24/7 – نحن متواجدون دائمًا لمساعدتك.</li>
+    <li>سيارات نظيفة ومريحة – جميعها مكيفة لضمان راحتك.</li>
+    <li>خدمة من الباب إلى الباب – توصيل مباشر إلى مكان إقامتك في توربا.</li>
+</ul>
+
+<h2>استمتع برحلة مريحة إلى توربا الهادئة</h2>
+<p>
+    تُعرف توربا بفنادقها البوتيكية، وتلالها المكسوة بالصنوبر، ومياهها الزرقاء الصافية، وجوها الهادئ. تبعد 10 دقائق فقط عن مركز بودروم، وتعد مثالية للمسافرين الذين يبحثون عن الهدوء والقرب من الحياة النشطة.
+    مع <strong>APL Transfers</strong>، تبدأ رحلتك براحة وأناقة من لحظة وصولك.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+    <li><strong>المسافة:</strong> حوالي 30 كم</li>
+    <li><strong>مدة الرحلة:</strong> من 25 إلى 35 دقيقة (حسب حركة المرور)</li>
+    <li><strong>المسار:</strong> عبر الطريق الساحلي D330 – طريق ذو مناظر خلابة</li>
+</ul>
+
+<h2>كيفية الحجز؟</h2>
+<p>
+    يمكنك حجز <strong>خدمة التاكسي من مطار بودروم إلى توربا</strong> بسرعة وأمان.
+    استخدم نظام الحجز الإلكتروني الخاص بنا، اختر السيارة المناسبة، وستحصل على تأكيد فوري عبر البريد الإلكتروني. سيكون السائق في انتظارك عند الوصول.
+</p>
+
+<h2>خدمات إضافية</h2>
+<ul>
+    <li>ميني فان للعائلات والمجموعات – تسع حتى 8 ركاب.</li>
+    <li>خدمة درجة رجال الأعمال – لمزيد من الفخامة والراحة.</li>
+    <li>سعة إضافية للأمتعة – مثالية لعربات الأطفال، والحقائب الكبيرة، والمعدات الرياضية.</li>
+</ul>
+
+<p>
+    احجز <strong>خدمة التاكسي من مطار بودروم إلى توربا</strong> اليوم مع <strong>APL Transfers</strong> – شريكك الموثوق للنقل الخاص الآمن والمريح في تركيا.
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en taxi desde el Aeropuerto de Bodrum a Torba</h1>
+
+<p>
+    ¿Llegas al <strong>Aeropuerto de Bodrum (BJV)</strong> y te diriges al elegante pueblo costero de <strong>Torba</strong>? Nuestro servicio de traslado privado en taxi te ofrece un viaje rápido, cómodo y sin estrés desde el aeropuerto hasta tu hotel, villa o alojamiento privado en Torba — una joya tranquila a solo minutos del centro de Bodrum.
+</p>
+
+<p>
+    Ya sea que viajes para una escapada de lujo, unas vacaciones familiares o una escapada romántica junto al mar, <strong>APL Transfers</strong> te ofrece un servicio profesional con vehículos modernos, con aire acondicionado y conductores experimentados y licenciados.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+    <li>Recepción en la <a href="#">sala de llegadas</a> – Tu conductor te estará esperando con un cartel con tu nombre.</li>
+    <li>Seguimiento de vuelos y espera gratuita – Ajustamos la recogida en caso de retrasos sin coste adicional.</li>
+    <li>Asientos infantiles gratuitos – Disponibles bajo solicitud para familias.</li>
+    <li>Precios fijos y transparentes – Sin cargos ocultos ni sorpresas de última hora.</li>
+    <li>Atención al cliente 24/7 – Siempre disponibles para ayudarte.</li>
+    <li>Vehículos limpios y cómodos – Viaja con aire acondicionado y confort.</li>
+    <li>Servicio puerta a puerta – Entrega directa a tu alojamiento en Torba.</li>
+</ul>
+
+<h2>Disfruta de un viaje tranquilo a Torba</h2>
+<p>
+    Torba es conocida por sus hoteles boutique, colinas cubiertas de pinos, aguas cristalinas y ambiente relajado. A solo 10 minutos del centro de Bodrum, es ideal para quienes buscan tranquilidad cerca de la acción.
+    Con <strong>APL Transfers</strong>, evitarás complicaciones y comenzarás tu viaje con comodidad y estilo.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+    <li><strong>Distancia:</strong> Aproximadamente 30 km</li>
+    <li><strong>Duración:</strong> Entre 25 y 35 minutos (dependiendo del tráfico)</li>
+    <li><strong>Ruta:</strong> Por la carretera D330 – una ruta costera escénica</li>
+</ul>
+
+<h2>¿Cómo reservar?</h2>
+<p>
+    Reservar tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Torba</strong> es rápido y seguro.
+    Utiliza nuestro sistema de reservas en línea, elige tu vehículo y recibe confirmación instantánea por correo electrónico. Tu conductor te recibirá a la llegada.
+</p>
+
+<h2>Servicios adicionales</h2>
+<ul>
+    <li>Minivans para familias y grupos – Hasta 8 pasajeros.</li>
+    <li>Traslados en clase ejecutiva – Para mayor lujo y comodidad.</li>
+    <li>Espacio adicional para equipaje – Ideal para cochecitos, maletas grandes o equipamiento deportivo.</li>
+</ul>
+
+<p>
+    Reserva hoy tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Torba</strong> con <strong>APL Transfers</strong> – tu socio confiable para transporte privado, seguro y cómodo en Turquía.
+</p>
+
+            `,
+            it: `
+            <h1>Trasferimento in taxi dall’Aeroporto di Bodrum a Torba</h1>
+
+<p>
+    Atterri all’<strong>Aeroporto di Bodrum (BJV)</strong> e ti stai dirigendo verso il tranquillo villaggio costiero di <strong>Torba</strong>? Il nostro servizio di trasferimento privato in taxi garantisce un viaggio veloce, comodo e senza stress fino al tuo hotel, villa o alloggio privato a Torba — una perla silenziosa a pochi minuti dalla città di Bodrum.
+</p>
+
+<p>
+    Che si tratti di una vacanza di lusso, una fuga romantica o un viaggio in famiglia, <strong>APL Transfers</strong> offre un servizio professionale con veicoli moderni, climatizzati e autisti esperti e autorizzati.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+    <li>Accoglienza nella <a href="#">sala arrivi</a> – Il tuo autista ti aspetterà con un cartello con il tuo nome.</li>
+    <li>Monitoraggio del volo e attesa gratuita – In caso di ritardi, l'orario viene adattato senza costi aggiuntivi.</li>
+    <li>Seggiolini per bambini gratuiti – Disponibili su richiesta per famiglie.</li>
+    <li>Prezzi fissi e trasparenti – Nessuna sorpresa o costi nascosti.</li>
+    <li>Assistenza clienti 24/7 – Sempre a tua disposizione.</li>
+    <li>Veicoli puliti e confortevoli – Climatizzati per il massimo comfort.</li>
+    <li>Servizio porta a porta – Trasferimento diretto al tuo alloggio a Torba.</li>
+</ul>
+
+<h2>Goditi un viaggio tranquillo verso Torba</h2>
+<p>
+    Torba è conosciuta per i suoi hotel boutique, le colline coperte di pini, le acque cristalline e l’atmosfera rilassante. A soli 10 minuti dal centro di Bodrum, è perfetta per chi cerca la pace senza allontanarsi troppo.
+    Con <strong>APL Transfers</strong>, puoi iniziare la tua vacanza con stile e tranquillità.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+    <li><strong>Distanza:</strong> Circa 30 km</li>
+    <li><strong>Durata:</strong> 25–35 minuti (in base al traffico)</li>
+    <li><strong>Percorso:</strong> lungo la D330 – strada panoramica costiera</li>
+</ul>
+
+<h2>Come prenotare?</h2>
+<p>
+    Prenotare il tuo <strong>trasferimento in taxi dall’Aeroporto di Bodrum a Torba</strong> è semplice e sicuro. Utilizza il nostro sistema di prenotazione online, scegli il veicolo e ricevi la conferma immediata via email. L’autista ti accoglierà all’arrivo.
+</p>
+
+<h2>Servizi aggiuntivi</h2>
+<ul>
+    <li>Minivan per famiglie e gruppi – Fino a 8 passeggeri.</li>
+    <li>Trasferimenti Business Class – Per un tocco di lusso in più.</li>
+    <li>Spazio extra per i bagagli – Ideale per passeggini, valigie grandi o attrezzature sportive.</li>
+</ul>
+
+<p>
+    Prenota oggi il tuo <strong>trasferimento da Bodrum a Torba</strong> con <strong>APL Transfers</strong> – il tuo partner di fiducia per trasporti aeroportuali privati, sicuri e comodi in Turchia.
+</p>
+
+            `,
+            ru: `
+            
+            <h1>Такси-трансфер из аэропорта Бодрума в Торба</h1>
+
+<p>
+    Прилетаете в <strong>аэропорт Бодрума (BJV)</strong> и направляетесь в стильный прибрежный посёлок <strong>Торба</strong>? Наша услуга частного трансфера на такси обеспечит вам быструю, комфортную и беззаботную поездку от аэропорта до вашего отеля, виллы или апартаментов в Торба — тихой жемчужины всего в нескольких минутах от Бодрума.
+</p>
+
+<p>
+    Независимо от того, приезжаете ли вы на роскошный отдых, семейное путешествие или романтический уикенд, <strong>APL Transfers</strong> предлагает профессиональный сервис с современными кондиционируемыми автомобилями и опытными лицензированными водителями.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li>Встреча в <a href="#">зале прилёта</a> – водитель встретит вас с табличкой с вашим именем.</li>
+    <li>Отслеживание рейса и бесплатное ожидание – мы адаптируем время подачи в случае задержек без дополнительных оплат.</li>
+    <li>Бесплатные детские кресла – предоставляются по запросу для семей.</li>
+    <li>Фиксированная и прозрачная цена – никаких скрытых платежей и сюрпризов.</li>
+    <li>Поддержка клиентов 24/7 – мы всегда на связи.</li>
+    <li>Чистые и комфортабельные автомобили – с кондиционером.</li>
+    <li>Сервис "от двери до двери" – доставка прямо до места проживания в Торба.</li>
+</ul>
+
+<h2>Наслаждайтесь спокойной поездкой в Торба</h2>
+<p>
+    Торба славится бутик-отелями, сосновыми холмами, кристально чистой водой и умиротворяющей атмосферой. Расположенный всего в 10 минутах от центра Бодрума, он идеально подходит для тех, кто ищет уединение недалеко от городской жизни.
+    С <strong>APL Transfers</strong> вы начнёте свой отпуск с комфорта и без стресса.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+    <li><strong>Расстояние:</strong> около 30 км</li>
+    <li><strong>Время в пути:</strong> от 25 до 35 минут (в зависимости от трафика)</li>
+    <li><strong>Маршрут:</strong> по живописной прибрежной трассе D330</li>
+</ul>
+
+<h2>Как забронировать?</h2>
+<p>
+    Забронировать <strong>трансфер на такси из аэропорта Бодрума в Торба</strong> просто и безопасно.
+    Используйте нашу онлайн-систему, выберите автомобиль и получите мгновенное подтверждение по электронной почте. Водитель будет ожидать вас по прибытии.
+</p>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+    <li>Минивэны для семей и групп – до 8 пассажиров.</li>
+    <li>Трансфер бизнес-класса – для дополнительного комфорта и роскоши.</li>
+    <li>Дополнительное место для багажа – подходит для колясок, крупного багажа или спортивного инвентаря.</li>
+</ul>
+
+<p>
+    Забронируйте <strong>трансфер из аэропорта Бодрума в Торба</strong> уже сегодня с <strong>APL Transfers</strong> – вашим надёжным партнёром по безопасному и удобному частному транспорту в Турции.
+</p>
+
+            `,
+            zh: `
+            <h1>博德鲁姆机场到托尔巴的出租车接送服务</h1>
+
+<p>
+    抵达 <strong>博德鲁姆机场 (BJV)</strong>，准备前往时尚的海滨小镇 <strong>托尔巴（Torba）</strong>？我们的私人出租车接送服务可为您提供从机场到托尔巴的酒店、别墅或私人住所的快速、舒适、无忧之旅——托尔巴是一处距离博德鲁姆市中心仅数分钟的安静宝地。
+</p>
+
+<p>
+    无论您是来享受奢华度假、家庭旅游还是浪漫海滨假期，<strong>APL Transfers</strong> 都为您提供配备空调的现代化车辆和经验丰富、持证上岗的专业司机。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li>在 <a href="#">到达大厅</a> 接机 – 司机将举着写有您姓名的牌子等待。</li>
+    <li>航班追踪与免费等待 – 若航班延误，我们将免费调整接机时间。</li>
+    <li>免费儿童座椅 – 根据需求为家庭提供。</li>
+    <li>固定且透明的价格 – 无隐藏费用，无额外收费。</li>
+    <li>全天候客服支持 – 任何时间您都可以联系我们。</li>
+    <li>干净舒适的车辆 – 全程享受空调与便捷出行。</li>
+    <li>门到门服务 – 直接将您送达托尔巴的下榻地点。</li>
+</ul>
+
+<h2>舒适前往宁静的托尔巴</h2>
+<p>
+    托尔巴以其精品酒店、松树覆盖的山丘、清澈湛蓝的海水和宁静氛围而闻名。距离博德鲁姆市中心仅10分钟路程，非常适合想要远离喧嚣但又靠近主要景点的游客。
+    有了 <strong>APL Transfers</strong>，您可以从抵达那一刻起，就享受舒适与高效的旅程。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+    <li><strong>距离：</strong> 约 30 公里</li>
+    <li><strong>时长：</strong> 约 25–35 分钟（视交通情况而定）</li>
+    <li><strong>路线：</strong> 途经 D330 海岸公路 — 风景优美的线路</li>
+</ul>
+
+<h2>如何预订？</h2>
+<p>
+    预订您的 <strong>博德鲁姆机场至托尔巴</strong> 出租车接送服务快速且安全。
+    使用我们的在线预订系统选择车型，确认订单，您将立即通过电子邮件收到确认。司机将在您抵达时迎接您。
+</p>
+
+<h2>附加服务</h2>
+<ul>
+    <li>适合家庭和团体的面包车 – 最多可乘坐 8 人。</li>
+    <li>商务舱接送 – 提供额外的舒适与奢华体验。</li>
+    <li>额外行李空间 – 适用于婴儿车、大件行李或运动装备。</li>
+</ul>
+
+<p>
+    立即通过 <strong>APL Transfers</strong> 预订您的 <strong>博德鲁姆机场到托尔巴</strong> 出租车服务 —— 您在土耳其享受私人、安全和舒适机场接送的值得信赖之选。
+</p>
+
+            `,
         },
         "/bodrum-airport-to-turgutreis": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Bodrum Airport to Turgutreis Taxi Transfer</h1>
+
+<p>
+    Arriving at <strong>Bodrum Airport (BJV)</strong> and heading to the coastal town of <strong>Turgutreis</strong>? Our private taxi transfer service offers a reliable, comfortable, and direct journey from the airport to your hotel, villa, or private residence in Turgutreis — one of the most popular destinations on the Bodrum Peninsula.
+</p>
+
+<p>
+    Whether you’re traveling for a family holiday, a relaxing beach getaway, or a sailing adventure, <strong>APL Transfers</strong> provides modern, air-conditioned vehicles and experienced, licensed drivers to ensure your comfort and peace of mind.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li>Meet & Greet at the <a href="#">Arrivals</a> Hall – Your driver will be waiting with a name board.</li>
+    <li>Flight Tracking & Free Waiting – We adjust for delays at no extra charge.</li>
+    <li>Free Child Seats – Available upon request.</li>
+    <li>Fixed, Transparent Pricing – No hidden costs or surprise fees.</li>
+    <li>24/7 Customer Support – Always available to assist you.</li>
+    <li>Clean, Comfortable Vehicles – Travel in style and air-conditioned comfort.</li>
+    <li>Door-to-Door Service – Direct drop-off to your accommodation in Turgutreis.</li>
+</ul>
+
+<h2>Comfortable Transfer to the West Coast of Bodrum</h2>
+<p>
+    Turgutreis is known for its sunsets, marina, beaches, and lively bazaars. Located on the western tip of the peninsula, it’s a favorite spot for those seeking both serenity and local culture.
+    With <strong>APL Transfers</strong>, you avoid taxi queues and start your trip with ease.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+    <li><strong>Distance:</strong> Approximately 55 km</li>
+    <li><strong>Duration:</strong> Around 50–60 minutes (depending on traffic)</li>
+    <li><strong>Route:</strong> Via D330 highway – scenic and direct</li>
+</ul>
+
+<h2>How to Book?</h2>
+<p>
+    Booking your <strong>Bodrum Airport to Turgutreis</strong> taxi transfer is fast and secure.
+    Use our online system to choose your vehicle, confirm the price, and receive an instant email confirmation. Your driver will greet you upon arrival.
+</p>
+
+<h2>Additional Services</h2>
+<ul>
+    <li>Minivans for Families & Groups – Up to 8 passengers.</li>
+    <li>Business-Class Transfers – For extra comfort and luxury.</li>
+    <li>Extra Luggage Space – Ideal for large bags, baby strollers, or sports equipment.</li>
+</ul>
+
+<p>
+    Book your <strong>taxi transfer from Bodrum Airport to Turgutreis</strong> today with <strong>APL Transfers</strong> — your trusted provider of private, reliable, and stress-free airport transportation in Turkey.
+</p>
+
+            `,
+            tr: `
+            <h1>Bodrum Havalimanı - Turgutreis Taksi Transferi</h1>
+
+<p>
+    <strong>Bodrum Havalimanı (BJV)</strong>'na iniş yaptıktan sonra <strong>Turgutreis</strong>'e mi gidiyorsunuz? Özel taksi transfer hizmetimiz, sizi havalimanından Turgutreis’teki otelinize, villanıza veya özel konaklamanıza güvenli, konforlu ve doğrudan bir şekilde ulaştırır — Bodrum Yarımadası’nın en popüler tatil destinasyonlarından biri.
+</p>
+
+<p>
+    Aile tatili, deniz kenarında dinlenme veya yelken macerası için seyahat ediyor olun, <strong>APL Transfers</strong> size klimalı, modern araçlar ve deneyimli, lisanslı şoförlerle huzurlu bir yolculuk sunar.
+</p>
+
+<h2>Neden APL Transfers?</h2>
+<ul>
+    <li><a href="#">Varış</a> salonunda karşılama – Sürücünüz isminizin yazılı olduğu tabela ile sizi bekleyecek.</li>
+    <li>Uçuş takibi & ücretsiz bekleme – Gecikmeler için ek ücret talep edilmez.</li>
+    <li>Ücretsiz çocuk koltuğu – Talep üzerine temin edilir.</li>
+    <li>Sabit ve şeffaf fiyatlandırma – Gizli ücret veya sürpriz yoktur.</li>
+    <li>7/24 Müşteri Desteği – Her zaman yanınızdayız.</li>
+    <li>Temiz ve konforlu araçlar – Şık ve serin bir yolculuk sizi bekliyor.</li>
+    <li>Kapıdan kapıya hizmet – Turgutreis’teki konaklama adresinize doğrudan bırakma.</li>
+</ul>
+
+<h2>Bodrum’un Batı Kıyısına Konforlu Transfer</h2>
+<p>
+    Turgutreis, gün batımı manzaraları, marinası, plajları ve canlı pazarlarıyla ünlüdür. Yarımadanın batı ucunda yer alır ve huzuru yerel kültürle birleştirmek isteyenler için idealdir.
+    <strong>APL Transfers</strong> ile taksi kuyruğuna girmeden rahat bir şekilde tatilinize başlarsınız.
+</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 55 km</li>
+    <li><strong>Süre:</strong> 50–60 dakika (trafik durumuna göre değişebilir)</li>
+    <li><strong>Güzergâh:</strong> D330 karayolu – manzaralı ve direkt rota</li>
+</ul>
+
+<h2>Nasıl Rezervasyon Yapılır?</h2>
+<p>
+    <strong>Bodrum Havalimanı - Turgutreis</strong> taksi transferinizi hızlı ve güvenli bir şekilde rezerve edebilirsiniz.
+    Online sistemimiz üzerinden aracınızı seçin, fiyatı onaylayın ve anında e-posta ile rezervasyon teyidi alın. Sürücünüz varışta sizi karşılayacaktır.
+</p>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+    <li>Aileler ve gruplar için minivan – 8 kişiye kadar kapasite.</li>
+    <li>Business Class transfer – Ekstra konfor ve lüks için.</li>
+    <li>Ekstra bagaj alanı – Büyük valizler, bebek arabaları veya spor ekipmanları için uygundur.</li>
+</ul>
+
+<p>
+    Bugün <strong>Bodrum Havalimanı - Turgutreis</strong> taksi transferinizi <strong>APL Transfers</strong> ile rezerve edin — Türkiye’de güvenli, özel ve stressiz havalimanı ulaşımınızın güvenilir adresi.
+</p>
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار بودروم إلى تورغوترييس</h1>
+
+<p>
+    هل وصلت إلى <strong>مطار بودروم (BJV)</strong> وتتجه إلى بلدة <strong>تورغوترييس</strong> الساحلية؟ توفر لك خدمتنا الخاصة بالتاكسي رحلة مباشرة ومريحة وآمنة من المطار إلى فندقك أو الفيلا أو مكان إقامتك الخاص في تورغوترييس – واحدة من أكثر الوجهات شهرة في شبه جزيرة بودروم.
+</p>
+
+<p>
+    سواء كنت مسافرًا لقضاء عطلة عائلية أو للاستجمام على الشاطئ أو لمغامرة إبحار، تقدم لك <strong>APL Transfers</strong> سيارات حديثة ومكيفة مع سائقين محترفين ومرخصين لضمان راحتك وسلامتك.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li>الاستقبال في <a href="#">صالة الوصول</a> – سيكون السائق بانتظارك بلافتة باسمك.</li>
+    <li>مراقبة الرحلات والانتظار المجاني – نقوم بتعديل الوقت في حال وجود تأخير دون أي رسوم إضافية.</li>
+    <li>مقاعد أطفال مجانية – متاحة عند الطلب.</li>
+    <li>أسعار ثابتة وشفافة – بدون رسوم خفية أو مفاجآت.</li>
+    <li>دعم عملاء 24/7 – نحن دائمًا هنا لمساعدتك.</li>
+    <li>سيارات نظيفة ومريحة – استمتع بالرحلة في راحة تامة.</li>
+    <li>خدمة من الباب إلى الباب – توصيل مباشر إلى مكان إقامتك في تورغوترييس.</li>
+</ul>
+
+<h2>رحلة مريحة إلى الساحل الغربي لبودروم</h2>
+<p>
+    تشتهر تورغوترييس بغروب الشمس والمارينا والشواطئ والأسواق المحلية. تقع في الطرف الغربي من شبه الجزيرة وتُعد خيارًا مثاليًا لمن يبحثون عن الهدوء والثقافة المحلية.
+    مع <strong>APL Transfers</strong>، لن تضطر للانتظار في طوابير التاكسي وستبدأ رحلتك براحة بال.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+    <li><strong>المسافة:</strong> حوالي 55 كم</li>
+    <li><strong>المدة:</strong> من 50 إلى 60 دقيقة (حسب حركة المرور)</li>
+    <li><strong>المسار:</strong> عبر الطريق السريع D330 – طريق ذو مناظر خلابة ومباشر</li>
+</ul>
+
+<h2>كيفية الحجز؟</h2>
+<p>
+    يمكنك حجز <strong>خدمة التاكسي من مطار بودروم إلى تورغوترييس</strong> بسرعة وأمان من خلال موقعنا.
+    اختر السيارة المناسبة، أكد السعر، واستلم تأكيد الحجز فورًا عبر البريد الإلكتروني. سيكون السائق بانتظارك عند الوصول.
+</p>
+
+<h2>خدمات إضافية</h2>
+<ul>
+    <li>ميني فان للعائلات والمجموعات – تصل إلى 8 ركاب.</li>
+    <li>خدمة درجة رجال الأعمال – لمزيد من الراحة والرفاهية.</li>
+    <li>مساحة إضافية للأمتعة – مثالية للحقائب الكبيرة أو عربات الأطفال أو المعدات الرياضية.</li>
+</ul>
+
+<p>
+    احجز <strong>خدمة التاكسي من مطار بودروم إلى تورغوترييس</strong> اليوم مع <strong>APL Transfers</strong> – خيارك الموثوق للنقل الخاص الآمن والمريح في تركيا.
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en taxi desde el Aeropuerto de Bodrum a Turgutreis</h1>
+
+<p>
+    ¿Llegas al <strong>Aeropuerto de Bodrum (BJV)</strong> y te diriges a la ciudad costera de <strong>Turgutreis</strong>? Nuestro servicio de traslado privado en taxi te ofrece un viaje directo, cómodo y confiable desde el aeropuerto hasta tu hotel, villa o residencia privada en Turgutreis — uno de los destinos más populares de la península de Bodrum.
+</p>
+
+<p>
+    Ya sea que viajes por vacaciones en familia, para relajarte en la playa o para una aventura en velero, <strong>APL Transfers</strong> te proporciona vehículos modernos, con aire acondicionado y conductores profesionales con licencia.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+    <li>Recepción en la <a href="#">sala de llegadas</a> – Tu conductor te esperará con un cartel con tu nombre.</li>
+    <li>Seguimiento de vuelos y espera gratuita – Ajustamos el horario en caso de retraso sin coste adicional.</li>
+    <li>Asientos infantiles gratuitos – Disponibles bajo solicitud.</li>
+    <li>Precios fijos y transparentes – Sin tarifas ocultas ni sorpresas.</li>
+    <li>Atención al cliente 24/7 – Siempre disponibles para ayudarte.</li>
+    <li>Vehículos limpios y cómodos – Viaja con aire acondicionado y tranquilidad.</li>
+    <li>Servicio puerta a puerta – Entrega directa a tu alojamiento en Turgutreis.</li>
+</ul>
+
+<h2>Viaje cómodo a la costa oeste de Bodrum</h2>
+<p>
+    Turgutreis es famosa por sus puestas de sol, marina, playas y bazares. Situada en el extremo occidental de la península, es el lugar ideal para quienes buscan tranquilidad y cultura local.
+    Con <strong>APL Transfers</strong>, evitarás filas de taxis y comenzarás tu viaje sin estrés.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+    <li><strong>Distancia:</strong> Aproximadamente 55 km</li>
+    <li><strong>Duración:</strong> 50–60 minutos (según el tráfico)</li>
+    <li><strong>Ruta:</strong> Por la carretera D330 – escénica y directa</li>
+</ul>
+
+<h2>¿Cómo reservar?</h2>
+<p>
+    Reservar tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Turgutreis</strong> es rápido y seguro.
+    Usa nuestro sistema en línea, elige tu vehículo, confirma el precio y recibe una confirmación instantánea por correo electrónico. Tu conductor te recibirá al llegar.
+</p>
+
+<h2>Servicios adicionales</h2>
+<ul>
+    <li>Minivans para familias y grupos – Hasta 8 pasajeros.</li>
+    <li>Traslados en clase ejecutiva – Para más lujo y comodidad.</li>
+    <li>Espacio adicional para equipaje – Perfecto para maletas grandes, cochecitos o equipos deportivos.</li>
+</ul>
+
+<p>
+    Reserva hoy tu <strong>traslado desde el Aeropuerto de Bodrum a Turgutreis</strong> con <strong>APL Transfers</strong> — tu socio confiable para traslados privados, seguros y sin estrés en Turquía.
+</p>
+
+
+            `,
+            it: `
+            <h1>Trasferimento in taxi dall’Aeroporto di Bodrum a Turgutreis</h1>
+
+<p>
+    Atterri all’<strong>Aeroporto di Bodrum (BJV)</strong> e ti stai dirigendo verso la città costiera di <strong>Turgutreis</strong>? Il nostro servizio di trasferimento privato in taxi offre un viaggio comodo, diretto e affidabile dal terminal al tuo hotel, villa o alloggio privato a Turgutreis — una delle destinazioni più popolari della penisola di Bodrum.
+</p>
+
+<p>
+    Che tu stia viaggiando per una vacanza in famiglia, una fuga rilassante in spiaggia o un’avventura in barca a vela, <strong>APL Transfers</strong> ti garantisce veicoli moderni, climatizzati e autisti esperti con licenza per la tua sicurezza e comodità.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+    <li>Accoglienza nella <a href="#">sala arrivi</a> – Il tuo autista ti aspetterà con un cartello con il tuo nome.</li>
+    <li>Monitoraggio del volo e attesa gratuita – Nessun costo aggiuntivo in caso di ritardo del volo.</li>
+    <li>Seggiolini per bambini gratuiti – Disponibili su richiesta.</li>
+    <li>Prezzi fissi e trasparenti – Nessuna sorpresa o costo nascosto.</li>
+    <li>Assistenza clienti 24/7 – Sempre disponibili per aiutarti.</li>
+    <li>Veicoli puliti e confortevoli – Viaggia in totale comodità.</li>
+    <li>Servizio porta a porta – Trasferimento diretto al tuo alloggio a Turgutreis.</li>
+</ul>
+
+<h2>Trasferimento comodo verso la costa occidentale di Bodrum</h2>
+<p>
+    Turgutreis è rinomata per i suoi tramonti spettacolari, il porto turistico, le spiagge e i mercati locali. Situata all’estremità occidentale della penisola, è perfetta per chi cerca relax e cultura.
+    Con <strong>APL Transfers</strong>, eviti le file per il taxi e inizi la vacanza con tranquillità.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+    <li><strong>Distanza:</strong> Circa 55 km</li>
+    <li><strong>Durata:</strong> 50–60 minuti (in base al traffico)</li>
+    <li><strong>Percorso:</strong> Autostrada D330 – panoramica e diretta</li>
+</ul>
+
+<h2>Come prenotare?</h2>
+<p>
+    Prenotare il tuo <strong>trasferimento in taxi dall’Aeroporto di Bodrum a Turgutreis</strong> è semplice e sicuro.
+    Usa il nostro sistema online, scegli il veicolo e ricevi conferma immediata via email. Il tuo autista ti attenderà all’arrivo.
+</p>
+
+<h2>Servizi aggiuntivi</h2>
+<ul>
+    <li>Minivan per famiglie e gruppi – Fino a 8 passeggeri.</li>
+    <li>Trasferimenti Business Class – Per chi desidera più lusso e comfort.</li>
+    <li>Spazio extra per i bagagli – Ideale per valigie grandi, passeggini o attrezzature sportive.</li>
+</ul>
+
+<p>
+    Prenota ora il tuo <strong>trasferimento in taxi da Bodrum a Turgutreis</strong> con <strong>APL Transfers</strong> — il tuo partner di fiducia per trasporti privati sicuri, comodi e puntuali in Turchia.
+</p>
+
+            `,
+            ru: `
+            
+            <h1>Такси-трансфер из аэропорта Бодрума в Тургутрейс</h1>
+
+<p>
+    Прилетаете в <strong>аэропорт Бодрума (BJV)</strong> и направляетесь в прибрежный город <strong>Тургутрейс</strong>? Наш сервис частного трансфера на такси предлагает прямую, комфортную и надёжную поездку от аэропорта до вашего отеля, виллы или частного жилья в Тургутрейсе — одном из самых популярных направлений на полуострове Бодрум.
+</p>
+
+<p>
+    Путешествуете ли вы на семейный отдых, для расслабляющего пляжного отдыха или ради морского приключения, <strong>APL Transfers</strong> предоставляет современные кондиционируемые автомобили и опытных лицензированных водителей для вашей безопасности и комфорта.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li>Встреча в <a href="#">зале прилёта</a> – водитель встретит вас с табличкой с вашим именем.</li>
+    <li>Отслеживание рейса и бесплатное ожидание – при задержке рейса без дополнительных сборов.</li>
+    <li>Бесплатные детские кресла – предоставляются по запросу.</li>
+    <li>Фиксированные прозрачные цены – никаких скрытых платежей и сюрпризов.</li>
+    <li>Круглосуточная поддержка клиентов – мы всегда на связи.</li>
+    <li>Чистые и комфортабельные автомобили – с кондиционером и удобствами.</li>
+    <li>Сервис "от двери до двери" – прямая доставка до вашего жилья в Тургутрейсе.</li>
+</ul>
+
+<h2>Комфортный трансфер на западное побережье Бодрума</h2>
+<p>
+    Тургутрейс славится своими закатами, мариной, пляжами и местными базарами. Расположен на западной оконечности полуострова и идеально подходит для тех, кто ищет тишину и местный колорит.
+    С <strong>APL Transfers</strong> вы избегаете очередей на такси и начинаете свой отпуск без стресса.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+    <li><strong>Расстояние:</strong> около 55 км</li>
+    <li><strong>Время в пути:</strong> 50–60 минут (в зависимости от трафика)</li>
+    <li><strong>Маршрут:</strong> по живописному шоссе D330</li>
+</ul>
+
+<h2>Как забронировать?</h2>
+<p>
+    Забронировать <strong>такси из аэропорта Бодрума в Тургутрейс</strong> просто и безопасно.
+    Используйте нашу онлайн-систему, выберите автомобиль и получите мгновенное подтверждение по электронной почте. Водитель будет ждать вас по прибытии.
+</p>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+    <li>Минивэны для семей и групп – до 8 пассажиров.</li>
+    <li>Бизнес-класс – для максимального комфорта и стиля.</li>
+    <li>Дополнительное место для багажа – подходит для больших чемоданов, колясок или спортивного инвентаря.</li>
+</ul>
+
+<p>
+    Забронируйте <strong>трансфер из аэропорта Бодрума в Тургутрейс</strong> уже сегодня с <strong>APL Transfers</strong> — вашим надёжным партнёром по безопасному, удобному и частному трансферу в Турции.
+</p>
+
+            `,
+            zh: `
+            <h1>博德鲁姆机场至图尔古特雷斯出租车接送服务</h1>
+
+<p>
+    抵达 <strong>博德鲁姆机场 (BJV)</strong> 后，计划前往海滨小镇 <strong>图尔古特雷斯（Turgutreis）</strong>？我们的私人出租车接送服务将为您提供从机场到图尔古特雷斯的酒店、别墅或私人住处的直接、舒适和可靠的接送服务——这是博德鲁姆半岛上最受欢迎的目的地之一。
+</p>
+
+<p>
+    无论您是家庭度假、悠闲的海边之旅还是航海探险，<strong>APL Transfers</strong> 都为您提供现代化、空调车辆和经验丰富的持证司机，确保您的旅程安心顺利。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li>在 <a href="#">到达大厅</a> 接机 – 司机将举着写有您名字的牌子等候。</li>
+    <li>航班跟踪与免费等待 – 航班延误时免费调整接机时间。</li>
+    <li>免费儿童座椅 – 可根据需求提供，适合家庭出行。</li>
+    <li>固定透明价格 – 无隐藏费用，无最后一刻的加价。</li>
+    <li>24/7 客户支持 – 随时为您提供帮助。</li>
+    <li>干净舒适的车辆 – 提供空调与贴心服务。</li>
+    <li>门到门服务 – 直达您在图尔古特雷斯的住处。</li>
+</ul>
+
+<h2>轻松前往博德鲁姆西海岸</h2>
+<p>
+    图尔古特雷斯以其壮丽的日落、游艇码头、海滩和热闹的市集而闻名。它位于半岛的最西端，是寻求宁静与本地文化完美结合的理想之地。
+    通过 <strong>APL Transfers</strong>，您无需排队等候出租车，旅程从容开启。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+    <li><strong>距离：</strong> 约 55 公里</li>
+    <li><strong>车程：</strong> 约 50–60 分钟（视交通情况而定）</li>
+    <li><strong>路线：</strong> 走 D330 高速公路 – 直达且风景优美</li>
+</ul>
+
+<h2>如何预订？</h2>
+<p>
+    预订 <strong>博德鲁姆机场至图尔古特雷斯</strong> 的出租车服务快速且安全。
+    使用我们的在线预订系统选择车辆，确认价格，您将通过电子邮件立即收到确认信息。司机将在机场迎接您。
+</p>
+
+<h2>附加服务</h2>
+<ul>
+    <li>家庭或团体用商务车 – 最多可容纳 8 名乘客。</li>
+    <li>商务舱接送服务 – 提供更高的舒适度和豪华体验。</li>
+    <li>额外行李空间 – 适合大件行李、婴儿车或运动装备。</li>
+</ul>
+
+<p>
+    立即通过 <strong>APL Transfers</strong> 预订您的 <strong>博德鲁姆机场至图尔古特雷斯</strong> 出租车服务 —— 您在土耳其享受私人、安全、无忧接送的可靠之选。
+</p>
+
+            `,
         },
         "/bodrum-airport-to-yalikavak": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Bodrum Airport to Yalıkavak Taxi Transfer</h1>
+
+<p>
+    Arriving at <strong>Bodrum Airport (BJV)</strong> and heading to <strong>Yalıkavak</strong>? Our private taxi transfer service offers a smooth, direct, and comfortable journey from the airport to your hotel, villa, or private accommodation in Yalıkavak – a stylish marina town known for luxury, sunsets, and vibrant life.
+</p>
+
+<p>
+    Whether you’re visiting for a luxury escape, yachting adventure, or a relaxing seaside holiday, <strong>APL Transfers</strong> provides modern air-conditioned vehicles and professional drivers to ensure your journey begins in comfort and confidence.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li>Meet & Greet at the <a href="#">Arrivals</a> Hall – Your driver will wait with a name sign.</li>
+    <li>Flight Tracking & Free Waiting – We adjust pickup time if your flight is delayed.</li>
+    <li>Free Child Seats – Available on request for families.</li>
+    <li>Fixed & Transparent Pricing – No hidden fees or surprises.</li>
+    <li>24/7 Customer Support – We’re always available when you need us.</li>
+    <li>Clean, Comfortable, Air-Conditioned Vehicles – Travel in style and ease.</li>
+    <li>Door-to-Door Service – Direct drop-off to your address in Yalıkavak.</li>
+</ul>
+
+<h2>Scenic Transfer to Yalıkavak</h2>
+<p>
+    Yalıkavak is one of the most exclusive areas in Bodrum, home to the world-famous Yalıkavak Marina, upscale dining, boutique shopping, and stunning sunset views. With <strong>APL Transfers</strong>, you’ll enjoy a worry-free start to your stay.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+    <li><strong>Distance:</strong> Approximately 52 km</li>
+    <li><strong>Duration:</strong> Around 45–55 minutes (depending on traffic)</li>
+    <li><strong>Route:</strong> Via D330 – scenic and efficient coastal road</li>
+</ul>
+
+<h2>How to Book?</h2>
+<p>
+    Booking your <strong>Bodrum Airport to Yalıkavak</strong> taxi transfer is quick and secure. Use our online booking system, choose your vehicle, and get instant confirmation via email. Your driver will greet you at the airport.
+</p>
+
+<h2>Additional Services</h2>
+<ul>
+    <li>Minivans for Families & Groups – Up to 8 passengers.</li>
+    <li>Business-Class Transfers – For luxury and executive travel.</li>
+    <li>Extra Luggage Space – Ideal for golf bags, strollers, or large suitcases.</li>
+</ul>
+
+<p>
+    Book your <strong>taxi transfer from Bodrum Airport to Yalıkavak</strong> today with <strong>APL Transfers</strong> – your trusted partner for private, stylish, and reliable airport transportation in Turkey.
+</p>
+
+            `,
+            tr: `
+            <h1>Bodrum Havalimanı - Yalıkavak Taksi Transferi</h1>
+
+<p>
+    <strong>Bodrum Havalimanı (BJV)</strong>'na iniş yaptıktan sonra <strong>Yalıkavak</strong>'a mı gidiyorsunuz? Özel taksi transfer hizmetimiz, havalimanından Yalıkavak’taki otelinize, villanıza veya özel konaklamanıza kadar rahat, doğrudan ve konforlu bir yolculuk sunar – lüks, gün batımları ve marina yaşamı ile ünlü bu şık beldeye hoş geldiniz.
+</p>
+
+<p>
+    İster lüks bir tatil, ister yat turu, ister deniz kenarında dinlendirici bir mola için geliyor olun, <strong>APL Transfers</strong> size klimalı, modern araçlar ve profesyonel şoförlerle huzurlu bir başlangıç sağlar.
+</p>
+
+<h2>Neden APL Transfers?</h2>
+<ul>
+    <li><a href="#">Varış</a> salonunda karşılama – Sürücünüz isminizin yazılı olduğu tabela ile sizi bekler.</li>
+    <li>Uçuş takibi & ücretsiz bekleme – Uçuşunuz gecikirse, karşılama zamanı otomatik olarak ayarlanır.</li>
+    <li>Ücretsiz çocuk koltuğu – Aileler için talep üzerine sunulur.</li>
+    <li>Sabit & şeffaf fiyatlandırma – Gizli ücret yok, sürpriz yok.</li>
+    <li>7/24 Müşteri Desteği – İhtiyacınız olduğunda her zaman buradayız.</li>
+    <li>Temiz, konforlu, klimalı araçlar – Şık ve rahat bir yolculuk sunar.</li>
+    <li>Kapıdan kapıya hizmet – Yalıkavak’taki adresinize doğrudan bırakma.</li>
+</ul>
+
+<h2>Manzaralı Yalıkavak Yolculuğu</h2>
+<p>
+    Yalıkavak, Bodrum’un en seçkin bölgelerinden biridir. Dünyaca ünlü Yalıkavak Marina’ya, lüks restoranlara, butik mağazalara ve muhteşem gün batımı manzaralarına ev sahipliği yapar. <strong>APL Transfers</strong> ile konaklamanıza stressiz bir başlangıç yapın.
+</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 52 km</li>
+    <li><strong>Süre:</strong> 45–55 dakika (trafik durumuna göre)</li>
+    <li><strong>Güzergâh:</strong> D330 sahil yolu üzerinden – manzaralı ve verimli</li>
+</ul>
+
+<h2>Nasıl Rezervasyon Yapılır?</h2>
+<p>
+    <strong>Bodrum Havalimanı - Yalıkavak</strong> taksi transferinizi hızlı ve güvenli şekilde rezerve edebilirsiniz.
+    Online sistemimizi kullanarak aracınızı seçin, e-posta ile anında onay alın. Sürücünüz havalimanında sizi karşılayacaktır.
+</p>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+    <li>Aileler ve gruplar için minivan – Maksimum 8 yolcu kapasitesi.</li>
+    <li>Business Class Transfer – Lüks ve iş seyahatleri için ideal.</li>
+    <li>Ekstra Bagaj Alanı – Golf çantası, bebek arabası veya büyük valizler için uygundur.</li>
+</ul>
+
+<p>
+    Bugün <strong>Bodrum Havalimanı - Yalıkavak</strong> taksi transferinizi <strong>APL Transfers</strong> ile rezerve edin – Türkiye’de özel, şık ve güvenilir havalimanı ulaşımınızın profesyonel çözüm ortağı.
+</p>
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار بودروم إلى ياليكافاك</h1>
+
+<p>
+    هل وصلت إلى <strong>مطار بودروم (BJV)</strong> وتتجه إلى <strong>ياليكافاك</strong>؟ تقدم لك خدمة التاكسي الخاصة بنا رحلة مباشرة، مريحة وسلسة من المطار إلى فندقك أو الفيلا أو مكان إقامتك في ياليكافاك – بلدة المارينا الراقية المعروفة بالفخامة وغروب الشمس والحياة النابضة.
+</p>
+
+<p>
+    سواء كنت قادمًا لقضاء عطلة فاخرة، أو مغامرة بحرية أو عطلة هادئة على الشاطئ، توفر لك <strong>APL Transfers</strong> سيارات حديثة مكيفة وسائقين محترفين لضمان بداية مريحة لرحلتك.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li>الاستقبال في <a href="#">صالة الوصول</a> – سائقك سينتظرك بلافتة تحمل اسمك.</li>
+    <li>متابعة الرحلات والانتظار المجاني – نضبط وقت الاستقبال في حال تأخر الرحلة.</li>
+    <li>مقاعد أطفال مجانية – متوفرة عند الطلب.</li>
+    <li>أسعار ثابتة وشفافة – بدون رسوم خفية أو مفاجآت.</li>
+    <li>دعم العملاء على مدار الساعة – نحن دائمًا في خدمتك.</li>
+    <li>سيارات نظيفة ومريحة ومكيفة – لرحلة أنيقة وسلسة.</li>
+    <li>خدمة من الباب إلى الباب – توصيل مباشر إلى عنوانك في ياليكافاك.</li>
+</ul>
+
+<h2>رحلة ذات مناظر خلابة إلى ياليكافاك</h2>
+<p>
+    تُعد ياليكافاك واحدة من أكثر المناطق فخامة في بودروم، وتضم مارينا ياليكافاك العالمية، مطاعم راقية، متاجر فاخرة، وإطلالات خلابة على غروب الشمس. مع <strong>APL Transfers</strong> تبدأ رحلتك بدون أي توتر أو قلق.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+    <li><strong>المسافة:</strong> حوالي 52 كم</li>
+    <li><strong>المدة:</strong> 45–55 دقيقة (حسب حركة المرور)</li>
+    <li><strong>المسار:</strong> عبر طريق D330 الساحلي – طريق جميل وفعّال</li>
+</ul>
+
+<h2>كيفية الحجز؟</h2>
+<p>
+    حجز <strong>خدمة التاكسي من مطار بودروم إلى ياليكافاك</strong> سريع وآمن. استخدم نظام الحجز الإلكتروني، واختر السيارة، وستتلقى تأكيدًا فوريًا عبر البريد الإلكتروني. سائقك سيقابلك في المطار.
+</p>
+
+<h2>خدمات إضافية</h2>
+<ul>
+    <li>ميني فان للعائلات والمجموعات – حتى 8 ركاب.</li>
+    <li>خدمة درجة رجال الأعمال – للرفاهية والسفر التنفيذي.</li>
+    <li>مساحة إضافية للأمتعة – مثالية لأكياس الجولف أو عربات الأطفال أو الحقائب الكبيرة.</li>
+</ul>
+
+<p>
+    احجز <strong>خدمة التاكسي من مطار بودروم إلى ياليكافاك</strong> اليوم مع <strong>APL Transfers</strong> – شريكك الموثوق للنقل الخاص والأنيق والآمن في تركيا.
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en taxi desde el Aeropuerto de Bodrum a Yalıkavak</h1>
+
+<p>
+    ¿Llegas al <strong>Aeropuerto de Bodrum (BJV)</strong> y te diriges a <strong>Yalıkavak</strong>? Nuestro servicio de traslado privado en taxi ofrece un viaje directo, cómodo y sin estrés desde el aeropuerto hasta tu hotel, villa o alojamiento privado en Yalıkavak – una elegante localidad costera famosa por su marina, sus puestas de sol y su vibrante vida nocturna.
+</p>
+
+<p>
+    Ya sea que vengas para una escapada de lujo, una aventura en yate o unas vacaciones relajantes en la playa, <strong>APL Transfers</strong> ofrece vehículos modernos con aire acondicionado y conductores profesionales para asegurar que tu viaje comience con comodidad y confianza.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+    <li>Recepción en la <a href="#">sala de llegadas</a> – Tu conductor te esperará con un cartel con tu nombre.</li>
+    <li>Seguimiento de vuelos y espera gratuita – Ajustamos el horario si hay retraso.</li>
+    <li>Asientos infantiles gratuitos – Disponibles bajo petición.</li>
+    <li>Precios fijos y transparentes – Sin costes ocultos ni sorpresas.</li>
+    <li>Atención al cliente 24/7 – Siempre disponibles para ayudarte.</li>
+    <li>Vehículos limpios, cómodos y climatizados – Viaja con estilo y confort.</li>
+    <li>Servicio puerta a puerta – Entrega directa a tu dirección en Yalıkavak.</li>
+</ul>
+
+<h2>Traslado panorámico a Yalıkavak</h2>
+<p>
+    Yalıkavak es una de las zonas más exclusivas de Bodrum, hogar del famoso puerto deportivo Yalıkavak Marina, restaurantes de alta cocina, tiendas boutique y vistas inolvidables del atardecer. Con <strong>APL Transfers</strong>, disfrutarás de un comienzo perfecto.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+    <li><strong>Distancia:</strong> Aproximadamente 52 km</li>
+    <li><strong>Duración:</strong> Entre 45 y 55 minutos (dependiendo del tráfico)</li>
+    <li><strong>Ruta:</strong> Por la carretera D330 – escénica y directa</li>
+</ul>
+
+<h2>¿Cómo reservar?</h2>
+<p>
+    Reservar tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Yalıkavak</strong> es rápido y seguro. Utiliza nuestro sistema de reservas en línea, elige tu vehículo y recibe confirmación inmediata por correo electrónico. Tu conductor te recibirá en el aeropuerto.
+</p>
+
+<h2>Servicios adicionales</h2>
+<ul>
+    <li>Minivans para familias y grupos – Hasta 8 pasajeros.</li>
+    <li>Traslados en clase ejecutiva – Para lujo y viajes corporativos.</li>
+    <li>Espacio extra para equipaje – Ideal para bolsas de golf, cochecitos o maletas grandes.</li>
+</ul>
+
+<p>
+    Reserva hoy tu <strong>traslado desde el Aeropuerto de Bodrum a Yalıkavak</strong> con <strong>APL Transfers</strong> – tu socio confiable para transporte privado, elegante y seguro en Turquía.
+</p>
+
+            `,
+            it: `
+            <h1>Trasferimento in taxi dall'Aeroporto di Bodrum a Yalıkavak</h1>
+
+<p>
+    Arrivi all'<strong>Aeroporto di Bodrum (BJV)</strong> e sei diretto a <strong>Yalıkavak</strong>? Il nostro servizio di trasferimento privato in taxi ti offre un viaggio diretto, confortevole e senza stress dall'aeroporto al tuo hotel, villa o alloggio privato a Yalıkavak – una città elegante con marina, nota per il lusso, i tramonti e la vita vivace.
+</p>
+
+<p>
+    Che tu stia visitando per una fuga di lusso, una crociera in yacht o una vacanza rilassante al mare, <strong>APL Transfers</strong> fornisce veicoli moderni con aria condizionata e autisti professionisti per assicurarti un inizio viaggio in piena comodità e sicurezza.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+    <li>Accoglienza nella <a href="#">sala arrivi</a> – L’autista ti aspetterà con un cartello con il tuo nome.</li>
+    <li>Monitoraggio voli e attesa gratuita – Regoliamo l’orario in caso di ritardi.</li>
+    <li>Seggiolini per bambini gratuiti – Disponibili su richiesta.</li>
+    <li>Prezzi fissi e trasparenti – Nessun costo nascosto o sorprese.</li>
+    <li>Assistenza clienti 24/7 – Sempre disponibili per aiutarti.</li>
+    <li>Veicoli puliti, comodi e climatizzati – Viaggia con stile.</li>
+    <li>Servizio porta a porta – Consegna diretta al tuo alloggio a Yalıkavak.</li>
+</ul>
+
+<h2>Trasferimento panoramico a Yalıkavak</h2>
+<p>
+    Yalıkavak è una delle aree più esclusive di Bodrum, sede della famosa Yalıkavak Marina, ristoranti di alto livello, boutique di lusso e spettacolari tramonti. Con <strong>APL Transfers</strong> il tuo soggiorno inizia in totale relax.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+    <li><strong>Distanza:</strong> Circa 52 km</li>
+    <li><strong>Durata:</strong> 45–55 minuti (a seconda del traffico)</li>
+    <li><strong>Percorso:</strong> tramite la strada costiera D330 – panoramica ed efficiente</li>
+</ul>
+
+<h2>Come prenotare?</h2>
+<p>
+    Prenotare il tuo <strong>trasferimento in taxi dall'Aeroporto di Bodrum a Yalıkavak</strong> è facile e sicuro. Usa il nostro sistema online, scegli il veicolo e ricevi conferma istantanea via email. L'autista ti aspetterà all'arrivo.
+</p>
+
+<h2>Servizi aggiuntivi</h2>
+<ul>
+    <li>Minivan per famiglie e gruppi – Fino a 8 passeggeri.</li>
+    <li>Trasferimenti Business Class – Per viaggi di lusso e d’affari.</li>
+    <li>Spazio extra per bagagli – Ideale per sacche da golf, passeggini o valigie grandi.</li>
+</ul>
+
+<p>
+    Prenota ora il tuo <strong>trasferimento in taxi da Bodrum a Yalıkavak</strong> con <strong>APL Transfers</strong> – il tuo partner affidabile per trasporti privati eleganti e sicuri in Turchia.
+</p>
+
+            
+            `,
+            ru: `
+            <h1>Такси-трансфер из аэропорта Бодрума в Ялыкавак</h1>
+
+<p>
+    Прилетаете в <strong>аэропорт Бодрума (BJV)</strong> и направляетесь в <strong>Ялыкавак</strong>? Наша услуга частного трансфера на такси предлагает прямую, комфортную и безопасную поездку от аэропорта до вашего отеля, виллы или частного жилья в Ялыкаваке – стильном курортном городе, известном своей роскошной мариной, закатами и живой атмосферой.
+</p>
+
+<p>
+    Хотите ли вы расслабиться на побережье, отправиться в морское путешествие или насладиться роскошным отдыхом – <strong>APL Transfers</strong> предоставит современные автомобили с кондиционером и профессиональных водителей, чтобы вы начали своё пребывание с максимальным комфортом и уверенностью.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li>Встреча в <a href="#">зале прилёта</a> – водитель встретит вас с табличкой с вашим именем.</li>
+    <li>Отслеживание рейса и бесплатное ожидание – мы скорректируем время встречи в случае задержки рейса.</li>
+    <li>Бесплатные детские кресла – по запросу для семей с детьми.</li>
+    <li>Фиксированная и прозрачная цена – никаких скрытых сборов.</li>
+    <li>Поддержка клиентов 24/7 – мы всегда на связи.</li>
+    <li>Чистые, удобные автомобили с кондиционером – путешествуйте с комфортом.</li>
+    <li>Сервис "от двери до двери" – прямая доставка в ваше жильё в Ялыкаваке.</li>
+</ul>
+
+<h2>Живописная поездка в Ялыкавак</h2>
+<p>
+    Ялыкавак – один из самых престижных районов Бодрума, известный своей мариной, элитными ресторанами, бутиками и потрясающими закатами. С <strong>APL Transfers</strong> вы начнёте свой отпуск без стресса.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+    <li><strong>Расстояние:</strong> около 52 км</li>
+    <li><strong>Время в пути:</strong> 45–55 минут (в зависимости от трафика)</li>
+    <li><strong>Маршрут:</strong> по живописному прибрежному шоссе D330</li>
+</ul>
+
+<h2>Как забронировать?</h2>
+<p>
+    Забронировать <strong>трансфер из аэропорта Бодрума в Ялыкавак</strong> просто и безопасно. Используйте нашу онлайн-систему, выберите автомобиль и получите мгновенное подтверждение по электронной почте. Водитель будет ждать вас в аэропорту.
+</p>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+    <li>Минивэны для семей и групп – до 8 пассажиров.</li>
+    <li>Трансферы бизнес-класса – для комфортных и деловых поездок.</li>
+    <li>Дополнительное место для багажа – подходит для гольф-сумок, колясок или больших чемоданов.</li>
+</ul>
+
+<p>
+    Забронируйте <strong>трансфер на такси из аэропорта Бодрума в Ялыкавак</strong> уже сегодня с <strong>APL Transfers</strong> – вашим надежным партнёром по частным, стильным и безопасным трансферам в Турции.
+</p>
+
+            
+            `,
+            zh: `
+            <h1>博德鲁姆机场至亚勒卡瓦克出租车接送服务</h1>
+
+<p>
+    抵达 <strong>博德鲁姆机场 (BJV)</strong>，准备前往 <strong>亚勒卡瓦克（Yalıkavak）</strong>？我们的私人出租车接送服务可为您提供从机场直达酒店、别墅或私人住所的顺畅舒适旅程。亚勒卡瓦克是一座以高端游艇码头、奢华生活方式和迷人日落闻名的时尚小镇。
+</p>
+
+<p>
+    无论您是来享受奢华假期、游艇探险，还是在海边悠闲放松，<strong>APL Transfers</strong> 都将为您提供配备空调的现代车辆和专业司机，确保您的旅程从舒适与安心开始。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li>在 <a href="#">到达大厅</a> 接机 – 司机举着写有您名字的牌子等候。</li>
+    <li>航班跟踪与免费等待 – 如航班延误，我们将自动调整接机时间。</li>
+    <li>免费儿童座椅 – 可根据需求为家庭提供。</li>
+    <li>固定透明价格 – 无隐藏费用或额外收费。</li>
+    <li>全天候客户支持 – 任何时候都可以联系我们。</li>
+    <li>干净舒适的空调车辆 – 让您享受时尚、安心的旅程。</li>
+    <li>门到门服务 – 直达您在亚勒卡瓦克的住处。</li>
+</ul>
+
+<h2>前往亚勒卡瓦克的风景之旅</h2>
+<p>
+    亚勒卡瓦克是博德鲁姆最顶级的区域之一，拥有世界知名的Yalıkavak Marina，精品餐厅、高档购物和壮丽的海上日落景观。通过 <strong>APL Transfers</strong>，您将拥有无忧的起点，尽情享受您的假期。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+    <li><strong>距离：</strong> 约 52 公里</li>
+    <li><strong>车程：</strong> 约 45–55 分钟（视交通情况而定）</li>
+    <li><strong>路线：</strong> 途经 D330 海岸公路 – 风景优美且高效</li>
+</ul>
+
+<h2>如何预订？</h2>
+<p>
+    预订 <strong>博德鲁姆机场至亚勒卡瓦克</strong> 出租车接送服务快速且安全。
+    使用我们的在线预订系统选择车辆，确认价格后即可通过电子邮件收到即时确认。司机将在机场迎接您。
+</p>
+
+<h2>附加服务</h2>
+<ul>
+    <li>适合家庭和团体的商务车 – 最多容纳 8 名乘客。</li>
+    <li>商务舱接送服务 – 适合高端和企业出行。</li>
+    <li>额外行李空间 – 适合高尔夫球袋、婴儿车或大件行李。</li>
+</ul>
+
+<p>
+    立即通过 <strong>APL Transfers</strong> 预订您的 <strong>博德鲁姆机场至亚勒卡瓦克</strong> 出租车服务 —— 享受土耳其专属、时尚与安全的接送服务。
+</p>
+
+            `,
         },
         "/bodrum-airport-to-golturkbuku": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Bodrum Airport to Göltürkbükü Taxi Transfer</h1>
+
+<p>
+    Flying into <strong>Bodrum Airport (BJV)</strong> and heading to the upscale coastal town of <strong>Göltürkbükü</strong>? APL Transfers offers a private taxi transfer service that ensures a smooth, direct, and elegant ride from the airport to your hotel, villa, or private accommodation in Göltürkbükü — one of the most exclusive destinations on the Bodrum Peninsula.
+</p>
+
+<p>
+    Whether you're visiting for a luxury holiday, a romantic getaway, or a relaxing beachside break, our modern, air-conditioned vehicles and professional drivers guarantee a comfortable and stress-free start to your stay.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li>Meet & Greet at the <a href="#">Arrivals</a> Hall – Your driver will be waiting with a name board.</li>
+    <li>Flight Tracking & Free Waiting – We monitor delays and adjust pickup time at no extra cost.</li>
+    <li>Free Child Seats – Provided on request.</li>
+    <li>Fixed Pricing – No hidden fees or surprises.</li>
+    <li>24/7 Customer Support – Always here to help.</li>
+    <li>Clean, Comfortable, Air-Conditioned Vehicles – Ride in style and ease.</li>
+    <li>Door-to-Door Service – Direct drop-off at any address in Göltürkbükü.</li>
+</ul>
+
+<h2>Elegant Transfer to Bodrum’s Most Stylish Destination</h2>
+<p>
+    Göltürkbükü is known for its crystal-clear waters, luxurious beach clubs, celebrity visitors, and stylish ambiance. With <strong>APL Transfers</strong>, you avoid long taxi lines and begin your holiday the right way.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+    <li><strong>Distance:</strong> Approximately 45 km</li>
+    <li><strong>Duration:</strong> Around 40–50 minutes (depending on traffic)</li>
+    <li><strong>Route:</strong> Via the scenic D330 and coastal routes</li>
+</ul>
+
+<h2>How to Book?</h2>
+<p>
+    Booking your <strong>taxi transfer from Bodrum Airport to Göltürkbükü</strong> is simple and secure. Use our online system, choose your vehicle, confirm the price, and receive instant email confirmation.
+</p>
+
+<h2>Additional Services</h2>
+<ul>
+    <li>Minivans for Families & Groups – Spacious options for up to 8 passengers.</li>
+    <li>Business-Class Transfers – For added luxury and style.</li>
+    <li>Extra Luggage Space – Ideal for oversized bags, golf clubs, or baby strollers.</li>
+</ul>
+
+<p>
+    Book your <strong>Bodrum Airport to Göltürkbükü</strong> transfer now with <strong>APL Transfers</strong> — your trusted partner for private, professional, and reliable airport transportation in Turkey.
+</p>
+
+            `,
+            tr: `
+            <h1>Bodrum Havalimanı - Göltürkbükü Taksi Transferi</h1>
+
+<p>
+    <strong>Bodrum Havalimanı (BJV)</strong>'na iniş yaptıktan sonra <strong>Göltürkbükü</strong>'ne mi gidiyorsunuz? APL Transfers, havalimanından Göltürkbükü’ndeki otel, villa veya özel konaklamanıza kadar şık, doğrudan ve konforlu bir özel taksi transferi sunar — Bodrum Yarımadası’nın en seçkin tatil beldelerinden biri.
+</p>
+
+<p>
+    İster lüks bir tatil, ister romantik bir kaçamak ya da deniz kenarında huzurlu bir mola için gelmiş olun; klimalı modern araçlarımız ve profesyonel şoförlerimiz konforlu ve stressiz bir başlangıç sunar.
+</p>
+
+<h2>Neden APL Transfers?</h2>
+<ul>
+    <li><a href="#">Varış salonunda karşılama</a> – Sürücünüz isminizin yazılı olduğu tabela ile sizi bekler.</li>
+    <li>Uçuş takibi & ücretsiz bekleme – Gecikmelerde ekstra ücret olmadan zamanlama ayarlanır.</li>
+    <li>Ücretsiz çocuk koltuğu – Talep üzerine sunulur.</li>
+    <li>Sabit fiyat – Sürpriz veya gizli ücret yoktur.</li>
+    <li>7/24 Müşteri Desteği – Her zaman yanınızdayız.</li>
+    <li>Temiz, konforlu ve klimalı araçlar – Şık ve rahat bir yolculuk sağlar.</li>
+    <li>Kapıdan kapıya hizmet – Göltürkbükü’ndeki her adrese doğrudan teslimat.</li>
+</ul>
+
+<h2>Bodrum’un En Şık Noktasına Zarif Ulaşım</h2>
+<p>
+    Göltürkbükü; berrak denizi, lüks beach club'ları, ünlü misafirleri ve sofistike atmosferiyle bilinir. <strong>APL Transfers</strong> ile taksi kuyruğu beklemeden tatilinize kusursuz bir başlangıç yaparsınız.
+</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 45 km</li>
+    <li><strong>Süre:</strong> 40–50 dakika (trafik durumuna göre değişebilir)</li>
+    <li><strong>Güzergâh:</strong> D330 ve sahil yolu üzerinden manzaralı rota</li>
+</ul>
+
+<h2>Nasıl Rezervasyon Yapılır?</h2>
+<p>
+    <strong>Bodrum Havalimanı - Göltürkbükü</strong> taksi transferinizi güvenli ve kolay şekilde rezerve edebilirsiniz. Online sistemimizi kullanın, aracınızı seçin, fiyatı onaylayın ve e-posta ile anında onay alın.
+</p>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+    <li>Aileler ve gruplar için minivan – 8 kişiye kadar ferah seçenekler.</li>
+    <li>Business Class Transfer – Lüks ve şıklık için ideal.</li>
+    <li>Ekstra Bagaj Alanı – Büyük valizler, golf çantaları veya bebek arabaları için uygundur.</li>
+</ul>
+
+<p>
+    Bugün <strong>Bodrum Havalimanı - Göltürkbükü</strong> taksi transferinizi <strong>APL Transfers</strong> ile rezerve edin — Türkiye’de güvenli, özel ve profesyonel havalimanı ulaşımının güvenilir adresi.
+</p>
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار بودروم إلى غولتوركبوكو</h1>
+
+<p>
+    هل وصلت إلى <strong>مطار بودروم (BJV)</strong> وتتجه إلى بلدة <strong>غولتوركبوكو</strong> الساحلية الراقية؟ توفر لك APL Transfers خدمة نقل خاصة تضمن لك رحلة مباشرة وأنيقة ومريحة من المطار إلى فندقك أو فيلتك أو مكان إقامتك الخاص في غولتوركبوكو — إحدى أكثر الوجهات تميزًا في شبه جزيرة بودروم.
+</p>
+
+<p>
+    سواء كنت تزور من أجل عطلة فاخرة أو لقضاء عطلة رومانسية أو للاسترخاء على الشاطئ، فإن سياراتنا الحديثة المكيفة وسائقينا المحترفين يضمنون لك بداية مريحة وخالية من التوتر.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li>الاستقبال في <a href="#">صالة الوصول</a> – سينتظرك السائق بلافتة تحمل اسمك.</li>
+    <li>متابعة الرحلات والانتظار المجاني – نتابع التأخيرات ونضبط وقت الاستقبال دون رسوم إضافية.</li>
+    <li>مقاعد أطفال مجانية – متوفرة عند الطلب.</li>
+    <li>أسعار ثابتة – بدون رسوم خفية أو مفاجآت.</li>
+    <li>دعم عملاء على مدار الساعة – نحن دائمًا في خدمتك.</li>
+    <li>سيارات نظيفة ومريحة ومكيفة – لرحلة أنيقة وسلسة.</li>
+    <li>خدمة من الباب إلى الباب – توصيل مباشر إلى أي عنوان في غولتوركبوكو.</li>
+</ul>
+
+<h2>رحلة راقية إلى إحدى أرقى وجهات بودروم</h2>
+<p>
+    تشتهر غولتوركبوكو بمياهها الصافية ونوادي الشاطئ الفاخرة وزوارها من المشاهير وأجوائها الراقية. مع <strong>APL Transfers</strong>، تبدأ عطلتك بدون الحاجة للانتظار في طوابير التاكسي.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+    <li><strong>المسافة:</strong> حوالي 45 كم</li>
+    <li><strong>المدة:</strong> 40–50 دقيقة (حسب حركة المرور)</li>
+    <li><strong>المسار:</strong> عبر طريق D330 والمنطقة الساحلية ذات المناظر الطبيعية</li>
+</ul>
+
+<h2>كيفية الحجز؟</h2>
+<p>
+    حجز <strong>خدمة التاكسي من مطار بودروم إلى غولتوركبوكو</strong> سهل وآمن. استخدم نظام الحجز عبر الإنترنت، اختر سيارتك، أكد السعر، واستلم تأكيدًا فوريًا عبر البريد الإلكتروني.
+</p>
+
+<h2>خدمات إضافية</h2>
+<ul>
+    <li>ميني فان للعائلات والمجموعات – خيارات واسعة لما يصل إلى 8 ركاب.</li>
+    <li>خدمة درجة رجال الأعمال – لمزيد من الرفاهية والأناقة.</li>
+    <li>مساحة إضافية للأمتعة – مثالية للحقائب الكبيرة أو معدات الجولف أو عربات الأطفال.</li>
+</ul>
+
+<p>
+    احجز <strong>خدمة التاكسي من مطار بودروم إلى غولتوركبوكو</strong> الآن مع <strong>APL Transfers</strong> — شريكك الموثوق للنقل الخاص والاحترافي في تركيا.
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en taxi desde el Aeropuerto de Bodrum a Göltürkbükü</h1>
+
+<p>
+    ¿Llegas al <strong>Aeropuerto de Bodrum (BJV)</strong> y te diriges a la exclusiva localidad costera de <strong>Göltürkbükü</strong>? <strong>APL Transfers</strong> ofrece un servicio de taxi privado que garantiza un viaje directo, elegante y sin complicaciones desde el aeropuerto hasta tu hotel, villa o alojamiento privado en Göltürkbükü — uno de los destinos más selectos de la península de Bodrum.
+</p>
+
+<p>
+    Ya sea que viajes por unas vacaciones de lujo, una escapada romántica o unos días de descanso frente al mar, nuestros vehículos modernos con aire acondicionado y conductores profesionales garantizan un inicio de viaje cómodo y sin estrés.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+    <li>Recepción en la <a href="#">sala de llegadas</a> – Tu conductor te esperará con un cartel con tu nombre.</li>
+    <li>Seguimiento de vuelos y espera gratuita – Ajustamos el horario sin coste adicional en caso de retraso.</li>
+    <li>Asientos infantiles gratuitos – Disponibles bajo solicitud.</li>
+    <li>Precios fijos – Sin cargos ocultos ni sorpresas.</li>
+    <li>Atención al cliente 24/7 – Siempre disponibles para ayudarte.</li>
+    <li>Vehículos limpios, cómodos y climatizados – Viaja con estilo y comodidad.</li>
+    <li>Servicio puerta a puerta – Entrega directa en cualquier dirección de Göltürkbükü.</li>
+</ul>
+
+<h2>Traslado elegante a uno de los destinos más exclusivos</h2>
+<p>
+    Göltürkbükü es famosa por sus aguas cristalinas, beach clubs de lujo, celebridades y ambiente sofisticado. Con <strong>APL Transfers</strong>, evitarás las filas de taxis y comenzarás tus vacaciones con tranquilidad.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+    <li><strong>Distancia:</strong> Aproximadamente 45 km</li>
+    <li><strong>Duración:</strong> 40–50 minutos (según el tráfico)</li>
+    <li><strong>Ruta:</strong> Por la carretera D330 y vías costeras panorámicas</li>
+</ul>
+
+<h2>¿Cómo reservar?</h2>
+<p>
+    Reservar tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Göltürkbükü</strong> es fácil y seguro. Usa nuestro sistema en línea, elige tu vehículo, confirma el precio y recibe la confirmación inmediata por correo electrónico.
+</p>
+
+<h2>Servicios adicionales</h2>
+<ul>
+    <li>Minivans para familias y grupos – Opciones amplias para hasta 8 pasajeros.</li>
+    <li>Traslados en clase ejecutiva – Para mayor lujo y estilo.</li>
+    <li>Espacio extra para equipaje – Ideal para maletas grandes, palos de golf o cochecitos.</li>
+</ul>
+
+<p>
+    Reserva hoy tu <strong>traslado desde el Aeropuerto de Bodrum a Göltürkbükü</strong> con <strong>APL Transfers</strong> — tu socio confiable para transporte privado, profesional y puntual en Turquía.
+</p>
+
+            `,
+            it: `
+            <h1>Trasferimento in taxi dall'Aeroporto di Bodrum a Göltürkbükü</h1>
+
+<p>
+    Atterri all'<strong>Aeroporto di Bodrum (BJV)</strong> e stai andando nella località balneare esclusiva di <strong>Göltürkbükü</strong>? <strong>APL Transfers</strong> ti offre un trasferimento privato in taxi diretto, confortevole ed elegante dal terminal fino al tuo hotel, villa o alloggio privato a Göltürkbükü – una delle destinazioni più raffinate della penisola di Bodrum.
+</p>
+
+<p>
+    Che tu stia viaggiando per una vacanza di lusso, una fuga romantica o un soggiorno rilassante al mare, i nostri veicoli moderni con aria condizionata e autisti professionisti ti garantiscono una partenza senza stress e piena di comfort.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+    <li>Accoglienza nella <a href="#">sala arrivi</a> – Il tuo autista ti aspetterà con un cartello con il tuo nome.</li>
+    <li>Monitoraggio dei voli e attesa gratuita – Regoliamo l’orario in caso di ritardo del volo.</li>
+    <li>Seggiolini per bambini gratuiti – Disponibili su richiesta.</li>
+    <li>Prezzi fissi – Nessun costo nascosto o sorpresa.</li>
+    <li>Assistenza clienti 24/7 – Sempre disponibili quando ne hai bisogno.</li>
+    <li>Veicoli puliti, confortevoli e climatizzati – Viaggia con stile e comodità.</li>
+    <li>Servizio porta a porta – Consegna diretta al tuo alloggio a Göltürkbükü.</li>
+</ul>
+
+<h2>Trasferimento elegante verso una destinazione esclusiva</h2>
+<p>
+    Göltürkbükü è rinomata per le sue acque cristalline, i beach club di lusso, i visitatori famosi e l’atmosfera sofisticata. Con <strong>APL Transfers</strong> eviti le code per i taxi e inizi la tua vacanza nel modo migliore.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+    <li><strong>Distanza:</strong> Circa 45 km</li>
+    <li><strong>Durata:</strong> 40–50 minuti (in base al traffico)</li>
+    <li><strong>Percorso:</strong> tramite la panoramica strada costiera D330</li>
+</ul>
+
+<h2>Come prenotare?</h2>
+<p>
+    Prenotare il tuo <strong>trasferimento in taxi dall'Aeroporto di Bodrum a Göltürkbükü</strong> è semplice e sicuro. Usa il nostro sistema di prenotazione online, scegli il veicolo, conferma il prezzo e ricevi conferma immediata via email.
+</p>
+
+<h2>Servizi aggiuntivi</h2>
+<ul>
+    <li>Minivan per famiglie e gruppi – Opzioni spaziose per un massimo di 8 passeggeri.</li>
+    <li>Trasferimenti Business Class – Per un'esperienza ancora più lussuosa.</li>
+    <li>Spazio extra per i bagagli – Perfetto per valigie grandi, attrezzature sportive o passeggini.</li>
+</ul>
+
+<p>
+    Prenota oggi il tuo <strong>trasferimento dall'Aeroporto di Bodrum a Göltürkbükü</strong> con <strong>APL Transfers</strong> – il tuo partner affidabile per trasporti privati, sicuri e professionali in Turchia.
+</p>
+
+            `,
+            ru: `
+            <h1>Такси-трансфер из аэропорта Бодрума в Гёльтюркбюку</h1>
+
+<p>
+    Прилетаете в <strong>аэропорт Бодрума (BJV)</strong> и направляетесь в элитный прибрежный район <strong>Гёльтюркбюку</strong>? <strong>APL Transfers</strong> предлагает частный трансфер на такси — комфортную, прямую и стильную поездку от терминала до вашего отеля, виллы или жилья в Гёльтюркбюку — одном из самых престижных мест на полуострове Бодрум.
+</p>
+
+<p>
+    Хотите провести роскошный отпуск, романтический уикенд или просто отдохнуть у моря? Наши современные автомобили с кондиционером и профессиональные водители обеспечат вам спокойное и удобное начало путешествия.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li>Встреча в <a href="#">зале прилёта</a> – водитель встретит вас с табличкой с именем.</li>
+    <li>Отслеживание рейса и бесплатное ожидание – мы скорректируем время в случае задержки.</li>
+    <li>Бесплатные детские кресла – по запросу.</li>
+    <li>Фиксированные цены – без скрытых комиссий и доплат.</li>
+    <li>Круглосуточная поддержка – всегда на связи.</li>
+    <li>Чистые, комфортные, кондиционируемые автомобили – едьте стильно и с комфортом.</li>
+    <li>Сервис «от двери до двери» – доставка по любому адресу в Гёльтюркбюку.</li>
+</ul>
+
+<h2>Элегантный трансфер в элитную часть Бодрума</h2>
+<p>
+    Гёльтюркбюку известен своими чистыми водами, роскошными пляжными клубами, знаменитостями и изысканной атмосферой. С <strong>APL Transfers</strong> вы забудете о такси и начнёте отдых с комфорта.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+    <li><strong>Расстояние:</strong> около 45 км</li>
+    <li><strong>Время в пути:</strong> 40–50 минут (в зависимости от трафика)</li>
+    <li><strong>Маршрут:</strong> по живописной прибрежной дороге D330</li>
+</ul>
+
+<h2>Как забронировать?</h2>
+<p>
+    Забронировать <strong>трансфер из аэропорта Бодрума в Гёльтюркбюку</strong> просто и безопасно. Воспользуйтесь нашей онлайн-системой, выберите автомобиль, подтвердите цену и получите мгновенное подтверждение по email.
+</p>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+    <li>Минивэны для семей и групп – до 8 пассажиров.</li>
+    <li>Бизнес-класс – для дополнительного комфорта и престижа.</li>
+    <li>Дополнительное место для багажа – идеально для крупногабаритных чемоданов, колясок или спортивного инвентаря.</li>
+</ul>
+
+<p>
+    Забронируйте <strong>такси из аэропорта Бодрума в Гёльтюркбюку</strong> уже сегодня с <strong>APL Transfers</strong> — вашим надёжным партнёром в сфере частного и профессионального трансфера в Турции.
+</p>
+
+            `,
+            zh: `
+            <h1>博德鲁姆机场至格尔图尔克布克出租车接送服务</h1>
+
+<p>
+    抵达 <strong>博德鲁姆机场 (BJV)</strong>，准备前往高端海滨小镇 <strong>格尔图尔克布克（Göltürkbükü）</strong>？<strong>APL Transfers</strong> 提供私人出租车接送服务，确保您从机场前往酒店、别墅或私人住宿的旅程顺畅、舒适而高雅。这里是博德鲁姆半岛最具声望的度假胜地之一。
+</p>
+
+<p>
+    无论您是来度过奢华假期、浪漫之旅，还是放松的海边时光，我们的现代化空调车辆和专业司机都将为您提供一个轻松舒适的开始。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li>在 <a href="#">到达大厅</a> 接机 – 司机将举着写有您姓名的接机牌等候。</li>
+    <li>航班跟踪与免费等待 – 如果航班延误，我们将免费调整接机时间。</li>
+    <li>免费儿童座椅 – 根据要求提供，保障家庭出行安全。</li>
+    <li>固定价格 – 无隐藏费用或意外收费。</li>
+    <li>全天候客户支持 – 我们始终在线为您提供帮助。</li>
+    <li>干净、舒适、空调车辆 – 高端、轻松的出行体验。</li>
+    <li>门到门服务 – 可送达格尔图尔克布克任意地址。</li>
+</ul>
+
+<h2>优雅抵达博德鲁姆最时尚的目的地</h2>
+<p>
+    格尔图尔克布克以清澈海水、奢华沙滩俱乐部、名人常客和高雅氛围而著称。通过 <strong>APL Transfers</strong>，您无需排队打车，轻松开启假期。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+    <li><strong>距离：</strong> 约 45 公里</li>
+    <li><strong>车程：</strong> 约 40–50 分钟（视交通情况而定）</li>
+    <li><strong>路线：</strong> 经由风景优美的 D330 和沿海公路</li>
+</ul>
+
+<h2>如何预订？</h2>
+<p>
+    预订 <strong>博德鲁姆机场至格尔图尔克布克</strong> 的出租车接送服务既简单又安全。只需使用我们的在线系统选择车辆并确认价格，即可通过电子邮件收到即时确认。
+</p>
+
+<h2>附加服务</h2>
+<ul>
+    <li>适合家庭和团体的商务车 – 最多容纳 8 名乘客。</li>
+    <li>商务舱接送服务 – 提供更高水平的舒适和奢华。</li>
+    <li>额外行李空间 – 适用于大号行李、高尔夫球包或婴儿车。</li>
+</ul>
+
+<p>
+    立即通过 <strong>APL Transfers</strong> 预订您的 <strong>博德鲁姆机场至格尔图尔克布克</strong> 出租车服务 —— 您在土耳其可靠、专业、安全的私人交通合作伙伴。
+</p>
+
+            
+            `,
         },
         "/bodrum-airport-to-ortakent": {
-            en: ``,
-            tr: ``,
-            ar: ``,
-            es: ``,
-            it: ``,
-            ru: ``,
-            zh: ``,
+            en: `
+            <h1>Bodrum Airport to Ortakent Taxi Transfer</h1>
+
+<p>
+    Arriving at <strong>Bodrum Airport (BJV)</strong> and heading to <strong>Ortakent</strong>? Our private taxi transfer service offers a smooth, direct, and comfortable journey from the airport to your hotel, villa, or private address in Ortakent – a charming town known for its peaceful beaches, authentic markets, and relaxed atmosphere.
+</p>
+
+<p>
+    Whether you're traveling for a beach vacation, a family holiday, or a business trip, <strong>APL Transfers</strong> provides reliable, air-conditioned vehicles and professional drivers for a safe and stress-free experience.
+</p>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li>Meet & Greet at the <a href="#">Arrivals</a> Hall – Your driver will wait with a name board.</li>
+    <li>Flight Tracking & Free Waiting – We adjust pickup time in case of flight delays at no cost.</li>
+    <li>Free Child Seats – Provided upon request for families.</li>
+    <li>Fixed & Transparent Pricing – No hidden fees or surprises.</li>
+    <li>24/7 Customer Support – We’re always available to help.</li>
+    <li>Clean, Comfortable, Air-Conditioned Vehicles – Travel in style and ease.</li>
+    <li>Door-to-Door Service – Drop-off at any location in Ortakent.</li>
+</ul>
+
+<h2>Relaxing Transfer to Ortakent</h2>
+<p>
+    Ortakent offers the best of both worlds – long sandy beaches and a quiet, authentic village feel. Enjoy the scenic ride with <strong>APL Transfers</strong> and avoid the hassle of taxis or shuttles.
+</p>
+
+<h2>Journey Details</h2>
+<ul>
+    <li><strong>Distance:</strong> Approximately 45 km</li>
+    <li><strong>Duration:</strong> Around 40–50 minutes (depending on traffic)</li>
+    <li><strong>Route:</strong> Via D330 highway</li>
+</ul>
+
+<h2>How to Book?</h2>
+<p>
+    Booking your <strong>Bodrum Airport to Ortakent</strong> transfer is fast and secure. Use our online reservation system, select your vehicle, confirm your price, and receive instant email confirmation.
+</p>
+
+<h2>Additional Services</h2>
+<ul>
+    <li>Minivans for Families & Groups – Spacious options for up to 8 passengers.</li>
+    <li>Business-Class Transfers – Travel in comfort and style.</li>
+    <li>Extra Luggage Space – Ideal for oversized bags, strollers, or sports equipment.</li>
+</ul>
+
+<p>
+    Book your <strong>taxi transfer from Bodrum Airport to Ortakent</strong> today with <strong>APL Transfers</strong> – your trusted partner for private, safe, and professional airport transportation in Turkey.
+</p>
+
+            
+            `,
+            tr: `
+            <h1>Bodrum Havalimanı - Ortakent Taksi Transferi</h1>
+
+<p>
+    <strong>Bodrum Havalimanı (BJV)</strong>'na iniş yaptınız ve <strong>Ortakent</strong>'e mi gidiyorsunuz? Özel taksi transfer hizmetimiz, havalimanından Ortakent’teki otel, villa veya özel adresinize kadar rahat, doğrudan ve konforlu bir ulaşım sunar. Ortakent; huzurlu plajları, otantik pazarları ve sakin atmosferiyle tanınır.
+</p>
+
+<p>
+    İster deniz tatili, ister aile gezisi, ister iş seyahati için yolculuk ediyor olun, <strong>APL Transfers</strong> size klimalı araçlar ve profesyonel şoförlerle güvenli ve sorunsuz bir deneyim sunar.
+</p>
+
+<h2>Neden APL Transfers?</h2>
+<ul>
+    <li><a href="#">Varış salonunda karşılama</a> – Sürücünüz isminizin yazılı olduğu tabela ile sizi bekler.</li>
+    <li>Uçuş takibi ve ücretsiz bekleme – Uçuş gecikmelerinde zaman ayarlaması ücretsiz olarak yapılır.</li>
+    <li>Ücretsiz çocuk koltuğu – Aileler için talep üzerine sağlanır.</li>
+    <li>Sabit ve şeffaf fiyatlandırma – Gizli ücret veya sürpriz yok.</li>
+    <li>7/24 Müşteri Desteği – Yardıma ihtiyaç duyduğunuz her an ulaşabilirsiniz.</li>
+    <li>Temiz, konforlu ve klimalı araçlar – Rahat ve şık bir yolculuk sağlar.</li>
+    <li>Kapıdan kapıya hizmet – Ortakent’teki tüm adreslere teslimat yapılır.</li>
+</ul>
+
+<h2>Ortakent’e Rahat Yolculuk</h2>
+<p>
+    Ortakent uzun kumsalları ve otantik köy atmosferiyle hem doğa hem de huzur severlere hitap eder. <strong>APL Transfers</strong> ile keyifli bir yolculuk yapın, taksi veya servis telaşından kurtulun.
+</p>
+
+<h2>Yolculuk Detayları</h2>
+<ul>
+    <li><strong>Mesafe:</strong> Yaklaşık 45 km</li>
+    <li><strong>Süre:</strong> 40–50 dakika (trafik durumuna göre)</li>
+    <li><strong>Güzergâh:</strong> D330 karayolu üzerinden</li>
+</ul>
+
+<h2>Nasıl Rezervasyon Yapılır?</h2>
+<p>
+    <strong>Bodrum Havalimanı - Ortakent</strong> transferinizi hızlı ve güvenli bir şekilde rezerve edebilirsiniz. Online rezervasyon sistemimizi kullanın, aracınızı seçin, fiyatı onaylayın ve e-posta ile anında onay alın.
+</p>
+
+<h2>Ek Hizmetler</h2>
+<ul>
+    <li>Aileler ve gruplar için minivan – 8 kişiye kadar ferah seçenekler.</li>
+    <li>Business Class Transfer – Konforlu ve şık bir ulaşım deneyimi.</li>
+    <li>Ekstra Bagaj Alanı – Büyük valizler, bebek arabası veya spor ekipmanları için idealdir.</li>
+</ul>
+
+<p>
+    Bugün <strong>Bodrum Havalimanı - Ortakent</strong> taksi transferinizi <strong>APL Transfers</strong> ile rezerve edin – Türkiye'de güvenli, özel ve profesyonel havalimanı ulaşımında güvenilir ortağınız.
+</p>
+
+            `,
+            ar: `
+            <h1>خدمة التاكسي من مطار بودروم إلى أورتاكينت</h1>
+
+<p>
+    وصلت إلى <strong>مطار بودروم (BJV)</strong> وتتجه إلى <strong>أورتاكينت</strong>؟ تقدم لك خدمتنا الخاصة بسيارات الأجرة رحلة مريحة ومباشرة من المطار إلى فندقك أو فيلتك أو عنوانك الخاص في أورتاكينت – بلدة ساحلية هادئة معروفة بشواطئها الهادئة وأسواقها المحلية وجوها المريح.
+</p>
+
+<p>
+    سواء كنت مسافرًا لقضاء عطلة على الشاطئ أو مع العائلة أو في رحلة عمل، تقدم <strong>APL Transfers</strong> سيارات مكيفة وآمنة وسائقين محترفين لضمان تجربة خالية من التوتر.
+</p>
+
+<h2>لماذا تختار APL Transfers؟</h2>
+<ul>
+    <li>الاستقبال في <a href="#">صالة الوصول</a> – سائقك سينتظرك بلافتة تحمل اسمك.</li>
+    <li>متابعة الرحلات والانتظار المجاني – نعدّل وقت الاستلام في حال تأخرت الرحلة دون رسوم إضافية.</li>
+    <li>مقاعد أطفال مجانية – متوفرة عند الطلب.</li>
+    <li>أسعار ثابتة وشفافة – لا رسوم خفية أو مفاجآت.</li>
+    <li>دعم العملاء على مدار الساعة – نحن دائمًا هنا لمساعدتك.</li>
+    <li>سيارات نظيفة ومريحة ومكيفة – للسفر بأناقة وراحة.</li>
+    <li>خدمة من الباب إلى الباب – التوصيل إلى أي عنوان في أورتاكينت.</li>
+</ul>
+
+<h2>رحلة مريحة إلى أورتاكينت</h2>
+<p>
+    تقدم أورتاكينت مزيجًا رائعًا من الشواطئ الرملية الطويلة وجو القرى التركية الأصيلة. استمتع برحلة ذات مناظر خلابة مع <strong>APL Transfers</strong> وابدأ عطلتك بدون توتر.
+</p>
+
+<h2>تفاصيل الرحلة</h2>
+<ul>
+    <li><strong>المسافة:</strong> حوالي 45 كم</li>
+    <li><strong>المدة:</strong> بين 40 و50 دقيقة (حسب حركة المرور)</li>
+    <li><strong>المسار:</strong> عبر الطريق السريع D330</li>
+</ul>
+
+<h2>كيف تحجز؟</h2>
+<p>
+    حجز <strong>خدمة التاكسي من مطار بودروم إلى أورتاكينت</strong> سهل وآمن. استخدم نظام الحجز عبر الإنترنت، اختر السيارة، أكد السعر، واستلم تأكيدًا فوريًا عبر البريد الإلكتروني.
+</p>
+
+<h2>خدمات إضافية</h2>
+<ul>
+    <li>ميني فان للعائلات والمجموعات – خيارات واسعة تصل إلى 8 ركاب.</li>
+    <li>خدمة درجة رجال الأعمال – لتجربة فاخرة ومريحة.</li>
+    <li>مساحة إضافية للأمتعة – مثالية للحقائب الكبيرة أو معدات الأطفال أو المعدات الرياضية.</li>
+</ul>
+
+<p>
+    احجز <strong>خدمة التاكسي من مطار بودروم إلى أورتاكينت</strong> اليوم مع <strong>APL Transfers</strong> – شريكك الموثوق للنقل الخاص والآمن والاحترافي في تركيا.
+</p>
+
+            `,
+            es: `
+            <h1>Traslado en taxi desde el Aeropuerto de Bodrum a Ortakent</h1>
+
+<p>
+    ¿Llegas al <strong>Aeropuerto de Bodrum (BJV)</strong> y vas hacia <strong>Ortakent</strong>? Nuestro servicio de traslado privado en taxi ofrece un viaje directo, cómodo y sin estrés desde el aeropuerto hasta tu hotel, villa o alojamiento privado en Ortakent – un encantador pueblo costero conocido por sus playas tranquilas, mercados auténticos y ambiente relajado.
+</p>
+
+<p>
+    Ya sea que viajes por vacaciones en la playa, con la familia o por trabajo, <strong>APL Transfers</strong> te ofrece vehículos con aire acondicionado y conductores profesionales para una experiencia segura y confiable.
+</p>
+
+<h2>¿Por qué elegir APL Transfers?</h2>
+<ul>
+    <li>Recepción en la <a href="#">sala de llegadas</a> – Tu conductor te esperará con un cartel con tu nombre.</li>
+    <li>Seguimiento de vuelos y espera gratuita – Ajustamos la recogida si tu vuelo se retrasa sin coste adicional.</li>
+    <li>Asientos para niños gratis – Disponibles a solicitud.</li>
+    <li>Precios fijos y transparentes – Sin sorpresas ni cargos ocultos.</li>
+    <li>Atención al cliente 24/7 – Siempre disponibles para ayudarte.</li>
+    <li>Vehículos limpios, cómodos y climatizados – Viaja con estilo.</li>
+    <li>Servicio puerta a puerta – Te dejamos en cualquier dirección en Ortakent.</li>
+</ul>
+
+<h2>Traslado tranquilo a Ortakent</h2>
+<p>
+    Ortakent ofrece lo mejor de dos mundos: playas extensas de arena y un auténtico ambiente de pueblo. Disfruta del trayecto escénico con <strong>APL Transfers</strong> y evita las molestias de buscar taxi.
+</p>
+
+<h2>Detalles del viaje</h2>
+<ul>
+    <li><strong>Distancia:</strong> Aproximadamente 45 km</li>
+    <li><strong>Duración:</strong> Entre 40 y 50 minutos (dependiendo del tráfico)</li>
+    <li><strong>Ruta:</strong> Por la carretera D330</li>
+</ul>
+
+<h2>¿Cómo reservar?</h2>
+<p>
+    Reservar tu <strong>traslado desde el Aeropuerto de Bodrum a Ortakent</strong> es rápido y seguro. Utiliza nuestro sistema en línea, elige el vehículo, confirma el precio y recibe confirmación inmediata por correo electrónico.
+</p>
+
+<h2>Servicios adicionales</h2>
+<ul>
+    <li>Minivans para familias y grupos – Opciones espaciosas para hasta 8 pasajeros.</li>
+    <li>Traslados en clase ejecutiva – Para viajar con lujo y comodidad.</li>
+    <li>Espacio extra para equipaje – Ideal para maletas grandes, cochecitos o equipo deportivo.</li>
+</ul>
+
+<p>
+    Reserva hoy tu <strong>traslado en taxi desde el Aeropuerto de Bodrum a Ortakent</strong> con <strong>APL Transfers</strong> – tu socio confiable para transporte privado, profesional y seguro en Turquía.
+</p>
+
+            `,
+            it: `
+            <h1>Trasferimento in taxi dall'Aeroporto di Bodrum a Ortakent</h1>
+
+<p>
+    Arrivi all'<strong>Aeroporto di Bodrum (BJV)</strong> e ti stai dirigendo verso <strong>Ortakent</strong>? Il nostro servizio di trasferimento privato in taxi offre un viaggio diretto, confortevole e rilassante dal terminal fino al tuo hotel, villa o alloggio privato a Ortakent – una cittadina costiera tranquilla, famosa per le sue spiagge, mercati autentici e atmosfera rilassata.
+</p>
+
+<p>
+    Che tu sia in vacanza, in viaggio d'affari o con la famiglia, <strong>APL Transfers</strong> ti fornisce veicoli moderni con aria condizionata e autisti professionisti per un'esperienza sicura e senza stress.
+</p>
+
+<h2>Perché scegliere APL Transfers?</h2>
+<ul>
+    <li>Accoglienza nella <a href="#">sala arrivi</a> – L’autista ti attenderà con un cartello con il tuo nome.</li>
+    <li>Monitoraggio dei voli e attesa gratuita – Nessun costo in caso di ritardo del volo.</li>
+    <li>Seggiolini per bambini gratuiti – Disponibili su richiesta.</li>
+    <li>Prezzi fissi e trasparenti – Nessun costo nascosto.</li>
+    <li>Assistenza clienti 24/7 – Sempre disponibili ad aiutarti.</li>
+    <li>Veicoli puliti, comodi e climatizzati – Viaggia con stile.</li>
+    <li>Servizio porta a porta – Consegna a qualsiasi indirizzo a Ortakent.</li>
+</ul>
+
+<h2>Trasferimento rilassante verso Ortakent</h2>
+<p>
+    Ortakent offre il perfetto equilibrio tra spiagge sabbiose e un’atmosfera autentica. Evita lo stress e goditi un viaggio panoramico con <strong>APL Transfers</strong>.
+</p>
+
+<h2>Dettagli del viaggio</h2>
+<ul>
+    <li><strong>Distanza:</strong> Circa 45 km</li>
+    <li><strong>Durata:</strong> 40–50 minuti (in base al traffico)</li>
+    <li><strong>Percorso:</strong> tramite la strada D330</li>
+</ul>
+
+<h2>Come prenotare?</h2>
+<p>
+    Prenotare il tuo <strong>trasferimento in taxi dall'Aeroporto di Bodrum a Ortakent</strong> è semplice e sicuro. Usa il nostro sistema online, scegli il veicolo e ricevi una conferma istantanea via email.
+</p>
+
+<h2>Servizi aggiuntivi</h2>
+<ul>
+    <li>Minivan per famiglie e gruppi – Fino a 8 passeggeri.</li>
+    <li>Trasferimenti Business Class – Per viaggiare con lusso e comfort.</li>
+    <li>Spazio extra per i bagagli – Ideale per valigie grandi o passeggini.</li>
+</ul>
+
+<p>
+    Prenota ora il tuo <strong>trasferimento in taxi da Bodrum a Ortakent</strong> con <strong>APL Transfers</strong> – il tuo partner affidabile per trasferimenti aeroportuali privati, sicuri e professionali in Turchia.
+</p>
+
+            `,
+            ru: `
+            <h1>Такси-трансфер из аэропорта Бодрума в Ортакент</h1>
+
+<p>
+    Прилетаете в <strong>аэропорт Бодрума (BJV)</strong> и направляетесь в <strong>Ортакент</strong>? Наша услуга частного трансфера на такси предлагает прямую, комфортную и спокойную поездку от аэропорта до вашего отеля, виллы или частного адреса в Ортакенте — тихом прибрежном городке, известном своими пляжами, рынками и расслабляющей атмосферой.
+</p>
+
+<p>
+    Независимо от того, отправились ли вы в пляжный отпуск, семейную поездку или командировку, <strong>APL Transfers</strong> предоставит современные автомобили с кондиционером и профессиональных водителей для безопасного и удобного трансфера.
+</p>
+
+<h2>Почему выбирают APL Transfers?</h2>
+<ul>
+    <li>Встреча в <a href="#">зале прилёта</a> – водитель будет ждать вас с табличкой.</li>
+    <li>Отслеживание рейса и бесплатное ожидание – при задержке рейса мы подстроимся бесплатно.</li>
+    <li>Бесплатные детские кресла – по запросу.</li>
+    <li>Фиксированные и прозрачные цены – без скрытых платежей.</li>
+    <li>Круглосуточная поддержка – всегда на связи.</li>
+    <li>Чистые, комфортные, кондиционируемые автомобили – путешествуйте с комфортом.</li>
+    <li>Доставка до двери – по любому адресу в Ортакенте.</li>
+</ul>
+
+<h2>Расслабляющая поездка в Ортакент</h2>
+<p>
+    Ортакент сочетает в себе просторные пляжи и атмосферу аутентичной деревни. С <strong>APL Transfers</strong> вы избежите очередей и начнёте отпуск спокойно.
+</p>
+
+<h2>Детали поездки</h2>
+<ul>
+    <li><strong>Расстояние:</strong> около 45 км</li>
+    <li><strong>Время в пути:</strong> 40–50 минут (в зависимости от трафика)</li>
+    <li><strong>Маршрут:</strong> по трассе D330</li>
+</ul>
+
+<h2>Как забронировать?</h2>
+<p>
+    Забронировать <strong>трансфер из аэропорта Бодрума в Ортакент</strong> просто и безопасно. Используйте нашу онлайн-систему, выберите автомобиль и получите мгновенное подтверждение на email.
+</p>
+
+<h2>Дополнительные услуги</h2>
+<ul>
+    <li>Минивэны для семей и групп – до 8 пассажиров.</li>
+    <li>Бизнес-класс – для стильного и комфортного трансфера.</li>
+    <li>Дополнительное место для багажа – подходит для больших сумок и детских колясок.</li>
+</ul>
+
+<p>
+    Забронируйте <strong>такси из аэропорта Бодрума в Ортакент</strong> сегодня с <strong>APL Transfers</strong> – вашим надёжным партнёром по частным, безопасным и профессиональным трансферам в Турции.
+</p>
+
+            `,
+            zh: `
+            <h1>博德鲁姆机场至奥尔塔肯特出租车接送服务</h1>
+
+<p>
+    抵达 <strong>博德鲁姆机场 (BJV)</strong>，准备前往 <strong>奥尔塔肯特（Ortakent）</strong>？我们的私人出租车接送服务可为您提供从机场直达奥尔塔肯特酒店、别墅或私人住所的顺畅、舒适之旅。奥尔塔肯特是一个宁静的沿海小镇，以悠闲的海滩、当地市场和放松的氛围而闻名。
+</p>
+
+<p>
+    无论您是度假、家庭出行，还是商务旅行，<strong>APL Transfers</strong> 都将为您提供配备空调的现代化车辆和专业司机，确保您的旅程安全、无忧。
+</p>
+
+<h2>为什么选择 APL Transfers？</h2>
+<ul>
+    <li>在 <a href="#">到达大厅</a> 接机 – 司机举着带有您名字的牌子等候。</li>
+    <li>航班跟踪与免费等待 – 如遇航班延误，我们将免费调整接机时间。</li>
+    <li>免费儿童座椅 – 可根据需求为家庭提供。</li>
+    <li>固定且透明的价格 – 无隐藏费用或意外收费。</li>
+    <li>全天候客户支持 – 随时为您服务。</li>
+    <li>干净、舒适、配备空调的车辆 – 安心又有格调的出行体验。</li>
+    <li>门到门服务 – 可送达奥尔塔肯特任意地址。</li>
+</ul>
+
+<h2>轻松前往奥尔塔肯特</h2>
+<p>
+    奥尔塔肯特结合了宁静的沙滩与地道的土耳其村庄氛围。在 <strong>APL Transfers</strong> 的陪伴下享受风景如画的旅程，避免打车和拼车带来的烦恼。
+</p>
+
+<h2>行程详情</h2>
+<ul>
+    <li><strong>距离：</strong> 约 45 公里</li>
+    <li><strong>时长：</strong> 约 40–50 分钟（视交通情况而定）</li>
+    <li><strong>路线：</strong> 经 D330 公路</li>
+</ul>
+
+<h2>如何预订？</h2>
+<p>
+    预订 <strong>博德鲁姆机场至奥尔塔肯特</strong> 出租车接送服务简单又安全。使用我们的在线预订系统选择车辆并确认价格，即可通过电子邮件获得即时确认。
+</p>
+
+<h2>附加服务</h2>
+<ul>
+    <li>适合家庭和团体的商务车 – 最多可容纳 8 人。</li>
+    <li>商务舱接送 – 提供更高等级的舒适与风格。</li>
+    <li>额外行李空间 – 适用于大号行李、婴儿车或运动装备。</li>
+</ul>
+
+<p>
+    立即通过 <strong>APL Transfers</strong> 预订您的 <strong>博德鲁姆机场至奥尔塔肯特</strong> 出租车服务 —— 您在土耳其可靠、安全、专业的私人交通合作伙伴。
+</p>
+
+            `,
         },
     },
 
