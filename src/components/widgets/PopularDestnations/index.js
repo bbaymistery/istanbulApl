@@ -20,22 +20,41 @@ const PopularDestinations = (props) => {
     const dispatch = useDispatch();
     const state = useSelector(state => state.pickUpDropOffActions);
     const { params: { direction, language, pointsModalStatus, hasTaxiDeals } } = state;
-    const { appData } = useSelector(state => state.initialReducer)
 
     const [points, setPoints] = useState(airportPoints[hasTaxiDeals])
 
     const [tabs, setTabs] = useState(0)
+    const fecthPoints = async (params = {}) => {
+        let { language, dealsNameProp = hasTaxiDeals } = params;
+        let channelId = state.reservations[0].reservationDetails.channelId;
+        // Encode the dealsNameProp to handle spaces and special characters
+        // IST>"istanbul airport"
+        // SAW>"sabiha gokcen airport"
+        // AYT>"antalya airport"
+        // DLM>"dalaman airport"
+        // BJV>"bodrum airport"
+        let encodedDealsNameProp = encodeURIComponent(dealsNameProp);
+        let url = `${env.apiDomain}/api/v1/taxi-deals/list?points=${encodedDealsNameProp}&language=${language}&channelId=${channelId}`;
 
+
+        let response = await fetch(url);
+        let { data, status } = await response.json();
+
+        if (status === 200) {
+            console.log(data, "data");
+
+
+        }
+    };
     const tabsHandler = async (params = {}) => {
         let { index, dealsNameProp } = params
+        console.log(dealsNameProp, "dealsNameProp");
+
         setTabs(index)
         // fecthPoints({ dealsNameProp, language })
         dispatch({ type: "SET_NAVBAR_TAXI_DEALS", data: { hasTaxiDeals: dealsNameProp } });
     }
-    const setModal = () => {
-        dispatch({ type: "SET_POINTS_MODAL", data: { trueOrFalse: true } })
-        document.body.style.overflow = "hidden";
-    }
+
     useEffect(() => {
         setPoints(airportPoints[hasTaxiDeals])
     }, [hasTaxiDeals, language])
@@ -58,14 +77,12 @@ const PopularDestinations = (props) => {
                                         key={index}
                                     />
                                 )
-
                             })}
                         </div>
                         : <></>}
                     <div className={styles.title_div}>
                         {islinknamecomponent ? <h2>{getTitleStringOfHastaxiDeals(hasTaxiDeals, language)}</h2> : <></>}
                     </div>
-
                     <div className={styles.featureIcons}>
                         {points.slice(0, 8).map((item, idx) => {
                             let path = language === 'en' ? `/${item.linkUrl}` : `/${language}/${item.linkUrl}`
@@ -74,13 +91,7 @@ const PopularDestinations = (props) => {
                                     <a href={path}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image
-                                                    sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px"
-                                                    src={item.imageUrl ? item.imageUrl : "/images/default.webp"}
-                                                    width={250}
-                                                    height={198}
-                                                    alt={item[language]}
-                                                />
+                                                <Image sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px" src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} alt={item[language]} />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>
@@ -110,24 +121,11 @@ const PopularDestinations = (props) => {
                                                 </div>
                                             </div>
                                         </div>
-
                                     </a>
-
                                 </div>
                             )
                         })}
                     </div>
-
-                    {/* <div className={styles.btn_div}>
-                        <Button
-                            type={BUTTON_TYPES.TERTIARY}
-                            onBtnClick={setModal}
-                            style={{ width: '100%' }}
-                            btnText={appData?.words["strViewAll"]}
-                            iconPos='RIGHT'
-                            icon={<i className="fa-solid fa-arrow-right"></i>}
-                        />
-                    </div> */}
                 </div>
             </div>
         </div>

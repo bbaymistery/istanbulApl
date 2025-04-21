@@ -37,8 +37,8 @@ import RESELECT_POINTS_FROM_STORE from "./RESELECT_POINTS_FROM_STORE";
 
 let initialReservationState = [{
   reservationDetails: {
-    channelId: 1,
-    accountId: 1,
+    channelId: 12,
+    accountId: 12,
   },
   selectedPickupPoints: [],
   selectedDropoffPoints: [],

@@ -111,7 +111,7 @@ const HandleSearchResults = (params = {}) => {
             })()
         }
         //make one request more if point pcatId is equal to 10
-        if (point.pcatId === 10) {
+        if (point.ptype === 3) {
             (async () => {
                 let log = await requestForGogglePalceAsync({ point, env })
                 if (log.status) point = log.point
@@ -184,15 +184,15 @@ const HandleSearchResults = (params = {}) => {
                                     {/* this list  for group name  */}
                                     {i === 0 ?
                                         (<li key={i} className={`${i === 0 ? styles.groupName : ""} ${direction}`}>
-                                            {item.pcatId === 10 ? <img src={`${env.apiDomain}/media/g-google.svg`} alt="" /> : imgObj && (<img src={`${env.apiDomain}${imgObj[item.pcatId]}`} alt="" />)}
+                                            {item.ptype === 3 ? <img src={`${env.apiDomain}/media/g-google.svg`} alt="" /> : imgObj && (<img src={`${env.apiDomain}${imgObj[item.pcatId]}`} alt="" />)}
                                             <a href="/" className={`${direction}`}> {namePlaceOfObj && namePlaceOfObj[item.pcatId]}   </a>
-                                            {item.pcatId === 10 ? (<img src={`${env.apiDomain}/media/powered-by-google.png`} alt="" className={styles.googleImage} />) : <React.Fragment></React.Fragment>}
+                                            {item.ptype === 3 ? (<img src={`${env.apiDomain}/media/powered-by-google.png`} alt="" className={styles.googleImage} />) : <React.Fragment></React.Fragment>}
                                         </li>) : <React.Fragment></React.Fragment>}
 
                                     {/* this list for the rest of group subname */}
                                     {/* //destination journey type comes from Hero component Which we pass a prop  */}
                                     <li onClick={() => handleAddItemToSelectList({ point: item, destination })} className={`${direction}`}>
-                                        {imgObj ? (<img src={`${env.apiDomain}${imgObj[item.pcatId]}`} alt="" />) : <React.Fragment></React.Fragment>}
+                                        {imgObj ? (<img src={`${env.apiDomain}${imgObj[item.ptype === 3 ? 10 : item.pcatId]}`} alt="" />) : <React.Fragment></React.Fragment>}
                                         <p className={`${direction}`} direction={String(direction === 'rtl')}>{item.address} {`${item?.postcode ? `-  ${item?.postcode}` : ""}`}</p>
                                     </li>
                                 </div>

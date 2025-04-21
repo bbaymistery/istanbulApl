@@ -7002,8 +7002,46 @@ const metaTagPopularDestatinationPage = (env) => ({
                 `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
             ],
 
-            ru: [],
-            zh: []
+            ru: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"Такси из аэропорта Бодрума в Ортакент | Частные трансферы 24/7\">",
+                "<meta property=\"og:description\" content=\"Нужен трансфер из аэропорта Бодрума в Ортакент? APL Transfers предлагает фиксированные цены, круглосуточное обслуживание и встречу в зале прилёта. Забронируйте прямо сейчас!\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-ortakent\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"Такси из аэропорта Бодрума в Ортакент | Частные трансферы 24/7\">",
+                "<meta name=\"twitter:description\" content=\"Забронируйте трансфер из аэропорта Бодрума в Ортакент с APL Transfers. Фиксированные цены, круглосуточное обслуживание и бесплатная отмена.\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+            ]
+            ,
+            zh: [
+                `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-airport-to-ortakent\" />`,
+                `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-airport-to-ortakent\" />`,
+                "<meta property=\"og:type\" content=\"website\">",
+                "<meta property=\"og:title\" content=\"博德鲁姆机场至奥尔塔肯特出租车 | 私人接送服务 24/7\">",
+                "<meta property=\"og:description\" content=\"需要从博德鲁姆机场前往奥尔塔肯特的私人出租车服务？APL Transfers 提供固定价格、全天候服务以及到达大厅接机。立即预订！\">",
+                `<meta property=\"og:url\" content=\"${env.websiteDomain}/bodrum-airport-to-ortakent\">`,
+                `<meta property=\"og:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+                "<meta name=\"twitter:card\" content=\"summary_large_image\">",
+                "<meta name=\"twitter:title\" content=\"博德鲁姆机场至奥尔塔肯特出租车 | 私人接送服务 24/7\">",
+                "<meta name=\"twitter:description\" content=\"通过 APL Transfers 预订博德鲁姆机场至奥尔塔肯特的接送服务。固定价格，全天候服务，免费航班监控和取消服务。\">",
+                `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/popularDestinations/bodrum/bodrum6.webp\">`,
+            ]
+
         },
     },
 
