@@ -1,6 +1,6 @@
-const collectQuotations = (params = { 'reservations': Object(), 'journeyType': Number(), 'env': Object() }, callback = () => { }) => {
+const collectQuotations = (params = { 'reservations': Object(), 'journeyType': Number(), 'env': Object(), "currencyId": Number() }, callback = () => { }) => {
 
-  let { reservations, journeyType, env } = params
+  let { reservations, journeyType, env, currencyId } = params
 
   //transfer
   let trSelectedPickPoints = reservations[0]?.selectedPickupPoints;
@@ -22,6 +22,8 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
       'selectedPickupPoints': trSelectedPickPoints,
       'selectedDropoffPoints': trSelectedDroppPoints,
       'transferDateTimeString': transferDAteTimeString,
+      "accountId": 2964,
+      "currencyId": currencyId
     }),
   };
 
@@ -33,6 +35,8 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
       'selectedPickupPoints': returnPickPoints,
       'selectedDropoffPoints': returnDroppPoints,
       'transferDateTimeString': returnDAteTimeString,
+      "accountId": 2964,
+      "currencyId": currencyId
     }),
   };
   let __requests = parseInt(journeyType) === 0 ? [fetch(url, configTransfer)] : [fetch(url, configTransfer), fetch(url, configReturn)];
@@ -41,6 +45,8 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
   Promise.all(__requests)
     .then(function (responses) { return Promise.all(responses.map(function (response, index) { return response.json() })) })
     .then(function (data) {
+      console.log(data);
+
       if (data.every(o => o.status === 200)) {
         callback({ 'status': 200, data })
       } else {

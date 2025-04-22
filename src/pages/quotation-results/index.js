@@ -1,23 +1,23 @@
-import React, { useEffect, useRef, useState, } from 'react'
-import styles from "./styles.module.scss"
-import GlobalLayout from '../../components/layouts/GlobalLayout'
-import { useDispatch, useSelector } from 'react-redux'
 import { useRouter } from 'next/router'
-import { splitDateTimeStringIntoDate, splitDateTimeStringIntoHourAndMinute } from '../../helpers/splitHelper'
-import { currentDate } from '../../helpers/getDates'
-import HandleSearchResults from '../../components/elements/HandleSearchResults'
-import SelectedPointsOnQuotationResults from '../../components/elements/SelectedPointsOnQuotationResults'
-import { ifHasUnwantedCharacters } from '../../helpers/ifHasUnwantedCharacters'
-import { hours, minutes } from '../../constants/minutesHours'
-import OutsideClickAlert from '../../components/elements/OutsideClickAlert'
-import SearchInputLoading from '../../components/elements/SearchInputLoading'
-import { reservationSchemeValidator } from '../../helpers/reservationSchemeValidator'
+import React, { useEffect, useRef, useState, } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import CardQuotationItem from '../../components/elements/CardQuotationItem'
-import Map from "./Map.js";
-import store from '../../store/store'
+import GlobalLayout from '../../components/layouts/GlobalLayout'
+import { ifHasUnwantedCharacters } from '../../helpers/ifHasUnwantedCharacters'
+import { reservationSchemeValidator } from '../../helpers/reservationSchemeValidator'
+import { splitDateTimeStringIntoDate, splitDateTimeStringIntoHourAndMinute } from '../../helpers/splitHelper'
+import Map from "./Map.js"
+import QuotatıonInputHandleComponent from './QuotatıonInputHandler.js'
+import styles from "./styles.module.scss"
+
 import { createWrapper } from 'next-redux-wrapper'
 import Button from '../../components/elements/Button/Button.js'
 import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes.js'
+import store from '../../store/store'
+import QuotationHourMinute from './QuotationHourMinute.js'
+import QuotationInputDate from './QuotationInputDate.js'
+import { readyToCollectQuotationOptions } from '../../helpers/readyToCollectQuotationOptions.js'
+import { normalizeReservations } from '../../helpers/normalizeReservations.js'
 let description = ""
 let title = "Quotation Results APL Transfer"
 let keywords = " "
@@ -177,18 +177,13 @@ const QuotationResults = (props) => {
     const dispatch = useDispatch()
     const didMountRef = useRef(false);
 
-
     const state = useSelector(state => state.pickUpDropOffActions)
     let { reservations, params } = state
     let { sessionToken: reducerSessionToken, journeyType, direction, language, quotations, selectedCurrency } = params
 
+    const reservationsRef = useRef(reservations);
     const { appData } = useSelector(state => state.initialReducer)
-    const objectDetailss = appData?.pointTypeCategories?.reduce((obj, item) => ({ ...obj, [item.id]: JSON.parse(item.objectDetails), }), {});
 
-    //in order having confirmation message
-    //go back go forward and when change language we r not gonna have any confirmation
-    // const { nexturls, previousUrls, currentUrls } = urlWithLangAtribute({ languages: appData.languages, previousUrl: 'tohome', nextUrl: "/transfer-details", currentUrl: router.asPath })
-    // const confirmationAlert = useConfirm({ previousUrl: previousUrls, nextUrl: nexturls, currentUrls, message: "If you refresh the page, all data will be deleted." })
 
 
     let [internalState, setInternalState] = React.useReducer((s, o) => ({ ...s, ...o }), {
@@ -204,11 +199,10 @@ const QuotationResults = (props) => {
         'dropoff-search-loading-0': false,
         'pickup-search-loading-1': false,
         'dropoff-search-loading-1': false,
-        'show-pickup-extra-point-0': false,
-        'show-dropoff-extra-point-0': false,
-        'show-pickup-extra-point-1': false,
-        'show-dropoff-extra-point-1': false,
-
+        'show-pickup-extra-point-0': true,
+        'show-dropoff-extra-point-0': true,
+        'show-pickup-extra-point-1': true,
+        'show-dropoff-extra-point-1': true,
         //quotation loading
         "quotation-loading": false,
         'errorHolder': [],
@@ -216,43 +210,7 @@ const QuotationResults = (props) => {
         "error-booking-message-1": "",
 
     })
-    const onChangeHanler = (params = {}) => {
-        let { index, value, destination } = params
-        let { passengerDetails: { token: passengerDetailsToken } } = reservations[0]
 
-        //hinder user  to add some Characters
-        if (ifHasUnwantedCharacters(value)) return
-
-        setInternalState({ [`${destination}-search-value-${index}`]: value })
-
-        if (value.length > 2) {
-            (async () => {
-                //set input loading to true
-                setInternalState({ [`${destination}-search-loading-${index}`]: true })
-
-                let log = await collectPointsAsync({ value, reducerSessionToken, language, env })
-                let { status, result, "session-token": sessionToken = "", token } = log
-
-                if (status == 200) {
-                    setInternalState({ [`${destination}-search-loading-${index}`]: false })
-
-                    //if we dont have passengerDetailsToken then save token on reservation objects;s passenger details
-                    if (!passengerDetailsToken) dispatch({ type: 'SET_TOKEN_TO_PASSENGERDETAILS', data: { token } })
-
-                    //check if session doesnt exist then  set session token to the reducer
-                    if (!reducerSessionToken) dispatch({ type: 'SET_SESSION_TOKEN', data: { sessionToken } });
-
-                    setInternalState({ [`collecting-${destination}-points-${index}`]: result })
-                } else {
-                    setInternalState({ [`collecting-${destination}-points-${index}`]: {} })
-                    setInternalState({ [`${destination}-search-loading-${index}`]: false })
-                }
-            })()
-        } else {
-            //reset collecting points
-            setInternalState({ [`collecting-${destination}-points-${index}`]: [] })
-        }
-    }
     //it is valid when our journey is both way
     const gotoTransferDetailsClick = () => {
         let { quotation: transferQuotation } = reservations[0]
@@ -283,50 +241,31 @@ const QuotationResults = (props) => {
         dispatch({ type: 'SET_JOURNEY_DATETIME', data: { journeyType, hourOrMinute, value } })
         // getQuotations()
     }
-    const handleAddNewInput = (params = {}) => {
-        let { index, destination } = params
-        setInternalState({ [`show-${destination}-extra-point-${index}`]: false })
-    }
-    const getQuotations = (params = {}) => {
-        let errorHolder = reservationSchemeValidator({ reservations });
-        setInternalState({ errorHolder })
-        if (errorHolder.status === 200) readyToCollectQuotations({ dispatch, setInternalState, router, journeyType, reservations, env, currencyId: selectedCurrency.currencyId })
-    }
-    //deleting input field
-    const deleteField = (params = {}) => {
-        let { destination, index } = params
-        setInternalState({
-            [`${destination}-search-value-${index}`]: "",
-            [`${destination}-points-error-${index}`]: "",
-            [`collecting-${destination}-points-${index}`]: [],
-            [`show-${destination}-extra-point-${index}`]: true,
-        })
-    }
-    const outsideClick = ({ destination, index }) => {
-        //it means if we have seggested points then it will work otherwise it is nt
-        if (!Array.isArray(internalState[`collecting-${destination}-points-${index}`]))
-            setInternalState({ [`collecting-${destination}-points-${index}`]: [], })
 
+    const getQuotations = (params = {}) => {
+
+        const checkedReservations = normalizeReservations(reservations);
+        console.log("cals");
+
+        let errorHolder = reservationSchemeValidator({ reservations: checkedReservations });
+
+        setInternalState({ errorHolder })
+        let propsReadyToCollectQuotationOptions = {
+            dispatch,
+            setInternalState,
+            router,
+            journeyType,
+            reservations: checkedReservations,
+            language,
+            shouldNavigate: false, env, currencyId: selectedCurrency.currencyId
+        }
+        if (errorHolder.status === 200) readyToCollectQuotationOptions(propsReadyToCollectQuotationOptions)
     }
+
     const [showMapOneWay, setShowMapOneWay] = useState(false)
     const [showMapReturn, setShowMapReturn] = useState(false)
-    //when we go quotation page then go back In that case we should check
-    //if we have points or not.According for that we will show add extrapoint or not
+
     useEffect(() => {
-        let { selectedDropoffPoints, selectedPickupPoints } = reservations[0]
-        if (selectedDropoffPoints?.length > 0 && selectedPickupPoints?.length > 0) {
-            setInternalState({ [`show-pickup-extra-point-0`]: true })
-            setInternalState({ [`show-dropoff-extra-point-0`]: true })
-        }
-
-        if (journeyType === 1) {
-            let { selectedDropoffPoints, selectedPickupPoints } = reservations[1]
-            if (selectedDropoffPoints?.length > 0 && selectedPickupPoints?.length > 0) {
-                setInternalState({ [`show-pickup-extra-point-1`]: true })
-                setInternalState({ [`show-dropoff-extra-point-1`]: true })
-            }
-        }
-
         //for mobile scrolling
         const container = document?.querySelector("#main_container");
         if (990 > document?.documentElement?.clientWidth) {
@@ -336,9 +275,7 @@ const QuotationResults = (props) => {
                 behavior: "smooth",
             });
         }
-
         localStorage.setItem("path", router.asPath);
-
     }, [])
 
 
@@ -359,6 +296,28 @@ const QuotationResults = (props) => {
         reservations?.[1]?.transferDetails?.transferDateTimeString,
         selectedCurrency.currencyId
     ]);
+
+    useEffect(() => {
+        reservationsRef.current = reservations;
+    }, [reservations]);
+
+    const didmountRefStorage = useRef(false);
+
+    useEffect(() => {
+        if (!didmountRefStorage.current) {
+            didMountRef.current = true;
+
+            if (+journeyType === 1) {
+                if (reservations[0].quotation.carId && reservations[1].quotation.carId) {
+                    localStorage.setItem("journeyQuotation", JSON.stringify(reservations[0].quotation));
+                    localStorage.setItem("returnJourneyQuotation", JSON.stringify(reservations[1].quotation));
+                } else {
+                    localStorage.setItem("journeyQuotation", JSON.stringify(quotations[0].quotationOptions[0]));
+                    localStorage.setItem("returnJourneyQuotation", JSON.stringify(quotations[0].quotationOptions[0]));
+                }
+            }
+        }
+    }, []);
 
 
     return (
@@ -383,138 +342,47 @@ const QuotationResults = (props) => {
                                         <div className={`${styles.main_container} ${direction} `}>
                                             <div className={`${styles.quotation_panel}`} style={{ height: +journeyType === 0 ? "800px" : "" }}>
                                                 <div className={styles.form_div} action="">
-                                                    <div className={`${styles.search_menu} ${styles.pickup_div} ${reservationError?.selectedPickupPoints?.length > 0 && !internalState[`pickup-search-value-${index}`] && selectedPickupPoints.length === 0 ? styles.error_input : ""}`}>
-
-                                                        {/* Pick up location text */}
-                                                        {!selectedPickupPoints.length > 0 ? <h4 className={direction}>{appData?.words["sePickUpLocation"]}</h4> : <React.Fragment></React.Fragment>}
-                                                        {/* Pick Points text */}
-                                                        {selectedPickupPoints.length > 0 ? <h4 className={` ${direction}`} >{appData?.words["strPickupPoints"]}</h4> : <React.Fragment></React.Fragment>}
-                                                        {/* selectedPoints */}
-                                                        {selectedPickupPoints.length > 0 && <SelectedPointsOnQuotationResults env={env} index={index} destination="pickup" points={selectedPickupPoints} getQuotations={getQuotations} language={language} />}
-                                                        {/* add extra pooint div */}
-                                                        {internalState[`show-pickup-extra-point-${index}`] && selectedPickupPoints.length > 0 &&
-                                                            <div className={`${styles.add_point_div} ${direction === "rtl" && styles.addrtl}`} onClick={() => handleAddNewInput({ index, destination: "pickup" })}  >
-                                                                <i className={`fa-solid fa-plus ${styles.add_point_icon} `}  ></i>
-                                                                <p className={styles.add_point_text}>  {appData?.words["strAddExtraPoint"]}  </p>
-                                                            </div>}
-                                                        <OutsideClickAlert onOutsideClick={(e) => outsideClick({ destination: "pickup", index })}>
-                                                            <div className={`${styles.input_div} `}  >
-                                                                {selectedPickupPoints.length === 0 || (!internalState[`show-pickup-extra-point-${index}`] && selectedPickupPoints.length > 0) ?
-                                                                    <input
-                                                                        type="text"
-                                                                        autoComplete="off"
-                                                                        id="input_focused"//this is for scrolling top when ever we focus on mobile
-                                                                        placeholder={appData?.words["searchEngineTitle"]}
-                                                                        value={internalState[`pickup-search-value-${index}`]}
-                                                                        onChange={(e) => onChangeHanler({ index, destination: 'pickup', value: e.target.value })}
-                                                                        className={`${direction} `}
-                                                                    /> : <React.Fragment></React.Fragment>}
-                                                                {/* loading icon inside input */}
-                                                                {internalState[`pickup-search-loading-${index}`] ? <div className={styles.loading_div} direction={String(direction === "rtl")} >  <SearchInputLoading />  </div> : <React.Fragment></React.Fragment>}
-                                                                {/* error icon inside input */}
-                                                                {reservationError?.selectedPickupPoints?.length > 0 && !internalState[`pickup-search-value-${index}`] && selectedPickupPoints.length === 0 ?
-                                                                    <div className={`${styles.error_icon}`} direction={String(direction === "rtl")}>
-                                                                        <i title={reservationError?.selectedPickupPoints} className="fa-solid fa-circle-exclamation"></i>
-                                                                    </div> : <React.Fragment></React.Fragment>}
-                                                                {/* //delete field icon inside input  */}
-                                                                {(!internalState[`show-pickup-extra-point-${index}`] && selectedPickupPoints.length > 0 && !internalState[`pickup-search-loading-${index}`]) ?
-                                                                    <i onClick={(e) => deleteField({ destination: "pickup", index })} direction={String(direction === "rtl")} className={`fa-solid fa-delete-left ${styles.input_delete_field_icon}`}></i>
-                                                                    : <React.Fragment></React.Fragment>}
-
-
-                                                                {/* if !internalState[`pickup-search-value-${index}`] then our handleSearchResults will be belong to styles.book.input */}
-                                                                {!Array.isArray(internalState[`collecting-pickup-points-${index}`]) ?
-                                                                    //setInternalState>>>after adding item we set input field  to empty and add extradiv to true
-                                                                    <HandleSearchResults env={env} getQuotations={getQuotations} language={language} index={index} destination="pickup" setInternalState={setInternalState} collectingPoints={internalState[`collecting-pickup-points-${index}`]} /> : <React.Fragment></React.Fragment>}
-
-                                                            </div>
-
-                                                        </OutsideClickAlert>
-                                                    </div>
-                                                    <div className={`${styles.search_menu} ${styles.dropoff_div}  ${reservationError?.selectedDropoffPoints?.length > 0 && !internalState[`dropoff-search-value-${index}`] && selectedDropoffPoints.length === 0 ? styles.error_input : ""}`} >
-                                                        {/* Pick up location text */}
-                                                        {!selectedDropoffPoints.length > 0 ? <h4 className={direction}>{appData?.words["seDropOffLocation"]}</h4> : <React.Fragment></React.Fragment>}
-                                                        {/* Pick Points text */}
-                                                        {selectedDropoffPoints.length > 0 ? <h4 className={` ${direction}`} >{appData?.words["strDropoffPoints"]}</h4> : <React.Fragment></React.Fragment>}
-                                                        {/* selectedPoints */}
-                                                        {selectedDropoffPoints.length > 0 && <SelectedPointsOnQuotationResults env={env} index={index} destination="dropoff" points={selectedDropoffPoints} getQuotations={getQuotations} language={language} />}
-
-                                                        {/* add extra pooint div */}
-                                                        {internalState[`show-dropoff-extra-point-${index}`] && selectedDropoffPoints.length > 0 &&
-                                                            <div className={`${styles.add_point_div} ${direction === "rtl" && styles.addrtl}`} onClick={() => handleAddNewInput({ index, destination: "dropoff" })}  >
-                                                                <i className={`fa-solid fa-plus ${styles.add_point_icon} `}  ></i>
-                                                                <p className={styles.add_point_text}>  {appData?.words["strAddExtraPoint"]}  </p>
-                                                            </div>}
-
-                                                        <OutsideClickAlert onOutsideClick={(e) => outsideClick({ destination: "dropoff", index })}>
-                                                            <div className={`${styles.input_div} `}  >
-
-                                                                {selectedDropoffPoints.length === 0 || (!internalState[`show-dropoff-extra-point-${index}`] && selectedDropoffPoints.length > 0) ?
-                                                                    <input
-                                                                        type="text"
-                                                                        autoComplete="off"
-                                                                        id="input_focused"//this is for scrolling top when ever we focus on mobile
-                                                                        placeholder={appData?.words["searchEngineTitle"]}
-                                                                        value={internalState[`dropoff-search-value-${index}`]}
-                                                                        onChange={(e) => onChangeHanler({ index, destination: 'dropoff', value: e.target.value })}
-                                                                        className={`${direction} `}
-                                                                    /> : <React.Fragment></React.Fragment>}
-                                                                {/* loading icon inside input */}
-                                                                {internalState[`dropoff-search-loading-${index}`] ? <div className={styles.loading_div} direction={String(direction === "rtl")}>  <SearchInputLoading />  </div> : <React.Fragment></React.Fragment>}
-
-                                                                {/* error icon inside input */}
-                                                                {reservationError?.selectedDropoffPoints?.length > 0 && !internalState[`dropoff-search-value-${index}`] && selectedDropoffPoints.length === 0 ?
-                                                                    <div className={`${styles.error_icon}`} direction={String(direction === "rtl")}>
-                                                                        <i title={reservationError?.selectedDropoffPoints} className="fa-solid fa-circle-exclamation"></i>
-                                                                    </div> : <React.Fragment></React.Fragment>}
-
-                                                                {/* //delete field icon inside input  */}
-                                                                {(!internalState[`show-dropoff-extra-point-${index}`] && selectedDropoffPoints.length > 0 && !internalState[`dropoff-search-loading-${index}`]) ?
-                                                                    <i onClick={(e) => deleteField({ destination: "dropoff", index })} direction={String(direction === "rtl")} className={`fa-solid fa-delete-left ${styles.input_delete_field_icon}`}></i>
-                                                                    : <React.Fragment></React.Fragment>}
-                                                                {/* results when we get points */}
-                                                                {!Array.isArray(internalState[`collecting-dropoff-points-${index}`]) ?
-                                                                    <HandleSearchResults env={env} getQuotations={getQuotations} language={language} index={index} destination="dropoff" setInternalState={setInternalState} collectingPoints={internalState[`collecting-dropoff-points-${index}`]} /> : <React.Fragment></React.Fragment>}
-                                                            </div>
-                                                        </OutsideClickAlert>
-                                                    </div>
-                                                    <div className={` ${styles.search_menu} ${styles.book_input_date} `}>
-                                                        <h4 className={direction}>{selectedPickupPoints[0]?.pcatId === 1 ? appData?.words["seLandingDate"] : appData?.words["sePickUpDate"]}</h4>
-                                                        <div className={`${styles.date_div} ${direction}`}>
-                                                            <input
-                                                                type="date"
-                                                                name="pickup-date"
-                                                                className={direction === "rtl" ? styles.rtl : ""}
-                                                                value={splitedDate}
-                                                                min={index === 0 ? currentDate() : reservations[0].transferDetails.transferDateTimeString.split(" ")[0]}
-                                                                onChange={(e) => onChangeSetDateTimeHandler({ value: e.target.value, hourOrMinute: "date", journeyType: index })}
+                                                    {
+                                                        ["pickup", "dropoff"].map((destination) => (
+                                                            <QuotatıonInputHandleComponent
+                                                                key={destination}
+                                                                destination={destination}
+                                                                selectedPoints={destination === "pickup" ? selectedPickupPoints : selectedDropoffPoints}
+                                                                direction={direction}
+                                                                index={index}
+                                                                reservationError={reservationError}
+                                                                internalState={internalState}
+                                                                env={env}
+                                                                language={language}
+                                                                appData={appData}
+                                                                setInternalState={setInternalState}
+                                                                reservationsRef={reservationsRef}
+                                                                reservations={reservations}
+                                                                reducerSessionToken={reducerSessionToken}
+                                                                getQuotations={getQuotations}
                                                             />
-                                                        </div>
-                                                        <i className={`fa-solid fa-calendar-days ${styles.date_picker_icon} ${direction === "rtl" && styles.date_picker_icon_left}`}></i>
-                                                    </div>
+                                                        ))
+                                                    }
+                                                    <QuotationInputDate
+                                                        appData={appData}
+                                                        index={index}
+                                                        splitedDate={splitedDate}
+                                                        direction={direction}
+                                                        reservations={reservations}
+                                                        onChangeSetDateTimeHandler={onChangeSetDateTimeHandler}
+                                                        selectedPickupPoints={selectedPickupPoints}
+                                                    />
 
-                                                    <div className={`${styles.select_time_div} `}>
-                                                        {Array.from(new Array(2)).map((arr, i) => {
-                                                            return (<div key={i} className={styles.booking_form_hour_minute_wrapper}>
-                                                                <label htmlFor="time-select">
-                                                                    {i === 0
-                                                                        ? `${selectedPickupPoints[0]?.pcatId === 1 ? appData?.words["strLandingHour"] : appData?.words["strPickUpHour"]}`
-                                                                        : `${selectedPickupPoints[0]?.pcatId === 1 ? appData?.words["strLandingMinute"] : appData?.words["strPickUpMinute"]} `
-                                                                    }
-                                                                </label>
-                                                                <select
-                                                                    id="time-select"
-                                                                    defaultValue={i === 0 ? splitedHour : splitedMinute}
-                                                                    onChange={(e) => onChangeSetDateTimeHandler({ value: e.target.value, hourOrMinute: i === 0 ? "hour" : "minute", journeyType: index })} >
-                                                                    {/* //if index==0 thenhours will show up if not then minutes show up */}
-                                                                    {i === 0 ?
-                                                                        hours.map((hour) => (<option key={hour.id} id={hour.id} value={hour.value}> {hour.value} </option>))
-                                                                        :
-                                                                        minutes.map((minute) => (<option key={minute.id} id={minute.id} value={minute.value} >{minute.value} </option>))}
-                                                                </select>
-                                                            </div>)
-                                                        })}
-                                                    </div>
+                                                    <QuotationHourMinute
+                                                        appData={appData}
+                                                        env={env}
+                                                        language={language}
+                                                        splitedMinute={splitedMinute}
+                                                        selectedPickupPoints={selectedPickupPoints}
+                                                        splitedHour={splitedHour}
+                                                        index={index}
+                                                        onChangeSetDateTimeHandler={onChangeSetDateTimeHandler}
+                                                    />
                                                     {internalState[`error-booking-message-${index}`] ?
                                                         <div className={styles.errorBookedMessage}>
                                                             <p>{internalState[`error-booking-message-${index}`]}</p>
@@ -528,21 +396,20 @@ const QuotationResults = (props) => {
                                                         btnText={`${appData?.words["seUpdateQuotation"]}`}
                                                     />
                                                 </div>
-                                                {(selectedDropoffPoints.length > 0 && index === 1) && (showMapReturn) ?
-                                                    <div className={styles.map_direction} >
-                                                        <Map env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
-                                                    </div>
-                                                    : <></>}
-                                                {(selectedPickupPoints.length > 0 && index === 0) && (showMapOneWay) ?
-                                                    <div className={styles.map_direction} >
-                                                        <Map env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
-                                                    </div>
-                                                    : <></>}
-                                                {(selectedDropoffPoints.length > 0 && selectedPickupPoints.length > 0) && (+journeyType === 0) ?
-                                                    <div className={styles.map_direction} >
-                                                        <Map env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
-                                                    </div>
-                                                    : <></>}
+
+
+                                                {(() => {
+                                                    const showMap =
+                                                        ((selectedDropoffPoints.length > 0 && index === 1) && showMapReturn) ||
+                                                        ((selectedPickupPoints.length > 0 && index === 0) && showMapOneWay) ||
+                                                        ((selectedDropoffPoints.length > 0 && selectedPickupPoints.length > 0) && +journeyType === 0);
+
+                                                    return showMap ? (
+                                                        <div className={styles.map_direction}>
+                                                            <Map env={env} datas={quotations[index]} selectedPickPoints={selectedPickupPoints} selectedDroppOfPoints={selectedDropoffPoints} />
+                                                        </div>
+                                                    ) : null;
+                                                })()}
                                             </div>
                                             {/* //*Card item of results */}
 

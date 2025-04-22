@@ -6,7 +6,7 @@ const collectPoints = (params = { "value": String(), "reducerSessionToken": Stri
     const method = "POST";
     const headers = { "Content-Type": "application/json" };
 
-    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language, configuration: { ignoreGooglePlaces }, });
+    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language, configuration: { ignoreGooglePlaces }, "countryId": 203  });
     const config = { method, headers, body };
 
     fetch(url, config)

@@ -41,10 +41,11 @@ const pushToQuotationsResultPage = (params = {}) => {
 export const readyToCollectQuotationOptions = async (params = {}) => {
 
     (async () => {
-        let { dispatch, setInternalState, router, journeyType, reservations, language, shouldNavigate = true, env, appData } = params
+        let { dispatch, setInternalState, router, journeyType, reservations, language, shouldNavigate = true, env, currencyId } = params
+
         setInternalState({ ["quotation-loading"]: true })
 
-        let log = await collectQuotationsAsync({ reservations, journeyType, env })
+        let log = await collectQuotationsAsync({ reservations, journeyType, env, currencyId })
 
         let { status, data } = log
 

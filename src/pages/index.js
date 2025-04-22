@@ -32,7 +32,7 @@ export default function Home(props) {
     <GlobalLayout title={props.seoDatas.title} keywords={props.seoDatas.keywords} description={props.seoDatas.description}>
       <Hero env={props.env} />
       <WhyChoice />
-      <PopularDestinations />
+      <PopularDestinations env={props.env} />
       <Tours insideGlobalLayout={false} />
       {hasScrolled && <CarsSlider />}
       <Testimonials />

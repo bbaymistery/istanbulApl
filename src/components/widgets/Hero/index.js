@@ -17,6 +17,7 @@ import HourMinuteComponent from './HourMinuteComponent';
 import InputDateComponent from './InputDateComponent';
 import HeroInputComponent from './InputHandleComponent';
 import HeroImage from './HeroImage';
+import { normalizeReservations } from '../../../helpers/normalizeReservations';
 
 const WaveLoading = dynamic(() => import('../../elements/LoadingWave'))
 
@@ -104,55 +105,7 @@ const Hero = (props) => {
 
     const getQuotations = useCallback((e) => {
         //when we add postcode point we set id :" "  if smone come back to home page change datetime we need to set id:0
-        const checkedReservations = reservations.map((obj) => {
-            const selectedPickupPoints = obj.selectedPickupPoints.map((point) => {
-                if (point.pcatId === 5) {
-                    return {
-                        ...point,
-                        postCodeDetails: { ...point.postCodeDetails, id: 0 },
-                    };
-                }
-
-                if (point.pcatId === 1) {
-                    return {
-                        ...point,
-                        flightDetails: {
-                            ...point.flightDetails,
-                            waitingPickupTime: 0,
-                        },
-                    };
-                }
-
-                return point;
-            });
-
-            const selectedDropoffPoints = obj.selectedDropoffPoints.map((point) => {
-                if (point.pcatId === 5) {
-                    return {
-                        ...point,
-                        postCodeDetails: { ...point.postCodeDetails, id: 0 },
-                    };
-                }
-
-                if (point.pcatId === 1) {
-                    return {
-                        ...point,
-                        flightDetails: {
-                            ...point.flightDetails,
-                            waitingPickupTime: 0,
-                        },
-                    };
-                }
-
-                return point;
-            });
-
-            return {
-                ...obj,
-                selectedPickupPoints,
-                selectedDropoffPoints,
-            };
-        });
+        const checkedReservations = normalizeReservations(reservations)
 
         let errorHolder = reservationSchemeValidator({ reservations: checkedReservations, appData });
         setInternalState({ errorHolder });

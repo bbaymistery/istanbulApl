@@ -15,11 +15,11 @@ const PointsModal = dynamic(() => import('../../elements/PointsModal'));
 
 const tabsBttons = navigator[1].list.slice(0, 5)
 const PopularDestinations = (props) => {
-    const { showTabs = true, islinknamecomponent = false } = props
+    const { showTabs = true, islinknamecomponent = false, env } = props
 
     const dispatch = useDispatch();
     const state = useSelector(state => state.pickUpDropOffActions);
-    const { params: { direction, language, pointsModalStatus, hasTaxiDeals } } = state;
+    const { params: { direction, language, pointsModalStatus, hasTaxiDeals, selectedCurrency } } = state;
 
     const [points, setPoints] = useState(airportPoints[hasTaxiDeals])
 
@@ -33,25 +33,31 @@ const PopularDestinations = (props) => {
         // AYT>"antalya airport"
         // DLM>"dalaman airport"
         // BJV>"bodrum airport"
+        if (dealsNameProp === "IST") {
+            dealsNameProp = "istanbul airport"
+        } else if (dealsNameProp === "SAW") {
+            dealsNameProp = "sabiha gokcen airport"
+        } else if (dealsNameProp === "AYT") {
+            dealsNameProp = "antalya airport"
+        } else if (dealsNameProp === "DLM") {
+            dealsNameProp = "dalaman airport"
+        } else if (dealsNameProp === "BJV") {
+            dealsNameProp = "bodrum airport"
+        }
         let encodedDealsNameProp = encodeURIComponent(dealsNameProp);
-        let url = `${env.apiDomain}/api/v1/taxi-deals/list?points=${encodedDealsNameProp}&language=${language}&channelId=${channelId}`;
+        let url = `${env.apiDomain}/api/v1/taxi-deals/list?points=${encodedDealsNameProp}&language=${language}&channelId=${channelId}currencyId${selectedCurrency.currencyId}`;
 
 
         let response = await fetch(url);
         let { data, status } = await response.json();
-
         if (status === 200) {
             console.log(data, "data");
-
-
         }
     };
     const tabsHandler = async (params = {}) => {
         let { index, dealsNameProp } = params
-        console.log(dealsNameProp, "dealsNameProp");
-
         setTabs(index)
-        // fecthPoints({ dealsNameProp, language })
+        fecthPoints({ dealsNameProp, language })
         dispatch({ type: "SET_NAVBAR_TAXI_DEALS", data: { hasTaxiDeals: dealsNameProp } });
     }
 
