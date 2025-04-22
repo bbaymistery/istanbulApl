@@ -1,49 +1,61 @@
-import React from 'react'
-import { navigator } from '../../../constants/navigatior'
+import React from 'react';
 import Link from 'next/link';
-import styles from "./styles.module.scss";
 import { useRouter } from 'next/router';
 
-const MobileMenu = (({ handleClickNavLinkMobileMenuNotList, language, handleClickNavLinkMobileMenuList, openMenu, appData, airportTranslations }) => { // Note that `ref` is the second argument here
-    const router = useRouter()
-    return (
-        <div className={`${styles.header_content_menu_mobile} ${openMenu ? styles.active_header_content_menu_mobile : ""} `}>
-            <ul className={styles.menu_content_ul}>
-                {navigator.map((item, index) => {
-                    let { path, innerText, list, type, title, firstChild, strInnerText } = item
-                    return (
-                        <li key={innerText} className={`${styles.li_item} ${type === "list" ? styles.has_children : ""}`} id="navLink">
-                            <Link onClick={() => handleClickNavLinkMobileMenuNotList({ index })}
-                                href={`${language === 'en' ? `${path}` : `${language}${path}`}`}
-                                title={appData?.words[title]}
-                                className={`${!path.length ? styles.nocursor : ""}  ${firstChild ? styles.first_child_a : ""} `}
-                                target={index === 4 ? "_blank" : ""}
+import { navigator } from '../../../constants/navigatior';
+import styles from './styles.module.scss';
 
-                            >
+const MobileMenu = ({ handleClickNavLinkMobileMenuNotList, language, handleClickNavLinkMobileMenuList, openMenu, appData, airportTranslations }) => {
+    const router = useRouter();
+    const isEnglish = language === 'en';
+
+    const handleSubLinkClick = (listPath, hasTaxiDeals) => {
+        const targetPath = isEnglish ? listPath : `/${language}${listPath}`;
+
+        if (router.asPath !== targetPath) {
+            handleClickNavLinkMobileMenuList({ hasTaxiDeals });
+            router.push(targetPath);
+        }
+    };
+
+    return (
+        <div className={`${styles.header_content_menu_mobile} ${openMenu ? styles.active_header_content_menu_mobile : ''}`}>
+            <ul className={styles.menu_content_ul}>
+                {navigator.map(({ path, innerText, list, type, title, firstChild, strInnerText }, index) => {
+                    const fullPath = isEnglish ? path : `/${language}${path}`;
+                    const showDropdown = type === 'list';
+                    const hasNoCursor = !path.length;
+                    const isFirstChild = firstChild;
+                    const isExternal = index === 4;
+
+                    return (
+                        <li key={innerText} className={`${styles.li_item} ${showDropdown ? styles.has_children : ''}`} id="navLink"   >
+                            <Link href={fullPath} onClick={() => handleClickNavLinkMobileMenuNotList({ index })} title={appData?.words[title]} className={`${hasNoCursor ? styles.nocursor : ''} ${isFirstChild ? styles.first_child_a : ''}`} target={isExternal ? '_blank' : ''}>
                                 <span>{appData?.words[strInnerText]}</span>
-                                {/* <span>{index === 0 ? appData?.words[innerText] : innerText}</span> */}
-                                {type === "list" ? <i className="fa-solid fa-angle-down"></i> : ""}
+                                {showDropdown && <i className="fa-solid fa-angle-down"></i>}
                             </Link>
-                            {type === "list" ?
+
+                            {showDropdown && (
                                 <ul className={styles.hoverUl}>
-                                    {list.map((item) => {
-                                        let { path: listPath, hasTaxiDeals, strInnerText } = item
+                                    {list.map(({ path: listPath, hasTaxiDeals, strInnerText }) => {
+                                        const translation = airportTranslations?.[language]?.[strInnerText];
+
                                         return (
-                                            <li onClick={() => { handleClickNavLinkMobileMenuList({ hasTaxiDeals }); router.push(`${language === 'en' ? `${listPath}` : `${language}${listPath}`}`) }} key={strInnerText} className={`${styles.li_item} ${!listPath.length ? styles.nocursor : ""}  `}>
-                                                <p title={airportTranslations[language][strInnerText]}>
-                                                    <span>{airportTranslations[language][strInnerText]}</span>
+                                            <li key={strInnerText} onClick={() => handleSubLinkClick(listPath, hasTaxiDeals)} className={`  ${styles.li_item} ${!listPath.length ? styles.nocursor : ''}  `}   >
+                                                <p title={translation}>
+                                                    <span>{translation}</span>
                                                 </p>
                                             </li>
-                                        )
-                                    })
-                                    }
-                                </ul> : <></>}
-
-                        </li>)
+                                        );
+                                    })}
+                                </ul>
+                            )}
+                        </li>
+                    );
                 })}
             </ul>
-        </div>
+        </div >
     );
-});
+};
 
-export default MobileMenu
+export default MobileMenu;

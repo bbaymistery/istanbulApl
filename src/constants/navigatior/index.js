@@ -61,22 +61,22 @@ export const navigator = [
                 hasTaxiDeals: "BJV",
                 strInnerText: "strBodrumMilasAirportPrices",
             },
-            {
-                innerText: "Izmir Adnan Menderes Airport (ADB)",
-                path: "/izmir-adnan-menderes-airport-taxi-prices",
-                title: "strIzmirAdnanMenderesAirportPrices",
-                type: "cell",
-                hasTaxiDeals: "ADB",
-                strInnerText: "strIzmirAdnanMenderesAirportPrices",
-            },
-            {
-                innerText: "Gazipasha-Alanya Airport (GZP)",
-                path: "/gazipasha-alanya-airport-taxi-prices",
-                title: "strGazipashaAlanyaAirportPrices",
-                type: "cell",
-                hasTaxiDeals: "GZP",
-                strInnerText: "strGazipashaAlanyaAirportPrices",
-            },
+            // {
+            //     innerText: "Izmir Adnan Menderes Airport (ADB)",
+            //     path: "/izmir-adnan-menderes-airport-taxi-prices",
+            //     title: "strIzmirAdnanMenderesAirportPrices",
+            //     type: "cell",
+            //     hasTaxiDeals: "ADB",
+            //     strInnerText: "strIzmirAdnanMenderesAirportPrices",
+            // },
+            // {
+            //     innerText: "Gazipasha-Alanya Airport (GZP)",
+            //     path: "/gazipasha-alanya-airport-taxi-prices",
+            //     title: "strGazipashaAlanyaAirportPrices",
+            //     type: "cell",
+            //     hasTaxiDeals: "GZP",
+            //     strInnerText: "strGazipashaAlanyaAirportPrices",
+            // },
         ]
     },
     {
@@ -116,7 +116,13 @@ export const navigator = [
     
 
 ]
-
+export const turkeyTaxiPricesLinks = [
+    "/istanbul-airport-taxi-prices",
+    "/sabiha-gokcen-airport-taxi-prices",
+    "/dalaman-airport-taxi-prices",
+    "/antalya-airport-taxi-prices",
+    "/bodrum-milas-airport-taxi-prices"
+];
 export const airportTaxiLinks = [
         {
             innerText: "Istanbul Airport (IST)",
@@ -158,22 +164,22 @@ export const airportTaxiLinks = [
             hasTaxiDeals: "BJV",
             strInnerText: "strBodrumMilasAirportPrices",
         },
-        {
-            innerText: "Izmir Adnan Menderes Airport (ADB)",
-            path: "/izmir-adnan-menderes-airport-taxi-prices",
-            title: "strIzmirAdnanMenderesAirportPrices",
-            type: "cell",
-            hasTaxiDeals: "ADB",
-            strInnerText: "strIzmirAdnanMenderesAirportPrices",
-        },
-        {
-            innerText: "Gazipasha-Alanya Airport (GZP)",
-            path: "/gazipasha-alanya-airport-taxi-prices",
-            title: "strGazipashaAlanyaAirportPrices",
-            type: "cell",
-            hasTaxiDeals: "GZP",
-            strInnerText: "strGazipashaAlanyaAirportPrices",
-        },
+        // {
+        //     innerText: "Izmir Adnan Menderes Airport (ADB)",
+        //     path: "/izmir-adnan-menderes-airport-taxi-prices",
+        //     title: "strIzmirAdnanMenderesAirportPrices",
+        //     type: "cell",
+        //     hasTaxiDeals: "ADB",
+        //     strInnerText: "strIzmirAdnanMenderesAirportPrices",
+        // },
+        // {
+        //     innerText: "Gazipasha-Alanya Airport (GZP)",
+        //     path: "/gazipasha-alanya-airport-taxi-prices",
+        //     title: "strGazipashaAlanyaAirportPrices",
+        //     type: "cell",
+        //     hasTaxiDeals: "GZP",
+        //     strInnerText: "strGazipashaAlanyaAirportPrices",
+        // },
     
 
 ]

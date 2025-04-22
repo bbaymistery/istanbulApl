@@ -21,7 +21,10 @@ import Head from "next/head";
 import { createMetaTagElementsClientSide, renderSchemaScriptsClientSide } from "../helpers/schemaMetaTagHelper";
 import { getMetaTagPopularDestinationPage, getPopularDestinationsPageContentByPathname, getSinglekeywordsTitlePopularDestinationPage, getSinglePopularDestinationSchemaByPathname } from "../constants/keywordsAndContents/popularDestinationsKeywordsContents/popularKeywordsContents";
 import DangerouslyInnerHtml from "../components/elements/DangerouslyInnerHtml";
-
+import { setNoCacheHeader } from '../helpers/setNoCacheHeader';
+import { urlToTitle } from "../helpers/letters";
+import { postDataAPI } from "../helpers/fetchDatas copy";
+import { turkeyTaxiPricesLinks } from "../constants/navigatior";
 
 
 const NavbarLinkName = (props) => {
@@ -33,7 +36,7 @@ const NavbarLinkName = (props) => {
 
     // If server-side validation fails (data is "not found"), render the 404 page
     if (data === "not found") return <Error404 />;
-    let { pageContent, schemas, metaTags, keywords, headTitle, metaDescription, } = data
+    let { headTitle = "", keywords = "", metaDescription = "", pageContent = "", schemas = [], metaTags = [] } = props.data || {}
 
     useEffect(() => {
         // If not a "Quotation" link, find the matching item and update Redux state
@@ -47,13 +50,9 @@ const NavbarLinkName = (props) => {
 
     // Render the main layout and components if validation passes
     return (isItQuationLink ?
-        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
-            <Head>
-                {createMetaTagElementsClientSide(metaTags)}
-                {renderSchemaScriptsClientSide(schemas)}
-            </Head>
-            <DangerouslyInnerHtml htmContent={pageContent} />
-        </GlobalLayout>
+
+        <>isItQuationLink</>
+
         :
         <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
             <Head>
@@ -61,7 +60,7 @@ const NavbarLinkName = (props) => {
                 {renderSchemaScriptsClientSide(schemas)}
             </Head>
             <Hero islinknamecomponent={true} env={env} />
-            <PopularDestinations islinknamecomponent={true} />
+            <PopularDestinations islinknamecomponent={true} env={env} />
             {pageContent.length > 0 && <LinkNameDescription pageContent={pageContent} />}
             <CarsSlider bggray={true} />
         </GlobalLayout>
@@ -76,80 +75,130 @@ const wrapper = createWrapper(makestore);
 
 const handleStandartContent = (params = {}) => {
 
-    let { isItQuationLink = false, pageStartLanguage: language, pathname, env } = params
+    let { pageStartLanguage: language, pathname, env } = params
 
     const pageContent = getAirportPageContentByPathname(pathname, language);
     const schemas = [getSingleAirportSchemaByPathname(pathname, language)]
     const metaTags = getMetaTagSingleAirportPage(pathname, language, env);
     const { keywords, headTitle, metaDescription } = getSinglekeywordsTitleAirportPage(pathname, language);
 
-    let data = { pageContent, schemas, metaTags, keywords, headTitle, metaDescription }
-    return { props: { data, isItQuationLink, } }
+    let data = { pageContent, schemas: schemas || [], metaTags, keywords, headTitle, metaDescription }
+    return { props: { data, isItQuationLink: false } }
 }
 
 
-const handleQuotationLink = (params = {}) => {
+async function handleQuotationLink(language, pathname, env,) {
+    let pickUps = []
+    let dropoffs = []
+    let review = {}
+    let schemas = []
+    //!nneww Pathname yox idi direk yazilirdi 
+    if (pathname) {
+        const body = { language, checkRedirect: true, taxiDealPathname: pathname, withoutExprectedPoints: true, }
+        let { breadcrumbs } = urlToTitle({ url: pathname, pathnamePage: true })
 
-    let { isItQuationLink = true, pageStartLanguage: language, pathname, env, hasTaxiDeals } = params
+        const url = `${env.apiDomain}/api/v1/taxi-deals/details`;
+        const { status, data } = await postDataAPI({ url, body });
+        console.log(status);
 
-    const pageContent = getPopularDestinationsPageContentByPathname(pathname, language, hasTaxiDeals);
-    const metaTags = getMetaTagPopularDestinationPage(pathname, language, env, hasTaxiDeals);
-    const { keywords, headTitle, metaDescription } = getSinglekeywordsTitlePopularDestinationPage(pathname, language, hasTaxiDeals);
-    let schemas = getSinglePopularDestinationSchemaByPathname(env, hasTaxiDeals, pathname, language);
 
-    if (schemas) {
-        schemas = Object.keys(schemas).map(key => ({ [key]: schemas[key] }));//array of objects [b:{ab:"1"},c:{ab:"2"},d:{ab:"3"}]
-        schemas = schemas.map(obj => Object.values(obj)[0]);//Output: ["1", "2", "3"]
+        if (status === 205) return { redirect: { destination: data.redirectPathname, permanent: false } };
+        if (status === 200) {
+            let {
+                distance,
+                duration,
+                quotationOptions,
+                markerPoints,
+                polylinePath,
+                taxiDeal: { pickupPoints, dropoffPoints, pageTitle = "", headTitle = "", description = "", keywords = "", returnPathname = "", pageContent = "", returnHeadTitle = "", returnPageTitle = "", pathname: linkurl, metaTags = [] } } = data
+
+            // select first item from all points
+            pickUps = pickupPoints?.length >= 1 ? [pickupPoints[0]] : []
+            dropoffs = dropoffPoints?.length >= 1 ? [dropoffPoints[0]] : []
+
+            const newPageContent = pageContent?.replace(/__website_domain__/g, env.websiteDomain);
+            review.bestRating = data?.taxiDeal?.schema?.Product ? data?.taxiDeal?.schema?.Product?.aggregateRating?.bestRating : 5
+            review.ratingValue = data?.taxiDeal?.schema?.Product ? data?.taxiDeal?.schema?.Product?.aggregateRating?.ratingValue : 4.95
+            review.reviewCount = data?.taxiDeal?.schema?.Product ? data?.taxiDeal?.schema?.Product?.aggregateRating?.reviewCount : 1988
+
+            let schemaOfTaxiDeals = data?.taxiDeal?.schema || []
+            schemaOfTaxiDeals = Object.keys(schemaOfTaxiDeals).map(key => ({ [key]: schemaOfTaxiDeals[key] }));//array of objects [b:{ab:"1"},c:{ab:"2"},d:{ab:"3"}]
+            schemaOfTaxiDeals = schemaOfTaxiDeals.map(obj => Object.values(obj)[0]);//Output: ["1", "2", "3"]
+            schemas = [...schemaOfTaxiDeals]
+            // Cache the data
+            let finalData = {
+                pickUps,
+                dropoffs,
+                keywords,
+                language,
+                pageTitle,
+                headTitle,
+                description,
+                returnPathname,
+                schemaOfTaxiDeals,
+                pageContent: newPageContent,
+                returnHeadTitle,
+                returnPageTitle,
+                distance,
+                duration,
+                quotationOptions,
+                schemas,
+                breadcrumbs,
+                linkurl,
+                metaTags,
+                review,
+                markerPoints,
+                polylinePath,
+
+            }
+
+            return { props: { data: finalData, isItQuationLink: true } }
+
+        }
+        else {
+            return { props: { data: "not found", } }
+        }
     }
-
-    let data = { pageContent, metaTags, keywords, headTitle, metaDescription, schemas }
-    return { props: { data, isItQuationLink } }
 }
+
 
 
 // Server-side props function
-export const getServerSideProps = wrapper.getServerSideProps(store => async ({ req, res, query, resolvedUrl }) => {
-    const { linkname } = query; // Extract the linkname parameter from the query string
-    const env = await fetchConfig(); // Fetch environment-specific configuration (e.g., API keys)
+export const getServerSideProps = wrapper.getServerSideProps(store => async ({ req, res, ...etc }) => {
+    // Fetch environment configuration (such as domain, API URLs, etc.)
+    const env = await fetchConfig();
 
-    // Disable caching for dynamic responses
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    // Disable caching to always serve fresh content (especially important for SSR pages)
+    setNoCacheHeader(res);
 
+    // Get the resolved URL from Next.js context (assuming etc is a destructured object)
+    const { resolvedUrl } = etc;
+
+    // Ensure the URL is in lowercase to avoid duplicated routes or mismatches
     isUrlLoverCase(resolvedUrl, res);
 
-    // Get cookies and pathnames
+    // Parse cookies from the request headers
     let cookies = parseCookies(req.headers.cookie);
-    let { pathname } = parse(req.url, true);
 
+    // Parse the full request URL to get pathname and query object
+    let { pathname, query } = parse(req.url, true);
+
+    // Determine language from the URL (e.g. "/tr/some-page" => "tr")
     let pageStartLanguage = checkLanguageAttributeOntheUrl(req?.url);
+
+    // Adjust pathname and potentially correct the detected language using cookie fallback
     const adjusted = adjustPathnameForLanguage(pathname, pageStartLanguage, cookies);
 
+    // Destructure updated values from adjustment function
     pageStartLanguage = adjusted.pageStartLanguage;
     pathname = adjusted.pathname;
 
-    // Validate if the path exists on the server
-    const isValid = ISvalidPath(`/${linkname}`);
-    if (!isValid) {
-        // If the path is invalid, return a "not found" response
-        return { props: { data: "not found", env } };
-    }
-
-    // Determine hasTaxiDeals based on linkname prefix
-    let hasTaxiDeals = "IST"; // Default value
-
-    if (linkname.startsWith("istanbul")) hasTaxiDeals = "IST";
-    else if (linkname.startsWith("sabiha-")) hasTaxiDeals = "SAW";
-    else if (linkname.startsWith("antalya-")) hasTaxiDeals = "AYT";
-    else if (linkname.startsWith("dalaman-")) hasTaxiDeals = "DLM";
-    else if (linkname.startsWith("bodrum-")) hasTaxiDeals = "BJY";
-    else if (linkname.startsWith("izmir-adnan-")) hasTaxiDeals = "ADB";
-    else if (linkname.startsWith("gazipasa-")) hasTaxiDeals = "GZP";
-
-    let isItQuationLink = ifItIsQuotationLink(`/${linkname}`);
-
-    if (isItQuationLink) {
-        return handleQuotationLink({ isItQuationLink, pageStartLanguage, pathname, env, hasTaxiDeals });
+    if (turkeyTaxiPricesLinks.includes(`${pathname}`)) {
+        return handleStandartContent({ pageStartLanguage, pathname, env, });
     } else {
-        return handleStandartContent({ isItQuationLink, pageStartLanguage, pathname, env });
+        // return handleQuotationLink(pageStartLanguage, pathname, env,);
+        return { props: { data: "not found", } }
     }
+
+
 });

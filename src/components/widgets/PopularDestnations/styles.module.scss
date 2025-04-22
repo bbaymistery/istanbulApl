@@ -43,25 +43,6 @@
                 align-items: center;
                 justify-content: center;
                 flex-wrap: wrap;
-
-                // button {
-                //     padding: 5px 9px;
-                //     color: $--color-accent-2;
-                //     font-weight: 500;
-                //     border: 1px solid $--color-accent-2;
-                //     border-radius: 4px;
-                //     background-color: white;
-
-                //     &:hover {
-                //         background-color: $--color-accent-2;
-                //         color: white;
-                //     }
-                // }
-
-                // .active {
-                //     background-color: $--color-accent-2;
-                //     color: white;
-                // }
             }
 
             .featureIcons {
@@ -152,7 +133,7 @@
                                     gap: 3px;
 
                                     i {
-                                        font-size: 10px;
+                                        font-size: 12px;
                                         color: $--color-yellow-2;
                                     }
                                 }
@@ -160,7 +141,7 @@
                                 span {
                                     margin-left: 10px;
                                     color: $--color-dark-1;
-                                    font-size: 13px;
+                                    font-size: 15px;
 
                                 }
                             }
@@ -178,11 +159,12 @@
                                 }
 
                                 .price {
-                                    font-size: 13px;
+                                    font-size: 16px;
+                                    text-transform: capitalize;
 
                                     span {
-                                        font-size: 16px;
-                                        font-weight: 500;
+                                        font-size: 17px;
+                                        font-weight: bold;
                                         margin-left: 5px;
                                     }
                                 }

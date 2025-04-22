@@ -20,8 +20,9 @@ const PopularDestinations = (props) => {
     const dispatch = useDispatch();
     const state = useSelector(state => state.pickUpDropOffActions);
     const { params: { direction, language, pointsModalStatus, hasTaxiDeals, selectedCurrency } } = state;
+    const { appData } = useSelector(state => state.initialReducer)
 
-    const [points, setPoints] = useState(airportPoints[hasTaxiDeals])
+    const [points, setPoints] = useState([])
 
     const [tabs, setTabs] = useState(0)
     const fecthPoints = async (params = {}) => {
@@ -35,7 +36,8 @@ const PopularDestinations = (props) => {
         // BJV>"bodrum airport"
         if (dealsNameProp === "IST") {
             dealsNameProp = "istanbul airport"
-        } else if (dealsNameProp === "SAW") {
+        }
+        else if (dealsNameProp === "SAW") {
             dealsNameProp = "sabiha gokcen airport"
         } else if (dealsNameProp === "AYT") {
             dealsNameProp = "antalya airport"
@@ -45,13 +47,15 @@ const PopularDestinations = (props) => {
             dealsNameProp = "bodrum airport"
         }
         let encodedDealsNameProp = encodeURIComponent(dealsNameProp);
-        let url = `${env.apiDomain}/api/v1/taxi-deals/list?points=${encodedDealsNameProp}&language=${language}&channelId=${channelId}currencyId${selectedCurrency.currencyId}`;
+        let url = `${env.apiDomain}/api/v1/taxi-deals/list?points=${encodedDealsNameProp}&language=${language}&channelId=${channelId}&currencyId=${selectedCurrency.currencyId}`;
 
 
         let response = await fetch(url);
         let { data, status } = await response.json();
         if (status === 200) {
-            console.log(data, "data");
+            setPoints(data.destinations)
+            console.log(data);
+
         }
     };
     const tabsHandler = async (params = {}) => {
@@ -62,8 +66,10 @@ const PopularDestinations = (props) => {
     }
 
     useEffect(() => {
-        setPoints(airportPoints[hasTaxiDeals])
-    }, [hasTaxiDeals, language])
+        fecthPoints({ dealsNameProp: hasTaxiDeals, language })
+        //asagidaki iki kod asagidaki use effecti acanda yox olmalidir
+        dispatch({ type: "SET_NAVBAR_TAXI_DEALS", data: { hasTaxiDeals } });
+    }, [language, hasTaxiDeals, selectedCurrency.currencyId])
 
     return (
         <div className={`${styles.populardestination} ${direction} page`} >
@@ -90,11 +96,11 @@ const PopularDestinations = (props) => {
                         {islinknamecomponent ? <h2>{getTitleStringOfHastaxiDeals(hasTaxiDeals, language)}</h2> : <></>}
                     </div>
                     <div className={styles.featureIcons}>
-                        {points.slice(0, 8).map((item, idx) => {
-                            let path = language === 'en' ? `/${item.linkUrl}` : `/${language}/${item.linkUrl}`
+                        {points.map((item, idx) => {
+
                             return (
                                 <div className={styles.featureIcon} key={idx}>
-                                    <a href={path}>
+                                    <a href={item.pathname}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
                                                 <Image sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px" src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} alt={item[language]} />
@@ -103,10 +109,10 @@ const PopularDestinations = (props) => {
                                         <div className={styles.tourcard_content}>
                                             <div className={styles.location}>
                                                 <i className="fa-solid fa-location-dot"></i>
-                                                {item.location}
+                                                {item.translatedPickup}
                                             </div>
                                             <h3 className={styles.title}>
-                                                <span>{item[language]}</span>
+                                                <span>{item.translatedPageTitle}</span>
                                             </h3>
                                             <div className={styles.tourcard_rating}>
                                                 <div className={styles.stars}>
@@ -123,7 +129,7 @@ const PopularDestinations = (props) => {
                                                     <i className={"fa-solid fa-clock"}></i>
                                                 </div>
                                                 <div className={styles.price}>
-                                                    From <span>£ {item.price} </span>
+                                                    {appData.words["strStartFrom"]} <span> {+selectedCurrency.currencyId === 1 ? item.price : item.exchangedPrice} </span>
                                                 </div>
                                             </div>
                                         </div>
