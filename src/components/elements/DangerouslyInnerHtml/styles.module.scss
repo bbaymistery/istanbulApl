@@ -16,13 +16,16 @@
         list-style: disc;
         margin-left: 18px;
     }
-
+p{
+   font-size: 20px;
+   padding:15px 0px;
+}
     a {
         color: $--color-accent-1-dark;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 32px;
         color: $--color-dark-1;
 
         @media(max-width:768px) {
@@ -36,7 +39,7 @@
         margin-bottom: 10px;
         padding-top: 16px;
         font-weight: 500;
-        font-size: 21px;
+        font-size: 25px;
         color: $--color-dark-2;
         border-top: 4px solid $--color-light-5;
 
@@ -47,13 +50,11 @@
         }
     }
 
-    background-attachment: red;
 
     h3 {
         margin-top: 17px;
         color: $--color-dark-2;
-        font-size: 19px;
-        font-weight: 500 !important;
+        font-size: 22px;
 
         @media(max-width:768px) {
             font-size: 17px;

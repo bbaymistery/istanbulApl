@@ -4,8 +4,9 @@ import { useRouter } from 'next/router';
 
 import { navigator } from '../../../constants/navigatior';
 import styles from './styles.module.scss';
+import { generalAllTranslations } from '../../../constants/generalTranslataions';
 
-const MobileMenu = ({ handleClickNavLinkMobileMenuNotList, language, handleClickNavLinkMobileMenuList, openMenu, appData, airportTranslations }) => {
+const MobileMenu = ({ handleClickNavLinkMobileMenuNotList, language, handleClickNavLinkMobileMenuList, openMenu, airportTranslations }) => {
     const router = useRouter();
     const isEnglish = language === 'en';
 
@@ -21,17 +22,17 @@ const MobileMenu = ({ handleClickNavLinkMobileMenuNotList, language, handleClick
     return (
         <div className={`${styles.header_content_menu_mobile} ${openMenu ? styles.active_header_content_menu_mobile : ''}`}>
             <ul className={styles.menu_content_ul}>
-                {navigator.map(({ path, innerText, list, type, title, firstChild, strInnerText }, index) => {
+                {navigator.map((item, index) => {
+                    let { path, innerText, list, type, title, firstChild, strInnerText } = item
                     const fullPath = isEnglish ? path : `/${language}${path}`;
                     const showDropdown = type === 'list';
-                    const hasNoCursor = !path.length;
+                    const hasNoCursor = type==='list';
                     const isFirstChild = firstChild;
                     const isExternal = index === 4;
-
                     return (
-                        <li key={innerText} className={`${styles.li_item} ${showDropdown ? styles.has_children : ''}`} id="navLink"   >
-                            <Link href={fullPath} onClick={() => handleClickNavLinkMobileMenuNotList({ index })} title={appData?.words[title]} className={`${hasNoCursor ? styles.nocursor : ''} ${isFirstChild ? styles.first_child_a : ''}`} target={isExternal ? '_blank' : ''}>
-                                <span>{appData?.words[strInnerText]}</span>
+                        <li key={innerText} className={`${showDropdown ? styles.has_children : ''}`} id="navLink"   >
+                            <Link href={fullPath} onClick={() => handleClickNavLinkMobileMenuNotList({ index })} title={generalAllTranslations?.[strInnerText]?.[language]} className={`${hasNoCursor ? styles.nocursor : ''} ${isFirstChild ? styles.first_child_a : ''}`} target={isExternal ? '_blank' : ''}>
+                                <span>{generalAllTranslations?.[strInnerText]?.[language]}</span>
                                 {showDropdown && <i className="fa-solid fa-angle-down"></i>}
                             </Link>
 

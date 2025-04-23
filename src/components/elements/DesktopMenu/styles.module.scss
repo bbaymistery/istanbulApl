@@ -5,16 +5,13 @@
              ul {
                  display: flex;
 
-                 @media(max-width:1150px) {
+                 @media(max-width:1200px) {
                      display: none;
                  }
 
                  li {
                      padding: 30px 0px;
 
-                     .hidefor_desktop {
-                         display: none;
-                     }
 
                      .active {
                          color: $--color-accent-2;
@@ -29,9 +26,8 @@
                          color: $--color-dark-1;
                          font-weight: 500;
 
-                         @media(max-width:1200px) {
-                             padding: 5px 10px;
-
+                         @media(max-width:1250px) {
+                             padding: 5px 8px;
                          }
 
                          &:hover {

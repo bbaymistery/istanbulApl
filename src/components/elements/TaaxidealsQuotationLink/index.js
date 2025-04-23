@@ -5,7 +5,6 @@ import Error404 from '../../../pages/404/index'
 import QuotationResultsTaxiDeal from '../QuotationResultsTaxiDeal';
 import { useState } from 'react';
 import { fetchPathnamePageDatas } from '../../../helpers/fetchPathnamePageDatas';
-import { useRouter } from 'next/router';
 
 function TestA(props) {
     const state = useSelector(state => state.pickUpDropOffActions)
@@ -14,12 +13,11 @@ function TestA(props) {
     const dispatch = useDispatch()
     const { appData } = useSelector(state => state.initialReducer)
     const objectDetailss = appData?.pointTypeCategories.reduce((obj, item) => ({ ...obj, [item.id]: JSON.parse(item.objectDetails), }), {});
-    const router = useRouter()
-    const [fetchdatas, setFetchDatas] = useState(props.props ? props.props : null)
+    const [fetchdatas, setFetchDatas] = useState(props.props.data ? props.props.data : null)
 
     let
         { data = "",
-            pickUps = [], dropoffs = [], polylinePath = [], markerPoints = [],
+            pickUps = [], dropoffs = [], polylinePath = [], markerPoints = [], schemas = [], metaTags = [],
             keywords = [], pageTitle = "", headTitle = "", description = "", returnPathname = "",
             pageContent = "", returnHeadTitle = "", returnPageTitle = "", duration = "", distance = "", quotationOptions = [], breadcrumbs = [], linkurl = "", review = {} } = fetchdatas
 
@@ -42,26 +40,20 @@ function TestA(props) {
             let dropoffPoints = dropoffs.length > 0 ? [{ ...dropoffs[0], ...objectDetailss[dropoffs[0].pcatId] }] : []
             dispatch({ type: "ADD_NEW_POINT_AT_PATHNAME", data: { pickupPoints, dropoffPoints, index: 0 } })
         }
-        const urls = [`/${returnPathname.split("/")[2]}`, linkurl]
+        //`/${returnPathname.split("/")[2]}`, aplde return de var idi urls icin de burda yoxdu
+        const urls = [returnPathname, linkurl]
         fetchPathnamePageDatas(urls);
-
-        //returnPathname
-
     }, [])
 
     useEffect(() => {
         const cacheKey = `page-${reduxLanguage}-${linkurl}`;
-
         let cache = sessionStorage.getItem('pathnameLinkCache');
         let allAppDatas = JSON.parse(sessionStorage.getItem('allAppDatas'))
-
         if (cache && allAppDatas && JSON.parse(cache)[cacheKey]) {
             setFetchDatas(JSON.parse(cache)[cacheKey])
         }
-
-
     }, [reduxLanguage])
-    
+
 
     return <QuotationResultsTaxiDeal
         isTaxiDeal={true}
@@ -83,6 +75,8 @@ function TestA(props) {
         env={props.props.env}
         polylinePath={polylinePath}
         markerPoints={markerPoints}
+        schemas={schemas}
+        metaTags={metaTags}
     />
 }
 

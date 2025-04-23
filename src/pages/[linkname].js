@@ -9,7 +9,7 @@ import { useDispatch, } from "react-redux";
 import { useRouter } from "next/router";
 import { useEffect, } from "react";
 import Error404 from './404/index';
-import { findMatchingItem, ifItIsQuotationLink, ISvalidPath } from "../constants/popularDestinations";
+import { findMatchingItem } from "../constants/popularDestinations";
 import PopularDestinations from "../components/widgets/PopularDestnations";
 import { isUrlLoverCase } from "../helpers/isUrlLoverCase";
 import { parseCookies } from "../helpers/cokieesFunc";
@@ -19,12 +19,12 @@ import LinkNameDescription from "../components/elements/LinkNameDescription";
 import { getAirportPageContentByPathname, getMetaTagSingleAirportPage, getSingleAirportSchemaByPathname, getSinglekeywordsTitleAirportPage } from "../constants/keywordsAndContents/airportsKeywordsContentSchema";
 import Head from "next/head";
 import { createMetaTagElementsClientSide, renderSchemaScriptsClientSide } from "../helpers/schemaMetaTagHelper";
-import { getMetaTagPopularDestinationPage, getPopularDestinationsPageContentByPathname, getSinglekeywordsTitlePopularDestinationPage, getSinglePopularDestinationSchemaByPathname } from "../constants/keywordsAndContents/popularDestinationsKeywordsContents/popularKeywordsContents";
-import DangerouslyInnerHtml from "../components/elements/DangerouslyInnerHtml";
 import { setNoCacheHeader } from '../helpers/setNoCacheHeader';
 import { urlToTitle } from "../helpers/letters";
-import { postDataAPI } from "../helpers/fetchDatas copy";
+import { postDataAPI } from '../helpers/fetchDatas';
 import { turkeyTaxiPricesLinks } from "../constants/navigatior";
+import dynamic from "next/dynamic";
+const TaaxidealsQuotationLink = dynamic(() => import('../components/elements/TaaxidealsQuotationLink'),);
 
 
 const NavbarLinkName = (props) => {
@@ -38,6 +38,9 @@ const NavbarLinkName = (props) => {
     if (data === "not found") return <Error404 />;
     let { headTitle = "", keywords = "", metaDescription = "", pageContent = "", schemas = [], metaTags = [] } = props.data || {}
 
+
+
+
     useEffect(() => {
         // If not a "Quotation" link, find the matching item and update Redux state
         if (!isItQuationLink) {
@@ -49,11 +52,7 @@ const NavbarLinkName = (props) => {
 
 
     // Render the main layout and components if validation passes
-    return (isItQuationLink ?
-
-        <>isItQuationLink</>
-
-        :
+    return (isItQuationLink ? <TaaxidealsQuotationLink props={props} /> :
         <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
             <Head>
                 {createMetaTagElementsClientSide(metaTags)}
@@ -196,8 +195,8 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
     if (turkeyTaxiPricesLinks.includes(`${pathname}`)) {
         return handleStandartContent({ pageStartLanguage, pathname, env, });
     } else {
-        // return handleQuotationLink(pageStartLanguage, pathname, env,);
-        return { props: { data: "not found", } }
+        return handleQuotationLink(pageStartLanguage, pathname, env,);
+        // return { props: { data: "not found", } }
     }
 
 

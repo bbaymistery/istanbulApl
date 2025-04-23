@@ -1649,57 +1649,11 @@ const airportPoints = {
 export default airportPoints;
 
 
-//bir airportsarin hepsi  > /gazipasa-alanya-airport-to-alanya'  falan 
-//birde taxi prices  var hansiki navogatorun icinde yerlesen Navbardan gelenOnlarida navigator icine ekleyirik
-const pathForCheckingError404 = [
-    { path: "/" },
-    { path: "/terms" },
-    { path: "/fleet" },
-    { path: "/manage-booking.html" },
-    { path: "/contact-us" },
-    { path: "/istanbul-airport-taxi-prices", },
-    { path: "/sabiha-gokcen-airport-taxi-prices", },
-    { path: "/dalaman-airport-taxi-prices", },
-    { path: "/antalya-airport-taxi-prices", },
-    { path: "/bodrum-milas-airport-taxi-prices", },
-    { path: "/izmir-adnan-menderes-airport-taxi-prices", },
-    { path: "/gazipasha-alanya-airport-taxi-prices", },
-];
-
-//?Functions Helpers helpers
-/**
- * Extracts the `linkUrl` values from the provided data object and returns an array of objects with the `path` property set to the corresponding URL.
- *
- * @param {Object} data - The data object containing the `linkUrl` values.
- * @returns {Array<{ path: string }>} - An array of objects with the `path` property set to the corresponding URL.
- */
-const extractLinkUrls = (data) => {
-    const urls = [];
-    Object.keys(data).forEach((key) => {
-        const destinations = data[key];
-        destinations.forEach((destination) => {
-            if (destination.linkUrl) {
-                urls.push({ path: `/${destination.linkUrl}` });
-            }
-        });
-    });
-    return urls;
-};
 
 
 
-/**
- * Checks if the given pathname is a valid path in the application.
- * 
- * @param {string} pathname - The pathname to check.
- * @returns {boolean} - True if the pathname is a valid path, false otherwise.
- */
-export const ISvalidPath = (pathname) => {
-    return [...pathForCheckingError404, ...extractLinkUrls(airportPoints)].some((route) => route.path.toLowerCase() === pathname.toLowerCase());
-}
-export const ifItIsQuotationLink = (pathname) => {
-    return [...extractLinkUrls(airportPoints)].some((route) => route.path.toLowerCase() === pathname.toLowerCase());
-}
+
+
 
 /**
  * Finds the matching destination item based on the provided router pathname.

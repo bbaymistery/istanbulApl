@@ -44,3 +44,7 @@ adults price nece atanacak ?
 //!Antalyanin ilk images[0] degisicek ve   de de antalyaya aid olan degisicek
 //!Adults Children prices
 //!Someof them is written duration like => Duration: 10:00 AM - 6:00 PM  In this case we should remove select data time 
+
+
+
+//QuotationResultsTaxiDealLeftPart >infoaplcars.com degisilicek
