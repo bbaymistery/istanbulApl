@@ -1,11 +1,11 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { ifHasUnwantedCharacters } from '../../helpers/ifHasUnwantedCharacters';
-import TextInput from '../../components/elements/TextInput';
+import { ifHasUnwantedCharacters } from '../../../../helpers/ifHasUnwantedCharacters';
+import TextInput from '../../../../components/elements/TextInput';
 import styles from "./styles.module.scss"
-import { useUserIp } from '../../hooks/userIp';
+import { useUserIp } from '../../../../hooks/userIp';
 import PhoneInput from 'react-phone-input-2';
-import Select from '../../components/elements/Select';
+import Select from '../../../../components/elements/Select';
 const HandlePassengerDetailsTransferForm = (props) => {
     let { passengerDetailsStatus, index, appData, reservationError, firstname, email, passengersNumber, phone, quotation, direction } = props
     const dispatch = useDispatch()

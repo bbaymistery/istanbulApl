@@ -57,7 +57,7 @@
 
                     .stars {
                         position: absolute;
-                        top: 5px !important;
+                        top: -5px !important;
                         left: 0px;
 
                         @media (max-width:1100px) {

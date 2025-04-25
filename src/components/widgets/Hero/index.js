@@ -161,8 +161,8 @@ const Hero = (props) => {
                                 let reservationError = (internalState.errorHolder.status === 403 && Array.isArray(internalState.errorHolder.reservations)) ? internalState.errorHolder.reservations?.[index] : {};
                                 let { transferDetails, selectedPickupPoints, selectedDropoffPoints } = obj
                                 let { transferDateTimeString } = transferDetails
-                                const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(index === 0 ? currentDateForJourney() : transferDateTimeString) || []
-                                const [splitedDate] = splitDateTimeStringIntoDate(index === 0 ? currentDateForJourney() : transferDateTimeString) || []
+                                const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(transferDateTimeString) || []
+                                const [splitedDate] = splitDateTimeStringIntoDate(transferDateTimeString) || []
                                 return (
                                     <div key={index}>
                                         {reservations.length > 1 && index == 0 ? <div className={`${styles.tr_journey_title} ${direction}`}>{appData?.words["seGoingDetails"]}</div> : <React.Fragment></React.Fragment>}

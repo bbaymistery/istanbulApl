@@ -29,7 +29,7 @@ export default function Home(props) {
   }, [hasScrolled]);
 
   return (
-    <GlobalLayout title={props.seoDatas.title} keywords={props.seoDatas.keywords} description={props.seoDatas.description}>
+    <GlobalLayout title={props?.seoDatas?.title} keywords={props?.seoDatas?.keywords} description={props?.seoDatas?.description}>
       <Hero env={props.env} />
       <WhyChoice />
       <PopularDestinations env={props.env} />
@@ -103,7 +103,8 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
   const adjusted = adjustPathnameForLanguage(pathname, pageStartLanguage, cookies);
   // pathname = adjusted.pathname;
   pageStartLanguage = adjusted.pageStartLanguage;
-  const seoDatas = seoHomeDefaults[pageStartLanguage];
+  const seoDatas = seoHomeDefaults[pageStartLanguage] || seoHomeDefaults["en"];
+
   return {
     //we pass tourdetails fot adding inside redux generally all together
     props: { seoDatas }
