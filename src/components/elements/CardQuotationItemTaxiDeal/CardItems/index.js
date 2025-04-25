@@ -2,10 +2,17 @@ import React from 'react'
 import styles from "./cardItems.styles.module.scss"
 import { quotationImagesObjWebp } from '../../../../constants/quotationImages';
 import Image from 'next/image';
+import currencies from '../../../../constants/currencies';
 
-const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, direction, appData ,setQuotationHandleClick}) => {
+const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, direction, appData, setQuotationHandleClick, currencyId }) => {
+
 
     return datas?.map((item, index) => {
+
+        const symbol = currencies.find(c => c.currencyId === +currencyId)?.symb || "£";
+
+        const displayedPrice = item.currencyId === +currencyId ? item.price : item.exchangedPrice;
+
         const isSelected = Number(selectedQuotation?.carId) === Number(quotationImagesObjWebp[item?.carId].id)
         const dataId = index === 0 ? "first_car" : (index === 1 ? "second_car" : "")
         return (
@@ -49,8 +56,8 @@ const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, 
                                         </i>
                                         <span>{appData?.words["strFreeCancellation24h"]}</span>
                                     </span>
-                                    <span className={`${styles.price_span}`} >
-                                        {`£${item?.price.split(".")[0]}.`}
+                                    <span className={styles.price_span}>
+                                        {`${symbol}${displayedPrice}.`}
                                         <span>00</span>
                                     </span>
                                 </p>
@@ -59,7 +66,10 @@ const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, 
                     </div>
 
                     <div className={`${direction === 'rtl' ? styles.thirdcolumnDirection : ""} ${styles.column_third}`}>
-                        <div className={styles.price}>{`£${item?.price.split(".")[0]}.`} <span>00</span> </div>
+                        <div className={styles.price}>
+                            {`${symbol}${displayedPrice}.`}
+                            <span>00</span>
+                        </div>
                         <div className={styles.total}>{appData?.words["strTotalPrice"]}</div>
                         <button onClick={() => setQuotationHandleClick({ quotation: item })} className={`btn btn_primary ${isSelected ? styles.selectedBtn : ""}`}   >
                             {isSelected ? `${appData?.words["quSelectedButton"]}` : `${appData?.words["quSelectButton"]}`}

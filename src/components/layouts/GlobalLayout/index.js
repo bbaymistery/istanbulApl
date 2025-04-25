@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head';
 import TopHeader from '../../widgets/TopHeader';
 import { useRouter } from 'next/router';
-import Footer from '../../widgets/Footer';
+// import Footer from '../../widgets/Footer';
 const seoDefaults = {
   title: "APL Transfers ",
   keywords: "Istanbul airport transfer, Sabiha Gokcen transfer, Beşiktaş taxi, Taksim transportation, Antalya tours, Fethiye boat tour, Oludeniz paragliding, Cappadocia balloon tour, Turkey tours, private transfer service",
@@ -34,7 +34,7 @@ const GlobalLayout = ({ children, title = seoDefaults.title, description = seoDe
       <main>
         {children}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

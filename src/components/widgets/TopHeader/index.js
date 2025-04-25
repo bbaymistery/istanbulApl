@@ -66,6 +66,10 @@ const Header = () => {
   const handleCurrency = (params = {}) => {
     let { e, text, currencyId } = params
     dispatch({ type: "SET_CURRENCY", data: { currencyId: +currencyId, text } })
+
+    setCookie("currency", text, 1);
+    setCookie("currencyId", currencyId, 1);
+
     setCurrencyStatus(false)
   }
 
@@ -105,6 +109,8 @@ const Header = () => {
     }
     toggleMenu();
   }, [dispatch, journeyType, toggleMenu]);
+
+
   return (
     <header className={styles.header} id="navbar_container" >
       <div className={styles.header_container}>
@@ -125,21 +131,22 @@ const Header = () => {
           <div className={styles.right_items}>
 
             <div className={`${styles.currency_dropdown}`} >
-              <div className={styles.text} onClick={setOpenCurrencyDropDown} data-name="currency">
+              <div className={styles.text} onClick={() => setOpenCurrencyDropDown()} data-name="currency">
                 {selectedCurrency.currency}
               </div>
               {currencyStatus ?
-                <OutsideClickAlert onOutsideClick={outsideClickDropDown}>
+                              <OutsideClickAlert onOutsideClick={()=>outsideClickDropDown()}>
+
                   <DropDownAllCurrencies currencyStatus={currencyStatus} handleCurrency={handleCurrency} />
                 </OutsideClickAlert> : <></>}
             </div>
 
             <div className={`${styles.language_dropdown}`} >
-              <div className={styles.img_div} onClick={setOpenLanguageDropdown} data-name="language">
+              <div className={styles.img_div} onClick={()=>setOpenLanguageDropdown()} data-name="language">
                 {appData ? <Image src={`/languages/${language}.gif`} width={20} height={11} priority alt={language} data-name="language" /> : <></>}
               </div>
               {languageStatus ?
-                <OutsideClickAlert onOutsideClick={outsideClickDropDown}>
+                <OutsideClickAlert onOutsideClick={()=>outsideClickDropDown()}>
                   <DropDownAllLanguages languageStatus={languageStatus} handleLanguage={handleLanguage} />
                 </OutsideClickAlert> : <></>}
             </div>

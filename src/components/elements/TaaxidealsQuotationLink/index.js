@@ -8,7 +8,7 @@ import { fetchPathnamePageDatas } from '../../../helpers/fetchPathnamePageDatas'
 
 function TestA(props) {
     const state = useSelector(state => state.pickUpDropOffActions)
-    let { reservations, params: { journeyType, quotations, language: reduxLanguage } } = state
+    let { reservations, params: { journeyType, quotations, language: reduxLanguage, selectedCurrency: { currencyId } } } = state
 
     const dispatch = useDispatch()
     const { appData } = useSelector(state => state.initialReducer)
@@ -24,6 +24,7 @@ function TestA(props) {
     if (data === "not found") return <Error404 />
 
     useEffect(() => {
+
         //when we go to transfer details then go back in that case we need to check if we have already quotations or not
         if (!quotations[0]?.quotationOptions?.length) dispatch({ type: "GET_QUOTATION_AT_PATHNAME", data: { results: data, journeyType } })
 
@@ -43,18 +44,18 @@ function TestA(props) {
         //`/${returnPathname.split("/")[2]}`, aplde return de var idi urls icin de burda yoxdu
         const urls = [returnPathname, linkurl]
         fetchPathnamePageDatas(urls);
+
     }, [])
 
     useEffect(() => {
-        const cacheKey = `page-${reduxLanguage}-${linkurl}`;
-        let cache = sessionStorage.getItem('pathnameLinkCache');
-        let allAppDatas = JSON.parse(sessionStorage.getItem('allAppDatas'))
+        const cacheKey = `page-${reduxLanguage}-${currencyId}-${linkurl}`;
+        const cache = sessionStorage.getItem('pathnameLinkCache');
+        const allAppDatas = JSON.parse(sessionStorage.getItem('allAppDatas'));
+
         if (cache && allAppDatas && JSON.parse(cache)[cacheKey]) {
-            setFetchDatas(JSON.parse(cache)[cacheKey])
+            setFetchDatas(JSON.parse(cache)[cacheKey]);
         }
-    }, [reduxLanguage])
-
-
+    }, [reduxLanguage, currencyId, linkurl]);
     return <QuotationResultsTaxiDeal
         isTaxiDeal={true}
         keywords={keywords}

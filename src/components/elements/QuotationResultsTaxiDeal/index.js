@@ -31,7 +31,7 @@ const QuotationResultsTaxiDeal = (props) => {
         env,
         polylinePath,
         markerPoints,
-        schemas,metaTags,
+        schemas, metaTags,
 
     } = props//those props comes from ...pathname
 
@@ -71,10 +71,10 @@ const QuotationResultsTaxiDeal = (props) => {
 
 
     return (<GlobalLayout keywords={keywordsTaxiDeal} title={headTitle} description={descriptionTaxiDeal} footerbggray={true} isVisible={isVisible} >
-          <Head>
-                {createMetaTagElementsClientSide(metaTags)}
-                {renderSchemaScriptsClientSide(schemas)}
-            </Head>
+        <Head>
+            {createMetaTagElementsClientSide(metaTags)}
+            {renderSchemaScriptsClientSide(schemas)}
+        </Head>
         <div className={`${styles.quotation} page`}>
             <div className={`${styles.quotation_section} page_section`}>
                 <div className={`${styles.quotation_section_container} page_section_container`}>

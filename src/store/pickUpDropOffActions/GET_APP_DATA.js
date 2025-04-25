@@ -6,7 +6,6 @@ function GET_APP_DATA(params = {}) {
     newState.appData = { ...appData }
     newState.paymentTypes = paymentTypes
    
-    // localStorage.setItem("paymentTypes", JSON.stringify(paymentTypes));
     return newState
 }
 export default GET_APP_DATA

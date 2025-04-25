@@ -79,71 +79,46 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
     const router = useRouter();
     const dispatch = useDispatch();
     const state = useSelector((state) => state.pickUpDropOffActions)
-    let { params: { journeyType, direction, language, quotations } } = state
+    let { params: { journeyType, direction, language, quotations, selectedCurrency: { currencyId } } } = state
     const { appData } = useSelector(state => state.initialReducer)
     //cartypes object for card item as {1:{image:'sds, name:Economy}}
     const carObject = appData?.carsTypes?.reduce((obj, item) => ({ ...obj, [item.id]: item, }), {});
     const [uploadedPageContent, setUploadedPageContent] = useState('');
     // Conditionally slice the array before mapping
 
-    // Ortak işlemleri yapan fonksiyon
-    const fetchAndHandleTaxiDealDetails = async ({ quotation }) => {
+
+
+    const setQuotationHandleClick = async (params = {}) => {
+        let { quotation } = params
+        
+        checkJourneyTypeAndAddQuotationToReducer({ journeyType, quotation, index, router, dispatch, language, isTaxiDeal, quotations, env })
+        //!nneww Pathname yox idi direk yazilirdi 
+        // console.log({ previousUrlsetQuotationHandleClick: previousUrl });
+
         if (isTaxiDeal && previousUrl) {
+
             try {
-                const body = {
-                    language,
-                    checkRedirect: true,
-                    taxiDealPathname: previousUrl,
-                    withoutExprectedPoints: false,
-                };
-                const url = `${env.apiDomain}/api/v1/taxi-deals/details`;
-                const { status, data } = await postDataAPI({ url, body });
+                const body = { language, checkRedirect: true, taxiDealPathname: previousUrl, withoutExprectedPoints: false, }
+                const url = `${env.apiDomain}/api/v1/taxi-deals/details`
+                const { status, data } = await postDataAPI({ url, body })
                 if (status === 200) {
-                    let { taxiDeal: { pickupPoints, dropoffPoints } } = data;
-                    pickupPoints = mergeDetails(pickupPoints, objectDetailss);
-                    dropoffPoints = mergeDetails(dropoffPoints, objectDetailss);
-
-                    dispatch({
-                        type: "GET_QUOTATION_AT_PATHNAME",
-                        data: { results: data, journeyType },
-                    });
-
-                    checkJourneyTypeAndAddQuotationToReducer({
-                        journeyType,
-                        quotation,
-                        index,
-                        router,
-                        dispatch,
-                        language,
-                        isTaxiDeal,
-                        quotations,
-                        env,
-                    });
-                } else {
-                    alert("CardQuotationItemTaxiDeal component failed please write to support");
+                    let { taxiDeal: { pickupPoints, dropoffPoints, } } = data
+                    pickupPoints = mergeDetails(pickupPoints, objectDetailss)
+                    dropoffPoints = mergeDetails(dropoffPoints, objectDetailss)
+                    dispatch({ type: "GET_QUOTATION_AT_PATHNAME", data: { results: data, journeyType } })
                 }
             } catch (error) {
                 console.log(error);
-                alert("Please write to support . CardQuotationItemTaxiDeal catch block failed  ");
 
             }
         }
     };
 
-    // Masaüstü için
-    const setQuotationHandleClick = async (params = {}) => {
-        const { quotation } = params;
-        await fetchAndHandleTaxiDealDetails({ quotation });
-    };
-
-    // Mobil için
-    const handleClickForMobile = async ({ e, quotation }) => {
-        if (document.documentElement.clientWidth < 451) {
-            await fetchAndHandleTaxiDealDetails({ quotation });
+    const handleClickForMobile = ({ e, quotation }) => {
+        if (451 > document.documentElement.clientWidth) {
+            checkJourneyTypeAndAddQuotationToReducer({ journeyType, quotation, index, router, dispatch, language, isTaxiDeal, quotations })
         }
     };
-
-
     // Check if distance exists, remove 'mile', and convert to km
     const distanceInMiles = distance ? parseFloat(distance?.replace(' mile', '')) : null;
     const distanceInKm = distanceInMiles ? (distanceInMiles * 1.60934).toFixed(2) : null;
@@ -164,6 +139,7 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
         }
     }, [datas,]);
 
+
     return (
         <div className={`${styles.taxideal_result_container}`}>
             <h1 alt={pageTitle} className={`${styles.title} ${styles.title_center} ${direction}`}>{headTitle ? (headTitle) : "..."}</h1>
@@ -180,6 +156,7 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
             />
 
             <CardItems
+                currencyId={currencyId}
                 direction={direction} datas={datas} selectedQuotation={selectedQuotation} appData={appData}
                 handleClickForMobile={handleClickForMobile} carObject={carObject} setQuotationHandleClick={setQuotationHandleClick}
             />

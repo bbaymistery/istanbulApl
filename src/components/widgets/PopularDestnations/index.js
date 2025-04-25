@@ -51,11 +51,10 @@ const PopularDestinations = (props) => {
 
 
         let response = await fetch(url);
+
         let { data, status } = await response.json();
         if (status === 200) {
             setPoints(data.destinations)
-            console.log(data);
-
         }
     };
     const tabsHandler = async (params = {}) => {
@@ -103,7 +102,7 @@ const PopularDestinations = (props) => {
                                     <a href={item.pathname}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px" src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} alt={item[language]} />
+                                                <Image alt={item.translatedPageTitle || item.pageTitle} sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px" src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198}  />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>

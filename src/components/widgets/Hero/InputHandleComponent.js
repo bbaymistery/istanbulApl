@@ -90,9 +90,10 @@ const HeroInputComponent = (props) => {
                 setInternalState({ [`${destination}-search-loading-${index}`]: true })
 
                 // 🔹 First request: ignoreGooglePlaces = true
-                const log1 = await collectPointsAsync({ value, reducerSessionToken, language, ignoreGooglePlaces: true, env, errorMessage: "APL Hero component _collectPoints() catch block" });
+                const log1 = await collectPointsAsync({ value, reducerSessionToken, language, ignoreGooglePlaces: true, env, errorMessage: "ISTANBUL WEBSITE Hero component _collectPoints() catch block" });
 
                 const { status, "session-token": sessionToken = "", token } = log1;
+                console.log({ reducerSessionToken, passengerDetailsToken });
 
 
                 if (status == 200) {
@@ -108,7 +109,7 @@ const HeroInputComponent = (props) => {
                     if (!reducerSessionToken) dispatch({ type: 'SET_SESSION_TOKEN', data: { sessionToken } });
                     //!
                     // 🔹 Second request: ignoreGooglePlaces = true
-                    const log2 = await collectPointsAsync({ value, reducerSessionToken, language, ignoreGooglePlaces: false, env, errorMessage: "APL Hero component _collectPoints() catch block ignoreGooglePlaces:false" });
+                    const log2 = await collectPointsAsync({ value, reducerSessionToken, language, ignoreGooglePlaces: false, env, errorMessage: "ISTANBUL WEBSITE Hero component _collectPoints() catch block ignoreGooglePlaces:false" });
 
                     //if the receveived value(log2.value) not accurate with what i send (value) update setInternalState destination search value to the log2.value
                     // - accurate seach value to me the value of suggestions resposne

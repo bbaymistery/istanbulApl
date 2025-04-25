@@ -18,23 +18,13 @@
 
         button {
             border-radius: 4px !important;
-            padding: 15px 20px;
+            padding: 6px 10px;
             max-width: 163px !important;
-            width: 163px;
             font-size: 15px;
             letter-spacing: 1px;
             text-transform: capitalize;
 
-            @media (max-width:678px) {
-                width: 143px;
-                padding: 13px 18px;
-            }
-
-            @media (max-width:420px) {
-                width: 113px;
-                padding: 12px 17px;
-                font-size: 13px;
-            }
+   
         }
     }
 

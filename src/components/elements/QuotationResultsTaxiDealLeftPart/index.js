@@ -30,11 +30,11 @@ const MapModal = ({ onClose, markerPoints, polylinePath, env }) => (
 // Main Component
 const QuotationResultsTaxiDealLeftPart = ({ polylinePath, markerPoints, env }) => {
     const [taxidealMapStatus, setTaxidealMapStatus] = useState(false);
-    const { direction, appData } = useSelector(state => ({
-        direction: state.pickUpDropOffActions.params.direction,
-        appData: state.initialReducer.appData,
-    }));
 
+    const { appData } = useSelector(state => state.initialReducer)
+    const state = useSelector(state => state.pickUpDropOffActions)
+    let { params } = state
+    let { direction, } = params
     return (
         <div className={styles.quotation_panel_istaxideal}>
             {taxidealMapStatus && (<MapModal onClose={() => setTaxidealMapStatus(false)} markerPoints={markerPoints} polylinePath={polylinePath} env={env} />)}

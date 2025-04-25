@@ -18,12 +18,12 @@ const TransferDetailsBackNextButton = (props) => {
     <div className={styles.left}>
 
         <div onClick={() => router.back()}>
-            <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 38.5px", }} btnText={`${appData?.words["strGoBack"]}`} />
+            <Button type={BUTTON_TYPES.PRIMARY_OUTLINE}  btnText={`${appData?.words["strGoBack"]}`} />
         </div>
 
 
         <div onClick={(e) => checkValidation(e)}>
-            <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 38.5px", }} btnText={`${appData?.words["strNext"]}`} />
+            <Button type={BUTTON_TYPES.PRIMARY_OUTLINE}  btnText={`${appData?.words["strNext"]}`} />
         </div>
     </div>
 

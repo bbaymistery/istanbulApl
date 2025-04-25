@@ -29,7 +29,7 @@ const TaaxidealsQuotationLink = dynamic(() => import('../components/elements/Taa
 
 const NavbarLinkName = (props) => {
     // Destructure props passed from getServerSideProps
-    const { env, isItQuationLink = false, data } = props;
+    const { env, isItQuationLink = false, data, currencyId, currency } = props;
     const dispatch = useDispatch();
     const router = useRouter();
     const { linkname } = router.query; // Get the linkname parameter from the query string
@@ -47,6 +47,8 @@ const NavbarLinkName = (props) => {
             const result = findMatchingItem(linkname);
             dispatch({ type: "SET_NAVBAR_TAXI_DEALS", data: { hasTaxiDeals: result.hasTaxiDeals } });
         }
+        dispatch({ type: "SET_CURRENCY", data: { currencyId: +currencyId, text: currency } })
+
     }, [linkname, dispatch]);
 
 
@@ -74,7 +76,7 @@ const wrapper = createWrapper(makestore);
 
 const handleStandartContent = (params = {}) => {
 
-    let { pageStartLanguage: language, pathname, env } = params
+    let { pageStartLanguage: language, pathname, env, currencyId, currency } = params
 
     const pageContent = getAirportPageContentByPathname(pathname, language);
     const schemas = [getSingleAirportSchemaByPathname(pathname, language)]
@@ -82,23 +84,24 @@ const handleStandartContent = (params = {}) => {
     const { keywords, headTitle, metaDescription } = getSinglekeywordsTitleAirportPage(pathname, language);
 
     let data = { pageContent, schemas: schemas || [], metaTags, keywords, headTitle, metaDescription }
-    return { props: { data, isItQuationLink: false } }
+    return { props: { data, isItQuationLink: false, currencyId, currency } }
 }
 
 
-async function handleQuotationLink(language, pathname, env,) {
+async function handleQuotationLink(language, pathname, env, currencyId, currency) {
     let pickUps = []
     let dropoffs = []
     let review = {}
     let schemas = []
     //!nneww Pathname yox idi direk yazilirdi 
     if (pathname) {
-        const body = { language, checkRedirect: true, taxiDealPathname: pathname, withoutExprectedPoints: true, }
+        const body = { language, checkRedirect: true, taxiDealPathname: pathname, withoutExprectedPoints: true, currencyId: +currencyId, };
         let { breadcrumbs } = urlToTitle({ url: pathname, pathnamePage: true })
 
         const url = `${env.apiDomain}/api/v1/taxi-deals/details`;
         const { status, data } = await postDataAPI({ url, body });
-        console.log(status);
+        // console.log(data);
+
 
 
         if (status === 205) return { redirect: { destination: data.redirectPathname, permanent: false } };
@@ -151,7 +154,7 @@ async function handleQuotationLink(language, pathname, env,) {
 
             }
 
-            return { props: { data: finalData, isItQuationLink: true } }
+            return { props: { data: finalData, isItQuationLink: true, currency, currencyId } }
 
         }
         else {
@@ -178,7 +181,8 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
 
     // Parse cookies from the request headers
     let cookies = parseCookies(req.headers.cookie);
-
+    const currencyId = cookies?.currencyId || 1
+    const currency = cookies?.currency || "EUR"
     // Parse the full request URL to get pathname and query object
     let { pathname, query } = parse(req.url, true);
 
@@ -193,9 +197,9 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
     pathname = adjusted.pathname;
 
     if (turkeyTaxiPricesLinks.includes(`${pathname}`)) {
-        return handleStandartContent({ pageStartLanguage, pathname, env, });
+        return handleStandartContent({ pageStartLanguage, pathname, env, currencyId, currency });
     } else {
-        return handleQuotationLink(pageStartLanguage, pathname, env,);
+        return handleQuotationLink(pageStartLanguage, pathname, env, currencyId, currency);
         // return { props: { data: "not found", } }
     }
 
