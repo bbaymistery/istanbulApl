@@ -39,36 +39,44 @@ const pushToQuotationsResultPage = (params = {}) => {
 * @param {boolean} [params.shouldNavigate=true] - Whether to redirect to `/quotation-results` on success.
 */
 export const readyToCollectQuotationOptions = async (params = {}) => {
+    let { dispatch, setInternalState, router, journeyType, reservations, language, shouldNavigate = true, env, currencyId } = params;
 
-    (async () => {
-        let { dispatch, setInternalState, router, journeyType, reservations, language, shouldNavigate = true, env, currencyId } = params
+    try {
+        setInternalState({ ["quotation-loading"]: true });
 
-        setInternalState({ ["quotation-loading"]: true })
+        let log = await collectQuotationsAsync({ reservations, journeyType, env, currencyId });
+        console.log({ log });
 
-        let log = await collectQuotationsAsync({ reservations, journeyType, env, currencyId })
-
-        let { status, data } = log
+        let { status, data } = log;
 
         if (status === 200) {
-            setInternalState({ ["error-booking-message-1"]: "" })
-            setInternalState({ ["error-booking-message-0"]: "" })
-            pushToQuotationsResultPage({ dispatch, router, log: parseInt(journeyType) === 0 ? data[0] : data, journeyType, language, shouldNavigate })
-        } else {
+            setInternalState({ ["error-booking-message-1"]: "" });
+            setInternalState({ ["error-booking-message-0"]: "" });
 
-            let [transferData, returnData] = log.data
+            pushToQuotationsResultPage({ dispatch, router, log: parseInt(journeyType) === 0 ? data[0] : data, journeyType, language, shouldNavigate });
+
+            return { success: true, data: log.data }; // ✅ Başarılı sonucu döndür
+        } else {
+            let [transferData, returnData] = log.data;
 
             if (transferData) {
                 if (transferData.status === 400) {
-                    setInternalState({ ["error-booking-message-0"]: transferData.error.transferDateTimeString || "Early Transfer Datetime is not allowed" })
+                    setInternalState({ ["error-booking-message-0"]: transferData.error.transferDateTimeString || "Early Transfer Datetime is not allowed" });
                 }
             }
 
             if (returnData) {
                 if (returnData.status === 400) {
-                    setInternalState({ ["error-booking-message-1"]: returnData.error.transferDateTimeString || "Early Return Transfer Datetime is not allowed" })
+                    setInternalState({ ["error-booking-message-1"]: returnData.error.transferDateTimeString || "Early Return Transfer Datetime is not allowed" });
                 }
             }
+
+            return { success: false, data: log.data }; // ❗️ Hatalı sonucu döndür
         }
-        setInternalState({ ["quotation-loading"]: false })
-    })()
+    } catch (error) {
+        console.error("Error collecting quotations:", error);
+        return { success: false, error };
+    } finally {
+        setInternalState({ ["quotation-loading"]: false });
+    }
 };

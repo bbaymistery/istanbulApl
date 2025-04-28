@@ -100,8 +100,6 @@ async function handleQuotationLink(language, pathname, env, currencyId, currency
 
         const url = `${env.apiDomain}/api/v1/taxi-deals/details`;
         const { status, data } = await postDataAPI({ url, body });
-        // console.log(data);
-
 
 
         if (status === 205) return { redirect: { destination: data.redirectPathname, permanent: false } };

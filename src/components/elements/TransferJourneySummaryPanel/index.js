@@ -5,7 +5,7 @@ import { quotationImagesObjWebp } from '../../../constants/quotationImages'
 import styles from "./styles.module.scss"
 import { splitAndTranslateDuration } from '../../../helpers/splitHelper'
 const TransferJourneySummaryPanel = (props) => {
-    let { index, quotation, selectedPickupPoints, selectedDropoffPoints, splitedDate, splitedHour, splitedMinute, isTaxiDeal = false, journeyType,language } = props
+    let { index, quotation, selectedPickupPoints, selectedDropoffPoints, splitedDate, splitedHour, splitedMinute, isTaxiDeal = false, journeyType, language } = props
 
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { params: { quotations, direction } } = state
@@ -17,14 +17,14 @@ const TransferJourneySummaryPanel = (props) => {
     //https://www.tripadvisor.co.uk/Attraction_Review-g186338-d11966434-Reviews-Airport_Pickups_London-London_England.html
     const distanceInMiles = quotations[index].distance ? parseFloat(quotations[index].distance.replace(' mile', '')) : null;
     const distanceInKm = distanceInMiles ? (distanceInMiles * 1.60934).toFixed(2) : null;
-        // Format the duration based on the language
+    // Format the duration based on the language
 
-        useEffect(() => {
-            if (quotations[index]?.duration && language && appData) {
-                const formatted = splitAndTranslateDuration(quotations[index].duration, language, appData);
-                setFormattedDuration(formatted);
-            }
-        }, [language, appData]);
+    useEffect(() => {
+        if (quotations[index]?.duration && language && appData) {
+            const formatted = splitAndTranslateDuration(quotations[index].duration, language, appData);
+            setFormattedDuration(formatted);
+        }
+    }, [language, appData]);
     return (
         <div className={`${styles.journey_summary_panel}`}>
             <div className={styles.content}>
@@ -51,28 +51,28 @@ const TransferJourneySummaryPanel = (props) => {
                     <div className={styles.details_div}>
                         <div id="from to" className={styles.fromto}>
                             <h5> {appData?.words["strFrom2"]}:      </h5>
-                           
+
                             {selectedPickupPoints.map((pickup, i) => {
-                                    const addressText = pickup.address.includes(pickup.postcode)
-                                        ? `${pickup.address}`
-                                        : `${pickup.address} ${pickup.postcode ? pickup.postcode : ""}`;
-                                    return (
-                                        <li key={i + 15}>
-                                            <span>{isTaxiDeal ? "" : `${i + 1}. `}{addressText}</span>
-                                        </li>
-                                    );
-                                })}
+                                const addressText = pickup.address.includes(pickup.postcode)
+                                    ? `${pickup.address}`
+                                    : `${pickup.address} ${pickup.postcode ? pickup.postcode : ""}`;
+                                return (
+                                    <li key={i + 15}>
+                                        <span>{isTaxiDeal ? "" : `${i + 1}. `}{addressText}</span>
+                                    </li>
+                                );
+                            })}
                             <h5>{appData?.words["strTo"]}:</h5>
                             {selectedDropoffPoints.map((dropoff, i) => {
-                                    const addressText = dropoff.address.includes(dropoff.postcode)
-                                        ? `${dropoff.address}`
-                                        : `${dropoff.address} ${dropoff.postcode ? dropoff.postcode : ""}`;
-                                    return (
-                                        <li key={i + 15}>
-                                            <span>{isTaxiDeal ? "" : `${i + 1}. `}{addressText}</span>
-                                        </li>
-                                    );
-                                })}
+                                const addressText = dropoff.address.includes(dropoff.postcode)
+                                    ? `${dropoff.address}`
+                                    : `${dropoff.address} ${dropoff.postcode ? dropoff.postcode : ""}`;
+                                return (
+                                    <li key={i + 15}>
+                                        <span>{isTaxiDeal ? "" : `${i + 1}. `}{addressText}</span>
+                                    </li>
+                                );
+                            })}
                             <h5>{appData?.words["strOn"]}:</h5>
                             <li>
                                 <span>
@@ -84,7 +84,7 @@ const TransferJourneySummaryPanel = (props) => {
                                     {`${splitedHour}:${splitedMinute}`}
                                 </span>
                             </li>
-                 
+
                         </div>
                     </div>
                 </div>
@@ -117,11 +117,11 @@ const TransferJourneySummaryPanel = (props) => {
                             {appData.words["strCarFeatureMaxPassengers"].replace("{{}}", carObject[quotation.carId]?.pax)}
                         </span>
                     </div>
-                    { <Link href="/quotation-results" style={{ textTransform: "capitalize" }}> {appData?.words["strChangeCar"]} </Link>}
+                    {<Link href="/quotation-results" style={{ textTransform: "capitalize" }}> {appData?.words["strChangeCar"]} </Link>}
                 </div>
                 <div className={styles.price_div}>
                     <div className={styles.text_1}>{appData?.words["strPriceTitle"]} </div>
-                    <div className={styles.price}>£ {quotation.price}  </div>
+                    <div className={styles.price}>£ {quotation.exchangedPrice ? quotation.exchangedPrice : quotation.price}  </div>
                 </div>
             </div>
         </div>

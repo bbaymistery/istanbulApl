@@ -93,8 +93,6 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
         
         checkJourneyTypeAndAddQuotationToReducer({ journeyType, quotation, index, router, dispatch, language, isTaxiDeal, quotations, env })
         //!nneww Pathname yox idi direk yazilirdi 
-        // console.log({ previousUrlsetQuotationHandleClick: previousUrl });
-
         if (isTaxiDeal && previousUrl) {
 
             try {
@@ -109,7 +107,6 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
                 }
             } catch (error) {
                 console.log(error);
-
             }
         }
     };

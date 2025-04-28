@@ -110,7 +110,13 @@ const Hero = (props) => {
         let errorHolder = reservationSchemeValidator({ reservations: checkedReservations, appData });
         setInternalState({ errorHolder });
         if (errorHolder.status === 200) {
-            readyToCollectQuotationOptions({ dispatch, setInternalState, router, journeyType, reservations: checkedReservations, language, shouldNavigate: true, env, appData })
+            let propsOfReadyColection = {
+                dispatch, setInternalState, router, journeyType,
+                reservations: checkedReservations, language,
+                shouldNavigate: true, env, appData,
+                currencyId: selectedCurrency.currencyId
+            }
+            readyToCollectQuotationOptions(propsOfReadyColection)
 
         }
     }, [reservations, appData, setInternalState, dispatch, router, journeyType, language]);

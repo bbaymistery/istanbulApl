@@ -45,7 +45,7 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
   Promise.all(__requests)
     .then(function (responses) { return Promise.all(responses.map(function (response, index) { return response.json() })) })
     .then(function (data) {
-      console.log(data);
+      console.log({ collectQuotationsdata: data });
 
       if (data.every(o => o.status === 200)) {
         callback({ 'status': 200, data })
@@ -57,7 +57,7 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
       callback({ 'status': 400, 'message': error.message })
       console.log({ error });
 
-      let message = "APL  Payment details _collectQuotations()  function catch blog  else part of>> parseInt(journeyType) === 0"
+      let message = "ISTANVBUL TRANSFERS   _collectQuotations()  function catch blog  else part of>> parseInt(journeyType) === 0"
       window.handelErrorLogs(error, message, { configReturn })
     });
 }

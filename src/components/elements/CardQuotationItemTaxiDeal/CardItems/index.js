@@ -13,6 +13,7 @@ const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, 
 
         const displayedPrice = item.currencyId === +currencyId ? item.price : item.exchangedPrice;
 
+
         const isSelected = Number(selectedQuotation?.carId) === Number(quotationImagesObjWebp[item?.carId].id)
         const dataId = index === 0 ? "first_car" : (index === 1 ? "second_car" : "")
         return (
@@ -57,7 +58,7 @@ const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, 
                                         <span>{appData?.words["strFreeCancellation24h"]}</span>
                                     </span>
                                     <span className={styles.price_span}>
-                                        {`${symbol}${displayedPrice}.`}
+                                        {`${symbol}${displayedPrice ? displayedPrice : ".."}.`}
                                         <span>00</span>
                                     </span>
                                 </p>
@@ -67,7 +68,7 @@ const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, 
 
                     <div className={`${direction === 'rtl' ? styles.thirdcolumnDirection : ""} ${styles.column_third}`}>
                         <div className={styles.price}>
-                            {`${symbol}${displayedPrice}.`}
+                            {`${symbol}${displayedPrice ? displayedPrice : ".."}.`}
                             <span>00</span>
                         </div>
                         <div className={styles.total}>{appData?.words["strTotalPrice"]}</div>

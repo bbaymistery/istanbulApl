@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
@@ -11,20 +11,31 @@ import { setCookie } from "../../../helpers/cokieesFunc";
 import logoImage from '../../../../public/logos/logo.webp'
 import airportTranslations from "../../../constants/generalTranslataions";
 import DropDownAllCurrencies from "../../elements/DropDownAllCurrencies";
+import { normalizeReservations } from "../../../helpers/normalizeReservations";
+import { reservationSchemeValidator } from "../../../helpers/reservationSchemeValidator";
+import { readyToCollectQuotationOptions } from "../../../helpers/readyToCollectQuotationOptions";
+import { fetchConfig } from "../../../resources/getEnvConfig";
+import { updateCurrencyGetQuotationOnSpecialPage } from "../../../helpers/updateCurrencyGetQuotationOnspecialPage";
+import { useSkipFirstRender } from "../../../hooks/useSkipFirstRender";
 
 const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'),);
 const DesktopMenu = dynamic(() => import('../../elements/DesktopMenu'),);
 const MobileMenu = dynamic(() => import('../../elements/MobileMenu'),);
-const Header = () => {
+const Header = (props) => {
   const router = useRouter()
   const dispatch = useDispatch()
-  const { params: { language, langIndex: reducerLangIndex, journeyType, selectedCurrency } } = useSelector(state => state.pickUpDropOffActions)
+  const { params: { language, journeyType, selectedCurrency }, reservations } = useSelector(state => state.pickUpDropOffActions)
   const [openMenu, setOpenMenu] = useState(false) //mobile
   const [languageStatus, setLanguageStatus] = useState(false)
   const [currencyStatus, setCurrencyStatus] = useState(false)
   const { appData } = useSelector(state => state.initialReducer)
   const [translatedAppData, setTranslatedAppData] = useState(appData)
+  let [internalState, setInternalState] = React.useReducer((s, o) => ({ ...s, ...o }), {
 
+    "error-booking-message-0": "",
+    "error-booking-message-1": ""
+
+  })
   const handleLanguage = async (params = {}) => {
     let { e, text, key, direction, index } = params
     setCookie("lang", key, 7);
@@ -67,8 +78,8 @@ const Header = () => {
     let { e, text, currencyId } = params
     dispatch({ type: "SET_CURRENCY", data: { currencyId: +currencyId, text } })
 
-    setCookie("currency", text, 1);
-    setCookie("currencyId", currencyId, 1);
+    // setCookie("currency", text, 1);
+    // setCookie("currencyId", currencyId, 1);
 
     setCurrencyStatus(false)
   }
@@ -110,7 +121,18 @@ const Header = () => {
     toggleMenu();
   }, [dispatch, journeyType, toggleMenu]);
 
-
+  useSkipFirstRender(() => {
+    updateCurrencyGetQuotationOnSpecialPage({
+      dispatch,
+      setInternalState,
+      router,
+      reservations,
+      journeyType,
+      language,
+      appData,
+      selectedCurrency,
+    });
+  }, [selectedCurrency.currencyId]);//second parametre if false it means it rendere initially 
   return (
     <header className={styles.header} id="navbar_container" >
       <div className={styles.header_container}>
@@ -135,18 +157,18 @@ const Header = () => {
                 {selectedCurrency.currency}
               </div>
               {currencyStatus ?
-                              <OutsideClickAlert onOutsideClick={()=>outsideClickDropDown()}>
+                <OutsideClickAlert onOutsideClick={() => outsideClickDropDown()}>
 
                   <DropDownAllCurrencies currencyStatus={currencyStatus} handleCurrency={handleCurrency} />
                 </OutsideClickAlert> : <></>}
             </div>
 
             <div className={`${styles.language_dropdown}`} >
-              <div className={styles.img_div} onClick={()=>setOpenLanguageDropdown()} data-name="language">
+              <div className={styles.img_div} onClick={() => setOpenLanguageDropdown()} data-name="language">
                 {appData ? <Image src={`/languages/${language}.gif`} width={20} height={11} priority alt={language} data-name="language" /> : <></>}
               </div>
               {languageStatus ?
-                <OutsideClickAlert onOutsideClick={()=>outsideClickDropDown()}>
+                <OutsideClickAlert onOutsideClick={() => outsideClickDropDown()}>
                   <DropDownAllLanguages languageStatus={languageStatus} handleLanguage={handleLanguage} />
                 </OutsideClickAlert> : <></>}
             </div>

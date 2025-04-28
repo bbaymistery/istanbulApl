@@ -111,7 +111,6 @@ const CardQuotationItem = (params = {}) => {
     }
   }
 
-  console.log({ datas });
 
   return (
     <div style={{ display: 'flex', flexDirection: "column", }}>

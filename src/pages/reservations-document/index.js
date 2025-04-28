@@ -78,7 +78,6 @@ const ReservationsDocument = (props) => {
             headers: { "Content-Type": "application/json", },
         });
         const data = await resp.json();
-        console.log({ data, stage });
 
     };
     const generatePdf = (e) => {
@@ -122,7 +121,6 @@ const ReservationsDocument = (props) => {
             .then((response) => response.json())
             .then((response) => {
                 response = isJSON(isJSON) ? JSON.parse(response) : response;
-                console.log(response, "reservation id responds");
 
                 if (typeof response === "object" && response.status === 200) {
                     setReservId(response.data["reservations-ids"] ? response.data["reservations-ids"] : null);
