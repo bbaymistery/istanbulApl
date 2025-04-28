@@ -1,14 +1,8 @@
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import CheckPlaceOfInterest from './CheckPlaceOfInterest';
-import CheckingForPostcodes from './CheckingForPostcodes';
-import CheckForCitites from './CheckForCitites';
-import CheckForCruises from './CheckForCruises';
 import CheckForFlight from './CheckForFlight';
-import CheckForTrain from './CheckForTrain';
-import CheckForOther from './CheckForOther';
-import styles from "./styles.module.scss"
-import React from 'react'
-import CheckForUniversity from './CheckForUniversity';
+import CheckingForPostcodes from './CheckingForPostcodes';
+import styles from "./styles.module.scss";
 
 const SelectedPointOnTransferDetails = (props) => {
     //index it is a destination if 0 it means pick up
@@ -51,23 +45,6 @@ const SelectedPointOnTransferDetails = (props) => {
                                     onChange={flightDetails => dispatch({ type: 'SET_FLIGHT_DETAILS_FOR_POINTS', 'data': { 'index': journeyType, type, 'pointIndex': i, flightDetails } })}
                                 /> : <React.Fragment></React.Fragment>}
 
-                            {/* //! checking for CheckForCruises  */}
-                            {point.pcatId === 2 ?
-                                <CheckForCruises
-                                    point={point}
-                                    error={pointError}
-                                    journeyType={journeyType}
-                                    onChange={cruiseNumber => dispatch({ type: 'SET_CRUISE_NUMBER_FOR_POINTS', 'data': { 'index': journeyType, type, 'pointIndex': i, cruiseNumber } })}
-                                /> : <React.Fragment></React.Fragment>}
-
-                            {/* //! checking for CheckForTrain  */}
-                            {point.pcatId === 3 ?
-                                <CheckForTrain
-                                    point={point}
-                                    journeyType={journeyType}
-                                    onChange={trainNumber => dispatch({ type: 'SET_TRAIN_NUMBER_FOR_POINTS', 'data': { 'index': journeyType, type, 'pointIndex': i, trainNumber } })}
-                                /> : <React.Fragment></React.Fragment>}
-
                             {/* skip roomNumber */}
 
                             {/* //! checking for postcodes  */}
@@ -84,39 +61,6 @@ const SelectedPointOnTransferDetails = (props) => {
                             {/* //! places of interest  cities universities and colleges other  */}
                             {/* SET_ADRESS_DESCRIPTION_FOR_POINTS =>  places of interest  cities universities and colleges other */}
                             {/*chck for place of interest  Lexington House*/}
-                            {point.pcatId === 7 ?
-                                <CheckPlaceOfInterest
-                                    point={point}
-                                    journeyType={journeyType}
-                                    onChange={value => dispatch({ type: 'SET_ADRESS_DESCRIPTION_FOR_POINTS', 'data': { 'index': journeyType, type, 'pointIndex': i, value } })}
-                                />
-                                : <React.Fragment></React.Fragment>}
-
-                            {/* //check for citites   */}
-                            {point.pcatId === 8 ?
-                                <CheckForCitites
-                                    point={point}
-                                    journeyType={journeyType}
-                                    onChange={value => dispatch({ type: 'SET_ADRESS_DESCRIPTION_FOR_POINTS', 'data': { 'index': journeyType, type, 'pointIndex': i, value } })}
-                                />
-                                : <React.Fragment></React.Fragment>}
-
-                            {/* universitirs Cotuit */}
-                            {point.pcatId === 9 ?
-                                <CheckForUniversity
-                                    point={point}
-                                    journeyType={journeyType}
-                                    onChange={value => dispatch({ type: 'SET_ADRESS_DESCRIPTION_FOR_POINTS', 'data': { 'index': journeyType, type, 'pointIndex': i, value } })}
-                                />
-                                : <React.Fragment></React.Fragment>}
-
-                            {point.pcatId === 10 ?
-                                <CheckForOther
-                                    point={point}
-                                    journeyType={journeyType}
-                                    onChange={value => dispatch({ type: 'SET_ADRESS_DESCRIPTION_FOR_POINTS', 'data': { 'index': journeyType, type, 'pointIndex': i, value } })}
-                                />
-                                : <React.Fragment></React.Fragment>}
                         </div>
                     </div>
                 );

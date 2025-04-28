@@ -111,6 +111,7 @@ const CardQuotationItem = (params = {}) => {
     }
   }
 
+  console.log({ datas });
 
   return (
     <div style={{ display: 'flex', flexDirection: "column", }}>
@@ -129,7 +130,7 @@ const CardQuotationItem = (params = {}) => {
         <HeaderOfResults duration={duration} distance={distance} />
 
         {journeyType === 1 && [0, 1].includes(index) && (
-          datas.map((item, i) => (
+          [...datas.filter(item => item.carId !== 4), ...datas.filter(item => item.carId === 4)].map((item, i) => (
             <SelectedCardItem
               key={item.carId}
               item={item}

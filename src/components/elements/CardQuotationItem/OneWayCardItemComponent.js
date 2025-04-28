@@ -6,7 +6,7 @@ import WaveLoading from '../LoadingWave'
 const OneWayCardItemComponent = (props) => {
     let { journeyType, carObject, currencyId, selectedQuotation, formattedDuration, currencySymbols, quotationImagesObjWebp, datas, handleClickForMobile, quotationLoading, direction, setQuotationHandleClick ,appData} = props
 
-    return (+journeyType === 0) && datas?.map((item, index) => {
+    return (+journeyType === 0) && [...datas.filter(item => item.carId !== 4), ...datas.filter(item => item.carId === 4)]?.map((item, index) => {
         let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
         const price = currencyId === 3 ? item?.price : item?.exchangedPrice;
         const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price.split(".")[0]}.`;

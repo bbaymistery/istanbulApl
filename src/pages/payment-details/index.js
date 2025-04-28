@@ -280,8 +280,7 @@ const PaymentDetails = (props) => {
                                                                     4
                                                                 </div>
                                                                 <div className={styles.icon_div}>
-                                                                    <i className="fa-solid fa-gear"></i>
-                                                                    A
+                                                                    {appData.words["strMeetandGreet"]}
                                                                 </div>
                                                             </div>
                                                         </div>

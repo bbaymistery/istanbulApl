@@ -118,10 +118,14 @@
 
                                     .icons {
                                         display: grid;
-                                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                                        grid-template-columns: 90px 90px 90px auto;
                                         place-items: center;
                                         border: 1px solid $--color-light-6;
+                                        @media (max-width: 1400px) {
+                                            grid-template-columns: 60px 60px 60px auto;
 
+                                        }
+    
                                         .icon_div {
                                             padding: 10px 0px;
                                             width: 100%;
