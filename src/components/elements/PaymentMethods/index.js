@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import styles from "./styles.module.scss";
 import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
@@ -6,12 +6,13 @@ import { useRouter } from "next/router";
 import { BUTTON_TYPES } from "../Button/ButtonTypes";
 import Button from "../Button/Button";
 import OutsideClickAlert from "../OutsideClickAlert";
+import currencies from "../../../constants/currencies";
 const PaymentMethods = (props) => {
   let { env, seatListPrice = 0 } = props
   const router = useRouter()
   const dispatch = useDispatch()
   let state = useSelector((state) => state.pickUpDropOffActions)
-  let { params: { journeyType, tokenForArchieve, sessionToken, direction, language }, reservations } = state
+  let { params: { journeyType, tokenForArchieve, sessionToken, direction, language, selectedCurrency }, reservations } = state
   const { appData, paymentTypes } = useSelector(state => state.initialReducer)
 
 
@@ -283,6 +284,19 @@ const PaymentMethods = (props) => {
   }, [popUpWindow])
 
 
+  const totalPrice = useMemo(() => {
+    if (seatListPrice > 0) return seatListPrice;
+
+    if (parseInt(journeyType) === 0) {
+      const q = reservations[0]?.quotation;
+      return q?.exchangedPrice ?? q?.price;
+    }
+
+    const prices = reservations.map(r => r?.quotation?.exchangedPrice ?? r?.quotation?.price);
+    return prices.reduce((sum, p) => sum + parseInt(p || 0), 0);
+  }, [seatListPrice, journeyType, reservations]);
+
+  const symbol = currencies.find(c => c.currencyId === +selectedCurrency.currencyId)?.symb || "£";
 
 
   return (
@@ -301,9 +315,7 @@ const PaymentMethods = (props) => {
           <div className={styles.header_tot_price} direction={String(direction === 'rtl')}>
             <p className={styles.header_tot_price_text}>{appData?.words["strTotalPrice"]}</p>
             <span className={styles.header_tot_price_price}>
-              {/* if seatListPrice more than 0 then means we come from tours page  */}
-              £ {seatListPrice > 0 ? seatListPrice :
-                parseInt(journeyType) === 0 ? reservations[0].quotation.price : parseInt(reservations[0].quotation.price) + parseInt(reservations[1].quotation.price)}
+              {symbol} {totalPrice}
             </span>
           </div>
         </div>

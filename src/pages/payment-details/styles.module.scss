@@ -5,6 +5,7 @@
 
     .payment_details_section {
         padding-bottom: 0px !important;
+
         .payment_details_section_container {
             @media (max-width:1400px) {
                 max-width: 1070px;
@@ -54,7 +55,7 @@
                             .left_content_of_card {
                                 padding: 20px 10px;
 
-                              
+
                                 .show_ondestkop {
                                     @media (max-width: 990px) {
                                         display: none;
@@ -118,14 +119,11 @@
 
                                     .icons {
                                         display: grid;
-                                        grid-template-columns: 90px 90px 90px auto;
+                                        grid-template-columns: 1fr 1fr 1fr;
                                         place-items: center;
                                         border: 1px solid $--color-light-6;
-                                        @media (max-width: 1400px) {
-                                            grid-template-columns: 60px 60px 60px auto;
 
-                                        }
-    
+
                                         .icon_div {
                                             padding: 10px 0px;
                                             width: 100%;

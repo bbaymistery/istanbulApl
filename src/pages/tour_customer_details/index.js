@@ -32,14 +32,14 @@ const collectPoints = (params = {}, callback = () => { }) => {
     const url = `${env.apiDomain}/api/v1/suggestions`;
     const method = "POST"
     const headers = { "Content-Type": "application/json" }
-    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language: "en" })
+    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language: "en", "countryId": 203 })
     const config = { method, headers, body }
 
     fetch(url, config)
         .then((res) => res.json())
         .then((res) => { callback(res) })
         .catch((error) => {
-            let message = "APL   Tour customer details component _collectPoints()  function catch blog "
+            let message = "ISTANBUL TRANSFER   Tour customer details component _collectPoints()  function catch blog "
             window.handelErrorLogs(error, message, { config })
         });
 }
@@ -50,7 +50,7 @@ const TourCustomerDetails = (props) => {
     const router = useRouter()
     const dispatch = useDispatch()
     let state = useSelector((state) => state.pickUpDropOffActions)
-    let { reservations, params: { direction, language, passengerDetailsStatus, sessionToken: reducerSessionToken,modalInfo } } = state
+    let { reservations, params: { direction, language, passengerDetailsStatus, sessionToken: reducerSessionToken, modalInfo } } = state
     let { quotation, passengerDetails: { firstname, phone, email }, transferDetails: { transferDateTimeString, specialRequests, passengersNumber, }, selectedPickupPoints, selectedDropoffPoints, } = reservations[0]
 
 
@@ -263,14 +263,14 @@ const TourCustomerDetails = (props) => {
                                                 <Button
                                                     type={BUTTON_TYPES.PRIMARY_OUTLINE}
                                                     onBtnClick={goBack}
-                                                    style={{ padding: "12px 22px",  }}
+                                                    style={{ padding: "12px 22px", }}
                                                     btnText={appData?.words["strGoBack"]}
                                                 />
 
                                                 <Button
                                                     type={BUTTON_TYPES.PRIMARY_OUTLINE}
                                                     onBtnClick={checkValidation}
-                                                    style={{ padding: "12px 22px",  }}
+                                                    style={{ padding: "12px 22px", }}
                                                     btnText={appData?.words["strNext"]}
                                                 />
                                             </div>
@@ -282,7 +282,7 @@ const TourCustomerDetails = (props) => {
                                 {modalInfo ? <InfoModal content={<FlightWaitingTimeContent />} /> : <React.Fragment></React.Fragment>}
 
                             </div>
-                    
+
                         </div>
                     </div>
                 </div>

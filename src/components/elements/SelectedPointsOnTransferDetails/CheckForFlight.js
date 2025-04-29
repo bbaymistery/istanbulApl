@@ -7,7 +7,7 @@ import styles from "./styles.module.scss";
 //bura propslar selected listeden geir
 const CheckForFlight = (props) => {
   //index it is a destination if 0 it means pick up
-  let { point, onChange = () => { }, objectDetailStatuses, type, error = {}, isTaxiDeal=false } = props
+  let { point, onChange = () => { }, objectDetailStatuses, type, error = {}, isTaxiDeal = false } = props
   const { appData } = useSelector(state => state.initialReducer)
   const onchangeHandler = (e, params = {}) => {
     let { value, name } = e.target
@@ -32,13 +32,15 @@ const CheckForFlight = (props) => {
 
   const waitingMinutes = [0, 15, 30, 45, 50, 60, 70, 80, 90, 100, 120, 150]
     .map((min, i) => ({ id: min.toString(), value: `${min} minute${min === 0 ? '' : 's'} ${appData?.words["seBookingNote"]}` }))
+
   return (
     <>
       {/* //!checking for flight pickups transfer */}
       {point.pcatId === 1 ?
         (<div className={styles.insideInputs}>
-          <div className={`${styles.insideInputs_input} ${isTaxiDeal?styles.inside_inputs_istaxideal:""}`}>
+          <div className={`${styles.insideInputs_input} ${isTaxiDeal ? styles.inside_inputs_istaxideal : ""}`}>
             <TextInput label={appData?.words["strFlightNumberTitle"]} type="text" name="flightNumber" value={point.flightDetails.flightNumber} errorMessage={error?.flightDetails?.flightNumber} onChange={(e) => onchangeHandler(e)} />
+
             {objectDetailStatuses[1]?.flightDetails?.waitingPickupTime[type] === 1 &&
               <Select
                 label={appData?.words["seWaitingTime"]}

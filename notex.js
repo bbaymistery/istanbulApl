@@ -48,3 +48,5 @@ adults price nece atanacak ?
 
 
 //QuotationResultsTaxiDealLeftPart >infoaplcars.com degisilicek
+//onfocus event apldeki gibi galb
+//toursda curerencyleri nece hesapliycam dusun

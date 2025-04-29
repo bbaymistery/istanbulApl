@@ -31,7 +31,7 @@ const ReservationsDocument = (props) => {
     // const confirmationAlert = useConfirm({ previousUrl: "/", nextUrl: "/", message: "If you leave the page, all data will be deleted." })
     const { previousUrls, currentUrls } = urlWithLangAtribute({ languages: appData.languages, previousUrl: "/payment-details", nextUrl: "/", currentUrl: router.asPath })
 
-    const [reservId, setReservId] = useState([""])
+    const [reservId, setReservId] = useState("")
     const [confirmation, setConfirmation] = useState(true);
     //when passenger gets reserv d we need archieve token
     const fetchArchieveToken = async (params = {}) => {
@@ -121,6 +121,7 @@ const ReservationsDocument = (props) => {
             .then((response) => response.json())
             .then((response) => {
                 response = isJSON(isJSON) ? JSON.parse(response) : response;
+                console.log(response);
 
                 if (typeof response === "object" && response.status === 200) {
                     setReservId(response.data["reservations-ids"] ? response.data["reservations-ids"] : null);
@@ -151,7 +152,7 @@ const ReservationsDocument = (props) => {
         submitDataToGetReservId()
     }, [])
     useEffect(() => {
-        // if (reservId) fetchArchieveToken({ id: reservId, stage: "RENDER_RESERVATION_DETAILS" });
+        if (reservId) fetchArchieveToken({ id: reservId, stage: "RENDER_RESERVATION_DETAILS" });
     }, [reservId]);
     useEffect(() => {
         const confirmationMessage = "If you leave the page, all data will be deleted.";
@@ -193,6 +194,14 @@ const ReservationsDocument = (props) => {
             Router.events.off("routeChangeStart", beforeRouteHandler);
         };
     }, [])
+
+    if (reservId) {
+        console.log({ reservId, var: 'true' });
+
+    } else {
+        console.log({ reservId, var: 'false' });
+
+    }
     return (
         <GlobalLayout keywords={keywords} title={title} description={description} footerbggray={true}>
             <div className={`${styles.rsv_details} page`}>

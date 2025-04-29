@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from "./styles.module.scss";
 import store from '../../store/store';
 import InfoModal from '../../components/elements/InfoModal/InfoModal'
@@ -6,7 +6,7 @@ import FlightWaitingTimeContent from '../../components/elements/FlightWaitingTim
 import 'react-phone-input-2/lib/style.css'
 import { useRouter } from 'next/router';
 import { urlWithLangAtribute } from '../../helpers/urlWithLangAtrribute'
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import GlobalLayout from '../../components/layouts/GlobalLayout';
 import { createWrapper } from 'next-redux-wrapper';
 let description = "We specialize in airport transfer shuttle service. We can provide you with a chauffeur driven car to and from all major London airports. The airports include Heathrow, Gatwick, Stanstead, Luton and City airport.!"
@@ -20,11 +20,16 @@ const TransferDetails = (props) => {
     let { env } = props
 
     let state = useSelector((state) => state.pickUpDropOffActions)
-    let { reservations, params: { passengerDetailsStatus, modalInfo, direction, quotations, sessionToken: reducerSessionToken, language, journeyType } } = state
+    let { reservations,
+        params: {   passengerDetailsStatus, modalInfo, direction, quotations, sessionToken: reducerSessionToken, language, journeyType, }
+    } = state
 
     const { appData } = useSelector(state => state.initialReducer)
     //we use it to render paxs inside select component
     const { nexturls, previousUrls, currentUrls } = urlWithLangAtribute({ languages: appData.languages, previousUrl: localStorage.getItem("path"), nextUrl: "/payment-details", currentUrl: router.asPath })
+    const dispatch = useDispatch()
+
+
 
 
     return (

@@ -9,9 +9,7 @@
 
 
 
-        @media (max-width:1100px) {
-            display: none;
-        }
+
 
         .content {
             padding: 20px;
@@ -55,6 +53,10 @@
                     background-size: 175%;
                     position: relative;
 
+                    @media (max-width:1100px) {
+                        display: none;
+                    }
+
                     .stars {
                         position: absolute;
                         top: -5px !important;
@@ -70,7 +72,7 @@
                         }
                     }
 
-            
+
 
                     @media (max-width:1100px) {
                         padding: 60px 7.5px;
@@ -118,14 +120,14 @@
                             align-items: center;
                             font-size: 14px;
                             color: $--color-light-2;
-                margin-bottom: 2px !important;
+                            margin-bottom: 2px !important;
                         }
 
                         li {
                             font-size: 14px;
                             font-weight: 500;
                             list-style: none;
-                            border-bottom: 1px solid  lighten($--color-accent-1, 22%);
+                            border-bottom: 1px solid lighten($--color-accent-1, 22%);
                             color: $--color-dark-1;
                             margin-bottom: 5px;
 
@@ -153,10 +155,12 @@
                     color: $--color-accent-1-dark;
                     line-height: 28px;
                 }
+
                 a {
                     color: $--color-accent-1-dark;
                     text-decoration: underline !important;
                 }
+
                 //and distance
                 .duration {
                     font-size: 16px;
@@ -175,23 +179,102 @@
 
                 }
             }
+
             .price_div {
                 display: flex;
                 justify-content: space-between;
-                color: $--color-dark-1;
-                padding: 20px;
-                font-size: 22px;
-                background-color: $--color-accent-1-light;
+                color: #212529;
+                padding: 10px 20px;
+                font-size: 19px;
+                background-color: $--color-light-5;
                 margin-top: 20px;
-                border-radius: 4px;
+                border-radius: 0px;
+                text-transform: capitalize;
+
+                @media (max-width:1050px) {
+                    font-size: 17px;
+                }
+
+                @media (max-width:768px) {
+                    font-size: 16px;
+                }
+
+                .text_1 {
+                    font-weight: normal;
+                }
+
+                .price {
+                    font-weight: normal;
+                }
+            }
+
+            .additionalPrice,
+            .TotalPrice {
+                display: flex;
+                padding: 7px 20px;
+
+                background-color: $--color-light-5;
+                margin-top: 1rem;
+                justify-content: space-between;
+                gap: 1rem;
                 text-transform: capitalize;
 
                 .text_1 {
-                    font-weight: 500;
+                    font-weight: normal;
+                }
+
+                .price {
+                    font-weight: normal;
+
+                }
+            }
+
+            .TotalPrice {
+                text-transform: capitalize;
+                font-size: 24px;
+                margin-top: 14px;
+
+                @media (max-width:1050px) {
+                    font-size: 19px;
+                }
+
+                @media (max-width:768px) {
+                    font-size: 18px;
+                }
+
+                .text_1 {
+                    font-weight: 600;
+
                 }
 
                 .price {
                     font-weight: 600;
+                }
+            }
+
+            .additionalPrice {
+                font-size: 14px;
+                margin-top: 0px;
+                padding-top: 0px;
+
+                @media (max-width:1050px) {
+                    font-size: 12px;
+                }
+
+                .text_1 {
+                    font-weight: normal;
+
+                    span {
+                        margin-left: 10px;
+
+                        i {
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                .price {
+                    font-weight: normal;
                 }
             }
         }

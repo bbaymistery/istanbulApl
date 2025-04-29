@@ -16,7 +16,7 @@ const SelectedCardItem = ({
     currencySymbols, formattedDuration,
     quotationImagesObjWebp
 }) => {
-    const price = item?.exchangedCurrencyId === 3 ? item?.price : item?.exchangedPrice;
+    const price = `${item?.normalExchangedPrice}`;
     const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price?.split(".")[0]}.`;
     const carData = carObject[item?.carId];
     const storageKey = index === 0 ? "journeyQuotation" : "returnJourneyQuotation";

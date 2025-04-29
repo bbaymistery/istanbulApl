@@ -19,9 +19,8 @@ const SelectedPointOnTransferDetails = (props) => {
         <>
             {selectedPoints?.map((point, i) => {
                 let pointError = Array.isArray(pointsError) && typeof pointsError[i] === 'object' ? pointsError[i] : {}
-
                 return (
-                    <div className={`${styles.selected_list}  ${selectedPoints.length > 0 ? "m_0" : ""}`} key={i} id="selectedlist">
+                    <div className={`${isTaxiDeal ? styles.taxideal_selected : styles.selected_list}  ${selectedPoints.length > 0 ? "m_0" : ""}`} key={i} id="selectedlist">
                         <div className={styles.list_container}>
                             {
                                 isTaxiDeal ? <></> : <div className={styles.list}>
@@ -31,8 +30,7 @@ const SelectedPointOnTransferDetails = (props) => {
                                     </p>
                                 </div>
                             }
-                            {/* index it is a destination if 0 it means pick up  */}
-                            {/* //!checking for flight pickups */}
+
 
                             {point.pcatId === 1 ?
                                 <CheckForFlight
@@ -45,9 +43,7 @@ const SelectedPointOnTransferDetails = (props) => {
                                     onChange={flightDetails => dispatch({ type: 'SET_FLIGHT_DETAILS_FOR_POINTS', 'data': { 'index': journeyType, type, 'pointIndex': i, flightDetails } })}
                                 /> : <React.Fragment></React.Fragment>}
 
-                            {/* skip roomNumber */}
 
-                            {/* //! checking for postcodes  */}
                             {point.pcatId === 5 ?
                                 <CheckingForPostcodes
                                     point={point}
@@ -58,9 +54,7 @@ const SelectedPointOnTransferDetails = (props) => {
                                 /> : <React.Fragment></React.Fragment>}
 
 
-                            {/* //! places of interest  cities universities and colleges other  */}
-                            {/* SET_ADRESS_DESCRIPTION_FOR_POINTS =>  places of interest  cities universities and colleges other */}
-                            {/*chck for place of interest  Lexington House*/}
+
                         </div>
                     </div>
                 );

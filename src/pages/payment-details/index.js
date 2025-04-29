@@ -275,10 +275,7 @@ const PaymentDetails = (props) => {
                                                                     <i className="fa-solid fa-suitcase"></i>
                                                                     {carObject[quotation.carId].suitcases}
                                                                 </div>
-                                                                <div className={styles.icon_div}>
-                                                                    <i className="fa-solid fa-door-open"></i>
-                                                                    4
-                                                                </div>
+                                                           
                                                                 <div className={styles.icon_div}>
                                                                     {appData.words["strMeetandGreet"]}
                                                                 </div>

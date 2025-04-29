@@ -11,20 +11,18 @@ import { setCookie } from "../../../helpers/cokieesFunc";
 import logoImage from '../../../../public/logos/logo.webp'
 import airportTranslations from "../../../constants/generalTranslataions";
 import DropDownAllCurrencies from "../../elements/DropDownAllCurrencies";
-import { normalizeReservations } from "../../../helpers/normalizeReservations";
-import { reservationSchemeValidator } from "../../../helpers/reservationSchemeValidator";
-import { readyToCollectQuotationOptions } from "../../../helpers/readyToCollectQuotationOptions";
 import { fetchConfig } from "../../../resources/getEnvConfig";
 import { updateCurrencyGetQuotationOnSpecialPage } from "../../../helpers/updateCurrencyGetQuotationOnspecialPage";
 import { useSkipFirstRender } from "../../../hooks/useSkipFirstRender";
+import { updateCurrencyOnTaxiDealFlow } from "../../../helpers/updateCurrencyOntaxiDealFlow";
 
 const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'),);
 const DesktopMenu = dynamic(() => import('../../elements/DesktopMenu'),);
 const MobileMenu = dynamic(() => import('../../elements/MobileMenu'),);
-const Header = (props) => {
+const Header = () => {
   const router = useRouter()
   const dispatch = useDispatch()
-  const { params: { language, journeyType, selectedCurrency }, reservations } = useSelector(state => state.pickUpDropOffActions)
+  const { params: { language, journeyType, selectedCurrency, quotations }, reservations } = useSelector(state => state.pickUpDropOffActions)
   const [openMenu, setOpenMenu] = useState(false) //mobile
   const [languageStatus, setLanguageStatus] = useState(false)
   const [currencyStatus, setCurrencyStatus] = useState(false)
@@ -122,17 +120,33 @@ const Header = (props) => {
   }, [dispatch, journeyType, toggleMenu]);
 
   useSkipFirstRender(() => {
-    updateCurrencyGetQuotationOnSpecialPage({
-      dispatch,
-      setInternalState,
-      router,
-      reservations,
-      journeyType,
-      language,
-      appData,
-      selectedCurrency,
-    });
+
+    if (quotations[0]?.taxiDeal) {
+      console.log("Calisdi 1");
+
+      updateCurrencyOnTaxiDealFlow({ quotations, reservations, reduxLanguage: language, currencyId: selectedCurrency.currencyId, dispatch, });
+    } else {
+      console.log("Calisdi 2");
+
+      updateCurrencyGetQuotationOnSpecialPage({ dispatch, setInternalState, router, reservations, journeyType, language, appData, selectedCurrency, isTaxiDeal: false });
+    }
+
+    console.log("render eledim useSkip First render icinde");
+
   }, [selectedCurrency.currencyId]);//second parametre if false it means it rendere initially 
+
+  useEffect(() => {
+    const err0 = internalState["error-booking-message-0"];
+    const err1 = internalState["error-booking-message-1"];
+
+    if (err0) {
+      alert(err0);
+    } else if (err1) {
+      alert(err1);
+    }
+  }, [internalState]);
+
+
   return (
     <header className={styles.header} id="navbar_container" >
       <div className={styles.header_container}>
@@ -153,9 +167,10 @@ const Header = (props) => {
           <div className={styles.right_items}>
 
             <div className={`${styles.currency_dropdown}`} >
-              <div className={styles.text} onClick={() => setOpenCurrencyDropDown()} data-name="currency">
-                {selectedCurrency.currency}
-              </div>
+              {router.pathname === '/reservations-document' ? <></> :
+                <div className={styles.text} onClick={() => setOpenCurrencyDropDown()} data-name="currency">
+                  {selectedCurrency.currency}
+                </div>}
               {currencyStatus ?
                 <OutsideClickAlert onOutsideClick={() => outsideClickDropDown()}>
 

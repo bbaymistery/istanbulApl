@@ -1,6 +1,9 @@
 //!Fleet Keywords meta descriptions
 //!Contact us keywords meta desccriptions and design 
 
+//!mr musftafa 4A DEIDIGI KCARS TRANSFER DETAILS KALDIR (DONE)
+//!FLIGHT CONTENT TRANSLATION DEGISICEK BANA ATDI WPDAN 
+//!oNFOCUS OLANDA FIYATLAR DEGISICEK APL DEKI GIBI
 
 
 
@@ -13,8 +16,3 @@
 
 
 
-
-//*✅Terms keywords design is done
-//*✅Privacy Policy keywords design is done
-//*✅Home Keywords is done
-//*✅Footer keywords design is done

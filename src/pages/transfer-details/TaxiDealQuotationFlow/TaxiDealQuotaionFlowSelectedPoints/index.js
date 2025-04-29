@@ -75,11 +75,13 @@ const TaxiDealQuotationPointSection = ({
     const setFocusToInput = (params = {}) => {
         let { e, destination, index } = params
 
-        e.target.style.opacity = 0
-        setInternalState({ [`${destination}-search-focus-${index}`]: window.innerWidth > 990 ? false : true })
-        setTimeout(() => e.target.style.opacity = 1);
-        const navbar = document.getElementById("navbar_container")
-        navbar.style.zIndex = 1
+        if (window.innerWidth < 990) {
+            e.target.style.opacity = 0
+            setInternalState({ [`${destination}-search-focus-${index}`]: window.innerWidth > 990 ? false : true })
+            setTimeout(() => e.target.style.opacity = 1);
+            const navbar = document.getElementById("navbar_container")
+            navbar.style.zIndex = 1
+        }
     }
 
     const closeModal = (params = {}) => {

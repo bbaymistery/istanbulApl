@@ -21,18 +21,24 @@ import { reservationSchemeValidator } from "./reservationSchemeValidator";
  * @param {string} params.language - Active language code (e.g., "en", "tr").
  * @param {Object} params.appData - Application static data.
  * @param {Object} params.selectedCurrency - Selected currency object (must have `currencyId`).
+ * @param {Object} params.isTaxiDeal - is this journey comes from taxi deal or not
  */
-export const updateCurrencyGetQuotationOnSpecialPage = async ({ dispatch, setInternalState, router, reservations, journeyType, language, appData, selectedCurrency, }) => {
+export const updateCurrencyGetQuotationOnSpecialPage = async ({ dispatch, setInternalState, router, reservations, journeyType, language, appData, selectedCurrency, isTaxiDeal }) => {
     const specialPages = ['/transfer-details', '/payment-details'];
+    console.log("updateCurrencyGetQuotationOnSpecialPage");
+
+    if (isTaxiDeal) return
+    console.log("updateCurrencyGetQuotationOnSpecialPag e      istaci deal geid");
 
     // Only execute if we are on a special page
     if (!specialPages.includes(router.pathname)) return;
-    console.log("casl");
+    console.log("updateCurrencyGetQuotationOnSpecialPag e      special page deal geid");
 
     const checkedReservations = normalizeReservations(reservations);
     const errorHolder = reservationSchemeValidator({ reservations: checkedReservations, appData });
 
     setInternalState({ errorHolder });
+    console.log(errorHolder, isTaxiDeal);
 
     if (errorHolder.status !== 200) return;
 
@@ -50,6 +56,7 @@ export const updateCurrencyGetQuotationOnSpecialPage = async ({ dispatch, setInt
     };
 
     const results = await readyToCollectQuotationOptions(propsOfReadyCollection);
+    console.log({ results });
 
     if (!results.success) return;
 
@@ -65,7 +72,7 @@ export const updateCurrencyGetQuotationOnSpecialPage = async ({ dispatch, setInt
         );
 
         if (selectedQuotation) {
-            dispatch({ type: "SET_QUOTATION", data: { quotation: selectedQuotation, journeyType: 0 } });
+            dispatch({ type: "SET_QUOTATION_ON_SPECIAL_CASE", data: { quotation: selectedQuotation, journeyType: 0 } });
         }
     }
 
@@ -80,7 +87,7 @@ export const updateCurrencyGetQuotationOnSpecialPage = async ({ dispatch, setInt
             );
 
             if (selectedQuotation) {
-                dispatch({ type: "SET_QUOTATION", data: { quotation: selectedQuotation, journeyType: journeyIndex } });
+                dispatch({ type: "SET_QUOTATION_ON_SPECIAL_CASE", data: { quotation: selectedQuotation, journeyType: journeyIndex } });
             }
         });
     }

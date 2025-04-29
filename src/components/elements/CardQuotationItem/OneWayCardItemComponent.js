@@ -8,7 +8,7 @@ const OneWayCardItemComponent = (props) => {
 
     return (+journeyType === 0) && [...datas.filter(item => item.carId !== 4), ...datas.filter(item => item.carId === 4)]?.map((item, index) => {
         let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
-        const price = item?.exchangedPrice ? item.exchangedPrice : item.price;
+        const price = `${item.normalExchangedPrice}`;
         const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price?.split(".")[0]}.`;
         return (
             <div id="main_container" key={index + 100000}>

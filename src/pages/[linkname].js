@@ -82,6 +82,7 @@ const handleStandartContent = (params = {}) => {
     const schemas = [getSingleAirportSchemaByPathname(pathname, language)]
     const metaTags = getMetaTagSingleAirportPage(pathname, language, env);
     const { keywords, headTitle, metaDescription } = getSinglekeywordsTitleAirportPage(pathname, language);
+    console.log(keywords);
 
     let data = { pageContent, schemas: schemas || [], metaTags, keywords, headTitle, metaDescription }
     return { props: { data, isItQuationLink: false, currencyId, currency } }

@@ -4,11 +4,13 @@ import { useSelector } from 'react-redux'
 import { quotationImagesObjWebp } from '../../../constants/quotationImages'
 import styles from "./styles.module.scss"
 import { splitAndTranslateDuration } from '../../../helpers/splitHelper'
+import currencies from '../../../constants/currencies'
+import { getPriceDetailsFromQuotation } from '../../../helpers/getPriceDetailsFromQuotation'
 const TransferJourneySummaryPanel = (props) => {
-    let { index, quotation, selectedPickupPoints, selectedDropoffPoints, splitedDate, splitedHour, splitedMinute, isTaxiDeal = false, journeyType, language } = props
+    let { index, quotation, selectedPickupPoints, selectedDropoffPoints, splitedDate, splitedHour, splitedMinute, isTaxiDeal = false, journeyType, language, setOpenModal } = props
 
     let state = useSelector((state) => state.pickUpDropOffActions)
-    let { params: { quotations, direction } } = state
+    let { params: { quotations, direction, selectedCurrency } } = state
     const [formattedDuration, setFormattedDuration] = useState(null)
 
     const { appData } = useSelector(state => state.initialReducer)
@@ -18,6 +20,8 @@ const TransferJourneySummaryPanel = (props) => {
     const distanceInMiles = quotations[index].distance ? parseFloat(quotations[index].distance.replace(' mile', '')) : null;
     const distanceInKm = distanceInMiles ? (distanceInMiles * 1.60934).toFixed(2) : null;
     // Format the duration based on the language
+    const symbol = currencies.find(c => c.currencyId === +selectedCurrency.currencyId)?.symb || "£";
+    let _quotationDetails = getPriceDetailsFromQuotation({ quotation }).data || {}
 
     useEffect(() => {
         if (quotations[index]?.duration && language && appData) {
@@ -119,10 +123,33 @@ const TransferJourneySummaryPanel = (props) => {
                     </div>
                     {<Link href="/quotation-results" style={{ textTransform: "capitalize" }}> {appData?.words["strChangeCar"]} </Link>}
                 </div>
+
                 <div className={styles.price_div}>
                     <div className={styles.text_1}>{appData?.words["strPriceTitle"]} </div>
-                    <div className={styles.price}>£ {quotation.exchangedPrice ? quotation.exchangedPrice : quotation.price}  </div>
+                    <div className={styles.price}>
+                        {symbol}
+                        {
+                            quotations[0]?.taxiDeal ? (quotation.exchangedPrice ? quotation.exchangedPrice : quotation.price) : quotation.normalExchangedPrice
+                        }
+                    </div>
                 </div>
+                {_quotationDetails.price !== _quotationDetails.normalPrice && !isTaxiDeal ?
+                    <div className={styles.additionalPrice}>
+                        <p className={styles.text_1}>{appData?.words["strLastMinuteBookingFee"]}
+
+                            <span>
+                                <i className={`fa-solid fa-circle-info`} onClick={() => setOpenModal(true)}></i>
+                            </span>
+                        </p>
+                        <p className={styles.price}>{symbol}  {(parseFloat(_quotationDetails.price) - parseFloat(_quotationDetails.normalPrice)).toFixed(2)}</p>
+                    </div> : <></>}
+
+                {_quotationDetails.price !== _quotationDetails.normalPrice && !isTaxiDeal ?
+                    <div className={styles.TotalPrice}>
+                        <p className={styles.text_1}>{appData?.words["strTotalPrice"]}</p>
+                        <p className={styles.price}>{symbol}  {parseFloat(_quotationDetails.price)}</p>
+                    </div>
+                    : <></>}
             </div>
         </div>
     )

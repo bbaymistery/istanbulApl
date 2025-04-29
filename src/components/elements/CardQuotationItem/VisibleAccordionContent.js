@@ -14,7 +14,7 @@ const VisibleAccordionContent = (props) => {
     } = props
     return (!journeyAccrodionStatus && index === 0 && journeyType === 1 || !returnJourneyAccordionStatus && index === 1 && journeyType === 1) && datas?.map((item, index) => {
         let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
-        const price = currencyId === 3 ? item?.price : item?.exchangedPrice;
+        const price = `${item?.normalExchangedPrice}`;
         const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price.split(".")[0]}.`;
         return (
             <div id="main_container" key={index + 10000}>

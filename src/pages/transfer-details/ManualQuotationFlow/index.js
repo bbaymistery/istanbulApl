@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import TransferJourneySummaryPanel from '../../../components/elements/TransferJourneySummaryPanel';
 import { ifHasUnwantedCharacters } from '../../../helpers/ifHasUnwantedCharacters';
@@ -52,6 +52,18 @@ const ManualQuotationFlow = (props) => {
     if (["specialRequests"].includes(name))
       dispatch({ type: 'SET_TRANSFER_DETAILS', data: { name, value, index, updateBothJourneyCheckBox: passengerDetailsStatus } })
   }
+  const [openModal, setOpenModal] = useState(false)
+
+  const setToFalse = () => {
+    setOpenModal(false)
+  };
+  const handleClose = () => {
+    if (openModal) {
+
+      setOpenModal(false)
+
+    }
+  }
 
 
 
@@ -101,12 +113,25 @@ const ManualQuotationFlow = (props) => {
                   <TransferDetailsBackNextButton direction={direction} router={router} appData={appData} checkValidation={checkValidation} />
                   : <></>}
               </div>
-              <TransferJourneySummaryPanel language={language} journeyType={journeyType} index={index} splitedHour={splitedHour} splitedMinute={splitedMinute} splitedDate={splitedDate} quotation={quotation} selectedDropoffPoints={selectedDropoffPoints} selectedPickupPoints={selectedPickupPoints} />
+              <TransferJourneySummaryPanel
+                setOpenModal={setOpenModal}
+                language={language} journeyType={journeyType}
+                index={index} splitedHour={splitedHour} splitedMinute={splitedMinute}
+                splitedDate={splitedDate} quotation={quotation} selectedDropoffPoints={selectedDropoffPoints}
+                selectedPickupPoints={selectedPickupPoints} />
             </div>
 
           </div>
         )
       })}
+      {openModal ?
+        <div className={` ${styles.modal} `} onClick={handleClose}>
+          <div className={`${styles.modal_container}`} id="infoModal">
+            <div>{appData.words["strLastMinuteBookinginfo"]}  </div>
+            <i onClick={setToFalse} className={`fa-solid fa-x ${styles.close_icon}`}></i>
+          </div>
+        </div>
+        : <React.Fragment></React.Fragment>}
     </div>
   )
 }
