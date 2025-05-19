@@ -2,7 +2,6 @@ function SET_QUOTATION_ON_SPECIAL_CASE(params = {}) {
     let { state, action } = params
     let { data: { quotation, journeyType } } = action
     let newState = JSON.parse(JSON.stringify(state))
-    console.log({ action });
 
     // set Quotation
     newState.reservations[journeyType].quotation = quotation

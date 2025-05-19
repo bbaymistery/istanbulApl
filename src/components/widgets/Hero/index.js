@@ -1,13 +1,11 @@
 import { getTitleStringOfHastaxiDeals, splitDateTimeStringIntoDate, splitDateTimeStringIntoHourAndMinute } from '../../../helpers/splitHelper';
 import { reservationSchemeValidator } from '../../../helpers/reservationSchemeValidator';
 
-import { currentDateForJourney } from '../../../helpers/getDates';
 import { useDispatch, useSelector } from 'react-redux';
 import styles from "./styles.module.scss"
 import RadioButton from './RadioButton'
 import { useRouter } from 'next/router'
 import React, { useCallback, useEffect, useRef, useState, } from 'react'
-import Image from 'next/image';
 import dynamic from 'next/dynamic'
 import { BUTTON_TYPES } from '../../elements/Button/ButtonTypes';
 import Button from '../../elements/Button/Button';

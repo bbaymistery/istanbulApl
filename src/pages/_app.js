@@ -10,6 +10,7 @@ import { mobileAndTabletCheck } from '../helpers/mobileAndTabletCheck';
 import { fetchConfig } from "../resources/getEnvConfig";
 import store from '../store/store';
 import "../styles/global.scss";
+import FontAwesomeHeadLoader from '../components/elements/FontAwesomeLoader';
 const dmsans = DM_Sans({
   weight: ["400", "500", "700"],
   style: ["normal", "italic"],
@@ -149,7 +150,21 @@ function MyApp({ Component, pageProps }) {
 
   }, [router.asPath])
 
+  //gtmsss S
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'pageview',
+        page: url,
+      });
+    };
 
+    router.events.on('routeChangeComplete', handleRouteChange);
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
   //scrolling useEffect
   useEffect(() => {
     // Restore scroll position on page load
@@ -171,6 +186,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Provider store={store}>
       <main className={dmsans.className}>
+        <FontAwesomeHeadLoader />
         <Component {...pageProps} />
       </main>
     </Provider>

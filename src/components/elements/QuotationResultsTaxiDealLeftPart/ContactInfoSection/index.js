@@ -26,8 +26,8 @@ const ContactInfoSection = ({ direction, appData }) => (
             />
             <ContactItem
                 icon={{ src: "/images/others/mail.webp", alt: "Mail", width: "19px" }}
-                href="mailto:info@aplcars.com"
-                text="info@aplcars.com"
+                href="mailto:info@apltransfers.com"
+                text="info@apltransfers.com"
             />
         </ul>
     </div>

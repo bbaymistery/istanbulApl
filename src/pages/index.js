@@ -2,18 +2,24 @@
 import { useEffect, useState } from 'react';
 import GlobalLayout from '../components/layouts/GlobalLayout'
 import Hero from '../components/widgets/Hero'
-import PopularDestinations from '../components/widgets/PopularDestnations'
-import WhyChoice from '../components/widgets/WhyChoice'
+
 import dynamic from 'next/dynamic';
 import { parse } from 'url';
-import Tours from './tours';
+import { setNoCacheHeader } from "../helpers/setNoCacheHeader";
 import { parseCookies } from '../helpers/cokieesFunc';
 import { checkLanguageAttributeOntheUrl } from '../helpers/checkLanguageAttributeOntheUrl';
 import { adjustPathnameForLanguage } from '../helpers/adjustedPageLanguage';
 import { isUrlLoverCase } from '../helpers/isUrlLoverCase';
-const Testimonials = dynamic(() => import('../components/widgets/Testimonials'),);
-const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'),);
+import { fetchConfig } from '../resources/getEnvConfig';
+const WhyChoice = dynamic(() => import('../components/widgets/WhyChoice'), { loading: () => <div>Loading...</div>, ssr: false });
+const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'), { loading: () => <div>Loading...</div>, ssr: false });
+const Testimonials = dynamic(() => import('../components/widgets/Testimonials'), { loading: () => <div>Loading...</div>, ssr: false });
+const PopularDestinations = dynamic(() => import("../components/widgets/PopularDestnations"), { loading: () => <div>Loading...</div>, ssr: false });
 
+const Tours = dynamic(() => import('./tours'), {
+  loading: () => <div>Loading...</div>, // Bileşen yüklenirken geçici gösterilecek içerik
+  ssr: false // ⬅️ Bu satır ile bileşen sadece client-side'da render edilir
+});
 export default function Home(props) {
   const [hasScrolled, setHasScrolled] = useState(false);
 
@@ -29,11 +35,11 @@ export default function Home(props) {
   }, [hasScrolled]);
 
   return (
-    <GlobalLayout title={props?.seoDatas?.title} keywords={props?.seoDatas?.keywords} description={props?.seoDatas?.description}>
+    <GlobalLayout title={props?.seoDatas?.title} keywords={props?.seoDatas?.keywords} description={props?.seoDatas?.description} mainCanonical={props.mainCanonical}>
       <Hero env={props.env} />
       <WhyChoice />
       <PopularDestinations env={props.env} />
-      <Tours insideGlobalLayout={false} />
+      {hasScrolled && <Tours insideGlobalLayout={false} />}
       {hasScrolled && <CarsSlider />}
       <Testimonials />
     </GlobalLayout>
@@ -92,8 +98,10 @@ const seoHomeDefaults = {
 };
 
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
-  res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
+  setNoCacheHeader(res, false);
+  // Cache'i kapat
   isUrlLoverCase(resolvedUrl, res)
+  const env = await fetchConfig();
 
   //get cookie and pathnames
   let cookies = parseCookies(req.headers.cookie);
@@ -104,9 +112,9 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
   // pathname = adjusted.pathname;
   pageStartLanguage = adjusted.pageStartLanguage;
   const seoDatas = seoHomeDefaults[pageStartLanguage] || seoHomeDefaults["en"];
-
+  const mainCanonical = `${env.websiteDomain}${pageStartLanguage === 'en' ? "/" : `/${pageStartLanguage}/`}`
   return {
     //we pass tourdetails fot adding inside redux generally all together
-    props: { seoDatas }
+    props: { seoDatas, mainCanonical }
   };
 }

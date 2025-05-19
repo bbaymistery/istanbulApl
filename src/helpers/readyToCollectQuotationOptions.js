@@ -45,7 +45,6 @@ export const readyToCollectQuotationOptions = async (params = {}) => {
         setInternalState({ ["quotation-loading"]: true });
 
         let log = await collectQuotationsAsync({ reservations, journeyType, env, currencyId });
-        console.log({ log });
 
         let { status, data } = log;
 

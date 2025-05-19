@@ -8,10 +8,11 @@ import currencies from "../constants/currencies";
  * @param {Object} params.item - Item that contains price, exchangedPrice, currencyId.
  * @returns {{ symbol: string, displayedPrice: number }}
  */
-export const getDisplayedPrice = ({ currencyId, item }) => {
-    const symbol = currencies.find(c => c.currencyId === +currencyId)?.symb || "£";
+export const getDisplayedPrice = ({ currencyId, item = {} }) => {
+    const isEuro = +currencyId === 1;
+    const symbol = isEuro ? "€" : currencies.find(c => c.currencyId === +currencyId)?.symb || "£";
 
-    const displayedPrice = item.currencyId === +currencyId ? item.price : item.exchangedPrice;
+    const displayedPrice = isEuro ? item.price : item.exchangedPrice;
 
     return { symbol, displayedPrice };
 };

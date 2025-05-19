@@ -11,13 +11,15 @@ import { setCookie } from "../../../helpers/cokieesFunc";
 import logoImage from '../../../../public/logos/logo.webp'
 import airportTranslations from "../../../constants/generalTranslataions";
 import DropDownAllCurrencies from "../../elements/DropDownAllCurrencies";
-import { fetchConfig } from "../../../resources/getEnvConfig";
 import { updateCurrencyGetQuotationOnSpecialPage } from "../../../helpers/updateCurrencyGetQuotationOnspecialPage";
 import { useSkipFirstRender } from "../../../hooks/useSkipFirstRender";
 import { updateCurrencyOnTaxiDealFlow } from "../../../helpers/updateCurrencyOntaxiDealFlow";
+import { useWindowSize } from "../../../hooks/useWindowSize";
 
 const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'),);
-const DesktopMenu = dynamic(() => import('../../elements/DesktopMenu'),);
+const DesktopMenu = dynamic(() => import('../../elements/DesktopMenu'), {
+  ssr: false
+});
 const MobileMenu = dynamic(() => import('../../elements/MobileMenu'),);
 const Header = () => {
   const router = useRouter()
@@ -28,6 +30,8 @@ const Header = () => {
   const [currencyStatus, setCurrencyStatus] = useState(false)
   const { appData } = useSelector(state => state.initialReducer)
   const [translatedAppData, setTranslatedAppData] = useState(appData)
+  const isCurrencyDisbaled = router.pathname === '/reservations-document' || router.pathname === "/transfer-details" || router.pathname === "/payment-details"
+  const isLanguageDisabled = router.pathname === '/sofor-araniyor' || router.pathname === "/sofor-basvuru-formu"
   let [internalState, setInternalState] = React.useReducer((s, o) => ({ ...s, ...o }), {
 
     "error-booking-message-0": "",
@@ -35,6 +39,7 @@ const Header = () => {
 
   })
   const handleLanguage = async (params = {}) => {
+
     let { e, text, key, direction, index } = params
     setCookie("lang", key, 7);
     //set language and dicertion  to localstorage
@@ -93,11 +98,14 @@ const Header = () => {
 
   //when we click lang text it opens dropdown
   const setOpenLanguageDropdown = () => {
+
+    if (isLanguageDisabled) return
     setCurrencyStatus(false)
     setLanguageStatus(!languageStatus)
 
   }
   const setOpenCurrencyDropDown = () => {
+    if (isCurrencyDisbaled) return
     setLanguageStatus(false)
     setCurrencyStatus(!currencyStatus)
   }
@@ -122,17 +130,10 @@ const Header = () => {
   useSkipFirstRender(() => {
 
     if (quotations[0]?.taxiDeal) {
-      console.log("Calisdi 1");
-
       updateCurrencyOnTaxiDealFlow({ quotations, reservations, reduxLanguage: language, currencyId: selectedCurrency.currencyId, dispatch, });
     } else {
-      console.log("Calisdi 2");
-
       updateCurrencyGetQuotationOnSpecialPage({ dispatch, setInternalState, router, reservations, journeyType, language, appData, selectedCurrency, isTaxiDeal: false });
     }
-
-    console.log("render eledim useSkip First render icinde");
-
   }, [selectedCurrency.currencyId]);//second parametre if false it means it rendere initially 
 
   useEffect(() => {
@@ -145,7 +146,8 @@ const Header = () => {
       alert(err1);
     }
   }, [internalState]);
-
+  let size = useWindowSize();
+  let { width } = size
 
   return (
     <header className={styles.header} id="navbar_container" >
@@ -154,9 +156,18 @@ const Header = () => {
           <div className={styles.left_items}>
             <div className={styles.left_items_flex_div}>
               <a href={language === 'en' ? '/' : `/${language}`} className={`${styles.logo_tag}`}  >
-                <Image src={logoImage} alt="APL transfers" width={255} height={70} priority />
+                <div >
+                  <Image
+                    src={logoImage}
+                    alt="APL transfers"
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 175px, 255px"
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
               </a>
-              <DesktopMenu airportTranslations={airportTranslations} journeyType={journeyType} language={language} />
+              {width > 1200 ? <DesktopMenu airportTranslations={airportTranslations} journeyType={journeyType} language={language} /> : <></>}
               {/* mobile  */}
               {openMenu ?
                 <MobileMenu airportTranslations={airportTranslations} openMenu={openMenu} handleClickNavLinkMobileMenuNotList={handleClickNavLinkMobileMenuNotList} language={language} handleClickNavLinkMobileMenuList={handleClickNavLinkMobileMenuList} appData={translatedAppData} />
@@ -167,10 +178,18 @@ const Header = () => {
           <div className={styles.right_items}>
 
             <div className={`${styles.currency_dropdown}`} >
-              {router.pathname === '/reservations-document' ? <></> :
-                <div className={styles.text} onClick={() => setOpenCurrencyDropDown()} data-name="currency">
-                  {selectedCurrency.currency}
-                </div>}
+              <div
+                className={`${styles.text}`}
+                onClick={() => setOpenCurrencyDropDown()}
+                data-name="currency"
+                style={{
+                  backgroundColor: isCurrencyDisbaled ? '#f0f0f0' : undefined,
+                  cursor: isCurrencyDisbaled ? 'default' : 'pointer'
+                }}
+              >
+                {selectedCurrency.currency}
+              </div>
+
               {currencyStatus ?
                 <OutsideClickAlert onOutsideClick={() => outsideClickDropDown()}>
 
@@ -179,7 +198,11 @@ const Header = () => {
             </div>
 
             <div className={`${styles.language_dropdown}`} >
-              <div className={styles.img_div} onClick={() => setOpenLanguageDropdown()} data-name="language">
+              <div
+                className={styles.img_div}
+                onClick={() => setOpenLanguageDropdown()} data-name="language"
+                style={{ cursor: isLanguageDisabled ? 'default' : 'pointer' }}
+              >
                 {appData ? <Image src={`/languages/${language}.gif`} width={20} height={11} priority alt={language} data-name="language" /> : <></>}
               </div>
               {languageStatus ?

@@ -10,7 +10,6 @@
  * @param {Function} dispatch - Redux dispatch
  */
 export const updateCurrencyOnTaxiDealFlow = ({ quotations, reservations, reduxLanguage, currencyId, dispatch }) => {
-    console.log("updateCurrencyOnTaxiDealFlow");
 
     if (!quotations?.[0]?.taxiDeal) return;
 

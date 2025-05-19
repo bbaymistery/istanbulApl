@@ -82,7 +82,6 @@ const handleStandartContent = (params = {}) => {
     const schemas = [getSingleAirportSchemaByPathname(pathname, language)]
     const metaTags = getMetaTagSingleAirportPage(pathname, language, env);
     const { keywords, headTitle, metaDescription } = getSinglekeywordsTitleAirportPage(pathname, language);
-    console.log(keywords);
 
     let data = { pageContent, schemas: schemas || [], metaTags, keywords, headTitle, metaDescription }
     return { props: { data, isItQuationLink: false, currencyId, currency } }
@@ -96,7 +95,7 @@ async function handleQuotationLink(language, pathname, env, currencyId, currency
     let schemas = []
     //!nneww Pathname yox idi direk yazilirdi 
     if (pathname) {
-        const body = { language, checkRedirect: true, taxiDealPathname: pathname, withoutExprectedPoints: true, currencyId: +currencyId, };
+        const body = { language, checkRedirect: true, taxiDealPathname: pathname, withoutExprectedPoints: true, currencyId: +currencyId, "channelId": 12 };
         let { breadcrumbs } = urlToTitle({ url: pathname, pathnamePage: true })
 
         const url = `${env.apiDomain}/api/v1/taxi-deals/details`;

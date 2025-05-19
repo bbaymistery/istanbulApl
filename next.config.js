@@ -36,6 +36,29 @@ const nextConfig = {
       { hostname: 'www.airport-pickups-london.com' },
     ],
   },
+  async headers() {
+    return [
+      {
+        source: '/:all*(js|css|png|jpg|webp|svg)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          }
+        ],
+      },
+    ];
+  },
+
+  async redirects() {
+    return [
+      {
+        source: '/sofor-araniyor',
+        destination: '/tr/sofor-araniyor',
+        permanent: true, // SEO için true (301) veya test için false (307)
+      },
+    ];
+  }
 }
 
 module.exports = nextConfig

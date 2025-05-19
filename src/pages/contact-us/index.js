@@ -2,17 +2,23 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import styles from "./styles.module.scss"
 import GlobalLayout from '../../components/layouts/GlobalLayout'
-
 import { useState } from 'react'
-
 import Alert from '../../components/elements/alert/Alert'
 import TextInput from '../../components/elements/TextInput';
 import BreadCrumb from "./breadCrubm";
-
+import { parse } from 'url';
 import Textarea from '../../components/elements/Textarea'
+import AdressInformations from '../../components/elements/AdressInformations'
+import { setNoCacheHeader } from '../../helpers/setNoCacheHeader'
+import { isUrlLoverCase } from '../../helpers/isUrlLoverCase'
+import { parseCookies } from '../../helpers/cokieesFunc'
+import { checkLanguageAttributeOntheUrl } from '../../helpers/checkLanguageAttributeOntheUrl'
+import { adjustPathnameForLanguage } from '../../helpers/adjustedPageLanguage'
+import { contactUsKeywords } from '../../constants/keywordsAndContents/contactus/keywordsAndContent'
+import { fetchConfig } from '../../resources/getEnvConfig'
 const initialFormValue = { email: "", phone: "", subject: "", message: "", fullname: "", }
 const ContactUs = (props) => {
-    let { bggray ,env} = props
+    let { bggray, env } = props
     //appContactUsHeader
 
     const state = useSelector(state => state.pickUpDropOffActions)
@@ -39,7 +45,7 @@ const ContactUs = (props) => {
             const method = "POST"
             const headers = { Accept: "application/json, text/plain, */*", "Content-Type": "application/json", }
             const body = JSON.stringify({
-                senderId: 1,
+                senderId: 7,
                 reciverMails: [formValue.email],
                 subject: formValue.subject,
                 mailContent: formValue.message
@@ -67,7 +73,7 @@ const ContactUs = (props) => {
 
 
     return (
-        <GlobalLayout title="Contact Us" keywords="Contact Us" description="Contact Us" >
+        <GlobalLayout title="Contact Us" keywords="Contact Us" description="Contact Us" mainCanonical={props.mainCanonical}>
             <div className={`${styles.contact_us} ${direction} page`} bggray={String(bggray === "true")}>
                 <BreadCrumb title="" />
                 <div className={`${styles.contact_us_section} page_section`}>
@@ -75,9 +81,10 @@ const ContactUs = (props) => {
                     <div className={`${styles.contact_us_section_container} page_section_container`}>
 
                         <div className={styles.contact_area}>
-                            <h3 className={styles.title}>{appData?.words["strWeLoveToHearFromYou"]}</h3>
                             <div className={styles.form_box}>
                                 <div className={styles.form_content}>
+                                    <h3 className={styles.title}>{appData?.words["strWeLoveToHearFromYou"]}</h3>
+                                    <p>{appData.words["strSendUsAMessageAnd"]}</p>
                                     <div className={styles.contact_form_action}>
                                         <form className={styles.form}>
                                             <div className={styles.input_box}>
@@ -107,11 +114,43 @@ const ContactUs = (props) => {
                                 </div>
                             </div>
                         </div>
+
+                        <div className={styles.address_area}>
+                            <AdressInformations direction={direction} appData={appData} />
+                        </div>
                     </div>
                 </div>
             </div>
         </GlobalLayout>
     )
 }
+export async function getServerSideProps({ req, res, query, resolvedUrl }) {
 
+    setNoCacheHeader(res, true);
+
+    isUrlLoverCase(resolvedUrl, res)
+
+    //get cookie and pathnames
+    let cookies = parseCookies(req.headers.cookie);
+    let { pathname } = parse(req.url, true)
+    let pageStartLanguage = checkLanguageAttributeOntheUrl(req?.url)
+
+    // Adjust pathname and language based on initial language
+    const adjusted = adjustPathnameForLanguage(pathname, pageStartLanguage, cookies);
+    pathname = adjusted.pathname;
+    pageStartLanguage = adjusted.pageStartLanguage;
+
+    let metaDescription = contactUsKeywords.metaDescription[pageStartLanguage]
+    let keywords = contactUsKeywords.keywords[pageStartLanguage];
+    let headTitle = contactUsKeywords.headTitle[pageStartLanguage];
+
+    const env = await fetchConfig();
+    const mainCanonical = `${env.websiteDomain}${pageStartLanguage === 'en' ? "/contact-us" : `/${pageStartLanguage}/contact-us`}`
+    return {
+        //we pass tourdetails fot adding inside redux generally all together
+        props: { metaDescription, keywords, headTitle, mainCanonical }
+    };
+
+
+}
 export default ContactUs

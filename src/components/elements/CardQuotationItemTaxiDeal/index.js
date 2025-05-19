@@ -69,8 +69,6 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
         returnHeadTitle,
         returnPageTitle,
         isVisible = false,
-        breadcrumbs,
-        linkurl,
         review,
         env
     } = params
@@ -87,16 +85,15 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
     // Conditionally slice the array before mapping
 
 
-
     const setQuotationHandleClick = async (params = {}) => {
         let { quotation } = params
-        
+
         checkJourneyTypeAndAddQuotationToReducer({ journeyType, quotation, index, router, dispatch, language, isTaxiDeal, quotations, env })
         //!nneww Pathname yox idi direk yazilirdi 
         if (isTaxiDeal && previousUrl) {
 
             try {
-                const body = { language, checkRedirect: true, taxiDealPathname: previousUrl, withoutExprectedPoints: false, }
+                const body = { language, checkRedirect: true, taxiDealPathname: previousUrl, withoutExprectedPoints: false, "channelId": 12 }
                 const url = `${env.apiDomain}/api/v1/taxi-deals/details`
                 const { status, data } = await postDataAPI({ url, body })
                 if (status === 200) {

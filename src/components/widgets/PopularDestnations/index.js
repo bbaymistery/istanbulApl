@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import airportTranslations from '../../../constants/generalTranslataions';
 import { navigator } from '../../../constants/navigatior';
-import airportPoints from '../../../constants/popularDestinations';
 import { getTitleStringOfHastaxiDeals } from '../../../helpers/splitHelper';
 import styles from "./styles.module.scss";
 import Button from '../../elements/Button/Button';
@@ -53,6 +52,8 @@ const PopularDestinations = (props) => {
         let response = await fetch(url);
 
         let { data, status } = await response.json();
+        console.log(data);
+
         if (status === 200) {
             setPoints(data.destinations)
         }
@@ -102,13 +103,13 @@ const PopularDestinations = (props) => {
                                     <a href={item.pathname}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image alt={item.translatedPageTitle || item.pageTitle} sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px" src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198}  />
+                                                <Image alt={item.translatedPageTitle || item.pageTitle} sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px" src={item.imageUrl ? item.imageUrl : "/images/default.webp"} width={250} height={198} />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>
                                             <div className={styles.location}>
                                                 <i className="fa-solid fa-location-dot"></i>
-                                                {item.translatedPickup}
+                                                {item.pickup}
                                             </div>
                                             <h3 className={styles.title}>
                                                 <span>{item.translatedPageTitle}</span>
@@ -121,7 +122,7 @@ const PopularDestinations = (props) => {
                                                     <div><i className="fa-solid fa-star "></i></div>
                                                     <div><i className="fa-solid fa-star "></i></div>
                                                 </div>
-                                                <span>4.8 (243)</span>
+                                                <span>4.8 (3000+)</span>
                                             </div>
                                             <div className={styles.tourcard_bottom}>
                                                 <div>

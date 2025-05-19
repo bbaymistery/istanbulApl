@@ -11,6 +11,8 @@ import { parse } from 'url';
 import { htmlContentsPrivacy, privacyKeywords } from "../../constants/keywordsAndContents/privacy/keywordsAndContents";
 import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
 import { isUrlLoverCase } from "../../helpers/isUrlLoverCase";
+import { setNoCacheHeader } from "../../helpers/setNoCacheHeader";
+import { fetchConfig } from "../../resources/getEnvConfig";
 
 
 const PrivacyPolicy = (props) => {
@@ -20,7 +22,7 @@ const PrivacyPolicy = (props) => {
 
 
     return (
-        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
+        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} mainCanonical={props.mainCanonical} >
             <div className={`${styles.privacy} ${direction} page`} >
                 <div className={`${styles.privacy_section} page_section`}>
                     <div className={`${styles.privacy_section_container} page_section_container`}>
@@ -43,7 +45,7 @@ export default PrivacyPolicy
 
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
 
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
+    setNoCacheHeader(res, true);
 
     isUrlLoverCase(resolvedUrl, res)
 
@@ -61,12 +63,13 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
     let keywords = privacyKeywords.keywords[pageStartLanguage];
     let headTitle = privacyKeywords.headTitle[pageStartLanguage];
 
-
+    const env = await fetchConfig();
+    const mainCanonical = `${env.websiteDomain}${pageStartLanguage === 'en' ? "/privacy-policy" : `/${pageStartLanguage}/privacy-policy`}`
 
 
     return {
         //we pass tourdetails fot adding inside redux generally all together
-        props: { metaDescription, keywords, headTitle }
+        props: { metaDescription, keywords, headTitle, mainCanonical }
     };
 
 

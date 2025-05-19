@@ -1,4 +1,3 @@
-import React from 'react'
 import { useSelector } from 'react-redux'
 import styles from "./styles.module.scss"
 const TourJourneySummaryPanel = (props) => {
@@ -6,8 +5,6 @@ const TourJourneySummaryPanel = (props) => {
 
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { params: { direction } } = state
-    let { reservations, } = state
-    let { selectedPickupPoints, } = reservations[0]
 
     const { appData } = useSelector(state => state.initialReducer)
     const tourActionState = useSelector(state => state.tourActions)
@@ -15,7 +12,8 @@ const TourJourneySummaryPanel = (props) => {
     const children = tourActionState.seatLists[1].minNum
     const infants = tourActionState.seatLists[2].minNum
     const totalPrice = tourActionState.seatListPrice
-
+    const isPound=tourActionState.isPound
+const symbol=isPound ? "£" : "Є"
     return (
         <div className={`${styles.journey_summary_panel}`}>
             <div className={styles.content}>
@@ -24,21 +22,17 @@ const TourJourneySummaryPanel = (props) => {
                     <div className={styles.details_div}>
                         <div id="from to" className={styles.fromto}>
 
-                            <h5>{appData?.words["strPickupAddress"]}:  </h5>
-                            {selectedPickupPoints.map((point, i) => {
-                                return <p style={{ borderBottom: "0px" }} key={i}>
-                                    <span>{`${i + 1}. `}  {point.address.includes(point.postcode) ? `${point.address}` : `${point.address} ${point.postcode ? point.postcode : ""}`}</span>
-                                </p>
-                            })}
-                            <h5>{appData?.words["strOn"]}:</h5>
-                            <p>
-                                <span>
+                            {adults > 0 ? <p>
+                                <span>{appData?.words["strOn"]}</span>
+                                   <span>
                                     {direction === 'rtl' ? `${splitedDate.split(" ")[0].replace(/(\d+)\-(\d+)-(\d+)/, "$1-$2-$3")}` : `${splitedDate.split(" ")[0].replace(/(\d+)\-(\d+)-(\d+)/, "$3-$2-$1")}`}
                                     &nbsp;
                                     &nbsp;
                                     {`${splitedHour}:${splitedMinute}`}
                                 </span>
-                            </p>
+                              </p> : <></>}
+          
+                
                             {adults > 0 ? <p><span>{appData?.words["strAdults"]}</span>  <span>{adults}</span> </p> : <></>}
                             {children > 0 ? <p><span>{appData?.words["strChildren"]}</span>  <span>{children}</span> </p> : <></>}
                             {infants > 0 ? <p><span>{appData?.words["strInfants"]}</span>  <span>{infants}</span> </p> : <></>}
@@ -46,7 +40,7 @@ const TourJourneySummaryPanel = (props) => {
                                 <span>{selectedTour[0].pageTitle[language]}</span>
                                 <span>{selectedTour[0].duration[language]}</span>
                             </p>
-                            <a href={"https://g.co/kgs/Rg7vb8"} target="_blank" className={styles.review}>
+                            <a href={"https://www.trustpilot.com/review/airport-pickups-london.com"} target="_blank" className={styles.review}>
                                 <div className={styles.review_left}>4.8 </div>
                                 <div className={styles.review_center} >
                                     {appData?.words["strExceptional"]}
@@ -60,7 +54,7 @@ const TourJourneySummaryPanel = (props) => {
                 <div className={styles.tourname}>
                     <p>
                         <span>{appData?.words["strTotalPrice"]}</span>
-                        <span>£{totalPrice}</span>
+                        <span>{symbol}{totalPrice}</span>
                     </p>
                 </div>
 

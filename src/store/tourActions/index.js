@@ -4,6 +4,7 @@ import SET_TOUR_TRANSFER_DETAILS from "./SET_TOUR_TRANSFER_DETAILS";
 import SET_TOUR_PICKUP_ADRESS from "./SET_TOUR_PICKUP_ADRESS";
 import SET_TOUR_SEATLISTS from "./SET_TOUR_SEATLISTS";
 import SET_TOUR_QUOTATION from "./SET_TOUR_QUOTATION";
+import SET_TOUR_PRICE_SEATLIST from "./SET_TOUR_PRICE_SEATLIST";
 
 const INITIAL_STATE = {
     seatLists: [
@@ -14,7 +15,7 @@ const INITIAL_STATE = {
             strName: "strAdults",
             strDesc: "strAbove12yearsold",
             description: "16+ Years",
-            price: 129
+            price: 35
         },
         {
             name: "Children",
@@ -23,7 +24,7 @@ const INITIAL_STATE = {
             strName: "strChildren",
             strDesc: "strFrom2to12yearsold",
             description: "6-12 Years",
-            price: 57
+            price: 35
         },
         {
             name: "Infants",
@@ -37,6 +38,7 @@ const INITIAL_STATE = {
     ],
     seatListPrice: 0,
     selectedTour: {},
+    isPound:true
 
 }
 
@@ -61,6 +63,10 @@ export const tourActions = (state = INITIAL_STATE, action) => {
         case 'SET_TOUR_QUOTATION': {
             return SET_TOUR_QUOTATION({ state, action })
         }
+        case 'SET_TOUR_PRICE_SEATLIST': {
+            return SET_TOUR_PRICE_SEATLIST({ state, action })
+        }
+
         default:
             return state;
     }

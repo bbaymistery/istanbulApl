@@ -70,6 +70,25 @@ const airportTranslations = {
 export default airportTranslations;
 
 export const generalAllTranslations = {
+  strDriverWanted: {
+    en: "Driver Wanted",
+    tr: "Şoför Aranıyor",
+    ru: "Требуется водитель",
+    es: "Se Busca Conductor",
+    it: "Cercasi Autista",
+    zh: "招聘司机",
+    ar: "مطلوب سائق"
+  },
+
+  strSiteMap: {
+    en: "Site Map",
+    tr: "Site Haritası",
+    ru: "Карта сайта",
+    es: "Mapa del Sitio",
+    it: "Mappa del Sito",
+    zh: "网站地图",
+    ar: "خريطة الموقع"
+  },
   strPopularTours: {
     en: "Find Popular Tours",
     tr: "Popüler Turları Bul",
@@ -141,6 +160,15 @@ export const generalAllTranslations = {
     it: "Termini e Condizioni",
     zh: "条款和条件",
     ar: "الشروط والأحكام"
+  },
+  strAboutUs: {
+    en: "About Us",
+    tr: "Hakkımızda",
+    ru: "О нас",
+    es: "Sobre Nosotros",
+    it: "Chi Siamo",
+    zh: "关于我们",
+    ar: "من نحن"
   },
   strTermsNav: {
     en: "Terms",

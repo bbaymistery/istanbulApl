@@ -149,8 +149,10 @@ export const tourDatasTranslated = [
             "es": "Excursiones",
             "it": "Tour"
         },
-        adultPrice: 25,
+        adultPrice: 30,
+        childrenPrice: 30,
         duraionTimeRange: "Duration: 10:00 AM - 6:00 PM",
+        isPound:true
     },
     {
         "tourDealId": 2,
@@ -180,7 +182,6 @@ export const tourDatasTranslated = [
             es: "Excursión en Barco por Oludeniz en Fethiye | Un Día Inolvidable desde Fethiye",
             it: "Tour in Barca a Oludeniz, Fethiye | Gita di un Giorno Indimenticabile"
         },
-        "price": "£ 390.00",
         duration: {
             en: "7 hours",
             tr: "7 saat",
@@ -244,8 +245,12 @@ export const tourDatasTranslated = [
             "es": "Excursiones",
             "it": "Tour"
         },
-        adultPrice: 25,
+        adultPrice: 35,
+        childrenPrice: 35,
+
         duraionTimeRange: "Duration: 10:30 AM - 5:30 PM",
+        isPound:true
+
     },
     {
         "tourDealId": 3,
@@ -275,7 +280,6 @@ export const tourDatasTranslated = [
             es: "Excursión en Quad por Fethiye | Explora la Belleza de Fethiye",
             it: "Tour in Quad a Fethiye | Esplora la Bellezza di Fethiye"
         },
-        "price": "£ 285.00",
         duration: {
             en: "3 hours",
             tr: "3 saat",
@@ -339,8 +343,11 @@ export const tourDatasTranslated = [
             "es": "Excursiones",
             "it": "Tour"
         },
-        adultPrice: 36,
+        childrenPrice: 35,
+        adultPrice: 35,
         duraionTimeRange: "Activity Duration: 3 Hours",
+        isPound:true
+
     },
     {
         "tourDealId": 4,
@@ -370,7 +377,6 @@ export const tourDatasTranslated = [
             ru: "Круиз с ужином по Босфору в Стамбуле | Лучший ночной круиз в Стамбуле",
             it: "Crociera con Cena sul Bosforo a Istanbul | La Migliore Crociera Notturna a Istanbul"
         },
-        "price": "£ 399.00",
         duration: {
             en: "4 hours",
             tr: "4 saat",
@@ -434,8 +440,11 @@ export const tourDatasTranslated = [
             "es": "Excursiones",
             "it": "Tour"
         },
-        adultPrice: 30,
+        childrenPrice: 39,
+        adultPrice: 39,
         durationTimeRange: "Departure Time: Approximately 8:00 PM (please confirm the exact time)",
+        isPound:false
+ 
     },
     {
         "tourDealId": 5,
@@ -465,7 +474,6 @@ export const tourDatasTranslated = [
             "ru": "Обеденный круиз по Босфору в Стамбуле | Исследуйте пролив и Чёрное море",
             "it": "Crociera con Pranzo sul Bosforo a Istanbul | Esplora lo Stretto e il Mar Nero"
         },
-        "price": "£ 190.00",
         duration: {
             en: "4 hours",
             tr: "4 saat",
@@ -529,8 +537,11 @@ export const tourDatasTranslated = [
             "es": "Excursiones",
             "it": "Tour"
         },
-        adultPrice: 35,
+        adultPrice: 25,
+        childrenPrice: 25,
         durationTimeRange: "Departure Time: 13:00",
+        isPound:false
+
     },
 
     {
@@ -562,7 +573,6 @@ export const tourDatasTranslated = [
             "ru": "Стамбул: Экскурсия на целый день | Исследуйте сердце двух континентов",
             "it": "Istanbul: Tour di un Giorno Intero | Esplora il Cuore di Due Continenti"
         },
-        "price": "£ 450.00",
         duration: {
             en: "6 hours",
             tr: "6 saat",
@@ -626,8 +636,10 @@ export const tourDatasTranslated = [
             "es": "Excursiones",
             "it": "Tour"
         },
-        adultsPrice: 0,
-        childPrice: 0,
+        adultsPrice: 55,
+        childrenPrice: 55,
+        isPound:false
+
     },
     //!
 
@@ -659,7 +671,6 @@ export const tourDatasTranslated = [
             "ru": "Параглайдинг в Фетхие Олюдениз | Лучший опыт полетов в тандеме",
             "it": "Avventura in Parapendio a Fethiye Oludeniz | La Migliore Esperienza di Parapendio Tandem"
         },
-        "price": "£ 360.00",
         duration: {
             en: "2 hours",
             tr: "2 saat",
@@ -723,9 +734,9 @@ export const tourDatasTranslated = [
             "es": "Excursiones",
             "it": "Tour"
         },
-        adultsPrice: 0,
-        childPrice: 0,
-        adultPrice: 45,
+        childrenPrice:115,
+        adultPrice: 115,
+        isPound:true
 
     },
     {
@@ -757,7 +768,6 @@ export const tourDatasTranslated = [
             "ru": "Обзорная экскурсия по Анталии с водопадами и канатной дорогой | Исследуйте лучшее в Анталии",
             "it": "Tour della Città di Antalya con Cascate e Funivia | Scopri il Meglio di Antalya"
         },
-        "price": "£ 450.00",
         duration: {
             en: "9.5 hours",
             tr: "9.5 saat",
@@ -821,8 +831,10 @@ export const tourDatasTranslated = [
             "es": "Excursiones",
             "it": "Tour"
         },
-        adultsPrice: 25,
-        childPrice: 20,
+        adultPrice: 30,
+        childrenPrice: 30,
+        isPound:false
+
 
     }
 ]
@@ -5349,7 +5361,6 @@ export const singleTourTranslatedPageContents = {
 
 
 
-//!google-site-verification >degisicekmi yoksa apldeki gibi kalicak
 // !We have to make schemas for single tour page
 const metaTagsForSingleTourPages = (env) => ({
     "/tours/fethiye12-island-tour": {
@@ -5373,7 +5384,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Fethiye 12 Islands Boat Tour\">",
             "<meta name=\"twitter:description\" content=\"Sail through the stunning waters of Fethiye’s 12 Islands, explore hidden bays, and relax under the sun on a luxury boat tour.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5397,7 +5407,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Отправьтесь в увлекательное путешествие по 12 островам Фетхие, исследуйте скрытые бухты и наслаждайтесь солнцем на роскошном катере.\">",
             "<meta name=\"twitter:description\" content=\"Тур на лодке по 12 островам Фетхие\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5421,7 +5430,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Fethiye 12 Adalar Tekne Turu\">",
             "<meta name=\"twitter:description\" content=\"Fethiye'nin 12 Adası'nda muhteşem suların üzerinde süzülün, gizli koyları keşfedin ve lüks bir tekne turunda güneşin keyfini çıkarın.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5445,7 +5453,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Tour en barco por las 12 islas de Fethiye\">",
             "<meta name=\"twitter:description\" content=\"Navega por las impresionantes aguas de las 12 islas de Fethiye, explora bahías ocultas y relájate bajo el sol en un lujoso tour en barco.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5469,7 +5476,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Tour in barca alle 12 isole di Fethiye\">",
             "<meta name=\"twitter:description\" content=\"Naviga attraverso le splendide acque delle 12 isole di Fethiye, esplora baie nascoste e rilassati al sole in un lussuoso tour in barca\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5493,7 +5499,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"费特希耶12岛游船之旅\">",
             "<meta name=\"twitter:description\" content=\"乘坐豪华游船穿越费特希耶12岛的壮丽海域，探索隐藏海湾，在阳光下放松身心。\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5517,7 +5522,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"جولة القارب في 12 جزيرة في فتحية\">",
             "<meta name=\"twitter:description\" content=\"أبحر عبر المياه الرائعة لـ 12 جزيرة في فتحية، واستكشف الخلجان المخفية، واستمتع بأشعة الشمس في جولة بحرية فاخرة.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/12Island.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5543,7 +5547,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Fethiye Oludeniz Boat Tour – A Scenic Coastal Adventure\">",
             "<meta name=\"twitter:description\" content=\"Sail through the crystal-clear waters of Oludeniz on this unforgettable boat tour. Swim in hidden bays, explore the Blue Lagoon, and enjoy the stunning Turkish coastline.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5567,7 +5570,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Лодочный тур по Фетхие и Олюдениз – Живописное приключение на побережье\">",
             "<meta name=\"twitter:description\" content=\"Проплывите по кристально чистым водам Олюдениз в этом незабываемом туре. Откройте для себя уединенные бухты, насладитесь Голубой Лагуной и полюбуйтесь потрясающими видами турецкого побережья.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5591,7 +5593,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Fethiye Ölüdeniz Tekne Turu – Muhteşem Bir Sahil Macerası\">",
             "<meta name=\"twitter:description\" content=\"Ölüdeniz’in berrak sularında keyifli bir tekne turuna çıkın. Gizli koyları keşfedin, Mavi Lagün’ün tadını çıkarın ve eşsiz Türk sahil manzaralarının keyfini sürün\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5615,7 +5616,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Tour en barco por Fethiye y Oludeniz – Una aventura costera espectacular\">",
             "<meta name=\"twitter:description\" content=\"Navega por las aguas cristalinas de Oludeniz en este inolvidable tour en barco. Descubre bahías escondidas, disfruta de la Laguna Azul y relájate con las impresionantes vistas de la costa turca.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5639,7 +5639,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Tour in barca a Fethiye e Oludeniz – Un'avventura costiera indimenticabile\">",
             "<meta name=\"twitter:description\" content=\"Naviga nelle acque cristalline di Oludeniz in questo tour in barca imperdibile. Scopri baie segrete, ammira la Laguna Blu e goditi panorami mozzafiato della costa turca.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5663,7 +5662,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"费特希耶和厄吕代尼兹游船之旅 – 绝美海岸探险\">",
             "<meta name=\"twitter:description\" content=\"乘坐游船穿越厄吕代尼兹的清澈海水，探索神秘海湾，欣赏蓝色泻湖，并沉浸在土耳其海岸的壮丽风景中。\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5687,7 +5685,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"جولة بالقارب في فتحية وأولودينيز – مغامرة ساحلية لا تُنسى\">",
             "<meta name=\"twitter:description\" content=\"أبحر عبر المياه الصافية لأولودينيز في هذه الجولة البحرية الرائعة. استكشف الخلجان المخفية، واستمتع بالبحيرة الزرقاء، وتأمل جمال الساحل التركي الخلاب。\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/oludeniz1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5713,7 +5710,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Fethiye Quad Bike Safari – Ride Through Stunning Landscapes\">",
             "<meta name=\"twitter:description\" content=\"Join the Fethiye Quad Bike Safari for an exciting off-road experience. Explore rugged terrains, enjoy breathtaking views, and feel the adrenaline rush of adventure.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5737,7 +5733,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Сафари на квадроциклах в Фетхие – Прокатитесь по потрясающим пейзажам\">",
             "<meta name=\"twitter:description\" content=\"Присоединяйтесь к сафари на квадроциклах в Фетхие для захватывающего внедорожного приключения. Исследуйте пересеченную местность, наслаждайтесь потрясающими видами и почувствуйте прилив адреналина.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5761,7 +5756,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Fethiye ATV Safari – Muhteşem Manzaralar Eşliğinde Sürüş Keyfi\">",
             "<meta name=\"twitter:description\" content=\"Fethiye ATV Safari ile unutulmaz bir off-road deneyimi yaşayın. Engebeli arazileri keşfedin, nefes kesen manzaralara tanık olun ve adrenalin dolu bir maceraya atılın..\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5785,7 +5779,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Safari en quad en Fethiye – Conduce por paisajes impresionantes\">",
             "<meta name=\"twitter:description\" content=\"Únete al Safari en quad en Fethiye para una emocionante aventura todoterreno. Explora terrenos accidentados, disfruta de vistas espectaculares y siente la adrenalina en cada recorrido.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5809,7 +5802,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Safari in quad a Fethiye – Guida tra paesaggi spettacolari\">",
             "<meta name=\"twitter:description\" content=\"Partecipa al Safari in quad a Fethiye per un'incredibile avventura off-road. Esplora terreni accidentati, ammira viste mozzafiato e lasciati travolgere dall’adrenalina.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5833,7 +5825,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"费特希耶四轮摩托探险 – 穿越壮丽景观\">",
             "<meta name=\"twitter:description\" content=\"加入费特希耶四轮摩托探险，体验令人兴奋的越野之旅。探索崎岖地形，欣赏壮丽景色，感受肾上腺素飙升的快感。\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5857,7 +5848,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"سفاري الدراجات الرباعية في فتحية – جولة عبر مناظر خلابة\">",
             "<meta name=\"twitter:description\" content=\"انضم إلى سفاري الدراجات الرباعية في فتحية لتجربة مثيرة مليئة بالمغامرات. استكشف التضاريس الوعرة، واستمتع بالمناظر الخلابة، وشعر بإثارة المغامرة على الطرق الوعرة.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/quadBikeSafari.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5883,7 +5873,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Istanbul Bosphorus Dinner Cruise – A Night to Remember\">",
             "<meta name=\"twitter:description\" content=\"Experience an unforgettable night on the Bosphorus with fine dining, live music, and stunning city views. Book your Istanbul Bosphorus Dinner Cruise today!\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5907,7 +5896,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Ужин-круиз по Босфору в Стамбуле – Незабываемая ночь\">",
             "<meta name=\"twitter:description\" content=\"Проведите незабываемую ночь на Босфоре с ужином, живой музыкой и потрясающими видами на город. Забронируйте ужин-круиз в Стамбуле уже сегодня!\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5931,7 +5919,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"İstanbul Boğazı Akşam Yemeği Turu – Unutulmaz Bir Gece\">",
             "<meta name=\"twitter:description\" content=\"Boğaz’da muhteşem bir akşam yemeği turuna katılın. Lezzetli yemekler, canlı müzik ve büyüleyici İstanbul manzarası ile rüya gibi bir gece yaşayın!\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5955,7 +5942,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Crucero con Cena por el Bósforo en Estambul – Una Noche Inolvidable\">",
             "<meta name=\"twitter:description\" content=\"Vive una noche inolvidable en el Bósforo con una cena exquisita, música en vivo y vistas espectaculares de la ciudad. ¡Reserva tu crucero con cena por Estambul hoy!\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -5979,7 +5965,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Crociera con Cena sul Bosforo a Istanbul – Una Notte Indimenticabile\">",
             "<meta name=\"twitter:description\" content=\"Vivi un’esperienza unica con la Crociera con Cena sul Bosforo. Cena raffinata, musica dal vivo e una vista spettacolare sulla città ti aspettano. Prenota ora!\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6003,7 +5988,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"伊斯坦布尔博斯普鲁斯晚餐游船 – 难忘的夜晚体验\">",
             "<meta name=\"twitter:description\" content=\"在博斯普鲁斯夜游船上度过难忘的夜晚。精致晚餐、现场音乐和壮丽的城市景色等你来体验！立即预订吧！\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6027,7 +6011,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"رحلة عشاء بحرية في مضيق البوسفور – ليلة لا تُنسى\">",
             "<meta name=\"twitter:description\" content=\"اقضِ ليلة لا تُنسى على متن رحلة العشاء البحرية في البوسفور، حيث الطعام الفاخر والموسيقى الحية والمناظر الخلابة للمدينة. احجز الآن!\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour1.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6053,7 +6036,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Istanbul Bosphorus Lunch Cruise – Relax & Dine with a View\">",
             "<meta name=\"twitter:description\" content=\"Enjoy a relaxing lunch cruise on the Bosphorus. Savor Turkish delicacies while taking in breathtaking views of Istanbul’s waterfront and historical sights.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6077,7 +6059,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Обеденный круиз по Босфору – Расслабьтесь и насладитесь прекрасным видом\">",
             "<meta name=\"twitter:description\" content=\"Насладитесь расслабляющим круизом по Босфору с обедом. Откройте для себя турецкие деликатесы и полюбуйтесь великолепными видами на город и его исторические достопримечательности.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6101,7 +6082,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"İstanbul Boğazı Öğle Yemeği Turu – Manzara Eşliğinde Lezzet\">",
             "<meta name=\"twitter:description\" content=\"Boğaz’da huzurlu bir öğle yemeği turuna katılın. Türk mutfağının lezzetlerini tadarken İstanbul’un büyüleyici sahil şeridini ve tarihi yapıları keşfedin.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6125,7 +6105,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Crucero con Almuerzo por el Bósforo – Relájate y Disfruta la Vista\">",
             "<meta name=\"twitter:description\" content=\"Relájate en un crucero por el Bósforo mientras disfrutas de un almuerzo exquisito. Explora la belleza del Estambul histórico con vistas panorámicas impresionantes.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6149,7 +6128,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Crociera con Pranzo sul Bosforo – Rilassati e Ammira la Vista\">",
             "<meta name=\"twitter:description\" content=\"Rilassati in una crociera panoramica sul Bosforo mentre gusti un delizioso pranzo. Scopri la bellezza storica di Istanbul con viste mozzafiato.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6173,7 +6151,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"伊斯坦布尔博斯普鲁斯午餐游船 – 享受美食与壮观景色\">",
             "<meta name=\"twitter:description\" content=\"在博斯普鲁斯享受宁静的午餐游船。品尝地道的土耳其美食，同时欣赏伊斯坦布尔历史遗迹的壮丽景观。\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6197,7 +6174,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"رحلة غداء بحرية في مضيق البوسفور – استمتع بالطعام والمناظر الخلابة\">",
             "<meta name=\"twitter:description\" content=\"انضم إلى رحلة غداء مميزة في البوسفور، حيث يمكنك تذوق المأكولات التركية اللذيذة أثناء تأمل المناظر الخلابة للمدينة ومعالمها التاريخية.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istanbulTour2.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6225,7 +6201,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Istanbul Full-Day Tour – A Journey Through Time and Culture\">",
             "<meta name=\"twitter:description\" content=\"Explore Istanbul’s most iconic attractions in a full-day tour. Visit the Hagia Sophia, Blue Mosque, Grand Bazaar, and more while immersing yourself in the city's rich heritage .\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6249,7 +6224,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Полнодневный тур по Стамбулу – Путешествие во времени и культуре\">",
             "<meta name=\"twitter:description\" content=\"Посетите самые знаковые достопримечательности Стамбула за один день. Айя-София, Голубая мечеть, Гранд базар и многое другое ждут вас в этом незабываемом путешествии.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6273,7 +6247,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"İstanbul Tam Günlük Tur – Tarih ve Kültürle Dolu Bir Yolculuk\">",
             "<meta name=\"twitter:description\" content=\"İstanbul’un en ikonik yerlerini tam günlük bir turla keşfedin. Ayasofya, Sultanahmet Camii, Kapalıçarşı ve daha fazlasını ziyaret ederek şehrin tarihine tanıklık edin.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6297,7 +6270,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Tour de Día Completo por Estambul – Un Viaje en el Tiempo y la Cultura\">",
             "<meta name=\"twitter:description\" content=\"Explora los monumentos más icónicos de Estambul en un tour de día completo. Visita Santa Sofía, la Mezquita Azul, el Gran Bazar y mucho más mientras descubres la historia de la ciudad.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6321,7 +6293,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Tour di un Giorno Intero a Istanbul – Un Viaggio nella Storia e nella Cultura\">",
             "<meta name=\"twitter:description\" content=\"Esplora le attrazioni più iconiche di Istanbul in un tour di un giorno intero. Visita Santa Sofia, la Moschea Blu, il Grand Bazaar e molto altro mentre scopri la storia della città.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6345,7 +6316,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"伊斯坦布尔一日游 – 穿越历史与文化的旅程\">",
             "<meta name=\"twitter:description\" content=\"在伊斯坦布尔一日游中探索这座城市最具代表性的景点。游览圣索菲亚大教堂、蓝色清真寺、大巴扎等历史遗迹，沉浸在这座城市的辉煌历史中。\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6369,7 +6339,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"جولة يوم كامل في إسطنبول – رحلة عبر الزمن والثقافة\">",
             "<meta name=\"twitter:description\" content=\"استكشف أشهر معالم إسطنبول من خلال جولة يوم كامل. قم بزيارة آيا صوفيا، المسجد الأزرق، السوق الكبير، والمزيد بينما تغوص في تاريخ المدينة العريق.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/istfullday.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6395,7 +6364,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Paragliding in Fethiye Oludeniz – A Sky-High Adventure Awaits\">",
             "<meta name=\"twitter:description\" content=\"Take off from Babadağ Mountain and experience the ultimate paragliding adventure over Oludeniz. Fly high above the Blue Lagoon and enjoy the thrill of free flight.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6419,7 +6387,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Параглайдинг в Фетхие Олюдениз – Невероятное приключение в небе\">",
             "<meta name=\"twitter:description\" content=\"Стартуйте с горы Бабадаг и испытайте незабываемый полет на параплане над Олюдениз. Ощутите свободу полета и насладитесь красотой природы с высоты\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6443,7 +6410,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Fethiye Ölüdeniz Yamaç Paraşütü – Gökyüzünde Heyecan Dolu Bir Macera\">",
             "<meta name=\"twitter:description\" content=\"Babadağ Dağı’ndan havalanın ve Ölüdeniz’in muhteşem manzarasında yamaç paraşütü yapmanın tadını çıkarın. Bu eşsiz macerayı kaçırmayın\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6467,7 +6433,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Parapente en Fethiye Oludeniz – Una Aventura en el Cielo\">",
             "<meta name=\"twitter:description\" content=\"Despega desde la montaña Babadağ y experimenta la aventura definitiva del parapente sobre Oludeniz. Vuela alto sobre la Laguna Azul y siente la emoción del vuelo libre.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6491,7 +6456,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Parapendio a Fethiye Oludeniz – Un'Avventura nel Cielo\">",
             "<meta name=\"twitter:description\" content=\"Decolla dal Monte Babadağ e prova l'emozione del parapendio su Oludeniz. Vola alto sopra la Laguna Blu e goditi l'incredibile esperienza del volo libero\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6515,7 +6479,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"费特希耶厄吕代尼兹滑翔伞 – 一场空中的奇妙冒险\">",
             "<meta name=\"twitter:description\" content=\"从巴巴达山起飞，体验终极滑翔伞之旅。翱翔在蓝色泻湖上空，感受自由飞行的惊险刺激\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6539,7 +6502,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"القفز بالمظلات في فتحية أولودينيز – مغامرة جوية لا مثيل لها\">",
             "<meta name=\"twitter:description\" content=\"انطلق من جبل باباداغ واستمتع بأروع مغامرة للقفز بالمظلات فوق أولودينيز. حلق فوق البحيرة الزرقاء واستمتع بالإثارة المطلقة للطيران الحر!\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/paragliding-oludeniz.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6565,7 +6527,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Antalya Sightseeing City Tour – Explore History & Nature\">",
             "<meta name=\"twitter:description\" content=\"Discover the wonders of Antalya on a sightseeing tour! Visit historic attractions, admire waterfalls, and soak in the city’s breathtaking Mediterranean scenery.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6589,7 +6550,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Обзорная экскурсия по Анталии – История и природная красота\">",
             "<meta name=\"twitter:description\" content=\"Откройте для себя чудеса Анталии во время обзорного тура! Посетите исторические достопримечательности, полюбуйтесь водопадами и насладитесь средиземноморскими пейзажами.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6613,7 +6573,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Antalya Şehir Turu – Tarih ve Doğanın Buluştuğu Nokta\">",
             "<meta name=\"twitter:description\" content=\"Antalya’nın eşsiz güzelliklerini şehir turuyla keşfedin! Tarihi mekanları gezin, büyüleyici şelaleleri izleyin ve Akdeniz’in muhteşem manzarasının keyfini çıkarın.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6637,7 +6596,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Tour por la Ciudad de Antalya – Historia y Naturaleza en un Solo Lugar\">",
             "<meta name=\"twitter:description\" content=\"Descubre la magia de Antalya en un tour por la ciudad. Visita monumentos históricos, maravíllate con sus cascadas y disfruta de impresionantes vistas del Mediterráneo.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6661,7 +6619,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"Tour della Città di Antalya – Tra Storia e Natura\">",
             "<meta name=\"twitter:description\" content=\"Scopri la magia di Antalya con un tour guidato. Esplora monumenti storici, ammira cascate mozzafiato e goditi panorami spettacolari sul Mediterraneo.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6685,7 +6642,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"安塔利亚观光城市之旅 – 历史与自然的完美结合\">",
             "<meta name=\"twitter:description\" content=\"在安塔利亚的观光之旅中，探索这座城市的魅力！参观历史古迹，欣赏壮观的瀑布，沉浸在迷人的地中海景色中。\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],
@@ -6709,7 +6665,6 @@ const metaTagsForSingleTourPages = (env) => ({
             "<meta name=\"twitter:title\" content=\"جولة سياحية في أنطاليا – مزيج بين التاريخ والطبيعة\">",
             "<meta name=\"twitter:description\" content=\"اكتشف سحر أنطاليا من خلال جولة سياحية رائعة! قم بزيارة المعالم التاريخية، واستمتع بمشاهدة الشلالات المذهلة، واستمتع بالإطلالات الساحرة على البحر الأبيض المتوسط.\">",
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/tours/antalya.webp\">`,
-            "<meta name=\"google-site-verification\" content=\"_Cn8CYgXUWiRe05oCJj_l5OkyXza4K4nIuDWUPs8P2w\" />",
             "<meta name=\"msvalidate.01\" content=\"41FC097AFD6E06774C838AC3D486664F\" />",
             "<meta name=\"baidu-site-verification\" content=\"x5apENcEmp\" />",
         ],

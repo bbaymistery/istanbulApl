@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./cardItems.styles.module.scss"
 import { quotationImagesObjWebp } from '../../../../constants/quotationImages';
 import Image from 'next/image';
@@ -6,12 +6,17 @@ import { getDisplayedPrice } from '../../../../helpers/setCurrencyAndPrice';
 
 const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, direction, appData, setQuotationHandleClick, currencyId }) => {
 
+    const [renderedDatas, setRenderedDatas] = useState([]);
 
-    return datas?.map((item, index) => {
+    useEffect(() => {
+        if (datas && datas.length > 0) {
+            setRenderedDatas(datas);
+        }
+    }, [datas]);
+    return renderedDatas?.map((item, index) => {
 
 
         const { symbol, displayedPrice } = getDisplayedPrice({ currencyId, item });
-
         const isSelected = Number(selectedQuotation?.carId) === Number(quotationImagesObjWebp[item?.carId].id)
         const dataId = index === 0 ? "first_car" : (index === 1 ? "second_car" : "")
         return (

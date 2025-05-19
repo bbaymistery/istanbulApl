@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { carsItems } from "../../../constants/carss"; // Importing the car items array
 import styles from "./styles.module.scss"; // Importing styles
 import Image from "next/image";

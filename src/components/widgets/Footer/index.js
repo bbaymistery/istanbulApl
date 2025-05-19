@@ -11,7 +11,7 @@ const officeLocations = [
     {
         id: "istanbul",
         city: "Istanbul",
-        address: "Muhurdar Caddesi, No 14 D3 Kadikoy, Istanbul, Turkiye"
+        address: "Evinpark Residence, A Blok D 162, Fikirtepe, Cengiz Sk No:10, 34720 Kadıköy/İstanbul, Türkiye"
     },
     {
         id: "fethiye",
@@ -71,7 +71,7 @@ const Footer = () => {
                                         <Image src={"/images/others/mail.webp"} alt="APL transfer Email" width={25} height={20} />
                                         {appData.words["strEmail"]}:
                                     </span>
-                                    <a href="mailto:info@aplcars.com" >info@aplcars.com</a>
+                                    <a href="mailto:info@apltransfers.com" >info@apltransfers.com</a>
                                 </li>
                             </ul>
 
@@ -105,6 +105,13 @@ const Footer = () => {
                                 </a>
                                 <a href={`${language === 'en' ? `/fleet` : `/${language}/fleet`}`} title={(appData || {}).words["strOurFleet"]}  >
                                     {(appData || {}).words["strOurFleet"]}
+                                </a>
+                                <a href={"/tr/sofor-araniyor"} hrefLang="tr" title={generalAllTranslations.strDriverWanted[language]} >
+                                    {generalAllTranslations.strDriverWanted[language]}
+                                </a>
+
+                                <a href={`${language === 'en' ? `/sitemap` : `/${language}/sitemap`}`} title={generalAllTranslations.strSiteMap[language]} >
+                                    {generalAllTranslations.strSiteMap[language]}
                                 </a>
                             </div>
                         </div>
@@ -156,13 +163,13 @@ const Footer = () => {
                 <div className={`${styles.footer_section_container2} page_section_container`}>
                     <div className={styles.footer_bottom}>
                         <div className={styles.social_icons}>
-                            <a href="https://www.facebook.com/APLTransfers"  target={"_blank"} title={"APL Transfers Facebook"}>
+                            <a href="https://www.facebook.com/APLTransfers" target={"_blank"} title={"APL Transfers Facebook"}>
                                 <Image src={fbImage} alt="APL Transfers Facebook" width={25} height={25} />
                             </a>
                             <a href="https://x.com/APLTransfers" target={"_blank"} title="APL Transfers Twitters">
                                 <Image src={twImage} alt="APL Transfers Twitters" width={25} height={25} />
                             </a>
-                            <a  href="https://bsky.app/profile/apltransfers.bsky.social" target="_blank" title="APL Transfers News RSS">
+                            <a href="https://bsky.app/profile/apltransfers.bsky.social" target="_blank" title="APL Transfers News RSS">
                                 <Image src={srImage} alt="APL Transfers News RSS" width={25} height={25} />
                             </a>
                             <a href="https://www.instagram.com/apltransfers" target="_blank" title="APL Transfers Instigram page">

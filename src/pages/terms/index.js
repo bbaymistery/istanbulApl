@@ -11,13 +11,15 @@ import { parse } from 'url';
 import { htmlContentsTerms, termsKeywords } from "../../constants/keywordsAndContents/terms/keywordsAndContents";
 import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
 import { isUrlLoverCase } from "../../helpers/isUrlLoverCase";
+import { setNoCacheHeader } from "../../helpers/setNoCacheHeader";
+import { fetchConfig } from "../../resources/getEnvConfig";
 const Terms = (props) => {
     const state = useSelector(state => state.pickUpDropOffActions)
     let { params: { direction, language } } = state
     let { metaDescription, keywords, headTitle } = props
-    
+
     return (
-        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} >
+        <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} mainCanonical={props.mainCanonical}>
             <div className={`${styles.terms} ${direction} page`} >
                 <div className={`${styles.terms_section} page_section`}>
                     <div className={`${styles.terms_section_container} page_section_container`}>
@@ -27,7 +29,7 @@ const Terms = (props) => {
                             <span><a href="/terms">{generalAllTranslations.strTerms[language]} </a> </span>
                         </div>
                         <div className={styles.terms_container}>
-                            <DangerouslyInnerHtml htmContent={htmlContentsTerms[language]}  />
+                            <DangerouslyInnerHtml htmContent={htmlContentsTerms[language]} />
                         </div>
                     </div>
                 </div>
@@ -40,7 +42,8 @@ export default Terms
 
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
 
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
+
+    setNoCacheHeader(res, true);
 
     isUrlLoverCase(resolvedUrl, res)
 
@@ -57,10 +60,11 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
     let metaDescription = termsKeywords.metaDescription[pageStartLanguage]
     let keywords = termsKeywords.keywords[pageStartLanguage];
     let headTitle = termsKeywords.headTitle[pageStartLanguage];
-
+    const env = await fetchConfig();
+    const mainCanonical = `${env.websiteDomain}${pageStartLanguage === 'en' ? "/terms" : `/${pageStartLanguage}/terms`}`
     return {
         //we pass tourdetails fot adding inside redux generally all together
-        props: { metaDescription, keywords, headTitle }
+        props: { metaDescription, keywords, headTitle, mainCanonical }
     };
 
 

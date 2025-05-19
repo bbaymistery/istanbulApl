@@ -1,4 +1,3 @@
-//!  Chnage getEnvConfig aplca.rscom to istanbul website url google-site-verification  msvalidate.01  baidu-site-verification >>contants/transltatedTourDatas
 //!  1.responsivnes for mobile after finishing all navbar items to add (ipad iphone dil degisimi navbar gorunumu)
 //!  3.Gereksiz css leri kaldir Navbar ekledikden sonra
 //!Contact us apideki sender id ne olucak Apl de 1 idi
@@ -39,7 +38,6 @@ adults price nece atanacak ?
 !We have to make schemas metaTags
 
 */
-//!google-site-verification >degisicekmi yoksa apldeki gibi kalicak
 //!Schema
 //!Antalyanin ilk images[0] degisicek ve   de de antalyaya aid olan degisicek
 //!Adults Children prices

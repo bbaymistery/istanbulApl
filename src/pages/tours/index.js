@@ -11,6 +11,8 @@ import { checkLanguageAttributeOntheUrl } from '../../helpers/checkLanguageAttri
 import { parse } from 'url';
 import { adjustPathnameForLanguage } from '../../helpers/adjustedPageLanguage'
 import { isUrlLoverCase } from '../../helpers/isUrlLoverCase'
+import { setNoCacheHeader } from '../../helpers/setNoCacheHeader'
+import { fetchConfig } from '../../resources/getEnvConfig'
 
 
 const Tours = (props) => {
@@ -23,14 +25,14 @@ const Tours = (props) => {
     // useState to control "View All" state
     const [viewAll, setViewAll] = useState(false);
     const [toursData, setToursData] = useState(tourDatasTranslated)
-    const displayedTours = viewAll ? toursData : insideGlobalLayout? toursData:toursData.slice(0, 4);
+    const displayedTours = viewAll ? toursData : insideGlobalLayout ? toursData : toursData.slice(0, 4);
 
 
     const handleViewAllClick = () => setViewAll(!viewAll);
 
 
     return (insideGlobalLayout ?
-        <GlobalLayout title={seoDatas.title} keywords={seoDatas.keywords} description={seoDatas.description}>
+        <GlobalLayout title={seoDatas.title} keywords={seoDatas.keywords} description={seoDatas.description} mainCanonical={props.mainCanonical}>
 
             <div className={`${styles.tours} ${direction} page`}>
                 <div className={`${styles.tours_section} page_section`}>
@@ -67,16 +69,7 @@ const Tours = (props) => {
                                 }
                             </div>
 
-                            <div className={styles.btn_div}>
-                                <Button
-                                    type={BUTTON_TYPES.TERTIARY}
-                                    onBtnClick={handleViewAllClick}
-                                    style={{ width: '100%' }}
-                                    btnText={viewAll ? appData?.words["strViewLess"] || "View Less" : appData?.words["strViewAll"] || "View All"}
-                                    iconPos='RIGHT'
-                                    icon={<i className="fa-solid fa-arrow-right"></i>}
-                                />
-                            </div>
+               
                         </div>
                     </div>
                 </div>
@@ -189,7 +182,8 @@ const seoData = {
     },
 };
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
+
+    setNoCacheHeader(res, true);
 
     isUrlLoverCase(resolvedUrl, res)
 
@@ -202,8 +196,12 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
     // pathname = adjusted.pathname;
     pageStartLanguage = adjusted.pageStartLanguage;
     const seoDatas = seoData[pageStartLanguage];
+    const env = await fetchConfig();
+
+    const mainCanonical = `${env.websiteDomain}${pageStartLanguage === 'en' ? "/tours" : `/${pageStartLanguage}/tours`}`
+
     return {
         //we pass tourdetails fot adding inside redux generally all together
-        props: { seoDatas }
+        props: { seoDatas, mainCanonical }
     };
 }

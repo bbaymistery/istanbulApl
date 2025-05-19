@@ -93,7 +93,6 @@ const HeroInputComponent = (props) => {
                 const log1 = await collectPointsAsync({ value, reducerSessionToken, language, ignoreGooglePlaces: true, env, errorMessage: "ISTANBUL WEBSITE Hero component _collectPoints() catch block" });
 
                 const { status, "session-token": sessionToken = "", token } = log1;
-                console.log({ reducerSessionToken, passengerDetailsToken });
 
 
                 if (status == 200) {

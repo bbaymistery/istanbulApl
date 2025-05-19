@@ -49,20 +49,23 @@ function TestA(props) {
 
     useEffect(() => {
         const cacheKey = `page-${reduxLanguage}-${currencyId}-${linkurl}`;
+
         const cache = sessionStorage.getItem('pathnameLinkCache');
+
         const allAppDatas = JSON.parse(sessionStorage.getItem('allAppDatas'));
 
         if (cache && allAppDatas && JSON.parse(cache)[cacheKey]) {
+
             setFetchDatas(JSON.parse(cache)[cacheKey]);
         }
     }, [reduxLanguage, currencyId, linkurl]);
+
     return <QuotationResultsTaxiDeal
         isTaxiDeal={true}
         keywords={keywords}
         pageTitle={pageTitle}
         headTitle={headTitle}
         description={description}
-        previousUrl={linkurl}
         returnPathname={returnPathname}
         pageContent={pageContent}
         returnHeadTitle={returnHeadTitle}

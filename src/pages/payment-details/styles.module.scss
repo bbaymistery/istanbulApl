@@ -262,10 +262,39 @@
 
                                         }
                                     }
+
+                                    .tour_price {
+                                        padding-top: 30px;
+                                        padding-bottom: 10px;
+                                        text-align: right;
+                                        font-size: 30px;
+
+                                        @media (max-width: 990px) {
+                                            text-align: center;
+                                        }
+
+                                        span:nth-child(2) {
+                                            font-size: 34px;
+                                        }
+                                    }
                                 }
 
                             }
 
+                            .btn_div {
+                                padding: 10px 10px;
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: flex-end;
+
+                                @media (max-width: 990px) {
+                                    button {
+                                        width: 100%;
+
+                                    }
+                                }
+
+                            }
                         }
                     }
                 }

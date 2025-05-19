@@ -77,22 +77,6 @@ const MobileSnapshhotAndSlider = (props) => {
                         </a>
                     </div>
                 </div>
-                {/* <div className={styles.start_from_price_btn_div}>
-                    <div className={styles.start_from_price_btn_div_content}>
-                        {appData?.words["strStartFrom"]}
-                        {loadAlert ?
-                            <span style={{ width: "100%", height: "100%", background: "#eae6e6" }}>
-                                <Skeleton width={"100%"} height="100%" />
-                            </span>
-                            : <span >{price}</span>}
-                    </div>
-                    <Button
-                        type={BUTTON_TYPES.PRIMARY_OUTLINE}
-                        style={{ padding: '6px 5px' }}
-                         btnText={generalAllTranslations["strPerPerson"][language]}
-                          icon={<i className="fa-solid fa-arrow-down"></i>} 
-                          iconPos='RIGHT' />
-                </div> */}
             </div>
 
             <h3 className={styles.snapshot_title}>

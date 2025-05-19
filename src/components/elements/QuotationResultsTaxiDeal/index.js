@@ -13,7 +13,6 @@ const QuotationResultsTaxiDeal = (props) => {
     //these props comes from ...pathname
 
     let {
-        previousUrl,
         keywords: keywordsTaxiDeal,
         pageTitle,
         headTitle,
@@ -25,7 +24,6 @@ const QuotationResultsTaxiDeal = (props) => {
         distance,
         duration,
         quotationOptions,
-        breadcrumbs,
         linkurl,
         review,
         env,
@@ -96,8 +94,6 @@ const QuotationResultsTaxiDeal = (props) => {
                                 returnPageTitle={returnPageTitle}
                                 objectDetailss={objectDetailss}
                                 isVisible={isVisible}
-                                breadcrumbs={breadcrumbs}
-                                linkurl={linkurl}
                                 review={review}
                                 env={env}
                             />

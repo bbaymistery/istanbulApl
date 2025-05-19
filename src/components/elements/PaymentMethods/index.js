@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import styles from "./styles.module.scss";
 import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
@@ -7,14 +7,19 @@ import { BUTTON_TYPES } from "../Button/ButtonTypes";
 import Button from "../Button/Button";
 import OutsideClickAlert from "../OutsideClickAlert";
 import currencies from "../../../constants/currencies";
+import moment from "moment-timezone";
+import { collectQuotationsAsync } from "../../../helpers/getQuotations";
+import { getPriceDetailsFromQuotation } from "../../../helpers/getPriceDetailsFromQuotation";
+
 const PaymentMethods = (props) => {
   let { env, seatListPrice = 0 } = props
   const router = useRouter()
   const dispatch = useDispatch()
   let state = useSelector((state) => state.pickUpDropOffActions)
-  let { params: { journeyType, tokenForArchieve, sessionToken, direction, language, selectedCurrency }, reservations } = state
+  let { params: { journeyType, tokenForArchieve, sessionToken, direction, language, selectedCurrency, quotations }, reservations } = state
   const { appData, paymentTypes } = useSelector(state => state.initialReducer)
 
+  const updatedReservationsRef = useRef(reservations); // ilk değeri mevcut reservations
 
   const [iframeStripe, setIframeStripe] = useState("");
   const [dataTokenForWebSocket, setDataTokenForWebSocket] = useState("");
@@ -23,9 +28,9 @@ const PaymentMethods = (props) => {
 
   const [cashPaymentModal, setCashPaymentModal] = useState(false)
   const fetchArchieveToken = async (params = {}) => {
-    let { token, paymentType, stage } = params
+    let { token, paymentType, stage, updatedReservations } = params
 
-    let reservationObj = reservations
+    let reservationObj = updatedReservations
 
     if (parseInt(journeyType) === 1) {
       reservationObj = [
@@ -78,20 +83,18 @@ const PaymentMethods = (props) => {
   };
   //*payment methods
   const cashMethod = (params = {}) => {
-    let { token, paymentType } = params
-    // fetchArchieveToken({ token: "", paymentType: "", stage: "CLICK_OVER_CASH_BUTTON" })
+    let { token, paymentType, updatedReservations } = params
+    fetchArchieveToken({ token: "", paymentType: "", stage: "CLICK_OVER_CASH_BUTTON", updatedReservations })
     // if it is cash payment you have set payment type first of all then send archive
     dispatch({ type: "SET_PAYMENT_TYPE_AND_TOKEN", data: { token, paymentType } })
-    setIframeStripe("")//CLOSE OFRAME INSIDE OF Page (in case of if it was opened )
-    setStatusToken("");//it will trigger interval and will make request
     router.push(`${language === 'en' ? "/reservations-document" : `${language}/reservations-document`}`)
 
   };
   const stripeMethod = (params = {}) => {
-    let { id, quotations, passengerEmail, url } = params
+    let { id, quotations, passengerEmail, url, updatedReservations } = params
     if (!iframeStripe) {
       // if it is card payment you have set payment type first of all then send archive then
-      // fetchArchieveToken({ token: "", paymentType: 7, stage: "CLICK_OVER_CARD_BUTTON" })
+      fetchArchieveToken({ token: "", paymentType: 7, stage: "CLICK_OVER_CARD_BUTTON", updatedReservations })
       const method = "POST"
       const body = JSON.stringify({
         quotations,
@@ -99,7 +102,8 @@ const PaymentMethods = (props) => {
         language: "en",
         passengerEmail,
         "session-id": sessionToken,
-        mode: "sandbox",
+        // mode: "sandbox",
+
       })
       const headers = { "Content-Type": "application/json" }
       const config = { method, headers, body, };
@@ -125,8 +129,8 @@ const PaymentMethods = (props) => {
     }
   };
   const paypalMethod = (params = {}) => {
-    let { id, quotations, passengerEmail, url } = params;
-    // fetchArchieveToken({ token: "", paymentType: 5, stage: "CLICK_OVER_CARD_BUTTON" })
+    let { id, quotations, passengerEmail, url, updatedReservations } = params;
+    fetchArchieveToken({ token: "", paymentType: 5, stage: "CLICK_OVER_CARD_BUTTON", updatedReservations })
     const method = "POST";
     const headers = { "Content-Type": "application/json" };
     const body = JSON.stringify({
@@ -135,7 +139,6 @@ const PaymentMethods = (props) => {
       language: "en",
       passengerEmail,
       "session-id": sessionToken,
-      mode: "sandbox",
     });
     const config = { method, headers, body };
 
@@ -188,26 +191,70 @@ const PaymentMethods = (props) => {
     }
   };
 
+  const checkQuotationPriceUpdatedOrNot = async (statusToken) => {
+    const now = moment().tz("Europe/London");
+    let updatedReservations = [...reservations]; // make a copy
 
+    for (let index in updatedReservations) {
+      const obj = updatedReservations[index];
+      const { transferDetails, quotation: previousQuotation } = obj;
+      const { transferDateTimeString } = transferDetails;
+
+      const transferTime = moment.tz(transferDateTimeString, "YYYY-MM-DD HH:mm", "Europe/London");
+
+      if (transferTime.isBefore(now)) {
+        alert("Transfer time for reservation is in the past. Redirecting to home page.");
+        router.push("/");
+        return null;
+      }
+
+      const newQuotationsResponse = await collectQuotationsAsync({ reservations, journeyType, env, currencyId: selectedCurrency.currencyId });
+
+      if (newQuotationsResponse.status === 200 && !quotations[0].taxiDeal) {
+        const newQuotations = newQuotationsResponse.data[index] || {};
+        const newQuotationOptions = newQuotations.quotationOptions || [];
+        const newQuotation = newQuotationOptions.find(item => item.carId === previousQuotation.carId);
+
+
+        if (newQuotation) {
+          let prevQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': previousQuotation }).data || {};
+          let newQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': newQuotation }).data || {};
+          if (newQuotationDetails.price !== prevQuotationDetails.price && !statusToken) {
+            dispatch({ type: "GET_QUOTATION", data: { results: newQuotationsResponse, journeyType } });
+            dispatch({ type: "SET_QUOTATION_ON_SPECIAL_CASE", data: { quotation: newQuotation, journeyType: index } });
+          }
+        }
+        updatedReservations[index] = {
+          ...updatedReservations[index],
+          quotation: newQuotation,
+        };
+      }
+    }
+    return updatedReservations
+  }
 
   //this function includes all the methods of payments
-  const startPayment = (id) => {
+  const startPayment = async (id) => {
 
 
     try {
+      const updatedReservations = await checkQuotationPriceUpdatedOrNot(statusToken); // güncel hali getir
+      updatedReservationsRef.current = updatedReservations; // ⬅️ ref’e ata
       //general settings FOR PAYMENTS
       const paymentPagePath = JSON.parse(paymentTypes.filter((payment) => payment.id === id)[0].pagePath).path;
 
 
       const url = `${env.apiDomain}${paymentPagePath}`;
-      let quotations = parseInt(journeyType) === 0 ? [reservations[0].quotation] : [reservations[0].quotation, reservations[1].quotation];
-      let passengerEmail = reservations[0].passengerDetails.email;
-      let passengerPhoneNumber = reservations[0].passengerDetails.phone;
+      const quotations = parseInt(journeyType) === 0
+        ? [updatedReservations[0].quotation]
+        : [updatedReservations[0].quotation, updatedReservations[1].quotation];
+      const passengerEmail = updatedReservations[0].passengerDetails.email;
+
 
       //Payment methods
-      if (id === 1) cashMethod({ token: "", paymentType: id })
-      if (id === 5) paypalMethod({ id, quotations, passengerEmail, url });
-      if (id === 7) stripeMethod({ id, quotations, passengerEmail, url });
+      if (id === 1) cashMethod({ token: "", paymentType: id, updatedReservations })
+      if (id === 5) paypalMethod({ id, quotations, passengerEmail, url, updatedReservations });
+      if (id === 7) stripeMethod({ id, quotations, passengerEmail, url, updatedReservations });
     } catch (error) {
       window.handelErrorLogs(error, 'APL PaymentMethods Component -startPayment function trys catch blog', { id })
 
@@ -220,7 +267,8 @@ const PaymentMethods = (props) => {
     setIframeStripe("")
     openPopUpWindow({ statusOfWindowCloseOrOpen: "close", url: "" })
     setPopUpWindow("")
-
+    setStatusToken("");
+    setDataTokenForWebSocket("")
   }
   //this is checking up interval for each second (payment suces or not)
   useEffect(() => {
@@ -244,7 +292,7 @@ const PaymentMethods = (props) => {
             window.scroll({ top: 0, left: 0, behavior: "smooth", });
 
             if (dataTokenForWebSocket?.href?.includes("stripe")) {
-              // fetchArchieveToken({ token: resp.data.token, paymentType: 7, stage: "GET_SUCCESS_CARD_PAYMENT" })
+              fetchArchieveToken({ token: resp.data.token, paymentType: 7, stage: "GET_SUCCESS_CARD_PAYMENT", updatedReservations: updatedReservationsRef.current })
               dispatch({ type: "SET_PAYMENT_TYPE_AND_TOKEN", data: { token: resp.data.token, paymentType: 7 } })
               setIframeStripe("");
               setStatusToken("");
@@ -253,7 +301,7 @@ const PaymentMethods = (props) => {
             }
 
             if (dataTokenForWebSocket?.href?.includes("paypal")) {
-              // fetchArchieveToken({ token: resp.data.token, paymentType: 5, stage: "GET_SUCCESS_CARD_PAYMENT" })
+              fetchArchieveToken({ token: resp.data.token, paymentType: 5, stage: "GET_SUCCESS_CARD_PAYMENT", updatedReservations: updatedReservationsRef.current })
               dispatch({ type: "SET_PAYMENT_TYPE_AND_TOKEN", data: { token: resp.data.token, paymentType: 5 } })
               openPopUpWindow({ statusOfWindowCloseOrOpen: "close", url: "" })
               setStatusToken("");
@@ -278,6 +326,7 @@ const PaymentMethods = (props) => {
         clearInterval(interval);
         setStatusToken("")
         setPopUpWindow("")
+        setDataTokenForWebSocket("")
       }
     }, 500);
     return () => clearInterval(interval);

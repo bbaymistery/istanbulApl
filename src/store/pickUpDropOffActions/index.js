@@ -39,7 +39,7 @@ import RESELECT_POINTS_FROM_STORE from "./RESELECT_POINTS_FROM_STORE";
 let initialReservationState = [{
   reservationDetails: {
     channelId: 12,
-    accountId: 12,
+    accountId: 2964,
   },
   selectedPickupPoints: [],
   selectedDropoffPoints: [],
@@ -185,7 +185,7 @@ export const pickUpDropOffActions = (state = INITIAL_STATE, action) => {
     case "SET_QUOTATION_ON_SPECIAL_CASE": {
       return SET_QUOTATION_ON_SPECIAL_CASE({ state, action })
     }
-    
+
     default:
       return state;
   }

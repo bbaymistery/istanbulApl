@@ -1,12 +1,12 @@
 import GlobalLayout from "../../components/layouts/GlobalLayout";
-import { getTourByPathname, getTourMetaTagsByPathname, getTourPageContentByPathname } from '../../constants/keywordsAndContents/toursKeywordsContentSchemas';
+import { getTourByPathname, getTourMetaTagsByPathname, getTourPageContentByPathname, tourDatasTranslated } from '../../constants/keywordsAndContents/toursKeywordsContentSchemas';
 import { parseCookies } from '../../helpers/cokieesFunc';
 import { parse } from 'url';
 import { checkLanguageAttributeOntheUrl } from '../../helpers/checkLanguageAttributeOntheUrl';
 import { fetchConfig } from '../../resources/getEnvConfig';
 import { useWindowSize } from '../../hooks/useWindowSize';
 import { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Head from "next/head";
 import SeatlistAdults from "./SeatlistAdults";
 import MobileSnapshhotAndSlider from "./MobileSnapshhotAndSlider";
@@ -18,6 +18,8 @@ import singleTourSchema, { tourDescriptionName } from "./schema";
 import { adjustPathnameForLanguage } from "../../helpers/adjustedPageLanguage";
 import { isUrlLoverCase } from "../../helpers/isUrlLoverCase";
 import { createMetaTagElementsClientSide, renderSchemaScriptsClientSide } from "../../helpers/schemaMetaTagHelper";
+import { setNoCacheHeader } from "../../helpers/setNoCacheHeader";
+import { useRouter } from "next/router";
 
 const TourContentDetails = (props) => {
 
@@ -36,11 +38,19 @@ const TourContentDetails = (props) => {
     const { params: { language, direction }, reservations } = pickUpDropOffActions;
     let transferDate = reservations[0]?.transferDetails?.transferDateTimeString;
 
-
+    const dispatch = useDispatch()
+    const router = useRouter()
     const { width } = useWindowSize();
 
     useEffect(() => {
         setLoadAlert(true);
+
+        const selectedTour = tourDatasTranslated.find(t => t.pathname === router.asPath)
+        let adultsPrice = selectedTour.adultPrice
+        let childrenPrice = selectedTour.childrenPrice
+        let isPound = selectedTour.isPound
+        dispatch({ type: 'SET_TOUR_PRICE_SEATLIST', data: { adultsPrice, childrenPrice, isPound } })
+
         const timer = setTimeout(() => { setLoadAlert(false) }, 1200);
         return () => clearTimeout(timer);
     }, [language]);
@@ -76,7 +86,7 @@ const TourContentDetails = (props) => {
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
 
     const env = await fetchConfig(); // Fetch environment-specific configuration (e.g., API keys)
-    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); // Cache'i kapat
+    setNoCacheHeader(res, true);
 
     isUrlLoverCase(resolvedUrl, res);
 
@@ -112,7 +122,6 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
         const duration = tourDetails[0].duration[language]
         const snapshots = tourDetails[0]?.snapshots
         const review = 2000
-        const price = tourDetails[0].price
 
 
         //!Handling schema 
@@ -123,7 +132,8 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
             200,
             tourDescriptionName[pathname].tourName[language],
             tourDescriptionName[pathname].description[language],
-            new Date().toISOString()
+            new Date().toISOString(),
+            tourDescriptionName[pathname].categoryOfTour[language]
         );
         let schemaOfTourDetails = schemaData || []
         schemaOfTourDetails = Object.keys(schemaOfTourDetails).map(key => ({ [key]: schemaOfTourDetails[key] }));//array of objects [b:{ab:"1"},c:{ab:"2"},d:{ab:"3"}]
@@ -134,7 +144,7 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
         let finalTourDetails = {
             headTitle, keywords, metaDescription, breadcrumbTitle,
             thumbnailTitle, pageTitle, images, duration, snapshots,
-            review, price, metaTags,
+            review, metaTags,
         }
         return {
             //we pass tourdetails fot adding inside redux generally all together

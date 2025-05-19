@@ -22,12 +22,12 @@ $checkbox-selected: $--color-accent-1-dark; // Primary colour
             }
 
             .transferdetails_subcontainer_content {
-                max-width: 1450px;
-                width: 100%;
+                max-width: 990px;
                 display: flex;
                 background-color: transparent;
                 position: relative;
-                gap: 2.5rem;
+                gap:1.5rem;
+                flex-direction: column-reverse;
                 margin: 0 auto;
                 justify-content: space-between;
                 z-index: 999999;
@@ -50,123 +50,6 @@ $checkbox-selected: $--color-accent-1-dark; // Primary colour
 
                     .textarea_div {
                         margin-top: 1rem;
-                    }
-
-                    //remove border from search menu
-                    .points[direction="true"] {
-                        p {
-                            padding-bottom: 5px !important;
-                        }
-                    }
-
-                    .points {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 1rem;
-                        margin-top: 35px;
-                        border-radius: 4px;
-
-                        //pick up drop of input
-                        .search_menu {
-                            min-height: 50px;
-                            position: relative;
-                            display: flex;
-                            flex-direction: column;
-                            width: 100%;
-
-
-                            .point_title1,
-                            .point_title2 {
-                                font-size: 20px;
-                                text-transform: capitalize;
-                                padding-right: 8px;
-                                font-weight: 500;
-                                padding-bottom: 10px;
-                            }
-
-
-
-                            .input_div {
-                                position: relative;
-
-                                .popup_header[f="false"] {
-                                    display: none;
-                                }
-
-                                .popup_header[f="true"] {
-                                    display: flex;
-                                    align-items: center;
-                                    padding-top: 12px;
-                                    padding-bottom: 10px;
-                                    padding-left: 3px;
-                                    text-transform: capitalize;
-
-                                    i {
-                                        margin-right: 11px;
-                                        font-size: 21px;
-                                        cursor: pointer;
-                                        z-index: 99;
-                                    }
-
-                                    p {
-                                        font-size: 19px;
-                                        font-weight: 500;
-                                    }
-                                }
-
-
-                                input {
-                                    border: 1px solid $--color-light-6;
-                                    outline: none;
-                                    width: 100%;
-                                    background-color: transparent;
-                                    border-radius: 4px;
-                                    padding: 4px 6px !important;
-                                    min-height: 36px;
-
-                                    @media (max-width:990px) {
-                                        padding: 1px 0px;
-                                    }
-
-                                    &::placeholder {
-                                        color: $label_text_color;
-                                        font-weight: 500;
-                                        font-size: 13px;
-                                    }
-                                }
-
-                                .loading_div[direction="false"] {
-                                    position: absolute;
-                                    top: 16px;
-                                    right: 22px;
-                                }
-
-                                .loading_div[popupp="false"][direction="true"] {
-                                    position: absolute !important; 
-                                    top: 15px !important;
-                                    left: 22px !important;
-                                }
-
-                                .loading_div[popupp="true"][direction="false"] {
-                                    top:70px !important;
-                                    right:32px !important;
-                                }
-
-                                .loading_div[popupp="true"][direction="true"] {
-                                    top:70px !important;
-                                    left: 15px !important;
-                                    position: absolute;
-                                }
-
-                                input[f="false"].error_input {
-                                    border-bottom: 1px solid red !important;
-                                }
-                            }
-                        }
-                    }
-
-                    .points.rtl {
-                        flex-direction: row-reverse;
                     }
 
                     .buttons {

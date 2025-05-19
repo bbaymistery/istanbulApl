@@ -43,25 +43,33 @@
                     .logo_tag {
                         display: flex;
 
-                        img {
-                            @media(max-width:1400px) {
-                                object-fit: cover;
-                            }
+                        div {
+                            position: relative;
+                            width: 256px;
+                            height: 78px;
 
-                            @media(max-width:1000px) {
-                                height: 52px;
-                                object-fit: none;
-
-                            }
-
-                            @media(max-width:768px) {
-                                width: 180px;
-                                object-fit: contain;
-                            }
-
-                            @media(max-width:450px) {
+                            @media(max-width:990px) {
                                 width: 175px;
-                                object-fit: contain;
+                                height: 48px;
+                            }
+
+                            img {
+                                @media(max-width:1400px) {
+                                    object-fit: cover;
+                                }
+
+                                @media(max-width:1000px) {
+                                    height: 52px;
+                                    object-fit: none;
+
+                                }
+
+                                @media(max-width:768px) {
+                                    width: 175px;
+                                    object-fit: contain;
+                                }
+
+
                             }
                         }
 
@@ -76,12 +84,10 @@
                 gap: 1.5rem;
 
                 @media(max-width:990px) {
-                    gap: 1.2rem;
-                }
-
-                @media(max-width:450px) {
                     gap: 1rem;
                 }
+
+     
 
                 .currency_dropdown {
                     cursor: pointer;

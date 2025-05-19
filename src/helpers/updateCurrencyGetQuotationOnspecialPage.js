@@ -25,20 +25,16 @@ import { reservationSchemeValidator } from "./reservationSchemeValidator";
  */
 export const updateCurrencyGetQuotationOnSpecialPage = async ({ dispatch, setInternalState, router, reservations, journeyType, language, appData, selectedCurrency, isTaxiDeal }) => {
     const specialPages = ['/transfer-details', '/payment-details'];
-    console.log("updateCurrencyGetQuotationOnSpecialPage");
 
     if (isTaxiDeal) return
-    console.log("updateCurrencyGetQuotationOnSpecialPag e      istaci deal geid");
 
     // Only execute if we are on a special page
     if (!specialPages.includes(router.pathname)) return;
-    console.log("updateCurrencyGetQuotationOnSpecialPag e      special page deal geid");
 
     const checkedReservations = normalizeReservations(reservations);
     const errorHolder = reservationSchemeValidator({ reservations: checkedReservations, appData });
 
     setInternalState({ errorHolder });
-    console.log(errorHolder, isTaxiDeal);
 
     if (errorHolder.status !== 200) return;
 
@@ -56,7 +52,6 @@ export const updateCurrencyGetQuotationOnSpecialPage = async ({ dispatch, setInt
     };
 
     const results = await readyToCollectQuotationOptions(propsOfReadyCollection);
-    console.log({ results });
 
     if (!results.success) return;
 

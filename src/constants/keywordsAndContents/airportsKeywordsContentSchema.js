@@ -11,383 +11,455 @@ export const getAirportPageContentByPathname = (pathname, language = "en") => {
 const airportPageContents = {
     "/istanbul-airport-taxi-prices": {
         en: `
-          <h1>Istanbul Airport Taxi Prices – Fixed & Transparent Transfers</h1>
+        <h1>Istanbul Airport Taxi Prices – Fixed & Transparent Transfers</h1>
 
-    <h2>Reliable, Comfortable & Affordable Istanbul Airport Transfers</h2>
-
-    <p>
-        Arriving at <strong>Istanbul Airport (IST)</strong>? Let <strong>APL Transfers</strong> take care of your journey with our premium, 
-        fixed-price private airport transfers. Whether you need a saloon car, a spacious people carrier for 
-        five passengers, an eight-seater minibus, or a luxury Mercedes business-class vehicle, we have the 
-        perfect ride for you.
-    </p>
-
-    <p>
-        With our <strong>free meet & greet service, no hidden fees, and 24/7 customer support</strong>, we ensure a 
-        seamless and stress-free transfer experience.
-    </p>
-
-
-    <h2>Our Vehicle Options</h2>
-    <ul>
-        <li><strong>Saloon Car</strong> – Perfect for solo travelers and couples.</li>
-        <li><strong>People Carrier (5 Passengers)</strong> – Ideal for families or small groups.</li>
-        <li><strong>8-Seater Minibus</strong> – Comfortable for larger groups with luggage.</li>
-        <li><strong>Business-Class Mercedes Vehicles</strong> – Premium comfort for executives and VIPs.</li>
-    </ul>
-
-
-    <h2>Why Choose APL Transfers?</h2>
-    <ul>
-        <li><strong>Free Meet & Greet & Waiting Time</strong> – Your driver will be waiting at the <strong>arrivals</strong> hall with a name board.</li>
-        <li><strong>APL Transfers Office Inside Istanbul Airport</strong> – Convenient in-terminal assistance.</li>
-        <li><strong>Free Child Seats for 8 & 9-Seater Private Vehicles</strong> – Ensuring family-friendly travel.</li>
-        <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Book with peace of mind.</li>
-        <li><strong>Fixed Prices – No Hidden Costs</strong> – What you see is what you pay.</li>
-        <li><strong>24/7 Customer Support</strong> – We're available anytime you need us.</li>
-        <li><strong>Corporate Travel Solutions</strong> – Reliable transfers for business professionals.</li>
-        <li><strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Enjoy a smooth and stylish ride.</li>
-    </ul>
-
-
-    <h2>Book Your Istanbul Airport Taxi Now</h2>
-
-    <p>
-        Reserve your transfer today and enjoy a stress-free journey from <strong>Istanbul Airport (IST)</strong> to your hotel, 
-        Airbnb, or business location.
-    </p>
-
-    <ul>
-        <li><strong>Instant Online Booking</strong></li>
-        <li><strong>Secure Payment</strong> (Euro, GBP, US Dollar & Turkish Lira Accepted)</li>
-        <li><strong>No Hidden Fees – Fixed, Competitive Pricing</strong></li>
-    </ul>
-
-    <p>
-        Need assistance? Contact our <strong>24/7 customer support</strong> for a smooth travel experience.
-        <a href="/">Book Now</a> and travel with confidence.
-    </p>
-        `,
-        tr: `
-        <h1>İstanbul Havalimanı Taksi Fiyatları – Sabit & Şeffaf Transferler</h1>
-
-<h2>Güvenilir, Konforlu & Uygun Fiyatlı İstanbul Havalimanı Transferleri</h2>
+<h2>Reliable, Comfortable & Affordable Istanbul Airport Transfers</h2>
 
 <p>
-    <strong>İstanbul Havalimanı (IST)</strong>'na mı varıyorsunuz? <strong>APL Transfers</strong> ile yolculuğunuzu premium, 
-    sabit fiyatlı özel havalimanı transferlerimizle güvenle tamamlayın. İster sedan araç, ister beş yolcu kapasiteli geniş bir 
-    araç, sekiz kişilik bir minibüs veya lüks bir Mercedes iş sınıfı araç arıyor olun, size en uygun aracı sunuyoruz.
+    Arriving at <strong>Istanbul Airport (IST)</strong>? Let <strong>APL Transfers</strong> take care of your journey with our premium, 
+    fixed-price private airport transfers. Whether you need a saloon car, a spacious people carrier for five passengers, 
+    an eight-seater minibus, or a luxury Mercedes business-class vehicle, we have the perfect ride for you.
 </p>
 
 <p>
-    <strong>Ücretsiz karşılama hizmeti, gizli ücret yok ve 7/24 müşteri desteği</strong> ile stressiz ve sorunsuz bir transfer deneyimi sağlıyoruz.
+    With our <strong>free meet & greet service, no hidden fees, and 24/7 customer support</strong>, we ensure a seamless 
+    and stress-free transfer experience from <strong>Istanbul Airport</strong> to your hotel, Airbnb, or business destination.
+</p>
+
+<h2>Our Vehicle Options</h2>
+<ul>
+    <li><strong>Saloon Car</strong> – Perfect for solo travelers and couples.</li>
+    <li><strong>People Carrier (5 Passengers)</strong> – Ideal for families or small groups.</li>
+    <li><strong>8-Seater Minibus</strong> – Comfortable for larger groups with luggage.</li>
+    <li><strong>Business-Class Mercedes Vehicles</strong> – Premium comfort for executives and VIPs.</li>
+</ul>
+
+<h2>Why Choose APL Transfers?</h2>
+<ul>
+    <li><strong>Free Meet & Greet & Waiting Time</strong> – Your driver will be waiting at the arrivals hall with a name board.</li>
+    <li><strong>APL Transfers Office Inside Istanbul Airport (IST)</strong> – Convenient in-terminal assistance.</li>
+    <li>
+        <strong>CIMLA – APL Transfers Office at IST</strong><br>
+        After collecting your luggage and clearing customs at <strong>Istanbul Airport</strong>, turn right upon entering the Arrival Hall. 
+        You’ll find the <strong>Taxi Transfer Offices</strong> area on your left. Look for the <strong>Cimla Turizm – APL Transfer</strong> sign. 
+        One of our friendly staff members will meet you at the office and escort you to your driver.
+    </li>
+    <li><strong>Free Child Seats for 8 & 9-Seater Private Vehicles</strong> – Ensuring family-friendly travel.</li>
+    <li><strong>Free Cancellation Up to 24 Hours Before Arrival</strong> – Book with peace of mind.</li>
+    <li><strong>Fixed Prices – No Hidden Costs</strong> – What you see is what you pay.</li>
+    <li><strong>24/7 Customer Support</strong> – We're available anytime you need us.</li>
+    <li><strong>Corporate Travel Solutions</strong> – Reliable transfers for business professionals.</li>
+    <li><strong>Luxury, Clean & Well-Maintained Vehicles</strong> – Enjoy a smooth and stylish ride.</li>
+</ul>
+
+<h2>Book Your Istanbul Airport Taxi Now</h2>
+
+<p>
+    Reserve your transfer today and enjoy a stress-free journey from <strong>Istanbul Airport (IST)</strong> to your hotel, Airbnb, or business location.
+</p>
+
+<p>
+    We proudly offer transfers <strong>across Istanbul</strong> and to nearby cities such as <strong>Bursa, Edirne, and Gebze</strong>. 
+    Whether you're headed to the city center or a destination further afield, APL Transfers ensures a reliable and comfortable journey.
+</p>
+
+<ul>
+    <li><strong>Instant Online Booking</strong></li>
+    <li><strong>Secure Payment</strong> – We accept <strong>Euro, GBP, US Dollar, and Turkish Lira</strong>, with full support for 
+        <strong>Google Pay, Apple Pay, AMEX, Visa, and Mastercard</strong>.</li>
+    <li><strong>No Hidden Fees</strong> – Fixed, Competitive Pricing</li>
+</ul>
+
+<p>
+    Need assistance? Contact our <strong>24/7 customer support</strong> for a smooth travel experience.<br>
+    <a href="/">Book Now</a> and <strong>travel with confidence</strong>.
+</p>
+
+        `,
+        tr: `
+        <h1>İstanbul Havalimanı Taksi Fiyatları – Sabit ve Şeffaf Ücretler</h1>
+
+<h2>Güvenilir, Konforlu ve Uygun Fiyatlı İstanbul Havalimanı Transferleri</h2>
+
+<p>
+    <strong>İstanbul Havalimanı (IST)</strong>'na mı geliyorsunuz? <strong>APL Transfers</strong> ile yolculuğunuzu konforlu, sabit fiyatlı özel havalimanı transfer hizmetimizle biz üstlenelim. 
+    İster bir sedan araç, ister beş kişilik geniş bir araç, sekiz kişilik minibüs veya lüks Mercedes business sınıfı araç arıyor olun, size uygun aracı sunuyoruz.
+</p>
+
+<p>
+    <strong>Ücretsiz karşılama hizmeti, gizli ücret yok ve 7/24 müşteri desteği</strong> ile <strong>İstanbul Havalimanı</strong>’ndan otelinize, Airbnb’nize veya iş yerinize sorunsuz ve stressiz bir transfer deneyimi sağlıyoruz.
 </p>
 
 <h2>Araç Seçeneklerimiz</h2>
 <ul>
     <li><strong>Sedan Araç</strong> – Tek başına seyahat edenler ve çiftler için ideal.</li>
-    <li><strong>5 Kişilik Geniş Araç</strong> – Aileler veya küçük gruplar için mükemmel.</li>
-    <li><strong>8 Kişilik Minibüs</strong> – Bagajlı büyük gruplar için konforlu.</li>
-    <li><strong>İş Sınıfı Mercedes Araçlar</strong> – VIP ve yöneticiler için premium konfor.</li>
+    <li><strong>5 Kişilik Aile Aracı</strong> – Aileler veya küçük gruplar için uygun.</li>
+    <li><strong>8 Kişilik Minibüs</strong> – Bagajlı kalabalık gruplar için konforlu.</li>
+    <li><strong>Business Sınıfı Mercedes Araçlar</strong> – Yöneticiler ve VIP misafirler için üst düzey konfor.</li>
 </ul>
 
 <h2>Neden APL Transfers?</h2>
 <ul>
-    <li><strong>Ücretsiz Karşılama & Bekleme Süresi</strong> – Sürücünüz sizi <strong>varış</strong> salonunda isim tabelası ile bekliyor olacak.</li>
-    <li><strong>İstanbul Havalimanı İçinde APL Transfers Ofisi</strong> – Terminal içinde rahat destek hizmeti.</li>
-    <li><strong>8 & 9 Kişilik Özel Araçlarda Ücretsiz Çocuk Koltuğu</strong> – Aile dostu seyahat imkanı.</li>
-    <li><strong>Varıştan 24 Saat Öncesine Kadar Ücretsiz İptal</strong> – Güvenle rezervasyon yapabilirsiniz.</li>
-    <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Gördüğünüz fiyat, ödediğiniz fiyat.</li>
-    <li><strong>7/24 Müşteri Desteği</strong> – Her an yanınızdayız.</li>
+    <li><strong>Ücretsiz Karşılama & Bekleme Süresi</strong> – Şoförünüz sizi adınızın yazılı olduğu tabela ile varış salonunda karşılayacaktır.</li>
+    <li><strong>İstanbul Havalimanı İçinde APL Transfers Ofisi</strong> – Terminal içinde kolay yardım imkânı.</li>
+    <li>
+        <strong>CIMLA – İstanbul Havalimanı’ndaki APL Transfers Ofisi</strong><br>
+        Bagajınızı aldıktan ve <strong>İstanbul Havalimanı</strong>’ndaki gümrükten geçtikten sonra, Varış Salonu’na girerken sağa dönün. 
+        Sol tarafta <strong>Taksi Transfer Ofisleri</strong> bölümünü göreceksiniz. <strong>Cimla Turizm – APL Transfer</strong> tabelasını arayın. 
+        Güler yüzlü personelimiz sizi karşılayacak ve şoförünüze yönlendirecektir.
+    </li>
+    <li><strong>8 ve 9 Kişilik Özel Araçlar için Ücretsiz Çocuk Koltuğu</strong> – Aile dostu bir yolculuk için.</li>
+    <li><strong>Varıştan 24 Saat Önceye Kadar Ücretsiz İptal</strong> – Gönül rahatlığıyla rezervasyon yapın.</li>
+    <li><strong>Sabit Fiyatlar – Gizli Ücret Yok</strong> – Ne görüyorsanız onu ödersiniz.</li>
+    <li><strong>7/24 Müşteri Desteği</strong> – Ne zaman ihtiyacınız olursa buradayız.</li>
     <li><strong>Kurumsal Seyahat Çözümleri</strong> – İş seyahatleri için güvenilir transfer hizmeti.</li>
-    <li><strong>Lüks, Temiz & Bakımlı Araçlar</strong> – Konforlu ve şık bir yolculuk deneyimi.</li>
+    <li><strong>Lüks, Temiz ve Bakımlı Araçlar</strong> – Konforlu ve şık bir yolculuk yapın.</li>
 </ul>
 
-<h2>İstanbul Havalimanı Taksi Rezervasyonunuzu Şimdi Yapın</h2>
+<h2>Hemen İstanbul Havalimanı Taksi Rezervasyonu Yapın</h2>
 
 <p>
-    Şimdiden transferinizi rezerve edin ve <strong>İstanbul Havalimanı (IST)</strong>'ndan otelinize, 
-    Airbnb'nize veya iş yerinize stressiz bir yolculuk yapın.
+    Bugün rezervasyonunuzu yapın ve <strong>İstanbul Havalimanı (IST)</strong>'ndan otelinize, Airbnb’nize veya iş yerinize stressiz bir şekilde ulaşın.
+</p>
+
+<p>
+    İstanbul geneline ve <strong>Bursa, Edirne ve Gebze</strong> gibi yakın şehirlere transfer hizmeti sunuyoruz. 
+    İster şehir merkezine ister uzak bir noktaya gidin, APL Transfers ile güvenilir ve konforlu bir yolculuk sizi bekliyor.
 </p>
 
 <ul>
     <li><strong>Anında Online Rezervasyon</strong></li>
-    <li><strong>Güvenli Ödeme</strong> (Euro, GBP, ABD Doları & Türk Lirası Kabul Edilir)</li>
-    <li><strong>Gizli Ücret Yok – Sabit, Rekabetçi Fiyatlandırma</strong></li>
+    <li><strong>Güvenli Ödeme</strong> – <strong>Euro, GBP, Amerikan Doları ve Türk Lirası</strong> kabul edilir. 
+        <strong>Google Pay, Apple Pay, AMEX, Visa ve Mastercard</strong> ile tam uyumludur.</li>
+    <li><strong>Gizli Ücret Yok</strong> – Sabit ve Rekabetçi Fiyatlandırma</li>
 </ul>
 
 <p>
-    Yardıma mı ihtiyacınız var? <strong>7/24 müşteri desteğimizle</strong> iletişime geçin ve rahat bir yolculuk yaşayın.
-    <a href="/">Şimdi Rezervasyon Yapın</a> ve güvenle seyahat edin.</p>
-    `,
-        ar: `
-<h1>أسعار تاكسي مطار إسطنبول – نقل ثابت وشفاف</h1>
+    Yardıma mı ihtiyacınız var? Sorunsuz bir seyahat deneyimi için <strong>7/24 müşteri hizmetlerimizle</strong> iletişime geçin.<br>
+    <a href="/">Hemen Rezervasyon Yapın</a> ve <strong>güvenle yolculuk yapın</strong>.
+</p>
 
-<h2>نقل موثوق ومريح وبأسعار معقولة من مطار إسطنبول</h2>
+        `,
+        ar: `
+        <h1>أسعار سيارات الأجرة من مطار إسطنبول – أسعار ثابتة وشفافة</h1>
+
+<h2>خدمة نقل من مطار إسطنبول موثوقة، مريحة وبأسعار معقولة</h2>
 
 <p>
-    هل وصلت إلى <strong>مطار إسطنبول (IST)</strong>؟ مع <strong>APL Transfers</strong>، استمتع برحلة مريحة وآمنة مع خدمات النقل الخاصة بأسعار ثابتة. 
-    سواء كنت بحاجة إلى سيارة سيدان، أو سيارة عائلية تتسع لخمسة ركاب، أو حافلة صغيرة تتسع لثمانية أشخاص، أو سيارة مرسيدس فاخرة للأعمال، 
-    لدينا السيارة المثالية لك.
+    هل وصلت إلى <strong>مطار إسطنبول (IST)</strong>؟ دع <strong>APL Transfers</strong> تتولى رحلتك مع خدمة النقل الخاصة الممتازة بأسعار ثابتة. 
+    سواء كنت بحاجة إلى سيارة سيدان، أو مركبة عائلية تتسع لخمسة أشخاص، أو حافلة صغيرة تتسع لثمانية أشخاص، أو سيارة مرسيدس فاخرة لرجال الأعمال – لدينا السيارة المناسبة لك.
 </p>
 
 <p>
-    <strong>خدمة الاستقبال المجانية، لا رسوم خفية، ودعم العملاء على مدار 24/7</strong> لضمان تجربة نقل سلسة وخالية من الإجهاد.
+    مع <strong>خدمة الاستقبال المجانية، وعدم وجود رسوم خفية، ودعم العملاء على مدار الساعة</strong>، نضمن لك تجربة نقل سلسة وخالية من التوتر من <strong>مطار إسطنبول</strong> إلى فندقك، أو Airbnb، أو مكان عملك.
 </p>
 
 <h2>خيارات المركبات لدينا</h2>
 <ul>
-    <li><strong>سيارة سيدان</strong> – مثالية للمسافرين المنفردين والأزواج.</li>
-    <li><strong>سيارة عائلية (5 ركاب)</strong> – مثالية للعائلات أو المجموعات الصغيرة.</li>
-    <li><strong>حافلة صغيرة (8 ركاب)</strong> – مريحة للمجموعات الكبيرة مع الأمتعة.</li>
-    <li><strong>سيارات مرسيدس للأعمال</strong> – راحة فاخرة لرجال الأعمال وكبار الشخصيات.</li>
+    <li><strong>سيارة سيدان</strong> – مثالية للمسافرين بمفردهم أو الأزواج.</li>
+    <li><strong>مركبة عائلية (5 ركاب)</strong> – مثالية للعائلات أو المجموعات الصغيرة.</li>
+    <li><strong>حافلة صغيرة بـ 8 مقاعد</strong> – مريحة للمجموعات الكبيرة مع الأمتعة.</li>
+    <li><strong>سيارات مرسيدس لفئة رجال الأعمال</strong> – راحة فاخرة لرجال الأعمال وكبار الشخصيات.</li>
 </ul>
 
 <h2>لماذا تختار APL Transfers؟</h2>
 <ul>
-    <li><strong>الاستقبال المجاني ووقت الانتظار</strong> – سيكون السائق في <strong>صالة الوصول</strong> حاملًا لافتة باسمك.</li>
-    <li><strong>مكتب APL Transfers داخل مطار إسطنبول</strong> – دعم داخل المطار بسهولة.</li>
-    <li><strong>مقاعد أطفال مجانية في المركبات الخاصة (8 و 9 ركاب)</strong> – لضمان سفر آمن للعائلات.</li>
-    <li><strong>إلغاء مجاني حتى 24 ساعة قبل الوصول</strong> – احجز بثقة.</li>
-    <li><strong>أسعار ثابتة – لا تكاليف خفية</strong> – السعر الذي تراه هو السعر الذي تدفعه.</li>
-    <li><strong>دعم العملاء على مدار 24/7</strong> – نحن متاحون في أي وقت تحتاج فيه إلى المساعدة.</li>
-    <li><strong>حلول السفر للأعمال</strong> – نقل موثوق للمحترفين.</li>
-    <li><strong>مركبات فاخرة ونظيفة ومُعتنى بها</strong> – استمتع برحلة سلسة وأنيقة.</li>
+    <li><strong>الاستقبال المجاني ووقت الانتظار</strong> – سيكون السائق في صالة الوصول يحمل لافتة باسمك.</li>
+    <li><strong>مكتب APL Transfers داخل مطار إسطنبول (IST)</strong> – دعم مباشر داخل المطار.</li>
+    <li>
+        <strong>CIMLA – مكتب APL Transfers في المطار</strong><br>
+        بعد استلام الأمتعة والانتهاء من الجمارك في <strong>مطار إسطنبول</strong>، اتجه إلى اليمين عند دخولك صالة الوصول. 
+        ستجد منطقة <strong>مكاتب سيارات الأجرة</strong> على يسارك. ابحث عن لافتة <strong>Cimla Turizm – APL Transfer</strong>. 
+        أحد موظفينا الودودين سيرافقك إلى سائقك.
+    </li>
+    <li><strong>مقاعد أطفال مجانية للمركبات الخاصة بـ 8 و9 ركاب</strong> – لتوفير سفر آمن ومريح للعائلات.</li>
+    <li><strong>إلغاء مجاني حتى 24 ساعة قبل الوصول</strong> – احجز براحة بال.</li>
+    <li><strong>أسعار ثابتة – بدون رسوم خفية</strong> – ما تراه هو ما تدفعه.</li>
+    <li><strong>دعم عملاء على مدار الساعة</strong> – نحن هنا متى احتجت إلينا.</li>
+    <li><strong>حلول سفر للشركات</strong> – تنقل موثوق للمحترفين.</li>
+    <li><strong>مركبات فاخرة ونظيفة ومصانة جيداً</strong> – استمتع برحلة أنيقة ومريحة.</li>
 </ul>
 
-<h2>احجز الآن تاكسي مطار إسطنبول</h2>
+<h2>احجز سيارة أجرة من مطار إسطنبول الآن</h2>
 
 <p>
-    احجز نقل المطار الآن واستمتع برحلة خالية من التوتر من <strong>مطار إسطنبول (IST)</strong> إلى فندقك، 
-    Airbnb، أو موقع عملك.
+    احجز رحلتك اليوم وتمتع بتجربة نقل خالية من التوتر من <strong>مطار إسطنبول (IST)</strong> إلى فندقك أو Airbnb أو مكان عملك.
+</p>
+
+<p>
+    نقدم خدمات النقل عبر <strong>إسطنبول</strong> وإلى مدن قريبة مثل <strong>بورصة، أدرنة، وجبزة</strong>. 
+    سواء كنت متجهاً إلى وسط المدينة أو إلى وجهة بعيدة، تضمن لك APL Transfers رحلة مريحة وموثوقة.
 </p>
 
 <ul>
     <li><strong>حجز فوري عبر الإنترنت</strong></li>
-    <li><strong>دفع آمن</strong> (اليورو، الجنيه الإسترليني، الدولار الأمريكي، والليرة التركية مقبولة)</li>
-    <li><strong>لا رسوم خفية – أسعار ثابتة ومنافسة</strong></li>
+    <li><strong>دفع آمن</strong> – نقبل <strong>اليورو، الجنيه الإسترليني، الدولار الأمريكي، والليرة التركية</strong>، وندعم الدفع عبر 
+        <strong>Google Pay، Apple Pay، AMEX، Visa، وMastercard</strong>.</li>
+    <li><strong>بدون رسوم خفية</strong> – أسعار ثابتة وتنافسية</li>
 </ul>
 
 <p>
-    هل تحتاج إلى مساعدة؟ تواصل مع <strong>دعم العملاء المتاح 24/7</strong> لضمان تجربة سفر سلسة.
+    هل تحتاج المساعدة؟ تواصل مع <strong>دعم العملاء 24/7</strong> لتجربة سفر سلسة.<br>
     <a href="/">احجز الآن</a> وسافر بثقة.
 </p>
+
         `,
         es: `
         <h1>Precios de Taxi en el Aeropuerto de Estambul – Traslados Fijos y Transparentes</h1>
 
-<h2>Traslados Fiables, Cómodos y Económicos desde el Aeropuerto de Estambul</h2>
+<h2>Traslados desde el Aeropuerto de Estambul Confiables, Cómodos y Económicos</h2>
 
 <p>
-    ¿Llegas al <strong>Aeropuerto de Estambul (IST)</strong>? Con <strong>APL Transfers</strong>, disfruta de un viaje cómodo y seguro con nuestros servicios de traslado privado a precio fijo. 
-    Ya sea que necesites un sedán, un vehículo espacioso para cinco pasajeros, una miniván para ocho personas o un lujoso Mercedes de clase ejecutiva, 
-    tenemos el vehículo perfecto para ti.
+    ¿Llegas al <strong>Aeropuerto de Estambul (IST)</strong>? Deja que <strong>APL Transfers</strong> se encargue de tu viaje con nuestro servicio de traslado privado de alta calidad y precio fijo.
+    Ya sea que necesites un coche sedán, un vehículo amplio para cinco personas, una minibús para ocho pasajeros o un lujoso Mercedes clase ejecutiva, tenemos el vehículo ideal para ti.
 </p>
 
 <p>
-    <strong>Servicio de bienvenida gratuito, sin tarifas ocultas y atención al cliente 24/7</strong> para garantizar una experiencia de traslado sin estrés y sin complicaciones.
+    Con nuestro <strong>servicio de bienvenida gratuito, sin cargos ocultos y atención al cliente 24/7</strong>, garantizamos una experiencia de traslado fluida y sin estrés desde el <strong>Aeropuerto de Estambul</strong> hasta tu hotel, Airbnb o lugar de trabajo.
 </p>
 
 <h2>Nuestras Opciones de Vehículos</h2>
 <ul>
-    <li><strong>Auto Sedán</strong> – Ideal para viajeros solos y parejas.</li>
-    <li><strong>Vehículo Espacioso (5 Pasajeros)</strong> – Perfecto para familias o pequeños grupos.</li>
-    <li><strong>Miniván para 8 Pasajeros</strong> – Cómoda para grupos más grandes con equipaje.</li>
-    <li><strong>Vehículos Mercedes Clase Ejecutiva</strong> – Comodidad premium para ejecutivos y clientes VIP.</li>
+    <li><strong>Coche Sedán</strong> – Perfecto para viajeros solos o parejas.</li>
+    <li><strong>Vehículo para 5 Pasajeros</strong> – Ideal para familias o grupos pequeños.</li>
+    <li><strong>Minibús de 8 Plazas</strong> – Cómodo para grupos grandes con equipaje.</li>
+    <li><strong>Vehículos Mercedes Clase Ejecutiva</strong> – Máxima comodidad para ejecutivos y clientes VIP.</li>
 </ul>
 
-<h2>¿Por qué elegir APL Transfers?</h2>
+<h2>¿Por Qué Elegir APL Transfers?</h2>
 <ul>
-    <li><strong>Recepción Gratuita y Tiempo de Espera</strong> – Tu conductor te estará esperando en la <strong>zona de llegadas</strong> con un cartel con tu nombre.</li>
-    <li><strong>Oficina de APL Transfers dentro del Aeropuerto de Estambul</strong> – Asistencia fácil dentro de la terminal.</li>
-    <li><strong>Asientos Infantiles Gratuitos en Vehículos Privados (8 y 9 Pasajeros)</strong> – Garantizando un viaje seguro para familias.</li>
-    <li><strong>Cancelación gratuita hasta 24 horas antes de la llegada</strong> – Reserva con tranquilidad.</li>
-    <li><strong>Precios Fijos – Sin Costos Ocultos</strong> – Lo que ves es lo que pagas.</li>
-    <li><strong>Atención al Cliente 24/7</strong> – Siempre disponibles cuando nos necesites.</li>
-    <li><strong>Soluciones de Viaje Corporativo</strong> – Traslados confiables para profesionales de negocios.</li>
-    <li><strong>Vehículos de Lujo, Limpios y Bien Mantenidos</strong> – Disfruta de un viaje elegante y sin complicaciones.</li>
+    <li><strong>Servicio de Bienvenida y Tiempo de Espera Gratis</strong> – Tu conductor te esperará en la sala de llegadas con un cartel con tu nombre.</li>
+    <li><strong>Oficina de APL Transfers Dentro del Aeropuerto de Estambul (IST)</strong> – Asistencia directa dentro del terminal.</li>
+    <li>
+        <strong>CIMLA – Oficina de APL Transfers en el aeropuerto</strong><br>
+        Después de recoger tu equipaje y pasar por aduanas en el <strong>Aeropuerto de Estambul</strong>, gira a la derecha al entrar a la sala de llegadas. 
+        Verás el área de <strong>Oficinas de Taxis</strong> a tu izquierda. Busca el letrero <strong>Cimla Turizm – APL Transfer</strong>.
+        Uno de nuestros amables empleados te acompañará hasta tu conductor.
+    </li>
+    <li><strong>Asientos Infantiles Gratis para Vehículos Privados de 8 y 9 Plazas</strong> – Viaje seguro y cómodo para familias.</li>
+    <li><strong>Cancelación Gratuita Hasta 24 Horas Antes de la Llegada</strong> – Reserva con tranquilidad.</li>
+    <li><strong>Precios Fijos – Sin Costes Ocultos</strong> – Lo que ves es lo que pagas.</li>
+    <li><strong>Atención al Cliente 24/7</strong> – Estamos disponibles cuando nos necesites.</li>
+    <li><strong>Soluciones de Viaje Corporativo</strong> – Traslados confiables para profesionales.</li>
+    <li><strong>Vehículos Lujosos, Limpios y Bien Mantenidos</strong> – Disfruta de un viaje elegante y cómodo.</li>
 </ul>
 
-<h2>Reserva Ahora tu Taxi en el Aeropuerto de Estambul</h2>
+<h2>Reserva Tu Taxi en el Aeropuerto de Estambul Ahora</h2>
 
 <p>
-    Reserva tu traslado ahora y disfruta de un viaje sin estrés desde el <strong>Aeropuerto de Estambul (IST)</strong> hasta tu hotel, 
-    Airbnb o lugar de negocios.
+    Reserva hoy y disfruta de un viaje sin complicaciones desde el <strong>Aeropuerto de Estambul (IST)</strong> hasta tu hotel, Airbnb o destino comercial.
+</p>
+
+<p>
+    Ofrecemos traslados en <strong>todo Estambul</strong> y a ciudades cercanas como <strong>Bursa, Edirne y Gebze</strong>.
+    Ya sea al centro de la ciudad o a un destino más lejano, APL Transfers garantiza un viaje confiable y cómodo.
 </p>
 
 <ul>
-    <li><strong>Reserva Instantánea en Línea</strong></li>
-    <li><strong>Pago Seguro</strong> (Aceptamos Euros, GBP, Dólares Estadounidenses y Liras Turcas)</li>
-    <li><strong>Sin Tarifas Ocultas – Precios Fijos y Competitivos</strong></li>
+    <li><strong>Reserva Online Instantánea</strong></li>
+    <li><strong>Pago Seguro</strong> – Aceptamos <strong>euros, libras esterlinas, dólares estadounidenses y liras turcas</strong>,
+        con soporte completo para <strong>Google Pay, Apple Pay, AMEX, Visa y Mastercard</strong>.</li>
+    <li><strong>Sin Cargos Ocultos</strong> – Precios Fijos y Competitivos</li>
 </ul>
 
 <p>
-    ¿Necesitas ayuda? Contacta con nuestro <strong>servicio de atención al cliente 24/7</strong> para garantizar una experiencia de viaje sin complicaciones.
-    <a href="/">Reserva Ahora</a> y viaja con confianza.
+    ¿Necesitas ayuda? Contacta a nuestro <strong>servicio de atención al cliente 24/7</strong> para una experiencia de viaje sin estrés.<br>
+    <a href="/">Reserva Ahora</a> y <strong>viaja con confianza</strong>.
 </p>
+
         `,
         it: `
         <h1>Prezzi Taxi Aeroporto di Istanbul – Trasferimenti Fissi e Trasparenti</h1>
 
-<h2>Trasferimenti Affidabili, Confortevoli e Convenienti dall'Aeroporto di Istanbul</h2>
+<h2>Trasferimenti Affidabili, Comodi ed Economici dall'Aeroporto di Istanbul</h2>
 
 <p>
-    Arrivi all'<strong>Aeroporto di Istanbul (IST)</strong>? Lascia che <strong>APL Transfers</strong> si occupi del tuo viaggio con i nostri 
-    trasferimenti aeroportuali privati a prezzo fisso. Che tu abbia bisogno di un'auto berlina, di un veicolo spazioso 
-    per cinque passeggeri, di un minibus a otto posti o di un lussuoso veicolo Mercedes business-class, abbiamo il mezzo perfetto per te.
+    Arrivi all'<strong>Aeroporto di Istanbul (IST)</strong>? Lascia che <strong>APL Transfers</strong> si occupi del tuo viaggio con i nostri trasferimenti privati premium a prezzo fisso.
+    Che tu abbia bisogno di una berlina, di un veicolo spazioso per cinque passeggeri, di un minibus per otto persone o di una lussuosa Mercedes classe business, abbiamo il mezzo perfetto per te.
 </p>
 
 <p>
-    Con il nostro <strong>servizio di accoglienza gratuito, nessun costo nascosto e assistenza clienti 24/7</strong>, garantiamo 
-    un trasferimento senza stress e senza problemi.
+    Con il nostro <strong>servizio di accoglienza gratuito, nessun costo nascosto e assistenza clienti 24/7</strong>, garantiamo un trasferimento senza stress e senza sorprese dall'<strong>Aeroporto di Istanbul</strong> al tuo hotel, Airbnb o luogo di lavoro.
 </p>
 
 <h2>Le Nostre Opzioni di Veicoli</h2>
 <ul>
-    <li><strong>Berlina</strong> – Perfetta per viaggiatori singoli e coppie.</li>
-    <li><strong>Monovolume (5 Passeggeri)</strong> – Ideale per famiglie o piccoli gruppi.</li>
-    <li><strong>Minibus a 8 Posti</strong> – Confortevole per gruppi più numerosi con bagagli.</li>
-    <li><strong>Veicoli Mercedes Business-Class</strong> – Comfort premium per dirigenti e VIP.</li>
+    <li><strong>Auto Berlina</strong> – Perfetta per viaggiatori singoli o coppie.</li>
+    <li><strong>Veicolo per 5 Passeggeri</strong> – Ideale per famiglie o piccoli gruppi.</li>
+    <li><strong>Minibus 8 Posti</strong> – Comodo per gruppi numerosi con bagagli.</li>
+    <li><strong>Mercedes Classe Business</strong> – Comfort premium per dirigenti e VIP.</li>
 </ul>
 
 <h2>Perché Scegliere APL Transfers?</h2>
 <ul>
-    <li><strong>Accoglienza Gratuita & Tempo di Attesa</strong> – Il tuo autista ti aspetterà nella <strong>hall arrivi</strong> con un cartello con il tuo nome.</li>
-    <li><strong>Ufficio APL Transfers all'Aeroporto di Istanbul</strong> – Assistenza comoda direttamente in aeroporto.</li>
-    <li><strong>Seggiolini Gratuiti per Bambini nei Veicoli Privati a 8 & 9 Posti</strong> – Viaggia in sicurezza con la tua famiglia.</li>
-    <li><strong>Cancellazione Gratuita Fino a 24 Ore Prima dell'Arrivo</strong> – Prenota senza preoccupazioni.</li>
-    <li><strong>Prezzi Fissi – Nessun Costo Nascosto</strong> – Paghi solo quanto indicato.</li>
-    <li><strong>Assistenza Clienti 24/7</strong> – Siamo disponibili in qualsiasi momento.</li>
-    <li><strong>Soluzioni di Viaggio Aziendali</strong> – Trasferimenti affidabili per professionisti.</li>
-    <li><strong>Veicoli di Lusso, Puliti & Ben Manutenuti</strong> – Goditi un viaggio confortevole e raffinato.</li>
+    <li><strong>Servizio di Accoglienza e Attesa Gratuito</strong> – Il tuo autista ti aspetterà nella sala arrivi con un cartello con il tuo nome.</li>
+    <li><strong>Ufficio APL Transfers all'interno dell'Aeroporto di Istanbul (IST)</strong> – Assistenza comoda direttamente in aeroporto.</li>
+    <li>
+        <strong>CIMLA – Ufficio APL Transfers presso l'aeroporto</strong><br>
+        Dopo aver ritirato i bagagli e superato la dogana all'<strong>Aeroporto di Istanbul</strong>, gira a destra entrando nella sala arrivi.
+        Troverai l’area <strong>Uffici Transfer Taxi</strong> sulla sinistra. Cerca il cartello <strong>Cimla Turizm – APL Transfer</strong>.
+        Uno dei nostri collaboratori ti accoglierà e ti accompagnerà dal tuo autista.
+    </li>
+    <li><strong>Seggiolini per Bambini Gratuiti per Veicoli da 8 e 9 Posti</strong> – Viaggio sicuro e comodo per famiglie.</li>
+    <li><strong>Cancellazione Gratuita fino a 24 Ore Prima dell’Arrivo</strong> – Prenota in tutta tranquillità.</li>
+    <li><strong>Prezzi Fissi – Nessun Costo Nascosto</strong> – Paghi solo quanto vedi.</li>
+    <li><strong>Assistenza Clienti 24/7</strong> – Siamo disponibili ogni volta che ne hai bisogno.</li>
+    <li><strong>Soluzioni di Viaggio Aziendale</strong> – Trasferimenti affidabili per professionisti.</li>
+    <li><strong>Veicoli di Lusso, Puliti e Ben Tenuti</strong> – Viaggia con eleganza e comfort.</li>
 </ul>
 
 <h2>Prenota Ora il Tuo Taxi dall'Aeroporto di Istanbul</h2>
 
 <p>
-    Prenota il tuo trasferimento oggi stesso e viaggia senza stress dall'<strong>Aeroporto di Istanbul (IST)</strong> al tuo hotel, 
-    Airbnb o destinazione aziendale.
+    Prenota oggi il tuo trasferimento e goditi un viaggio senza pensieri dall'<strong>Aeroporto di Istanbul (IST)</strong> al tuo hotel, Airbnb o sede aziendale.
+</p>
+
+<p>
+    Offriamo trasferimenti in <strong>tutta Istanbul</strong> e verso città vicine come <strong>Bursa, Edirne e Gebze</strong>.
+    Che tu stia andando verso il centro città o verso una destinazione più lontana, APL Transfers ti garantisce un viaggio comodo e affidabile.
 </p>
 
 <ul>
     <li><strong>Prenotazione Online Immediata</strong></li>
-    <li><strong>Pagamento Sicuro</strong> (Accettati Euro, GBP, Dollari USA & Lira Turca)</li>
-    <li><strong>Nessun Costo Nascosto – Prezzi Fissi e Competitivi</strong></li>
+    <li><strong>Pagamento Sicuro</strong> – Accettiamo <strong>euro, sterline, dollari americani e lire turche</strong>, con pieno supporto a
+        <strong>Google Pay, Apple Pay, AMEX, Visa e Mastercard</strong>.</li>
+    <li><strong>Nessun Costo Nascosto</strong> – Prezzi fissi e competitivi</li>
 </ul>
 
 <p>
-    Hai bisogno di assistenza? Contatta il nostro <strong>servizio clienti 24/7</strong> per un'esperienza di viaggio senza intoppi.
-    <a href="/">Prenota Ora</a> e viaggia con fiducia.
+    Hai bisogno di aiuto? Contatta il nostro <strong>servizio clienti attivo 24/7</strong> per un'esperienza di viaggio fluida.<br>
+    <a href="/">Prenota Ora</a> e <strong>viaggia con fiducia</strong>.
 </p>
 
         `,
         ru: `
-        <h1>Цены на такси в аэропорту Стамбула – Фиксированные и прозрачные трансферы</h1>
+        <h1>Цены на такси из аэропорта Стамбула – Фиксированные и Прозрачные Тарифы</h1>
 
-<h2>Надежные, комфортные и доступные трансферы из аэропорта Стамбула</h2>
+<h2>Надежные, Комфортные и Доступные Трансферы из аэропорта Стамбула</h2>
 
 <p>
-    Прилетаете в <strong>аэропорт Стамбула (IST)</strong>? Позвольте <strong>APL Transfers</strong> позаботиться о вашем путешествии 
-    с помощью наших премиальных частных трансферов по фиксированной цене. Вам нужен седан, просторный 
-    автомобиль для пяти пассажиров, микроавтобус на восемь мест или роскошный Mercedes бизнес-класса? 
-    У нас есть идеальный вариант для вас.
+    Прилетаете в <strong>аэропорт Стамбула (IST)</strong>? Доверьте свою поездку <strong>APL Transfers</strong> – мы предлагаем высококачественные частные трансферы по фиксированной цене.
+    Нужен седан, просторный автомобиль для 5 человек, микроавтобус на 8 мест или роскошный Mercedes бизнес-класса? У нас есть идеальный вариант для вас.
 </p>
 
 <p>
-    Благодаря <strong>бесплатной встрече и ожиданию, отсутствию скрытых платежей и круглосуточной поддержке</strong> 
-    мы гарантируем вам удобный и беспроблемный трансфер.
+    Благодаря <strong>бесплатной встрече, отсутствию скрытых платежей и круглосуточной поддержке</strong> мы обеспечим вам комфортную и спокойную поездку из <strong>аэропорта Стамбула</strong> в ваш отель, Airbnb или офис.
 </p>
 
-<h2>Наши варианты транспорта</h2>
+<h2>Наши варианты автомобилей</h2>
 <ul>
-    <li><strong>Седан</strong> – Идеально подходит для индивидуальных путешественников и пар.</li>
-    <li><strong>Минивэн (5 пассажиров)</strong> – Отличный вариант для семей или небольших групп.</li>
-    <li><strong>Микроавтобус на 8 мест</strong> – Комфортное решение для больших групп с багажом.</li>
-    <li><strong>Автомобили Mercedes бизнес-класса</strong> – Премиальный комфорт для деловых поездок и VIP-гостей.</li>
+    <li><strong>Седан</strong> – Идеально для одного пассажира или пары.</li>
+    <li><strong>Автомобиль на 5 человек</strong> – Подходит для семей или небольших групп.</li>
+    <li><strong>Микроавтобус на 8 мест</strong> – Удобен для больших групп с багажом.</li>
+    <li><strong>Mercedes бизнес-класса</strong> – Максимальный комфорт для руководителей и VIP-клиентов.</li>
 </ul>
 
 <h2>Почему выбирают APL Transfers?</h2>
 <ul>
-    <li><strong>Бесплатная встреча и ожидание</strong> – Ваш водитель встретит вас в <strong>зале прилета</strong> с табличкой с вашим именем.</li>
-    <li><strong>Офис APL Transfers в аэропорту Стамбула</strong> – Удобное обслуживание прямо в терминале.</li>
-    <li><strong>Бесплатные детские кресла в частных авто на 8 и 9 мест</strong> – Безопасность для вашей семьи.</li>
+    <li><strong>Бесплатная встреча и ожидание</strong> – Водитель будет ждать вас в зале прилета с табличкой с вашим именем.</li>
+    <li><strong>Офис APL Transfers внутри аэропорта Стамбула (IST)</strong> – Удобная помощь прямо в терминале.</li>
+    <li>
+        <strong>CIMLA – офис APL Transfers в аэропорту</strong><br>
+        После получения багажа и прохождения таможни в <strong>аэропорту Стамбула</strong> поверните направо при входе в зал прибытия. 
+        Слева вы увидите зону <strong>таксопарков и трансферов</strong>. Ищите табличку <strong>Cimla Turizm – APL Transfer</strong>.
+        Наш сотрудник встретит вас и проводит к вашему водителю.
+    </li>
+    <li><strong>Бесплатные детские кресла для автомобилей на 8 и 9 мест</strong> – Безопасная поездка для всей семьи.</li>
     <li><strong>Бесплатная отмена за 24 часа до прибытия</strong> – Бронируйте без риска.</li>
-    <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Вы платите только указанную сумму.</li>
-    <li><strong>Круглосуточная поддержка</strong> – Мы всегда готовы помочь.</li>
-    <li><strong>Корпоративные трансферы</strong> – Надежные поездки для деловых клиентов.</li>
-    <li><strong>Роскошные, чистые и ухоженные автомобили</strong> – Путешествуйте с комфортом и стилем.</li>
+    <li><strong>Фиксированные цены – Без скрытых платежей</strong> – Вы платите ровно столько, сколько указано.</li>
+    <li><strong>Круглосуточная поддержка клиентов</strong> – Мы на связи 24/7.</li>
+    <li><strong>Корпоративные трансферы</strong> – Надежные поездки для бизнес-клиентов.</li>
+    <li><strong>Роскошные, чистые и ухоженные автомобили</strong> – Наслаждайтесь стильной и удобной поездкой.</li>
 </ul>
 
 <h2>Забронируйте такси из аэропорта Стамбула прямо сейчас</h2>
 
 <p>
-    Забронируйте свой трансфер уже сегодня и наслаждайтесь беззаботной поездкой из <strong>аэропорта Стамбула (IST)</strong> 
-    в ваш отель, Airbnb или бизнес-центр.
+    Забронируйте трансфер уже сегодня и наслаждайтесь спокойной поездкой из <strong>аэропорта Стамбула (IST)</strong> в отель, Airbnb или офис.
+</p>
+
+<p>
+    Мы предлагаем трансферы по всему <strong>Стамбулу</strong> и в близлежащие города, такие как <strong>Бурса, Эдирне и Гебзе</strong>.
+    Куда бы вы ни направлялись – в центр города или дальше – <strong>APL Transfers</strong> гарантирует комфорт и надежность.
 </p>
 
 <ul>
     <li><strong>Мгновенное онлайн-бронирование</strong></li>
-    <li><strong>Безопасная оплата</strong> (принимаем евро, фунты стерлингов, доллары США и турецкие лиры)</li>
-    <li><strong>Без скрытых платежей – Фиксированные и конкурентные цены</strong></li>
+    <li><strong>Безопасная оплата</strong> – Мы принимаем <strong>евро, фунты стерлингов, доллары США и турецкие лиры</strong>, поддерживаем
+        <strong>Google Pay, Apple Pay, AMEX, Visa и Mastercard</strong>.</li>
+    <li><strong>Без скрытых платежей</strong> – Фиксированные и конкурентоспособные цены</li>
 </ul>
 
 <p>
-    Нужна помощь? Свяжитесь с нашей <strong>службой поддержки 24/7</strong> для комфортного путешествия.
-    <a href="/">Забронировать</a> и путешествуйте с уверенностью.
+    Нужна помощь? Свяжитесь с нашей <strong>службой поддержки 24/7</strong> для беспроблемной поездки.<br>
+    <a href="/">Забронировать сейчас</a> и <strong>путешествуйте с уверенностью</strong>.
 </p>
 
         `,
-        zh: `
-        <h1>伊斯坦布尔机场出租车价格 – 固定透明的接送服务</h1>
+        zh:`
+        <h1>伊斯坦布尔机场出租车价格 – 固定且透明的费用</h1>
 
-<h2>可靠、舒适且实惠的伊斯坦布尔机场接送</h2>
+<h2>可靠、舒适且实惠的伊斯坦布尔机场接送服务</h2>
 
 <p>
-    抵达<strong>伊斯坦布尔机场 (IST)</strong>？让<strong>APL Transfers</strong>为您的旅程保驾护航，我们提供优质、固定价格的私人机场接送服务。无论您需要一辆轿车、一辆可容纳五名乘客的宽敞MPV、一辆八座小型巴士，还是一辆豪华奔驰商务车，我们都有适合您的车辆。
+    抵达 <strong>伊斯坦布尔机场 (IST)</strong>？让 <strong>APL Transfers</strong> 为您的旅程保驾护航，享受高品质、固定价格的私人机场接送服务。
+    无论您需要一辆轿车、一辆可容纳五人的宽敞车型、一辆八座小巴，还是一辆豪华的奔驰商务车，我们都能满足您的需求。
 </p>
 
 <p>
-    我们提供<strong>免费接机服务、无隐藏费用和24/7客户支持</strong>，确保您享受无忧、顺畅的出行体验。
+    借助我们提供的<strong>免费接机服务、无隐藏费用以及全天候（24/7）客户支持</strong>，我们确保您从 <strong>伊斯坦布尔机场</strong> 前往酒店、Airbnb 或商务地点的旅程轻松无忧。
 </p>
 
-<h2>我们的车型选择</h2>
+<h2>我们的车辆选择</h2>
 <ul>
     <li><strong>轿车</strong> – 适合单人或情侣出行。</li>
-    <li><strong>MPV（5人座）</strong> – 适合家庭或小团体出行。</li>
-    <li><strong>8座小型巴士</strong> – 适合较大的团队和行李较多的旅客。</li>
-    <li><strong>奔驰商务车</strong> – 为高端商务人士和VIP提供尊贵舒适的乘坐体验。</li>
+    <li><strong>5人车型</strong> – 非常适合家庭或小型团体。</li>
+    <li><strong>8座小巴</strong> – 适合携带行李的大型团体。</li>
+    <li><strong>奔驰商务车型</strong> – 为高管和贵宾提供尊贵舒适体验。</li>
 </ul>
 
 <h2>为什么选择 APL Transfers？</h2>
 <ul>
-    <li><strong>免费接机和等待时间</strong> – 司机将在<strong>到达大厅</strong>持名牌等候您。</li>
-    <li><strong>APL Transfers 办公室位于伊斯坦布尔机场内</strong> – 机场内提供便捷服务。</li>
-    <li><strong>8座和9座私人车辆提供免费儿童座椅</strong> – 确保家庭旅客安全出行。</li>
-    <li><strong>抵达前24小时可免费取消</strong> – 让您安心预订。</li>
-    <li><strong>固定价格 – 无隐藏费用</strong> – 价格透明，无额外费用。</li>
-    <li><strong>24/7客户支持</strong> – 我们随时为您提供帮助。</li>
-    <li><strong>企业专属出行服务</strong> – 为商务人士提供可靠的接送方案。</li>
-    <li><strong>豪华、整洁且维护良好的车辆</strong> – 享受舒适、时尚的旅程。</li>
+    <li><strong>免费接机和等待服务</strong> – 司机将在到达大厅举牌等候。</li>
+    <li><strong>APL Transfers 办公室设在伊斯坦布尔机场内</strong> – 机场内提供便捷协助。</li>
+    <li>
+        <strong>CIMLA – APL Transfers 办公室</strong><br>
+        在 <strong>伊斯坦布尔机场</strong> 领取行李并通过海关后，进入到达大厅后右转。
+        您将在左侧看到<strong>出租车接送办公室</strong>区域。请寻找 <strong>Cimla Turizm – APL Transfer</strong> 标志。
+        我们友善的工作人员会在办公室接您，并带您前往车辆。
+    </li>
+    <li><strong>8座和9座专车提供免费儿童座椅</strong> – 保障家庭出行安全。</li>
+    <li><strong>到达前24小时内可免费取消</strong> – 让您安心预订。</li>
+    <li><strong>固定价格 – 无隐藏费用</strong> – 所见即所得。</li>
+    <li><strong>全天候客户服务（24/7）</strong> – 无论何时，我们都在您身边。</li>
+    <li><strong>企业出行方案</strong> – 为商务人士提供可靠接送服务。</li>
+    <li><strong>豪华、整洁且维护良好的车辆</strong> – 享受顺畅舒适的旅程。</li>
 </ul>
 
-<h2>立即预订您的伊斯坦布尔机场出租车</h2>
+<h2>立即预订伊斯坦布尔机场出租车</h2>
 
 <p>
-    立即预订您的接送服务，让您的旅程从<strong>伊斯坦布尔机场 (IST)</strong>到酒店、Airbnb或商务地点变得无比轻松。
+    现在就预订，让您的旅程从 <strong>伊斯坦布尔机场 (IST)</strong> 到酒店、Airbnb 或商务地点轻松无忧。
+</p>
+
+<p>
+    我们在<strong>伊斯坦布尔全市</strong>及周边城市提供接送服务，如 <strong>布尔萨（Bursa）、埃迪尔内（Edirne）和盖布兹（Gebze）</strong>。
+    无论您的目的地是在市中心还是其他地方，APL Transfers 都能为您提供舒适可靠的出行体验。
 </p>
 
 <ul>
     <li><strong>即时在线预订</strong></li>
-    <li><strong>安全支付</strong>（支持欧元、英镑、美元和土耳其里拉支付）</li>
-    <li><strong>无隐藏费用 – 固定且具有竞争力的价格</strong></li>
+    <li><strong>安全支付</strong> – 支持 <strong>欧元、英镑、美元和土耳其里拉</strong>，并支持
+        <strong>Google Pay、Apple Pay、AMEX、Visa 和 Mastercard</strong>。</li>
+    <li><strong>无隐藏费用</strong> – 固定、具有竞争力的价格</li>
 </ul>
 
 <p>
-    需要帮助？请联系我们的<strong>24/7客户支持</strong>，享受顺畅的出行体验。
-    <a href="/">立即预订</a>，安心出行！
+    需要帮助吗？请联系 <strong>24/7 客户支持</strong>，确保您的出行顺利无忧。<br>
+    <a href="/">立即预订</a>，<strong>安心出行</strong>。
 </p>
 
-        `,
+        ` ,
     },
     "/sabiha-gokcen-airport-taxi-prices": {
         en: `
@@ -6116,6 +6188,7 @@ const metaTagSingleAirportPage = (env) => ({
         en: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
@@ -6133,8 +6206,9 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
         ],
         tr: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
@@ -6152,8 +6226,9 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
         ],
         ru: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
@@ -6171,8 +6246,9 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
         ],
         es: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
@@ -6190,8 +6266,9 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
         ],
         it: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
@@ -6209,8 +6286,9 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
         ],
         zh: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
@@ -6228,8 +6306,9 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/istanbul-airport-taxi.webp\">`,
         ],
         ar: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/istanbul-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/istanbul-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/istanbul-airport-taxi-prices\" />`,
@@ -6250,13 +6329,18 @@ const metaTagSingleAirportPage = (env) => ({
     "/sabiha-gokcen-airport-taxi-prices": {
         en: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
+
             "<meta property=\"og:type\" content=\"website\">",
             "<meta property=\"og:title\" content=\"Sabiha Gökçen Airport Taxi Prices | Fixed & Private Transfers\">",
             "<meta property=\"og:description\" content=\"Book a private taxi from Sabiha Gökçen Airport (SAW) with fixed prices, free meet & greet at Column 13, and no hidden fees. 24/7 support & secure booking.\">",
@@ -6268,12 +6352,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/sabiha-airport-taxi.webp\">`,
         ],
         ru: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6288,12 +6376,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         tr: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6308,12 +6400,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         es: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6328,12 +6424,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         it: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6348,12 +6448,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         zh: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6368,12 +6472,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         ar: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/sabiha-gokcen-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/sabiha-gokcen-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/sabiha-gokcen-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/sabiha-gokcen-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6391,11 +6499,15 @@ const metaTagSingleAirportPage = (env) => ({
     "/dalaman-airport-taxi-prices": {
         en: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6409,12 +6521,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/dalaman-airport-taxi.webp\">`,
         ],
         ru: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6428,12 +6544,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/dalaman-airport-taxi.webp\">`,
         ],
         tr: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6448,12 +6568,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         es: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6468,12 +6592,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         it: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6487,12 +6615,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/dalaman-airport-taxi.webp\">`,
         ],
         zh: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6506,12 +6638,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/dalaman-airport-taxi.webp\">`,
         ],
         ar: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/dalaman-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/dalaman-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/dalaman-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6530,6 +6666,7 @@ const metaTagSingleAirportPage = (env) => ({
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-taxi-prices\" />`,
@@ -6546,12 +6683,15 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/antalya-airport-taxi.webp\">`,
         ],
         ru: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6566,12 +6706,15 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         tr: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6586,12 +6729,15 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         es: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6606,12 +6752,15 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         it: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6626,12 +6775,15 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         zh: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6646,12 +6798,15 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         ar: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/antalya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/antalya-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/antalya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/antalya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6669,11 +6824,15 @@ const metaTagSingleAirportPage = (env) => ({
     "/bodrum-milas-airport-taxi-prices": {
         en: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6687,12 +6846,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/bodrum-airport-taxi.webp\">`,
         ],
         ru: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6707,12 +6870,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         tr: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6727,12 +6894,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         es: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6747,12 +6918,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         it: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6766,12 +6941,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/bodrum-airport-taxi.webp\">`,
         ],
         zh: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6785,12 +6964,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/bodrum-airport-taxi.webp\">`,
         ],
         ar: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/bodrum-milas-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/bodrum-milas-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/bodrum-milas-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/bodrum-milas-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6808,11 +6991,15 @@ const metaTagSingleAirportPage = (env) => ({
     "/izmir-adnan-menderes-airport-taxi-prices": {
         en: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6826,12 +7013,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/izmir-airport-taxi.webp\">`,
         ],
         ru: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6846,12 +7037,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         tr: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6865,12 +7060,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/izmir-airport-taxi.webp\">`,
         ],
         es: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6885,12 +7084,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         it: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6905,12 +7108,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         zh: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6925,12 +7132,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         ar: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/izmir-adnan-menderes-airport-taxi-prices\" />`,
+
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/izmir-adnan-menderes-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/izmir-adnan-menderes-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6948,11 +7159,15 @@ const metaTagSingleAirportPage = (env) => ({
     "/gazipasha-alanya-airport-taxi-prices": {
         en: [
             `<link rel=\"canonical\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/gazipasha-alanya-airport-taxi-prices\" />`,
+         
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6966,12 +7181,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/gazipasa-airport-taxi.webp\">`,
         ],
         ru: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ru/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/gazipasha-alanya-airport-taxi-prices\" />`,
+         
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -6986,12 +7205,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         tr: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/tr/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/gazipasha-alanya-airport-taxi-prices\" />`,
+         
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -7005,12 +7228,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/gazipasa-airport-taxi.webp\">`,
         ],
         es: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/es/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/gazipasha-alanya-airport-taxi-prices\" />`,
+         
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -7024,12 +7251,16 @@ const metaTagSingleAirportPage = (env) => ({
             `<meta name=\"twitter:image\" content=\"${env.websiteDomain}/images/matchingItemImages/gazipasa-airport-taxi.webp\">`,
         ],
         it: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/it/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/gazipasha-alanya-airport-taxi-prices\" />`,
+         
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -7044,12 +7275,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         zh: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/zh/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/gazipasha-alanya-airport-taxi-prices\" />`,
+         
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",
@@ -7064,12 +7299,16 @@ const metaTagSingleAirportPage = (env) => ({
         ],
 
         ar: [
-            `<link rel=\"canonical\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"canonical\" href=\"${env.websiteDomain}/ar/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"en\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ar\" href=\"${env.websiteDomain}/ar/gazipasha-alanya-airport-taxi-prices\" />`,
+            `<link rel=\"alternate\" hrefLang=\"tr\" href=\"${env.websiteDomain}/tr/gazipasha-alanya-airport-taxi-prices\" />`,
+           
             `<link rel=\"alternate\" hrefLang=\"es\" href=\"${env.websiteDomain}/es/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"it\" href=\"${env.websiteDomain}/it/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"ru\" href=\"${env.websiteDomain}/ru/gazipasha-alanya-airport-taxi-prices\" />`,
+         
             `<link rel=\"alternate\" hrefLang=\"zh\" href=\"${env.websiteDomain}/zh/gazipasha-alanya-airport-taxi-prices\" />`,
             `<link rel=\"alternate\" hrefLang=\"x-default\" href=\"${env.websiteDomain}/gazipasha-alanya-airport-taxi-prices\" />`,
             "<meta property=\"og:type\" content=\"website\">",

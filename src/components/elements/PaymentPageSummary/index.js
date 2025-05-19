@@ -35,7 +35,7 @@ const PaymentPageSummary = (props) => {
             {selectedDropoffPoints.length > 0 && !showIcon ? <h5 className={`${direction}`}>{appData?.words["seDropOffLocation"]}</h5> : <></>}
             {showIcon ? <div className={styles.details_headerr_li}>
               <i className="fas fa-map-marker-alt" aria-hidden="true"></i>
-              <h5 className={`${direction}`}>{appData?.words["sePickUpLocation"]}</h5>
+              <h5 className={`${direction}`}>{appData?.words["seDropOffLocation"]}</h5>
             </div> : <></>}
             {selectedDropoffPoints.length > 0 ? <DropOffPoints showIcon={showIcon} selectedDropoffPoints={selectedDropoffPoints} direction={direction} language={language} /> : <></>}
           </div>

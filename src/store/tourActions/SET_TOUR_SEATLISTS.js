@@ -1,13 +1,14 @@
-const ADULT_PRICE = 129;
-const CHILDREN_PRICE = 57;
+
 
 
 const updatePrice = (newSeatLists, _idx) => {
     const adultsNum = newSeatLists[0].minNum;
-    const adultsTotallPrice = adultsNum * ADULT_PRICE;
+    const adultsPrice = newSeatLists[0].price;
+    const adultsTotallPrice = adultsNum * adultsPrice;
 
     const childrenNum = newSeatLists[1].minNum;
-    const childrenTotallPrice = childrenNum * CHILDREN_PRICE;
+    const childrenPrice = newSeatLists[1].price;
+    const childrenTotallPrice = childrenNum * childrenPrice;
 
     let newTotalPrice = adultsTotallPrice + childrenTotallPrice;
 

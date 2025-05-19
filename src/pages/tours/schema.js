@@ -18,6 +18,15 @@ export const tourDescriptionName = {
             "ar": "جولة جزر فتحية الـ12",
             "it": "Tour delle 12 Isole di Fethiye",
             "zh": "费特希耶12岛之旅"
+        },
+        "categoryOfTour": {
+            "en": "Boat Tour",
+            "tr": "Tekne Turu",
+            "ru": "Тур на лодке",
+            "es": "Tour en barco",
+            "ar": "جولة بالقارب",
+            "it": "Tour in barca",
+            "zh": "船游"
         }
     },
     "/tours/fethiye-oludeniz-boat-tour": {
@@ -38,6 +47,15 @@ export const tourDescriptionName = {
             "ar": "جولة القارب في فتحية أولودينيز",
             "it": "Tour in barca di Fethiye Ölüdeniz",
             "zh": "费特希耶Ölüdeniz船游"
+        },
+        "categoryOfTour": {
+            "en": "Boat Tour",
+            "tr": "Tekne Turu",
+            "ru": "Тур на лодке",
+            "es": "Tour en barco",
+            "ar": "جولة بالقارب",
+            "it": "Tour in barca",
+            "zh": "船游"
         }
     },
     "/tours/fethiye-quad-bike-safari": {
@@ -58,7 +76,17 @@ export const tourDescriptionName = {
             "ar": "جولة سفاري بالدراجة الرباعية في فتحية",
             "it": "Tour Safari in Quad a Fethiye",
             "zh": "费特希耶四轮摩托探险之旅"
+        },
+        "categoryOfTour": {
+            "en": "Adventure Safari Tour",
+            "tr": "Macera Safari Turu",
+            "ru": "Приключенческое сафари-тур",
+            "es": "Tour de Safari de Aventura",
+            "ar": "جولة سفاري مغامرات",
+            "it": "Tour Safari Avventura",
+            "zh": "冒险狩猎之旅"
         }
+
     },
     "/tours/istanbul-bosphorus-dinner-cruise": {
         "description": {
@@ -78,6 +106,15 @@ export const tourDescriptionName = {
             "ar": "رحلة عشاء بحرية في مضيق البوسفور بإسطنبول",
             "it": "Crociera con Cena sul Bosforo a Istanbul",
             "zh": "伊斯坦布尔博斯普鲁斯晚餐游轮"
+        },
+        "categoryOfTour": {
+            "en": "Adventure Tour",
+            "tr": "Macera Turu",
+            "ru": "Приключенческий тур",
+            "es": "Tour de aventura",
+            "ar": "جولة مغامرات",
+            "it": "Tour d'avventura",
+            "zh": "冒险之旅"
         }
     },
     "/tours/istanbul-bosphorus-lunch-cruise": {
@@ -98,6 +135,15 @@ export const tourDescriptionName = {
             "ar": "رحلة غداء بحرية في مضيق البوسفور بإسطنبول",
             "it": "Crociera con Pranzo sul Bosforo a Istanbul",
             "zh": "伊斯坦布尔博斯普鲁斯午餐游轮"
+        },
+        "categoryOfTour": {
+            "en": "Sightseeing Cruise",
+            "tr": "Manzara Gezisi Turu",
+            "ru": "Экскурсионный круиз",
+            "es": "Crucero turístico",
+            "ar": "رحلة بحرية لمشاهدة المعالم",
+            "it": "Crociera turistica",
+            "zh": "观光游船"
         }
     }
     ,
@@ -119,6 +165,15 @@ export const tourDescriptionName = {
             "ar": "جولة يوم كامل في إسطنبول",
             "it": "Tour di un'intera giornata a Istanbul",
             "zh": "伊斯坦布尔全日游"
+        },
+        "categoryOfTour": {
+            "en": "Cultural & Historical Tour",
+            "tr": "Kültürel ve Tarihi Tur",
+            "ru": "Культурно-исторический тур",
+            "es": "Tour Cultural e Histórico",
+            "ar": "جولة ثقافية وتاريخية",
+            "it": "Tour culturale e storico",
+            "zh": "文化与历史之旅"
         }
     },
     "/tours/paragliding-fethiye-oludeniz": {
@@ -139,6 +194,15 @@ export const tourDescriptionName = {
             "ar": "الطيران المظلي في فتحية أولودينيز",
             "it": "Parapendio a Fethiye Ölüdeniz",
             "zh": "费特希耶Ölüdeniz滑翔伞"
+        },
+        "categoryOfTour": {
+            "en": "Extreme Adventure Tour",
+            "tr": "Ekstrem Macera Turu",
+            "ru": "Экстремальный тур-приключение",
+            "es": "Tour de Aventura Extrema",
+            "ar": "جولة مغامرات شديدة",
+            "it": "Tour Avventura Estrema",
+            "zh": "极限冒险之旅"
         }
     },
     "/tours/antalya-sightseeing-city-tour": {
@@ -159,6 +223,15 @@ export const tourDescriptionName = {
             "ar": "جولة سياحية في مدينة أنطاليا",
             "it": "Tour della Città di Antalya",
             "zh": "安塔利亚观光城市之旅"
+        },
+        "categoryOfTour": {
+            "en": "City Sightseeing Tour",
+            "tr": "Şehir Gezisi Turu",
+            "ru": "Обзорный тур по городу",
+            "es": "Tour de Turismo por la Ciudad",
+            "ar": "جولة لمشاهدة معالم المدينة",
+            "it": "Tour panoramico della città",
+            "zh": "城市观光游"
         }
     }
 
@@ -179,9 +252,10 @@ export const tourDescriptionName = {
  * @param {string} tourName - The name of the tour in the selected language.
  * @param {string} tourDescription - The description of the tour in the selected language.
  * @param {string} datePublished - The date the review or product was published (ISO 8601 format).
+ * @param {string} categoryOfTour - The category of schema .
  * @returns {Object} - A JSON-LD structured schema object.
  */
-const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourDescription, datePublished) => ({
+const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourDescription, datePublished, categoryOfTour) => ({
 
     "LocalBusiness": {
         "@context": "https://schema.org/",
@@ -229,10 +303,14 @@ const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourD
         "offers": {
             "@type": "Offer",
             "url": `${env.websiteDomain}${tourPathAddress}`,
-            "priceCurrency": "TRY",
+            "priceCurrency": "EUR",
             "price": `${price}`,
+            "priceValidUntil": "2025-12-31",
+            "validFrom": "2025-05-01",
             "availability": "https://schema.org/InStock",
-            "itemCondition": "https://schema.org/NewCondition"
+            "itemCondition": "https://schema.org/NewCondition",
+            "category": `${categoryOfTour}`
+
         },
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.95", "bestRating": "5", "worstRating": "1", "ratingCount": 3094, "reviewCount": 3094 },
         "review": {
@@ -251,7 +329,7 @@ const singleTourSchema = (env, tourPathAddress, language, price, tourName, tourD
         "@type": "Organization",
         "name": "Apl Transfers",
         //! Check point url adress
-        "url":`${env.websiteDomain}`,
+        "url": `${env.websiteDomain}`,
         "sameAs": [
             "https://www.facebook.com/APLTransfers",
             "https://twitter.com/APLTransfers",

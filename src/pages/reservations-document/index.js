@@ -14,6 +14,7 @@ import store from '../../store/store'
 import { createWrapper } from 'next-redux-wrapper'
 import { urlWithLangAtribute } from '../../helpers/urlWithLangAtrribute'
 import { useRouter, Router } from 'next/router'
+import { getDisplayedPrice } from '../../helpers/setCurrencyAndPrice'
 let title = ""
 let keywords = ""
 let description = ""
@@ -21,8 +22,9 @@ let description = ""
 const ReservationsDocument = (props) => {
     let { env } = props
     let state = useSelector((state) => state.pickUpDropOffActions)
-    let { reservations, params: { journeyType, tokenForArchieve, direction, language } } = state
+    let { reservations, params: { journeyType, tokenForArchieve, direction, language, selectedCurrency } } = state
     let { paymentDetails: { paymentType } } = reservations[0]
+
 
 
     const router = useRouter()
@@ -121,7 +123,6 @@ const ReservationsDocument = (props) => {
             .then((response) => response.json())
             .then((response) => {
                 response = isJSON(isJSON) ? JSON.parse(response) : response;
-                console.log(response);
 
                 if (typeof response === "object" && response.status === 200) {
                     setReservId(response.data["reservations-ids"] ? response.data["reservations-ids"] : null);
@@ -129,7 +130,7 @@ const ReservationsDocument = (props) => {
 
                 } else {
                     //if fail it means we dont have any reservation id So we made it null
-                    // fetchArchieveToken({ id: [[null], [null]], stage: "GET_SERVER_RESPONED", response });
+                    fetchArchieveToken({ id: [[null], [null]], stage: "GET_SERVER_RESPONED", response });
                     //if fail it means we dont have any reservation id So we made it null
                     let location = "else part fetch response  https://api.london-tech.com/api/v1/reservation"
                     let message = 'Istanbul reservations-document Component - submitDataToGetReservId function fetch_response_ else part '
@@ -194,14 +195,6 @@ const ReservationsDocument = (props) => {
             Router.events.off("routeChangeStart", beforeRouteHandler);
         };
     }, [])
-
-    if (reservId) {
-        console.log({ reservId, var: 'true' });
-
-    } else {
-        console.log({ reservId, var: 'false' });
-
-    }
     return (
         <GlobalLayout keywords={keywords} title={title} description={description} footerbggray={true}>
             <div className={`${styles.rsv_details} page`}>
@@ -221,6 +214,15 @@ const ReservationsDocument = (props) => {
                                         let { phone, email, firstname } = passengerDetails
                                         const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(transferDateTimeString) || []
                                         const [splitedDate] = splitDateTimeStringIntoDate(transferDateTimeString) || []
+                                        const { symbol, displayedPrice } = getDisplayedPrice({ currencyId: selectedCurrency.currencyId, item: obj.quotation });
+                                        const totalDisplayedPrice = reservations.reduce((acc, obj) => {
+                                            const { symbol, displayedPrice } = getDisplayedPrice({
+                                                currencyId: selectedCurrency.currencyId,
+                                                item: obj.quotation
+                                            });
+                                            return acc + (+displayedPrice);
+                                        }, 0);
+
                                         return (
                                             <div key={index}>
                                                 <div className={styles.second_section}>
@@ -243,7 +245,7 @@ const ReservationsDocument = (props) => {
                                                         <div className={styles.column_div}>
                                                             <div className={`${styles.text1} ${direction}`}>{appData?.words["strTotalPrice"]}</div>
                                                             <div className={`${styles.text2} ${direction}`}>
-                                                                £{parseInt(journeyType) === 0 ? reservations[0].quotation.price : parseInt(reservations[0].quotation.price) + parseInt(reservations[1].quotation.price)}
+                                                                {symbol}{parseInt(journeyType) === 0 ? displayedPrice : totalDisplayedPrice}
                                                             </div>
                                                         </div>
                                                         <div className={styles.column_div}>
@@ -293,7 +295,7 @@ const ReservationsDocument = (props) => {
                                                     <DropOffPoints language={language} direction={direction} selectedDropoffPoints={selectedDropoffPoints} />
                                                     <div className={`${styles.passenger_info} ${direction}`}>
                                                         <div className={styles.left}>{appData?.words["strPriceTitle"]}</div>
-                                                        <div className={styles.right}>£{quotation.price}</div>
+                                                        <div className={styles.right}>{symbol}{displayedPrice}</div>
                                                     </div>
                                                     <div className={`${styles.passenger_info} ${direction}`}>
                                                         <div className={styles.left}>{appData?.words["strSpecialRequestsTitle"]}</div>
@@ -318,6 +320,14 @@ const ReservationsDocument = (props) => {
                                                 let { phone, email, firstname } = passengerDetails
                                                 const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(transferDateTimeString) || []
                                                 const [splitedDate] = splitDateTimeStringIntoDate(transferDateTimeString) || []
+                                                const { symbol, displayedPrice } = getDisplayedPrice({ currencyId: selectedCurrency.currencyId, item: obj.quotation });
+                                                const totalDisplayedPrice = reservations.reduce((acc, obj) => {
+                                                    const { symbol, displayedPrice } = getDisplayedPrice({
+                                                        currencyId: selectedCurrency.currencyId,
+                                                        item: obj.quotation
+                                                    });
+                                                    return acc + (+displayedPrice);
+                                                }, 0);
                                                 return (
                                                     <div key={index}>
                                                         <div className={pdf.second_section}>
@@ -334,7 +344,7 @@ const ReservationsDocument = (props) => {
                                                                 <div className={pdf.column_div}>
                                                                     <div className={pdf.text1}>{appData?.words["strTotalPrice"]}</div>
                                                                     <div className={pdf.text2}>
-                                                                        £{parseInt(journeyType) === 0 ? reservations[0].quotation.price : parseInt(reservations[0].quotation.price) + parseInt(reservations[1].quotation.price)}
+                                                                        {symbol}{parseInt(journeyType) === 0 ? displayedPrice : totalDisplayedPrice}
                                                                     </div>
                                                                 </div>
                                                                 <div className={pdf.column_div}>
@@ -383,7 +393,7 @@ const ReservationsDocument = (props) => {
                                                             <DropOffPoints selectedDropoffPoints={selectedDropoffPoints} />
                                                             <div className={pdf.passenger_info}>
                                                                 <div className={pdf.left}>{appData?.words["strPriceTitle"]}</div>
-                                                                <div className={pdf.right}>£{quotation.price}</div>
+                                                                <div className={pdf.right}>{symbol}{displayedPrice}</div>
                                                             </div>
                                                             <div className={pdf.passenger_info}>
                                                                 <div className={pdf.left}>{appData?.words["strSpecialRequestsTitle"]}</div>

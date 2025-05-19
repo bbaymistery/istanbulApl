@@ -47,13 +47,13 @@ import { useRouter } from 'next/router';
  */
 const SeatlistAdults = (props) => {
 
-    let { tourDetails,language } = props
+    let { tourDetails, language } = props
     let { appData, transferDate, direction } = props
     const dispatch = useDispatch()
     const router = useRouter()
     // Redux Store Selectors
     const tourActions = useSelector(state => (state.tourActions));
-    const { seatLists, seatListPrice } = tourActions;
+    const { seatLists, seatListPrice, isPound } = tourActions;
 
     /** Seat Selection Handlers **/
     const handleDecrement = (idx, incordec) => dispatch({ type: 'SET_TOUR_SEATLISTS', data: { idx, incordec } })
@@ -83,7 +83,7 @@ const SeatlistAdults = (props) => {
                         return <div key={index} className={styles.adults_selection_div_column}>
                             <p className={styles.name}>
                                 {appData?.words[item.strName]}
-                                <span>£{item.price}</span>
+                                <span>{isPound ? "£" : "Є"} {item.price}</span>
                             </p>
                             <p className={styles.desc}>  {item.description}</p>
 
@@ -134,7 +134,7 @@ const SeatlistAdults = (props) => {
                             })}
                         </div>
                     </div>
-                    <div className={styles.price}> {appData?.words["strTotalPrice"]}: £{seatListPrice} </div>
+                    <div className={styles.price}> {appData?.words["strTotalPrice"]}: {isPound ? "£" : "Є"}{seatListPrice} </div>
 
                 </div>
             </div>
